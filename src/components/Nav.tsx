@@ -33,7 +33,9 @@ export default function Nav() {
   return (
     <nav>
       <Link href="/" className="brand" aria-label="Genesis Mesh">
-        <Image src="/assets/icons/logo.svg" alt="" width={28} height={28} priority />
+        {/* logo.svg is black-only and disappears against the dark nav;
+            logo-reverse.svg is the light variant. */}
+        <Image src="/assets/icons/logo-reverse.svg" alt="" width={28} height={28} priority />
         <span className="brand-word">
           GENESIS<em>■</em>MESH
         </span>
