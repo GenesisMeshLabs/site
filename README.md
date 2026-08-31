@@ -78,12 +78,24 @@ GENESIS_MESH_SIGNING_KEY   Ed25519 private key - PKCS#8 PEM, base64 PKCS#8
 Without it the build still succeeds, records the artifact as `UNSIGNED`,
 and the footer drops the claim rather than asserting something untrue.
 
+The production signing key is dedicated to this site. It is not the protocol
+root: a leaked build key can forge site attestations and nothing else.
+
+```
+key-id      ac687c764b0c5e4f
+public-key  QHCs2Cn9rAEYnAKDon4C0JPgNgDi1dSglie1CzIjwvY=
+algorithm   ed25519
+```
+
 Anyone can check a deployment:
 
 ```bash
 npm run verify:build                        # local tree
 node scripts/verify-build.mjs https://...   # a live deployment
 ```
+
+A published attestation carrying any other key id was not produced by this
+project's pipeline.
 
 Locally this also recomputes the digest, so a checkout that has drifted
 from what was signed is reported as a mismatch.

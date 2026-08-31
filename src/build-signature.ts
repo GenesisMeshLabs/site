@@ -6,6 +6,8 @@ import raw from './build-signature.json';
  * so the UI must branch on `signed` before claiming anything.
  */
 export type BuildSignature = {
+  /** Public URL of the attestation, written by the signer so the two cannot drift. */
+  path: string;
   signed: boolean;
   digest: string;
   builtAt: string;

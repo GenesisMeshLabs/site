@@ -25,6 +25,11 @@ const ROOT = join(fileURLToPath(new URL('.', import.meta.url)), '..');
 const WELL_KNOWN = join(ROOT, 'public', '.well-known', 'genesis-mesh');
 const STATUS_FILE = join(ROOT, 'src', 'build-signature.json');
 
+/** Public URL of the attestation. Recorded in the status file so the footer
+ *  links to what this script actually wrote rather than a second copy of the
+ *  path that can drift out of sync with it. */
+const PUBLIC_PATH = '/.well-known/genesis-mesh/signature.txt';
+
 /**
  * Reuse the recorded timestamp when the tree and signing state are unchanged.
  * These files are committed, so a fresh `builtAt` on every no-op rebuild would
@@ -69,7 +74,7 @@ let status;
 let body;
 
 if (!rawKey) {
-  status = { signed: false, digest, builtAt, algorithm: 'ed25519' };
+  status = { path: PUBLIC_PATH, signed: false, digest, builtAt, algorithm: 'ed25519' };
   body = [
     '# Genesis Mesh build attestation',
     'status: UNSIGNED',
@@ -89,7 +94,7 @@ if (!rawKey) {
     .toString('base64');
   const keyId = createHash('sha256').update(publicKey).digest('hex').slice(0, 16);
 
-  status = { signed: true, digest, builtAt, algorithm: 'ed25519', keyId, publicKey };
+  status = { path: PUBLIC_PATH, signed: true, digest, builtAt, algorithm: 'ed25519', keyId, publicKey };
   body = [
     '# Genesis Mesh build attestation',
     'status: SIGNED',

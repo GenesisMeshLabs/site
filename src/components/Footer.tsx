@@ -2,7 +2,8 @@
 import { useTranslations } from 'next-intl';
 import { buildSignature } from '@/build-signature';
 
-const SIGNATURE_PATH = '/.well-known/genesis-mesh/buildSignature.txt';
+/** Comes from the signer, so the link always points at the file it wrote. */
+const SIGNATURE_PATH = buildSignature.path;
 
 export default function Footer() {
   const t = useTranslations('footer');
