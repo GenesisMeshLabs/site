@@ -1,0 +1,219 @@
+{
+  "nav": {
+    "brand": "GENESIS■MESH",
+    "links": {
+      "stakes": "La Posta in Gioco",
+      "powers": "Tre Potenze",
+      "mechanics": "Meccanica",
+      "protocol": "Protocollo",
+      "hardware": "Silicio",
+      "docs": "Documentazione"
+    }
+  },
+  "hero": {
+    "kicker": "Nota Pubblica / Genesis Mesh / 2026",
+    "title": "Fiducia che nessuna nazione",
+    "titleAccent": "deve cedere.",
+    "subtitle": "Genesis Mesh è un'infrastruttura di fiducia portabile per sistemi sovrani: identità crittografica, trattati di riconoscimento e autorità revocabile, che funzionano allo stesso modo per i 190 paesi ancora alla ricerca di sovranità digitale e per i tre che già la possiedono.",
+    "meta": {
+      "verify": "Verificare",
+      "verifyDesc": "chi detiene l'autorità",
+      "limit": "Limitare",
+      "limitDesc": "cosa può fare",
+      "revoke": "Revocare",
+      "revokeDesc": "quando la fiducia si rompe",
+      "audit": "Verificare i registri",
+      "auditDesc": "perché nessuno debba crederti sulla parola"
+    },
+    "scroll": "Scorri ↓",
+    "vlabel": "Infrastruttura neutrale rispetto alla sovranità"
+  },
+  "stakes": {
+    "label": "La Posta in Gioco",
+    "title": "La sovranità digitale è ormai una questione di sopravvivenza nazionale, e per le macchine non esiste alcun livello di trattati.",
+    "subtitle": "Gli Stati firmano trattati. I sistemi digitali non hanno un equivalente. Quando l'agente di IA di una nazione incontra l'infrastruttura di un'altra, la domanda su chi garantisca per questa entità, secondo quali regole, e se quella fiducia possa essere ritirata, è una questione diplomatica che oggi non ha risposta a livello di protocollo. Genesis Mesh è quella risposta.",
+    "notLine": "Non è una blockchain. Non è una VPN. Non è un service mesh. Non è un framework di agenti. Non è un marketplace. È il livello dei trattati per le macchine.",
+    "stats": {
+      "one": "190+",
+      "oneDesc": "Nazioni ancora alla ricerca di una formula di sovranità",
+      "two": "3",
+      "twoDesc": "Potenze che possiedono già il proprio stack",
+      "three": "1",
+      "threeDesc": "Protocollo che serve entrambe senza schierarsi"
+    }
+  },
+  "powers": {
+    "label": "Le Tre Potenze",
+    "title": "Le potenze sovrane non hanno bisogno di indipendenza. Hanno bisogno di interoperare senza subordinarsi.",
+    "subtitle": "Il valore si ribalta, ma non scompare. Nessuna capitale alleata accetta la radice di fiducia di un'altra: il riconoscimento deve quindi viaggiare come trattati firmati, delimitati e revocabili tra pari.",
+    "cn": {
+      "code": "CN - Cina",
+      "tag": "La prova dell'esportatore",
+      "title": "Dimostrare tecnicamente il non controllo.",
+      "desc": "Ogni esportazione di infrastruttura incontra la stessa obiezione: se l'apparato è vostro, il controllo è vostro. Una fiducia verificabile, di proprietà dell'operatore e revocabile è la risposta tecnica a quell'obiezione politica.",
+      "benefits": [
+        "Le nazioni partner verificano e revocano senza credere a nessuno sulla parola",
+        "Riconoscimento incrociato con i sovrani occidentali: nessuna parte detiene le chiavi dell'altra",
+        "Integrazione sino-occidentale sotto un unico modello di governance"
+      ]
+    },
+    "us": {
+      "code": "US - Stati Uniti",
+      "tag": "Il problema della federazione",
+      "title": "Gli alleati non accetteranno la vostra radice.",
+      "desc": "Five Eyes, NATO, partner UE: nessuno si subordinerà a un'ancora di fiducia controllata dagli Stati Uniti. I trattati di riconoscimento permettono a ciascun alleato di restare sovrano mentre la fiducia continua a circolare.",
+      "benefits": [
+        "Infrastruttura alleata senza capitolazione politica",
+        "Gli hyperscaler vendono all'interno del diritto di sovranità estero"
+      ]
+    },
+    "kp": {
+      "code": "KP - Corea del Nord",
+      "tag": "Il vincolo estremo",
+      "title": "La prova del sovrano paranoico.",
+      "desc": "Uno Stato che non si fida di nulla di esterno. Se un protocollo funziona per il sovrano più blindato del pianeta, con zero dipendenze e piena proprietà dell'operatore, funziona per chiunque.",
+      "benefits": [
+        "Vincolo di progetto di grado autarchico",
+        "Mai alcun ancoraggio a un'autorità straniera"
+      ]
+    }
+  },
+  "mechanics": {
+    "label": "La Meccanica",
+    "title": "Un'infrastruttura che non codifica politica, soltanto meccanica.",
+    "subtitle": "La maggior parte delle infrastrutture di fiducia codifica la politica di chi gestisce la radice. Genesis Mesh codifica soltanto quattro operazioni e lascia la politica ai sovrani. È questo a renderla di grado trattato anziché di grado fornitore.",
+    "ops": [
+      {
+        "num": "01",
+        "name": "Verificare",
+        "desc": "Prova crittografica di chi detiene l'autorità: identità Ed25519, blocchi genesi firmati, catene di evidenze."
+      },
+      {
+        "num": "02",
+        "name": "Limitare",
+        "desc": "Deleghe delimitate e a termine. I manifesti di capacità definiscono cosa ciascuna identità può fare, e nulla di più."
+      },
+      {
+        "num": "03",
+        "name": "Revocare",
+        "desc": "Nel momento in cui la fiducia si rompe, la revoca firmata si propaga oltre i confini sovrani, e viene onorata."
+      },
+      {
+        "num": "04",
+        "name": "Verificare i registri",
+        "desc": "Ogni decisione lascia evidenze a prova di manomissione. Nessuno deve crederti sulla parola."
+      }
+    ]
+  },
+  "protocol": {
+    "label": "Il Protocollo",
+    "title": "Un programma RFC aperto, plasmato dagli standard e non da un fornitore.",
+    "subtitle": "Tre generazioni di SDK rilasciate (TypeScript, Go, .NET). 1.041 test. Otto lemmi Tamarin verificati automaticamente. Sovrani multicloud in produzione su Azure, DigitalOcean, Cloudflare e Akamai/Linode.",
+    "stack": {
+      "title": "Lo Stack",
+      "l1": "L1 - Nucleo del protocollo. Identità Ed25519, blocchi genesi firmati, registrazione, revoca, instradamento, audit.",
+      "l2": "L2 - Comunità sovrane. Domini di fiducia indipendenti. Ciascuno controlla la propria membership, governance e revoca.",
+      "l3": "L3 - Rete di riconoscimento. Trattati tra sovrani. Percorsi di fiducia e propagazione delle revoche oltre i confini."
+    },
+    "rfcs": [
+      {
+        "id": "RFC-001",
+        "name": "Identità Sovrana",
+        "status": "Protocollo"
+      },
+      {
+        "id": "RFC-002",
+        "name": "Trattati di Riconoscimento",
+        "status": "Protocollo"
+      },
+      {
+        "id": "RFC-003",
+        "name": "Pacchetti di Fiducia",
+        "status": "Protocollo"
+      },
+      {
+        "id": "RFC-004",
+        "name": "Feed di Revoca",
+        "status": "Protocollo"
+      },
+      {
+        "id": "RFC-005",
+        "name": "Manifesti di Capacità",
+        "status": "Protocollo"
+      },
+      {
+        "id": "RFC-006",
+        "name": "Modello Connettoma",
+        "status": "Protocollo"
+      },
+      {
+        "id": "RFC-007",
+        "name": "Continuità dell'Operatore",
+        "status": "Protocollo"
+      },
+      {
+        "id": "RFC-008",
+        "name": "Ruolo di Operatore Gestito",
+        "status": "Protocollo"
+      }
+    ],
+    "live": {
+      "title": "In diretta - Flotta sovrana gestita dal manutentore",
+      "subtitle": "Multicloud / Chiavi indipendenti / Politica indipendente",
+      "sovereigns": "Sovrani",
+      "clouds": "Cloud",
+      "edges": "Archi di riconoscimento",
+      "operators": "Operatori esterni",
+      "status": "Adesione - Fase 2",
+      "online": "● ONLINE"
+    }
+  },
+  "silicon": {
+    "label": "Il Silicio",
+    "title": "Un protocollo sovrano su silicio altrui è teatro.",
+    "subtitle": "Genesis Mesh verifica l'autorità nel software. Ma il software è sovrano solo quanto il silicio su cui gira. TSWI, l'Iniziativa Tunisina per il Wafer Sovrano, chiude il cerchio: proprietà dell'IP dell'interposer, proprietà dello stabilimento di packaging, proprietà dello stack di orchestrazione. Entrano chiplet di mercato, esce calcolo sovrano. Alimentata a energia solare all'incrocio di tre continenti, con oltre metà del costo di calcolo eliminata. La fase uno è conclusa.",
+    "conclusion": "Il protocollo governa la logica. La Tunisia governa il silicio.",
+    "cta": "Leggi la nota TSWI →"
+  },
+  "live": {
+    "label": "In diretta",
+    "title": "Non una promessa. Un sistema in funzione.",
+    "subtitle": "Un solo modello di autorità, in produzione su Akamai, Cloudflare, MongoDB Atlas, Salesforce e SAP, sopra Azure, GCP, VMware e AWS. v0.55.0 · tre cicli di fiducia completi rilasciati · 1.041 test · otto lemmi verificati con Tamarin · soglia pre-1.0 in corso."
+  },
+  "closing": {
+    "title": "Assumete l'autorità.",
+    "titleAccent": "Non il fornitore.",
+    "subtitle": "Per i 190 è la via più breve per possedere le proprie ancore di fiducia. Per i tre è l'unico modo di interoperare senza rinunciarvi.",
+    "builders": {
+      "who": "Per i 190 - Costruttori e architetti",
+      "title": "Attivate il vostro dominio di fiducia sovrano.",
+      "desc": "Leggete gli RFC, scaricate gli SDK TypeScript, Go e .NET, e allestite una Comunità Sovrana L2 su un'infrastruttura che già possedete.",
+      "cta": "Entra nel Dev Hub →",
+      "altText": "Organizzazione open source →"
+    },
+    "strategic": {
+      "who": "Per i tre - Stati e attori strategici",
+      "title": "Questa conversazione non inizia con un SDK.",
+      "desc": "Leggete l'intera narrazione Elections 2026 per l'argomento filosofico, poi aprite un canale diretto e riservato. Nessun modulo, nessun funnel, nessun intermediario.",
+      "cta": "Leggi la storia completa →",
+      "altText": "Canale diretto: thaer.saidi@outlook.com →"
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Contributori Genesis Mesh",
+    "links": {
+      "docs": "Documentazione",
+      "devHub": "Dev Hub",
+      "story": "La Storia"
+    },
+    "signature": "Le build di questo sito sono firmate sotto l'autorità Genesis Mesh.",
+    "tagline": "LA SOVRANITÀ È CODICE",
+    "verify": "Verifica",
+    "unsigned": "Attestazione di build (non firmata)"
+  },
+  "seo": {
+    "title": "Genesis Mesh - Il livello dei trattati per le macchine",
+    "description": "Un tessuto sovrano di fiducia, identità e comunicazione per sistemi autonomi. Neutrale rispetto alla sovranità e di grado trattato: verificare, limitare, revocare, auditare. Non è una blockchain. Non è una VPN. Non è un service mesh.",
+    "keywords": "fiducia sovrana|sovranità digitale|identità macchina|Ed25519|trattati di riconoscimento|revoca|infrastruttura di fiducia|Genesis Mesh|livello dei trattati"
+  }
+}

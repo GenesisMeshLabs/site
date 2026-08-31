@@ -1,0 +1,219 @@
+{
+  "nav": {
+    "brand": "GENESIS■MESH",
+    "links": {
+      "stakes": "Wat Op Het Spel Staat",
+      "powers": "Drie Machten",
+      "mechanics": "Mechaniek",
+      "protocol": "Protocol",
+      "hardware": "Silicium",
+      "docs": "Documentatie"
+    }
+  },
+  "hero": {
+    "kicker": "Openbare Toelichting / Genesis Mesh / 2026",
+    "title": "Vertrouwen dat geen enkele natie",
+    "titleAccent": "hoeft af te staan.",
+    "subtitle": "Genesis Mesh is draagbare vertrouwensinfrastructuur voor soevereine systemen: cryptografische identiteit, erkenningsverdragen en intrekbare bevoegdheid, die net zo werken voor de 190 landen die nog naar digitale soevereiniteit zoeken als voor de drie die haar al hebben.",
+    "meta": {
+      "verify": "Verifiëren",
+      "verifyDesc": "wie het gezag heeft",
+      "limit": "Begrenzen",
+      "limitDesc": "wat zij mogen doen",
+      "revoke": "Intrekken",
+      "revokeDesc": "wanneer vertrouwen breekt",
+      "audit": "Auditen",
+      "auditDesc": "zodat niemand u op uw woord hoeft te geloven"
+    },
+    "scroll": "Scroll ↓",
+    "vlabel": "Soevereiniteitsneutrale infrastructuur"
+  },
+  "stakes": {
+    "label": "Wat Op Het Spel Staat",
+    "title": "Digitale soevereiniteit is inmiddels een kwestie van nationaal voortbestaan, en voor machines bestaat er geen verdragslaag.",
+    "subtitle": "Staten sluiten verdragen. Digitale systemen kennen geen equivalent. Wanneer de AI-agent van de ene natie de infrastructuur van een andere tegenkomt, is de vraag wie voor deze entiteit instaat, onder wiens regels, en of dat vertrouwen kan worden ingetrokken, een diplomatieke vraag waarop vandaag geen antwoord op protocolniveau bestaat. Genesis Mesh is dat antwoord.",
+    "notLine": "Geen blockchain. Geen VPN. Geen service mesh. Geen agentframework. Geen marktplaats. De verdragslaag voor machines.",
+    "stats": {
+      "one": "190+",
+      "oneDesc": "Naties die nog een soevereiniteitsformule zoeken",
+      "two": "3",
+      "twoDesc": "Machten die hun stack al bezitten",
+      "three": "1",
+      "threeDesc": "Protocol dat beide dient zonder partij te kiezen"
+    }
+  },
+  "powers": {
+    "label": "De Drie Machten",
+    "title": "Soevereine machten hebben geen onafhankelijkheid nodig. Zij hebben interoperabiliteit zonder onderschikking nodig.",
+    "subtitle": "De waarde kantelt, maar verdwijnt niet. Geen enkele geallieerde hoofdstad aanvaardt de vertrouwenswortel van een ander; erkenning moet dus reizen als ondertekende, afgebakende en intrekbare verdragen tussen gelijken.",
+    "cn": {
+      "code": "CN - China",
+      "tag": "Het bewijs van de exporteur",
+      "title": "Bewijs technisch dat u geen controle hebt.",
+      "desc": "Elke infrastructuurexport stuit op hetzelfde bezwaar: uw apparatuur betekent uw controle. Verifieerbaar, in handen van de operator en intrekbaar vertrouwen is het technische antwoord op dat politieke bezwaar.",
+      "benefits": [
+        "Partnerlanden auditen en trekken in zonder iemand op zijn woord te geloven",
+        "Wederzijdse erkenning met westerse soevereinen: geen van beide houdt de sleutels van de ander",
+        "Chinees-westerse integratie onder één bestuursmodel"
+      ]
+    },
+    "us": {
+      "code": "US - Verenigde Staten",
+      "tag": "Het federatieprobleem",
+      "title": "Bondgenoten accepteren uw wortel niet.",
+      "desc": "Five Eyes, NAVO, EU-partners: niemand zal zich onderschikken aan een door de VS gecontroleerd vertrouwensanker. Erkenningsverdragen laten elke bondgenoot soeverein blijven terwijl vertrouwen blijft stromen.",
+      "benefits": [
+        "Geallieerde infrastructuur zonder politieke capitulatie",
+        "Hyperscalers verkopen binnen buitenlands soevereiniteitsrecht"
+      ]
+    },
+    "kp": {
+      "code": "KP - Noord-Korea",
+      "tag": "De extreme randvoorwaarde",
+      "title": "De test van de paranoïde soeverein.",
+      "desc": "Een staat die niets van buitenaf vertrouwt. Als een protocol werkt voor de meest afgeschermde soeverein ter wereld, met nul afhankelijkheid en volledig eigendom bij de operator, werkt het voor iedereen.",
+      "benefits": [
+        "Ontwerpbeperking op autarkieniveau",
+        "Nooit verankering bij een buitenlandse autoriteit"
+      ]
+    }
+  },
+  "mechanics": {
+    "label": "Het Mechaniek",
+    "title": "Infrastructuur die geen politiek codeert, alleen mechaniek.",
+    "subtitle": "De meeste vertrouwensinfrastructuur codeert de politiek van wie de wortel beheert. Genesis Mesh codeert slechts vier operaties en laat de politiek aan de soevereinen. Dat maakt haar verdragswaardig in plaats van leverancierswaardig.",
+    "ops": [
+      {
+        "num": "01",
+        "name": "Verifiëren",
+        "desc": "Cryptografisch bewijs van wie het gezag heeft: Ed25519-identiteit, ondertekende genesisblokken, bewijsketens."
+      },
+      {
+        "num": "02",
+        "name": "Begrenzen",
+        "desc": "Afgebakende, in tijd begrensde delegaties. Capability-manifesten bepalen wat elke identiteit mag doen, en niets meer."
+      },
+      {
+        "num": "03",
+        "name": "Intrekken",
+        "desc": "Op het moment dat vertrouwen breekt, verspreidt de ondertekende intrekking zich over soevereine grenzen, en wordt zij gehonoreerd."
+      },
+      {
+        "num": "04",
+        "name": "Auditen",
+        "desc": "Elke beslissing laat manipulatiebestendig bewijs achter. Niemand hoeft u op uw woord te geloven."
+      }
+    ]
+  },
+  "protocol": {
+    "label": "Het Protocol",
+    "title": "Een open RFC-programma, gevormd door standaarden en niet door een leverancier.",
+    "subtitle": "Drie SDK-generaties uitgebracht (TypeScript, Go, .NET). 1.041 tests. Acht machinaal gecontroleerde Tamarin-lemma's. Multicloud-soevereinen draaien op Azure, DigitalOcean, Cloudflare en Akamai/Linode.",
+    "stack": {
+      "title": "De Stack",
+      "l1": "L1 - Protocolkern. Ed25519-identiteit, ondertekende genesisblokken, inschrijving, intrekking, routering, audit.",
+      "l2": "L2 - Soevereine gemeenschappen. Onafhankelijke vertrouwensdomeinen. Elk beheert zijn eigen lidmaatschap, bestuur en intrekking.",
+      "l3": "L3 - Erkenningsnetwerk. Verdragen tussen soevereinen. Vertrouwenspaden en verspreiding van intrekkingen over grenzen heen."
+    },
+    "rfcs": [
+      {
+        "id": "RFC-001",
+        "name": "Soevereine Identiteit",
+        "status": "Protocol"
+      },
+      {
+        "id": "RFC-002",
+        "name": "Erkenningsverdragen",
+        "status": "Protocol"
+      },
+      {
+        "id": "RFC-003",
+        "name": "Vertrouwensbundels",
+        "status": "Protocol"
+      },
+      {
+        "id": "RFC-004",
+        "name": "Intrekkingsfeeds",
+        "status": "Protocol"
+      },
+      {
+        "id": "RFC-005",
+        "name": "Capability-manifesten",
+        "status": "Protocol"
+      },
+      {
+        "id": "RFC-006",
+        "name": "Connectoommodel",
+        "status": "Protocol"
+      },
+      {
+        "id": "RFC-007",
+        "name": "Operatorcontinuïteit",
+        "status": "Protocol"
+      },
+      {
+        "id": "RFC-008",
+        "name": "Beheerde operatorrol",
+        "status": "Protocol"
+      }
+    ],
+    "live": {
+      "title": "Live - Soevereine vloot beheerd door de maintainer",
+      "subtitle": "Multicloud / Onafhankelijke sleutels / Onafhankelijk beleid",
+      "sovereigns": "Soevereinen",
+      "clouds": "Clouds",
+      "edges": "Erkenningsverbindingen",
+      "operators": "Externe operators",
+      "status": "Onboarding - Fase 2",
+      "online": "● ONLINE"
+    }
+  },
+  "silicon": {
+    "label": "Het Silicium",
+    "title": "Een soeverein protocol op andermans silicium is theater.",
+    "subtitle": "Genesis Mesh verifieert gezag in de software. Maar software is niet soevereiner dan het silicium waarop zij draait. TSWI, het Tunesische Soevereine Waferinitiatief, sluit de cirkel: eigen interposer-IP, eigen packagingfabriek, eigen orkestratiestack. Standaardchiplets erin, soevereine rekenkracht eruit. Op zonne-energie op het kruispunt van drie continenten, met meer dan de helft van de rekenkosten weggesneden. Fase één is afgerond.",
+    "conclusion": "Het protocol bestuurt de logica. Tunesië bestuurt het silicium.",
+    "cta": "Lees de TSWI-toelichting →"
+  },
+  "live": {
+    "label": "Live",
+    "title": "Geen belofte. Een draaiend systeem.",
+    "subtitle": "Eén gezagsmodel, live op Akamai, Cloudflare, MongoDB Atlas, Salesforce en SAP, bovenop Azure, GCP, VMware en AWS. v0.55.0 · drie volledige vertrouwenscycli uitgebracht · 1.041 tests · acht met Tamarin geverifieerde lemma's · pre-1.0-drempel loopt."
+  },
+  "closing": {
+    "title": "Huur het gezag in.",
+    "titleAccent": "Niet de leverancier.",
+    "subtitle": "Voor de 190 is dit de kortste weg naar eigen vertrouwensankers. Voor de drie is het de enige manier om te interopereren zonder ze op te geven.",
+    "builders": {
+      "who": "Voor de 190 - Bouwers en architecten",
+      "title": "Zet uw eigen soevereine vertrouwensdomein op.",
+      "desc": "Lees de RFC's, haal de SDK's voor TypeScript, Go en .NET op, en zet een L2 Soevereine Gemeenschap op infrastructuur die u al bezit.",
+      "cta": "Naar de Dev Hub →",
+      "altText": "Opensource-organisatie →"
+    },
+    "strategic": {
+      "who": "Voor de drie - Staten en strategische actoren",
+      "title": "Dit gesprek begint niet met een SDK.",
+      "desc": "Lees het volledige Elections 2026-verhaal voor de filosofische onderbouwing en open daarna een direct, discreet kanaal. Geen formulieren, geen funnels, geen tussenpersonen.",
+      "cta": "Lees het volledige verhaal →",
+      "altText": "Direct kanaal: thaer.saidi@outlook.com →"
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Genesis Mesh-bijdragers",
+    "links": {
+      "docs": "Documentatie",
+      "devHub": "Dev Hub",
+      "story": "Het Verhaal"
+    },
+    "signature": "Builds van deze site zijn ondertekend onder Genesis Mesh-gezag.",
+    "tagline": "SOEVEREINITEIT IS CODE",
+    "verify": "Verifieer",
+    "unsigned": "Buildattestatie (niet ondertekend)"
+  },
+  "seo": {
+    "title": "Genesis Mesh - De verdragslaag voor machines",
+    "description": "Een soeverein weefsel van vertrouwen, identiteit en communicatie voor autonome systemen. Soevereiniteitsneutraal en verdragswaardig: verifiëren, begrenzen, intrekken, auditen. Geen blockchain. Geen VPN. Geen service mesh.",
+    "keywords": "soeverein vertrouwen|digitale soevereiniteit|machine-identiteit|Ed25519|erkenningsverdragen|intrekking|vertrouwensinfrastructuur|Genesis Mesh|verdragslaag"
+  }
+}

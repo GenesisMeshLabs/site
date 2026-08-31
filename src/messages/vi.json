@@ -1,0 +1,219 @@
+{
+  "nav": {
+    "brand": "GENESIS■MESH",
+    "links": {
+      "stakes": "Điều Đang Đặt Cược",
+      "powers": "Ba Cường Quốc",
+      "mechanics": "Cơ Chế",
+      "protocol": "Giao Thức",
+      "hardware": "Silic",
+      "docs": "Tài Liệu"
+    }
+  },
+  "hero": {
+    "kicker": "Bản tóm lược công khai / Genesis Mesh / 2026",
+    "title": "Niềm tin mà không quốc gia nào",
+    "titleAccent": "phải giao nộp.",
+    "subtitle": "Genesis Mesh là hạ tầng tin cậy khả chuyển cho các hệ thống có chủ quyền: danh tính mật mã, hiệp ước công nhận và thẩm quyền có thể thu hồi, vận hành như nhau cho 190 quốc gia vẫn đang tìm kiếm chủ quyền số và cho ba quốc gia đã có nó.",
+    "meta": {
+      "verify": "Xác minh",
+      "verifyDesc": "ai đang nắm thẩm quyền",
+      "limit": "Giới hạn",
+      "limitDesc": "họ được làm gì",
+      "revoke": "Thu hồi",
+      "revokeDesc": "khi niềm tin đổ vỡ",
+      "audit": "Kiểm toán",
+      "auditDesc": "để không ai phải tin lời bạn suông"
+    },
+    "scroll": "Cuộn xuống ↓",
+    "vlabel": "Hạ tầng trung lập về chủ quyền"
+  },
+  "stakes": {
+    "label": "Điều Đang Đặt Cược",
+    "title": "Chủ quyền số nay là vấn đề sinh tồn quốc gia, và với máy móc thì không tồn tại tầng hiệp ước nào.",
+    "subtitle": "Các quốc gia ký hiệp ước. Hệ thống số không có thứ tương đương. Khi tác nhân AI của một quốc gia gặp hạ tầng của quốc gia khác, câu hỏi ai bảo lãnh cho thực thể này, theo luật của ai, và liệu niềm tin đó có thể bị rút lại hay không, là một câu hỏi ngoại giao mà hôm nay chưa có lời đáp ở tầng giao thức. Genesis Mesh chính là lời đáp đó.",
+    "notLine": "Không phải blockchain. Không phải VPN. Không phải service mesh. Không phải khung tác nhân. Không phải sàn giao dịch. Đây là tầng hiệp ước cho máy móc.",
+    "stats": {
+      "one": "190+",
+      "oneDesc": "Quốc gia vẫn đang tìm một công thức chủ quyền",
+      "two": "3",
+      "twoDesc": "Cường quốc đã sở hữu ngăn xếp của chính mình",
+      "three": "1",
+      "threeDesc": "Giao thức phục vụ cả hai mà không chọn phe"
+    }
+  },
+  "powers": {
+    "label": "Ba Cường Quốc",
+    "title": "Các cường quốc có chủ quyền không cần độc lập. Họ cần liên thông mà không lệ thuộc.",
+    "subtitle": "Giá trị đảo chiều, nhưng không biến mất. Không thủ đô đồng minh nào chấp nhận gốc tin cậy của nước khác, nên sự công nhận phải di chuyển dưới dạng hiệp ước đã ký, có phạm vi và có thể thu hồi, giữa những bên ngang hàng.",
+    "cn": {
+      "code": "CN - Trung Quốc",
+      "tag": "Bằng chứng của nhà xuất khẩu",
+      "title": "Chứng minh về mặt kỹ thuật rằng bạn không kiểm soát.",
+      "desc": "Mọi hoạt động xuất khẩu hạ tầng đều gặp cùng một phản bác: thiết bị của bạn nghĩa là quyền kiểm soát của bạn. Niềm tin có thể kiểm chứng, do nhà vận hành sở hữu và có thể thu hồi chính là câu trả lời kỹ thuật cho phản bác chính trị đó.",
+      "benefits": [
+        "Các quốc gia đối tác kiểm toán và thu hồi mà không phải tin lời ai",
+        "Công nhận lẫn nhau với các chủ thể phương Tây: không bên nào giữ khóa của bên kia",
+        "Tích hợp Trung Quốc và phương Tây dưới một mô hình quản trị duy nhất"
+      ]
+    },
+    "us": {
+      "code": "US - Hoa Kỳ",
+      "tag": "Bài toán liên minh",
+      "title": "Đồng minh sẽ không nhận gốc của bạn.",
+      "desc": "Five Eyes, NATO, các đối tác EU: không ai chịu lệ thuộc vào một neo tin cậy do Hoa Kỳ kiểm soát. Hiệp ước công nhận cho phép mỗi đồng minh giữ nguyên chủ quyền trong khi niềm tin vẫn lưu thông.",
+      "benefits": [
+        "Hạ tầng đồng minh mà không phải đầu hàng chính trị",
+        "Các nhà cung cấp siêu quy mô bán hàng trong khuôn khổ luật chủ quyền nước sở tại"
+      ]
+    },
+    "kp": {
+      "code": "KP - Triều Tiên",
+      "tag": "Ràng buộc cực đoan",
+      "title": "Phép thử của chủ thể đa nghi nhất.",
+      "desc": "Một nhà nước không tin bất cứ thứ gì từ bên ngoài. Nếu một giao thức hoạt động được cho chủ thể khép kín nhất hành tinh, với zero phụ thuộc và quyền sở hữu trọn vẹn thuộc nhà vận hành, thì nó hoạt động cho bất kỳ ai.",
+      "benefits": [
+        "Ràng buộc thiết kế ở mức tự cấp tự túc",
+        "Không bao giờ neo vào một thẩm quyền nước ngoài"
+      ]
+    }
+  },
+  "mechanics": {
+    "label": "Cơ Chế",
+    "title": "Hạ tầng không mã hóa chính trị, chỉ mã hóa cơ chế.",
+    "subtitle": "Phần lớn hạ tầng tin cậy mã hóa chính trị của kẻ vận hành gốc. Genesis Mesh chỉ mã hóa bốn thao tác và để phần chính trị lại cho các chủ thể có chủ quyền. Đó là điều khiến nó đạt tầm hiệp ước chứ không phải tầm nhà cung cấp.",
+    "ops": [
+      {
+        "num": "01",
+        "name": "Xác minh",
+        "desc": "Bằng chứng mật mã về việc ai nắm thẩm quyền: danh tính Ed25519, khối khởi nguyên đã ký, chuỗi chứng cứ."
+      },
+      {
+        "num": "02",
+        "name": "Giới hạn",
+        "desc": "Ủy quyền có phạm vi và có thời hạn. Bản kê năng lực xác định mỗi danh tính được làm gì, và không hơn."
+      },
+      {
+        "num": "03",
+        "name": "Thu hồi",
+        "desc": "Ngay khi niềm tin đổ vỡ, lệnh thu hồi đã ký lan qua các biên giới chủ quyền, và được tôn trọng."
+      },
+      {
+        "num": "04",
+        "name": "Kiểm toán",
+        "desc": "Mọi quyết định để lại chứng cứ lộ dấu can thiệp. Không ai phải tin lời bạn suông."
+      }
+    ]
+  },
+  "protocol": {
+    "label": "Giao Thức",
+    "title": "Một chương trình RFC mở, định hình bởi tiêu chuẩn chứ không bởi nhà cung cấp.",
+    "subtitle": "Đã phát hành ba thế hệ SDK (TypeScript, Go, .NET). 1.041 bài kiểm thử. Tám bổ đề Tamarin được máy kiểm chứng. Các chủ thể đa đám mây đang chạy trên Azure, DigitalOcean, Cloudflare và Akamai/Linode.",
+    "stack": {
+      "title": "Ngăn Xếp",
+      "l1": "L1 - Lõi giao thức. Danh tính Ed25519, khối khởi nguyên đã ký, ghi danh, thu hồi, định tuyến, kiểm toán.",
+      "l2": "L2 - Cộng đồng có chủ quyền. Các miền tin cậy độc lập. Mỗi miền tự kiểm soát thành viên, quản trị và việc thu hồi của mình.",
+      "l3": "L3 - Mạng công nhận. Hiệp ước giữa các chủ thể có chủ quyền. Đường tin cậy và sự lan truyền thu hồi qua các biên giới."
+    },
+    "rfcs": [
+      {
+        "id": "RFC-001",
+        "name": "Danh tính có chủ quyền",
+        "status": "Giao thức"
+      },
+      {
+        "id": "RFC-002",
+        "name": "Hiệp ước công nhận",
+        "status": "Giao thức"
+      },
+      {
+        "id": "RFC-003",
+        "name": "Gói tin cậy",
+        "status": "Giao thức"
+      },
+      {
+        "id": "RFC-004",
+        "name": "Luồng thu hồi",
+        "status": "Giao thức"
+      },
+      {
+        "id": "RFC-005",
+        "name": "Bản kê năng lực",
+        "status": "Giao thức"
+      },
+      {
+        "id": "RFC-006",
+        "name": "Mô hình kết nối",
+        "status": "Giao thức"
+      },
+      {
+        "id": "RFC-007",
+        "name": "Tính liên tục của nhà vận hành",
+        "status": "Giao thức"
+      },
+      {
+        "id": "RFC-008",
+        "name": "Vai trò nhà vận hành được quản lý",
+        "status": "Giao thức"
+      }
+    ],
+    "live": {
+      "title": "Trực tiếp - Đội chủ quyền do người bảo trì vận hành",
+      "subtitle": "Đa đám mây / Khóa độc lập / Chính sách độc lập",
+      "sovereigns": "Chủ thể có chủ quyền",
+      "clouds": "Đám mây",
+      "edges": "Cạnh công nhận",
+      "operators": "Nhà vận hành bên ngoài",
+      "status": "Gia nhập - Giai đoạn 2",
+      "online": "● TRỰC TUYẾN"
+    }
+  },
+  "silicon": {
+    "label": "Silic",
+    "title": "Một giao thức có chủ quyền chạy trên silic của người khác chỉ là vở kịch.",
+    "subtitle": "Genesis Mesh xác minh thẩm quyền ở tầng phần mềm. Nhưng phần mềm chỉ có chủ quyền đúng bằng mức chủ quyền của silic mà nó chạy trên đó. TSWI, Sáng kiến Wafer Chủ quyền Tunisia, khép kín vòng tròn: sở hữu IP của interposer, sở hữu nhà máy đóng gói, sở hữu ngăn xếp điều phối. Đầu vào là chiplet phổ thông, đầu ra là năng lực tính toán có chủ quyền. Chạy bằng năng lượng mặt trời tại ngã ba của ba châu lục, cắt bỏ hơn một nửa chi phí tính toán. Giai đoạn một đã hoàn tất.",
+    "conclusion": "Giao thức cai quản phần logic. Tunisia cai quản phần silic.",
+    "cta": "Đọc bản tóm lược TSWI →"
+  },
+  "live": {
+    "label": "Trực tiếp",
+    "title": "Không phải một lời hứa. Là một hệ thống đang chạy.",
+    "subtitle": "Một mô hình thẩm quyền duy nhất, đang chạy trên Akamai, Cloudflare, MongoDB Atlas, Salesforce và SAP, bên trên Azure, GCP, VMware và AWS. v0.55.0 · đã phát hành ba chu trình tin cậy đầy đủ · 1.041 bài kiểm thử · tám bổ đề đã kiểm chứng bằng Tamarin · ngưỡng trước 1.0 đang tiến hành."
+  },
+  "closing": {
+    "title": "Hãy thuê thẩm quyền.",
+    "titleAccent": "Không phải nhà cung cấp.",
+    "subtitle": "Với 190 quốc gia, đây là con đường ngắn nhất để tự sở hữu neo tin cậy của mình. Với ba quốc gia, đây là cách duy nhất để liên thông mà không phải từ bỏ chúng.",
+    "builders": {
+      "who": "Cho 190 - Người xây dựng và kiến trúc sư",
+      "title": "Dựng miền tin cậy có chủ quyền của riêng bạn.",
+      "desc": "Đọc các RFC, lấy SDK cho TypeScript, Go và .NET, rồi dựng một Cộng đồng Chủ quyền L2 trên hạ tầng bạn đã sở hữu.",
+      "cta": "Vào Dev Hub →",
+      "altText": "Tổ chức nguồn mở →"
+    },
+    "strategic": {
+      "who": "Cho ba - Nhà nước và các chủ thể chiến lược",
+      "title": "Cuộc trao đổi này không bắt đầu bằng một SDK.",
+      "desc": "Hãy đọc toàn bộ tự sự Elections 2026 để nắm lập luận triết học, rồi mở một kênh trực tiếp và kín đáo. Không biểu mẫu, không phễu, không trung gian.",
+      "cta": "Đọc toàn bộ câu chuyện →",
+      "altText": "Kênh trực tiếp: thaer.saidi@outlook.com →"
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Những người đóng góp Genesis Mesh",
+    "links": {
+      "docs": "Tài liệu",
+      "devHub": "Dev Hub",
+      "story": "Câu Chuyện"
+    },
+    "signature": "Các bản dựng của trang này được ký dưới thẩm quyền Genesis Mesh.",
+    "tagline": "CHỦ QUYỀN LÀ MÃ NGUỒN",
+    "verify": "Xác minh",
+    "unsigned": "Chứng thực bản dựng (chưa ký)"
+  },
+  "seo": {
+    "title": "Genesis Mesh - Tầng hiệp ước cho máy móc",
+    "description": "Một kết cấu có chủ quyền về tin cậy, danh tính và truyền thông cho các hệ thống tự trị. Trung lập về chủ quyền và đạt tầm hiệp ước: xác minh, giới hạn, thu hồi, kiểm toán. Không phải blockchain. Không phải VPN. Không phải service mesh.",
+    "keywords": "tin cậy có chủ quyền|chủ quyền số|danh tính máy|Ed25519|hiệp ước công nhận|thu hồi|hạ tầng tin cậy|Genesis Mesh|tầng hiệp ước"
+  }
+}

@@ -1,0 +1,219 @@
+{
+  "nav": {
+    "brand": "GENESIS■MESH",
+    "links": {
+      "stakes": "Vad Som Står På Spel",
+      "powers": "Tre Makter",
+      "mechanics": "Mekanik",
+      "protocol": "Protokoll",
+      "hardware": "Kisel",
+      "docs": "Dokumentation"
+    }
+  },
+  "hero": {
+    "kicker": "Offentlig genomgång / Genesis Mesh / 2026",
+    "title": "Tillit som ingen nation",
+    "titleAccent": "behöver lämna ifrån sig.",
+    "subtitle": "Genesis Mesh är portabel tillitsinfrastruktur för suveräna system: kryptografisk identitet, erkännandefördrag och återkallelig behörighet, som fungerar likadant för de 190 länder som fortfarande söker digital suveränitet som för de tre som redan har den.",
+    "meta": {
+      "verify": "Verifiera",
+      "verifyDesc": "vem som har behörigheten",
+      "limit": "Begränsa",
+      "limitDesc": "vad de får göra",
+      "revoke": "Återkalla",
+      "revokeDesc": "när tilliten brister",
+      "audit": "Granska",
+      "auditDesc": "så att ingen behöver ta ditt ord på det"
+    },
+    "scroll": "Skrolla ↓",
+    "vlabel": "Suveränitetsneutral infrastruktur"
+  },
+  "stakes": {
+    "label": "Vad Som Står På Spel",
+    "title": "Digital suveränitet är numera en fråga om nationell överlevnad, och för maskiner finns inget fördragslager.",
+    "subtitle": "Stater sluter fördrag. Digitala system har ingen motsvarighet. När en nations AI-agent möter en annans infrastruktur är frågan om vem som går i god för denna entitet, under vems regler, och om den tilliten kan dras tillbaka, en diplomatisk fråga som idag saknar svar på protokollnivå. Genesis Mesh är det svaret.",
+    "notLine": "Ingen blockkedja. Inget VPN. Inget service mesh. Inget agentramverk. Ingen marknadsplats. Fördragslagret för maskiner.",
+    "stats": {
+      "one": "190+",
+      "oneDesc": "Nationer som fortfarande söker en suveränitetsformel",
+      "two": "3",
+      "twoDesc": "Makter som redan äger sin stack",
+      "three": "1",
+      "threeDesc": "Protokoll som tjänar båda utan att ta parti"
+    }
+  },
+  "powers": {
+    "label": "De Tre Makterna",
+    "title": "Suveräna makter behöver inte oberoende. De behöver samverka utan att underordna sig.",
+    "subtitle": "Värdet vänds, men försvinner inte. Ingen allierad huvudstad accepterar en annans tillitsrot, så erkännande måste färdas som signerade, avgränsade och återkalleliga fördrag mellan jämlikar.",
+    "cn": {
+      "code": "CN - Kina",
+      "tag": "Exportörens bevis",
+      "title": "Bevisa tekniskt att kontroll saknas.",
+      "desc": "Varje infrastrukturexport möter samma invändning: er utrustning betyder er kontroll. Verifierbar, operatörsägd och återkallelig tillit är det tekniska svaret på den politiska invändningen.",
+      "benefits": [
+        "Partnerländer granskar och återkallar utan att lita på någons ord",
+        "Ömsesidigt erkännande med västliga suveräner: ingen part håller den andras nycklar",
+        "Kinesisk-västlig integration under en enda styrningsmodell"
+      ]
+    },
+    "us": {
+      "code": "US - USA",
+      "tag": "Federationsproblemet",
+      "title": "Allierade tar inte er rot.",
+      "desc": "Five Eyes, Nato, EU-partner: ingen kommer att underordna sig ett USA-kontrollerat tillitsankare. Erkännandefördrag låter varje allierad förbli suverän medan tilliten fortsätter flöda.",
+      "benefits": [
+        "Allierad infrastruktur utan politisk kapitulation",
+        "Hyperskalare säljer in i utländsk suveränitetsrätt"
+      ]
+    },
+    "kp": {
+      "code": "KP - Nordkorea",
+      "tag": "Den extrema begränsningen",
+      "title": "Den paranoida suveränens test.",
+      "desc": "En stat som inte litar på något externt. Om ett protokoll fungerar för världens mest tillslutna suverän, med noll beroenden och fullt operatörsägande, fungerar det för vem som helst.",
+      "benefits": [
+        "Designbegränsning på autarkinivå",
+        "Aldrig någon förankring i utländsk myndighet"
+      ]
+    }
+  },
+  "mechanics": {
+    "label": "Mekaniken",
+    "title": "Infrastruktur som inte kodar någon politik, bara mekanik.",
+    "subtitle": "Merparten av all tillitsinfrastruktur kodar politiken hos den som driver roten. Genesis Mesh kodar bara fyra operationer och lämnar politiken till suveränerna. Det är det som gör den fördragsduglig snarare än leverantörsduglig.",
+    "ops": [
+      {
+        "num": "01",
+        "name": "Verifiera",
+        "desc": "Kryptografiskt bevis för vem som har behörigheten: Ed25519-identitet, signerade genesisblock, beviskedjor."
+      },
+      {
+        "num": "02",
+        "name": "Begränsa",
+        "desc": "Avgränsade och tidsbegränsade delegeringar. Kapabilitetsmanifest anger vad varje identitet får göra, och inget mer."
+      },
+      {
+        "num": "03",
+        "name": "Återkalla",
+        "desc": "I samma stund tilliten brister sprids den signerade återkallelsen över suveräna gränser, och den respekteras."
+      },
+      {
+        "num": "04",
+        "name": "Granska",
+        "desc": "Varje beslut lämnar manipuleringssäkra bevis. Ingen behöver ta ditt ord på det."
+      }
+    ]
+  },
+  "protocol": {
+    "label": "Protokollet",
+    "title": "Ett öppet RFC-program, format av standarder och inte av en leverantör.",
+    "subtitle": "Tre SDK-generationer släppta (TypeScript, Go, .NET). 1 041 tester. Åtta maskinkontrollerade Tamarin-lemman. Multimolnsuveräner i drift på Azure, DigitalOcean, Cloudflare och Akamai/Linode.",
+    "stack": {
+      "title": "Stacken",
+      "l1": "L1 - Protokollkärna. Ed25519-identitet, signerade genesisblock, anslutning, återkallelse, routning, granskning.",
+      "l2": "L2 - Suveräna gemenskaper. Oberoende tillitsdomäner. Var och en styr sitt eget medlemskap, sin styrning och sina återkallelser.",
+      "l3": "L3 - Erkännandenätverk. Fördrag mellan suveräner. Tillitsvägar och spridning av återkallelser över gränser."
+    },
+    "rfcs": [
+      {
+        "id": "RFC-001",
+        "name": "Suverän identitet",
+        "status": "Protokoll"
+      },
+      {
+        "id": "RFC-002",
+        "name": "Erkännandefördrag",
+        "status": "Protokoll"
+      },
+      {
+        "id": "RFC-003",
+        "name": "Tillitspaket",
+        "status": "Protokoll"
+      },
+      {
+        "id": "RFC-004",
+        "name": "Återkallelseflöden",
+        "status": "Protokoll"
+      },
+      {
+        "id": "RFC-005",
+        "name": "Kapabilitetsmanifest",
+        "status": "Protokoll"
+      },
+      {
+        "id": "RFC-006",
+        "name": "Konnektommodell",
+        "status": "Protokoll"
+      },
+      {
+        "id": "RFC-007",
+        "name": "Operatörskontinuitet",
+        "status": "Protokoll"
+      },
+      {
+        "id": "RFC-008",
+        "name": "Hanterad operatörsroll",
+        "status": "Protokoll"
+      }
+    ],
+    "live": {
+      "title": "Live - Suverän flotta driven av underhållaren",
+      "subtitle": "Multimoln / Oberoende nycklar / Oberoende policy",
+      "sovereigns": "Suveräner",
+      "clouds": "Moln",
+      "edges": "Erkännandekanter",
+      "operators": "Externa operatörer",
+      "status": "Anslutning - Fas 2",
+      "online": "● ONLINE"
+    }
+  },
+  "silicon": {
+    "label": "Kislet",
+    "title": "Ett suveränt protokoll på någon annans kisel är teater.",
+    "subtitle": "Genesis Mesh verifierar behörighet i mjukvaran. Men mjukvara är bara så suverän som kislet den körs på. TSWI, det tunisiska suveräna waferinitiativet, sluter cirkeln: egen interposer-IP, egen kapslingsanläggning, egen orkestreringsstack. In går standardchiplets, ut kommer suverän beräkning. Soldriven i skärningspunkten mellan tre kontinenter, med mer än halva beräkningskostnaden bortskuren. Fas ett är klar.",
+    "conclusion": "Protokollet styr logiken. Tunisien styr kislet.",
+    "cta": "Läs TSWI-genomgången →"
+  },
+  "live": {
+    "label": "Live",
+    "title": "Inget löfte. Ett system i drift.",
+    "subtitle": "En enda behörighetsmodell, i drift över Akamai, Cloudflare, MongoDB Atlas, Salesforce och SAP, ovanpå Azure, GCP, VMware och AWS. v0.55.0 · tre fullständiga tillitscykler släppta · 1 041 tester · åtta Tamarin-verifierade lemman · tröskeln före 1.0 pågår."
+  },
+  "closing": {
+    "title": "Anlita behörigheten.",
+    "titleAccent": "Inte leverantören.",
+    "subtitle": "För de 190 är det kortaste vägen till att äga sina egna tillitsankare. För de tre är det enda sättet att samverka utan att ge upp dem.",
+    "builders": {
+      "who": "För de 190 - Byggare och arkitekter",
+      "title": "Res din egen suveräna tillitsdomän.",
+      "desc": "Läs RFC:erna, hämta SDK:erna för TypeScript, Go och .NET, och res en suverän L2-gemenskap på infrastruktur du redan äger.",
+      "cta": "Gå till Dev Hub →",
+      "altText": "Öppen källkodsorganisation →"
+    },
+    "strategic": {
+      "who": "För de tre - Stater och strategiska aktörer",
+      "title": "Det här samtalet börjar inte med ett SDK.",
+      "desc": "Läs hela Elections 2026-berättelsen för det filosofiska argumentet, och öppna sedan en direkt och diskret kanal. Inga formulär, inga trattar, inga mellanhänder.",
+      "cta": "Läs hela historien →",
+      "altText": "Direktkanal: thaer.saidi@outlook.com →"
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Genesis Mesh-bidragsgivare",
+    "links": {
+      "docs": "Dokumentation",
+      "devHub": "Dev Hub",
+      "story": "Historien"
+    },
+    "signature": "Byggen av den här webbplatsen signeras under Genesis Mesh-behörighet.",
+    "tagline": "SUVERÄNITET ÄR KOD",
+    "verify": "Verifiera",
+    "unsigned": "Byggintyg (osignerat)"
+  },
+  "seo": {
+    "title": "Genesis Mesh - Fördragslagret för maskiner",
+    "description": "En suverän väv av tillit, identitet och kommunikation för autonoma system. Suveränitetsneutral och fördragsduglig: verifiera, begränsa, återkalla, granska. Ingen blockkedja. Inget VPN. Inget service mesh.",
+    "keywords": "suverän tillit|digital suveränitet|maskinidentitet|Ed25519|erkännandefördrag|återkallelse|tillitsinfrastruktur|Genesis Mesh|fördragslager"
+  }
+}
