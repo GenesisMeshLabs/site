@@ -1,0 +1,6 @@
+# Genesis Mesh build attestation
+status: UNSIGNED
+reason: GENESIS_MESH_SIGNING_KEY is not configured for this build
+algorithm: ed25519
+source-digest: sha256:7b316b0b342ea03ddeded97bbb3b51a95e09602831526dc83cff769a81269f77
+built-at: 2026-08-31T21:31:49.282Z
