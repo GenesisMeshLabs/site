@@ -16,7 +16,7 @@
  * rather than asserting something untrue.
  */
 import { createHash, createPrivateKey, createPublicKey, sign as edSign } from 'node:crypto';
-import { writeFileSync, mkdirSync } from 'node:fs';
+import { writeFileSync, readFileSync, mkdirSync } from 'node:fs';
 import { join } from 'node:path';
 import { fileURLToPath } from 'node:url';
 import { buildDigest } from './lib/digest.mjs';
@@ -24,6 +24,21 @@ import { buildDigest } from './lib/digest.mjs';
 const ROOT = join(fileURLToPath(new URL('.', import.meta.url)), '..');
 const WELL_KNOWN = join(ROOT, 'public', '.well-known', 'genesis-mesh');
 const STATUS_FILE = join(ROOT, 'src', 'build-signature.json');
+
+/**
+ * Reuse the recorded timestamp when the tree and signing state are unchanged.
+ * These files are committed, so a fresh `builtAt` on every no-op rebuild would
+ * leave the working tree permanently dirty.
+ */
+function previousBuiltAt(digest, signed) {
+  try {
+    const prev = JSON.parse(readFileSync(STATUS_FILE, 'utf8'));
+    if (prev.digest === digest && prev.signed === signed) return prev.builtAt;
+  } catch {
+    /* no usable previous attestation */
+  }
+  return null;
+}
 
 function loadKey(raw) {
   const material = raw.trim();
@@ -45,8 +60,8 @@ function loadKey(raw) {
 }
 
 const { manifest, digest } = buildDigest(ROOT);
-const builtAt = new Date().toISOString();
 const rawKey = process.env.GENESIS_MESH_SIGNING_KEY;
+const builtAt = previousBuiltAt(digest, Boolean(rawKey)) ?? new Date().toISOString();
 
 mkdirSync(WELL_KNOWN, { recursive: true });
 
