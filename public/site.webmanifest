@@ -1,0 +1,22 @@
+{
+  "name": "Genesis Mesh",
+  "short_name": "Genesis Mesh",
+  "description": "The treaty layer for machines.",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0c0c0d",
+  "theme_color": "#0c0c0d",
+  "icons": [
+    {
+      "src": "/assets/icons/logo.png",
+      "sizes": "any",
+      "type": "image/png"
+    },
+    {
+      "src": "/assets/icons/logo.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
+    }
+  ]
+}
