@@ -9,7 +9,6 @@ import Silicon from '@/components/Silicon';
 import Live from '@/components/Live';
 import Closing from '@/components/Closing';
 import Footer from '@/components/Footer';
-import LanguageSelector from '@/components/LanguageSelector';
 import Reveal from '@/components/Reveal';
 
 export default function Home({ params: { locale } }: { params: { locale: string } }) {
@@ -35,7 +34,6 @@ export default function Home({ params: { locale } }: { params: { locale: string 
       <Closing />
       <Footer />
       <div className="big-foot">SOVEREIGNTY IS CODE</div>
-      <LanguageSelector />
     </>
   );
 }
