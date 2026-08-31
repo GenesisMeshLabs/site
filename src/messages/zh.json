@@ -7,7 +7,10 @@
       "mechanics": "机制",
       "protocol": "协议",
       "hardware": "硅",
-      "docs": "文档"
+      "docs": "文档",
+      "proof": "证明",
+      "live": "实时网络",
+      "strategy": "策略"
     }
   },
   "ui": {
@@ -20,7 +23,7 @@
     "kicker": "公开简报 / Genesis Mesh / 2026",
     "title": "任何国家都无需",
     "titleAccent": "放弃的信任。",
-    "subtitle": "Genesis Mesh 是面向主权系统的便携式信任基础设施，涵盖密码学身份、相互承认条约和可撤销的授权能力。它以相同方式服务仍在寻求数字主权的 190 个国家，以及已经拥有数字主权的三大强权。",
+    "subtitle": "Genesis Mesh 使各自独立治理的系统能够相互认可、授权、撤销和审计，而无需放弃自主权。",
     "meta": {
       "verify": "验证",
       "verifyDesc": "谁掌握权限",
@@ -32,7 +35,12 @@
       "auditDesc": "因此谁都不必只听信你的一面之词"
     },
     "scroll": "向下滚动 ↓",
-    "vlabel": "主权中立的基础设施"
+    "vlabel": "主权中立的基础设施",
+    "actions": {
+      "run": "在本地运行证明流程",
+      "protocol": "阅读协议",
+      "network": "验证实时网络"
+    }
   },
   "stakes": {
     "label": "利害所在",
@@ -176,8 +184,8 @@
       }
     ],
     "live": {
-      "title": "已上线：由维护者运营的主权舰队",
-      "subtitle": "多云 / 独立密钥 / 独立政策",
+      "title": "由维护方运营的公共部署",
+      "subtitle": "独立密钥 / 独立策略 / 可重现证明",
       "network": "互认网络",
       "sovereigns": "主权国家",
       "clouds": "云",
@@ -198,7 +206,7 @@
   "live": {
     "label": "运行中",
     "title": "不是承诺。一个正在运行的系统。",
-    "subtitle": "同一套权限模型，已在生产环境中运行。既不是试点，也不是参考架构。",
+    "subtitle": "由维护方运营的公共部署，提供可独立重现的协议证明。",
     "proof": {
       "version": "当前版本",
       "cycles": "完整信任周期",
@@ -224,7 +232,7 @@
       "title": "这个对话不是从SDK开始的。",
       "desc": "阅读完整的 Elections 2026 叙事，了解其哲学论证，然后开启一条直接而私密的沟通渠道。无需表单，不设漏斗，也没有中间人。",
       "cta": "阅读完整故事 →",
-      "altText": "直接渠道：thaer.saidi@outlook.com →"
+      "altText": "直接渠道：authority@genesismesh.org →"
     }
   },
   "footer": {
@@ -243,5 +251,99 @@
     "title": "Genesis Mesh - 机器之间的条约层",
     "description": "面向自主系统的主权信任、身份与通信结构。主权中立，条约级别：验证、限制、撤销、审计。不是区块链。不是 VPN。不是服务网格。",
     "keywords": "主权信任|数字主权|机器身份|Ed25519|承认条约|撤销|信任基础设施|Genesis Mesh|条约层|自治系统"
+  },
+  "trustCycle": {
+    "label": "一个完整的信任周期",
+    "title": "信任状态改变时，相同请求的结果也会改变。",
+    "subtitle": "两个各自独立治理的系统建立限定范围的认可关系、作出授权决策、传播撤销信息，并在不共享信任根的情况下产生可审计的拒绝结果。",
+    "sameRequest": "相同身份。相同请求。不同信任状态。",
+    "before": "撤销前",
+    "after": "导入撤销信息后",
+    "accepted": "已接受",
+    "rejected": "已拒绝",
+    "steps": [
+      {
+        "title": "签发证明",
+        "description": "自主域 B 为发起请求的身份签署一份证明。"
+      },
+      {
+        "title": "认可信任协议",
+        "description": "自主域 A 为自主域 B 启用一项限定范围的认可信任协议。"
+      },
+      {
+        "title": "接受请求",
+        "description": "该证明和信任协议满足 A 的本地授权策略。"
+      },
+      {
+        "title": "撤销证明",
+        "description": "自主域 B 撤销该项特定的信任材料。"
+      },
+      {
+        "title": "导入撤销信息",
+        "description": "A 验证 B 的已签名信息流，并更新自身的信任状态。"
+      },
+      {
+        "title": "拒绝相同请求",
+        "description": "相同身份和请求现在无法通过，并产生可审计的原因。"
+      }
+    ],
+    "evidence": {
+      "recorded": {
+        "label": "已记录的证明",
+        "title": "已捕获的独立自主域运行记录",
+        "description": "下方的终端证据记录了协议跨越 Azure 和 DigitalOcean 信任边界的过程。"
+      },
+      "reproducible": {
+        "label": "可重现的证明",
+        "title": "自行运行完整流程",
+        "description": "公开脚本会启动两个临时权威实体，重现签发、认可、撤销、导入和拒绝流程。"
+      },
+      "live": {
+        "label": "实时证明",
+        "title": "另行验证公共权威实体",
+        "description": "当前网络汇总信号独立获取，不依赖已录制的演示。"
+      }
+    },
+    "terminalSummary": "查看已录制的终端输出",
+    "runLabel": "在本地重现",
+    "actions": {
+      "recorded": "打开已记录的证明",
+      "run": "自行运行此证明流程",
+      "protocol": "阅读 RFC-002 和 RFC-004"
+    }
+  },
+  "liveNetwork": {
+    "label": "实时证明",
+    "title": "验证实时网络。",
+    "subtitle": "由维护方运营的公共部署，提供可独立重现的协议证明。",
+    "status": {
+      "checking": "正在检查实时信号",
+      "live": "实时信号可用",
+      "stale": "服务在线，但信任信息流数据已过时",
+      "degraded": "服务报告降级状态",
+      "unavailable": "数据不可用"
+    },
+    "health": {
+      "healthy": "正常",
+      "degraded": "降级"
+    },
+    "metrics": {
+      "health": "服务健康状态",
+      "sovereigns": "自主域",
+      "edges": "认可连接",
+      "treaties": "有效的信任协议",
+      "revocations": "已撤销的信任材料"
+    },
+    "checked": "检查时间",
+    "lastUpdate": "最近一次网络更新",
+    "freshness": "数据新鲜度",
+    "freshnessValues": {
+      "current": "最新",
+      "stale": "已过时"
+    },
+    "unknown": "未知",
+    "disclaimer": "此处仅提供汇总的运行信号，并非完整的安全或治理视图。",
+    "unavailableMessage": "无法验证实时数据。当前不会将缓存值作为最新数据展示。",
+    "dashboard": "查看公共仪表板"
   }
 }

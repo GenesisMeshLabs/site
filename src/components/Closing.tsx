@@ -30,7 +30,7 @@ export default function Closing() {
           <a className="btn" href="https://story.thaersaidi.com/" target="_blank" rel="noopener noreferrer">
             {t('strategic.cta')}
           </a>
-          <a className="alt" href="mailto:thaer.saidi@outlook.com?subject=Genesis%20Mesh">
+          <a className="alt" href="mailto:authority@genesismesh.org?subject=Genesis%20Mesh">
             {t('strategic.altText')}
           </a>
         </div>

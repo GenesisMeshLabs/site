@@ -2,10 +2,13 @@
   "nav": {
     "brand": "GENESIS■MESH",
     "links": {
+      "proof": "Proof",
       "stakes": "The Stakes",
       "powers": "Three Powers",
       "mechanics": "Mechanics",
+      "live": "Live Network",
       "protocol": "Protocol",
+      "strategy": "Strategy",
       "hardware": "Silicon",
       "docs": "Docs"
     }
@@ -20,7 +23,12 @@
     "kicker": "Public Brief / Genesis Mesh / 2026",
     "title": "Trust that no nation",
     "titleAccent": "has to surrender.",
-    "subtitle": "Genesis Mesh is portable trust infrastructure for sovereign systems - cryptographic identity, recognition treaties, and revocable authority that work the same for the 190 countries still searching for digital sovereignty, and for the three that already have it.",
+    "subtitle": "Genesis Mesh lets independently governed systems recognize, authorize, revoke, and audit one another without surrendering sovereignty.",
+    "actions": {
+      "run": "Run the proof locally",
+      "protocol": "Read the protocol",
+      "network": "Verify the live network"
+    },
     "meta": {
       "verify": "Verify",
       "verifyDesc": "who holds authority",
@@ -33,6 +41,100 @@
     },
     "scroll": "Scroll ↓",
     "vlabel": "Sovereignty-Neutral Infrastructure"
+  },
+  "trustCycle": {
+    "label": "One Complete Trust Cycle",
+    "title": "The same request changes when trust changes.",
+    "subtitle": "Two independently governed systems establish scoped recognition, make an authorization decision, propagate revocation, and produce an auditable rejection without sharing a root of trust.",
+    "sameRequest": "Same identity. Same request. Different trust state.",
+    "before": "Before revocation",
+    "after": "After revocation import",
+    "accepted": "ACCEPTED",
+    "rejected": "REJECTED",
+    "steps": [
+      {
+        "title": "Attestation issued",
+        "description": "Sovereign B signs an attestation for the requesting identity."
+      },
+      {
+        "title": "Treaty recognized",
+        "description": "Sovereign A activates a scoped recognition treaty for Sovereign B."
+      },
+      {
+        "title": "Request accepted",
+        "description": "The attestation and treaty satisfy A's local authorization policy."
+      },
+      {
+        "title": "Attestation revoked",
+        "description": "Sovereign B withdraws that specific trust material."
+      },
+      {
+        "title": "Revocation imported",
+        "description": "A verifies B's signed feed and updates its own trust state."
+      },
+      {
+        "title": "Identical request rejected",
+        "description": "The same identity and request now fail with an auditable reason."
+      }
+    ],
+    "evidence": {
+      "recorded": {
+        "label": "Recorded proof",
+        "title": "A captured independent-sovereign run",
+        "description": "The terminal evidence below records the protocol crossing Azure and DigitalOcean trust boundaries."
+      },
+      "reproducible": {
+        "label": "Reproducible proof",
+        "title": "Run the complete flow yourself",
+        "description": "The public script starts two temporary authorities and reproduces issuance, recognition, revocation, import, and rejection."
+      },
+      "live": {
+        "label": "Live operational status",
+        "title": "Verify the public authority separately",
+        "description": "Current aggregate network signals are fetched independently from the recorded demonstration."
+      }
+    },
+    "terminalSummary": "Inspect recorded terminal output",
+    "runLabel": "Reproduce locally",
+    "actions": {
+      "recorded": "Open recorded proof",
+      "run": "Run this proof yourself",
+      "protocol": "Read RFC-002 and RFC-004"
+    }
+  },
+  "liveNetwork": {
+    "label": "Live Proof",
+    "title": "Verify the live network.",
+    "subtitle": "Maintainer-operated public deployment with independently reproducible protocol proofs.",
+    "status": {
+      "checking": "Checking live signals",
+      "live": "Live signals available",
+      "stale": "Live service, stale trust-feed data",
+      "degraded": "Service reports degraded status",
+      "unavailable": "Data unavailable"
+    },
+    "health": {
+      "healthy": "Healthy",
+      "degraded": "Degraded"
+    },
+    "metrics": {
+      "health": "Service health",
+      "sovereigns": "Sovereign domains",
+      "edges": "Recognition edges",
+      "treaties": "Active treaties",
+      "revocations": "Revoked trust material"
+    },
+    "checked": "Checked",
+    "lastUpdate": "Last network update",
+    "freshness": "Data freshness",
+    "freshnessValues": {
+      "current": "Current",
+      "stale": "Stale"
+    },
+    "unknown": "Unknown",
+    "disclaimer": "Aggregate operational signals. Not a complete security or governance view.",
+    "unavailableMessage": "Live data could not be verified. No cached values are being presented as current.",
+    "dashboard": "Inspect the public dashboard"
   },
   "stakes": {
     "label": "The Stakes",
@@ -176,8 +278,8 @@
       }
     ],
     "live": {
-      "title": "Live - Maintainer-Operated Sovereign Fleet",
-      "subtitle": "Multi-Cloud / Independent Keys / Independent Policy",
+      "title": "Maintainer-Operated Public Deployment",
+      "subtitle": "Independent Keys / Independent Policy / Reproducible Proofs",
       "network": "Recognition Network",
       "sovereigns": "Sovereigns",
       "clouds": "Clouds",
@@ -198,7 +300,7 @@
   "live": {
     "label": "Live",
     "title": "Not a promise. A running system.",
-    "subtitle": "One authority model, in production. Not a pilot, and not a reference architecture.",
+    "subtitle": "Maintainer-operated public deployment with independently reproducible protocol proofs.",
     "proof": {
       "version": "Current release",
       "cycles": "Complete trust cycles",
@@ -224,7 +326,7 @@
       "title": "This conversation does not start with an SDK.",
       "desc": "Read the full Elections 2026 narrative for the philosophical case, then open a direct, discreet channel. No forms, no funnels, no intermediaries.",
       "cta": "Read the Full Story →",
-      "altText": "Direct channel: thaer.saidi@outlook.com →"
+      "altText": "Direct channel: authority@genesismesh.org →"
     }
   },
   "footer": {

@@ -7,7 +7,10 @@
       "mechanics": "Virkemåte",
       "protocol": "Protokoll",
       "hardware": "Silisium",
-      "docs": "Dokumentasjon"
+      "docs": "Dokumentasjon",
+      "proof": "Bevis",
+      "live": "Direktenettverk",
+      "strategy": "Strategi"
     }
   },
   "ui": {
@@ -20,7 +23,7 @@
     "kicker": "Offentlig orientering / Genesis Mesh / 2026",
     "title": "Tillit som ingen nasjon",
     "titleAccent": "må gi fra seg.",
-    "subtitle": "Genesis Mesh er portabel tillitsinfrastruktur for suverene systemer: kryptografisk identitet, traktater om gjensidig anerkjennelse og tilbakekallbar myndighet som fungerer likt for de 190 landene som fortsatt søker digital suverenitet, og for de tre som allerede har den.",
+    "subtitle": "Genesis Mesh lar uavhengig styrte systemer anerkjenne, autorisere, tilbakekalle og revidere hverandre uten å gi avkall på egen suverenitet.",
     "meta": {
       "verify": "Verifiser",
       "verifyDesc": "hvem som har myndighet",
@@ -32,7 +35,12 @@
       "auditDesc": "slik at ingen må stole på ditt ord"
     },
     "scroll": "Rull ↓",
-    "vlabel": "Suverenitetsnøytral infrastruktur"
+    "vlabel": "Suverenitetsnøytral infrastruktur",
+    "actions": {
+      "run": "Kjør beviset lokalt",
+      "protocol": "Les protokollen",
+      "network": "Verifiser direktenettverket"
+    }
   },
   "stakes": {
     "label": "Hva som står på spill",
@@ -176,8 +184,8 @@
       }
     ],
     "live": {
-      "title": "I drift - suveren flåte drevet av vedlikeholderne",
-      "subtitle": "Multisky / Uavhengige nøkler / Uavhengige retningslinjer",
+      "title": "Offentlig utrulling drevet av vedlikeholderen",
+      "subtitle": "Uavhengige nøkler / Uavhengig policy / Reproduserbare bevis",
       "network": "Anerkjennelsesnettverk",
       "sovereigns": "Suverene aktører",
       "clouds": "Skytjenester",
@@ -198,7 +206,7 @@
   "live": {
     "label": "I drift",
     "title": "Ikke et løfte. Et system i drift.",
-    "subtitle": "Én myndighetsmodell, i produksjon. Ikke en pilot og ikke en referansearkitektur.",
+    "subtitle": "Offentlig utrulling drevet av vedlikeholderen, med protokollbevis som kan reproduseres uavhengig.",
     "proof": {
       "version": "Gjeldende versjon",
       "cycles": "Fullførte tillitssykluser",
@@ -224,7 +232,7 @@
       "title": "Denne samtalen begynner ikke med et SDK.",
       "desc": "Les hele Elections 2026-fortellingen for den filosofiske begrunnelsen, og åpne deretter en direkte og konfidensiell kanal. Ingen skjemaer, ingen salgstrakter, ingen mellommenn.",
       "cta": "Les hele fortellingen →",
-      "altText": "Direkte kanal: thaer.saidi@outlook.com →"
+      "altText": "Direkte kanal: authority@genesismesh.org →"
     }
   },
   "footer": {
@@ -243,5 +251,99 @@
     "title": "Genesis Mesh - traktatlaget for maskiner",
     "description": "Et suverent rammeverk for tillit, identitet og kommunikasjon i autonome systemer. Suverenitetsnøytralt og egnet for traktater: verifiser, begrens, tilbakekall, revider. Ikke en blokkjede. Ikke et VPN. Ikke et tjenestenett.",
     "keywords": "suveren tillit|digital suverenitet|maskinidentitet|Ed25519|traktater om gjensidig anerkjennelse|tilbakekalling|tillitsinfrastruktur|Genesis Mesh|traktatlag|autonome systemer"
+  },
+  "trustCycle": {
+    "label": "Én komplett tillitssyklus",
+    "title": "Den samme forespørselen får et annet resultat når tilliten endres.",
+    "subtitle": "To uavhengig styrte systemer etablerer avgrenset anerkjennelse, tar en autorisasjonsbeslutning, sprer en tilbakekalling og produserer et reviderbart avslag uten å dele en tillitsrot.",
+    "sameRequest": "Samme identitet. Samme forespørsel. Ulik tillitstilstand.",
+    "before": "Før tilbakekalling",
+    "after": "Etter import av tilbakekalling",
+    "accepted": "GODKJENT",
+    "rejected": "AVVIST",
+    "steps": [
+      {
+        "title": "Signert tillitsmateriale utstedt",
+        "description": "Suverent domene B signerer tillitsmateriale for identiteten som sender forespørselen."
+      },
+      {
+        "title": "Anerkjennelsesavtale aktivert",
+        "description": "Suverent domene A aktiverer en avgrenset kryptografisk anerkjennelsesavtale for suverent domene B."
+      },
+      {
+        "title": "Forespørsel godkjent",
+        "description": "Det signerte tillitsmaterialet og avtalen oppfyller As lokale autorisasjonspolicy."
+      },
+      {
+        "title": "Tillitsmateriale tilbakekalt",
+        "description": "Suverent domene B trekker tilbake dette spesifikke tillitsmaterialet."
+      },
+      {
+        "title": "Tilbakekalling importert",
+        "description": "A verifiserer Bs signerte datastrøm og oppdaterer sin egen tillitstilstand."
+      },
+      {
+        "title": "Identisk forespørsel avvist",
+        "description": "Den samme identiteten og forespørselen avvises nå med en reviderbar begrunnelse."
+      }
+    ],
+    "evidence": {
+      "recorded": {
+        "label": "Registrert bevis",
+        "title": "En registrert kjøring mellom uavhengige suverene domener",
+        "description": "Terminalbeviset nedenfor dokumenterer at protokollen krysser tillitsgrensene mellom Azure og DigitalOcean."
+      },
+      "reproducible": {
+        "label": "Reproduserbart bevis",
+        "title": "Kjør hele flyten selv",
+        "description": "Det offentlige skriptet starter to midlertidige, uavhengige autoriteter og reproduserer utstedelse, anerkjennelse, tilbakekalling, import og avvisning."
+      },
+      "live": {
+        "label": "Operativ status i sanntid",
+        "title": "Verifiser den offentlige autoriteten separat",
+        "description": "Gjeldende aggregerte nettverkssignaler hentes uavhengig av den registrerte demonstrasjonen."
+      }
+    },
+    "terminalSummary": "Undersøk registrert terminalutdata",
+    "runLabel": "Reproduser lokalt",
+    "actions": {
+      "recorded": "Åpne registrert bevis",
+      "run": "Kjør dette beviset selv",
+      "protocol": "Les RFC-002 og RFC-004"
+    }
+  },
+  "liveNetwork": {
+    "label": "Sanntidsbevis",
+    "title": "Verifiser direktenettverket.",
+    "subtitle": "Offentlig utrulling drevet av vedlikeholderen, med protokollbevis som kan reproduseres uavhengig.",
+    "status": {
+      "checking": "Kontrollerer sanntidssignaler",
+      "live": "Sanntidssignaler er tilgjengelige",
+      "stale": "Tjenesten er aktiv, men dataene i tillitsstrømmen er utdaterte",
+      "degraded": "Tjenesten rapporterer redusert status",
+      "unavailable": "Data er utilgjengelige"
+    },
+    "health": {
+      "healthy": "Frisk",
+      "degraded": "Redusert"
+    },
+    "metrics": {
+      "health": "Tjenestestatus",
+      "sovereigns": "Suverene domener",
+      "edges": "Anerkjennelsesforbindelser",
+      "treaties": "Aktive avtaler",
+      "revocations": "Tilbakekalt tillitsmateriale"
+    },
+    "checked": "Kontrollert",
+    "lastUpdate": "Siste nettverksoppdatering",
+    "freshness": "Dataenes aktualitet",
+    "freshnessValues": {
+      "current": "Oppdatert",
+      "stale": "Utdatert"
+    },
+    "unknown": "Ukjent",
+    "disclaimer": "Aggregerte driftssignaler. Ikke en fullstendig oversikt over sikkerhet eller styring.",
+    "unavailableMessage": "Sanntidsdataene kunne ikke verifiseres. Ingen hurtiglagrede verdier presenteres som oppdaterte.",
+    "dashboard": "Undersøk det offentlige kontrollpanelet"
   }
 }

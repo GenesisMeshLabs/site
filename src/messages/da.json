@@ -7,7 +7,10 @@
       "mechanics": "Mekanik",
       "protocol": "Protokol",
       "hardware": "Silicium",
-      "docs": "Dokumentation"
+      "docs": "Dokumentation",
+      "proof": "Bevis",
+      "live": "Live-netværk",
+      "strategy": "Strategi"
     }
   },
   "ui": {
@@ -20,7 +23,7 @@
     "kicker": "Offentlig orientering / Genesis Mesh / 2026",
     "title": "Tillid, som ingen nation",
     "titleAccent": "behøver at opgive.",
-    "subtitle": "Genesis Mesh er portabel tillidsinfrastruktur til suveræne systemer: kryptografisk identitet, traktater om gensidig anerkendelse og autoritet, der kan tilbagekaldes. Den fungerer ens for de 190 lande, der stadig søger digital suverænitet, og for de tre, der allerede har den.",
+    "subtitle": "Genesis Mesh gør det muligt for uafhængigt styrede systemer at anerkende, autorisere, tilbagekalde tillid til og revidere hinanden uden at opgive deres suverænitet.",
     "meta": {
       "verify": "Verificér",
       "verifyDesc": "hvem der har autoriteten",
@@ -32,7 +35,12 @@
       "auditDesc": "så ingen blot skal stole på dit ord"
     },
     "scroll": "Rul ↓",
-    "vlabel": "Suverænitetsneutral infrastruktur"
+    "vlabel": "Suverænitetsneutral infrastruktur",
+    "actions": {
+      "run": "Kør beviset lokalt",
+      "protocol": "Læs protokollen",
+      "network": "Verificer live-netværket"
+    }
   },
   "stakes": {
     "label": "Det afgørende spørgsmål",
@@ -176,8 +184,8 @@
       }
     ],
     "live": {
-      "title": "I drift - suveræn flåde drevet af vedligeholderne",
-      "subtitle": "Multi-cloud / Uafhængige nøgler / Uafhængig politik",
+      "title": "Offentlig installation drevet af vedligeholderne",
+      "subtitle": "Uafhængige nøgler / Uafhængig politik / Reproducerbare beviser",
       "network": "Anerkendelsesnetværk",
       "sovereigns": "Suveræne domæner",
       "clouds": "Cloudmiljøer",
@@ -198,7 +206,7 @@
   "live": {
     "label": "I drift",
     "title": "Ikke et løfte. Et kørende system.",
-    "subtitle": "Én autoritetsmodel i produktion. Ikke et pilotprojekt og ikke en referencearkitektur.",
+    "subtitle": "Offentlig installation drevet af vedligeholderne med protokolbeviser, der kan reproduceres uafhængigt.",
     "proof": {
       "version": "Aktuel version",
       "cycles": "Fuldførte tillidscyklusser",
@@ -224,7 +232,7 @@
       "title": "Denne samtale begynder ikke med et SDK.",
       "desc": "Læs hele Elections 2026-fortællingen for at forstå det filosofiske grundlag, og åbn derefter en direkte, fortrolig kanal. Ingen formularer, ingen salgstragte, ingen mellemmænd.",
       "cta": "Læs hele fortællingen →",
-      "altText": "Direkte kanal: thaer.saidi@outlook.com →"
+      "altText": "Direkte kanal: authority@genesismesh.org →"
     }
   },
   "footer": {
@@ -243,5 +251,99 @@
     "title": "Genesis Mesh - traktatlaget for maskiner",
     "description": "En suveræn infrastruktur til tillid, identitet og kommunikation for autonome systemer. Suverænitetsneutral og egnet til traktater: verificér, begræns, tilbagekald, revidér. Ikke en blockchain. Ikke en VPN. Ikke et servicemesh.",
     "keywords": "suveræn tillid|digital suverænitet|maskinidentitet|Ed25519|traktater om gensidig anerkendelse|tilbagekaldelse|tillidsinfrastruktur|Genesis Mesh|traktatlag|autonome systemer"
+  },
+  "trustCycle": {
+    "label": "En komplet tillidscyklus",
+    "title": "Den samme anmodning ændrer udfald, når tilliden ændres.",
+    "subtitle": "To uafhængigt styrede systemer etablerer afgrænset anerkendelse, træffer en autorisationsbeslutning, udbreder en tilbagekaldelse og producerer en reviderbar afvisning uden at dele en tillidsrod.",
+    "sameRequest": "Samme identitet. Samme anmodning. Forskellig tillidstilstand.",
+    "before": "Før tilbagekaldelse",
+    "after": "Efter import af tilbagekaldelse",
+    "accepted": "ACCEPTERET",
+    "rejected": "AFVIST",
+    "steps": [
+      {
+        "title": "Attestation udstedt",
+        "description": "Suveræn autoritet B underskriver en attestation for den anmodende identitet."
+      },
+      {
+        "title": "Aftale anerkendt",
+        "description": "Suveræn autoritet A aktiverer en afgrænset anerkendelsesaftale for suveræn autoritet B."
+      },
+      {
+        "title": "Anmodning accepteret",
+        "description": "Attestationen og aftalen opfylder A's lokale autorisationspolitik."
+      },
+      {
+        "title": "Attestation tilbagekaldt",
+        "description": "Suveræn autoritet B trækker dette specifikke tillidsmateriale tilbage."
+      },
+      {
+        "title": "Tilbagekaldelse importeret",
+        "description": "A verificerer B's signerede feed og opdaterer sin egen tillidstilstand."
+      },
+      {
+        "title": "Identisk anmodning afvist",
+        "description": "Den samme identitet og anmodning fejler nu med en reviderbar begrundelse."
+      }
+    ],
+    "evidence": {
+      "recorded": {
+        "label": "Optaget bevis",
+        "title": "En registreret kørsel mellem uafhængige suveræne autoriteter",
+        "description": "Terminalbeviset nedenfor registrerer protokollens passage på tværs af Azure- og DigitalOcean-tillidsgrænser."
+      },
+      "reproducible": {
+        "label": "Reproducerbart bevis",
+        "title": "Kør selv hele forløbet",
+        "description": "Det offentlige script starter to midlertidige autoriteter og reproducerer udstedelse, anerkendelse, tilbagekaldelse, import og afvisning."
+      },
+      "live": {
+        "label": "Aktuel driftsstatus",
+        "title": "Verificer den offentlige autoritet separat",
+        "description": "Aktuelle aggregerede netværkssignaler hentes uafhængigt af den optagede demonstration."
+      }
+    },
+    "terminalSummary": "Gennemse optaget terminaloutput",
+    "runLabel": "Reproducer lokalt",
+    "actions": {
+      "recorded": "Åbn det optagede bevis",
+      "run": "Kør selv dette bevis",
+      "protocol": "Læs RFC-002 og RFC-004"
+    }
+  },
+  "liveNetwork": {
+    "label": "Live-bevis",
+    "title": "Verificer live-netværket.",
+    "subtitle": "Offentlig installation drevet af vedligeholderne med protokolbeviser, der kan reproduceres uafhængigt.",
+    "status": {
+      "checking": "Kontrollerer live-signaler",
+      "live": "Live-signaler er tilgængelige",
+      "stale": "Tjenesten er aktiv, men tillidsfeedets data er forældede",
+      "degraded": "Tjenesten rapporterer forringet status",
+      "unavailable": "Data er ikke tilgængelige"
+    },
+    "health": {
+      "healthy": "Velfungerende",
+      "degraded": "Forringet"
+    },
+    "metrics": {
+      "health": "Tjenestestatus",
+      "sovereigns": "Suveræne domæner",
+      "edges": "Anerkendelsesforbindelser",
+      "treaties": "Aktive aftaler",
+      "revocations": "Tilbagekaldt tillidsmateriale"
+    },
+    "checked": "Kontrolleret",
+    "lastUpdate": "Seneste netværksopdatering",
+    "freshness": "Dataaktualitet",
+    "freshnessValues": {
+      "current": "Aktuelle",
+      "stale": "Forældede"
+    },
+    "unknown": "Ukendt",
+    "disclaimer": "Aggregerede driftssignaler. Ikke et komplet billede af sikkerhed eller styring.",
+    "unavailableMessage": "Live-data kunne ikke verificeres. Ingen cachelagrede værdier vises som aktuelle.",
+    "dashboard": "Gennemse det offentlige kontrolpanel"
   }
 }

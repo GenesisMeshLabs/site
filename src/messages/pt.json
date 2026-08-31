@@ -7,7 +7,10 @@
       "mechanics": "Mecânica",
       "protocol": "Protocolo",
       "hardware": "Silício",
-      "docs": "Documentação"
+      "docs": "Documentação",
+      "proof": "Prova",
+      "live": "Rede em tempo real",
+      "strategy": "Estratégia"
     }
   },
   "ui": {
@@ -20,7 +23,7 @@
     "kicker": "Informe Público / Genesis Mesh / 2026",
     "title": "Confiança que nenhuma nação",
     "titleAccent": "precisa entregar.",
-    "subtitle": "A Genesis Mesh é infraestrutura de confiança portátil para sistemas soberanos: identidade criptográfica, tratados de reconhecimento e autoridade revogável que funcionam da mesma forma para os 190 países ainda em busca de soberania digital e para os três que já a possuem.",
+    "subtitle": "O Genesis Mesh permite que sistemas com governação independente se reconheçam, autorizem, revoguem confiança e auditem mutuamente sem abdicar da sua soberania.",
     "meta": {
       "verify": "Verificar",
       "verifyDesc": "quem detém a autoridade",
@@ -32,7 +35,12 @@
       "auditDesc": "para que ninguém precise acreditar na sua palavra"
     },
     "scroll": "Rolar ↓",
-    "vlabel": "Infraestrutura neutra em soberania"
+    "vlabel": "Infraestrutura neutra em soberania",
+    "actions": {
+      "run": "Executar a prova localmente",
+      "protocol": "Ler o protocolo",
+      "network": "Verificar a rede em tempo real"
+    }
   },
   "stakes": {
     "label": "O que está em jogo",
@@ -176,8 +184,8 @@
       }
     ],
     "live": {
-      "title": "Ao vivo - Frota soberana operada pelo mantenedor",
-      "subtitle": "Multinuvem / Chaves independentes / Política independente",
+      "title": "Implementação pública operada pelos responsáveis pela manutenção",
+      "subtitle": "Chaves independentes / Políticas independentes / Provas reproduzíveis",
       "network": "Rede de Reconhecimento Mútuo",
       "sovereigns": "Soberanos",
       "clouds": "Nuvens",
@@ -198,7 +206,7 @@
   "live": {
     "label": "Ao vivo",
     "title": "Não é uma promessa. É um sistema em operação.",
-    "subtitle": "Um único modelo de autoridade, em produção. Não é um piloto nem uma arquitetura de referência.",
+    "subtitle": "Implementação pública operada pelos responsáveis pela manutenção, com provas do protocolo reproduzíveis de forma independente.",
     "proof": {
       "version": "Versão atual",
       "cycles": "Ciclos de confiança completos",
@@ -224,7 +232,7 @@
       "title": "Esta conversa não começa com um SDK.",
       "desc": "Leia a narrativa completa de Elections 2026 para o argumento filosófico e depois abra um canal direto e discreto. Sem formulários, sem funis, sem intermediários.",
       "cta": "Ler a história completa →",
-      "altText": "Canal direto: thaer.saidi@outlook.com →"
+      "altText": "Canal direto: authority@genesismesh.org →"
     }
   },
   "footer": {
@@ -243,5 +251,99 @@
     "title": "Genesis Mesh - A camada de tratados para máquinas",
     "description": "Um tecido soberano de confiança, identidade e comunicação para sistemas autônomos. Neutro em soberania e de grau tratado: verificar, limitar, revogar, auditar. Não é uma blockchain. Não é uma VPN. Não é um service mesh.",
     "keywords": "confiança soberana|soberania digital|identidade de máquina|Ed25519|tratados de reconhecimento|revogação|infraestrutura de confiança|Genesis Mesh|camada de tratados|sistemas autônomos"
+  },
+  "trustCycle": {
+    "label": "Um ciclo de confiança completo",
+    "title": "O mesmo pedido muda quando a confiança muda.",
+    "subtitle": "Dois sistemas com governação independente estabelecem um reconhecimento de âmbito limitado, tomam uma decisão de autorização, propagam a revogação e produzem uma rejeição auditável sem partilharem uma raiz de confiança.",
+    "sameRequest": "A mesma identidade. O mesmo pedido. Um estado de confiança diferente.",
+    "before": "Antes da revogação",
+    "after": "Após a importação da revogação",
+    "accepted": "ACEITE",
+    "rejected": "REJEITADO",
+    "steps": [
+      {
+        "title": "Atestação emitida",
+        "description": "O domínio soberano B assina uma atestação para a identidade requerente."
+      },
+      {
+        "title": "Tratado reconhecido",
+        "description": "O domínio soberano A ativa um tratado de reconhecimento de âmbito limitado para o domínio soberano B."
+      },
+      {
+        "title": "Pedido aceite",
+        "description": "A atestação e o tratado satisfazem a política local de autorização de A."
+      },
+      {
+        "title": "Atestação revogada",
+        "description": "O domínio soberano B retira esse material de confiança específico."
+      },
+      {
+        "title": "Revogação importada",
+        "description": "A verifica o fluxo assinado de B e atualiza o seu próprio estado de confiança."
+      },
+      {
+        "title": "Pedido idêntico rejeitado",
+        "description": "A mesma identidade e o mesmo pedido falham agora com um motivo auditável."
+      }
+    ],
+    "evidence": {
+      "recorded": {
+        "label": "Prova registada",
+        "title": "Uma execução registada entre domínios soberanos independentes",
+        "description": "As evidências de terminal abaixo registam o protocolo a atravessar as fronteiras de confiança do Azure e do DigitalOcean."
+      },
+      "reproducible": {
+        "label": "Prova reproduzível",
+        "title": "Execute todo o fluxo",
+        "description": "O script público inicia duas autoridades temporárias e reproduz a emissão, o reconhecimento, a revogação, a importação e a rejeição."
+      },
+      "live": {
+        "label": "Estado operacional em tempo real",
+        "title": "Verifique a autoridade pública separadamente",
+        "description": "Os sinais agregados atuais da rede são obtidos de forma independente da demonstração registada."
+      }
+    },
+    "terminalSummary": "Consultar a saída de terminal registada",
+    "runLabel": "Reproduzir localmente",
+    "actions": {
+      "recorded": "Abrir a prova registada",
+      "run": "Executar esta prova",
+      "protocol": "Ler RFC-002 e RFC-004"
+    }
+  },
+  "liveNetwork": {
+    "label": "Prova em tempo real",
+    "title": "Verifique a rede em tempo real.",
+    "subtitle": "Implementação pública operada pelos responsáveis pela manutenção, com provas do protocolo reproduzíveis de forma independente.",
+    "status": {
+      "checking": "A verificar os sinais em tempo real",
+      "live": "Sinais em tempo real disponíveis",
+      "stale": "Serviço ativo, mas com dados desatualizados no fluxo de confiança",
+      "degraded": "O serviço comunica um estado degradado",
+      "unavailable": "Dados indisponíveis"
+    },
+    "health": {
+      "healthy": "Saudável",
+      "degraded": "Degradado"
+    },
+    "metrics": {
+      "health": "Estado do serviço",
+      "sovereigns": "Domínios soberanos",
+      "edges": "Relações de reconhecimento",
+      "treaties": "Tratados ativos",
+      "revocations": "Material de confiança revogado"
+    },
+    "checked": "Verificado",
+    "lastUpdate": "Última atualização da rede",
+    "freshness": "Atualidade dos dados",
+    "freshnessValues": {
+      "current": "Atuais",
+      "stale": "Desatualizados"
+    },
+    "unknown": "Desconhecido",
+    "disclaimer": "Sinais operacionais agregados. Não constituem uma visão completa da segurança ou da governação.",
+    "unavailableMessage": "Não foi possível verificar os dados em tempo real. Nenhum valor em cache é apresentado como atual.",
+    "dashboard": "Consultar o painel público"
   }
 }

@@ -7,7 +7,10 @@
       "mechanics": "Werking",
       "protocol": "Protokol",
       "hardware": "Silikon",
-      "docs": "Dokumentasie"
+      "docs": "Dokumentasie",
+      "proof": "Bewys",
+      "live": "Regstreekse netwerk",
+      "strategy": "Strategie"
     }
   },
   "ui": {
@@ -20,7 +23,7 @@
     "kicker": "Openbare inligtingstuk / Genesis Mesh / 2026",
     "title": "Vertroue wat geen nasie",
     "titleAccent": "hoef prys te gee nie.",
-    "subtitle": "Genesis Mesh is draagbare vertrouensinfrastruktuur vir soewereine stelsels: kriptografiese identiteit, erkenningsverdrae en herroepbare gesag wat op dieselfde manier werk vir die 190 lande wat steeds na digitale soewereiniteit soek, en vir die drie wat dit reeds het.",
+    "subtitle": "Genesis Mesh stel onafhanklik beheerde stelsels in staat om mekaar te erken, te magtig, te herroep en te oudit sonder om hul soewereiniteit prys te gee.",
     "meta": {
       "verify": "Verifieer",
       "verifyDesc": "wie die gesag besit",
@@ -32,7 +35,12 @@
       "auditDesc": "sodat niemand jou bloot op jou woord hoef te glo nie"
     },
     "scroll": "Rol af ↓",
-    "vlabel": "Soewereiniteitsneutrale infrastruktuur"
+    "vlabel": "Soewereiniteitsneutrale infrastruktuur",
+    "actions": {
+      "run": "Voer die bewys plaaslik uit",
+      "protocol": "Lees die protokol",
+      "network": "Verifieer die regstreekse netwerk"
+    }
   },
   "stakes": {
     "label": "Wat op die spel is",
@@ -176,8 +184,8 @@
       }
     ],
     "live": {
-      "title": "Aktief - Soewereine vloot deur instandhouers bedryf",
-      "subtitle": "Multiwolk / Onafhanklike sleutels / Onafhanklike beleid",
+      "title": "Openbare ontplooiing wat deur instandhouers bedryf word",
+      "subtitle": "Onafhanklike sleutels / Onafhanklike beleid / Herhaalbare bewyse",
       "network": "Erkenningsnetwerk",
       "sovereigns": "Soewereine state",
       "clouds": "Wolke",
@@ -198,7 +206,7 @@
   "live": {
     "label": "Aktief",
     "title": "Nie 'n belofte nie. 'n Werkende stelsel.",
-    "subtitle": "Een gesagsmodel, in produksie. Nie 'n loodsprojek nie, en nie 'n verwysingsargitektuur nie.",
+    "subtitle": "Openbare ontplooiing wat deur instandhouers bedryf word, met protokolbewyse wat onafhanklik herhaal kan word.",
     "proof": {
       "version": "Huidige vrystelling",
       "cycles": "Voltooide vertrouensiklusse",
@@ -224,7 +232,7 @@
       "title": "Hierdie gesprek begin nie met 'n SDK nie.",
       "desc": "Lees die volledige Elections 2026-narratief vir die filosofiese argument en open daarna 'n direkte, vertroulike kanaal. Geen vorms, geen tregters, geen tussengangers nie.",
       "cta": "Lees die volledige verhaal →",
-      "altText": "Direkte kanaal: thaer.saidi@outlook.com →"
+      "altText": "Direkte kanaal: authority@genesismesh.org →"
     }
   },
   "footer": {
@@ -243,5 +251,99 @@
     "title": "Genesis Mesh - Die verdragslaag vir masjiene",
     "description": "'n Soewereine vertrouens-, identiteits- en kommunikasieweefsel vir outonome stelsels. Soewereiniteitsneutraal en geskik vir verdrae: verifieer, beperk, herroep, ouditeer. Nie 'n blokketting nie. Nie 'n VPN nie. Nie 'n diensmaas nie.",
     "keywords": "soewereine vertroue|digitale soewereiniteit|masjienidentiteit|Ed25519|erkenningsverdrae|herroeping|vertrouensinfrastruktuur|Genesis Mesh|verdragslaag|outonome stelsels"
+  },
+  "trustCycle": {
+    "label": "Een volledige vertrouensiklus",
+    "title": "Dieselfde versoek verander wanneer vertroue verander.",
+    "subtitle": "Twee onafhanklik beheerde stelsels vestig afgebakende erkenning, neem 'n magtigingsbesluit, versprei 'n herroeping en lewer 'n ouditeerbare verwerping sonder om 'n vertrouenswortel te deel.",
+    "sameRequest": "Dieselfde identiteit. Dieselfde versoek. Ander vertrouenstatus.",
+    "before": "Voor herroeping",
+    "after": "Ná invoer van herroeping",
+    "accepted": "AANVAAR",
+    "rejected": "VERWERP",
+    "steps": [
+      {
+        "title": "Attestasie uitgereik",
+        "description": "Soewereine domein B onderteken 'n attestasie vir die identiteit wat die versoek rig."
+      },
+      {
+        "title": "Erkenningsverdrag erken",
+        "description": "Soewereine domein A aktiveer 'n afgebakende erkenningsverdrag vir soewereine domein B."
+      },
+      {
+        "title": "Versoek aanvaar",
+        "description": "Die attestasie en verdrag voldoen aan A se plaaslike magtigingsbeleid."
+      },
+      {
+        "title": "Attestasie herroep",
+        "description": "Soewereine domein B trek daardie spesifieke vertrouensmateriaal terug."
+      },
+      {
+        "title": "Herroeping ingevoer",
+        "description": "A verifieer B se ondertekende toevoer en werk sy eie vertrouenstatus by."
+      },
+      {
+        "title": "Identiese versoek verwerp",
+        "description": "Dieselfde identiteit en versoek misluk nou om 'n ouditeerbare rede."
+      }
+    ],
+    "evidence": {
+      "recorded": {
+        "label": "Opgeneemde bewys",
+        "title": "'n Vasgelegde uitvoering tussen onafhanklike soewereine domeine",
+        "description": "Die terminaalbewyse hieronder teken aan hoe die protokol die vertrouensgrense van Azure en DigitalOcean oorsteek."
+      },
+      "reproducible": {
+        "label": "Herhaalbare bewys",
+        "title": "Voer self die volledige proses uit",
+        "description": "Die openbare skrip begin twee tydelike owerhede en herhaal uitreiking, erkenning, herroeping, invoer en verwerping."
+      },
+      "live": {
+        "label": "Regstreekse bedryfstatus",
+        "title": "Verifieer die openbare owerheid afsonderlik",
+        "description": "Huidige saamgevoegde netwerkseine word onafhanklik van die opgeneemde demonstrasie verkry."
+      }
+    },
+    "terminalSummary": "Inspekteer opgeneemde terminaaluitvoer",
+    "runLabel": "Herhaal plaaslik",
+    "actions": {
+      "recorded": "Maak opgeneemde bewys oop",
+      "run": "Voer hierdie bewys self uit",
+      "protocol": "Lees RFC-002 en RFC-004"
+    }
+  },
+  "liveNetwork": {
+    "label": "Regstreekse bewys",
+    "title": "Verifieer die regstreekse netwerk.",
+    "subtitle": "Openbare ontplooiing wat deur instandhouers bedryf word, met protokolbewyse wat onafhanklik herhaal kan word.",
+    "status": {
+      "checking": "Regstreekse seine word nagegaan",
+      "live": "Regstreekse seine is beskikbaar",
+      "stale": "Regstreekse diens, verouderde vertrouenstoevoerdata",
+      "degraded": "Diens meld verswakte status",
+      "unavailable": "Data nie beskikbaar nie"
+    },
+    "health": {
+      "healthy": "Gesond",
+      "degraded": "Verswak"
+    },
+    "metrics": {
+      "health": "Diensgesondheid",
+      "sovereigns": "Soewereine domeine",
+      "edges": "Erkenningskakels",
+      "treaties": "Aktiewe verdrae",
+      "revocations": "Herroepe vertrouensmateriaal"
+    },
+    "checked": "Nagegaan",
+    "lastUpdate": "Laaste netwerkbywerking",
+    "freshness": "Aktualiteit van data",
+    "freshnessValues": {
+      "current": "Aktueel",
+      "stale": "Verouderd"
+    },
+    "unknown": "Onbekend",
+    "disclaimer": "Saamgevoegde bedryfseine. Nie 'n volledige beeld van sekuriteit of beheer nie.",
+    "unavailableMessage": "Regstreekse data kon nie geverifieer word nie. Geen gekaste waardes word as aktueel aangebied nie.",
+    "dashboard": "Inspekteer die openbare kontroleskerm"
   }
 }

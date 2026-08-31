@@ -151,7 +151,7 @@ const protectedTerms = [
   'Cloudflare',
   'Akamai/Linode',
   'Elections 2026',
-  'thaer.saidi@outlook.com',
+  'authority@genesismesh.org',
 ];
 
 const fixedValuePaths = new Set([

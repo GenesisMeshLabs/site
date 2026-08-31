@@ -7,7 +7,10 @@
       "mechanics": "Mecanismul",
       "protocol": "Protocolul",
       "hardware": "Siliciul",
-      "docs": "Documentație"
+      "docs": "Documentație",
+      "proof": "Dovadă",
+      "live": "Rețea live",
+      "strategy": "Strategie"
     }
   },
   "ui": {
@@ -20,7 +23,7 @@
     "kicker": "Informare publică / Genesis Mesh / 2026",
     "title": "Încrederea la care nicio națiune",
     "titleAccent": "nu trebuie să renunțe.",
-    "subtitle": "Genesis Mesh este o infrastructură portabilă de încredere pentru sisteme suverane: identitate criptografică, tratate de recunoaștere și autoritate revocabilă, care funcționează la fel pentru cele 190 de țări ce încă își caută suveranitatea digitală și pentru cele trei care o dețin deja.",
+    "subtitle": "Genesis Mesh permite sistemelor administrate independent să se recunoască, să se autorizeze, să revoce încrederea și să se auditeze reciproc fără să renunțe la suveranitate.",
     "meta": {
       "verify": "Verificare",
       "verifyDesc": "cine deține autoritatea",
@@ -32,7 +35,12 @@
       "auditDesc": "pentru ca nimeni să nu fie nevoit să vă creadă pe cuvânt"
     },
     "scroll": "Derulați ↓",
-    "vlabel": "Infrastructură neutră față de suveranitate"
+    "vlabel": "Infrastructură neutră față de suveranitate",
+    "actions": {
+      "run": "Rulează dovada local",
+      "protocol": "Citește protocolul",
+      "network": "Verifică rețeaua live"
+    }
   },
   "stakes": {
     "label": "Miza",
@@ -176,8 +184,8 @@
       }
     ],
     "live": {
-      "title": "Operațională, flotă suverană administrată de mentenanți",
-      "subtitle": "Multi-cloud / Chei independente / Politici independente",
+      "title": "Implementare publică operată de responsabilii cu mentenanța",
+      "subtitle": "Chei independente / Politici independente / Dovezi reproductibile",
       "network": "Rețea de recunoaștere",
       "sovereigns": "Actori suverani",
       "clouds": "Cloud-uri",
@@ -198,7 +206,7 @@
   "live": {
     "label": "Operațional",
     "title": "Nu este o promisiune. Este un sistem în funcțiune.",
-    "subtitle": "Un singur model de autoritate, în producție. Nu este un proiect-pilot și nici o arhitectură de referință.",
+    "subtitle": "Implementare publică operată de responsabilii cu mentenanța, cu dovezi de protocol reproductibile independent.",
     "proof": {
       "version": "Versiunea curentă",
       "cycles": "Cicluri complete de încredere",
@@ -224,7 +232,7 @@
       "title": "Această conversație nu începe cu un SDK.",
       "desc": "Citiți narațiunea integrală Elections 2026 pentru argumentația filozofică, apoi deschideți un canal direct, privat și confidențial. Fără formulare, fără pâlnii de vânzări, fără intermediari.",
       "cta": "Citiți povestea integrală →",
-      "altText": "Canal direct: thaer.saidi@outlook.com →"
+      "altText": "Canal direct: authority@genesismesh.org →"
     }
   },
   "footer": {
@@ -243,5 +251,99 @@
     "title": "Genesis Mesh - Stratul de tratate pentru mașini",
     "description": "O infrastructură suverană de încredere, identitate și comunicații pentru sisteme autonome. Neutră față de suveranitate și cu robustețea unui tratat: verificare, limitare, revocare, audit. Nu este un blockchain. Nu este un VPN. Nu este un service mesh.",
     "keywords": "încredere suverană|suveranitate digitală|identitate a mașinilor|Ed25519|tratate de recunoaștere|revocare|infrastructură de încredere|Genesis Mesh|strat de tratate|sisteme autonome"
+  },
+  "trustCycle": {
+    "label": "Un ciclu complet de încredere",
+    "title": "Aceeași solicitare se schimbă atunci când se schimbă încrederea.",
+    "subtitle": "Două sisteme administrate independent stabilesc o recunoaștere cu domeniu limitat, iau o decizie de autorizare, propagă revocarea și produc o respingere auditabilă fără a folosi o rădăcină de încredere comună.",
+    "sameRequest": "Aceeași identitate. Aceeași solicitare. O stare de încredere diferită.",
+    "before": "Înainte de revocare",
+    "after": "După importarea revocării",
+    "accepted": "ACCEPTATĂ",
+    "rejected": "RESPINSĂ",
+    "steps": [
+      {
+        "title": "Atestare emisă",
+        "description": "Domeniul suveran B semnează o atestare pentru identitatea solicitantă."
+      },
+      {
+        "title": "Tratat recunoscut",
+        "description": "Domeniul suveran A activează un tratat de recunoaștere cu domeniu limitat pentru domeniul suveran B."
+      },
+      {
+        "title": "Solicitare acceptată",
+        "description": "Atestarea și tratatul îndeplinesc politica locală de autorizare a domeniului A."
+      },
+      {
+        "title": "Atestare revocată",
+        "description": "Domeniul suveran B retrage materialul de încredere respectiv."
+      },
+      {
+        "title": "Revocare importată",
+        "description": "A verifică fluxul semnat al domeniului B și își actualizează propria stare de încredere."
+      },
+      {
+        "title": "Solicitare identică respinsă",
+        "description": "Aceeași identitate și aceeași solicitare eșuează acum dintr-un motiv auditabil."
+      }
+    ],
+    "evidence": {
+      "recorded": {
+        "label": "Dovadă înregistrată",
+        "title": "O rulare înregistrată între domenii suverane independente",
+        "description": "Dovezile din terminal de mai jos înregistrează traversarea de către protocol a limitelor de încredere dintre Azure și DigitalOcean."
+      },
+      "reproducible": {
+        "label": "Dovadă reproductibilă",
+        "title": "Rulează personal întregul flux",
+        "description": "Scriptul public pornește două autorități temporare și reproduce emiterea, recunoașterea, revocarea, importul și respingerea."
+      },
+      "live": {
+        "label": "Stare operațională live",
+        "title": "Verifică separat autoritatea publică",
+        "description": "Semnalele agregate actuale ale rețelei sunt preluate independent de demonstrația înregistrată."
+      }
+    },
+    "terminalSummary": "Consultă rezultatul înregistrat în terminal",
+    "runLabel": "Reproduce local",
+    "actions": {
+      "recorded": "Deschide dovada înregistrată",
+      "run": "Rulează personal această dovadă",
+      "protocol": "Citește RFC-002 și RFC-004"
+    }
+  },
+  "liveNetwork": {
+    "label": "Dovadă live",
+    "title": "Verifică rețeaua live.",
+    "subtitle": "Implementare publică operată de responsabilii cu mentenanța, cu dovezi de protocol reproductibile independent.",
+    "status": {
+      "checking": "Se verifică semnalele live",
+      "live": "Semnalele live sunt disponibile",
+      "stale": "Serviciu activ, dar datele fluxului de încredere sunt învechite",
+      "degraded": "Serviciul raportează o stare degradată",
+      "unavailable": "Date indisponibile"
+    },
+    "health": {
+      "healthy": "Funcțional",
+      "degraded": "Degradat"
+    },
+    "metrics": {
+      "health": "Starea serviciului",
+      "sovereigns": "Domenii suverane",
+      "edges": "Relații de recunoaștere",
+      "treaties": "Tratate active",
+      "revocations": "Material de încredere revocat"
+    },
+    "checked": "Verificat",
+    "lastUpdate": "Ultima actualizare a rețelei",
+    "freshness": "Actualitatea datelor",
+    "freshnessValues": {
+      "current": "Actuale",
+      "stale": "Învechite"
+    },
+    "unknown": "Necunoscut",
+    "disclaimer": "Semnale operaționale agregate. Nu reprezintă o imagine completă a securității sau a guvernanței.",
+    "unavailableMessage": "Datele live nu au putut fi verificate. Nicio valoare din cache nu este prezentată ca fiind actuală.",
+    "dashboard": "Consultă panoul public"
   }
 }

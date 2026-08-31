@@ -7,7 +7,10 @@
       "mechanics": "Mechanik",
       "protocol": "Protokoll",
       "hardware": "Silizium",
-      "docs": "Dokumentation"
+      "docs": "Dokumentation",
+      "proof": "Nachweis",
+      "live": "Live-Netzwerk",
+      "strategy": "Strategie"
     }
   },
   "ui": {
@@ -20,7 +23,7 @@
     "kicker": "Öffentliches Briefing / Genesis Mesh / 2026",
     "title": "Vertrauen, das keine Nation",
     "titleAccent": "aufgeben muss.",
-    "subtitle": "Genesis Mesh ist portable Vertrauensinfrastruktur für souveräne Systeme: kryptografische Identität, Anerkennungsverträge und widerrufbare Autorität, die für die 190 Länder auf der Suche nach digitaler Souveränität genauso funktionieren wie für die drei, die sie bereits besitzen.",
+    "subtitle": "Genesis Mesh ermöglicht unabhängig verwalteten Systemen, einander anzuerkennen, zu autorisieren, Vertrauen zu widerrufen und zu auditieren, ohne ihre Souveränität aufzugeben.",
     "meta": {
       "verify": "Prüfen",
       "verifyDesc": "wer Autorität hält",
@@ -32,7 +35,12 @@
       "auditDesc": "damit niemand Ihnen glauben muss"
     },
     "scroll": "Scrollen ↓",
-    "vlabel": "Souveränitätsneutrale Infrastruktur"
+    "vlabel": "Souveränitätsneutrale Infrastruktur",
+    "actions": {
+      "run": "Nachweis lokal ausführen",
+      "protocol": "Protokoll lesen",
+      "network": "Live-Netzwerk verifizieren"
+    }
   },
   "stakes": {
     "label": "Worum es geht",
@@ -176,8 +184,8 @@
       }
     ],
     "live": {
-      "title": "Live - Vom Maintainer betriebene souveräne Flotte",
-      "subtitle": "Multi-Cloud / Unabhängige Schlüssel / Unabhängige Richtlinien",
+      "title": "Von den Maintainern betriebene öffentliche Bereitstellung",
+      "subtitle": "Unabhängige Schlüssel / Unabhängige Richtlinien / Reproduzierbare Nachweise",
       "network": "Netzwerk gegenseitiger Anerkennung",
       "sovereigns": "Souveräne",
       "clouds": "Clouds",
@@ -198,7 +206,7 @@
   "live": {
     "label": "Live",
     "title": "Kein Versprechen. Ein laufendes System.",
-    "subtitle": "Ein Autoritätsmodell, im Produktivbetrieb. Kein Pilot und keine Referenzarchitektur.",
+    "subtitle": "Von den Maintainern betriebene öffentliche Bereitstellung mit unabhängig reproduzierbaren Protokollnachweisen.",
     "proof": {
       "version": "Aktuelle Version",
       "cycles": "Vollständige Vertrauenszyklen",
@@ -224,7 +232,7 @@
       "title": "Dieses Gespräch beginnt nicht mit einem SDK.",
       "desc": "Lesen Sie das vollständige Elections 2026-Narrativ für die philosophische Begründung und öffnen Sie danach einen direkten, diskreten Kanal. Keine Formulare, keine Funnels, keine Vermittler.",
       "cta": "Die ganze Geschichte lesen →",
-      "altText": "Direkter Kanal: thaer.saidi@outlook.com →"
+      "altText": "Direkter Kanal: authority@genesismesh.org →"
     }
   },
   "footer": {
@@ -243,5 +251,99 @@
     "title": "Genesis Mesh - Die Vertragsebene für Maschinen",
     "description": "Ein souveränes Gewebe aus Vertrauen, Identität und Kommunikation für autonome Systeme. Souveränitätsneutral und vertragstauglich: prüfen, begrenzen, widerrufen, auditieren. Keine Blockchain. Kein VPN. Kein Service Mesh.",
     "keywords": "souveränes Vertrauen|digitale Souveränität|Maschinenidentität|Ed25519|Anerkennungsverträge|Widerruf|Vertrauensinfrastruktur|Genesis Mesh|Vertragsebene|autonome Systeme"
+  },
+  "trustCycle": {
+    "label": "Ein vollständiger Vertrauenszyklus",
+    "title": "Dieselbe Anfrage wird anders bewertet, wenn sich das Vertrauen ändert.",
+    "subtitle": "Zwei unabhängig verwaltete Systeme vereinbaren eine Anerkennung mit begrenztem Geltungsbereich, treffen eine Autorisierungsentscheidung, verbreiten einen Widerruf und erzeugen eine auditierbare Ablehnung, ohne eine gemeinsame Vertrauenswurzel zu nutzen.",
+    "sameRequest": "Dieselbe Identität. Dieselbe Anfrage. Ein anderer Vertrauensstatus.",
+    "before": "Vor dem Widerruf",
+    "after": "Nach dem Import des Widerrufs",
+    "accepted": "AKZEPTIERT",
+    "rejected": "ABGELEHNT",
+    "steps": [
+      {
+        "title": "Attestierung ausgestellt",
+        "description": "Die souveräne Autorität B signiert eine Attestierung für die anfragende Identität."
+      },
+      {
+        "title": "Anerkennungsvereinbarung aktiviert",
+        "description": "Die souveräne Autorität A aktiviert eine Anerkennungsvereinbarung mit begrenztem Geltungsbereich für die souveräne Autorität B."
+      },
+      {
+        "title": "Anfrage akzeptiert",
+        "description": "Die Attestierung und die Vereinbarung erfüllen die lokale Autorisierungsrichtlinie von A."
+      },
+      {
+        "title": "Attestierung widerrufen",
+        "description": "Die souveräne Autorität B zieht dieses spezifische Vertrauensmaterial zurück."
+      },
+      {
+        "title": "Widerruf importiert",
+        "description": "A verifiziert den signierten Feed von B und aktualisiert den eigenen Vertrauensstatus."
+      },
+      {
+        "title": "Identische Anfrage abgelehnt",
+        "description": "Dieselbe Identität und Anfrage schlagen nun mit einem auditierbaren Grund fehl."
+      }
+    ],
+    "evidence": {
+      "recorded": {
+        "label": "Aufgezeichneter Nachweis",
+        "title": "Ein aufgezeichneter Lauf zwischen unabhängigen souveränen Autoritäten",
+        "description": "Die nachstehenden Terminaldaten dokumentieren, wie das Protokoll die Vertrauensgrenzen von Azure und DigitalOcean überschreitet."
+      },
+      "reproducible": {
+        "label": "Reproduzierbarer Nachweis",
+        "title": "Führen Sie den vollständigen Ablauf selbst aus",
+        "description": "Das öffentliche Skript startet zwei temporäre Autoritäten und reproduziert Ausstellung, Anerkennung, Widerruf, Import und Ablehnung."
+      },
+      "live": {
+        "label": "Live-Betriebsstatus",
+        "title": "Verifizieren Sie die öffentliche Autorität separat",
+        "description": "Aktuelle aggregierte Netzwerksignale werden unabhängig von der aufgezeichneten Demonstration abgerufen."
+      }
+    },
+    "terminalSummary": "Aufgezeichnete Terminalausgabe prüfen",
+    "runLabel": "Lokal reproduzieren",
+    "actions": {
+      "recorded": "Aufgezeichneten Nachweis öffnen",
+      "run": "Diesen Nachweis selbst ausführen",
+      "protocol": "RFC-002 und RFC-004 lesen"
+    }
+  },
+  "liveNetwork": {
+    "label": "Live-Nachweis",
+    "title": "Verifizieren Sie das Live-Netzwerk.",
+    "subtitle": "Von den Maintainern betriebene öffentliche Bereitstellung mit unabhängig reproduzierbaren Protokollnachweisen.",
+    "status": {
+      "checking": "Live-Signale werden geprüft",
+      "live": "Live-Signale verfügbar",
+      "stale": "Dienst aktiv, Daten des Vertrauensfeeds veraltet",
+      "degraded": "Dienst meldet eingeschränkten Status",
+      "unavailable": "Daten nicht verfügbar"
+    },
+    "health": {
+      "healthy": "Fehlerfrei",
+      "degraded": "Eingeschränkt"
+    },
+    "metrics": {
+      "health": "Dienststatus",
+      "sovereigns": "Souveräne Domänen",
+      "edges": "Anerkennungsverbindungen",
+      "treaties": "Aktive Vereinbarungen",
+      "revocations": "Widerrufenes Vertrauensmaterial"
+    },
+    "checked": "Geprüft",
+    "lastUpdate": "Letzte Netzwerkaktualisierung",
+    "freshness": "Datenaktualität",
+    "freshnessValues": {
+      "current": "Aktuell",
+      "stale": "Veraltet"
+    },
+    "unknown": "Unbekannt",
+    "disclaimer": "Aggregierte Betriebssignale. Keine vollständige Darstellung der Sicherheits- oder Governance-Situation.",
+    "unavailableMessage": "Die Live-Daten konnten nicht verifiziert werden. Es werden keine zwischengespeicherten Werte als aktuell dargestellt.",
+    "dashboard": "Öffentliches Dashboard prüfen"
   }
 }

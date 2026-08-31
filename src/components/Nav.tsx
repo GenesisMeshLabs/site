@@ -6,11 +6,11 @@ import { Link } from '@/navigation';
 import LanguageSelector from './LanguageSelector';
 
 const SECTIONS = [
-  { href: '#stakes', key: 'stakes' },
-  { href: '#powers', key: 'powers' },
+  { href: '#proof', key: 'proof' },
   { href: '#mechanics', key: 'mechanics' },
+  { href: '#live-network', key: 'live' },
   { href: '#protocol', key: 'protocol' },
-  { href: '#silicon', key: 'hardware' },
+  { href: '#stakes', key: 'strategy' },
 ] as const;
 
 export default function Nav() {

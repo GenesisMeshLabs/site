@@ -7,7 +7,10 @@
       "mechanics": "Mechanika",
       "protocol": "Protokol",
       "hardware": "Křemík",
-      "docs": "Dokumentace"
+      "docs": "Dokumentace",
+      "proof": "Důkaz",
+      "live": "Živá síť",
+      "strategy": "Strategie"
     }
   },
   "ui": {
@@ -20,7 +23,7 @@
     "kicker": "Veřejný přehled / Genesis Mesh / 2026",
     "title": "Důvěra, které se žádný stát",
     "titleAccent": "nemusí vzdát.",
-    "subtitle": "Genesis Mesh je přenositelná infrastruktura důvěry pro suverénní systémy: kryptografická identita, smlouvy o vzájemném uznávání a odvolatelná autorita, které fungují stejně pro 190 zemí, jež stále hledají cestu k digitální suverenitě, i pro tři, které ji již mají.",
+    "subtitle": "Genesis Mesh umožňuje nezávisle spravovaným systémům, aby se vzájemně uznávaly, autorizovaly, odvolávaly důvěru a auditovaly, aniž by se vzdaly své suverenity.",
     "meta": {
       "verify": "Ověřit",
       "verifyDesc": "kdo má autoritu",
@@ -32,7 +35,12 @@
       "auditDesc": "aby nikdo nemusel věřit pouhému slovu"
     },
     "scroll": "Posunout ↓",
-    "vlabel": "Infrastruktura neutrální vůči suverenitě"
+    "vlabel": "Infrastruktura neutrální vůči suverenitě",
+    "actions": {
+      "run": "Spustit důkaz místně",
+      "protocol": "Přečíst protokol",
+      "network": "Ověřit živou síť"
+    }
   },
   "stakes": {
     "label": "Co je v sázce",
@@ -176,8 +184,8 @@
       }
     ],
     "live": {
-      "title": "V provozu - suverénní flotila spravovaná údržbáři",
-      "subtitle": "Více cloudů / Nezávislé klíče / Nezávislé zásady",
+      "title": "Veřejné nasazení provozované správci",
+      "subtitle": "Nezávislé klíče / Nezávislé zásady / Reprodukovatelné důkazy",
       "network": "Síť vzájemného uznávání",
       "sovereigns": "Suverénní aktéři",
       "clouds": "Cloudy",
@@ -198,7 +206,7 @@
   "live": {
     "label": "V provozu",
     "title": "Nejde o slib. Jde o fungující systém.",
-    "subtitle": "Jeden model autority v produkčním provozu. Není to pilotní projekt ani referenční architektura.",
+    "subtitle": "Veřejné nasazení provozované správci s nezávisle reprodukovatelnými důkazy protokolu.",
     "proof": {
       "version": "Aktuální verze",
       "cycles": "Dokončené cykly důvěry",
@@ -224,7 +232,7 @@
       "title": "Tento rozhovor nezačíná SDK.",
       "desc": "Nejprve si přečtěte celý příběh Elections 2026 s filozofickými argumenty a poté otevřete přímý, soukromý a důvěrný komunikační kanál. Bez formulářů, prodejních trychtýřů a prostředníků.",
       "cta": "Přečíst celý příběh →",
-      "altText": "Přímý kanál: thaer.saidi@outlook.com →"
+      "altText": "Přímý kanál: authority@genesismesh.org →"
     }
   },
   "footer": {
@@ -243,5 +251,99 @@
     "title": "Genesis Mesh - smluvní vrstva pro stroje",
     "description": "Suverénní struktura důvěry, identity a komunikace pro autonomní systémy. Neutrální vůči suverenitě, na úrovni mezistátních smluv: ověřit, omezit, odvolat, auditovat. Není to blockchain. Není to VPN. Není to service mesh.",
     "keywords": "suverénní důvěra|digitální suverenita|identita strojů|Ed25519|smlouvy o vzájemném uznávání|odvolání|infrastruktura důvěry|Genesis Mesh|smluvní vrstva|autonomní systémy"
+  },
+  "trustCycle": {
+    "label": "Jeden úplný cyklus důvěry",
+    "title": "Stejný požadavek se při změně důvěry vyhodnotí jinak.",
+    "subtitle": "Dva nezávisle spravované systémy navážou uznání s vymezeným rozsahem, rozhodnou o autorizaci, rozšíří odvolání a vytvoří auditovatelné zamítnutí, aniž by sdílely kořen důvěry.",
+    "sameRequest": "Stejná identita. Stejný požadavek. Jiný stav důvěry.",
+    "before": "Před odvoláním",
+    "after": "Po importu odvolání",
+    "accepted": "PŘIJATO",
+    "rejected": "ZAMÍTNUTO",
+    "steps": [
+      {
+        "title": "Atestace vydána",
+        "description": "Suverénní autorita B podepíše atestaci pro žádající identitu."
+      },
+      {
+        "title": "Dohoda uznána",
+        "description": "Suverénní autorita A aktivuje dohodu o uznání s vymezeným rozsahem pro suverénní autoritu B."
+      },
+      {
+        "title": "Požadavek přijat",
+        "description": "Atestace a dohoda splňují místní autorizační zásady autority A."
+      },
+      {
+        "title": "Atestace odvolána",
+        "description": "Suverénní autorita B odvolá tento konkrétní materiál důvěry."
+      },
+      {
+        "title": "Odvolání importováno",
+        "description": "A ověří podepsaný kanál B a aktualizuje svůj vlastní stav důvěry."
+      },
+      {
+        "title": "Totožný požadavek zamítnut",
+        "description": "Stejná identita a stejný požadavek nyní neprojdou a důvod lze auditovat."
+      }
+    ],
+    "evidence": {
+      "recorded": {
+        "label": "Zaznamenaný důkaz",
+        "title": "Zachycený běh mezi nezávislými suverénními autoritami",
+        "description": "Níže uvedený záznam terminálu zachycuje přechod protokolu přes hranice důvěry Azure a DigitalOcean."
+      },
+      "reproducible": {
+        "label": "Reprodukovatelný důkaz",
+        "title": "Spusťte si celý postup sami",
+        "description": "Veřejný skript spustí dvě dočasné autority a zopakuje vydání, uznání, odvolání, import a zamítnutí."
+      },
+      "live": {
+        "label": "Živý provozní stav",
+        "title": "Ověřte veřejnou autoritu samostatně",
+        "description": "Aktuální souhrnné signály sítě se načítají nezávisle na zaznamenané ukázce."
+      }
+    },
+    "terminalSummary": "Prohlédnout zaznamenaný výstup terminálu",
+    "runLabel": "Reprodukovat místně",
+    "actions": {
+      "recorded": "Otevřít zaznamenaný důkaz",
+      "run": "Spustit tento důkaz samostatně",
+      "protocol": "Přečíst RFC-002 a RFC-004"
+    }
+  },
+  "liveNetwork": {
+    "label": "Živý důkaz",
+    "title": "Ověřte živou síť.",
+    "subtitle": "Veřejné nasazení provozované správci s nezávisle reprodukovatelnými důkazy protokolu.",
+    "status": {
+      "checking": "Kontrola živých signálů",
+      "live": "Živé signály jsou dostupné",
+      "stale": "Služba je v provozu, data kanálu důvěry jsou zastaralá",
+      "degraded": "Služba hlásí zhoršený stav",
+      "unavailable": "Data nejsou dostupná"
+    },
+    "health": {
+      "healthy": "V pořádku",
+      "degraded": "Zhoršený stav"
+    },
+    "metrics": {
+      "health": "Stav služby",
+      "sovereigns": "Suverénní domény",
+      "edges": "Vazby uznání",
+      "treaties": "Aktivní dohody",
+      "revocations": "Odvolaný materiál důvěry"
+    },
+    "checked": "Zkontrolováno",
+    "lastUpdate": "Poslední aktualizace sítě",
+    "freshness": "Aktuálnost dat",
+    "freshnessValues": {
+      "current": "Aktuální",
+      "stale": "Zastaralá"
+    },
+    "unknown": "Neznámé",
+    "disclaimer": "Souhrnné provozní signály. Nejde o úplný pohled na zabezpečení ani správu.",
+    "unavailableMessage": "Živá data se nepodařilo ověřit. Žádné hodnoty z mezipaměti nejsou prezentovány jako aktuální.",
+    "dashboard": "Prohlédnout veřejný řídicí panel"
   }
 }

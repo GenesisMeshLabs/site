@@ -7,7 +7,10 @@
       "mechanics": "Mechanika",
       "protocol": "Protokół",
       "hardware": "Krzem",
-      "docs": "Dokumentacja"
+      "docs": "Dokumentacja",
+      "proof": "Dowód",
+      "live": "Sieć na żywo",
+      "strategy": "Strategia"
     }
   },
   "ui": {
@@ -20,7 +23,7 @@
     "kicker": "Nota publiczna / Genesis Mesh / 2026",
     "title": "Zaufanie, którego żaden naród",
     "titleAccent": "nie musi oddawać.",
-    "subtitle": "Genesis Mesh to przenośna infrastruktura zaufania dla systemów suwerennych: tożsamość kryptograficzna, traktaty uznania i odwoływalne uprawnienia, które działają tak samo dla 190 państw wciąż szukających cyfrowej suwerenności, jak i dla trzech, które już ją mają.",
+    "subtitle": "Genesis Mesh umożliwia niezależnie zarządzanym systemom wzajemne uznawanie, autoryzowanie, unieważnianie i audytowanie bez rezygnacji z suwerenności.",
     "meta": {
       "verify": "Weryfikuj",
       "verifyDesc": "kto ma uprawnienia",
@@ -32,7 +35,12 @@
       "auditDesc": "aby nikt nie musiał wierzyć ci na słowo"
     },
     "scroll": "Przewiń ↓",
-    "vlabel": "Infrastruktura neutralna wobec suwerenności"
+    "vlabel": "Infrastruktura neutralna wobec suwerenności",
+    "actions": {
+      "run": "Uruchom dowód lokalnie",
+      "protocol": "Przeczytaj protokół",
+      "network": "Zweryfikuj sieć na żywo"
+    }
   },
   "stakes": {
     "label": "Stawka",
@@ -176,8 +184,8 @@
       }
     ],
     "live": {
-      "title": "Na żywo - Flota suwerenna prowadzona przez opiekuna",
-      "subtitle": "Wielochmurowo / Niezależne klucze / Niezależna polityka",
+      "title": "Publiczne wdrożenie obsługiwane przez opiekunów",
+      "subtitle": "Niezależne klucze / Niezależne zasady / Odtwarzalne dowody",
       "network": "Sieć wzajemnego uznawania",
       "sovereigns": "Suwereni",
       "clouds": "Chmury",
@@ -198,7 +206,7 @@
   "live": {
     "label": "Na żywo",
     "title": "To nie obietnica. To działający system.",
-    "subtitle": "Jeden model uprawnień, na produkcji. Ani pilotaż, ani architektura referencyjna.",
+    "subtitle": "Publiczne wdrożenie obsługiwane przez opiekunów, z niezależnie odtwarzalnymi dowodami protokołu.",
     "proof": {
       "version": "Bieżące wydanie",
       "cycles": "Pełne cykle zaufania",
@@ -224,7 +232,7 @@
       "title": "Ta rozmowa nie zaczyna się od SDK.",
       "desc": "Przeczytaj pełną narrację Elections 2026, by poznać uzasadnienie filozoficzne, a potem otwórz bezpośredni, dyskretny kanał. Żadnych formularzy, lejków ani pośredników.",
       "cta": "Przeczytaj całą historię →",
-      "altText": "Kanał bezpośredni: thaer.saidi@outlook.com →"
+      "altText": "Kanał bezpośredni: authority@genesismesh.org →"
     }
   },
   "footer": {
@@ -243,5 +251,99 @@
     "title": "Genesis Mesh - Warstwa traktatowa dla maszyn",
     "description": "Suwerenna tkanka zaufania, tożsamości i komunikacji dla systemów autonomicznych. Neutralna wobec suwerenności, klasy traktatowej: weryfikuj, ogranicz, odwołuj, audytuj. To nie blockchain. Nie VPN. Nie service mesh.",
     "keywords": "suwerenne zaufanie|cyfrowa suwerenność|tożsamość maszyn|Ed25519|traktaty uznania|odwołanie|infrastruktura zaufania|Genesis Mesh|warstwa traktatowa|systemy autonomiczne"
+  },
+  "trustCycle": {
+    "label": "Jeden pełny cykl zaufania",
+    "title": "Ta sama prośba zmienia się wraz ze zmianą zaufania.",
+    "subtitle": "Dwa niezależnie zarządzane systemy ustanawiają uznawanie o określonym zakresie, podejmują decyzję autoryzacyjną, propagują unieważnienie i generują audytowalne odrzucenie bez współdzielenia głównego źródła zaufania.",
+    "sameRequest": "Ta sama tożsamość. Ta sama prośba. Inny stan zaufania.",
+    "before": "Przed unieważnieniem",
+    "after": "Po zaimportowaniu unieważnienia",
+    "accepted": "ZAAKCEPTOWANO",
+    "rejected": "ODRZUCONO",
+    "steps": [
+      {
+        "title": "Wydano atestację",
+        "description": "Suwerenna domena B podpisuje atestację dla tożsamości składającej prośbę."
+      },
+      {
+        "title": "Uznano traktat",
+        "description": "Suwerenna domena A aktywuje traktat o uznawaniu z określonym zakresem dla suwerennej domeny B."
+      },
+      {
+        "title": "Zaakceptowano prośbę",
+        "description": "Atestacja i traktat spełniają lokalne zasady autoryzacji domeny A."
+      },
+      {
+        "title": "Unieważniono atestację",
+        "description": "Suwerenna domena B wycofuje ten konkretny materiał zaufania."
+      },
+      {
+        "title": "Zaimportowano unieważnienie",
+        "description": "Domena A weryfikuje podpisany kanał domeny B i aktualizuje własny stan zaufania."
+      },
+      {
+        "title": "Odrzucono identyczną prośbę",
+        "description": "Ta sama tożsamość i prośba kończą się teraz niepowodzeniem z powodu, który można poddać audytowi."
+      }
+    ],
+    "evidence": {
+      "recorded": {
+        "label": "Zarejestrowany dowód",
+        "title": "Zarejestrowany przebieg między niezależnymi suwerennymi domenami",
+        "description": "Poniższy zapis terminala dokumentuje przekraczanie przez protokół granic zaufania między Azure i DigitalOcean."
+      },
+      "reproducible": {
+        "label": "Odtwarzalny dowód",
+        "title": "Samodzielnie uruchom pełny przebieg",
+        "description": "Publiczny skrypt uruchamia dwa tymczasowe organy i odtwarza wydanie, uznanie, unieważnienie, import oraz odrzucenie."
+      },
+      "live": {
+        "label": "Bieżący stan operacyjny",
+        "title": "Niezależnie zweryfikuj publiczny organ",
+        "description": "Bieżące zagregowane sygnały sieciowe są pobierane niezależnie od zarejestrowanej demonstracji."
+      }
+    },
+    "terminalSummary": "Sprawdź zarejestrowane dane wyjściowe terminala",
+    "runLabel": "Odtwórz lokalnie",
+    "actions": {
+      "recorded": "Otwórz zarejestrowany dowód",
+      "run": "Uruchom ten dowód samodzielnie",
+      "protocol": "Przeczytaj RFC-002 i RFC-004"
+    }
+  },
+  "liveNetwork": {
+    "label": "Dowód na żywo",
+    "title": "Zweryfikuj sieć na żywo.",
+    "subtitle": "Publiczne wdrożenie obsługiwane przez opiekunów, z niezależnie odtwarzalnymi dowodami protokołu.",
+    "status": {
+      "checking": "Sprawdzanie sygnałów na żywo",
+      "live": "Sygnały na żywo są dostępne",
+      "stale": "Usługa działa, ale dane kanału zaufania są nieaktualne",
+      "degraded": "Usługa zgłasza obniżoną sprawność",
+      "unavailable": "Dane niedostępne"
+    },
+    "health": {
+      "healthy": "Sprawna",
+      "degraded": "Obniżona sprawność"
+    },
+    "metrics": {
+      "health": "Stan usługi",
+      "sovereigns": "Suwerenne domeny",
+      "edges": "Relacje uznawania",
+      "treaties": "Aktywne traktaty",
+      "revocations": "Unieważniony materiał zaufania"
+    },
+    "checked": "Sprawdzono",
+    "lastUpdate": "Ostatnia aktualizacja sieci",
+    "freshness": "Aktualność danych",
+    "freshnessValues": {
+      "current": "Aktualne",
+      "stale": "Nieaktualne"
+    },
+    "unknown": "Nieznane",
+    "disclaimer": "Zagregowane sygnały operacyjne. Nie stanowią pełnego obrazu bezpieczeństwa ani zarządzania.",
+    "unavailableMessage": "Nie udało się zweryfikować danych na żywo. Żadne wartości z pamięci podręcznej nie są przedstawiane jako aktualne.",
+    "dashboard": "Sprawdź publiczny pulpit"
   }
 }

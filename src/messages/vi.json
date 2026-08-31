@@ -7,7 +7,10 @@
       "mechanics": "Cơ Chế",
       "protocol": "Giao Thức",
       "hardware": "Silic",
-      "docs": "Tài Liệu"
+      "docs": "Tài Liệu",
+      "proof": "Bằng chứng",
+      "live": "Mạng trực tiếp",
+      "strategy": "Chiến lược"
     }
   },
   "ui": {
@@ -20,7 +23,7 @@
     "kicker": "Bản tóm lược công khai / Genesis Mesh / 2026",
     "title": "Niềm tin mà không quốc gia nào",
     "titleAccent": "phải giao nộp.",
-    "subtitle": "Genesis Mesh là hạ tầng tin cậy khả chuyển cho các hệ thống có chủ quyền: danh tính mật mã, hiệp ước công nhận và thẩm quyền có thể thu hồi, vận hành như nhau cho 190 quốc gia vẫn đang tìm kiếm chủ quyền số và cho ba cường quốc đã có nó.",
+    "subtitle": "Genesis Mesh cho phép các hệ thống được quản trị độc lập công nhận, cấp quyền, thu hồi và kiểm tra lẫn nhau mà không phải từ bỏ quyền tự chủ.",
     "meta": {
       "verify": "Xác minh",
       "verifyDesc": "ai đang nắm thẩm quyền",
@@ -32,7 +35,12 @@
       "auditDesc": "để không ai phải tin lời bạn suông"
     },
     "scroll": "Cuộn xuống ↓",
-    "vlabel": "Hạ tầng trung lập về chủ quyền"
+    "vlabel": "Hạ tầng trung lập về chủ quyền",
+    "actions": {
+      "run": "Chạy bằng chứng cục bộ",
+      "protocol": "Đọc giao thức",
+      "network": "Xác minh mạng trực tiếp"
+    }
   },
   "stakes": {
     "label": "Điều Đang Đặt Cược",
@@ -176,8 +184,8 @@
       }
     ],
     "live": {
-      "title": "Trực tiếp - Đội chủ quyền do người bảo trì vận hành",
-      "subtitle": "Đa đám mây / Khóa độc lập / Chính sách độc lập",
+      "title": "Bản triển khai công khai do bên duy trì vận hành",
+      "subtitle": "Khóa độc lập / Chính sách độc lập / Bằng chứng có thể tái tạo",
       "network": "Mạng lưới Công nhận Lẫn nhau",
       "sovereigns": "Chủ thể có chủ quyền",
       "clouds": "Đám mây",
@@ -198,7 +206,7 @@
   "live": {
     "label": "Trực tiếp",
     "title": "Không phải một lời hứa. Là một hệ thống đang chạy.",
-    "subtitle": "Một mô hình thẩm quyền duy nhất, đang vận hành trong môi trường sản xuất. Không phải thử nghiệm, cũng không phải kiến trúc tham chiếu.",
+    "subtitle": "Bản triển khai công khai do bên duy trì vận hành, kèm các bằng chứng giao thức có thể tái tạo độc lập.",
     "proof": {
       "version": "Bản phát hành hiện tại",
       "cycles": "Chu trình tin cậy đầy đủ",
@@ -224,7 +232,7 @@
       "title": "Cuộc trao đổi này không bắt đầu bằng một SDK.",
       "desc": "Hãy đọc toàn bộ tự sự Elections 2026 để nắm lập luận triết học, rồi mở một kênh liên lạc trực tiếp, riêng tư và bảo mật. Không biểu mẫu, không phễu, không trung gian.",
       "cta": "Đọc toàn bộ câu chuyện →",
-      "altText": "Kênh trực tiếp: thaer.saidi@outlook.com →"
+      "altText": "Kênh trực tiếp: authority@genesismesh.org →"
     }
   },
   "footer": {
@@ -243,5 +251,99 @@
     "title": "Genesis Mesh - Tầng hiệp ước cho máy móc",
     "description": "Một kết cấu có chủ quyền về tin cậy, danh tính và truyền thông cho các hệ thống tự trị. Trung lập về chủ quyền và đạt tầm hiệp ước: xác minh, giới hạn, thu hồi, kiểm toán. Không phải blockchain. Không phải VPN. Không phải service mesh.",
     "keywords": "tin cậy có chủ quyền|chủ quyền số|danh tính máy|Ed25519|hiệp ước công nhận|thu hồi|hạ tầng tin cậy|Genesis Mesh|tầng hiệp ước|hệ thống tự trị"
+  },
+  "trustCycle": {
+    "label": "Một chu trình tin cậy hoàn chỉnh",
+    "title": "Cùng một yêu cầu sẽ cho kết quả khác khi trạng thái tin cậy thay đổi.",
+    "subtitle": "Hai hệ thống được quản trị độc lập thiết lập quan hệ công nhận có phạm vi, đưa ra quyết định cấp quyền, truyền bá thông tin thu hồi và tạo kết quả từ chối có thể kiểm tra mà không dùng chung gốc tin cậy.",
+    "sameRequest": "Cùng danh tính. Cùng yêu cầu. Trạng thái tin cậy khác nhau.",
+    "before": "Trước khi thu hồi",
+    "after": "Sau khi nhập dữ liệu thu hồi",
+    "accepted": "ĐƯỢC CHẤP NHẬN",
+    "rejected": "BỊ TỪ CHỐI",
+    "steps": [
+      {
+        "title": "Phát hành chứng thực",
+        "description": "Miền tự chủ B ký một chứng thực cho danh tính gửi yêu cầu."
+      },
+      {
+        "title": "Công nhận hiệp ước",
+        "description": "Miền tự chủ A kích hoạt một hiệp ước công nhận có phạm vi dành cho Miền tự chủ B."
+      },
+      {
+        "title": "Chấp nhận yêu cầu",
+        "description": "Chứng thực và hiệp ước đáp ứng chính sách cấp quyền cục bộ của A."
+      },
+      {
+        "title": "Thu hồi chứng thực",
+        "description": "Miền tự chủ B thu hồi chính tài liệu tin cậy đó."
+      },
+      {
+        "title": "Nhập dữ liệu thu hồi",
+        "description": "A xác minh nguồn cấp dữ liệu có chữ ký của B và cập nhật trạng thái tin cậy của chính mình."
+      },
+      {
+        "title": "Từ chối yêu cầu giống hệt",
+        "description": "Cùng danh tính và yêu cầu đó giờ đây không còn được chấp nhận, với lý do có thể kiểm tra."
+      }
+    ],
+    "evidence": {
+      "recorded": {
+        "label": "Bằng chứng đã ghi lại",
+        "title": "Một lần chạy được ghi lại giữa các miền tự chủ độc lập",
+        "description": "Bằng chứng đầu cuối bên dưới ghi lại quá trình giao thức vượt qua các ranh giới tin cậy của Azure và DigitalOcean."
+      },
+      "reproducible": {
+        "label": "Bằng chứng có thể tái tạo",
+        "title": "Tự chạy toàn bộ quy trình",
+        "description": "Tập lệnh công khai khởi tạo hai thẩm quyền tạm thời và tái tạo các bước phát hành, công nhận, thu hồi, nhập và từ chối."
+      },
+      "live": {
+        "label": "Trạng thái vận hành trực tiếp",
+        "title": "Xác minh riêng thẩm quyền công khai",
+        "description": "Các tín hiệu tổng hợp hiện tại của mạng được truy xuất độc lập với phần minh họa đã ghi lại."
+      }
+    },
+    "terminalSummary": "Kiểm tra đầu ra đầu cuối đã ghi lại",
+    "runLabel": "Tái tạo cục bộ",
+    "actions": {
+      "recorded": "Mở bằng chứng đã ghi lại",
+      "run": "Tự chạy bằng chứng này",
+      "protocol": "Đọc RFC-002 và RFC-004"
+    }
+  },
+  "liveNetwork": {
+    "label": "Bằng chứng trực tiếp",
+    "title": "Xác minh mạng trực tiếp.",
+    "subtitle": "Bản triển khai công khai do bên duy trì vận hành, kèm các bằng chứng giao thức có thể tái tạo độc lập.",
+    "status": {
+      "checking": "Đang kiểm tra tín hiệu trực tiếp",
+      "live": "Có tín hiệu trực tiếp",
+      "stale": "Dịch vụ đang hoạt động, nhưng dữ liệu nguồn cấp tin cậy đã cũ",
+      "degraded": "Dịch vụ báo cáo trạng thái suy giảm",
+      "unavailable": "Không có dữ liệu"
+    },
+    "health": {
+      "healthy": "Ổn định",
+      "degraded": "Suy giảm"
+    },
+    "metrics": {
+      "health": "Tình trạng dịch vụ",
+      "sovereigns": "Miền tự chủ",
+      "edges": "Liên kết công nhận",
+      "treaties": "Hiệp ước đang hoạt động",
+      "revocations": "Tài liệu tin cậy đã thu hồi"
+    },
+    "checked": "Đã kiểm tra",
+    "lastUpdate": "Lần cập nhật mạng gần nhất",
+    "freshness": "Độ mới của dữ liệu",
+    "freshnessValues": {
+      "current": "Hiện hành",
+      "stale": "Đã cũ"
+    },
+    "unknown": "Không xác định",
+    "disclaimer": "Các tín hiệu vận hành tổng hợp. Không phản ánh toàn diện tình hình bảo mật hoặc quản trị.",
+    "unavailableMessage": "Không thể xác minh dữ liệu trực tiếp. Không có giá trị lưu đệm nào được hiển thị như dữ liệu hiện hành.",
+    "dashboard": "Kiểm tra bảng điều khiển công khai"
   }
 }

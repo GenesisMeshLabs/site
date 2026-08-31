@@ -7,7 +7,10 @@
       "mechanics": "Indlela Yokusebenza",
       "protocol": "Iphrothokholi",
       "hardware": "Isilikhoni",
-      "docs": "Amadokhumenti"
+      "docs": "Amadokhumenti",
+      "proof": "Ubufakazi",
+      "live": "Inethiwekhi Ebukhoma",
+      "strategy": "Isu"
     }
   },
   "ui": {
@@ -20,7 +23,7 @@
     "kicker": "Umbiko Womphakathi / Genesis Mesh / 2026",
     "title": "Ukwethenjwa okungekho sizwe",
     "titleAccent": "okufanele sikudele.",
-    "subtitle": "I-Genesis Mesh iyingqalasizinda yokwethembana ephathekayo yezinhlelo ezizimele ngaphansi kombuso kazwelonke: ubunikazi be-cryptographic, izivumelwano zokuqashelana, kanye negunya elingahoxiswa, okusebenza ngendlela efanayo emazweni angu-190 asafuna ukuzimela ngokwedijithali nakulawo mandla amathathu asevele enakho.",
+    "subtitle": "I-Genesis Mesh yenza amasistimu abuswa ngokuzimela akwazi ukuqaphelana, ukunikezana igunya, ukuhoxisa nokucwaningana ngaphandle kokudela ukuzibusa kwawo.",
     "meta": {
       "verify": "Qinisekisa",
       "verifyDesc": "ukuthi ubani ophethe igunya",
@@ -32,7 +35,12 @@
       "auditDesc": "ukuze kungadingeki ukholwe izwi lomuntu"
     },
     "scroll": "Skrola ↓",
-    "vlabel": "Ingqalasizinda Engachemile Ekuzimeleni Kwamazwe"
+    "vlabel": "Ingqalasizinda Engachemile Ekuzimeleni Kwamazwe",
+    "actions": {
+      "run": "Qalisa ubufakazi endaweni yakho",
+      "protocol": "Funda iphrothokholi",
+      "network": "Qinisekisa inethiwekhi ebukhoma"
+    }
   },
   "stakes": {
     "label": "Okusengcupheni",
@@ -176,8 +184,8 @@
       }
     ],
     "live": {
-      "title": "Bukhoma - Uxhaxha Lwamazwe Azimele Olusetshenziswa Abanakekeli",
-      "subtitle": "Amafu Amaningi / Okhiye Abazimele / Inqubomgomo Ezimele",
+      "title": "Ukufakwa Komphakathi Okuqhutshwa Abalondolozi",
+      "subtitle": "Okhiye Abazimele / Inqubomgomo Ezimele / Ubufakazi Obuphindaphindekayo",
       "network": "Inethiwekhi Yokuqashelana",
       "sovereigns": "Amazwe Azimele",
       "clouds": "Amafu",
@@ -198,7 +206,7 @@
   "live": {
     "label": "Bukhoma",
     "title": "Akusona isithembiso. Uhlelo olusebenzayo.",
-    "subtitle": "Imodeli eyodwa yegunya, esebenza ekukhiqizeni. Akulona uhlelo lokuhlola, futhi akusona isakhiwo sokubhekisela.",
+    "subtitle": "Ukufakwa komphakathi okuqhutshwa abalondolozi, okunobufakazi bephrothokholi obungaphindwa ngokuzimela.",
     "proof": {
       "version": "Ukukhishwa kwamanje",
       "cycles": "Imijikelezo yokwethembana ephelele",
@@ -224,7 +232,7 @@
       "title": "Le ngxoxo ayiqali nge-SDK.",
       "desc": "Funda indaba ephelele ye-Elections 2026 ukuze uthole isisekelo sefilosofi, bese uvula umzila oqondile, wangasese noyimfihlo. Awekho amafomu, awekho amafaneli, futhi abekho abalamuli.",
       "cta": "Funda Indaba Ephelele →",
-      "altText": "Umzila oqondile: thaer.saidi@outlook.com →"
+      "altText": "Umzila oqondile: authority@genesismesh.org →"
     }
   },
   "footer": {
@@ -243,5 +251,99 @@
     "title": "Genesis Mesh - Ungqimba Lwezivumelwano Lwemishini",
     "description": "Indwangu ezimele yokwethembana, yobunikazi neyokuxhumana yezinhlelo ezizenzelayo. Ayichemi ekuzimeleni futhi isezingeni lezivumelwano: qinisekisa, khawulela, hoxisa, cwaninga. Akuyona i-blockchain. Akuyona i-VPN. Akuyona i-service mesh.",
     "keywords": "ukwethembana okuzimele|ukuzimela ngokwedijithali|ubunikazi bomshini|Ed25519|izivumelwano zokubonana|ukuhoxisa|ingqalasizinda yokwethembana|Genesis Mesh|ungqimba lwezivumelwano|izinhlelo ezizenzelayo"
+  },
+  "trustCycle": {
+    "label": "Umjikelezo Owodwa Ophelele Wokwethembana",
+    "title": "Isicelo esifanayo siba nomphumela ohlukile lapho ukwethembana kushintsha.",
+    "subtitle": "Amasistimu amabili abuswa ngokuzimela asungula ukuqashelana okunomkhawulo, enze isinqumo sokugunyaza, asabalalise ukuhoxiswa, futhi akhiqize ukwenqatshwa okungacwaningwa ngaphandle kokwabelana ngomsuka wokwethembana.",
+    "sameRequest": "Ubunikazi obufanayo. Isicelo esifanayo. Isimo sokwethembana esihlukile.",
+    "before": "Ngaphambi kokuhoxiswa",
+    "after": "Ngemva kokungeniswa kokuhoxiswa",
+    "accepted": "SAMUKELWE",
+    "rejected": "SENQATSHIWE",
+    "steps": [
+      {
+        "title": "Kukhishwe ubufakazi obusayiniwe",
+        "description": "Isizinda esizimele B sisayinela ubunikazi obufaka isicelo ubufakazi obusayiniwe."
+      },
+      {
+        "title": "Kwaqashelwa isivumelwano sokuqashelana",
+        "description": "Isizinda esizimele A sivula isivumelwano sokuqashelana esinomkhawulo seSizinda esizimele B."
+      },
+      {
+        "title": "Isicelo samukelwe",
+        "description": "Ubufakazi obusayiniwe nesivumelwano kuyahlangabezana nenqubomgomo yendawo ka-A yokugunyaza."
+      },
+      {
+        "title": "Kuhoxiswe ubufakazi obusayiniwe",
+        "description": "Isizinda esizimele B sihoxisa leyo nto ethile yokwethembana."
+      },
+      {
+        "title": "Kungeniswe ukuhoxiswa",
+        "description": "U-A uqinisekisa ukusakaza okusayinwe ngu-B bese ebuyekeza isimo sakhe sokwethembana."
+      },
+      {
+        "title": "Isicelo esifanayo senqatshiwe",
+        "description": "Ubunikazi nesicelo esifanayo manje kuyehluleka ngesizathu esingacwaningwa."
+      }
+    ],
+    "evidence": {
+      "recorded": {
+        "label": "Ubufakazi oburekhodiwe",
+        "title": "Ukusebenza okurekhodiwe kwezizinda ezizimele",
+        "description": "Ubufakazi betheminali obungezansi burekhoda iphrothokholi lapho yeqa imingcele yokwethembana ye-Azure ne-DigitalOcean."
+      },
+      "reproducible": {
+        "label": "Ubufakazi obuphindaphindekayo",
+        "title": "Ziqalisele ngokwakho konke ukugeleza",
+        "description": "Isikripthi somphakathi siqalisa iziphathimandla ezimbili zesikhashana bese siphinda ukukhishwa, ukuqashelwa, ukuhoxiswa, ukungeniswa nokwenqatshwa."
+      },
+      "live": {
+        "label": "Isimo sokusebenza esibukhoma",
+        "title": "Qinisekisa ngokwehlukana isiphathimandla somphakathi",
+        "description": "Izinkomba zamanje ezihlanganisiwe zenethiwekhi zitholwa ngaphandle kokuncika embukisweni orekhodiwe."
+      }
+    },
+    "terminalSummary": "Hlola okukhiphayo kwetheminali okurekhodiwe",
+    "runLabel": "Kuphinde endaweni yakho",
+    "actions": {
+      "recorded": "Vula ubufakazi oburekhodiwe",
+      "run": "Ziqalisele lobu bufakazi",
+      "protocol": "Funda i-RFC-002 ne-RFC-004"
+    }
+  },
+  "liveNetwork": {
+    "label": "Ubufakazi Obubukhoma",
+    "title": "Qinisekisa inethiwekhi ebukhoma.",
+    "subtitle": "Ukufakwa komphakathi okuqhutshwa abalondolozi, okunobufakazi bephrothokholi obungaphindwa ngokuzimela.",
+    "status": {
+      "checking": "Kuhlolwa izinkomba ezibukhoma",
+      "live": "Izinkomba ezibukhoma ziyatholakala",
+      "stale": "Isevisi iyasebenza, kodwa idatha yokusakaza ukwethembana indala",
+      "degraded": "Isevisi ibika isimo esibuthakathaka",
+      "unavailable": "Idatha ayitholakali"
+    },
+    "health": {
+      "healthy": "Isebenza kahle",
+      "degraded": "Ibuthakathaka"
+    },
+    "metrics": {
+      "health": "Isimo sesevisi",
+      "sovereigns": "Izizinda ezizimele",
+      "edges": "Izixhumanisi zokuqashelana",
+      "treaties": "Izivumelwano ezisebenzayo",
+      "revocations": "Izinto zokwethembana ezihoxisiwe"
+    },
+    "checked": "Kuhlolwe",
+    "lastUpdate": "Ukubuyekezwa kokugcina kwenethiwekhi",
+    "freshness": "Ubusha bedatha",
+    "freshnessValues": {
+      "current": "Eyamanje",
+      "stale": "Endala"
+    },
+    "unknown": "Akwaziwa",
+    "disclaimer": "Izinkomba zokusebenza ezihlanganisiwe. Akuwona umbono ophelele wezokuphepha noma wokubusa.",
+    "unavailableMessage": "Idatha ebukhoma ayikwazanga ukuqinisekiswa. Awekho amanani agcinwe okwesikhashana avezwa njengamanje.",
+    "dashboard": "Hlola ideshibhodi yomphakathi"
   }
 }

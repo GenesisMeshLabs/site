@@ -7,7 +7,10 @@
       "mechanics": "運作機制",
       "protocol": "協定",
       "hardware": "晶片",
-      "docs": "文件"
+      "docs": "文件",
+      "proof": "證明",
+      "live": "即時網路",
+      "strategy": "策略"
     }
   },
   "ui": {
@@ -20,7 +23,7 @@
     "kicker": "公開簡報 / Genesis Mesh / 2026",
     "title": "任何國家都無須",
     "titleAccent": "交出的信任。",
-    "subtitle": "Genesis Mesh 是供主權系統使用的可攜式信任基礎設施，提供密碼學身分、相互承認條約及可撤銷的授權能力。無論是仍在尋求數位主權的 190 個國家，還是已經擁有數位主權的三大強權，都能以相同方式運作。",
+    "subtitle": "Genesis Mesh 讓各自獨立治理的系統能夠相互認可、授權、撤銷與稽核，而無須放棄自主權。",
     "meta": {
       "verify": "驗證",
       "verifyDesc": "誰掌握授權權",
@@ -32,7 +35,12 @@
       "auditDesc": "無須採信任何人的片面之詞"
     },
     "scroll": "向下捲動 ↓",
-    "vlabel": "主權中立基礎設施"
+    "vlabel": "主權中立基礎設施",
+    "actions": {
+      "run": "在本機執行證明流程",
+      "protocol": "閱讀通訊協定",
+      "network": "驗證即時網路"
+    }
   },
   "stakes": {
     "label": "攸關存亡",
@@ -176,8 +184,8 @@
       }
     ],
     "live": {
-      "title": "上線運作，由維護方營運的主權體叢集",
-      "subtitle": "多雲端 / 獨立金鑰 / 獨立政策",
+      "title": "由維護方營運的公開部署",
+      "subtitle": "獨立金鑰 / 獨立政策 / 可重現證明",
       "network": "相互承認網路",
       "sovereigns": "主權體",
       "clouds": "雲端",
@@ -198,7 +206,7 @@
   "live": {
     "label": "上線運作",
     "title": "不是承諾，而是正在運作的系統。",
-    "subtitle": "一套授權模型，已投入正式環境。不是試點，也不是參考架構。",
+    "subtitle": "由維護方營運的公開部署，提供可獨立重現的通訊協定證明。",
     "proof": {
       "version": "目前版本",
       "cycles": "完整信任週期",
@@ -224,7 +232,7 @@
       "title": "這場對話不會從 SDK 開始。",
       "desc": "閱讀完整的 Elections 2026 敘事，了解其理念依據，然後開啟直接且保密的溝通管道。不填表單，不進行漏斗式推銷，也沒有中間人。",
       "cta": "閱讀完整故事 →",
-      "altText": "直接聯絡管道：thaer.saidi@outlook.com →"
+      "altText": "直接聯絡管道：authority@genesismesh.org →"
     }
   },
   "footer": {
@@ -243,5 +251,99 @@
     "title": "Genesis Mesh - 機器之間的條約層",
     "description": "供自主系統使用的主權信任、身分與通訊架構。主權中立、條約等級：驗證、限制、撤銷、稽核。不是區塊鏈。不是 VPN。不是服務網格。",
     "keywords": "主權信任|數位主權|機器身分|Ed25519|相互承認條約|撤銷|信任基礎設施|Genesis Mesh|條約層|自主系統"
+  },
+  "trustCycle": {
+    "label": "一個完整的信任週期",
+    "title": "信任狀態改變時，相同請求的結果也會改變。",
+    "subtitle": "兩個各自獨立治理的系統建立限定範圍的認可信任關係、作出授權決策、傳播撤銷資訊，並在不共用信任根的情況下產生可稽核的拒絕結果。",
+    "sameRequest": "相同身分。相同請求。不同信任狀態。",
+    "before": "撤銷前",
+    "after": "匯入撤銷資訊後",
+    "accepted": "已接受",
+    "rejected": "已拒絕",
+    "steps": [
+      {
+        "title": "簽發證明",
+        "description": "自主域 B 為提出請求的身分簽署一份證明。"
+      },
+      {
+        "title": "認可信任協定",
+        "description": "自主域 A 為自主域 B 啟用一項限定範圍的認可信任協定。"
+      },
+      {
+        "title": "接受請求",
+        "description": "該證明與信任協定符合 A 的本機授權政策。"
+      },
+      {
+        "title": "撤銷證明",
+        "description": "自主域 B 撤銷該筆特定的信任資料。"
+      },
+      {
+        "title": "匯入撤銷資訊",
+        "description": "A 驗證 B 的已簽署資訊流，並更新自身的信任狀態。"
+      },
+      {
+        "title": "拒絕相同請求",
+        "description": "相同身分與請求現在無法通過，並產生可稽核的原因。"
+      }
+    ],
+    "evidence": {
+      "recorded": {
+        "label": "已記錄的證明",
+        "title": "已擷取的獨立自主域執行紀錄",
+        "description": "下方的終端機證據記錄了通訊協定跨越 Azure 與 DigitalOcean 信任邊界的過程。"
+      },
+      "reproducible": {
+        "label": "可重現的證明",
+        "title": "自行執行完整流程",
+        "description": "公開指令碼會啟動兩個暫時性權威實體，重現簽發、認可、撤銷、匯入與拒絕流程。"
+      },
+      "live": {
+        "label": "即時證明",
+        "title": "另外驗證公開權威實體",
+        "description": "目前的網路彙總訊號獨立擷取，不依賴已錄製的示範。"
+      }
+    },
+    "terminalSummary": "查看已錄製的終端機輸出",
+    "runLabel": "在本機重現",
+    "actions": {
+      "recorded": "開啟已記錄的證明",
+      "run": "自行執行此證明流程",
+      "protocol": "閱讀 RFC-002 與 RFC-004"
+    }
+  },
+  "liveNetwork": {
+    "label": "即時證明",
+    "title": "驗證即時網路。",
+    "subtitle": "由維護方營運的公開部署，提供可獨立重現的通訊協定證明。",
+    "status": {
+      "checking": "正在檢查即時訊號",
+      "live": "即時訊號可用",
+      "stale": "服務在線，但信任資訊流資料已過時",
+      "degraded": "服務回報降級狀態",
+      "unavailable": "資料無法取得"
+    },
+    "health": {
+      "healthy": "正常",
+      "degraded": "降級"
+    },
+    "metrics": {
+      "health": "服務健康狀態",
+      "sovereigns": "自主域",
+      "edges": "認可連結",
+      "treaties": "有效的信任協定",
+      "revocations": "已撤銷的信任資料"
+    },
+    "checked": "檢查時間",
+    "lastUpdate": "最近一次網路更新",
+    "freshness": "資料新鮮度",
+    "freshnessValues": {
+      "current": "最新",
+      "stale": "已過時"
+    },
+    "unknown": "未知",
+    "disclaimer": "此處僅提供彙總的運作訊號，並非完整的安全性或治理檢視。",
+    "unavailableMessage": "無法驗證即時資料。目前不會將快取值當作最新資料顯示。",
+    "dashboard": "查看公開儀表板"
   }
 }

@@ -8,7 +8,7 @@ export default function Mechanics() {
   return (
     <section id="mechanics">
       <div className="slabel rv">
-        <i>03</i> {t('label')}
+        <i>02</i> {t('label')}
       </div>
       <h2 className="rv">{t('title')}</h2>
       <p className="lead rv">{t('subtitle')}</p>

@@ -7,7 +7,10 @@
       "mechanics": "Toimemehhanism",
       "protocol": "Protokoll",
       "hardware": "Räni",
-      "docs": "Dokumentatsioon"
+      "docs": "Dokumentatsioon",
+      "proof": "Tõendus",
+      "live": "Reaalajavõrk",
+      "strategy": "Strateegia"
     }
   },
   "ui": {
@@ -20,7 +23,7 @@
     "kicker": "Avalik ülevaade / Genesis Mesh / 2026",
     "title": "Usaldus, millest ükski riik",
     "titleAccent": "ei pea loobuma.",
-    "subtitle": "Genesis Mesh on suveräänsete süsteemide teisaldatav usaldustaristu: krüptograafiline identiteet, vastastikuse tunnustamise lepingud ja tühistatavad volitused, mis toimivad ühtmoodi nii 190 riigi jaoks, kes alles otsivad digitaalset suveräänsust, kui ka kolme jaoks, kellel see juba on.",
+    "subtitle": "Genesis Mesh võimaldab sõltumatult hallatavatel süsteemidel üksteist tunnustada ja volitada, usaldusmaterjali tühistada ning üksteist auditeerida, ilma et nad loobuksid oma suveräänsusest.",
     "meta": {
       "verify": "Kontrolli",
       "verifyDesc": "kellel on volitus",
@@ -32,7 +35,12 @@
       "auditDesc": "et keegi ei peaks uskuma pelgalt teie sõnu"
     },
     "scroll": "Keri ↓",
-    "vlabel": "Suveräänsuse suhtes neutraalne taristu"
+    "vlabel": "Suveräänsuse suhtes neutraalne taristu",
+    "actions": {
+      "run": "Käivita tõendus kohalikult",
+      "protocol": "Loe protokolli",
+      "network": "Kontrolli reaalajavõrku"
+    }
   },
   "stakes": {
     "label": "Kaalul olev",
@@ -176,8 +184,8 @@
       }
     ],
     "live": {
-      "title": "Töös, haldaja käitatav suveräänne taristupark",
-      "subtitle": "Mitu pilve / sõltumatud võtmed / sõltumatud reeglid",
+      "title": "Haldajate käitatav avalik juurutus",
+      "subtitle": "Sõltumatud võtmed / Sõltumatu poliitika / Reprodutseeritavad tõendused",
       "network": "Tunnustusvõrk",
       "sovereigns": "Suveräänid",
       "clouds": "Pilved",
@@ -198,7 +206,7 @@
   "live": {
     "label": "Töös",
     "title": "Mitte lubadus, vaid töötav süsteem.",
-    "subtitle": "Üks volitusmudel tootmiskasutuses. Mitte katseprojekt ega etalonarhitektuur.",
+    "subtitle": "Haldajate käitatav avalik juurutus sõltumatult reprodutseeritavate protokollitõenditega.",
     "proof": {
       "version": "Praegune väljalase",
       "cycles": "Lõpetatud usaldustsüklid",
@@ -224,7 +232,7 @@
       "title": "See vestlus ei alga SDK-st.",
       "desc": "Lugege filosoofilise põhjenduse mõistmiseks kogu Elections 2026 käsitlust, seejärel avage otsene ja konfidentsiaalne suhtluskanal. Ei mingeid vorme, müügilehtreid ega vahendajaid.",
       "cta": "Lugege kogu lugu →",
-      "altText": "Otsekanal: thaer.saidi@outlook.com →"
+      "altText": "Otsekanal: authority@genesismesh.org →"
     }
   },
   "footer": {
@@ -243,5 +251,99 @@
     "title": "Genesis Mesh - masinate lepingukiht",
     "description": "Suveräänne usaldus-, identiteedi- ja sidekiht autonoomsetele süsteemidele. Suveräänsuse suhtes neutraalne ja lepingu tasemel: kontrolli, piira, tühista, auditeeri. Mitte plokiahel. Mitte VPN. Mitte teenusevõrk.",
     "keywords": "suveräänne usaldus|digitaalne suveräänsus|masinaidentiteet|Ed25519|tunnustamislepingud|tühistamine|usaldustaristu|Genesis Mesh|lepingukiht|autonoomsed süsteemid"
+  },
+  "trustCycle": {
+    "label": "Üks täielik usaldustsükkel",
+    "title": "Sama päringu tulemus muutub koos usaldusega.",
+    "subtitle": "Kaks sõltumatult hallatavat süsteemi loovad piiratud ulatusega tunnustuse, teevad volitusotsuse, levitavad tühistuse ja annavad auditeeritava tagasilükkamise, jagamata ühist usaldusjuurt.",
+    "sameRequest": "Sama identiteet. Sama päring. Erinev usaldusseisund.",
+    "before": "Enne tühistamist",
+    "after": "Pärast tühistuse importimist",
+    "accepted": "VASTU VÕETUD",
+    "rejected": "TAGASI LÜKATUD",
+    "steps": [
+      {
+        "title": "Tõend väljastatud",
+        "description": "Suveräänne domeen B allkirjastab päringu esitanud identiteedi tõendi."
+      },
+      {
+        "title": "Tunnustuslepe aktiveeritud",
+        "description": "Suveräänne domeen A aktiveerib suveräänse domeeni B jaoks piiratud ulatusega tunnustusleppe."
+      },
+      {
+        "title": "Päring vastu võetud",
+        "description": "Tõend ja lepe vastavad A kohalikule volituspoliitikale."
+      },
+      {
+        "title": "Tõend tühistatud",
+        "description": "Suveräänne domeen B võtab selle konkreetse usaldusmaterjali tagasi."
+      },
+      {
+        "title": "Tühistus imporditud",
+        "description": "A kontrollib B allkirjastatud voogu ja uuendab oma usaldusseisundit."
+      },
+      {
+        "title": "Identne päring tagasi lükatud",
+        "description": "Sama identiteedi sama päring nurjub nüüd auditeeritaval põhjusel."
+      }
+    ],
+    "evidence": {
+      "recorded": {
+        "label": "Salvestatud tõendus",
+        "title": "Salvestatud käitus sõltumatute suveräänsete domeenide vahel",
+        "description": "Allolevad terminaliandmed salvestavad protokolli liikumise üle Azure'i ja DigitalOceani usalduspiiride."
+      },
+      "reproducible": {
+        "label": "Reprodutseeritav tõendus",
+        "title": "Käivita kogu töövoog ise",
+        "description": "Avalik skript käivitab kaks ajutist autoriteeti ning reprodutseerib väljastamise, tunnustamise, tühistamise, importimise ja tagasilükkamise."
+      },
+      "live": {
+        "label": "Reaalajaline tööolek",
+        "title": "Kontrolli avalikku autoriteeti eraldi",
+        "description": "Võrgu praegused koondsignaalid hangitakse salvestatud demonstratsioonist sõltumatult."
+      }
+    },
+    "terminalSummary": "Vaata salvestatud terminaliväljundit",
+    "runLabel": "Reprodutseeri kohalikult",
+    "actions": {
+      "recorded": "Ava salvestatud tõendus",
+      "run": "Käivita see tõendus ise",
+      "protocol": "Loe RFC-002 ja RFC-004"
+    }
+  },
+  "liveNetwork": {
+    "label": "Reaalajaline tõendus",
+    "title": "Kontrolli reaalajavõrku.",
+    "subtitle": "Haldajate käitatav avalik juurutus sõltumatult reprodutseeritavate protokollitõenditega.",
+    "status": {
+      "checking": "Reaalajasignaalide kontrollimine",
+      "live": "Reaalajasignaalid on saadaval",
+      "stale": "Teenus töötab, kuid usaldusvoo andmed on aegunud",
+      "degraded": "Teenus teatab häiritud olekust",
+      "unavailable": "Andmed pole saadaval"
+    },
+    "health": {
+      "healthy": "Töökorras",
+      "degraded": "Häiritud"
+    },
+    "metrics": {
+      "health": "Teenuse seisund",
+      "sovereigns": "Suveräänsed domeenid",
+      "edges": "Tunnustusseosed",
+      "treaties": "Aktiivsed lepped",
+      "revocations": "Tühistatud usaldusmaterjal"
+    },
+    "checked": "Kontrollitud",
+    "lastUpdate": "Võrgu viimane uuendus",
+    "freshness": "Andmete ajakohasus",
+    "freshnessValues": {
+      "current": "Ajakohane",
+      "stale": "Aegunud"
+    },
+    "unknown": "Teadmata",
+    "disclaimer": "Koondatud töösignaalid. Need ei anna täielikku ülevaadet turvalisusest ega juhtimisest.",
+    "unavailableMessage": "Reaalajaandmeid ei saanud kontrollida. Puhverdatud väärtusi ei esitata ajakohastena.",
+    "dashboard": "Vaata avalikku töölauda"
   }
 }

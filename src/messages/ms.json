@@ -7,7 +7,10 @@
       "mechanics": "Mekanisme",
       "protocol": "Protokol",
       "hardware": "Silikon",
-      "docs": "Dokumentasi"
+      "docs": "Dokumentasi",
+      "proof": "Bukti",
+      "live": "Rangkaian Langsung",
+      "strategy": "Strategi"
     }
   },
   "ui": {
@@ -20,7 +23,7 @@
     "kicker": "Taklimat Awam / Genesis Mesh / 2026",
     "title": "Kepercayaan yang tidak perlu",
     "titleAccent": "diserahkan oleh mana-mana negara.",
-    "subtitle": "Genesis Mesh ialah infrastruktur kepercayaan mudah alih untuk sistem berdaulat, merangkumi identiti kriptografi, perjanjian pengiktirafan dan kuasa sah yang boleh ditarik balik, yang berfungsi dengan cara yang sama untuk 190 negara yang masih mencari kedaulatan digital dan untuk tiga kuasa yang sudah memilikinya.",
+    "subtitle": "Genesis Mesh membolehkan sistem yang ditadbir secara bebas saling mengiktiraf, memberi kuasa, membatalkan dan mengaudit tanpa melepaskan kedaulatan masing-masing.",
     "meta": {
       "verify": "Sahkan",
       "verifyDesc": "siapa yang memegang kuasa sah",
@@ -32,7 +35,12 @@
       "auditDesc": "supaya tiada sesiapa sekadar bergantung pada kata-kata anda"
     },
     "scroll": "Tatal ↓",
-    "vlabel": "Infrastruktur Neutral Kedaulatan"
+    "vlabel": "Infrastruktur Neutral Kedaulatan",
+    "actions": {
+      "run": "Jalankan bukti secara setempat",
+      "protocol": "Baca protokol",
+      "network": "Sahkan rangkaian langsung"
+    }
   },
   "stakes": {
     "label": "Taruhannya",
@@ -176,8 +184,8 @@
       }
     ],
     "live": {
-      "title": "Langsung - Armada Berdaulat Kendalian Penyelenggara",
-      "subtitle": "Berbilang Awan / Kunci Bebas / Dasar Bebas",
+      "title": "Pengerahan Awam Kendalian Penyelenggara",
+      "subtitle": "Kunci Bebas / Dasar Bebas / Bukti Boleh Dihasilkan Semula",
       "network": "Rangkaian Pengiktirafan",
       "sovereigns": "Negara Berdaulat",
       "clouds": "Awan",
@@ -198,7 +206,7 @@
   "live": {
     "label": "Langsung",
     "title": "Bukan sekadar janji. Sebuah sistem yang sedang beroperasi.",
-    "subtitle": "Satu model kuasa sah dalam persekitaran pengeluaran. Bukan perintis dan bukan seni bina rujukan.",
+    "subtitle": "Pengerahan awam kendalian penyelenggara dengan bukti protokol yang boleh dihasilkan semula secara bebas.",
     "proof": {
       "version": "Keluaran semasa",
       "cycles": "Kitaran kepercayaan lengkap",
@@ -224,7 +232,7 @@
       "title": "Perbincangan ini tidak bermula dengan SDK.",
       "desc": "Baca naratif penuh Elections 2026 untuk memahami hujah falsafahnya, kemudian buka saluran langsung yang peribadi dan sulit. Tiada borang, tiada corong pemasaran, tiada perantara.",
       "cta": "Baca Kisah Penuh →",
-      "altText": "Saluran langsung: thaer.saidi@outlook.com →"
+      "altText": "Saluran langsung: authority@genesismesh.org →"
     }
   },
   "footer": {
@@ -243,5 +251,99 @@
     "title": "Genesis Mesh - Lapisan Perjanjian untuk Mesin",
     "description": "Fabrik kepercayaan, identiti dan komunikasi berdaulat untuk sistem autonomi. Neutral kedaulatan dan bertaraf perjanjian: sahkan, hadkan, tarik balik, audit. Bukan rantaian blok. Bukan VPN. Bukan jejaring perkhidmatan.",
     "keywords": "kepercayaan berdaulat|kedaulatan digital|identiti mesin|Ed25519|perjanjian pengiktirafan|penarikan balik|infrastruktur kepercayaan|Genesis Mesh|lapisan perjanjian|sistem autonomi"
+  },
+  "trustCycle": {
+    "label": "Satu Kitaran Kepercayaan Lengkap",
+    "title": "Permintaan yang sama berubah apabila kepercayaan berubah.",
+    "subtitle": "Dua sistem yang ditadbir secara bebas mewujudkan pengiktirafan terhad, membuat keputusan pemberian kuasa, menyebarkan pembatalan dan menghasilkan penolakan yang boleh diaudit tanpa berkongsi akar kepercayaan.",
+    "sameRequest": "Identiti sama. Permintaan sama. Keadaan kepercayaan berbeza.",
+    "before": "Sebelum pembatalan",
+    "after": "Selepas import pembatalan",
+    "accepted": "DITERIMA",
+    "rejected": "DITOLAK",
+    "steps": [
+      {
+        "title": "Pengesahan bertandatangan dikeluarkan",
+        "description": "Domain berdaulat B menandatangani bahan pengesahan untuk identiti yang membuat permintaan."
+      },
+      {
+        "title": "Perjanjian pengiktirafan diaktifkan",
+        "description": "Domain berdaulat A mengaktifkan perjanjian pengiktirafan terhad untuk domain berdaulat B."
+      },
+      {
+        "title": "Permintaan diterima",
+        "description": "Pengesahan bertandatangan dan perjanjian tersebut memenuhi dasar pemberian kuasa setempat A."
+      },
+      {
+        "title": "Pengesahan bertandatangan dibatalkan",
+        "description": "Domain berdaulat B menarik balik bahan kepercayaan khusus itu."
+      },
+      {
+        "title": "Pembatalan diimport",
+        "description": "A mengesahkan suapan bertandatangan B dan mengemas kini keadaan kepercayaannya sendiri."
+      },
+      {
+        "title": "Permintaan yang sama ditolak",
+        "description": "Identiti dan permintaan yang sama kini gagal dengan sebab yang boleh diaudit."
+      }
+    ],
+    "evidence": {
+      "recorded": {
+        "label": "Bukti yang dirakam",
+        "title": "Pelaksanaan antara domain berdaulat bebas yang dirakam",
+        "description": "Bukti terminal di bawah merekodkan protokol yang merentasi sempadan kepercayaan Azure dan DigitalOcean."
+      },
+      "reproducible": {
+        "label": "Bukti yang boleh dihasilkan semula",
+        "title": "Jalankan sendiri keseluruhan aliran",
+        "description": "Skrip awam memulakan dua pihak berkuasa sementara dan menghasilkan semula pengeluaran, pengiktirafan, pembatalan, import dan penolakan."
+      },
+      "live": {
+        "label": "Status operasi langsung",
+        "title": "Sahkan pihak berkuasa awam secara berasingan",
+        "description": "Isyarat rangkaian agregat semasa diperoleh secara bebas daripada demonstrasi yang dirakam."
+      }
+    },
+    "terminalSummary": "Periksa output terminal yang dirakam",
+    "runLabel": "Hasilkan semula secara setempat",
+    "actions": {
+      "recorded": "Buka bukti yang dirakam",
+      "run": "Jalankan sendiri bukti ini",
+      "protocol": "Baca RFC-002 dan RFC-004"
+    }
+  },
+  "liveNetwork": {
+    "label": "Bukti Langsung",
+    "title": "Sahkan rangkaian langsung.",
+    "subtitle": "Pengerahan awam kendalian penyelenggara dengan bukti protokol yang boleh dihasilkan semula secara bebas.",
+    "status": {
+      "checking": "Memeriksa isyarat langsung",
+      "live": "Isyarat langsung tersedia",
+      "stale": "Perkhidmatan aktif, data suapan kepercayaan sudah lapuk",
+      "degraded": "Perkhidmatan melaporkan status terjejas",
+      "unavailable": "Data tidak tersedia"
+    },
+    "health": {
+      "healthy": "Baik",
+      "degraded": "Terjejas"
+    },
+    "metrics": {
+      "health": "Kesihatan perkhidmatan",
+      "sovereigns": "Domain berdaulat",
+      "edges": "Hubungan pengiktirafan",
+      "treaties": "Perjanjian aktif",
+      "revocations": "Bahan kepercayaan yang dibatalkan"
+    },
+    "checked": "Diperiksa",
+    "lastUpdate": "Kemas kini rangkaian terakhir",
+    "freshness": "Kesegaran data",
+    "freshnessValues": {
+      "current": "Semasa",
+      "stale": "Lapuk"
+    },
+    "unknown": "Tidak diketahui",
+    "disclaimer": "Isyarat operasi agregat. Bukan gambaran keselamatan atau tadbir urus yang lengkap.",
+    "unavailableMessage": "Data langsung tidak dapat disahkan. Tiada nilai cache dipaparkan sebagai data semasa.",
+    "dashboard": "Periksa papan pemuka awam"
   }
 }

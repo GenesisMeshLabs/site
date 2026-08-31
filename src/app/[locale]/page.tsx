@@ -1,12 +1,13 @@
 import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 import Nav from '@/components/Nav';
 import Hero from '@/components/Hero';
+import TrustCycle from '@/components/TrustCycle';
 import Stakes from '@/components/Stakes';
 import Powers from '@/components/Powers';
 import Mechanics from '@/components/Mechanics';
 import Protocol from '@/components/Protocol';
 import Silicon from '@/components/Silicon';
-import Live from '@/components/Live';
+import LiveNetwork from '@/components/LiveNetwork';
 import Closing from '@/components/Closing';
 import Footer from '@/components/Footer';
 import Reveal from '@/components/Reveal';
@@ -20,17 +21,19 @@ export default async function Home({ params: { locale } }: { params: { locale: s
       <Reveal />
       <Nav />
       <Hero />
+      <TrustCycle />
+      <hr className="divider" />
+      <Mechanics />
+      <hr className="divider" />
+      <LiveNetwork />
+      <hr className="divider" />
+      <Protocol />
+      <hr className="divider" />
       <Stakes />
       <hr className="divider" />
       <Powers />
       <hr className="divider" />
-      <Mechanics />
-      <hr className="divider" />
-      <Protocol />
-      <hr className="divider" />
       <Silicon />
-      <hr className="divider" />
-      <Live />
       <hr className="divider" />
       <Closing />
       <Footer />

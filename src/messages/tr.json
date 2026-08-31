@@ -7,7 +7,10 @@
       "mechanics": "Mekanik",
       "protocol": "Protokol",
       "hardware": "Silikon",
-      "docs": "Belgeler"
+      "docs": "Belgeler",
+      "proof": "Kanıt",
+      "live": "Canlı Ağ",
+      "strategy": "Strateji"
     }
   },
   "ui": {
@@ -20,7 +23,7 @@
     "kicker": "Kamuya Açık Bilgilendirme / Genesis Mesh / 2026",
     "title": "Hiçbir ulusun teslim etmek",
     "titleAccent": "zorunda olmadığı güven.",
-    "subtitle": "Genesis Mesh, egemen sistemler için taşınabilir bir güven altyapısıdır: kriptografik kimlik, tanıma antlaşmaları ve geri alınabilir yetki. Dijital egemenliği hâlâ arayan 190 ülke için de, ona zaten sahip olan üçü için de aynı şekilde çalışır.",
+    "subtitle": "Genesis Mesh, bağımsız olarak yönetilen sistemlerin egemenliklerinden vazgeçmeden birbirlerini tanımasını, yetkilendirmesini, güven materyalini iptal etmesini ve denetlemesini sağlar.",
     "meta": {
       "verify": "Doğrula",
       "verifyDesc": "yetkiyi kimin elinde tuttuğunu",
@@ -32,7 +35,12 @@
       "auditDesc": "kimse sözünüze inanmak zorunda kalmasın diye"
     },
     "scroll": "Kaydır ↓",
-    "vlabel": "Egemenlik Açısından Tarafsız Altyapı"
+    "vlabel": "Egemenlik Açısından Tarafsız Altyapı",
+    "actions": {
+      "run": "Kanıtı yerel olarak çalıştır",
+      "protocol": "Protokolü oku",
+      "network": "Canlı ağı doğrula"
+    }
   },
   "stakes": {
     "label": "Neyin Riski Var",
@@ -176,8 +184,8 @@
       }
     ],
     "live": {
-      "title": "Canlı - Bakımcı Tarafından İşletilen Egemen Filo",
-      "subtitle": "Çok Bulutlu / Bağımsız Anahtarlar / Bağımsız Politika",
+      "title": "Bakım Ekibi Tarafından İşletilen Herkese Açık Dağıtım",
+      "subtitle": "Bağımsız Anahtarlar / Bağımsız Politika / Tekrarlanabilir Kanıtlar",
       "network": "Karşılıklı Tanıma Ağı",
       "sovereigns": "Egemenler",
       "clouds": "Bulutlar",
@@ -198,7 +206,7 @@
   "live": {
     "label": "Canlı",
     "title": "Bir vaat değil. Çalışan bir sistem.",
-    "subtitle": "Tek bir yetki modeli, üretimde. Ne bir pilot ne de bir referans mimari.",
+    "subtitle": "Bakım ekibi tarafından işletilen, protokol kanıtları bağımsız olarak yeniden üretilebilen herkese açık dağıtım.",
     "proof": {
       "version": "Güncel sürüm",
       "cycles": "Tam güven döngüsü",
@@ -224,7 +232,7 @@
       "title": "Bu görüşme bir SDK ile başlamaz.",
       "desc": "Felsefi gerekçe için Elections 2026 anlatısının tamamını okuyun, ardından doğrudan, özel ve gizli bir iletişim kanalı açın. Form yok, huni yok, aracı yok.",
       "cta": "Hikâyenin tamamını okuyun →",
-      "altText": "Doğrudan kanal: thaer.saidi@outlook.com →"
+      "altText": "Doğrudan kanal: authority@genesismesh.org →"
     }
   },
   "footer": {
@@ -243,5 +251,99 @@
     "title": "Genesis Mesh - Makineler için Antlaşma Katmanı",
     "description": "Otonom sistemler için egemen bir güven, kimlik ve iletişim dokusu. Egemenlik açısından tarafsız, antlaşma düzeyinde: doğrula, sınırla, geri al, denetle. Blok zinciri değil. VPN değil. Servis ağı değil.",
     "keywords": "egemen güven|dijital egemenlik|makine kimliği|Ed25519|tanıma antlaşmaları|geri alma|güven altyapısı|Genesis Mesh|antlaşma katmanı|otonom sistemler"
+  },
+  "trustCycle": {
+    "label": "Eksiksiz Bir Güven Döngüsü",
+    "title": "Güven değiştiğinde aynı istek de değişir.",
+    "subtitle": "Bağımsız olarak yönetilen iki sistem, ortak bir güven kökünü paylaşmadan kapsamı belirli bir tanıma ilişkisi kurar, yetkilendirme kararı verir, iptali yayar ve denetlenebilir bir ret üretir.",
+    "sameRequest": "Aynı kimlik. Aynı istek. Farklı güven durumu.",
+    "before": "İptalden önce",
+    "after": "İptal içe aktarıldıktan sonra",
+    "accepted": "KABUL EDİLDİ",
+    "rejected": "REDDEDİLDİ",
+    "steps": [
+      {
+        "title": "Doğrulama beyanı düzenlendi",
+        "description": "Egemen Alan B, istekte bulunan kimlik için bir doğrulama beyanı imzalar."
+      },
+      {
+        "title": "Tanıma anlaşması kabul edildi",
+        "description": "Egemen Alan A, Egemen Alan B için kapsamı belirli bir tanıma anlaşmasını etkinleştirir."
+      },
+      {
+        "title": "İstek kabul edildi",
+        "description": "Doğrulama beyanı ve anlaşma, A'nın yerel yetkilendirme politikasını karşılar."
+      },
+      {
+        "title": "Doğrulama beyanı iptal edildi",
+        "description": "Egemen Alan B, söz konusu güven materyalini geri çeker."
+      },
+      {
+        "title": "İptal içe aktarıldı",
+        "description": "A, B'nin imzalı akışını doğrular ve kendi güven durumunu günceller."
+      },
+      {
+        "title": "Aynı istek reddedildi",
+        "description": "Aynı kimlik ve istek artık denetlenebilir bir gerekçeyle başarısız olur."
+      }
+    ],
+    "evidence": {
+      "recorded": {
+        "label": "Kaydedilmiş kanıt",
+        "title": "Kaydedilmiş bir bağımsız egemen alan çalıştırması",
+        "description": "Aşağıdaki terminal kanıtı, protokolün Azure ve DigitalOcean güven sınırlarını geçişini kaydeder."
+      },
+      "reproducible": {
+        "label": "Tekrarlanabilir kanıt",
+        "title": "Eksiksiz akışı kendiniz çalıştırın",
+        "description": "Herkese açık betik, iki geçici yetkili alan başlatır ve düzenleme, tanıma, iptal, içe aktarma ve ret adımlarını yeniden üretir."
+      },
+      "live": {
+        "label": "Canlı operasyonel durum",
+        "title": "Herkese açık yetkili alanı ayrıca doğrulayın",
+        "description": "Güncel toplu ağ sinyalleri, kaydedilmiş gösterimden bağımsız olarak alınır."
+      }
+    },
+    "terminalSummary": "Kaydedilmiş terminal çıktısını incele",
+    "runLabel": "Yerel olarak yeniden üret",
+    "actions": {
+      "recorded": "Kaydedilmiş kanıtı aç",
+      "run": "Bu kanıtı kendiniz çalıştırın",
+      "protocol": "RFC-002 ve RFC-004'ü okuyun"
+    }
+  },
+  "liveNetwork": {
+    "label": "Canlı Kanıt",
+    "title": "Canlı ağı doğrulayın.",
+    "subtitle": "Bakım ekibi tarafından işletilen, protokol kanıtları bağımsız olarak yeniden üretilebilen herkese açık dağıtım.",
+    "status": {
+      "checking": "Canlı sinyaller denetleniyor",
+      "live": "Canlı sinyaller kullanılabilir",
+      "stale": "Hizmet canlı, güven akışı verileri eski",
+      "degraded": "Hizmet, durumun bozulduğunu bildiriyor",
+      "unavailable": "Veriler kullanılamıyor"
+    },
+    "health": {
+      "healthy": "Sağlıklı",
+      "degraded": "Bozulmuş"
+    },
+    "metrics": {
+      "health": "Hizmet durumu",
+      "sovereigns": "Egemen alanlar",
+      "edges": "Tanıma bağlantıları",
+      "treaties": "Etkin anlaşmalar",
+      "revocations": "İptal edilmiş güven materyali"
+    },
+    "checked": "Kontrol zamanı",
+    "lastUpdate": "Son ağ güncellemesi",
+    "freshness": "Veri güncelliği",
+    "freshnessValues": {
+      "current": "Güncel",
+      "stale": "Eski"
+    },
+    "unknown": "Bilinmiyor",
+    "disclaimer": "Toplu operasyonel sinyaller. Güvenlik veya yönetişimin eksiksiz bir görünümü değildir.",
+    "unavailableMessage": "Canlı veriler doğrulanamadı. Önbelleğe alınmış hiçbir değer güncelmiş gibi sunulmuyor.",
+    "dashboard": "Herkese açık panoyu incele"
   }
 }

@@ -7,7 +7,10 @@
       "mechanics": "Működés",
       "protocol": "Protokoll",
       "hardware": "Szilícium",
-      "docs": "Dokumentáció"
+      "docs": "Dokumentáció",
+      "proof": "Bizonyíték",
+      "live": "Élő hálózat",
+      "strategy": "Stratégia"
     }
   },
   "ui": {
@@ -20,7 +23,7 @@
     "kicker": "Nyilvános tájékoztató / Genesis Mesh / 2026",
     "title": "Bizalom, amelyről egyetlen nemzetnek sem",
     "titleAccent": "kell lemondania.",
-    "subtitle": "A Genesis Mesh hordozható bizalmi infrastruktúra szuverén rendszerekhez: kriptográfiai identitás, kölcsönös elismerési szerződések és visszavonható felhatalmazás, amely ugyanúgy működik a digitális szuverenitást még kereső 190 ország, mint azzal már rendelkező három nagyhatalom számára.",
+    "subtitle": "A Genesis Mesh lehetővé teszi, hogy az egymástól függetlenül irányított rendszerek szuverenitásuk feladása nélkül kölcsönösen elismerjék és engedélyezzék egymást, visszavonják a bizalmi anyagokat, valamint auditálják egymást.",
     "meta": {
       "verify": "Ellenőrzés",
       "verifyDesc": "ki rendelkezik felhatalmazással",
@@ -32,7 +35,12 @@
       "auditDesc": "hogy senkinek se kelljen bemondásra hinnie"
     },
     "scroll": "Görgessen ↓",
-    "vlabel": "Szuverenitássemleges infrastruktúra"
+    "vlabel": "Szuverenitássemleges infrastruktúra",
+    "actions": {
+      "run": "Bizonyíték futtatása helyben",
+      "protocol": "A protokoll elolvasása",
+      "network": "Az élő hálózat ellenőrzése"
+    }
   },
   "stakes": {
     "label": "A tét",
@@ -176,8 +184,8 @@
       }
     ],
     "live": {
-      "title": "Élő rendszer - a karbantartók által üzemeltetett szuverén flotta",
-      "subtitle": "Több felhő / Független kulcsok / Független szabályozás",
+      "title": "Karbantartók által üzemeltetett nyilvános telepítés",
+      "subtitle": "Független kulcsok / Független szabályzat / Reprodukálható bizonyítékok",
       "network": "Elismerési hálózat",
       "sovereigns": "Szuverén szereplők",
       "clouds": "Felhők",
@@ -198,7 +206,7 @@
   "live": {
     "label": "Élő rendszer",
     "title": "Nem ígéret. Működő rendszer.",
-    "subtitle": "Egyetlen felhatalmazási modell, éles üzemben. Nem kísérleti projekt és nem referencia-architektúra.",
+    "subtitle": "A karbantartók által üzemeltetett nyilvános telepítés, függetlenül reprodukálható protokollbizonyítékokkal.",
     "proof": {
       "version": "Aktuális kiadás",
       "cycles": "Teljes bizalmi ciklusok",
@@ -224,7 +232,7 @@
       "title": "Ez a beszélgetés nem egy SDK-val kezdődik.",
       "desc": "Olvassa el az Elections 2026 teljes narratíváját a filozófiai érvelésért, majd nyisson közvetlen, bizalmas csatornát. Nincsenek űrlapok, értékesítési tölcsérek vagy közvetítők.",
       "cta": "A teljes történet elolvasása →",
-      "altText": "Közvetlen csatorna: thaer.saidi@outlook.com →"
+      "altText": "Közvetlen csatorna: authority@genesismesh.org →"
     }
   },
   "footer": {
@@ -243,5 +251,99 @@
     "title": "Genesis Mesh - A gépek szerződéses protokollrétege",
     "description": "Szuverén bizalmi, identitás- és kommunikációs szövet autonóm rendszerekhez. Szuverenitássemleges, szerződéses szintű: ellenőrzés, korlátozás, visszavonás, auditálás. Nem blokklánc. Nem VPN. Nem szolgáltatásháló.",
     "keywords": "szuverén bizalom|digitális szuverenitás|gépi identitás|Ed25519|elismerési szerződések|visszavonás|bizalmi infrastruktúra|Genesis Mesh|szerződéses protokollréteg|autonóm rendszerek"
+  },
+  "trustCycle": {
+    "label": "Egy teljes bizalmi ciklus",
+    "title": "Ugyanaz a kérés más eredményt ad, ha megváltozik a bizalom.",
+    "subtitle": "Két egymástól függetlenül irányított rendszer korlátozott hatókörű elismerést hoz létre, engedélyezési döntést hoz, továbbítja a visszavonást, és auditálható elutasítást állít elő közös bizalmi gyökér nélkül.",
+    "sameRequest": "Azonos identitás. Azonos kérés. Eltérő bizalmi állapot.",
+    "before": "Visszavonás előtt",
+    "after": "A visszavonás importálása után",
+    "accepted": "ELFOGADVA",
+    "rejected": "ELUTASÍTVA",
+    "steps": [
+      {
+        "title": "Tanúsítás kibocsátva",
+        "description": "A B szuverén tartomány aláír egy tanúsítást a kérelmező identitásához."
+      },
+      {
+        "title": "Elismerési megállapodás aktiválva",
+        "description": "Az A szuverén tartomány korlátozott hatókörű elismerési megállapodást aktivál a B szuverén tartomány számára."
+      },
+      {
+        "title": "Kérés elfogadva",
+        "description": "A tanúsítás és a megállapodás megfelel A helyi engedélyezési szabályzatának."
+      },
+      {
+        "title": "Tanúsítás visszavonva",
+        "description": "A B szuverén tartomány visszavonja ezt a konkrét bizalmi anyagot."
+      },
+      {
+        "title": "Visszavonás importálva",
+        "description": "A ellenőrzi B aláírt adatfolyamát, és frissíti saját bizalmi állapotát."
+      },
+      {
+        "title": "Azonos kérés elutasítva",
+        "description": "Ugyanaz az identitás és kérés most auditálható indokkal meghiúsul."
+      }
+    ],
+    "evidence": {
+      "recorded": {
+        "label": "Rögzített bizonyíték",
+        "title": "Független szuverén tartományok rögzített futtatása",
+        "description": "Az alábbi terminálbizonyíték rögzíti, ahogy a protokoll átlépi az Azure és a DigitalOcean bizalmi határait."
+      },
+      "reproducible": {
+        "label": "Reprodukálható bizonyíték",
+        "title": "Futtassa végig a teljes folyamatot",
+        "description": "A nyilvános szkript két ideiglenes hatóságot indít, és reprodukálja a kibocsátást, az elismerést, a visszavonást, az importálást és az elutasítást."
+      },
+      "live": {
+        "label": "Élő működési állapot",
+        "title": "Ellenőrizze külön a nyilvános hatóságot",
+        "description": "Az aktuális összesített hálózati jeleket a rendszer a rögzített bemutatótól függetlenül kéri le."
+      }
+    },
+    "terminalSummary": "A rögzített terminálkimenet megtekintése",
+    "runLabel": "Helyi reprodukálás",
+    "actions": {
+      "recorded": "Rögzített bizonyíték megnyitása",
+      "run": "A bizonyítás önálló futtatása",
+      "protocol": "Az RFC-002 és az RFC-004 elolvasása"
+    }
+  },
+  "liveNetwork": {
+    "label": "Élő bizonyíték",
+    "title": "Ellenőrizze az élő hálózatot.",
+    "subtitle": "A karbantartók által üzemeltetett nyilvános telepítés, függetlenül reprodukálható protokollbizonyítékokkal.",
+    "status": {
+      "checking": "Élő jelek ellenőrzése",
+      "live": "Az élő jelek elérhetők",
+      "stale": "Élő szolgáltatás, elavult bizalmi adatfolyam",
+      "degraded": "A szolgáltatás csökkent üzemállapotot jelez",
+      "unavailable": "Az adatok nem érhetők el"
+    },
+    "health": {
+      "healthy": "Megfelelő",
+      "degraded": "Csökkent üzemű"
+    },
+    "metrics": {
+      "health": "Szolgáltatás állapota",
+      "sovereigns": "Szuverén tartományok",
+      "edges": "Elismerési kapcsolatok",
+      "treaties": "Aktív megállapodások",
+      "revocations": "Visszavont bizalmi anyagok"
+    },
+    "checked": "Ellenőrizve",
+    "lastUpdate": "A hálózat utolsó frissítése",
+    "freshness": "Adatok frissessége",
+    "freshnessValues": {
+      "current": "Aktuális",
+      "stale": "Elavult"
+    },
+    "unknown": "Ismeretlen",
+    "disclaimer": "Összesített működési jelek. Nem adnak teljes képet a biztonságról vagy az irányításról.",
+    "unavailableMessage": "Az élő adatok nem voltak ellenőrizhetők. A gyorsítótárazott értékeket nem jelenítjük meg aktuálisként.",
+    "dashboard": "A nyilvános irányítópult megtekintése"
   }
 }

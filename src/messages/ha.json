@@ -7,7 +7,10 @@
       "mechanics": "Yadda yake Aiki",
       "protocol": "Ka'idar Sadarwa",
       "hardware": "Silicon",
-      "docs": "Takardu"
+      "docs": "Takardu",
+      "proof": "Hujja",
+      "live": "Cibiyar Sadarwa Kai Tsaye",
+      "strategy": "Dabara"
     }
   },
   "ui": {
@@ -20,7 +23,7 @@
     "kicker": "Taƙaitaccen Bayanin Jama'a / Genesis Mesh / 2026",
     "title": "Amincin da babu wata ƙasa",
     "titleAccent": "za ta zama dole ta sadaukar.",
-    "subtitle": "Genesis Mesh ababen more rayuwa ne na aminci da za a iya ɗauka don tsare-tsare masu ikon kansu, wato shaidar sirri ta kriptografi, yarjejeniyoyin amincewa, da ikon izini da za a iya janyewa, waɗanda ke aiki iri ɗaya ga ƙasashe 190 da har yanzu suke neman ikon kansu na dijital, da kuma ƙasashe uku da suka riga suka mallake shi.",
+    "subtitle": "Genesis Mesh yana bai wa tsarin da ake gudanarwa da kansu damar gane juna, ba da izini, soke amincewa da kuma binciken juna ba tare da sun bar ikon cin gashin kansu ba.",
     "meta": {
       "verify": "Tabbatar",
       "verifyDesc": "da wanda ke da ikon izini",
@@ -32,7 +35,12 @@
       "auditDesc": "don kada a dogara da maganarka kawai"
     },
     "scroll": "Gungura ↓",
-    "vlabel": "Ababen More Rayuwa Marasa Nuna Son Rai Kan Ikon Kai"
+    "vlabel": "Ababen More Rayuwa Marasa Nuna Son Rai Kan Ikon Kai",
+    "actions": {
+      "run": "Gudanar da hujjar a na'urarka",
+      "protocol": "Karanta ƙa'idar aiki",
+      "network": "Tabbatar da cibiyar sadarwa kai tsaye"
+    }
   },
   "stakes": {
     "label": "Abin da ke Cikin Haɗari",
@@ -176,8 +184,8 @@
       }
     ],
     "live": {
-      "title": "Kai Tsaye - Rukunin Tsare-tsare Masu Ikon Kansu da Masu Kulawa ke Tafiyarwa",
-      "subtitle": "Gajimare da Yawa / Maɓallai Masu Zaman Kansu / Manufofi Masu Zaman Kansu",
+      "title": "Aiwatarwar Jama'a da Masu Kula ke Gudanarwa",
+      "subtitle": "Maɓallai Masu Zaman Kansu / Manufofi Masu Zaman Kansu / Hujjojin da Za a Iya Maimaitawa",
       "network": "Cibiyar Amincewa",
       "sovereigns": "Masu Ikon Kansu",
       "clouds": "Gajimare",
@@ -198,7 +206,7 @@
   "live": {
     "label": "Kai Tsaye",
     "title": "Ba alkawari ba ne. Tsari ne da ke aiki.",
-    "subtitle": "Tsarin ikon izini guda ɗaya, yana aiki a zahiri. Ba gwajin farko ba ne, kuma ba tsarin gine-ginen da ake amfani da shi a matsayin misali ba ne.",
+    "subtitle": "Aiwatarwar jama'a da masu kula ke gudanarwa, tare da hujjojin ƙa'idar aiki da za a iya maimaita su da kansu.",
     "proof": {
       "version": "Fitowar yanzu",
       "cycles": "Cikakkun zagayen aminci",
@@ -224,7 +232,7 @@
       "title": "Wannan tattaunawar ba ta farawa da SDK.",
       "desc": "Karanta cikakken labarin Elections 2026 don fahimtar hujjar falsafa, sannan ka buɗe tashar sadarwa kai tsaye, ta sirri kuma amintacciya. Babu fom, babu matakan jan hankalin kwastoma, babu masu shiga tsakani.",
       "cta": "Karanta Cikakken Labarin →",
-      "altText": "Tashar kai tsaye: thaer.saidi@outlook.com →"
+      "altText": "Tashar kai tsaye: authority@genesismesh.org →"
     }
   },
   "footer": {
@@ -243,5 +251,99 @@
     "title": "Genesis Mesh - Matakin Yarjejeniya ga Na'urori",
     "description": "Tsarin aminci, shaida da sadarwa mai ikon kansa don tsare-tsare masu cin gashin kansu. Mara nuna son rai kan ikon kai, mai matsayin yarjejeniya: tabbatar, iyakance, janye, duba. Ba blockchain ba ne. Ba VPN ba ne. Ba service mesh ba ne.",
     "keywords": "aminci mai ikon kansa|ikon kai na dijital|shaidar na'ura|Ed25519|yarjejeniyoyin amincewa|janyewa|ababen more rayuwar aminci|Genesis Mesh|matakin yarjejeniya|tsare-tsare masu cin gashin kansu"
+  },
+  "trustCycle": {
+    "label": "Cikakken Zagayen Amincewa Guda Ɗaya",
+    "title": "Buƙata ɗaya tana canzawa idan matsayin amincewa ya canza.",
+    "subtitle": "Tsaruka biyu da ake gudanarwa dabam-dabam suna kafa yarjejeniyar gane juna mai iyaka, suna yanke shawarar izini, suna yaɗa sokewar amincewa, sannan su samar da ƙin amincewa da za a iya tantancewa, ba tare da raba tushen amincewa ba.",
+    "sameRequest": "Shaida ɗaya. Buƙata ɗaya. Matsayin amincewa daban.",
+    "before": "Kafin sokewa",
+    "after": "Bayan shigo da bayanin sokewa",
+    "accepted": "AN KARƁA",
+    "rejected": "AN ƘI",
+    "steps": [
+      {
+        "title": "An bayar da takardar shaida",
+        "description": "Sashin mai cin gashin kansa B ya sanya hannu kan takardar shaida ga asalin da ke yin buƙata."
+      },
+      {
+        "title": "An amince da yarjejeniya",
+        "description": "Sashin mai cin gashin kansa A ya kunna yarjejeniyar gane B mai iyakantaccen fage."
+      },
+      {
+        "title": "An karɓi buƙata",
+        "description": "Takardar shaida da yarjejeniyar sun cika manufofin izini na cikin gida na A."
+      },
+      {
+        "title": "An soke takardar shaida",
+        "description": "Sashin mai cin gashin kansa B ya janye wannan takamaiman kayan amincewa."
+      },
+      {
+        "title": "An shigo da bayanin sokewa",
+        "description": "A ya tabbatar da jerin bayanan B da aka sanya wa hannu, sannan ya sabunta matsayinsa na amincewa."
+      },
+      {
+        "title": "An ƙi buƙata iri ɗaya",
+        "description": "Yanzu wannan shaida da buƙata iri ɗaya sun gaza tare da dalilin da za a iya tantancewa."
+      }
+    ],
+    "evidence": {
+      "recorded": {
+        "label": "Hujjar da aka yi rikodi",
+        "title": "Gudanarwa tsakanin ɓangarori masu cin gashin kansu da aka ɗauka",
+        "description": "Hujjar tasha da ke ƙasa ta nuna yadda ƙa'idar aiki ta ketare iyakokin amincewa na Azure da DigitalOcean."
+      },
+      "reproducible": {
+        "label": "Hujjar da za a iya maimaitawa",
+        "title": "Gudanar da cikakken tsarin da kanka",
+        "description": "Rubutun umarni na jama'a yana ƙaddamar da hukumomi biyu na wucin gadi kuma ya maimaita bayarwa, ganewa, sokewa, shigo da bayanai da ƙin amincewa."
+      },
+      "live": {
+        "label": "Matsayin aiki kai tsaye",
+        "title": "Tabbatar da hukumar jama'a dabam",
+        "description": "Ana ɗauko jimillar alamomin cibiyar sadarwa na yanzu dabam da zanga-zangar da aka yi rikodi."
+      }
+    },
+    "terminalSummary": "Duba sakamakon tashar da aka yi rikodi",
+    "runLabel": "Maimaita a na'urarka",
+    "actions": {
+      "recorded": "Buɗe hujjar da aka yi rikodi",
+      "run": "Gudanar da wannan hujjar da kanka",
+      "protocol": "Karanta RFC-002 da RFC-004"
+    }
+  },
+  "liveNetwork": {
+    "label": "Hujja Kai Tsaye",
+    "title": "Tabbatar da cibiyar sadarwa kai tsaye.",
+    "subtitle": "Aiwatarwar jama'a da masu kula ke gudanarwa, tare da hujjojin ƙa'idar aiki da za a iya maimaita su da kansu.",
+    "status": {
+      "checking": "Ana duba alamomin kai tsaye",
+      "live": "Akwai alamomin kai tsaye",
+      "stale": "Sabis yana aiki, amma bayanan jerin amincewa sun tsufa",
+      "degraded": "Sabis ya bayar da rahoton raguwar inganci",
+      "unavailable": "Babu bayanai"
+    },
+    "health": {
+      "healthy": "Lafiya",
+      "degraded": "Inganci ya ragu"
+    },
+    "metrics": {
+      "health": "Lafiyar sabis",
+      "sovereigns": "Yankunan masu cin gashin kansu",
+      "edges": "Haɗin gane juna",
+      "treaties": "Yarjejeniyoyi masu aiki",
+      "revocations": "Kayan amincewa da aka soke"
+    },
+    "checked": "An duba",
+    "lastUpdate": "Sabuntawar cibiyar sadarwa ta ƙarshe",
+    "freshness": "Sabuntar bayanai",
+    "freshnessValues": {
+      "current": "Na yanzu",
+      "stale": "Sun tsufa"
+    },
+    "unknown": "Ba a sani ba",
+    "disclaimer": "Jimillar alamomin aiki ne. Ba cikakken bayani ne kan tsaro ko tsarin gudanarwa ba.",
+    "unavailableMessage": "Ba a iya tabbatar da bayanan kai tsaye ba. Ba a nuna tsoffin bayanan da aka adana a matsayin na yanzu ba.",
+    "dashboard": "Duba dashboard na jama'a"
   }
 }

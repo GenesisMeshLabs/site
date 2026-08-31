@@ -52,6 +52,9 @@ async function checkLocale({ code, dir }) {
   if (!html.includes(`href="/${code}/manifest.webmanifest"`)) {
     failures.push(`${code}: localized manifest link is missing`);
   }
+  if (!html.includes('authority@genesismesh.org')) {
+    failures.push(`${code}: authority contact is missing`);
+  }
   if (response.headers.has('link')) {
     failures.push(`${code}: duplicate middleware Link header is still present`);
   }
@@ -104,6 +107,49 @@ if (!sitemap.includes('hreflang="x-default"')) {
   failures.push('sitemap x-default is missing');
 }
 
+const securityResponse = await fetch(`${baseUrl}/.well-known/security.txt`);
+const securityText = await securityResponse.text();
+if (securityResponse.status !== 200) {
+  failures.push(`security.txt returned ${securityResponse.status}`);
+}
+if (!securityResponse.headers.get('content-type')?.includes('text/plain')) {
+  failures.push('security.txt has the wrong content type');
+}
+for (const requiredLine of [
+  'Contact: mailto:authority@genesismesh.org',
+  'Expires: 2027-09-01T00:00:00.000Z',
+  'Canonical: https://genesismesh.org/.well-known/security.txt',
+  'Policy: https://github.com/GenesisMeshLabs/genesismesh/security/policy',
+  'Preferred-Languages: en',
+]) {
+  if (!securityText.includes(requiredLine)) failures.push(`security.txt is missing ${requiredLine}`);
+}
+const liveProofResponse = await fetch(`${baseUrl}/api/live-proof`);
+const liveProof = await liveProofResponse.json();
+const liveKeys = Object.keys(liveProof).sort();
+const availableKeys = [
+  'activeTreaties',
+  'available',
+  'checkedAt',
+  'freshness',
+  'health',
+  'lastUpdatedAt',
+  'recognitionEdges',
+  'revocations',
+  'sovereignDomains',
+].sort();
+const unavailableKeys = ['available', 'checkedAt'].sort();
+const expectedLiveKeys = liveProof.available ? availableKeys : unavailableKeys;
+if (JSON.stringify(liveKeys) !== JSON.stringify(expectedLiveKeys)) {
+  failures.push(`live proof exposes unexpected fields: ${liveKeys.join(', ')}`);
+}
+if (liveProof.available && liveProofResponse.status !== 200) {
+  failures.push(`available live proof returned ${liveProofResponse.status}`);
+}
+if (!liveProof.available && liveProofResponse.status !== 503) {
+  failures.push(`unavailable live proof returned ${liveProofResponse.status}`);
+}
+
 const unknownResponse = await fetch(`${baseUrl}/xx-unsupported`, { redirect: 'manual' });
 if (unknownResponse.status !== 404) {
   failures.push(`unknown locale returned ${unknownResponse.status}, expected 404`);
@@ -122,5 +168,5 @@ if (failures.length > 0) {
 
 console.log(
   `Localized site check passed: ${locales.length} pages, ${locales.length} manifests, ` +
-    `${urlCount} sitemap URLs, and ${alternateCount} hreflang alternates.`
+    `${urlCount} sitemap URLs, ${alternateCount} hreflang alternates, security.txt, and safe live proof.`
 );

@@ -7,7 +7,10 @@
       "mechanics": "Toimintaperiaate",
       "protocol": "Protokolla",
       "hardware": "Pii",
-      "docs": "Dokumentaatio"
+      "docs": "Dokumentaatio",
+      "proof": "Todiste",
+      "live": "Reaaliaikainen verkko",
+      "strategy": "Strategia"
     }
   },
   "ui": {
@@ -20,7 +23,7 @@
     "kicker": "Julkinen katsaus / Genesis Mesh / 2026",
     "title": "Luottamus, josta yhdenkään valtion",
     "titleAccent": "ei tarvitse luopua.",
-    "subtitle": "Genesis Mesh on siirrettävä luottamusinfrastruktuuri suvereeneille järjestelmille: kryptografinen identiteetti, vastavuoroisen tunnustamisen sopimukset ja peruutettavissa oleva määräysvalta, jotka toimivat samalla tavalla niin 190 maalle, jotka yhä etsivät digitaalista suvereniteettia, kuin kolmelle suurvallalle, joilla se jo on.",
+    "subtitle": "Genesis Mesh mahdollistaa sen, että itsenäisesti hallitut järjestelmät voivat tunnistaa ja valtuuttaa toisensa, peruuttaa luottamuksen ja auditoida toimintaa luopumatta itsemääräämisoikeudestaan.",
     "meta": {
       "verify": "Varmenna",
       "verifyDesc": "kenellä on määräysvalta",
@@ -32,7 +35,12 @@
       "auditDesc": "jotta kenenkään sanaan ei tarvitse luottaa"
     },
     "scroll": "Vieritä ↓",
-    "vlabel": "Suvereniteettineutraali infrastruktuuri"
+    "vlabel": "Suvereniteettineutraali infrastruktuuri",
+    "actions": {
+      "run": "Suorita todiste paikallisesti",
+      "protocol": "Lue protokolla",
+      "network": "Todenna reaaliaikainen verkko"
+    }
   },
   "stakes": {
     "label": "Panokset",
@@ -176,8 +184,8 @@
       }
     ],
     "live": {
-      "title": "Käytössä - ylläpitäjän operoima suvereeni laivasto",
-      "subtitle": "Monipilvi / Itsenäiset avaimet / Itsenäinen toimintapolitiikka",
+      "title": "Ylläpitäjän operoima julkinen käyttöönotto",
+      "subtitle": "Itsenäiset avaimet / Itsenäinen käytäntö / Toistettavat todisteet",
       "network": "Tunnustamisverkosto",
       "sovereigns": "Suvereenit toimijat",
       "clouds": "Pilvet",
@@ -198,7 +206,7 @@
   "live": {
     "label": "Käytössä",
     "title": "Ei lupaus. Toimiva järjestelmä.",
-    "subtitle": "Yksi määräysvaltamalli tuotantokäytössä. Ei pilottihanke eikä viitearkkitehtuuri.",
+    "subtitle": "Ylläpitäjän operoima julkinen käyttöönotto, jonka protokollatodisteet voidaan toistaa itsenäisesti.",
     "proof": {
       "version": "Nykyinen julkaisu",
       "cycles": "Täydelliset luottamussyklit",
@@ -224,7 +232,7 @@
       "title": "Tämä keskustelu ei ala SDK:sta.",
       "desc": "Lue filosofiset perustelut koko Elections 2026 -kertomuksesta ja avaa sitten suora, yksityinen ja luottamuksellinen kanava. Ei lomakkeita, ei myyntiputkia, ei välikäsiä.",
       "cta": "Lue koko kertomus →",
-      "altText": "Suora kanava: thaer.saidi@outlook.com →"
+      "altText": "Suora kanava: authority@genesismesh.org →"
     }
   },
   "footer": {
@@ -243,5 +251,99 @@
     "title": "Genesis Mesh - koneiden sopimuskerros",
     "description": "Suvereeni luottamus-, identiteetti- ja viestintärakenne autonomisille järjestelmille. Suvereniteettineutraali ja sopimustasoinen: varmennus, rajaus, peruutus ja auditointi. Ei lohkoketju. Ei VPN. Ei palveluverkko.",
     "keywords": "suvereeni luottamus|digitaalinen suvereniteetti|koneidentiteetti|Ed25519|tunnustamissopimukset|peruutus|luottamusinfrastruktuuri|Genesis Mesh|sopimuskerros|autonomiset järjestelmät"
+  },
+  "trustCycle": {
+    "label": "Yksi täydellinen luottamussykli",
+    "title": "Sama pyyntö käsitellään eri tavalla luottamuksen muuttuessa.",
+    "subtitle": "Kaksi itsenäisesti hallittua järjestelmää muodostaa rajatun tunnustamissopimuksen, tekee valtuutuspäätöksen, välittää peruutuksen ja tuottaa auditoitavan hylkäyksen jakamatta yhteistä luottamusjuurta.",
+    "sameRequest": "Sama identiteetti. Sama pyyntö. Eri luottamustila.",
+    "before": "Ennen peruutusta",
+    "after": "Peruutuksen tuonnin jälkeen",
+    "accepted": "HYVÄKSYTTY",
+    "rejected": "HYLÄTTY",
+    "steps": [
+      {
+        "title": "Attestaatio myönnetty",
+        "description": "Suvereeni toimialue B allekirjoittaa pyytävän identiteetin attestaation."
+      },
+      {
+        "title": "Sopimus tunnustettu",
+        "description": "Suvereeni toimialue A aktivoi rajatun tunnustamissopimuksen suvereenille toimialueelle B."
+      },
+      {
+        "title": "Pyyntö hyväksytty",
+        "description": "Attestaatio ja sopimus täyttävät A:n paikallisen valtuutuskäytännön ehdot."
+      },
+      {
+        "title": "Attestaatio peruutettu",
+        "description": "Suvereeni toimialue B peruuttaa kyseisen luottamusmateriaalin."
+      },
+      {
+        "title": "Peruutus tuotu",
+        "description": "A todentaa B:n allekirjoitetun syötteen ja päivittää oman luottamustilansa."
+      },
+      {
+        "title": "Identtinen pyyntö hylätty",
+        "description": "Sama identiteetti ja pyyntö hylätään nyt auditoitavissa olevasta syystä."
+      }
+    ],
+    "evidence": {
+      "recorded": {
+        "label": "Tallennettu todiste",
+        "title": "Tallennettu ajo itsenäisten suvereenien toimialueiden välillä",
+        "description": "Alla oleva päätenäyttöaineisto tallentaa protokollan toiminnan Azure- ja DigitalOcean-luottamusrajojen yli."
+      },
+      "reproducible": {
+        "label": "Toistettava todiste",
+        "title": "Suorita koko työnkulku itse",
+        "description": "Julkinen komentosarja käynnistää kaksi väliaikaista auktoriteettia ja toistaa myöntämisen, tunnustamisen, peruuttamisen, tuonnin ja hylkäyksen."
+      },
+      "live": {
+        "label": "Reaaliaikainen toimintatila",
+        "title": "Todenna julkinen auktoriteetti erikseen",
+        "description": "Verkon nykyiset koostetut signaalit haetaan tallennetusta esittelystä riippumatta."
+      }
+    },
+    "terminalSummary": "Tarkastele tallennettua pääteistunnon tulostetta",
+    "runLabel": "Toista paikallisesti",
+    "actions": {
+      "recorded": "Avaa tallennettu todiste",
+      "run": "Suorita tämä todiste itse",
+      "protocol": "Lue RFC-002 ja RFC-004"
+    }
+  },
+  "liveNetwork": {
+    "label": "Reaaliaikainen todiste",
+    "title": "Todenna reaaliaikainen verkko.",
+    "subtitle": "Ylläpitäjän operoima julkinen käyttöönotto, jonka protokollatodisteet voidaan toistaa itsenäisesti.",
+    "status": {
+      "checking": "Tarkistetaan reaaliaikaisia signaaleja",
+      "live": "Reaaliaikaiset signaalit saatavilla",
+      "stale": "Palvelu toimii, mutta luottamussyötteen tiedot ovat vanhentuneet",
+      "degraded": "Palvelu ilmoittaa heikentyneestä tilasta",
+      "unavailable": "Tietoja ei ole saatavilla"
+    },
+    "health": {
+      "healthy": "Kunnossa",
+      "degraded": "Heikentynyt"
+    },
+    "metrics": {
+      "health": "Palvelun tila",
+      "sovereigns": "Suvereenit toimialueet",
+      "edges": "Tunnustamisyhteydet",
+      "treaties": "Aktiiviset sopimukset",
+      "revocations": "Peruutettu luottamusmateriaali"
+    },
+    "checked": "Tarkistettu",
+    "lastUpdate": "Verkon viimeisin päivitys",
+    "freshness": "Tietojen ajantasaisuus",
+    "freshnessValues": {
+      "current": "Ajantasainen",
+      "stale": "Vanhentunut"
+    },
+    "unknown": "Tuntematon",
+    "disclaimer": "Koostettuja toimintasignaaleja. Ei kattava näkymä tietoturvaan tai hallintoon.",
+    "unavailableMessage": "Reaaliaikaisia tietoja ei voitu todentaa. Välimuistissa olevia arvoja ei esitetä ajantasaisina.",
+    "dashboard": "Tarkastele julkista koontinäyttöä"
   }
 }

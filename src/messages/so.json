@@ -7,7 +7,10 @@
       "mechanics": "Habka Shaqada",
       "protocol": "Habmaamuuska",
       "hardware": "Silikoonka",
-      "docs": "Dukumentiyada"
+      "docs": "Dukumentiyada",
+      "proof": "Caddeyn",
+      "live": "Shabakadda Tooska ah",
+      "strategy": "Istaraatiijiyad"
     }
   },
   "ui": {
@@ -20,7 +23,7 @@
     "kicker": "Warbixin Dadweyne / Genesis Mesh / 2026",
     "title": "Kalsooni aanay qaranina",
     "titleAccent": "qasbanayn inuu ka tanaasulo.",
-    "subtitle": "Genesis Mesh waa kaabayaal kalsooni oo la qaadi karo, looguna talagalay nidaamyo qaran ay iyagu maamulaan: aqoonsi sirgudban, heshiisyo aqoonsi oo la kala saxeexday, iyo awood la laali karo, kuwaas oo si isku mid ah ugu shaqeeya 190-ka dal ee weli raadinaya madax-bannaani dijitaal ah iyo saddexda quwadood ee hore u haysta.",
+    "subtitle": "Genesis Mesh wuxuu u suurtageliyaa nidaamyo si madax-bannaan loo maamulo inay is aqoonsadaan, isu oggolaadaan, agabka kalsoonida kala noqdaan, isla markaana is hanti-dhawraan iyaga oo aan ka tanaasulin madax-bannaanidooda.",
     "meta": {
       "verify": "Xaqiiji",
       "verifyDesc": "cidda awoodda haysa",
@@ -32,7 +35,12 @@
       "auditDesc": "si aan hadalkaaga keliya loo rumaysan"
     },
     "scroll": "Hoos u rog ↓",
-    "vlabel": "Kaabayaal Dhexdhexaad ka ah Madax-bannaanida"
+    "vlabel": "Kaabayaal Dhexdhexaad ka ah Madax-bannaanida",
+    "actions": {
+      "run": "Caddeynta maxalli ahaan u socodsii",
+      "protocol": "Akhri hab-maamuuska",
+      "network": "Xaqiiji shabakadda tooska ah"
+    }
   },
   "stakes": {
     "label": "Waxa Halista ku Jira",
@@ -176,8 +184,8 @@
       }
     ],
     "live": {
-      "title": "Toos ah - Koox Nidaamyo Madax-bannaan oo Daryeeluhu Hawlgeliyo",
-      "subtitle": "Daruuro Badan / Furayaal Madaxbannaan / Siyaasad Madaxbannaan",
+      "title": "Hawlgelin Dadweyne oo ay Maamulaan Dayactirayaashu",
+      "subtitle": "Furayaal Madax-bannaan / Siyaasad Madax-bannaan / Caddeymo Dib Loo Soo Saari Karo",
       "network": "Shabakadda Aqoonsiga",
       "sovereigns": "Dawladaha Madax-bannaan",
       "clouds": "Daruuro",
@@ -198,7 +206,7 @@
   "live": {
     "label": "Toos ah",
     "title": "Ma aha ballanqaad. Waa nidaam shaqaynaya.",
-    "subtitle": "Hal hannaan awood-maamul ah oo wax-soo-saar ku jira. Ma aha tijaabo hordhac ah, mana aha naqshad tixraaceed.",
+    "subtitle": "Hawlgelin dadweyne oo ay maamulaan dayactirayaashu, leh caddeymo hab-maamuus oo si madax-bannaan dib loogu soo saari karo.",
     "proof": {
       "version": "Sii-daynta hadda",
       "cycles": "Wareegyada kalsoonida ee dhammaystiran",
@@ -224,7 +232,7 @@
       "title": "Wadahadalkani SDK kama bilaabmo.",
       "desc": "Akhri qisada buuxda ee Elections 2026 si aad u fahanto doodda falsafadeed, dabadeed fur xidhiidh toos ah oo gaar ah, sirna ah. Foomam ma jiraan, marinno suuqgeyn ma jiraan, dhexdhexaadiyeyaalna ma jiraan.",
       "cta": "Akhri Qisada oo Dhan →",
-      "altText": "Xidhiidh toos ah: thaer.saidi@outlook.com →"
+      "altText": "Xidhiidh toos ah: authority@genesismesh.org →"
     }
   },
   "footer": {
@@ -243,5 +251,99 @@
     "title": "Genesis Mesh - Lakabka Heshiiseed ee Mashiinnada",
     "description": "Lakab isku xidhan oo madax-bannaan oo kalsooni, aqoonsi iyo isgaadhsiin u ah nidaamyada is-maamula. Dhexdhexaad ka ah madax-bannaanida, heer heshiiseedna leh: xaqiiji, xaddid, laal, hanti-dhawr. Ma aha blockchain. Ma aha VPN. Ma aha shabakad adeegyo.",
     "keywords": "kalsooni madax-bannaan|madax-bannaani dijitaal ah|aqoonsiga mashiinka|Ed25519|heshiisyada aqoonsiga|laalid|kaabayaasha kalsoonida|Genesis Mesh|lakabka heshiiseed|nidaamyada is-maamula"
+  },
+  "trustCycle": {
+    "label": "Hal Wareeg Kalsooni oo Dhammaystiran",
+    "title": "Natiijada isla codsiga ayaa is beddesha marka kalsoonidu is beddesho.",
+    "subtitle": "Laba nidaam oo si madax-bannaan loo maamulo ayaa sameeya aqoonsi xaddidan, gaara go'aan oggolaansho, gudbiya kalsooni-kala-noqosho, kana soo saara diidmo la hanti-dhawri karo iyaga oo aan wadaagin xidid kalsooni.",
+    "sameRequest": "Isla aqoonsi. Isla codsi. Xaalad kalsooni oo kala duwan.",
+    "before": "Kahor kala-noqoshada",
+    "after": "Kadib soo dejinta kala-noqoshada",
+    "accepted": "LA AQBALAY",
+    "rejected": "LA DIIDAY",
+    "steps": [
+      {
+        "title": "Caddayn kalsooni ayaa la soo saaray",
+        "description": "Maamulka madax-bannaan B wuxuu saxeexaa caddayn kalsooni oo ku saabsan aqoonsiga codsanaya."
+      },
+      {
+        "title": "Heshiiska aqoonsiga waa la aqoonsaday",
+        "description": "Maamulka madax-bannaan A wuxuu hawlgeliyaa heshiis aqoonsi xaddidan oo loogu talagalay Maamulka madax-bannaan B."
+      },
+      {
+        "title": "Codsiga la aqbalay",
+        "description": "Caddaynta kalsoonida iyo heshiisku waxay buuxiyaan siyaasadda oggolaanshaha maxalliga ah ee A."
+      },
+      {
+        "title": "Caddaynta kalsoonida waa lagala noqday",
+        "description": "Maamulka madax-bannaan B wuxuu kala noqdaa agabkaas gaarka ah ee kalsoonida."
+      },
+      {
+        "title": "Kala-noqoshada la soo dejiyey",
+        "description": "A wuxuu xaqiijiyaa qulqulka xogta ee B saxeexay, wuxuuna cusboonaysiiyaa xaaladdiisa kalsooni."
+      },
+      {
+        "title": "Codsigii isku midka ahaa la diiday",
+        "description": "Isla aqoonsiga iyo codsiga ayaa hadda fashilma iyaga oo leh sabab la hanti-dhawri karo."
+      }
+    ],
+    "evidence": {
+      "recorded": {
+        "label": "Caddeyn la duubay",
+        "title": "Socod la qabtay oo dhex maraya maamullo madax-bannaan",
+        "description": "Caddeynta terminal-ka hoose waxay diiwaangelisaa hab-maamuuska oo ka gudbaya xuduudaha kalsoonida ee Azure iyo DigitalOcean."
+      },
+      "reproducible": {
+        "label": "Caddeyn dib loo soo saari karo",
+        "title": "Adigu socodsii qulqulka oo dhan",
+        "description": "Qoraalka dadweynaha wuxuu bilaabaa laba maamul oo ku-meel-gaar ah, wuxuuna dib u soo saaraa bixinta, aqoonsiga, kala-noqoshada, soo dejinta iyo diidmada."
+      },
+      "live": {
+        "label": "Xaaladda hawlgalka tooska ah",
+        "title": "Si gooni ah u xaqiiji maamulka dadweynaha",
+        "description": "Calaamadaha isku-darka ah ee hadda jira ee shabakadda waxaa loo soo qaataa si ka madax-bannaan bandhigga la duubay."
+      }
+    },
+    "terminalSummary": "Eeg wax-soo-saarka terminal-ka ee la duubay",
+    "runLabel": "Maxalli ahaan dib ugu soo saar",
+    "actions": {
+      "recorded": "Fur caddeynta la duubay",
+      "run": "Adigu socodsii caddeyntan",
+      "protocol": "Akhri RFC-002 iyo RFC-004"
+    }
+  },
+  "liveNetwork": {
+    "label": "Caddeyn Toos ah",
+    "title": "Xaqiiji shabakadda tooska ah.",
+    "subtitle": "Hawlgelin dadweyne oo ay maamulaan dayactirayaashu, leh caddeymo hab-maamuus oo si madax-bannaan dib loogu soo saari karo.",
+    "status": {
+      "checking": "Waxaa la hubinayaa calaamadaha tooska ah",
+      "live": "Calaamadaha tooska ah waa la heli karaa",
+      "stale": "Adeeggu waa toos, balse xogta qulqulka kalsoonidu waa duug",
+      "degraded": "Adeeggu wuxuu sheegaya xaalad hoos u dhacday",
+      "unavailable": "Xog lama heli karo"
+    },
+    "health": {
+      "healthy": "Caafimaad qaba",
+      "degraded": "Hoos u dhacay"
+    },
+    "metrics": {
+      "health": "Caafimaadka adeegga",
+      "sovereigns": "Qaybaha madax-bannaan",
+      "edges": "Xidhiidhada aqoonsiga",
+      "treaties": "Heshiisyada aqoonsiga ee firfircoon",
+      "revocations": "Agabka kalsoonida ee lagala noqday"
+    },
+    "checked": "La hubiyey",
+    "lastUpdate": "Cusboonaysiintii ugu dambaysay ee shabakadda",
+    "freshness": "Cusboonaanta xogta",
+    "freshnessValues": {
+      "current": "Hadda jirta",
+      "stale": "Duug"
+    },
+    "unknown": "Lama yaqaan",
+    "disclaimer": "Calaamado hawlgal oo la isku geeyey. Ma aha aragti dhammaystiran oo amniga ama maamulka ah.",
+    "unavailableMessage": "Xogta tooska ah lama xaqiijin karin. Qiimayaal kaydsan looma soo bandhigayo inay hadda jiraan.",
+    "dashboard": "Eeg dashboard-ka dadweynaha"
   }
 }

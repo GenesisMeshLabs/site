@@ -1,0 +1,5 @@
+Contact: mailto:authority@genesismesh.org
+Expires: 2027-09-01T00:00:00.000Z
+Canonical: https://genesismesh.org/.well-known/security.txt
+Policy: https://github.com/GenesisMeshLabs/genesismesh/security/policy
+Preferred-Languages: en

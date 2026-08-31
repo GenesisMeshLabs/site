@@ -7,7 +7,10 @@
       "mechanics": "Mechaniek",
       "protocol": "Protocol",
       "hardware": "Silicium",
-      "docs": "Documentatie"
+      "docs": "Documentatie",
+      "proof": "Bewijs",
+      "live": "Live netwerk",
+      "strategy": "Strategie"
     }
   },
   "ui": {
@@ -20,7 +23,7 @@
     "kicker": "Openbare Toelichting / Genesis Mesh / 2026",
     "title": "Vertrouwen dat geen enkele natie",
     "titleAccent": "hoeft af te staan.",
-    "subtitle": "Genesis Mesh is draagbare vertrouwensinfrastructuur voor soevereine systemen: cryptografische identiteit, erkenningsverdragen en intrekbare bevoegdheid, die net zo werken voor de 190 landen die nog naar digitale soevereiniteit zoeken als voor de drie die haar al hebben.",
+    "subtitle": "Met Genesis Mesh kunnen onafhankelijk bestuurde systemen elkaar erkennen, autoriseren, intrekken en auditen zonder hun autonomie op te geven.",
     "meta": {
       "verify": "Verifiëren",
       "verifyDesc": "wie het gezag heeft",
@@ -32,7 +35,12 @@
       "auditDesc": "zodat niemand u op uw woord hoeft te geloven"
     },
     "scroll": "Scroll ↓",
-    "vlabel": "Soevereiniteitsneutrale infrastructuur"
+    "vlabel": "Soevereiniteitsneutrale infrastructuur",
+    "actions": {
+      "run": "Voer het bewijs lokaal uit",
+      "protocol": "Lees het protocol",
+      "network": "Verifieer het live netwerk"
+    }
   },
   "stakes": {
     "label": "Wat Op Het Spel Staat",
@@ -176,8 +184,8 @@
       }
     ],
     "live": {
-      "title": "Live - Soevereine vloot beheerd door de maintainer",
-      "subtitle": "Multicloud / Onafhankelijke sleutels / Onafhankelijk beleid",
+      "title": "Door beheerders geëxploiteerde openbare implementatie",
+      "subtitle": "Onafhankelijke sleutels / Onafhankelijk beleid / Reproduceerbare bewijzen",
       "network": "Netwerk voor wederzijdse erkenning",
       "sovereigns": "Soevereinen",
       "clouds": "Clouds",
@@ -198,7 +206,7 @@
   "live": {
     "label": "Live",
     "title": "Geen belofte. Een draaiend systeem.",
-    "subtitle": "Eén gezagsmodel, in productie. Geen pilot en geen referentiearchitectuur.",
+    "subtitle": "Een door beheerders geëxploiteerde openbare implementatie met onafhankelijk reproduceerbare protocolbewijzen.",
     "proof": {
       "version": "Huidige release",
       "cycles": "Volledige vertrouwenscycli",
@@ -224,7 +232,7 @@
       "title": "Dit gesprek begint niet met een SDK.",
       "desc": "Lees het volledige Elections 2026-verhaal voor de filosofische onderbouwing en open daarna een direct, discreet kanaal. Geen formulieren, geen funnels, geen tussenpersonen.",
       "cta": "Lees het volledige verhaal →",
-      "altText": "Direct kanaal: thaer.saidi@outlook.com →"
+      "altText": "Direct kanaal: authority@genesismesh.org →"
     }
   },
   "footer": {
@@ -243,5 +251,99 @@
     "title": "Genesis Mesh - De verdragslaag voor machines",
     "description": "Een soeverein weefsel van vertrouwen, identiteit en communicatie voor autonome systemen. Soevereiniteitsneutraal en verdragswaardig: verifiëren, begrenzen, intrekken, auditen. Geen blockchain. Geen VPN. Geen service mesh.",
     "keywords": "soeverein vertrouwen|digitale soevereiniteit|machine-identiteit|Ed25519|erkenningsverdragen|intrekking|vertrouwensinfrastructuur|Genesis Mesh|verdragslaag|autonome systemen"
+  },
+  "trustCycle": {
+    "label": "Eén volledige vertrouwenscyclus",
+    "title": "Dezelfde aanvraag verandert wanneer het vertrouwen verandert.",
+    "subtitle": "Twee onafhankelijk bestuurde systemen stellen erkenning met een beperkte reikwijdte in, nemen een autorisatiebesluit, verspreiden een intrekking en produceren een auditeerbare afwijzing zonder een vertrouwensbasis te delen.",
+    "sameRequest": "Dezelfde identiteit. Dezelfde aanvraag. Een andere vertrouwensstatus.",
+    "before": "Vóór intrekking",
+    "after": "Na import van de intrekking",
+    "accepted": "GEACCEPTEERD",
+    "rejected": "AFGEWEZEN",
+    "steps": [
+      {
+        "title": "Attestatie uitgegeven",
+        "description": "Autonoom domein B ondertekent een attestatie voor de aanvragende identiteit."
+      },
+      {
+        "title": "Verdrag erkend",
+        "description": "Autonoom domein A activeert een erkenningsverdrag met beperkte reikwijdte voor autonoom domein B."
+      },
+      {
+        "title": "Aanvraag geaccepteerd",
+        "description": "De attestatie en het verdrag voldoen aan het lokale autorisatiebeleid van A."
+      },
+      {
+        "title": "Attestatie ingetrokken",
+        "description": "Autonoom domein B trekt dit specifieke vertrouwensmateriaal in."
+      },
+      {
+        "title": "Intrekking geïmporteerd",
+        "description": "A verifieert de ondertekende feed van B en werkt de eigen vertrouwensstatus bij."
+      },
+      {
+        "title": "Identieke aanvraag afgewezen",
+        "description": "Dezelfde identiteit en aanvraag mislukken nu met een auditeerbare reden."
+      }
+    ],
+    "evidence": {
+      "recorded": {
+        "label": "Vastgelegd bewijs",
+        "title": "Een vastgelegde uitvoering met onafhankelijke autonome domeinen",
+        "description": "Het terminalbewijs hieronder legt vast hoe het protocol de vertrouwensgrenzen van Azure en DigitalOcean overschrijdt."
+      },
+      "reproducible": {
+        "label": "Reproduceerbaar bewijs",
+        "title": "Voer zelf het volledige proces uit",
+        "description": "Het openbare script start twee tijdelijke autoriteiten en reproduceert uitgifte, erkenning, intrekking, import en afwijzing."
+      },
+      "live": {
+        "label": "Live operationele status",
+        "title": "Verifieer de openbare autoriteit afzonderlijk",
+        "description": "Actuele geaggregeerde netwerksignalen worden onafhankelijk van de vastgelegde demonstratie opgehaald."
+      }
+    },
+    "terminalSummary": "Bekijk de vastgelegde terminaluitvoer",
+    "runLabel": "Lokaal reproduceren",
+    "actions": {
+      "recorded": "Open het vastgelegde bewijs",
+      "run": "Voer dit bewijs zelf uit",
+      "protocol": "Lees RFC-002 en RFC-004"
+    }
+  },
+  "liveNetwork": {
+    "label": "Live bewijs",
+    "title": "Verifieer het live netwerk.",
+    "subtitle": "Een door beheerders geëxploiteerde openbare implementatie met onafhankelijk reproduceerbare protocolbewijzen.",
+    "status": {
+      "checking": "Live signalen worden gecontroleerd",
+      "live": "Live signalen beschikbaar",
+      "stale": "Live service, verouderde vertrouwensfeedgegevens",
+      "degraded": "Service meldt een verminderde status",
+      "unavailable": "Gegevens niet beschikbaar"
+    },
+    "health": {
+      "healthy": "Gezond",
+      "degraded": "Verminderd"
+    },
+    "metrics": {
+      "health": "Servicestatus",
+      "sovereigns": "Autonome domeinen",
+      "edges": "Erkenningsrelaties",
+      "treaties": "Actieve verdragen",
+      "revocations": "Ingetrokken vertrouwensmateriaal"
+    },
+    "checked": "Gecontroleerd",
+    "lastUpdate": "Laatste netwerkupdate",
+    "freshness": "Actualiteit van gegevens",
+    "freshnessValues": {
+      "current": "Actueel",
+      "stale": "Verouderd"
+    },
+    "unknown": "Onbekend",
+    "disclaimer": "Geaggregeerde operationele signalen. Geen volledig beeld van beveiliging of governance.",
+    "unavailableMessage": "De live gegevens konden niet worden geverifieerd. Waarden uit de cache worden niet als actueel gepresenteerd.",
+    "dashboard": "Bekijk het openbare dashboard"
   }
 }

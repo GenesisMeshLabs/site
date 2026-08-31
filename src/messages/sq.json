@@ -7,7 +7,10 @@
       "mechanics": "Mekanika",
       "protocol": "Protokolli",
       "hardware": "Silici",
-      "docs": "Dokumentacioni"
+      "docs": "Dokumentacioni",
+      "proof": "Provë",
+      "live": "Rrjeti drejtpërdrejt",
+      "strategy": "Strategjia"
     }
   },
   "ui": {
@@ -20,7 +23,7 @@
     "kicker": "Përmbledhje publike / Genesis Mesh / 2026",
     "title": "Besimi që asnjë komb",
     "titleAccent": "nuk duhet ta dorëzojë.",
-    "subtitle": "Genesis Mesh është infrastrukturë portative besimi për sisteme sovrane: identitet kriptografik, traktate njohjeje dhe autoritet i revokueshëm që funksionojnë njësoj si për 190 vendet që ende kërkojnë sovranitet digjital, ashtu edhe për tri fuqitë që e kanë tashmë.",
+    "subtitle": "Genesis Mesh u mundëson sistemeve të administruara në mënyrë të pavarur të njohin dhe autorizojnë njëri-tjetrin, të revokojnë materialin e besimit dhe të auditojnë njëri-tjetrin pa hequr dorë nga sovraniteti.",
     "meta": {
       "verify": "Verifiko",
       "verifyDesc": "kush e zotëron autoritetin",
@@ -32,7 +35,12 @@
       "auditDesc": "që askush të mos mbështetet vetëm te fjala juaj"
     },
     "scroll": "Lëviz poshtë ↓",
-    "vlabel": "Infrastrukturë neutrale ndaj sovranitetit"
+    "vlabel": "Infrastrukturë neutrale ndaj sovranitetit",
+    "actions": {
+      "run": "Ekzekutojeni provën lokalisht",
+      "protocol": "Lexoni protokollin",
+      "network": "Verifikoni rrjetin drejtpërdrejt"
+    }
   },
   "stakes": {
     "label": "Çfarë është në lojë",
@@ -176,8 +184,8 @@
       }
     ],
     "live": {
-      "title": "Aktiv - Flotë sovrane e operuar nga mirëmbajtësi",
-      "subtitle": "Shumë-re / Çelësa të pavarur / Politikë e pavarur",
+      "title": "Instalim Publik i Operuar nga Mirëmbajtësit",
+      "subtitle": "Çelësa të Pavarur / Politikë e Pavarur / Prova të Riprodhueshme",
       "network": "Rrjeti i njohjes",
       "sovereigns": "Shtete sovrane",
       "clouds": "Retë",
@@ -198,7 +206,7 @@
   "live": {
     "label": "Aktiv",
     "title": "Jo një premtim. Një sistem në funksionim.",
-    "subtitle": "Një model autoriteti, në prodhim. Jo projekt pilot dhe jo arkitekturë reference.",
+    "subtitle": "Instalim publik i operuar nga mirëmbajtësit, me prova protokolli të riprodhueshme në mënyrë të pavarur.",
     "proof": {
       "version": "Versioni aktual",
       "cycles": "Cikle të plota besimi",
@@ -224,7 +232,7 @@
       "title": "Kjo bisedë nuk fillon me një SDK.",
       "desc": "Lexoni narrativën e plotë Elections 2026 për argumentin filozofik, pastaj hapni një kanal të drejtpërdrejtë, privat dhe konfidencial. Pa formularë, pa kanale konvertimi, pa ndërmjetës.",
       "cta": "Lexoni historinë e plotë →",
-      "altText": "Kanal i drejtpërdrejtë: thaer.saidi@outlook.com →"
+      "altText": "Kanal i drejtpërdrejtë: authority@genesismesh.org →"
     }
   },
   "footer": {
@@ -243,5 +251,99 @@
     "title": "Genesis Mesh - Shtresa e traktateve për makinat",
     "description": "Një strukturë sovrane besimi, identiteti dhe komunikimi për sisteme autonome. Neutrale ndaj sovranitetit dhe e denjë për traktate: verifiko, kufizo, revoko, audito. Jo blockchain. Jo VPN. Jo rrjet shërbimesh.",
     "keywords": "besim sovran|sovranitet digjital|identitet makine|Ed25519|traktate njohjeje|revokim|infrastrukturë besimi|Genesis Mesh|shtresë traktatesh|sisteme autonome"
+  },
+  "trustCycle": {
+    "label": "Një Cikël i Plotë Besimi",
+    "title": "Rezultati i së njëjtës kërkesë ndryshon kur ndryshon besimi.",
+    "subtitle": "Dy sisteme të administruara në mënyrë të pavarur vendosin njohje me fushëveprim të kufizuar, marrin një vendim autorizimi, përhapin revokimin dhe prodhojnë një refuzim të auditueshëm pa ndarë një rrënjë besimi.",
+    "sameRequest": "I njëjti identitet. E njëjta kërkesë. Gjendje tjetër besimi.",
+    "before": "Para revokimit",
+    "after": "Pas importimit të revokimit",
+    "accepted": "PRANUAR",
+    "rejected": "REFUZUAR",
+    "steps": [
+      {
+        "title": "U lëshua atestimi",
+        "description": "Autoriteti sovran B nënshkruan një atestim për identitetin kërkues."
+      },
+      {
+        "title": "U njoh marrëveshja",
+        "description": "Autoriteti sovran A aktivizon një marrëveshje njohjeje me fushëveprim të kufizuar për autoritetin sovran B."
+      },
+      {
+        "title": "Kërkesa u pranua",
+        "description": "Atestimi dhe marrëveshja plotësojnë politikën lokale të autorizimit të A-së."
+      },
+      {
+        "title": "Atestimi u revokua",
+        "description": "Autoriteti sovran B tërheq atë material specifik besimi."
+      },
+      {
+        "title": "Revokimi u importua",
+        "description": "A verifikon furnizimin e nënshkruar të B-së dhe përditëson gjendjen e vet të besimit."
+      },
+      {
+        "title": "Kërkesa identike u refuzua",
+        "description": "I njëjti identitet dhe e njëjta kërkesë tani dështojnë me një arsye të auditueshme."
+      }
+    ],
+    "evidence": {
+      "recorded": {
+        "label": "Provë e regjistruar",
+        "title": "Një ekzekutim i regjistruar mes autoritetesh sovrane të pavarura",
+        "description": "Evidenca e terminalit më poshtë regjistron kalimin e protokollit përtej kufijve të besimit të Azure dhe DigitalOcean."
+      },
+      "reproducible": {
+        "label": "Provë e riprodhueshme",
+        "title": "Ekzekutojeni vetë të gjithë rrjedhën",
+        "description": "Skripti publik nis dy autoritete të përkohshme dhe riprodhon lëshimin, njohjen, revokimin, importimin dhe refuzimin."
+      },
+      "live": {
+        "label": "Gjendja operative drejtpërdrejt",
+        "title": "Verifikoni veçmas autoritetin publik",
+        "description": "Sinjalet aktuale të agreguara të rrjetit merren në mënyrë të pavarur nga demonstrimi i regjistruar."
+      }
+    },
+    "terminalSummary": "Shqyrtoni daljen e regjistruar të terminalit",
+    "runLabel": "Riprodhojeni lokalisht",
+    "actions": {
+      "recorded": "Hapni provën e regjistruar",
+      "run": "Ekzekutojeni vetë këtë provë",
+      "protocol": "Lexoni RFC-002 dhe RFC-004"
+    }
+  },
+  "liveNetwork": {
+    "label": "Provë drejtpërdrejt",
+    "title": "Verifikoni rrjetin drejtpërdrejt.",
+    "subtitle": "Instalim publik i operuar nga mirëmbajtësit, me prova protokolli të riprodhueshme në mënyrë të pavarur.",
+    "status": {
+      "checking": "Po kontrollohen sinjalet drejtpërdrejt",
+      "live": "Sinjalet drejtpërdrejt janë të disponueshme",
+      "stale": "Shërbimi është aktiv, por të dhënat e furnizimit të besimit janë të vjetruara",
+      "degraded": "Shërbimi raporton gjendje të degraduar",
+      "unavailable": "Të dhënat nuk disponohen"
+    },
+    "health": {
+      "healthy": "Në gjendje të mirë",
+      "degraded": "I degraduar"
+    },
+    "metrics": {
+      "health": "Gjendja e shërbimit",
+      "sovereigns": "Domenet sovrane",
+      "edges": "Lidhjet e njohjes",
+      "treaties": "Marrëveshjet aktive të njohjes",
+      "revocations": "Materiali i revokuar i besimit"
+    },
+    "checked": "Kontrolluar",
+    "lastUpdate": "Përditësimi i fundit i rrjetit",
+    "freshness": "Aktualiteti i të dhënave",
+    "freshnessValues": {
+      "current": "Aktuale",
+      "stale": "Të vjetruara"
+    },
+    "unknown": "E panjohur",
+    "disclaimer": "Sinjale operative të agreguara. Nuk përbëjnë një pamje të plotë të sigurisë ose qeverisjes.",
+    "unavailableMessage": "Të dhënat drejtpërdrejt nuk mund të verifikoheshin. Asnjë vlerë nga memoria e përkohshme nuk po paraqitet si aktuale.",
+    "dashboard": "Shqyrtoni panelin publik"
   }
 }

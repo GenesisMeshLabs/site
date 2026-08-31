@@ -7,7 +7,10 @@
       "mechanics": "Ishlash mexanizmi",
       "protocol": "Protokol",
       "hardware": "Kremniy",
-      "docs": "Hujjatlar"
+      "docs": "Hujjatlar",
+      "proof": "Isbot",
+      "live": "Jonli tarmoq",
+      "strategy": "Strategiya"
     }
   },
   "ui": {
@@ -20,7 +23,7 @@
     "kicker": "Ommaviy ma’lumotnoma / Genesis Mesh / 2026",
     "title": "Hech bir davlat voz kechishi",
     "titleAccent": "shart bo‘lmagan ishonch.",
-    "subtitle": "Genesis Mesh suveren tizimlar uchun ko‘chma ishonch infratuzilmasidir: kriptografik identifikatsiya, o‘zaro tan olish shartnomalari va bekor qilinadigan vakolat. Ular raqamli suverenitet formulasini izlayotgan 190 ta mamlakat uchun ham, unga allaqachon ega bo‘lgan uch qudrat uchun ham bir xil ishlaydi.",
+    "subtitle": "Genesis Mesh mustaqil boshqariladigan tizimlarga o‘z suverenitetidan voz kechmasdan bir-birini tan olish, avtorizatsiya qilish, ishonch materialini bekor qilish va auditdan o‘tkazish imkonini beradi.",
     "meta": {
       "verify": "Tekshirish",
       "verifyDesc": "vakolat kimga tegishli ekanini",
@@ -32,7 +35,12 @@
       "auditDesc": "hech kimning gapiga ishonishga to‘g‘ri kelmasligi uchun"
     },
     "scroll": "Pastga ↓",
-    "vlabel": "Suverenitetga nisbatan betaraf infratuzilma"
+    "vlabel": "Suverenitetga nisbatan betaraf infratuzilma",
+    "actions": {
+      "run": "Isbotni lokal ishga tushirish",
+      "protocol": "Protokolni o‘qish",
+      "network": "Jonli tarmoqni tekshirish"
+    }
   },
   "stakes": {
     "label": "Dolzarb masala",
@@ -176,8 +184,8 @@
       }
     ],
     "live": {
-      "title": "Faol, qo‘llab-quvvatlovchilar tomonidan boshqariladigan suveren flot",
-      "subtitle": "Ko‘p bulutli / Mustaqil kalitlar / Mustaqil siyosat",
+      "title": "Texnik xizmat ko‘rsatuvchilar boshqaradigan ochiq joylashtirish",
+      "subtitle": "Mustaqil kalitlar / Mustaqil siyosat / Takrorlanadigan isbotlar",
       "network": "O‘zaro tan olish tarmog‘i",
       "sovereigns": "Suverenlar",
       "clouds": "Bulutlar",
@@ -198,7 +206,7 @@
   "live": {
     "label": "Faol tizim",
     "title": "Bu va’da emas. Bu ishlab turgan tizim.",
-    "subtitle": "Yagona vakolat modeli amaliy muhitda ishlamoqda. Bu pilot loyiha ham, namunaviy arxitektura ham emas.",
+    "subtitle": "Texnik xizmat ko‘rsatuvchilar boshqaradigan, protokol isbotlarini mustaqil ravishda takrorlash mumkin bo‘lgan ochiq joylashtirish.",
     "proof": {
       "version": "Joriy reliz",
       "cycles": "To‘liq ishonch sikllari",
@@ -224,7 +232,7 @@
       "title": "Bu suhbat SDKdan boshlanmaydi.",
       "desc": "Avval falsafiy asoslar bayon etilgan to‘liq Elections 2026 hikoyasini o‘qing, so‘ng bevosita va maxfiy aloqa kanalini oching. Shakllar ham, voronkalar ham, vositachilar ham yo‘q.",
       "cta": "To‘liq hikoyani o‘qing →",
-      "altText": "Bevosita kanal: thaer.saidi@outlook.com →"
+      "altText": "Bevosita kanal: authority@genesismesh.org →"
     }
   },
   "footer": {
@@ -243,5 +251,99 @@
     "title": "Genesis Mesh - Mashinalar uchun shartnoma qatlami",
     "description": "Avtonom tizimlar uchun suveren ishonch, identifikatsiya va aloqa muhiti. Suverenitetga nisbatan betaraf, shartnoma darajasida: tekshirish, cheklash, bekor qilish, audit qilish. Blokcheyn emas. VPN emas. Xizmatlar meshi emas.",
     "keywords": "suveren ishonch|raqamli suverenitet|mashina identifikatsiyasi|Ed25519|o‘zaro tan olish shartnomalari|bekor qilish|ishonch infratuzilmasi|Genesis Mesh|shartnoma qatlami|avtonom tizimlar"
+  },
+  "trustCycle": {
+    "label": "Bitta to‘liq ishonch sikli",
+    "title": "Ishonch o‘zgarsa, ayni so‘rovning natijasi ham o‘zgaradi.",
+    "subtitle": "Mustaqil boshqariladigan ikkita tizim umumiy ishonch ildizidan foydalanmasdan, doirasi cheklangan tan olish munosabatini o‘rnatadi, avtorizatsiya qarorini qabul qiladi, bekor qilish ma’lumotini tarqatadi va audit qilinadigan rad javobini yaratadi.",
+    "sameRequest": "Ayni identifikatsiya. Ayni so‘rov. Boshqa ishonch holati.",
+    "before": "Bekor qilishdan oldin",
+    "after": "Bekor qilish ma’lumoti import qilingandan keyin",
+    "accepted": "QABUL QILINDI",
+    "rejected": "RAD ETILDI",
+    "steps": [
+      {
+        "title": "Attestatsiya berildi",
+        "description": "B suveren domeni so‘rov yuboruvchi identifikatsiya uchun attestatsiyani imzolaydi."
+      },
+      {
+        "title": "Tan olish kelishuvi tan olindi",
+        "description": "A suveren domeni B suveren domeni uchun doirasi cheklangan tan olish kelishuvini faollashtiradi."
+      },
+      {
+        "title": "So‘rov qabul qilindi",
+        "description": "Attestatsiya va kelishuv A domenining lokal avtorizatsiya siyosati talablariga javob beradi."
+      },
+      {
+        "title": "Attestatsiya bekor qilindi",
+        "description": "B suveren domeni aynan shu ishonch materialini qaytarib oladi."
+      },
+      {
+        "title": "Bekor qilish ma’lumoti import qilindi",
+        "description": "A domeni B domenining imzolangan tasmasini tekshiradi va o‘z ishonch holatini yangilaydi."
+      },
+      {
+        "title": "Ayni so‘rov rad etildi",
+        "description": "Ayni identifikatsiya va so‘rov endi audit qilinadigan sabab bilan tekshiruvdan o‘tmaydi."
+      }
+    ],
+    "evidence": {
+      "recorded": {
+        "label": "Yozib olingan isbot",
+        "title": "Mustaqil suveren domenlar o‘rtasidagi yozib olingan ishga tushirish",
+        "description": "Quyidagi terminal dalillari protokolning Azure va DigitalOcean ishonch chegaralaridan o‘tishini qayd etadi."
+      },
+      "reproducible": {
+        "label": "Takrorlanadigan isbot",
+        "title": "To‘liq jarayonni o‘zingiz ishga tushiring",
+        "description": "Ochiq skript ikkita vaqtinchalik vakolatli domenni ishga tushirib, berish, tan olish, bekor qilish, import va rad etish jarayonlarini takrorlaydi."
+      },
+      "live": {
+        "label": "Jonli operatsion holat",
+        "title": "Ochiq vakolatli domenni alohida tekshiring",
+        "description": "Joriy jamlanma tarmoq signallari yozib olingan namoyishdan mustaqil ravishda olinadi."
+      }
+    },
+    "terminalSummary": "Yozib olingan terminal chiqishini ko‘rish",
+    "runLabel": "Lokal takrorlash",
+    "actions": {
+      "recorded": "Yozib olingan isbotni ochish",
+      "run": "Bu isbotni o‘zingiz ishga tushiring",
+      "protocol": "RFC-002 va RFC-004 hujjatlarini o‘qing"
+    }
+  },
+  "liveNetwork": {
+    "label": "Jonli isbot",
+    "title": "Jonli tarmoqni tekshiring.",
+    "subtitle": "Texnik xizmat ko‘rsatuvchilar boshqaradigan, protokol isbotlarini mustaqil ravishda takrorlash mumkin bo‘lgan ochiq joylashtirish.",
+    "status": {
+      "checking": "Jonli signallar tekshirilmoqda",
+      "live": "Jonli signallar mavjud",
+      "stale": "Xizmat ishlamoqda, ishonch tasmasi ma’lumotlari eskirgan",
+      "degraded": "Xizmat holat yomonlashganini bildirmoqda",
+      "unavailable": "Ma’lumot mavjud emas"
+    },
+    "health": {
+      "healthy": "Sog‘lom",
+      "degraded": "Yomonlashgan"
+    },
+    "metrics": {
+      "health": "Xizmat holati",
+      "sovereigns": "Suveren domenlar",
+      "edges": "Tan olish aloqalari",
+      "treaties": "Faol kelishuvlar",
+      "revocations": "Bekor qilingan ishonch materiali"
+    },
+    "checked": "Tekshirildi",
+    "lastUpdate": "Tarmoqning so‘nggi yangilanishi",
+    "freshness": "Ma’lumotning dolzarbligi",
+    "freshnessValues": {
+      "current": "Joriy",
+      "stale": "Eskirgan"
+    },
+    "unknown": "Noma’lum",
+    "disclaimer": "Jamlanma operatsion signallar. Bu xavfsizlik yoki boshqaruvning to‘liq ko‘rinishi emas.",
+    "unavailableMessage": "Jonli ma’lumotni tekshirib bo‘lmadi. Keshlangan qiymatlar joriy ma’lumot sifatida ko‘rsatilmayapti.",
+    "dashboard": "Ochiq boshqaruv panelini ko‘rish"
   }
 }

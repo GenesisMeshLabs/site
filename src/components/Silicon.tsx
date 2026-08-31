@@ -7,7 +7,7 @@ export default function Silicon() {
   return (
     <section id="silicon">
       <div className="slabel rv">
-        <i>05</i> {t('label')}
+        <i>07</i> {t('label')}
       </div>
       <h2 className="rv">{t('title')}</h2>
       <p className="lead rv">{t('subtitle')}</p>
@@ -17,7 +17,7 @@ export default function Silicon() {
             rather than pointing at a page that does not exist. */}
         <a
           className="btn"
-          href="mailto:thaer.saidi@outlook.com?subject=TSWI%20briefing%20request"
+          href="mailto:authority@genesismesh.org?subject=TSWI%20briefing%20request"
         >
           {t('cta')}
         </a>

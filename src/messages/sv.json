@@ -7,7 +7,10 @@
       "mechanics": "Mekanik",
       "protocol": "Protokoll",
       "hardware": "Kisel",
-      "docs": "Dokumentation"
+      "docs": "Dokumentation",
+      "proof": "Bevis",
+      "live": "Livenätverk",
+      "strategy": "Strategi"
     }
   },
   "ui": {
@@ -20,7 +23,7 @@
     "kicker": "Offentlig genomgång / Genesis Mesh / 2026",
     "title": "Tillit som ingen nation",
     "titleAccent": "behöver lämna ifrån sig.",
-    "subtitle": "Genesis Mesh är portabel tillitsinfrastruktur för suveräna system: kryptografisk identitet, erkännandefördrag och återkallelig behörighet, som fungerar likadant för de 190 länder som fortfarande söker digital suveränitet som för de tre som redan har den.",
+    "subtitle": "Genesis Mesh gör det möjligt för självständigt styrda system att erkänna och auktorisera varandra, återkalla förtroendematerial och granska varandra utan att ge upp sin suveränitet.",
     "meta": {
       "verify": "Verifiera",
       "verifyDesc": "vem som har behörigheten",
@@ -32,7 +35,12 @@
       "auditDesc": "så att ingen behöver ta ditt ord på det"
     },
     "scroll": "Skrolla ↓",
-    "vlabel": "Suveränitetsneutral infrastruktur"
+    "vlabel": "Suveränitetsneutral infrastruktur",
+    "actions": {
+      "run": "Kör beviset lokalt",
+      "protocol": "Läs protokollet",
+      "network": "Verifiera livenätverket"
+    }
   },
   "stakes": {
     "label": "Vad Som Står På Spel",
@@ -176,8 +184,8 @@
       }
     ],
     "live": {
-      "title": "Live - Suverän flotta driven av underhållaren",
-      "subtitle": "Multimoln / Oberoende nycklar / Oberoende policy",
+      "title": "Offentlig Driftsättning Som Hanteras av Underhållsansvariga",
+      "subtitle": "Oberoende Nycklar / Oberoende Policy / Reproducerbara Bevis",
       "network": "Nätverk för ömsesidigt erkännande",
       "sovereigns": "Suveräner",
       "clouds": "Moln",
@@ -198,7 +206,7 @@
   "live": {
     "label": "Live",
     "title": "Inget löfte. Ett system i drift.",
-    "subtitle": "En enda behörighetsmodell, i produktion. Varken pilot eller referensarkitektur.",
+    "subtitle": "En offentlig driftsättning som hanteras av underhållsansvariga, med oberoende reproducerbara protokollbevis.",
     "proof": {
       "version": "Aktuell version",
       "cycles": "Fullständiga tillitscykler",
@@ -224,7 +232,7 @@
       "title": "Det här samtalet börjar inte med ett SDK.",
       "desc": "Läs hela Elections 2026-berättelsen för det filosofiska argumentet, och öppna sedan en direkt och diskret kanal. Inga formulär, inga trattar, inga mellanhänder.",
       "cta": "Läs hela historien →",
-      "altText": "Direktkanal: thaer.saidi@outlook.com →"
+      "altText": "Direktkanal: authority@genesismesh.org →"
     }
   },
   "footer": {
@@ -243,5 +251,99 @@
     "title": "Genesis Mesh - Fördragslagret för maskiner",
     "description": "En suverän väv av tillit, identitet och kommunikation för autonoma system. Suveränitetsneutral och fördragsduglig: verifiera, begränsa, återkalla, granska. Ingen blockkedja. Inget VPN. Inget service mesh.",
     "keywords": "suverän tillit|digital suveränitet|maskinidentitet|Ed25519|erkännandefördrag|återkallelse|tillitsinfrastruktur|Genesis Mesh|fördragslager|autonoma system"
+  },
+  "trustCycle": {
+    "label": "En Fullständig Förtroendecykel",
+    "title": "Utfallet för samma begäran ändras när förtroendet ändras.",
+    "subtitle": "Två självständigt styrda system upprättar ett avgränsat erkännande, fattar ett auktoriseringsbeslut, sprider en återkallelse och skapar ett granskningsbart avslag utan att dela en gemensam förtroenderot.",
+    "sameRequest": "Samma identitet. Samma begäran. Ett annat förtroendeläge.",
+    "before": "Före återkallelse",
+    "after": "Efter import av återkallelsen",
+    "accepted": "GODKÄND",
+    "rejected": "AVVISAD",
+    "steps": [
+      {
+        "title": "Attestering utfärdad",
+        "description": "Den suveräna auktoriteten B signerar en attestering för den begärande identiteten."
+      },
+      {
+        "title": "Erkännandeavtal erkänt",
+        "description": "Den suveräna auktoriteten A aktiverar ett avgränsat erkännandeavtal för den suveräna auktoriteten B."
+      },
+      {
+        "title": "Begäran godkänd",
+        "description": "Attesteringen och avtalet uppfyller A:s lokala auktoriseringspolicy."
+      },
+      {
+        "title": "Attestering återkallad",
+        "description": "Den suveräna auktoriteten B drar tillbaka just detta förtroendematerial."
+      },
+      {
+        "title": "Återkallelse importerad",
+        "description": "A verifierar B:s signerade dataflöde och uppdaterar sitt eget förtroendeläge."
+      },
+      {
+        "title": "Identisk begäran avvisad",
+        "description": "Samma identitet och begäran underkänns nu med ett granskningsbart skäl."
+      }
+    ],
+    "evidence": {
+      "recorded": {
+        "label": "Inspelat bevis",
+        "title": "En registrerad körning mellan oberoende suveräna auktoriteter",
+        "description": "Terminalbeviset nedan registrerar hur protokollet passerar förtroendegränserna mellan Azure och DigitalOcean."
+      },
+      "reproducible": {
+        "label": "Reproducerbart bevis",
+        "title": "Kör hela flödet själv",
+        "description": "Det offentliga skriptet startar två tillfälliga auktoriteter och reproducerar utfärdande, erkännande, återkallelse, import och avslag."
+      },
+      "live": {
+        "label": "Driftstatus i realtid",
+        "title": "Verifiera den offentliga auktoriteten separat",
+        "description": "Aktuella sammanställda nätverkssignaler hämtas oberoende av den inspelade demonstrationen."
+      }
+    },
+    "terminalSummary": "Granska inspelad terminalutdata",
+    "runLabel": "Reproducera lokalt",
+    "actions": {
+      "recorded": "Öppna det inspelade beviset",
+      "run": "Kör beviset själv",
+      "protocol": "Läs RFC-002 och RFC-004"
+    }
+  },
+  "liveNetwork": {
+    "label": "Livebevis",
+    "title": "Verifiera livenätverket.",
+    "subtitle": "En offentlig driftsättning som hanteras av underhållsansvariga, med oberoende reproducerbara protokollbevis.",
+    "status": {
+      "checking": "Kontrollerar livesignaler",
+      "live": "Livesignaler är tillgängliga",
+      "stale": "Tjänsten är aktiv, men förtroendeflödets data är inaktuella",
+      "degraded": "Tjänsten rapporterar nedsatt status",
+      "unavailable": "Data är inte tillgängliga"
+    },
+    "health": {
+      "healthy": "Fungerar normalt",
+      "degraded": "Nedsatt"
+    },
+    "metrics": {
+      "health": "Tjänstens status",
+      "sovereigns": "Suveräna domäner",
+      "edges": "Erkännandekopplingar",
+      "treaties": "Aktiva erkännandeavtal",
+      "revocations": "Återkallat förtroendematerial"
+    },
+    "checked": "Kontrollerad",
+    "lastUpdate": "Senaste nätverksuppdatering",
+    "freshness": "Dataaktualitet",
+    "freshnessValues": {
+      "current": "Aktuella",
+      "stale": "Inaktuella"
+    },
+    "unknown": "Okänd",
+    "disclaimer": "Sammanställda driftsignaler. Inte en fullständig bild av säkerhet eller styrning.",
+    "unavailableMessage": "Liveuppgifterna kunde inte verifieras. Inga cachade värden presenteras som aktuella.",
+    "dashboard": "Granska den offentliga kontrollpanelen"
   }
 }

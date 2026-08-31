@@ -7,7 +7,10 @@
       "mechanics": "İş prinsipi",
       "protocol": "Protokol",
       "hardware": "Silikon",
-      "docs": "Sənədlər"
+      "docs": "Sənədlər",
+      "proof": "Sübut",
+      "live": "Canlı şəbəkə",
+      "strategy": "Strategiya"
     }
   },
   "ui": {
@@ -20,7 +23,7 @@
     "kicker": "İctimai arayış / Genesis Mesh / 2026",
     "title": "Heç bir dövlətin təslim etməli olmadığı",
     "titleAccent": "etimad.",
-    "subtitle": "Genesis Mesh suveren sistemlər üçün daşına bilən etimad infrastrukturudur: rəqəmsal suverenlik axtarışında olan 190 ölkə və artıq ona sahib olan üç güc üçün eyni qaydada işləyən kriptoqrafik identiklik, qarşılıqlı tanınma müqavilələri və ləğv edilə bilən səlahiyyət.",
+    "subtitle": "Genesis Mesh müstəqil idarə olunan sistemlərə suverenlikdən imtina etmədən bir-birini tanımaq, avtorizasiya etmək, etimadı ləğv etmək və audit aparmaq imkanı verir.",
     "meta": {
       "verify": "Yoxla",
       "verifyDesc": "səlahiyyətin kimdə olduğunu",
@@ -32,7 +35,12 @@
       "auditDesc": "heç kim sözünüzə kor-koranə inanmasın deyə"
     },
     "scroll": "Aşağı keçin ↓",
-    "vlabel": "Suverenliyə münasibətdə neytral infrastruktur"
+    "vlabel": "Suverenliyə münasibətdə neytral infrastruktur",
+    "actions": {
+      "run": "Sübutu lokal olaraq işə salın",
+      "protocol": "Protokolu oxuyun",
+      "network": "Canlı şəbəkəni yoxlayın"
+    }
   },
   "stakes": {
     "label": "Məsələnin əhəmiyyəti",
@@ -176,8 +184,8 @@
       }
     ],
     "live": {
-      "title": "Aktivdir: texniki xidmət heyətinin idarə etdiyi suveren park",
-      "subtitle": "Çoxbuludlu / Müstəqil açarlar / Müstəqil siyasət",
+      "title": "Texniki xidmət qrupu tərəfindən idarə olunan açıq yerləşdirmə",
+      "subtitle": "Müstəqil açarlar / Müstəqil siyasət / Təkrarlana bilən sübutlar",
       "network": "Tanınma şəbəkəsi",
       "sovereigns": "Suveren aktorlar",
       "clouds": "Buludlar",
@@ -198,7 +206,7 @@
   "live": {
     "label": "Aktiv sistem",
     "title": "Vəd deyil. İşlək sistemdir.",
-    "subtitle": "İstehsal mühitində vahid səlahiyyət modeli. Nə pilot layihədir, nə də istinad arxitekturası.",
+    "subtitle": "Müstəqil şəkildə təkrarlana bilən protokol sübutlarına malik, texniki xidmət qrupu tərəfindən idarə olunan açıq yerləşdirmə.",
     "proof": {
       "version": "Cari buraxılış",
       "cycles": "Tam etimad dövrləri",
@@ -224,7 +232,7 @@
       "title": "Bu söhbət SDK ilə başlamır.",
       "desc": "Fəlsəfi əsaslandırma üçün Elections 2026 mətnini tam oxuyun, sonra birbaşa, məxfi kanal açın. Forma, satış tuneli və vasitəçi yoxdur.",
       "cta": "Tam hekayəni oxuyun →",
-      "altText": "Birbaşa kanal: thaer.saidi@outlook.com →"
+      "altText": "Birbaşa kanal: authority@genesismesh.org →"
     }
   },
   "footer": {
@@ -243,5 +251,99 @@
     "title": "Genesis Mesh - Maşınlar üçün müqavilə qatı",
     "description": "Avtonom sistemlər üçün suveren etimad, identiklik və kommunikasiya infrastrukturu. Suverenliyə münasibətdə neytral və müqavilə səviyyəli: yoxla, məhdudlaşdır, ləğv et, audit apar. Blokçeyn deyil. VPN deyil. Xidmət şəbəkəsi deyil.",
     "keywords": "suveren etimad|rəqəmsal suverenlik|maşın identikliyi|Ed25519|tanınma müqavilələri|ləğvetmə|etimad infrastrukturu|Genesis Mesh|müqavilə qatı|avtonom sistemlər"
+  },
+  "trustCycle": {
+    "label": "Bir tam etimad dövrü",
+    "title": "Etimad dəyişəndə eyni sorğunun nəticəsi də dəyişir.",
+    "subtitle": "Müstəqil idarə olunan iki sistem əhatə dairəsi məhdud tanınma qurur, avtorizasiya qərarı verir, ləğvetməni ötürür və ortaq etimad kökü olmadan auditi mümkün olan imtina yaradır.",
+    "sameRequest": "Eyni identiklik. Eyni sorğu. Fərqli etimad vəziyyəti.",
+    "before": "Ləğvetmədən əvvəl",
+    "after": "Ləğvetmə idxal edildikdən sonra",
+    "accepted": "QƏBUL EDİLDİ",
+    "rejected": "RƏDD EDİLDİ",
+    "steps": [
+      {
+        "title": "Attestasiya verildi",
+        "description": "Suveren B sorğu göndərən identiklik üçün attestasiyanı imzalayır."
+      },
+      {
+        "title": "Müqavilə tanındı",
+        "description": "Suveren A, Suveren B üçün əhatə dairəsi məhdud tanınma müqaviləsini aktivləşdirir."
+      },
+      {
+        "title": "Sorğu qəbul edildi",
+        "description": "Attestasiya və müqavilə A-nın lokal avtorizasiya siyasətinin tələblərini ödəyir."
+      },
+      {
+        "title": "Attestasiya ləğv edildi",
+        "description": "Suveren B həmin konkret etimad materialını geri götürür."
+      },
+      {
+        "title": "Ləğvetmə idxal edildi",
+        "description": "A, B-nin imzalanmış məlumat lentini yoxlayır və öz etimad vəziyyətini yeniləyir."
+      },
+      {
+        "title": "Eyni sorğu rədd edildi",
+        "description": "Eyni identiklik və sorğu indi auditi mümkün olan səbəblə uğursuz olur."
+      }
+    ],
+    "evidence": {
+      "recorded": {
+        "label": "Qeydə alınmış sübut",
+        "title": "Müstəqil suverenlər arasında qeydə alınmış icra",
+        "description": "Aşağıdakı terminal sübutu protokolun Azure və DigitalOcean etimad sərhədlərini keçməsini qeydə alır."
+      },
+      "reproducible": {
+        "label": "Təkrarlana bilən sübut",
+        "title": "Tam prosesi özünüz işə salın",
+        "description": "Açıq skript iki müvəqqəti səlahiyyətli qurumu işə salır və attestasiya verilməsini, tanınmanı, ləğvetməni, idxalı və imtinanı təkrar yaradır."
+      },
+      "live": {
+        "label": "Canlı əməliyyat vəziyyəti",
+        "title": "Açıq səlahiyyətli qurumu ayrıca yoxlayın",
+        "description": "Şəbəkənin cari məcmu siqnalları qeydə alınmış nümayişdən asılı olmadan əldə edilir."
+      }
+    },
+    "terminalSummary": "Qeydə alınmış terminal çıxışını yoxlayın",
+    "runLabel": "Lokal olaraq təkrarlayın",
+    "actions": {
+      "recorded": "Qeydə alınmış sübutu açın",
+      "run": "Bu sübutu özünüz işə salın",
+      "protocol": "RFC-002 və RFC-004 sənədlərini oxuyun"
+    }
+  },
+  "liveNetwork": {
+    "label": "Canlı sübut",
+    "title": "Canlı şəbəkəni yoxlayın.",
+    "subtitle": "Müstəqil şəkildə təkrarlana bilən protokol sübutlarına malik, texniki xidmət qrupu tərəfindən idarə olunan açıq yerləşdirmə.",
+    "status": {
+      "checking": "Canlı siqnallar yoxlanılır",
+      "live": "Canlı siqnallar əlçatandır",
+      "stale": "Xidmət aktivdir, etimad lentinin məlumatları köhnəlib",
+      "degraded": "Xidmət zəifləmiş vəziyyət bildirir",
+      "unavailable": "Məlumat əlçatan deyil"
+    },
+    "health": {
+      "healthy": "Sağlam",
+      "degraded": "Zəifləmiş"
+    },
+    "metrics": {
+      "health": "Xidmətin sağlamlığı",
+      "sovereigns": "Suveren domenlər",
+      "edges": "Tanınma əlaqələri",
+      "treaties": "Aktiv müqavilələr",
+      "revocations": "Ləğv edilmiş etimad materialı"
+    },
+    "checked": "Yoxlanılıb",
+    "lastUpdate": "Şəbəkənin son yenilənməsi",
+    "freshness": "Məlumatın aktuallığı",
+    "freshnessValues": {
+      "current": "Aktual",
+      "stale": "Köhnəlmiş"
+    },
+    "unknown": "Naməlum",
+    "disclaimer": "Məcmu əməliyyat siqnalları. Təhlükəsizlik və ya idarəetmə barədə tam təsəvvür yaratmır.",
+    "unavailableMessage": "Canlı məlumatı yoxlamaq mümkün olmadı. Keşlənmiş dəyərlər aktual kimi təqdim edilmir.",
+    "dashboard": "Açıq idarəetmə panelini yoxlayın"
   }
 }

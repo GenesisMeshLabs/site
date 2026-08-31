@@ -11,6 +11,7 @@ export const INCLUDE = [
   'src',
   'scripts',
   'public/assets',
+  'public/.well-known/security.txt',
   'package.json',
   'next.config.js',
   'vercel.json',

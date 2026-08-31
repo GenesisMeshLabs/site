@@ -7,7 +7,10 @@
       "mechanics": "Jinsi Inavyofanya Kazi",
       "protocol": "Itifaki",
       "hardware": "Siliconi",
-      "docs": "Nyaraka"
+      "docs": "Nyaraka",
+      "proof": "Uthibitisho",
+      "live": "Mtandao Hai",
+      "strategy": "Mkakati"
     }
   },
   "ui": {
@@ -20,7 +23,7 @@
     "kicker": "Muhtasari wa Umma / Genesis Mesh / 2026",
     "title": "Uaminifu ambao hakuna taifa",
     "titleAccent": "linalopaswa kuusalimisha.",
-    "subtitle": "Genesis Mesh ni miundombinu inayohamishika ya uaminifu kwa mifumo yenye mamlaka yake yenyewe, ikijumuisha utambulisho wa kikriptografia, mikataba ya utambuzi na mamlaka inayoweza kubatilishwa, inayofanya kazi kwa namna ileile kwa nchi 190 ambazo bado zinatafuta uhuru wa kidijitali, na kwa mamlaka tatu ambazo tayari zinao.",
+    "subtitle": "Genesis Mesh huwezesha mifumo inayojitawala kwa kujitegemea kutambuana, kuidhinishana, kubatilishana na kukaguana bila kuachilia mamlaka yake huru.",
     "meta": {
       "verify": "Thibitisha",
       "verifyDesc": "nani anayeshikilia mamlaka",
@@ -32,7 +35,12 @@
       "auditDesc": "ili hakuna anayelazimika kukuamini kwa kauli yako tu"
     },
     "scroll": "Sogeza ↓",
-    "vlabel": "Miundombinu Isiyoegemea Upande Wowote Kuhusu Uhuru wa Kujitawala"
+    "vlabel": "Miundombinu Isiyoegemea Upande Wowote Kuhusu Uhuru wa Kujitawala",
+    "actions": {
+      "run": "Endesha uthibitisho ndani ya mfumo wako",
+      "protocol": "Soma itifaki",
+      "network": "Thibitisha mtandao hai"
+    }
   },
   "stakes": {
     "label": "Kilicho Hatarini",
@@ -176,8 +184,8 @@
       }
     ],
     "live": {
-      "title": "Moja kwa Moja - Kundi Huru Linaloendeshwa na Watunzaji",
-      "subtitle": "Wingu Nyingi / Funguo Huru / Sera Huru",
+      "title": "Utekelezaji wa Umma Unaoendeshwa na Watunzaji",
+      "subtitle": "Funguo Huru / Sera Huru / Uthibitisho Unaoweza Kurudiwa",
       "network": "Mtandao wa Utambuzi",
       "sovereigns": "Mataifa Huru",
       "clouds": "Mawingu",
@@ -198,7 +206,7 @@
   "live": {
     "label": "Moja kwa Moja",
     "title": "Si ahadi. Ni mfumo unaofanya kazi.",
-    "subtitle": "Muundo mmoja wa mamlaka, katika uzalishaji. Si mradi wa majaribio wala usanifu wa marejeleo.",
+    "subtitle": "Utekelezaji wa umma unaoendeshwa na watunzaji, wenye uthibitisho wa itifaki unaoweza kurudiwa kwa kujitegemea.",
     "proof": {
       "version": "Toleo la sasa",
       "cycles": "Mizunguko kamili ya uaminifu",
@@ -224,7 +232,7 @@
       "title": "Mazungumzo haya hayaanzi na SDK.",
       "desc": "Soma simulizi kamili la Elections 2026 kwa hoja ya kifalsafa, kisha fungua njia ya moja kwa moja, ya faragha na ya siri. Hakuna fomu, hakuna mifumo ya kuvutia wateja, hakuna waamuzi.",
       "cta": "Soma Simulizi Kamili →",
-      "altText": "Njia ya moja kwa moja: thaer.saidi@outlook.com →"
+      "altText": "Njia ya moja kwa moja: authority@genesismesh.org →"
     }
   },
   "footer": {
@@ -243,5 +251,99 @@
     "title": "Genesis Mesh - Tabaka la Mikataba kwa Mashine",
     "description": "Mfumo huru wa uaminifu, utambulisho na mawasiliano kwa mifumo inayojiendesha. Haufungamani na mamlaka yoyote na ni wa kiwango cha mikataba: thibitisha, weka mipaka, batilisha, kagua. Si blockchain. Si VPN. Si service mesh.",
     "keywords": "uaminifu huru|uhuru wa kidijitali|utambulisho wa mashine|Ed25519|mikataba ya utambuzi|ubatilishaji|miundombinu ya uaminifu|Genesis Mesh|tabaka la mikataba|mifumo inayojiendesha"
+  },
+  "trustCycle": {
+    "label": "Mzunguko Mmoja Kamili wa Uaminifu",
+    "title": "Ombi lilelile hubadilika uaminifu unapobadilika.",
+    "subtitle": "Mifumo miwili inayojitawala kwa kujitegemea huanzisha utambuzi wenye upeo maalumu, hufanya uamuzi wa uidhinishaji, husambaza ubatilishaji na kutoa uamuzi wa kukataa unaoweza kukaguliwa bila kutumia mzizi mmoja wa uaminifu.",
+    "sameRequest": "Utambulisho uleule. Ombi lilelile. Hali tofauti ya uaminifu.",
+    "before": "Kabla ya ubatilishaji",
+    "after": "Baada ya kuingiza ubatilishaji",
+    "accepted": "LIMEKUBALIWA",
+    "rejected": "LIMEKATALIWA",
+    "steps": [
+      {
+        "title": "Ushuhuda umetolewa",
+        "description": "Mamlaka huru B husaini ushuhuda wa utambulisho unaowasilisha ombi."
+      },
+      {
+        "title": "Mkataba umetambuliwa",
+        "description": "Mamlaka huru A huwasha mkataba wa utambuzi wenye upeo maalumu kwa ajili ya Mamlaka huru B."
+      },
+      {
+        "title": "Ombi limekubaliwa",
+        "description": "Ushuhuda na mkataba hutimiza sera ya ndani ya uidhinishaji ya A."
+      },
+      {
+        "title": "Ushuhuda umebatilishwa",
+        "description": "Mamlaka huru B huondoa nyenzo hiyo mahususi ya uaminifu."
+      },
+      {
+        "title": "Ubatilishaji umeingizwa",
+        "description": "A huthibitisha mpasho wa B uliosainiwa na kusasisha hali yake yenyewe ya uaminifu."
+      },
+      {
+        "title": "Ombi lilelile limekataliwa",
+        "description": "Utambulisho na ombi lilelile sasa hushindwa kwa sababu inayoweza kukaguliwa."
+      }
+    ],
+    "evidence": {
+      "recorded": {
+        "label": "Uthibitisho uliorekodiwa",
+        "title": "Uendeshaji uliorekodiwa wa mamlaka huru zinazojitegemea",
+        "description": "Ushahidi wa terminal ulio hapa chini unarekodi itifaki ikivuka mipaka ya uaminifu ya Azure na DigitalOcean."
+      },
+      "reproducible": {
+        "label": "Uthibitisho unaoweza kurudiwa",
+        "title": "Endesha mtiririko kamili mwenyewe",
+        "description": "Hati ya umma huanzisha mamlaka mbili za muda na kurudia utoaji, utambuzi, ubatilishaji, uingizaji na kukataliwa."
+      },
+      "live": {
+        "label": "Hali halisi ya uendeshaji",
+        "title": "Thibitisha mamlaka ya umma kivyake",
+        "description": "Viashiria vya sasa vya jumla vya mtandao hupatikana bila kutegemea onyesho lililorekodiwa."
+      }
+    },
+    "terminalSummary": "Kagua matokeo ya terminal yaliyorekodiwa",
+    "runLabel": "Rudia ndani ya mfumo wako",
+    "actions": {
+      "recorded": "Fungua uthibitisho uliorekodiwa",
+      "run": "Endesha uthibitisho huu mwenyewe",
+      "protocol": "Soma RFC-002 na RFC-004"
+    }
+  },
+  "liveNetwork": {
+    "label": "Uthibitisho Hai",
+    "title": "Thibitisha mtandao hai.",
+    "subtitle": "Utekelezaji wa umma unaoendeshwa na watunzaji, wenye uthibitisho wa itifaki unaoweza kurudiwa kwa kujitegemea.",
+    "status": {
+      "checking": "Inakagua viashiria hai",
+      "live": "Viashiria hai vinapatikana",
+      "stale": "Huduma iko hai, lakini data ya mpasho wa uaminifu imepitwa na wakati",
+      "degraded": "Huduma inaripoti hali iliyodhoofika",
+      "unavailable": "Data haipatikani"
+    },
+    "health": {
+      "healthy": "Nzuri",
+      "degraded": "Imedhoofika"
+    },
+    "metrics": {
+      "health": "Hali ya huduma",
+      "sovereigns": "Vikoa vya mamlaka huru",
+      "edges": "Miunganisho ya utambuzi",
+      "treaties": "Mikataba inayotumika",
+      "revocations": "Nyenzo za uaminifu zilizobatilishwa"
+    },
+    "checked": "Imekaguliwa",
+    "lastUpdate": "Sasisho la mwisho la mtandao",
+    "freshness": "Usasishaji wa data",
+    "freshnessValues": {
+      "current": "Ya sasa",
+      "stale": "Imepitwa na wakati"
+    },
+    "unknown": "Haijulikani",
+    "disclaimer": "Viashiria vya jumla vya uendeshaji. Si muhtasari kamili wa usalama au utawala.",
+    "unavailableMessage": "Data hai haikuweza kuthibitishwa. Hakuna thamani zilizohifadhiwa zinazowasilishwa kuwa za sasa.",
+    "dashboard": "Kagua dashibodi ya umma"
   }
 }

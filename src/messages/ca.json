@@ -7,7 +7,10 @@
       "mechanics": "Funcionament",
       "protocol": "Protocol",
       "hardware": "Silici",
-      "docs": "Documentació"
+      "docs": "Documentació",
+      "proof": "Prova",
+      "live": "Xarxa en directe",
+      "strategy": "Estratègia"
     }
   },
   "ui": {
@@ -20,7 +23,7 @@
     "kicker": "Informe públic / Genesis Mesh / 2026",
     "title": "La confiança que cap nació",
     "titleAccent": "no ha de cedir.",
-    "subtitle": "Genesis Mesh és una infraestructura de confiança portable per a sistemes sobirans: identitat criptogràfica, tractats de reconeixement i autoritat revocable que funcionen igual per als 190 països que encara cerquen la sobirania digital i per a les tres potències que ja la tenen.",
+    "subtitle": "Genesis Mesh permet que sistemes governats de manera independent es reconeguin, s'autoritzin, revoquin confiança i s'auditin mútuament sense renunciar a la seva sobirania.",
     "meta": {
       "verify": "Verificar",
       "verifyDesc": "qui té l'autoritat",
@@ -32,7 +35,12 @@
       "auditDesc": "perquè ningú no hagi de creure ningú només perquè ho diu"
     },
     "scroll": "Desplaça't ↓",
-    "vlabel": "Infraestructura neutral respecte de la sobirania"
+    "vlabel": "Infraestructura neutral respecte de la sobirania",
+    "actions": {
+      "run": "Executeu la prova localment",
+      "protocol": "Llegiu el protocol",
+      "network": "Verifiqueu la xarxa en directe"
+    }
   },
   "stakes": {
     "label": "El que hi ha en joc",
@@ -176,8 +184,8 @@
       }
     ],
     "live": {
-      "title": "En funcionament - Flota sobirana operada pels mantenidors",
-      "subtitle": "Multinúvol / Claus independents / Política independent",
+      "title": "Desplegament públic operat pels mantenidors",
+      "subtitle": "Claus independents / Polítiques independents / Proves reproduïbles",
       "network": "Xarxa de reconeixement",
       "sovereigns": "Estats sobirans",
       "clouds": "Núvols",
@@ -198,7 +206,7 @@
   "live": {
     "label": "En funcionament",
     "title": "No és una promesa. És un sistema en funcionament.",
-    "subtitle": "Un model d'autoritat, en producció. No és un projecte pilot ni una arquitectura de referència.",
+    "subtitle": "Desplegament públic operat pels mantenidors amb proves del protocol reproduïbles de manera independent.",
     "proof": {
       "version": "Versió actual",
       "cycles": "Cicles de confiança complets",
@@ -224,7 +232,7 @@
       "title": "Aquesta conversa no comença amb un SDK.",
       "desc": "Llegiu el relat complet Elections 2026 per conèixer-ne els arguments filosòfics i, després, obriu un canal directe, privat i confidencial. Sense formularis, sense embuts comercials i sense intermediaris.",
       "cta": "Llegiu la història completa →",
-      "altText": "Canal directe: thaer.saidi@outlook.com →"
+      "altText": "Canal directe: authority@genesismesh.org →"
     }
   },
   "footer": {
@@ -243,5 +251,99 @@
     "title": "Genesis Mesh - La capa de tractats per a les màquines",
     "description": "Un teixit sobirà de confiança, identitat i comunicació per a sistemes autònoms. Neutral respecte de la sobirania i amb categoria de tractat: verificar, limitar, revocar i auditar. No és una cadena de blocs. No és una VPN. No és una malla de serveis.",
     "keywords": "confiança sobirana|sobirania digital|identitat de màquina|Ed25519|tractats de reconeixement|revocació|infraestructura de confiança|Genesis Mesh|capa de tractats|sistemes autònoms"
+  },
+  "trustCycle": {
+    "label": "Un cicle de confiança complet",
+    "title": "La mateixa sol·licitud canvia quan canvia la confiança.",
+    "subtitle": "Dos sistemes governats de manera independent estableixen un reconeixement d'abast limitat, prenen una decisió d'autorització, propaguen una revocació i generen un rebuig auditable sense compartir cap arrel de confiança.",
+    "sameRequest": "La mateixa identitat. La mateixa sol·licitud. Un estat de confiança diferent.",
+    "before": "Abans de la revocació",
+    "after": "Després d'importar la revocació",
+    "accepted": "ACCEPTADA",
+    "rejected": "REBUTJADA",
+    "steps": [
+      {
+        "title": "Atestació emesa",
+        "description": "L'autoritat sobirana B signa una atestació per a la identitat sol·licitant."
+      },
+      {
+        "title": "Tractat reconegut",
+        "description": "L'autoritat sobirana A activa un tractat de reconeixement d'abast limitat per a l'autoritat sobirana B."
+      },
+      {
+        "title": "Sol·licitud acceptada",
+        "description": "L'atestació i el tractat satisfan la política d'autorització local d'A."
+      },
+      {
+        "title": "Atestació revocada",
+        "description": "L'autoritat sobirana B retira aquest material de confiança concret."
+      },
+      {
+        "title": "Revocació importada",
+        "description": "A verifica el canal signat de B i actualitza el seu propi estat de confiança."
+      },
+      {
+        "title": "Sol·licitud idèntica rebutjada",
+        "description": "Ara la mateixa identitat i sol·licitud fallen per un motiu auditable."
+      }
+    ],
+    "evidence": {
+      "recorded": {
+        "label": "Prova enregistrada",
+        "title": "Una execució capturada entre autoritats sobiranes independents",
+        "description": "Les evidències de terminal següents registren el protocol travessant els límits de confiança d'Azure i DigitalOcean."
+      },
+      "reproducible": {
+        "label": "Prova reproduïble",
+        "title": "Executeu personalment el flux complet",
+        "description": "L'script públic inicia dues autoritats temporals i reprodueix l'emissió, el reconeixement, la revocació, la importació i el rebuig."
+      },
+      "live": {
+        "label": "Estat operatiu en directe",
+        "title": "Verifiqueu l'autoritat pública per separat",
+        "description": "Els senyals agregats actuals de la xarxa s'obtenen independentment de la demostració enregistrada."
+      }
+    },
+    "terminalSummary": "Examineu la sortida de terminal enregistrada",
+    "runLabel": "Reproduïu-ho localment",
+    "actions": {
+      "recorded": "Obriu la prova enregistrada",
+      "run": "Executeu personalment aquesta prova",
+      "protocol": "Llegiu RFC-002 i RFC-004"
+    }
+  },
+  "liveNetwork": {
+    "label": "Prova en directe",
+    "title": "Verifiqueu la xarxa en directe.",
+    "subtitle": "Desplegament públic operat pels mantenidors amb proves del protocol reproduïbles de manera independent.",
+    "status": {
+      "checking": "S'estan comprovant els senyals en directe",
+      "live": "Senyals en directe disponibles",
+      "stale": "Servei actiu, però dades del canal de confiança obsoletes",
+      "degraded": "El servei informa d'un estat degradat",
+      "unavailable": "Dades no disponibles"
+    },
+    "health": {
+      "healthy": "Correcte",
+      "degraded": "Degradat"
+    },
+    "metrics": {
+      "health": "Estat del servei",
+      "sovereigns": "Dominis sobirans",
+      "edges": "Enllaços de reconeixement",
+      "treaties": "Tractats actius",
+      "revocations": "Material de confiança revocat"
+    },
+    "checked": "Comprovat",
+    "lastUpdate": "Darrera actualització de la xarxa",
+    "freshness": "Actualitat de les dades",
+    "freshnessValues": {
+      "current": "Actuals",
+      "stale": "Obsoletes"
+    },
+    "unknown": "Desconegut",
+    "disclaimer": "Senyals operatius agregats. No ofereixen una visió completa de la seguretat ni de la governança.",
+    "unavailableMessage": "No s'han pogut verificar les dades en directe. No es presenta cap valor de la memòria cau com si fos actual.",
+    "dashboard": "Examineu el tauler públic"
   }
 }

@@ -9,7 +9,7 @@ export default function Powers() {
   return (
     <section id="powers">
       <div className="slabel rv">
-        <i>02</i> {t('label')}
+        <i>06</i> {t('label')}
       </div>
       <h2 className="rv">{t('title')}</h2>
       <p className="lead rv">{t('subtitle')}</p>

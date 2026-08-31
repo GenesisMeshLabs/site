@@ -7,7 +7,10 @@
       "mechanics": "Mekanismo",
       "protocol": "Protokol",
       "hardware": "Silicon",
-      "docs": "Dokumentasyon"
+      "docs": "Dokumentasyon",
+      "proof": "Patunay",
+      "live": "Live na Network",
+      "strategy": "Estratehiya"
     }
   },
   "ui": {
@@ -20,7 +23,7 @@
     "kicker": "Pampublikong Buod / Genesis Mesh / 2026",
     "title": "Tiwalang hindi kailangang",
     "titleAccent": "isuko ng alinmang bansa.",
-    "subtitle": "Ang Genesis Mesh ay naililipat na imprastraktura ng tiwala para sa mga sistemang may soberanya: kriptograpikong identidad, mga kasunduan ng pagkilala, at nababawi na awtoridad na gumagana nang pareho para sa 190 bansang naghahanap pa rin ng digital na soberanya, at para sa tatlong mayroon na nito.",
+    "subtitle": "Sa Genesis Mesh, maaaring kilalanin, pahintulutan, bawiin ang tiwala, at i-audit ng mga sistemang malayang pinamamahalaan ang isa't isa nang hindi isinusuko ang kanilang awtonomiya.",
     "meta": {
       "verify": "Beripikahin",
       "verifyDesc": "kung sino ang may hawak ng awtoridad",
@@ -32,7 +35,12 @@
       "auditDesc": "upang walang kailangang basta maniwala sa iyong salita"
     },
     "scroll": "Mag-scroll ↓",
-    "vlabel": "Imprastrakturang Neutral sa Soberanya"
+    "vlabel": "Imprastrakturang Neutral sa Soberanya",
+    "actions": {
+      "run": "Patakbuhin ang patunay nang lokal",
+      "protocol": "Basahin ang protocol",
+      "network": "Beripikahin ang live na network"
+    }
   },
   "stakes": {
     "label": "Ang Nakataya",
@@ -176,8 +184,8 @@
       }
     ],
     "live": {
-      "title": "Aktibo - Fleet na May Soberanya na Pinatatakbo ng Maintainer",
-      "subtitle": "Multi-Cloud / Mga Hiwalay na Susi / Hiwalay na Patakaran",
+      "title": "Pampublikong Deployment na Pinapatakbo ng Maintainer",
+      "subtitle": "Malayang mga Susi / Malayang Patakaran / Nauulit na mga Patunay",
       "network": "Network ng Pagkilala",
       "sovereigns": "Mga Estadong May Soberanya",
       "clouds": "Mga Cloud",
@@ -198,7 +206,7 @@
   "live": {
     "label": "Aktibo",
     "title": "Hindi pangako. Isang sistemang tumatakbo.",
-    "subtitle": "Isang modelo ng awtoridad, nasa produksyon. Hindi pilot, at hindi reference architecture.",
+    "subtitle": "Pampublikong deployment na pinapatakbo ng maintainer, na may mga patunay ng protocol na malayang nauulit.",
     "proof": {
       "version": "Kasalukuyang release",
       "cycles": "Mga nakumpletong siklo ng tiwala",
@@ -224,7 +232,7 @@
       "title": "Hindi nagsisimula sa SDK ang pag-uusap na ito.",
       "desc": "Basahin ang buong salaysay na Elections 2026 para sa pilosopikal na batayan, pagkatapos ay magbukas ng direkta, pribado, at kumpidensyal na channel. Walang form, walang funnel, walang tagapamagitan.",
       "cta": "Basahin ang Buong Kuwento →",
-      "altText": "Direktang channel: thaer.saidi@outlook.com →"
+      "altText": "Direktang channel: authority@genesismesh.org →"
     }
   },
   "footer": {
@@ -243,5 +251,99 @@
     "title": "Genesis Mesh - Ang Treaty Layer para sa mga Makina",
     "description": "Isang fabric ng tiwala, identidad, at komunikasyon na may soberanya para sa mga awtonomong sistema. Neutral sa soberanya at antas-kasunduan: beripikahin, limitahan, bawiin, i-audit. Hindi blockchain. Hindi VPN. Hindi service mesh.",
     "keywords": "tiwalang may soberanya|digital na soberanya|identidad ng makina|Ed25519|mga kasunduan ng pagkilala|pagbawi|imprastraktura ng tiwala|Genesis Mesh|treaty layer|mga awtonomong sistema"
+  },
+  "trustCycle": {
+    "label": "Isang Kumpletong Siklo ng Tiwala",
+    "title": "Nagbabago ang pagproseso sa parehong kahilingan kapag nagbago ang tiwala.",
+    "subtitle": "Nagtatatag ang dalawang sistemang malayang pinamamahalaan ng isang kasunduan sa pagkilala na may tinukoy na saklaw, gumagawa ng pasya sa awtorisasyon, nagpapalaganap ng pagbawi, at gumagawa ng naa-audit na pagtanggi nang hindi nagbabahagi ng root of trust.",
+    "sameRequest": "Parehong identidad. Parehong kahilingan. Magkaibang estado ng tiwala.",
+    "before": "Bago ang pagbawi",
+    "after": "Pagkatapos i-import ang pagbawi",
+    "accepted": "TINANGGAP",
+    "rejected": "TINANGGIHAN",
+    "steps": [
+      {
+        "title": "Inilabas ang attestasyon",
+        "description": "Nilalagdaan ng soberanong domain B ang attestasyon para sa humihiling na identidad."
+      },
+      {
+        "title": "Kinilala ang kasunduan",
+        "description": "Ina-activate ng soberanong domain A ang isang saklaw na kasunduan sa pagkilala para sa soberanong domain B."
+      },
+      {
+        "title": "Tinanggap ang kahilingan",
+        "description": "Natutugunan ng attestasyon at kasunduan ang lokal na patakaran sa awtorisasyon ng A."
+      },
+      {
+        "title": "Binawi ang attestasyon",
+        "description": "Binabawi ng soberanong domain B ang partikular na materyal ng tiwala."
+      },
+      {
+        "title": "In-import ang pagbawi",
+        "description": "Bineberipika ng A ang nilagdaang feed ng B at ina-update ang sarili nitong estado ng tiwala."
+      },
+      {
+        "title": "Tinanggihan ang kaparehong kahilingan",
+        "description": "Nabibigo na ngayon ang parehong identidad at kahilingan, na may dahilang maaaring i-audit."
+      }
+    ],
+    "evidence": {
+      "recorded": {
+        "label": "Naitalang patunay",
+        "title": "Naitalang pagpapatakbo sa pagitan ng mga malayang soberanong domain",
+        "description": "Itinatala ng ebidensiya sa terminal sa ibaba ang pagtawid ng protocol sa mga hangganan ng tiwala ng Azure at DigitalOcean."
+      },
+      "reproducible": {
+        "label": "Nauulit na patunay",
+        "title": "Ikaw mismo ang magpatakbo ng buong daloy",
+        "description": "Nagsisimula ang pampublikong script ng dalawang pansamantalang awtoridad at inuulit ang pag-isyu, pagkilala, pagbawi, pag-import, at pagtanggi."
+      },
+      "live": {
+        "label": "Live na katayuan ng operasyon",
+        "title": "Hiwalay na beripikahin ang pampublikong awtoridad",
+        "description": "Kinukuha ang kasalukuyang pinagsama-samang signal ng network nang hiwalay sa naitalang demonstrasyon."
+      }
+    },
+    "terminalSummary": "Suriin ang naitalang output ng terminal",
+    "runLabel": "Ulitin nang lokal",
+    "actions": {
+      "recorded": "Buksan ang naitalang patunay",
+      "run": "Ikaw mismo ang magpatakbo ng patunay na ito",
+      "protocol": "Basahin ang RFC-002 at RFC-004"
+    }
+  },
+  "liveNetwork": {
+    "label": "Live na Patunay",
+    "title": "Beripikahin ang live na network.",
+    "subtitle": "Pampublikong deployment na pinapatakbo ng maintainer, na may mga patunay ng protocol na malayang nauulit.",
+    "status": {
+      "checking": "Sinusuri ang mga live na signal",
+      "live": "Available ang mga live na signal",
+      "stale": "Live ang serbisyo, ngunit luma ang datos ng trust feed",
+      "degraded": "Iniulat ng serbisyo na humina ang katayuan nito",
+      "unavailable": "Hindi available ang datos"
+    },
+    "health": {
+      "healthy": "Maayos",
+      "degraded": "Humina"
+    },
+    "metrics": {
+      "health": "Kalagayan ng serbisyo",
+      "sovereigns": "Mga soberanong domain",
+      "edges": "Mga ugnayan ng pagkilala",
+      "treaties": "Mga aktibong kasunduan",
+      "revocations": "Binawing materyal ng tiwala"
+    },
+    "checked": "Sinuri",
+    "lastUpdate": "Huling update ng network",
+    "freshness": "Pagiging napapanahon ng datos",
+    "freshnessValues": {
+      "current": "Kasalukuyan",
+      "stale": "Luma"
+    },
+    "unknown": "Hindi alam",
+    "disclaimer": "Pinagsama-samang mga signal ng operasyon. Hindi ito kumpletong pananaw sa seguridad o pamamahala.",
+    "unavailableMessage": "Hindi maberipika ang live na datos. Walang naka-cache na halaga ang ipinapakitang kasalukuyan.",
+    "dashboard": "Suriin ang pampublikong dashboard"
   }
 }

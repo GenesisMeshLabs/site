@@ -7,7 +7,7 @@ export default function Stakes() {
   return (
     <section id="stakes">
       <div className="slabel rv">
-        <i>01</i> {t('label')}
+        <i>05</i> {t('label')}
       </div>
       <h2 className="rv">{t('title')}</h2>
       <p className="lead rv">{t('subtitle')}</p>

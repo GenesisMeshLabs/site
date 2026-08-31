@@ -7,7 +7,10 @@
       "mechanics": "Механизам",
       "protocol": "Протокол",
       "hardware": "Силицијум",
-      "docs": "Документација"
+      "docs": "Документација",
+      "proof": "Dokaz",
+      "live": "Mreža uživo",
+      "strategy": "Strategija"
     }
   },
   "ui": {
@@ -20,7 +23,7 @@
     "kicker": "Јавни преглед / Genesis Mesh / 2026",
     "title": "Поверење којег ниједна држава",
     "titleAccent": "не мора да се одрекне.",
-    "subtitle": "Genesis Mesh је преносива инфраструктура поверења за суверене системе: криптографски идентитет, споразуми о узајамном признавању и опозиво овлашћење. Све то функционише исто за 190 земаља које још трагају за дигиталним суверенитетом и за три које га већ имају.",
+    "subtitle": "Genesis Mesh omogućava nezavisno upravljanim sistemima da se međusobno priznaju i ovlašćuju, opozivaju materijal poverenja i vrše reviziju jedni drugih bez odricanja od suverenosti.",
     "meta": {
       "verify": "Проверите",
       "verifyDesc": "ко има овлашћење",
@@ -32,7 +35,12 @@
       "auditDesc": "да нико не мора да вам верује на реч"
     },
     "scroll": "Листајте ↓",
-    "vlabel": "Инфраструктура неутрална према суверенитету"
+    "vlabel": "Инфраструктура неутрална према суверенитету",
+    "actions": {
+      "run": "Pokrenite dokaz lokalno",
+      "protocol": "Pročitajte protokol",
+      "network": "Proverite mrežu uživo"
+    }
   },
   "stakes": {
     "label": "Шта је у игри",
@@ -176,8 +184,8 @@
       }
     ],
     "live": {
-      "title": "Активно - суверена флота којом управља одржавалац",
-      "subtitle": "Више облака / Независни кључеви / Независне политике",
+      "title": "Javna Implementacija Kojom Upravljaju Održavaoci",
+      "subtitle": "Nezavisni Ključevi / Nezavisna Pravila / Ponovljivi Dokazi",
       "network": "Мрежа признавања",
       "sovereigns": "Суверени актери",
       "clouds": "Облаци",
@@ -198,7 +206,7 @@
   "live": {
     "label": "Активно",
     "title": "Није обећање. Систем већ ради.",
-    "subtitle": "Јединствен модел овлашћења у продукцији. Није пилот-пројекат нити референтна архитектура.",
+    "subtitle": "Javna implementacija kojom upravljaju održavaoci, sa nezavisno ponovljivim dokazima protokola.",
     "proof": {
       "version": "Актуелно издање",
       "cycles": "Завршени циклуси поверења",
@@ -224,7 +232,7 @@
       "title": "Овај разговор не почиње SDK-ом.",
       "desc": "Прочитајте целу причу Elections 2026 да бисте сагледали филозофске аргументе, а затим отворите директан, приватан и поверљив канал. Без образаца, продајних левкова и посредника.",
       "cta": "Прочитајте целу причу →",
-      "altText": "Директан канал: thaer.saidi@outlook.com →"
+      "altText": "Директан канал: authority@genesismesh.org →"
     }
   },
   "footer": {
@@ -243,5 +251,99 @@
     "title": "Genesis Mesh - Протоколарни слој за споразуме између машина",
     "description": "Суверена структура поверења, идентитета и комуникације за аутономне системе. Неутрална према суверенитету и прилагођена споразумима: провера, ограничавање, опозив и ревизија. Није блокчејн. Није VPN. Није сервисна мрежа.",
     "keywords": "суверено поверење|дигитални суверенитет|идентитет машине|Ed25519|споразуми о узајамном признавању|опозив|инфраструктура поверења|Genesis Mesh|протоколарни слој за споразуме|аутономни системи"
+  },
+  "trustCycle": {
+    "label": "Jedan Potpun Ciklus Poverenja",
+    "title": "Ishod istog zahteva se menja kada se promeni poverenje.",
+    "subtitle": "Dva nezavisno upravljana sistema uspostavljaju ograničeno priznanje, donose odluku o ovlašćenju, prenose opoziv i stvaraju proverljivo odbijanje bez deljenja zajedničkog korena poverenja.",
+    "sameRequest": "Isti identitet. Isti zahtev. Drugačije stanje poverenja.",
+    "before": "Pre opoziva",
+    "after": "Posle uvoza opoziva",
+    "accepted": "PRIHVAĆENO",
+    "rejected": "ODBIJENO",
+    "steps": [
+      {
+        "title": "Atestacija je izdata",
+        "description": "Suvereni autoritet B potpisuje atestaciju za identitet koji podnosi zahtev."
+      },
+      {
+        "title": "Sporazum je priznat",
+        "description": "Suvereni autoritet A aktivira sporazum o priznavanju ograničenog opsega za suvereni autoritet B."
+      },
+      {
+        "title": "Zahtev je prihvaćen",
+        "description": "Atestacija i sporazum ispunjavaju lokalna pravila ovlašćenja autoriteta A."
+      },
+      {
+        "title": "Atestacija je opozvana",
+        "description": "Suvereni autoritet B povlači taj konkretan materijal poverenja."
+      },
+      {
+        "title": "Opoziv je uvezen",
+        "description": "A proverava potpisani izvor podataka autoriteta B i ažurira sopstveno stanje poverenja."
+      },
+      {
+        "title": "Identičan zahtev je odbijen",
+        "description": "Isti identitet i zahtev sada ne prolaze, uz razlog koji se može proveriti."
+      }
+    ],
+    "evidence": {
+      "recorded": {
+        "label": "Snimljeni dokaz",
+        "title": "Snimljeno izvršavanje između nezavisnih suverenih autoriteta",
+        "description": "Terminalski zapis u nastavku beleži prelazak protokola preko granica poverenja platformi Azure i DigitalOcean."
+      },
+      "reproducible": {
+        "label": "Ponovljiv dokaz",
+        "title": "Samostalno pokrenite čitav tok",
+        "description": "Javna skripta pokreće dva privremena autoriteta i ponavlja izdavanje, priznavanje, opoziv, uvoz i odbijanje."
+      },
+      "live": {
+        "label": "Operativno stanje uživo",
+        "title": "Zasebno proverite javni autoritet",
+        "description": "Trenutni objedinjeni mrežni signali pribavljaju se nezavisno od snimljene demonstracije."
+      }
+    },
+    "terminalSummary": "Pregledajte snimljeni izlaz terminala",
+    "runLabel": "Ponovite lokalno",
+    "actions": {
+      "recorded": "Otvorite snimljeni dokaz",
+      "run": "Samostalno pokrenite ovaj dokaz",
+      "protocol": "Pročitajte RFC-002 i RFC-004"
+    }
+  },
+  "liveNetwork": {
+    "label": "Dokaz uživo",
+    "title": "Proverite mrežu uživo.",
+    "subtitle": "Javna implementacija kojom upravljaju održavaoci, sa nezavisno ponovljivim dokazima protokola.",
+    "status": {
+      "checking": "Provera signala uživo",
+      "live": "Signali uživo su dostupni",
+      "stale": "Usluga je aktivna, ali su podaci izvora poverenja zastareli",
+      "degraded": "Usluga prijavljuje pogoršano stanje",
+      "unavailable": "Podaci nisu dostupni"
+    },
+    "health": {
+      "healthy": "Ispravno",
+      "degraded": "Pogoršano"
+    },
+    "metrics": {
+      "health": "Stanje usluge",
+      "sovereigns": "Suvereni domeni",
+      "edges": "Veze priznavanja",
+      "treaties": "Aktivni sporazumi o priznavanju",
+      "revocations": "Opozvani materijal poverenja"
+    },
+    "checked": "Provereno",
+    "lastUpdate": "Poslednje ažuriranje mreže",
+    "freshness": "Ažurnost podataka",
+    "freshnessValues": {
+      "current": "Aktuelni",
+      "stale": "Zastareli"
+    },
+    "unknown": "Nepoznato",
+    "disclaimer": "Objedinjeni operativni signali. Ne predstavljaju potpun prikaz bezbednosti ili upravljanja.",
+    "unavailableMessage": "Podaci uživo nisu mogli biti provereni. Keširane vrednosti se ne prikazuju kao aktuelne.",
+    "dashboard": "Pregledajte javnu kontrolnu tablu"
   }
 }

@@ -7,7 +7,10 @@
       "mechanics": "Darbības principi",
       "protocol": "Protokols",
       "hardware": "Silīcijs",
-      "docs": "Dokumentācija"
+      "docs": "Dokumentācija",
+      "proof": "Pierādījums",
+      "live": "Tiešsaistes tīkls",
+      "strategy": "Stratēģija"
     }
   },
   "ui": {
@@ -20,7 +23,7 @@
     "kicker": "Publisks pārskats / Genesis Mesh / 2026",
     "title": "Uzticēšanās, no kuras nevienai valstij",
     "titleAccent": "nav jāatsakās.",
-    "subtitle": "Genesis Mesh ir pārnesama uzticamības infrastruktūra suverēnām sistēmām: kriptogrāfiskā identitāte, savstarpējās atzīšanas līgumi un atsaucamas pilnvaras, kas darbojas vienādi gan 190 valstīm, kuras joprojām meklē digitālās suverenitātes risinājumu, gan trim lielvarām, kurām tas jau ir.",
+    "subtitle": "Genesis Mesh ļauj neatkarīgi pārvaldītām sistēmām savstarpēji atzīt, pilnvarot, atsaukt un auditēt cita citu, neatsakoties no savas suverenitātes.",
     "meta": {
       "verify": "Pārbaudīt",
       "verifyDesc": "kam ir pilnvaras",
@@ -32,7 +35,12 @@
       "auditDesc": "lai nevienam nebūtu jātic uz vārda"
     },
     "scroll": "Ritināt ↓",
-    "vlabel": "Pret suverenitāti neitrāla infrastruktūra"
+    "vlabel": "Pret suverenitāti neitrāla infrastruktūra",
+    "actions": {
+      "run": "Palaist pierādījumu lokāli",
+      "protocol": "Lasīt protokolu",
+      "network": "Pārbaudīt tiešsaistes tīklu"
+    }
   },
   "stakes": {
     "label": "Likmes",
@@ -176,8 +184,8 @@
       }
     ],
     "live": {
-      "title": "Aktīvs tīkls: uzturētāju pārvaldīta suverēnā flote",
-      "subtitle": "Vairāki mākoņi / Neatkarīgas atslēgas / Neatkarīga politika",
+      "title": "Uzturētāju pārvaldīts publisks izvietojums",
+      "subtitle": "Neatkarīgas atslēgas / Neatkarīga politika / Reproducējami pierādījumi",
       "network": "Atzīšanas tīkls",
       "sovereigns": "Suverēnie dalībnieki",
       "clouds": "Mākoņi",
@@ -198,7 +206,7 @@
   "live": {
     "label": "Darbībā",
     "title": "Nevis solījums. Darbojoša sistēma.",
-    "subtitle": "Viens pilnvaru modelis, kas darbojas produkcijas vidē. Ne pilots un ne atsauces arhitektūra.",
+    "subtitle": "Uzturētāju pārvaldīts publisks izvietojums ar neatkarīgi reproducējamiem protokola pierādījumiem.",
     "proof": {
       "version": "Pašreizējais laidiens",
       "cycles": "Pilni uzticamības cikli",
@@ -224,7 +232,7 @@
       "title": "Šī saruna nesākas ar SDK.",
       "desc": "Izlasiet pilno Elections 2026 vēstījumu, lai iepazītos ar filozofisko pamatojumu, un pēc tam atveriet tiešu, privātu un konfidenciālu saziņas kanālu. Bez veidlapām, pārdošanas piltuvēm un starpniekiem.",
       "cta": "Lasīt pilno stāstu →",
-      "altText": "Tiešais kanāls: thaer.saidi@outlook.com →"
+      "altText": "Tiešais kanāls: authority@genesismesh.org →"
     }
   },
   "footer": {
@@ -243,5 +251,99 @@
     "title": "Genesis Mesh - līgumu slānis mašīnām",
     "description": "Suverēns uzticamības, identitātes un saziņas tīklojums autonomām sistēmām. Pret suverenitāti neitrāls un līgumu līmenim atbilstošs: pārbaudīt, ierobežot, atsaukt, auditēt. Ne blokķēde. Ne VPN. Ne pakalpojumu tīklojums.",
     "keywords": "suverēna uzticamība|digitālā suverenitāte|mašīnu identitāte|Ed25519|atzīšanas līgumi|atsaukšana|uzticamības infrastruktūra|Genesis Mesh|līgumu slānis|autonomas sistēmas"
+  },
+  "trustCycle": {
+    "label": "Viens pilns uzticēšanās cikls",
+    "title": "Mainoties uzticēšanās stāvoklim, mainās viena un tā paša pieprasījuma iznākums.",
+    "subtitle": "Divas neatkarīgi pārvaldītas sistēmas izveido ierobežota tvēruma atzīšanu, pieņem autorizācijas lēmumu, izplata atsaukumu un nodrošina auditējamu noraidījumu, neizmantojot kopīgu uzticēšanās sakni.",
+    "sameRequest": "Tā pati identitāte. Tas pats pieprasījums. Cits uzticēšanās stāvoklis.",
+    "before": "Pirms atsaukšanas",
+    "after": "Pēc atsaukuma importēšanas",
+    "accepted": "PIEŅEMTS",
+    "rejected": "NORAIDĪTS",
+    "steps": [
+      {
+        "title": "Apliecinājums izdots",
+        "description": "Suverēnais domēns B paraksta pieprasītāja identitātes apliecinājumu."
+      },
+      {
+        "title": "Atzīšanas līgums apstiprināts",
+        "description": "Suverēnais domēns A aktivizē ierobežota tvēruma atzīšanas līgumu domēnam B."
+      },
+      {
+        "title": "Pieprasījums pieņemts",
+        "description": "Apliecinājums un līgums atbilst A vietējai autorizācijas politikai."
+      },
+      {
+        "title": "Apliecinājums atsaukts",
+        "description": "Suverēnais domēns B atsauc šo konkrēto uzticēšanās materiālu."
+      },
+      {
+        "title": "Atsaukums importēts",
+        "description": "A pārbauda B parakstīto plūsmu un atjaunina savu uzticēšanās stāvokli."
+      },
+      {
+        "title": "Identisks pieprasījums noraidīts",
+        "description": "Tā pati identitāte un pieprasījums tagad tiek noraidīti ar auditējamu pamatojumu."
+      }
+    ],
+    "evidence": {
+      "recorded": {
+        "label": "Ierakstīts pierādījums",
+        "title": "Fiksēta neatkarīgu suverēno domēnu izpilde",
+        "description": "Tālāk redzamie termināļa dati fiksē protokola darbību pāri Azure un DigitalOcean uzticēšanās robežām."
+      },
+      "reproducible": {
+        "label": "Reproducējams pierādījums",
+        "title": "Patstāvīgi izpildiet visu procesu",
+        "description": "Publiskais skripts palaiž divas pagaidu autoritātes un reproducē izdošanu, atzīšanu, atsaukšanu, importēšanu un noraidīšanu."
+      },
+      "live": {
+        "label": "Darbības statuss tiešsaistē",
+        "title": "Atsevišķi pārbaudiet publisko autoritāti",
+        "description": "Pašreizējie apkopotie tīkla signāli tiek iegūti neatkarīgi no ierakstītās demonstrācijas."
+      }
+    },
+    "terminalSummary": "Pārbaudīt ierakstīto termināļa izvadi",
+    "runLabel": "Reproducēt lokāli",
+    "actions": {
+      "recorded": "Atvērt ierakstīto pierādījumu",
+      "run": "Patstāvīgi palaist šo pierādījumu",
+      "protocol": "Lasīt RFC-002 un RFC-004"
+    }
+  },
+  "liveNetwork": {
+    "label": "Tiešsaistes pierādījums",
+    "title": "Pārbaudiet tiešsaistes tīklu.",
+    "subtitle": "Uzturētāju pārvaldīts publisks izvietojums ar neatkarīgi reproducējamiem protokola pierādījumiem.",
+    "status": {
+      "checking": "Notiek tiešsaistes signālu pārbaude",
+      "live": "Tiešsaistes signāli ir pieejami",
+      "stale": "Pakalpojums darbojas, bet uzticēšanās plūsmas dati ir novecojuši",
+      "degraded": "Pakalpojums ziņo par pazeminātu darbspēju",
+      "unavailable": "Dati nav pieejami"
+    },
+    "health": {
+      "healthy": "Darbojas normāli",
+      "degraded": "Pazemināta darbspēja"
+    },
+    "metrics": {
+      "health": "Pakalpojuma darbspēja",
+      "sovereigns": "Suverēnie domēni",
+      "edges": "Atzīšanas saites",
+      "treaties": "Aktīvie atzīšanas līgumi",
+      "revocations": "Atsauktie uzticēšanās materiāli"
+    },
+    "checked": "Pārbaudīts",
+    "lastUpdate": "Pēdējais tīkla atjauninājums",
+    "freshness": "Datu aktualitāte",
+    "freshnessValues": {
+      "current": "Aktuāli",
+      "stale": "Novecojuši"
+    },
+    "unknown": "Nav zināms",
+    "disclaimer": "Apkopoti darbības signāli. Tie nesniedz pilnīgu drošības vai pārvaldības ainu.",
+    "unavailableMessage": "Tiešsaistes datus nevarēja pārbaudīt. Kešatmiņā saglabātās vērtības netiek rādītas kā aktuālas.",
+    "dashboard": "Apskatīt publisko informācijas paneli"
   }
 }

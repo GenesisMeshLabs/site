@@ -1,6 +1,5 @@
 'use client';
 import { useTranslations } from 'next-intl';
-import { useEffect, useRef } from 'react';
 import MeshCanvas from './MeshCanvas';
 
 export default function Hero() {
@@ -21,6 +20,27 @@ export default function Hero() {
         <p className="hero-sub rv">
           {t('subtitle')}
         </p>
+        <div className="hero-actions rv">
+          <a
+            className="hero-action hero-action-primary"
+            href="https://github.com/GenesisMeshLabs/genesismesh/blob/main/docs/examples/cross-sovereign-revocation.md#run"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {t('actions.run')}
+          </a>
+          <a
+            className="hero-action"
+            href="https://genesismesh.connectorzzz.com/rfcs/rfc-002-recognition-treaties.html"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {t('actions.protocol')}
+          </a>
+          <a className="hero-action" href="#live-network">
+            {t('actions.network')}
+          </a>
+        </div>
         <div className="hero-meta rv">
           <div>{t('meta.verify')}<b>{t('meta.verifyDesc')}</b></div>
           <div>{t('meta.limit')}<b>{t('meta.limitDesc')}</b></div>
