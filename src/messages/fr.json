@@ -1,0 +1,219 @@
+{
+  "nav": {
+    "brand": "GENESIS■MESH",
+    "links": {
+      "stakes": "Les Enjeux",
+      "powers": "Trois Puissances",
+      "mechanics": "Mécanique",
+      "protocol": "Protocole",
+      "hardware": "Silicium",
+      "docs": "Documentation"
+    }
+  },
+  "hero": {
+    "kicker": "Note publique / Genesis Mesh / 2026",
+    "title": "Une confiance qu'aucune nation",
+    "titleAccent": "n'a à céder.",
+    "subtitle": "Genesis Mesh est une infrastructure de confiance portable pour les systèmes souverains : identité cryptographique, traités de reconnaissance et autorité révocable, qui fonctionnent de la même manière pour les 190 pays encore en quête de souveraineté numérique et pour les trois qui la détiennent déjà.",
+    "meta": {
+      "verify": "Vérifier",
+      "verifyDesc": "qui détient l'autorité",
+      "limit": "Limiter",
+      "limitDesc": "ce qu'ils peuvent faire",
+      "revoke": "Révoquer",
+      "revokeDesc": "quand la confiance se rompt",
+      "audit": "Auditer",
+      "auditDesc": "pour que nul n'ait à vous croire sur parole"
+    },
+    "scroll": "Faire défiler ↓",
+    "vlabel": "Infrastructure neutre en souveraineté"
+  },
+  "stakes": {
+    "label": "Les Enjeux",
+    "title": "La souveraineté numérique est désormais une question de survie nationale, et il n'existe aucune couche de traités pour les machines.",
+    "subtitle": "Les États signent des traités. Les systèmes numériques n'ont pas d'équivalent. Lorsque l'agent d'IA d'une nation rencontre l'infrastructure d'une autre, la question - qui se porte garant de cette entité, sous quelles règles, et cette confiance peut-elle être retirée - est une question diplomatique qui n'a aujourd'hui aucune réponse au niveau du protocole. Genesis Mesh est cette réponse.",
+    "notLine": "Pas une blockchain. Pas un VPN. Pas un service mesh. Pas un framework d'agents. Pas une place de marché. La couche de traités pour les machines.",
+    "stats": {
+      "one": "190+",
+      "oneDesc": "Nations encore en quête d'une formule de souveraineté",
+      "two": "3",
+      "twoDesc": "Puissances qui possèdent déjà leur pile",
+      "three": "1",
+      "threeDesc": "Protocole qui sert les deux sans choisir de camp"
+    }
+  },
+  "powers": {
+    "label": "Les Trois Puissances",
+    "title": "Les puissances souveraines n'ont pas besoin d'indépendance. Elles ont besoin d'interopérer sans se subordonner.",
+    "subtitle": "La valeur s'inverse, mais elle ne disparaît pas. Aucune capitale alliée n'accepte la racine de confiance d'une autre : la reconnaissance doit donc circuler sous forme de traités signés, délimités et révocables entre égaux.",
+    "cn": {
+      "code": "CN - Chine",
+      "tag": "La preuve de l'exportateur",
+      "title": "Prouver l'absence de contrôle, techniquement.",
+      "desc": "Chaque exportation d'infrastructure se heurte à la même objection : votre équipement signifie votre contrôle. Une confiance vérifiable, détenue par l'opérateur et révocable est la réponse technique à cette objection politique.",
+      "benefits": [
+        "Les nations partenaires auditent et révoquent sans croire personne sur parole",
+        "Reconnaissance croisée avec les souverains occidentaux : aucune partie ne détient les clés de l'autre",
+        "Intégration sino-occidentale sous un modèle de gouvernance unique"
+      ]
+    },
+    "us": {
+      "code": "US - États-Unis",
+      "tag": "Le problème de la fédération",
+      "title": "Les alliés ne prendront pas votre racine.",
+      "desc": "Five Eyes, OTAN, partenaires de l'UE : aucun ne se subordonnera à une ancre de confiance contrôlée par les États-Unis. Les traités de reconnaissance permettent à chaque allié de rester souverain pendant que la confiance continue de circuler.",
+      "benefits": [
+        "Infrastructure alliée sans capitulation politique",
+        "Les hyperscalers vendent dans le cadre du droit de souveraineté étranger"
+      ]
+    },
+    "kp": {
+      "code": "KP - Corée du Nord",
+      "tag": "La contrainte extrême",
+      "title": "Le test du souverain paranoïaque.",
+      "desc": "Un État qui ne fait confiance à rien d'extérieur. Si un protocole fonctionne pour le souverain le plus verrouillé de la planète - zéro dépendance, pleine propriété de l'opérateur - il fonctionne pour tout le monde.",
+      "benefits": [
+        "Contrainte de conception de niveau autarcique",
+        "Aucun ancrage à une autorité étrangère, jamais"
+      ]
+    }
+  },
+  "mechanics": {
+    "label": "La Mécanique",
+    "title": "Une infrastructure qui n'encode aucune politique, seulement de la mécanique.",
+    "subtitle": "La plupart des infrastructures de confiance encodent la politique de celui qui exploite la racine. Genesis Mesh n'encode que quatre opérations et laisse la politique aux souverains. C'est ce qui la rend de niveau traité plutôt que de niveau fournisseur.",
+    "ops": [
+      {
+        "num": "01",
+        "name": "Vérifier",
+        "desc": "Preuve cryptographique de qui détient l'autorité : identité Ed25519, blocs de genèse signés, chaînes de preuves."
+      },
+      {
+        "num": "02",
+        "name": "Limiter",
+        "desc": "Délégations délimitées et bornées dans le temps. Les manifestes de capacités définissent ce que chaque identité peut faire, rien de plus."
+      },
+      {
+        "num": "03",
+        "name": "Révoquer",
+        "desc": "Dès que la confiance se rompt, la révocation signée se propage au-delà des frontières souveraines, et elle est honorée."
+      },
+      {
+        "num": "04",
+        "name": "Auditer",
+        "desc": "Chaque décision laisse une preuve infalsifiable. Personne n'a à vous croire sur parole."
+      }
+    ]
+  },
+  "protocol": {
+    "label": "Le Protocole",
+    "title": "Un programme RFC ouvert, façonné par les normes et non par un fournisseur.",
+    "subtitle": "Trois générations de SDK livrées (TypeScript, Go, .NET). 1 041 tests. Huit lemmes Tamarin vérifiés par machine. Des souverains multicloud en production sur Azure, DigitalOcean, Cloudflare et Akamai/Linode.",
+    "stack": {
+      "title": "La Pile",
+      "l1": "L1 - Cœur du protocole. Identité Ed25519, blocs de genèse signés, enrôlement, révocation, routage, audit.",
+      "l2": "L2 - Communautés souveraines. Domaines de confiance indépendants. Chacun contrôle ses propres adhésions, sa gouvernance et ses révocations.",
+      "l3": "L3 - Réseau de reconnaissance. Traités entre souverains. Chemins de confiance et propagation des révocations au-delà des frontières."
+    },
+    "rfcs": [
+      {
+        "id": "RFC-001",
+        "name": "Identité Souveraine",
+        "status": "Protocole"
+      },
+      {
+        "id": "RFC-002",
+        "name": "Traités de Reconnaissance",
+        "status": "Protocole"
+      },
+      {
+        "id": "RFC-003",
+        "name": "Paquets de Confiance",
+        "status": "Protocole"
+      },
+      {
+        "id": "RFC-004",
+        "name": "Flux de Révocation",
+        "status": "Protocole"
+      },
+      {
+        "id": "RFC-005",
+        "name": "Manifestes de Capacités",
+        "status": "Protocole"
+      },
+      {
+        "id": "RFC-006",
+        "name": "Modèle Connectome",
+        "status": "Protocole"
+      },
+      {
+        "id": "RFC-007",
+        "name": "Continuité de l'Opérateur",
+        "status": "Protocole"
+      },
+      {
+        "id": "RFC-008",
+        "name": "Rôle d'Opérateur Géré",
+        "status": "Protocole"
+      }
+    ],
+    "live": {
+      "title": "En direct - Flotte souveraine opérée par le mainteneur",
+      "subtitle": "Multicloud / Clés indépendantes / Politique indépendante",
+      "sovereigns": "Souverains",
+      "clouds": "Clouds",
+      "edges": "Arêtes de reconnaissance",
+      "operators": "Opérateurs externes",
+      "status": "Intégration - Phase 2",
+      "online": "● EN LIGNE"
+    }
+  },
+  "silicon": {
+    "label": "Le Silicium",
+    "title": "Un protocole souverain sur du silicium étranger relève du théâtre.",
+    "subtitle": "Genesis Mesh vérifie l'autorité dans le logiciel. Mais un logiciel n'est souverain que dans la mesure où l'est le silicium qui l'exécute. TSWI, l'Initiative tunisienne pour une filière souveraine du wafer, boucle la chaîne : propriété de l'IP de l'interposeur, propriété de l'usine d'encapsulation, propriété de la pile d'orchestration. Des chiplets standards en entrée ; du calcul souverain en sortie. Alimentée à l'énergie solaire au carrefour de trois continents, avec plus de la moitié du coût de calcul supprimée. La phase une est achevée.",
+    "conclusion": "Le protocole gouverne la logique. La Tunisie gouverne le silicium.",
+    "cta": "Lire la note TSWI →"
+  },
+  "live": {
+    "label": "En direct",
+    "title": "Pas une promesse. Un système en fonctionnement.",
+    "subtitle": "Un seul modèle d'autorité, en production sur Akamai, Cloudflare, MongoDB Atlas, Salesforce et SAP, par-dessus Azure, GCP, VMware et AWS. v0.55.0 · trois cycles de confiance complets livrés · 1 041 tests · huit lemmes vérifiés avec Tamarin · palier pré-1.0 en cours."
+  },
+  "closing": {
+    "title": "Recrutez l'autorité.",
+    "titleAccent": "Pas le fournisseur.",
+    "subtitle": "Pour les 190, c'est le chemin le plus court vers la propriété de leurs ancres de confiance. Pour les trois, c'est la seule façon d'interopérer sans y renoncer.",
+    "builders": {
+      "who": "Pour les 190 - Bâtisseurs et architectes",
+      "title": "Déployez votre propre domaine de confiance souverain.",
+      "desc": "Lisez les RFC, récupérez les SDK TypeScript, Go et .NET, et montez une Communauté Souveraine L2 sur une infrastructure que vous possédez déjà.",
+      "cta": "Entrer dans le Dev Hub →",
+      "altText": "Organisation open source →"
+    },
+    "strategic": {
+      "who": "Pour les trois - États et acteurs stratégiques",
+      "title": "Cette conversation ne commence pas par un SDK.",
+      "desc": "Lisez le récit complet Elections 2026 pour l'argument philosophique, puis ouvrez un canal direct et discret. Sans formulaire, sans tunnel, sans intermédiaire.",
+      "cta": "Lire l'histoire complète →",
+      "altText": "Canal direct : thaer.saidi@outlook.com →"
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Contributeurs Genesis Mesh",
+    "links": {
+      "docs": "Documentation",
+      "devHub": "Dev Hub",
+      "story": "L'Histoire"
+    },
+    "signature": "Les builds de ce site sont signés sous l'autorité Genesis Mesh.",
+    "tagline": "LA SOUVERAINETÉ EST DU CODE",
+    "verify": "Vérifier",
+    "unsigned": "Attestation de build (non signée)"
+  },
+  "seo": {
+    "title": "Genesis Mesh - La couche de traités pour les machines",
+    "description": "Un tissu souverain de confiance, d'identité et de communication pour les systèmes autonomes. Neutre en souveraineté et de niveau traité : vérifier, limiter, révoquer, auditer. Pas une blockchain. Pas un VPN. Pas un service mesh.",
+    "keywords": "confiance souveraine|souveraineté numérique|identité machine|Ed25519|traités de reconnaissance|révocation|infrastructure de confiance|Genesis Mesh|couche de traités"
+  }
+}

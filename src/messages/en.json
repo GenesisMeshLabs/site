@@ -1,0 +1,219 @@
+{
+  "nav": {
+    "brand": "GENESIS■MESH",
+    "links": {
+      "stakes": "The Stakes",
+      "powers": "Three Powers",
+      "mechanics": "Mechanics",
+      "protocol": "Protocol",
+      "hardware": "Silicon",
+      "docs": "Docs"
+    }
+  },
+  "hero": {
+    "kicker": "Public Brief / Genesis Mesh / 2026",
+    "title": "Trust that no nation",
+    "titleAccent": "has to surrender.",
+    "subtitle": "Genesis Mesh is portable trust infrastructure for sovereign systems - cryptographic identity, recognition treaties, and revocable authority that work the same for the 190 countries still searching for digital sovereignty, and for the three that already have it.",
+    "meta": {
+      "verify": "Verify",
+      "verifyDesc": "who holds authority",
+      "limit": "Limit",
+      "limitDesc": "what they can do",
+      "revoke": "Revoke",
+      "revokeDesc": "when trust breaks",
+      "audit": "Audit",
+      "auditDesc": "so no one takes your word"
+    },
+    "scroll": "Scroll ↓",
+    "vlabel": "Sovereignty-Neutral Infrastructure"
+  },
+  "stakes": {
+    "label": "The Stakes",
+    "title": "Digital sovereignty is now a question of national survival - and there is no treaty layer for machines.",
+    "subtitle": "States sign treaties. Digital systems have no equivalent. When an AI agent of one nation meets the infrastructure of another, the question - who vouches for this entity, under whose rules, and can that trust be withdrawn - is a diplomatic question that today has no protocol answer. Genesis Mesh is that answer.",
+    "notLine": "Not a blockchain. Not a VPN. Not a service mesh. Not an agent framework. Not a marketplace. The treaty layer for machines.",
+    "stats": {
+      "one": "190+",
+      "oneDesc": "Nations still searching for a sovereignty formula",
+      "two": "3",
+      "twoDesc": "Powers that already own their stack",
+      "three": "1",
+      "threeDesc": "Protocol that serves both - without picking a side"
+    }
+  },
+  "powers": {
+    "label": "The Three Powers",
+    "title": "Sovereign powers don't need independence. They need interoperation without subordination.",
+    "subtitle": "The value flips, but it doesn't disappear. No allied capital accepts another's root of trust - so recognition must travel as signed, scoped, revocable treaties between equals.",
+    "cn": {
+      "code": "CN - China",
+      "tag": "The Exporter's Proof",
+      "title": "Prove non-control, technically.",
+      "desc": "Every infrastructure export meets the same objection: your equipment means your control. Verifiable, operator-owned, revocable trust is the technical answer to that political objection.",
+      "benefits": [
+        "Partner nations audit and revoke without trusting anyone's word",
+        "Cross-recognition with Western sovereigns - neither side holds the other's keys",
+        "Chinese-Western integration under a single governance model"
+      ]
+    },
+    "us": {
+      "code": "US - United States",
+      "tag": "The Federation Problem",
+      "title": "Allies won't take your root.",
+      "desc": "Five Eyes, NATO, EU partners: none will subordinate to a US-controlled trust anchor. Recognition treaties let each ally stay sovereign while trust still flows.",
+      "benefits": [
+        "Allied infrastructure without political capitulation",
+        "Hyperscalers sell into foreign sovereignty law"
+      ]
+    },
+    "kp": {
+      "code": "KP - North Korea",
+      "tag": "The Extreme Constraint",
+      "title": "The paranoid-sovereign test.",
+      "desc": "A state that trusts nothing external. If a protocol works for the most guarded sovereign on earth - zero dependency, full operator ownership - it works for anyone.",
+      "benefits": [
+        "Autarky-grade design constraint",
+        "No foreign authority anchoring, ever"
+      ]
+    }
+  },
+  "mechanics": {
+    "label": "The Mechanics",
+    "title": "Infrastructure that encodes no politics - only mechanics.",
+    "subtitle": "Most trust infrastructure encodes the politics of whoever runs the root. Genesis Mesh encodes only four operations and leaves the politics to the sovereigns. That is what makes it treaty-grade rather than vendor-grade.",
+    "ops": [
+      {
+        "num": "01",
+        "name": "Verify",
+        "desc": "Cryptographic proof of who holds authority - Ed25519 identity, signed genesis blocks, evidence chains."
+      },
+      {
+        "num": "02",
+        "name": "Limit",
+        "desc": "Scoped, time-bounded delegations. Capability manifests define what each identity may do - nothing more."
+      },
+      {
+        "num": "03",
+        "name": "Revoke",
+        "desc": "The moment trust breaks, signed revocation propagates across sovereign boundaries - and is honored."
+      },
+      {
+        "num": "04",
+        "name": "Audit",
+        "desc": "Every decision leaves tamper-evident evidence. No one has to take your word for it."
+      }
+    ]
+  },
+  "protocol": {
+    "label": "The Protocol",
+    "title": "An open RFC program - standards-shaped, not vendor-shaped.",
+    "subtitle": "Three SDK generations shipped (TypeScript, Go, .NET). 1,041 tests. Eight machine-checked Tamarin lemmas. Multi-cloud sovereigns live on Azure, DigitalOcean, Cloudflare, and Akamai/Linode.",
+    "stack": {
+      "title": "The Stack",
+      "l1": "L1 - Protocol Core. Ed25519 identity, signed genesis blocks, enrollment, revocation, routing, audit.",
+      "l2": "L2 - Sovereign Communities. Independent trust domains. Each controls its own membership, governance, revocation.",
+      "l3": "L3 - Recognition Network. Treaties between sovereigns. Trust paths and revocation propagation across boundaries."
+    },
+    "rfcs": [
+      {
+        "id": "RFC-001",
+        "name": "Sovereign Identity",
+        "status": "Protocol"
+      },
+      {
+        "id": "RFC-002",
+        "name": "Recognition Treaties",
+        "status": "Protocol"
+      },
+      {
+        "id": "RFC-003",
+        "name": "Trust Bundles",
+        "status": "Protocol"
+      },
+      {
+        "id": "RFC-004",
+        "name": "Revocation Feeds",
+        "status": "Protocol"
+      },
+      {
+        "id": "RFC-005",
+        "name": "Capability Manifests",
+        "status": "Protocol"
+      },
+      {
+        "id": "RFC-006",
+        "name": "Connectome Model",
+        "status": "Protocol"
+      },
+      {
+        "id": "RFC-007",
+        "name": "Operator Continuity",
+        "status": "Protocol"
+      },
+      {
+        "id": "RFC-008",
+        "name": "Managed Operator Role",
+        "status": "Protocol"
+      }
+    ],
+    "live": {
+      "title": "Live - Maintainer-Operated Sovereign Fleet",
+      "subtitle": "Multi-Cloud / Independent Keys / Independent Policy",
+      "sovereigns": "Sovereigns",
+      "clouds": "Clouds",
+      "edges": "Recognition Edges",
+      "operators": "External Operators",
+      "status": "Onboarding - Phase 2",
+      "online": "● ONLINE"
+    }
+  },
+  "silicon": {
+    "label": "The Silicon",
+    "title": "A sovereign protocol on foreign silicon is theater.",
+    "subtitle": "Genesis Mesh verifies authority in software. But software is only as sovereign as the silicon it runs on. TSWI - the Tunisian Sovereign Wafer Initiative - closes the loop: owned interposer IP, owned packaging facility, owned orchestration stack. Commodity chiplets in; sovereign compute out. Solar-powered at the crossroads of three continents, with more than half the compute cost stripped out. Phase one is done.",
+    "conclusion": "The protocol governs the logic. Tunisia governs the silicon.",
+    "cta": "Read the TSWI briefing →"
+  },
+  "live": {
+    "label": "Live",
+    "title": "Not a promise. A running system.",
+    "subtitle": "One authority model, live across Akamai, Cloudflare, MongoDB Atlas, Salesforce, and SAP - over Azure, GCP, VMware, and AWS. v0.55.0 · three complete trust cycles shipped · 1,041 tests · eight Tamarin-verified lemmas · pre-1.0 gate in progress."
+  },
+  "closing": {
+    "title": "Hire the authority.",
+    "titleAccent": "Not the vendor.",
+    "subtitle": "For the 190, it is the shortest path to owning your trust anchors. For the three, it is the only way to interoperate without giving them up.",
+    "builders": {
+      "who": "For the 190 - Builders & Architects",
+      "title": "Spin up your own sovereign trust domain.",
+      "desc": "Read the RFCs, pull the TypeScript / Go / .NET SDKs, and stand up an L2 Sovereign Community on infrastructure you already own.",
+      "cta": "Enter the Dev Hub →",
+      "altText": "Open-source organization →"
+    },
+    "strategic": {
+      "who": "For the Three - State & Strategic Actors",
+      "title": "This conversation does not start with an SDK.",
+      "desc": "Read the full Elections 2026 narrative for the philosophical case, then open a direct, discreet channel. No forms, no funnels, no intermediaries.",
+      "cta": "Read the Full Story →",
+      "altText": "Direct channel: thaer.saidi@outlook.com →"
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Genesis Mesh Contributors",
+    "links": {
+      "docs": "Docs",
+      "devHub": "Dev Hub",
+      "story": "The Story"
+    },
+    "signature": "Builds of this site are signed under Genesis Mesh authority.",
+    "tagline": "SOVEREIGNTY IS CODE",
+    "verify": "Verify",
+    "unsigned": "Build attestation (unsigned)"
+  },
+  "seo": {
+    "title": "Genesis Mesh - The Treaty Layer for Machines",
+    "description": "A sovereign trust, identity & communication fabric for autonomous systems. Sovereignty-neutral, treaty-grade: verify, limit, revoke, audit. Not a blockchain. Not a VPN. Not a service mesh.",
+    "keywords": "sovereign trust|digital sovereignty|machine identity|Ed25519|recognition treaties|revocation|trust infrastructure|Genesis Mesh|treaty layer|autonomous systems"
+  }
+}
