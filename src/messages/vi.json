@@ -178,7 +178,15 @@
   "live": {
     "label": "Trực tiếp",
     "title": "Không phải một lời hứa. Là một hệ thống đang chạy.",
-    "subtitle": "Một mô hình thẩm quyền duy nhất, đang chạy trên Akamai, Cloudflare, MongoDB Atlas, Salesforce và SAP, bên trên Azure, GCP, VMware và AWS. v0.55.0 · đã phát hành ba chu trình tin cậy đầy đủ · 1.041 bài kiểm thử · tám bổ đề đã kiểm chứng bằng Tamarin · ngưỡng trước 1.0 đang tiến hành."
+    "subtitle": "Một mô hình thẩm quyền duy nhất, đang chạy thật. Không phải thử nghiệm, cũng không phải kiến trúc tham chiếu.",
+    "proof": {
+      "version": "Bản phát hành hiện tại",
+      "cycles": "Chu trình tin cậy đầy đủ",
+      "tests": "Bài kiểm thử",
+      "lemmas": "Bổ đề đã kiểm chứng bằng Tamarin"
+    },
+    "across": "Đang chạy trên",
+    "over": "Bên trên"
   },
   "closing": {
     "title": "Hãy thuê thẩm quyền.",

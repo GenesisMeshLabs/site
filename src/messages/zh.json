@@ -178,7 +178,15 @@
   "live": {
     "label": "直播",
     "title": "不是承诺。一个正在运行的系统。",
-    "subtitle": "同一套权限模型，已在 Akamai、Cloudflare、MongoDB Atlas、Salesforce 与 SAP 上线运行，底层横跨 Azure、GCP、VMware 与 AWS。v0.55.0 · 已交付三个完整信任周期 · 1,041 项测试 · 八条经 Tamarin 验证的引理 · 1.0 前置关卡进行中。"
+    "subtitle": "同一套权限模型，已在生产环境中运行。既不是试点，也不是参考架构。",
+    "proof": {
+      "version": "当前版本",
+      "cycles": "完整信任周期",
+      "tests": "测试",
+      "lemmas": "经 Tamarin 验证的引理"
+    },
+    "across": "运行于",
+    "over": "底层为"
   },
   "closing": {
     "title": "聘请权限。",

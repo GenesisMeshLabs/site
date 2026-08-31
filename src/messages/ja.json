@@ -178,7 +178,15 @@
   "live": {
     "label": "稼働中",
     "title": "約束ではない。稼働しているシステムである。",
-    "subtitle": "単一の権限モデルが、Akamai、Cloudflare、MongoDB Atlas、Salesforce、SAP にまたがって稼働し、その下では Azure、GCP、VMware、AWS が動いている。v0.55.0 ・ 完全な信頼サイクルを3周分出荷 ・ 1,041 件のテスト ・ Tamarin で検証済みの補題8件 ・ 1.0 前のゲートを進行中。"
+    "subtitle": "単一の権限モデルが本番で稼働している。試験導入でも参照アーキテクチャでもない。",
+    "proof": {
+      "version": "現在のリリース",
+      "cycles": "完全な信頼サイクル",
+      "tests": "テスト",
+      "lemmas": "Tamarin で検証済みの補題"
+    },
+    "across": "稼働先",
+    "over": "その基盤"
   },
   "closing": {
     "title": "権限を雇う。",

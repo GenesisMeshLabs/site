@@ -178,7 +178,15 @@
   "live": {
     "label": "Live",
     "title": "Not a promise. A running system.",
-    "subtitle": "One authority model, live across Akamai, Cloudflare, MongoDB Atlas, Salesforce, and SAP - over Azure, GCP, VMware, and AWS. v0.55.0 · three complete trust cycles shipped · 1,041 tests · eight Tamarin-verified lemmas · pre-1.0 gate in progress."
+    "subtitle": "One authority model, in production. Not a pilot, and not a reference architecture.",
+    "proof": {
+      "version": "Current release",
+      "cycles": "Complete trust cycles",
+      "tests": "Tests",
+      "lemmas": "Tamarin-verified lemmas"
+    },
+    "across": "Live across",
+    "over": "Running over"
   },
   "closing": {
     "title": "Hire the authority.",

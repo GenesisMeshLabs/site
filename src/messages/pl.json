@@ -178,7 +178,15 @@
   "live": {
     "label": "Na żywo",
     "title": "To nie obietnica. To działający system.",
-    "subtitle": "Jeden model uprawnień, działający na Akamai, Cloudflare, MongoDB Atlas, Salesforce i SAP, ponad Azure, GCP, VMware i AWS. v0.55.0 · trzy pełne cykle zaufania wydane · 1041 testów · osiem lematów zweryfikowanych w Tamarin · próg przed 1.0 w toku."
+    "subtitle": "Jeden model uprawnień, na produkcji. Ani pilotaż, ani architektura referencyjna.",
+    "proof": {
+      "version": "Bieżące wydanie",
+      "cycles": "Pełne cykle zaufania",
+      "tests": "Testy",
+      "lemmas": "Lematy zweryfikowane w Tamarin"
+    },
+    "across": "Działa na",
+    "over": "Ponad"
   },
   "closing": {
     "title": "Zatrudnij władzę.",

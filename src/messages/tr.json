@@ -178,7 +178,15 @@
   "live": {
     "label": "Canlı",
     "title": "Bir vaat değil. Çalışan bir sistem.",
-    "subtitle": "Tek bir yetki modeli; Akamai, Cloudflare, MongoDB Atlas, Salesforce ve SAP genelinde, Azure, GCP, VMware ve AWS üzerinde canlı. v0.55.0 · üç tam güven döngüsü yayımlandı · 1.041 test · Tamarin ile doğrulanmış sekiz önerme · 1.0 öncesi eşik sürüyor."
+    "subtitle": "Tek bir yetki modeli, üretimde. Ne bir pilot ne de bir referans mimari.",
+    "proof": {
+      "version": "Güncel sürüm",
+      "cycles": "Tam güven döngüsü",
+      "tests": "Test",
+      "lemmas": "Tamarin ile doğrulanmış önerme"
+    },
+    "across": "Şurada canlı",
+    "over": "Şunların üzerinde"
   },
   "closing": {
     "title": "Yetkiyi işe alın.",

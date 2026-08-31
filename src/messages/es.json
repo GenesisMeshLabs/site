@@ -178,7 +178,15 @@
   "live": {
     "label": "En vivo",
     "title": "No es una promesa. Es un sistema en marcha.",
-    "subtitle": "Un único modelo de autoridad, en producción sobre Akamai, Cloudflare, MongoDB Atlas, Salesforce y SAP, y por encima de Azure, GCP, VMware y AWS. v0.55.0 · tres ciclos completos de confianza entregados · 1.041 pruebas · ocho lemas verificados con Tamarin · puerta previa a 1.0 en curso."
+    "subtitle": "Un único modelo de autoridad, en producción. Ni un piloto ni una arquitectura de referencia.",
+    "proof": {
+      "version": "Versión actual",
+      "cycles": "Ciclos de confianza completos",
+      "tests": "Pruebas",
+      "lemmas": "Lemas verificados con Tamarin"
+    },
+    "across": "En producción sobre",
+    "over": "Por encima de"
   },
   "closing": {
     "title": "Contrata la autoridad.",

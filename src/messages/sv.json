@@ -178,7 +178,15 @@
   "live": {
     "label": "Live",
     "title": "Inget löfte. Ett system i drift.",
-    "subtitle": "En enda behörighetsmodell, i drift över Akamai, Cloudflare, MongoDB Atlas, Salesforce och SAP, ovanpå Azure, GCP, VMware och AWS. v0.55.0 · tre fullständiga tillitscykler släppta · 1 041 tester · åtta Tamarin-verifierade lemman · tröskeln före 1.0 pågår."
+    "subtitle": "En enda behörighetsmodell, i produktion. Varken pilot eller referensarkitektur.",
+    "proof": {
+      "version": "Aktuell version",
+      "cycles": "Fullständiga tillitscykler",
+      "tests": "Tester",
+      "lemmas": "Tamarin-verifierade lemman"
+    },
+    "across": "I drift på",
+    "over": "Ovanpå"
   },
   "closing": {
     "title": "Anlita behörigheten.",

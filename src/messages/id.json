@@ -178,7 +178,15 @@
   "live": {
     "label": "Langsung",
     "title": "Bukan janji. Sebuah sistem yang berjalan.",
-    "subtitle": "Satu model wewenang, berjalan di Akamai, Cloudflare, MongoDB Atlas, Salesforce, dan SAP, di atas Azure, GCP, VMware, dan AWS. v0.55.0 · tiga siklus kepercayaan lengkap telah dirilis · 1.041 pengujian · delapan lema terverifikasi Tamarin · ambang pra-1.0 sedang berjalan."
+    "subtitle": "Satu model wewenang, di lingkungan produksi. Bukan uji coba, bukan pula arsitektur acuan.",
+    "proof": {
+      "version": "Rilis saat ini",
+      "cycles": "Siklus kepercayaan lengkap",
+      "tests": "Pengujian",
+      "lemmas": "Lema terverifikasi Tamarin"
+    },
+    "across": "Berjalan di",
+    "over": "Di atas"
   },
   "closing": {
     "title": "Rekrut wewenangnya.",

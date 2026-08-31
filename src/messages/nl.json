@@ -178,7 +178,15 @@
   "live": {
     "label": "Live",
     "title": "Geen belofte. Een draaiend systeem.",
-    "subtitle": "Eén gezagsmodel, live op Akamai, Cloudflare, MongoDB Atlas, Salesforce en SAP, bovenop Azure, GCP, VMware en AWS. v0.55.0 · drie volledige vertrouwenscycli uitgebracht · 1.041 tests · acht met Tamarin geverifieerde lemma's · pre-1.0-drempel loopt."
+    "subtitle": "Eén gezagsmodel, in productie. Geen pilot en geen referentiearchitectuur.",
+    "proof": {
+      "version": "Huidige release",
+      "cycles": "Volledige vertrouwenscycli",
+      "tests": "Tests",
+      "lemmas": "Met Tamarin geverifieerde lemma's"
+    },
+    "across": "Live op",
+    "over": "Draait op"
   },
   "closing": {
     "title": "Huur het gezag in.",

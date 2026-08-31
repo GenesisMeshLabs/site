@@ -11,9 +11,16 @@ export default function Silicon() {
       </div>
       <h2 className="rv">{t('title')}</h2>
       <p className="lead rv">{t('subtitle')}</p>
-      <p className="lead rv" style={{ marginTop: '28px' }}>{t('conclusion')}</p>
-      <div style={{ marginTop: '28px' }}>
-        <a href="#" className="btn">{t('cta')}</a>
+      <p className="lead rv silicon-conclusion">{t('conclusion')}</p>
+      <div className="rv silicon-cta">
+        {/* No briefing is published yet, so this opens the direct channel
+            rather than pointing at a page that does not exist. */}
+        <a
+          className="btn"
+          href="mailto:thaer.saidi@outlook.com?subject=TSWI%20briefing%20request"
+        >
+          {t('cta')}
+        </a>
       </div>
     </section>
   );

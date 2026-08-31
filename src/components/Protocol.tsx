@@ -15,12 +15,25 @@ export default function Protocol() {
       <p className="lead rv">{t('subtitle')}</p>
 
       <div className="stack-section rv">
-        <h3 style={{ fontFamily: 'var(--serif)', fontWeight: 300, fontSize: '24px', marginBottom: '14px' }}>
-          {t('stack.title')}
-        </h3>
-        <div className="stack-item">{t('stack.l1')}</div>
-        <div className="stack-item">{t('stack.l2')}</div>
-        <div className="stack-item">{t('stack.l3')}</div>
+        <h3 className="stack-title">{t('stack.title')}</h3>
+        <div className="stack">
+          {(['l3', 'l2', 'l1'] as const).map((tier) => {
+            // Each string is "L1 - Name. Description." Split so the tier code
+            // and its name can carry the visual weight.
+            const raw = t(`stack.${tier}`);
+            const [head, ...rest] = raw.split('. ');
+            const [code, name] = head.split(/\s-\s(.+)/);
+            return (
+              <div className="stack-tier" key={tier}>
+                <span className="stack-code">{code}</span>
+                <div className="stack-body">
+                  <span className="stack-name">{name ?? head}</span>
+                  <span className="stack-desc">{rest.join('. ')}</span>
+                </div>
+              </div>
+            );
+          })}
+        </div>
       </div>
 
       <div className="rfc-list rv">

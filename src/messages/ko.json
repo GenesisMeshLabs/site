@@ -178,7 +178,15 @@
   "live": {
     "label": "가동 중",
     "title": "약속이 아니다. 실제로 도는 시스템이다.",
-    "subtitle": "하나의 권한 모델이 Akamai, Cloudflare, MongoDB Atlas, Salesforce, SAP에 걸쳐 가동되며, 그 아래에는 Azure, GCP, VMware, AWS가 있다. v0.55.0 · 세 번의 완전한 신뢰 주기 출시 · 1,041개 테스트 · Tamarin으로 검증한 여덟 개 보조정리 · 1.0 이전 게이트 진행 중."
+    "subtitle": "하나의 권한 모델이 실제 운영 환경에서 돌고 있다. 파일럿도, 참조 아키텍처도 아니다.",
+    "proof": {
+      "version": "현재 릴리스",
+      "cycles": "완전한 신뢰 주기",
+      "tests": "테스트",
+      "lemmas": "Tamarin 검증 보조정리"
+    },
+    "across": "가동 중",
+    "over": "그 아래"
   },
   "closing": {
     "title": "권한을 고용하세요.",

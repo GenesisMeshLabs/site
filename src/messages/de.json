@@ -178,7 +178,15 @@
   "live": {
     "label": "Live",
     "title": "Kein Versprechen. Ein laufendes System.",
-    "subtitle": "Ein Autoritätsmodell, produktiv über Akamai, Cloudflare, MongoDB Atlas, Salesforce und SAP hinweg, auf Azure, GCP, VMware und AWS. v0.55.0 · drei vollständige Vertrauenszyklen ausgeliefert · 1.041 Tests · acht mit Tamarin verifizierte Lemmata · Pre-1.0-Gate läuft."
+    "subtitle": "Ein Autoritätsmodell, im Produktivbetrieb. Kein Pilot und keine Referenzarchitektur.",
+    "proof": {
+      "version": "Aktuelle Version",
+      "cycles": "Vollständige Vertrauenszyklen",
+      "tests": "Tests",
+      "lemmas": "Mit Tamarin verifizierte Lemmata"
+    },
+    "across": "Live auf",
+    "over": "Läuft über"
   },
   "closing": {
     "title": "Verpflichten Sie die Autorität.",

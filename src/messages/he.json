@@ -178,7 +178,15 @@
   "live": {
     "label": "חי",
     "title": "לא הבטחה. מערכת שפועלת.",
-    "subtitle": "מודל סמכות אחד, פועל על Akamai, Cloudflare, MongoDB Atlas, Salesforce ו-SAP, מעל Azure, GCP, VMware ו-AWS. v0.55.0 · שלושה מחזורי אמון מלאים שוחררו · 1,041 בדיקות · שמונה למות שאומתו ב-Tamarin · סף טרום 1.0 בעיצומו."
+    "subtitle": "מודל סמכות אחד, בייצור. לא פיילוט ולא ארכיטקטורת ייחוס.",
+    "proof": {
+      "version": "גרסה נוכחית",
+      "cycles": "מחזורי אמון מלאים",
+      "tests": "בדיקות",
+      "lemmas": "למות שאומתו ב-Tamarin"
+    },
+    "across": "פועל על",
+    "over": "מעל"
   },
   "closing": {
     "title": "שכרו את הסמכות.",
