@@ -54,9 +54,30 @@ html[dir='rtl'] h3,
 html[dir='rtl'] h4,
 html[dir='rtl'] .stat .num,
 html[dir='rtl'] .rfc .name,
-html[dir='rtl'] .hw-stat .v,
+html[dir='rtl'] .proof-v,
 html[dir='rtl'] .big-foot {
   font-family: 'Noto Sans Arabic', 'Newsreader', Georgia, serif;
+}
+
+/* Arabic, Persian, Hebrew and Urdu set much larger on the body than the Latin
+   display faces, so the headline scale is pulled back to keep the same
+   optical weight instead of overwhelming the page. */
+html[dir='rtl'] h1 {
+  font-size: clamp(34px, 4.6vw, 64px);
+  line-height: 1.25;
+}
+
+html[dir='rtl'] h2 {
+  font-size: clamp(26px, 3.2vw, 42px);
+  line-height: 1.35;
+}
+
+html[dir='rtl'] .closing h2 {
+  font-size: clamp(30px, 4vw, 52px);
+}
+
+html[dir='rtl'] .big-foot {
+  font-size: clamp(26px, 4vw, 60px);
 }
 
 ::selection {
@@ -85,34 +106,143 @@ html[dir='rtl'] nav {
   text-align: right;
 }
 
-.brand-logo {
+.brand {
   display: flex;
   align-items: center;
-  justify-content: center;
-  width: 40px;
-  height: 40px;
+  gap: 12px;
   text-decoration: none;
+  color: var(--ink);
   transition: opacity 0.25s;
 }
 
-.brand-logo:hover {
+.brand:hover {
   opacity: 0.8;
 }
 
-.brand-logo img {
-  width: 32px;
-  height: 32px;
+.brand img {
+  width: 28px;
+  height: 28px;
   display: block;
+  flex-shrink: 0;
 }
 
-nav ul {
-  display: flex;
-  gap: 32px;
+.brand-word {
+  font-family: var(--mono);
+  font-size: 13px;
+  letter-spacing: 0.18em;
+  text-transform: uppercase;
+  white-space: nowrap;
+}
+
+.brand-word em {
+  color: var(--red);
+  font-style: normal;
+}
+
+@media (max-width: 420px) {
+  .brand-word {
+    display: none;
+  }
+}
+
+/* Mobile menu */
+.nav-burger {
+  display: none;
+  width: 40px;
+  height: 40px;
+  align-items: center;
+  justify-content: center;
+  background: transparent;
+  border: 1px solid var(--line);
+  cursor: pointer;
+  padding: 0;
+}
+
+.nav-burger:hover {
+  border-color: var(--red);
+}
+
+.burger-bars,
+.burger-bars::before,
+.burger-bars::after {
+  display: block;
+  width: 16px;
+  height: 1px;
+  background: var(--ink);
+  transition: transform 0.25s, opacity 0.2s;
+}
+
+.burger-bars {
+  position: relative;
+}
+
+.burger-bars::before,
+.burger-bars::after {
+  content: '';
+  position: absolute;
+  left: 0;
+}
+
+.burger-bars::before {
+  transform: translateY(-5px);
+}
+
+.burger-bars::after {
+  transform: translateY(5px);
+}
+
+.burger-bars.is-open {
+  background: transparent;
+}
+
+.burger-bars.is-open::before {
+  transform: rotate(45deg);
+}
+
+.burger-bars.is-open::after {
+  transform: rotate(-45deg);
+}
+
+.nav-sheet {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  right: 0;
+  /* Fully opaque: the hero headline sits directly behind and shows through
+     any transparency, which made the menu labels hard to read. */
+  background: var(--bg);
+  border-bottom: 1px solid var(--line);
+  max-height: calc(100vh - 100%);
+  overflow-y: auto;
+}
+
+.nav-sheet ul {
   list-style: none;
+  display: flex;
+  flex-direction: column;
 }
 
-html[dir='rtl'] nav ul {
-  flex-direction: row-reverse;
+.nav-sheet a {
+  display: block;
+  padding: 16px 24px;
+  font-family: var(--mono);
+  font-size: 12px;
+  letter-spacing: 0.16em;
+  text-transform: uppercase;
+  color: var(--ink-dim);
+  text-decoration: none;
+  border-bottom: 1px solid var(--line);
+}
+
+.nav-sheet a:hover {
+  color: var(--ink);
+  background: var(--bg2);
+}
+
+.nav-links {
+  display: flex;
+  gap: 28px;
+  list-style: none;
 }
 
 nav a {
@@ -129,8 +259,18 @@ nav a:hover {
   color: var(--ink);
 }
 
-@media (max-width: 820px) {
-  nav ul {
+/* Below this width the inline links are replaced by the sheet, not dropped. */
+@media (max-width: 980px) {
+  .nav-links {
+    display: none;
+  }
+  .nav-burger {
+    display: flex;
+  }
+}
+
+@media (min-width: 981px) {
+  .nav-sheet {
     display: none;
   }
 }
@@ -169,6 +309,9 @@ nav a:hover {
   display: flex;
   align-items: center;
   gap: 14px;
+  /* The label mixes an RTL phrase with Latin runs (Genesis Mesh, 2026).
+     Resolve direction per line so the segments do not reorder into nonsense. */
+  unicode-bidi: plaintext;
 }
 
 html[dir='rtl'] .kicker {
@@ -222,14 +365,16 @@ h1 .accent {
   margin-top: 4px;
 }
 
+/* Decorative marginalia. It sat close enough to the headline to read as
+   clutter, so it only appears once there is genuine margin to put it in. */
 .vlabel {
   position: absolute;
-  left: 14px;
+  left: 16px;
   top: 50%;
   transform: translateY(-50%);
   writing-mode: vertical-rl;
   font-family: var(--mono);
-  font-size: 10px;
+  font-size: 11px;
   letter-spacing: 0.4em;
   text-transform: uppercase;
   color: var(--ink-faint);
@@ -238,8 +383,14 @@ h1 .accent {
 
 html[dir='rtl'] .vlabel {
   left: auto;
-  right: 14px;
+  right: 16px;
   writing-mode: vertical-lr;
+}
+
+@media (max-width: 1280px) {
+  .vlabel {
+    display: none;
+  }
 }
 
 .scroll-hint {
@@ -248,7 +399,7 @@ html[dir='rtl'] .vlabel {
   left: 50%;
   transform: translateX(-50%);
   font-family: var(--mono);
-  font-size: 10px;
+  font-size: 11px;
   letter-spacing: 0.3em;
   color: var(--ink-faint);
   text-transform: uppercase;
@@ -435,7 +586,7 @@ html[dir='rtl'] .power .phead {
 
 .power .tag {
   font-family: var(--mono);
-  font-size: 10px;
+  font-size: 11px;
   letter-spacing: 0.14em;
   color: var(--ink-faint);
   text-transform: uppercase;
@@ -609,7 +760,7 @@ html[dir='rtl'] .rfc .name {
 
 .rfc .st {
   font-family: var(--mono);
-  font-size: 10px;
+  font-size: 11px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--ink-faint);
@@ -740,7 +891,7 @@ footer a:hover {
 
 .footer-keyid {
   font-family: var(--mono);
-  font-size: 10px;
+  font-size: 11px;
   color: var(--ink-faint);
   opacity: 0.7;
 }
@@ -834,7 +985,7 @@ html[dir='rtl'] .live-dot {
   padding: 18px 28px;
   border-top: 1px solid var(--line);
   font-family: var(--mono);
-  font-size: 10px;
+  font-size: 11px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--ink-faint);
@@ -1018,7 +1169,7 @@ html[dir='rtl'] .aud {
   display: block;
   margin-top: 14px;
   font-family: var(--mono);
-  font-size: 10px;
+  font-size: 11px;
   letter-spacing: 0.14em;
   text-transform: uppercase;
   color: var(--ink-faint);
@@ -1029,35 +1180,156 @@ html[dir='rtl'] .aud {
   color: var(--red);
 }
 
-/* Stack section */
+/* Protocol stack. Rendered top-down L3 to L1 so it reads as a stack. */
 .stack-section {
   margin-top: 56px;
-  padding-top: 28px;
-  border-top: 1px solid var(--line);
 }
 
-.stack-item {
-  margin-top: 20px;
+.stack-title {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.3em;
+  text-transform: uppercase;
+  color: var(--ink-faint);
+  margin-bottom: 20px;
+}
+
+.stack {
+  border: 1px solid var(--line);
+}
+
+.stack-tier {
+  display: grid;
+  grid-template-columns: 88px 1fr;
+  gap: 24px;
+  padding: 26px 28px;
+  border-bottom: 1px solid var(--line);
+  transition: background 0.3s;
+}
+
+html[dir='rtl'] .stack-tier {
+  grid-template-columns: 1fr 88px;
+  direction: rtl;
+}
+
+html[dir='rtl'] .stack-code {
+  order: 2;
+}
+
+html[dir='rtl'] .stack-body {
+  order: 1;
+}
+
+.stack-tier:last-child {
+  border-bottom: none;
+}
+
+.stack-tier:hover {
+  background: var(--bg2);
+}
+
+.stack-code {
+  font-family: var(--mono);
+  font-size: 13px;
+  letter-spacing: 0.2em;
+  color: var(--red);
+  padding-top: 2px;
+}
+
+.stack-body {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.stack-name {
+  font-family: var(--serif);
+  font-weight: 300;
+  font-size: 22px;
+  color: var(--ink);
+  line-height: 1.2;
+}
+
+.stack-desc {
+  font-size: 14px;
+  color: var(--ink-dim);
+}
+
+@media (max-width: 600px) {
+  .stack-tier,
+  html[dir='rtl'] .stack-tier {
+    grid-template-columns: 1fr;
+    gap: 10px;
+    padding: 22px 20px;
+  }
+}
+
+/* Live proof band */
+.proof-row {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(160px, 1fr));
+  gap: 1px;
+  background: var(--line);
+  border: 1px solid var(--line);
+  margin-top: 56px;
+}
+
+.proof {
+  background: var(--bg);
+  padding: 34px 24px;
+}
+
+.proof-v {
+  font-family: var(--serif);
+  font-weight: 200;
+  font-size: 42px;
+  line-height: 1;
+  color: var(--ink);
+}
+
+.proof-k {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.14em;
+  text-transform: uppercase;
+  color: var(--ink-dim);
+  margin-top: 14px;
+}
+
+.platforms {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 28px;
+  margin-top: 40px;
+}
+
+.platform-group {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.platform-label {
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  color: var(--red);
+}
+
+.platform-list {
   font-size: 15px;
   color: var(--ink-dim);
-  padding-left: 20px;
 }
 
-html[dir='rtl'] .stack-item {
-  padding-left: 0;
-  padding-right: 20px;
+/* Silicon */
+.silicon-conclusion {
+  margin-top: 28px;
+  color: var(--ink);
 }
 
-.stack-item::before {
-  content: '/';
-  color: var(--red);
-  margin-right: 10px;
-  margin-left: -20px;
-}
-
-html[dir='rtl'] .stack-item::before {
-  margin-left: 10px;
-  margin-right: -20px;
+.silicon-cta {
+  margin-top: 32px;
 }
 
 /* Not line */
@@ -1136,10 +1408,9 @@ html[dir='rtl'] .not-line {
   flex-direction: column;
   width: 260px;
   max-width: calc(100vw - 40px);
-  background: rgba(12, 12, 13, 0.97);
-  backdrop-filter: blur(12px);
+  background: var(--bg);
   border: 1px solid var(--line);
-  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.45);
+  box-shadow: 0 18px 40px rgba(0, 0, 0, 0.55);
 }
 
 .lang-search {
@@ -1211,7 +1482,7 @@ html[dir='rtl'] .not-line {
 }
 
 .lang-english {
-  font-size: 9px;
+  font-size: 10px;
   color: var(--ink-faint);
   text-transform: uppercase;
   letter-spacing: 0.12em;
