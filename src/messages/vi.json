@@ -10,11 +10,17 @@
       "docs": "Tài Liệu"
     }
   },
+  "ui": {
+    "menu": "Trình đơn",
+    "searchLanguages": "Tìm kiếm ngôn ngữ",
+    "noLanguageMatch": "Không có ngôn ngữ phù hợp",
+    "selectLanguage": "Chọn ngôn ngữ"
+  },
   "hero": {
     "kicker": "Bản tóm lược công khai / Genesis Mesh / 2026",
     "title": "Niềm tin mà không quốc gia nào",
     "titleAccent": "phải giao nộp.",
-    "subtitle": "Genesis Mesh là hạ tầng tin cậy khả chuyển cho các hệ thống có chủ quyền: danh tính mật mã, hiệp ước công nhận và thẩm quyền có thể thu hồi, vận hành như nhau cho 190 quốc gia vẫn đang tìm kiếm chủ quyền số và cho ba quốc gia đã có nó.",
+    "subtitle": "Genesis Mesh là hạ tầng tin cậy khả chuyển cho các hệ thống có chủ quyền: danh tính mật mã, hiệp ước công nhận và thẩm quyền có thể thu hồi, vận hành như nhau cho 190 quốc gia vẫn đang tìm kiếm chủ quyền số và cho ba cường quốc đã có nó.",
     "meta": {
       "verify": "Xác minh",
       "verifyDesc": "ai đang nắm thẩm quyền",
@@ -71,7 +77,7 @@
       "code": "KP - Triều Tiên",
       "tag": "Ràng buộc cực đoan",
       "title": "Phép thử của chủ thể đa nghi nhất.",
-      "desc": "Một nhà nước không tin bất cứ thứ gì từ bên ngoài. Nếu một giao thức hoạt động được cho chủ thể khép kín nhất hành tinh, với zero phụ thuộc và quyền sở hữu trọn vẹn thuộc nhà vận hành, thì nó hoạt động cho bất kỳ ai.",
+      "desc": "Một nhà nước không tin bất cứ thứ gì từ bên ngoài. Nếu một giao thức hoạt động được cho chủ thể khép kín nhất hành tinh, với mức phụ thuộc bằng không và quyền sở hữu trọn vẹn thuộc nhà vận hành, thì nó hoạt động cho bất kỳ ai.",
       "benefits": [
         "Ràng buộc thiết kế ở mức tự cấp tự túc",
         "Không bao giờ neo vào một thẩm quyền nước ngoài"
@@ -108,12 +114,24 @@
   "protocol": {
     "label": "Giao Thức",
     "title": "Một chương trình RFC mở, định hình bởi tiêu chuẩn chứ không bởi nhà cung cấp.",
-    "subtitle": "Đã phát hành ba thế hệ SDK (TypeScript, Go, .NET). 1.041 bài kiểm thử. Tám bổ đề Tamarin được máy kiểm chứng. Các chủ thể đa đám mây đang chạy trên Azure, DigitalOcean, Cloudflare và Akamai/Linode.",
+    "subtitle": "Đã phát hành ba thế hệ SDK (TypeScript, Go, .NET). 1.041 bài kiểm thử. Tám bổ đề Tamarin được máy kiểm chứng. Các hệ thống chủ quyền đa đám mây đang hoạt động trên Azure, DigitalOcean, Cloudflare và Akamai/Linode.",
     "stack": {
       "title": "Ngăn Xếp",
-      "l1": "L1 - Lõi giao thức. Danh tính Ed25519, khối khởi nguyên đã ký, ghi danh, thu hồi, định tuyến, kiểm toán.",
-      "l2": "L2 - Cộng đồng có chủ quyền. Các miền tin cậy độc lập. Mỗi miền tự kiểm soát thành viên, quản trị và việc thu hồi của mình.",
-      "l3": "L3 - Mạng công nhận. Hiệp ước giữa các chủ thể có chủ quyền. Đường tin cậy và sự lan truyền thu hồi qua các biên giới."
+      "l1": {
+        "code": "L1",
+        "name": "Lõi giao thức",
+        "desc": "Danh tính Ed25519, khối khởi nguyên đã ký, ghi danh, thu hồi, định tuyến, kiểm toán."
+      },
+      "l2": {
+        "code": "L2",
+        "name": "Cộng đồng có chủ quyền",
+        "desc": "Các miền tin cậy độc lập. Mỗi miền tự kiểm soát thành viên, quản trị và việc thu hồi của mình."
+      },
+      "l3": {
+        "code": "L3",
+        "name": "Mạng công nhận",
+        "desc": "Hiệp ước giữa các chủ thể có chủ quyền. Đường tin cậy và sự lan truyền thu hồi qua các biên giới."
+      }
     },
     "rfcs": [
       {
@@ -160,9 +178,11 @@
     "live": {
       "title": "Trực tiếp - Đội chủ quyền do người bảo trì vận hành",
       "subtitle": "Đa đám mây / Khóa độc lập / Chính sách độc lập",
+      "network": "Mạng lưới Công nhận Lẫn nhau",
       "sovereigns": "Chủ thể có chủ quyền",
       "clouds": "Đám mây",
       "edges": "Cạnh công nhận",
+      "edgeStatus": "Đã ký và có thể thu hồi",
       "operators": "Nhà vận hành bên ngoài",
       "status": "Gia nhập - Giai đoạn 2",
       "online": "● TRỰC TUYẾN"
@@ -178,7 +198,7 @@
   "live": {
     "label": "Trực tiếp",
     "title": "Không phải một lời hứa. Là một hệ thống đang chạy.",
-    "subtitle": "Một mô hình thẩm quyền duy nhất, đang chạy thật. Không phải thử nghiệm, cũng không phải kiến trúc tham chiếu.",
+    "subtitle": "Một mô hình thẩm quyền duy nhất, đang vận hành trong môi trường sản xuất. Không phải thử nghiệm, cũng không phải kiến trúc tham chiếu.",
     "proof": {
       "version": "Bản phát hành hiện tại",
       "cycles": "Chu trình tin cậy đầy đủ",
@@ -191,7 +211,7 @@
   "closing": {
     "title": "Hãy thuê thẩm quyền.",
     "titleAccent": "Không phải nhà cung cấp.",
-    "subtitle": "Với 190 quốc gia, đây là con đường ngắn nhất để tự sở hữu neo tin cậy của mình. Với ba quốc gia, đây là cách duy nhất để liên thông mà không phải từ bỏ chúng.",
+    "subtitle": "Với 190 quốc gia, đây là con đường ngắn nhất để tự sở hữu neo tin cậy của mình. Với ba cường quốc, đây là cách duy nhất để liên thông mà không phải từ bỏ chúng.",
     "builders": {
       "who": "Cho 190 - Người xây dựng và kiến trúc sư",
       "title": "Dựng miền tin cậy có chủ quyền của riêng bạn.",
@@ -202,7 +222,7 @@
     "strategic": {
       "who": "Cho ba - Nhà nước và các chủ thể chiến lược",
       "title": "Cuộc trao đổi này không bắt đầu bằng một SDK.",
-      "desc": "Hãy đọc toàn bộ tự sự Elections 2026 để nắm lập luận triết học, rồi mở một kênh trực tiếp và kín đáo. Không biểu mẫu, không phễu, không trung gian.",
+      "desc": "Hãy đọc toàn bộ tự sự Elections 2026 để nắm lập luận triết học, rồi mở một kênh liên lạc trực tiếp, riêng tư và bảo mật. Không biểu mẫu, không phễu, không trung gian.",
       "cta": "Đọc toàn bộ câu chuyện →",
       "altText": "Kênh trực tiếp: thaer.saidi@outlook.com →"
     }
@@ -222,6 +242,6 @@
   "seo": {
     "title": "Genesis Mesh - Tầng hiệp ước cho máy móc",
     "description": "Một kết cấu có chủ quyền về tin cậy, danh tính và truyền thông cho các hệ thống tự trị. Trung lập về chủ quyền và đạt tầm hiệp ước: xác minh, giới hạn, thu hồi, kiểm toán. Không phải blockchain. Không phải VPN. Không phải service mesh.",
-    "keywords": "tin cậy có chủ quyền|chủ quyền số|danh tính máy|Ed25519|hiệp ước công nhận|thu hồi|hạ tầng tin cậy|Genesis Mesh|tầng hiệp ước"
+    "keywords": "tin cậy có chủ quyền|chủ quyền số|danh tính máy|Ed25519|hiệp ước công nhận|thu hồi|hạ tầng tin cậy|Genesis Mesh|tầng hiệp ước|hệ thống tự trị"
   }
 }

@@ -62,7 +62,7 @@ export default function Nav() {
           className="nav-burger"
           aria-expanded={open}
           aria-controls="mobile-nav"
-          aria-label="Menu"
+          aria-label={t('ui.menu')}
           onClick={() => setOpen((v) => !v)}
         >
           <span className={`burger-bars ${open ? 'is-open' : ''}`} aria-hidden="true" />

@@ -10,6 +10,12 @@
       "docs": "Dokumentasi"
     }
   },
+  "ui": {
+    "menu": "Menu",
+    "searchLanguages": "Cari bahasa",
+    "noLanguageMatch": "Tidak ada bahasa yang cocok",
+    "selectLanguage": "Pilih bahasa"
+  },
   "hero": {
     "kicker": "Ringkasan Publik / Genesis Mesh / 2026",
     "title": "Kepercayaan yang tak perlu",
@@ -111,9 +117,21 @@
     "subtitle": "Tiga generasi SDK telah dirilis (TypeScript, Go, .NET). 1.041 pengujian. Delapan lema Tamarin yang diperiksa mesin. Entitas berdaulat multiawan berjalan di Azure, DigitalOcean, Cloudflare, dan Akamai/Linode.",
     "stack": {
       "title": "Tumpukan",
-      "l1": "L1 - Inti protokol. Identitas Ed25519, blok genesis bertanda tangan, pendaftaran, pencabutan, perutean, audit.",
-      "l2": "L2 - Komunitas berdaulat. Domain kepercayaan yang mandiri. Masing-masing mengendalikan keanggotaan, tata kelola, dan pencabutannya sendiri.",
-      "l3": "L3 - Jaringan pengakuan. Traktat antarpemegang kedaulatan. Jalur kepercayaan dan penyebaran pencabutan lintas batas."
+      "l1": {
+        "code": "L1",
+        "name": "Inti protokol",
+        "desc": "Identitas Ed25519, blok genesis bertanda tangan, pendaftaran, pencabutan, perutean, audit."
+      },
+      "l2": {
+        "code": "L2",
+        "name": "Komunitas berdaulat",
+        "desc": "Domain kepercayaan yang mandiri. Masing-masing mengendalikan keanggotaan, tata kelola, dan pencabutannya sendiri."
+      },
+      "l3": {
+        "code": "L3",
+        "name": "Jaringan pengakuan",
+        "desc": "Traktat antarpemegang kedaulatan. Jalur kepercayaan dan penyebaran pencabutan lintas batas."
+      }
     },
     "rfcs": [
       {
@@ -160,9 +178,11 @@
     "live": {
       "title": "Langsung - Armada berdaulat yang dijalankan pemelihara",
       "subtitle": "Multiawan / Kunci mandiri / Kebijakan mandiri",
+      "network": "Jaringan Pengakuan Timbal Balik",
       "sovereigns": "Pemegang kedaulatan",
       "clouds": "Awan",
       "edges": "Sisi pengakuan",
+      "edgeStatus": "Ditandatangani dan dapat dicabut",
       "operators": "Operator eksternal",
       "status": "Pendaftaran - Fase 2",
       "online": "● DARING"
@@ -191,7 +211,7 @@
   "closing": {
     "title": "Rekrut wewenangnya.",
     "titleAccent": "Bukan vendornya.",
-    "subtitle": "Bagi yang 190, ini jalan terpendek untuk memiliki jangkar kepercayaan sendiri. Bagi yang tiga, ini satu-satunya cara berinteroperasi tanpa melepaskannya.",
+    "subtitle": "Bagi 190 negara, ini jalan terpendek untuk memiliki jangkar kepercayaan sendiri. Bagi tiga negara, ini satu-satunya cara berinteroperasi tanpa melepaskannya.",
     "builders": {
       "who": "Bagi yang 190 - Pembangun dan arsitek",
       "title": "Dirikan domain kepercayaan berdaulat Anda sendiri.",
@@ -222,6 +242,6 @@
   "seo": {
     "title": "Genesis Mesh - Lapisan traktat untuk mesin",
     "description": "Jalinan berdaulat untuk kepercayaan, identitas, dan komunikasi bagi sistem otonom. Netral terhadap kedaulatan dan setara traktat: verifikasi, batasi, cabut, audit. Bukan blockchain. Bukan VPN. Bukan service mesh.",
-    "keywords": "kepercayaan berdaulat|kedaulatan digital|identitas mesin|Ed25519|traktat pengakuan|pencabutan|infrastruktur kepercayaan|Genesis Mesh|lapisan traktat"
+    "keywords": "kepercayaan berdaulat|kedaulatan digital|identitas mesin|Ed25519|traktat pengakuan|pencabutan|infrastruktur kepercayaan|Genesis Mesh|lapisan traktat|sistem otonom"
   }
 }

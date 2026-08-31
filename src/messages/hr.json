@@ -1,0 +1,247 @@
+{
+  "nav": {
+    "brand": "GENESIS■MESH",
+    "links": {
+      "stakes": "Što je na kocki",
+      "powers": "Tri sile",
+      "mechanics": "Mehanika",
+      "protocol": "Protokol",
+      "hardware": "Silicij",
+      "docs": "Dokumentacija"
+    }
+  },
+  "ui": {
+    "menu": "Izbornik",
+    "searchLanguages": "Pretraži jezike",
+    "noLanguageMatch": "Nema odgovarajućeg jezika",
+    "selectLanguage": "Odaberite jezik"
+  },
+  "hero": {
+    "kicker": "Javni sažetak / Genesis Mesh / 2026",
+    "title": "Povjerenje kojeg se nijedna država",
+    "titleAccent": "ne mora odreći.",
+    "subtitle": "Genesis Mesh prenosiva je infrastruktura povjerenja za suverene sustave: kriptografski identitet, ugovori o uzajamnom priznavanju i opozive ovlasti koje jednako funkcioniraju za 190 država koje još traže digitalni suverenitet i za tri koje ga već imaju.",
+    "meta": {
+      "verify": "Provjeri",
+      "verifyDesc": "tko ima ovlasti",
+      "limit": "Ograniči",
+      "limitDesc": "što smije učiniti",
+      "revoke": "Opozovi",
+      "revokeDesc": "kada se povjerenje naruši",
+      "audit": "Revidiraj",
+      "auditDesc": "kako nitko ne bi morao vjerovati na riječ"
+    },
+    "scroll": "Pomaknite se ↓",
+    "vlabel": "Infrastruktura neutralna prema suverenitetu"
+  },
+  "stakes": {
+    "label": "Što je na kocki",
+    "title": "Digitalni suverenitet sada je pitanje nacionalnog opstanka, a ugovorni sloj za strojeve ne postoji.",
+    "subtitle": "Države potpisuju ugovore. Digitalni sustavi nemaju njihov ekvivalent. Kada AI agent jedne države stupi u kontakt s infrastrukturom druge, pitanja tko jamči za taj entitet, prema čijim pravilima i može li se to povjerenje opozvati diplomatska su pitanja na koja danas ne postoji protokolarni odgovor. Genesis Mesh jest taj odgovor.",
+    "notLine": "Nije lanac blokova. Nije VPN. Nije uslužna mreža. Nije okvir za agente. Nije tržište. To je ugovorni sloj za strojeve.",
+    "stats": {
+      "one": "190+",
+      "oneDesc": "Država koje još traže formulu suvereniteta",
+      "two": "3",
+      "twoDesc": "Sile koje već posjeduju cijeli svoj tehnološki sloj",
+      "three": "1",
+      "threeDesc": "Protokol koji služi objema stranama, ne svrstavavajući se ni uz jednu"
+    }
+  },
+  "powers": {
+    "label": "Tri sile",
+    "title": "Suverenim silama ne treba neovisnost. Treba im interoperabilnost bez podređivanja.",
+    "subtitle": "Vrijednost se preokreće, ali ne nestaje. Nijedna saveznička prijestolnica neće prihvatiti tuđi korijen povjerenja, stoga se priznavanje mora prenositi u obliku potpisanih, ograničenih i opozivih ugovora među ravnopravnima.",
+    "cn": {
+      "code": "CN - Kina",
+      "tag": "Dokaz izvoznika",
+      "title": "Tehnički dokažite da nema kontrole.",
+      "desc": "Svaki izvoz infrastrukture nailazi na isti prigovor: vaša oprema znači vašu kontrolu. Provjerljivo i opozivo povjerenje u vlasništvu operatora tehnički je odgovor na taj politički prigovor.",
+      "benefits": [
+        "Partnerske države provode reviziju i opoziv bez oslanjanja na ičiju riječ",
+        "Uzajamno priznavanje sa zapadnim suverenim državama, pri čemu nijedna strana ne posjeduje ključeve druge",
+        "Kinesko-zapadna integracija u okviru jedinstvenog modela upravljanja"
+      ]
+    },
+    "us": {
+      "code": "US - Sjedinjene Američke Države",
+      "tag": "Problem federacije",
+      "title": "Saveznici neće prihvatiti vaš korijen povjerenja.",
+      "desc": "Five Eyes, NATO i partneri iz EU-a: nitko se neće podrediti sidru povjerenja pod kontrolom SAD-a. Ugovori o priznavanju omogućuju svakom savezniku da ostane suveren dok povjerenje i dalje teče.",
+      "benefits": [
+        "Saveznička infrastruktura bez političke kapitulacije",
+        "Pružatelji usluga hiperskaliranja posluju u skladu sa zakonima stranih država o suverenitetu"
+      ]
+    },
+    "kp": {
+      "code": "KP - Sjeverna Koreja",
+      "tag": "Krajnje ograničenje",
+      "title": "Test krajnje nepovjerljive suverene države.",
+      "desc": "Država koja ne vjeruje ničemu vanjskom. Ako protokol funkcionira za najzatvoreniju suverenu državu na svijetu, bez ikakvih ovisnosti i uz potpuno vlasništvo operatora, funkcionirat će za svakoga.",
+      "benefits": [
+        "Projektno ograničenje na razini autarkije",
+        "Bez oslanjanja na stranu ovlast, ikada"
+      ]
+    }
+  },
+  "mechanics": {
+    "label": "Mehanika",
+    "title": "Infrastruktura koja ne kodira politiku, već samo mehaniku.",
+    "subtitle": "Većina infrastrukture povjerenja kodira politiku onoga tko upravlja korijenom. Genesis Mesh kodira samo četiri operacije, a politiku prepušta suverenim državama. Zato je na razini ugovora, a ne dobavljača.",
+    "ops": [
+      {
+        "num": "01",
+        "name": "Provjeri",
+        "desc": "Kriptografski dokaz o tome tko ima ovlasti: Ed25519 identitet, potpisani genesis blokovi i lanci dokaza."
+      },
+      {
+        "num": "02",
+        "name": "Ograniči",
+        "desc": "Delegiranja ograničena opsegom i vremenom. Manifesti sposobnosti definiraju što svaki identitet smije učiniti, i ništa više."
+      },
+      {
+        "num": "03",
+        "name": "Opozovi",
+        "desc": "Čim se povjerenje naruši, potpisani opoziv širi se preko granica suverenih država i poštuje se."
+      },
+      {
+        "num": "04",
+        "name": "Revidiraj",
+        "desc": "Svaka odluka ostavlja dokaz na kojem su pokušaji izmjene vidljivi. Nitko vam ne mora vjerovati na riječ."
+      }
+    ]
+  },
+  "protocol": {
+    "label": "Protokol",
+    "title": "Otvoren program RFC-ova, oblikovan prema standardima, a ne prema dobavljaču.",
+    "subtitle": "Objavljene su tri generacije SDK-ova (TypeScript, Go, .NET). 1,041 testova. Osam Tamarin lema provjerenih strojem. Suverene instance u više oblaka aktivne su na platformama Azure, DigitalOcean, Cloudflare i Akamai/Linode.",
+    "stack": {
+      "title": "Slojna arhitektura",
+      "l1": {
+        "code": "L1",
+        "name": "Jezgra protokola",
+        "desc": "Ed25519 identitet, potpisani genesis blokovi, registracija, opoziv, usmjeravanje i revizija."
+      },
+      "l2": {
+        "code": "L2",
+        "name": "Suverene zajednice",
+        "desc": "Neovisne domene povjerenja. Svaka upravlja vlastitim članstvom, upravljanjem i opozivom."
+      },
+      "l3": {
+        "code": "L3",
+        "name": "Mreža priznavanja",
+        "desc": "Ugovori među suverenim državama. Putovi povjerenja i širenje opoziva preko granica."
+      }
+    },
+    "rfcs": [
+      {
+        "id": "RFC-001",
+        "name": "Suvereni identitet",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-002",
+        "name": "Ugovori o priznavanju",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-003",
+        "name": "Paketi povjerenja",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-004",
+        "name": "Tokovi opoziva",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-005",
+        "name": "Manifesti sposobnosti",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-006",
+        "name": "Model konektoma",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-007",
+        "name": "Kontinuitet operatora",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-008",
+        "name": "Uloga upravljanog operatora",
+        "status": "Protokol"
+      }
+    ],
+    "live": {
+      "title": "Aktivno - suverena flota kojom upravlja održavatelj",
+      "subtitle": "Više oblaka / Neovisni ključevi / Neovisna pravila",
+      "network": "Mreža priznavanja",
+      "sovereigns": "Suverene države",
+      "clouds": "Oblaci",
+      "edges": "Veze priznavanja",
+      "edgeStatus": "Potpisane i opozive",
+      "operators": "Vanjski operatori",
+      "status": "Uvođenje u sustav - 2. faza",
+      "online": "● ONLINE"
+    }
+  },
+  "silicon": {
+    "label": "Silicij",
+    "title": "Suvereni protokol na stranom siliciju samo je predstava.",
+    "subtitle": "Genesis Mesh provjerava ovlasti u softveru. No softver je suveren samo koliko i silicij na kojem se izvršava. TSWI, Tuniska inicijativa za suverene pločice, zatvara krug: vlastito intelektualno vlasništvo nad interposerom, vlastiti pogon za pakiranje i vlastiti orkestracijski sloj. Standardni chipleti ulaze; suvereno računalstvo izlazi. Pogon napajan solarnom energijom na raskrižju triju kontinenata, uz smanjenje troškova računalstva za više od polovice. Prva faza je dovršena.",
+    "conclusion": "Protokol upravlja logikom. Tunis upravlja silicijem.",
+    "cta": "Pročitajte sažetak o TSWI-ju →"
+  },
+  "live": {
+    "label": "Aktivno",
+    "title": "Nije obećanje. Sustav radi.",
+    "subtitle": "Jedinstven model ovlasti u produkciji. Nije pilot-projekt niti referentna arhitektura.",
+    "proof": {
+      "version": "Trenutačno izdanje",
+      "cycles": "Potpuni ciklusi povjerenja",
+      "tests": "Testovi",
+      "lemmas": "Leme provjerene alatom Tamarin"
+    },
+    "across": "Aktivno na",
+    "over": "Izvršava se na"
+  },
+  "closing": {
+    "title": "Uspostavite vlastite ovlasti.",
+    "titleAccent": "Ne ovisite o dobavljaču.",
+    "subtitle": "Za 190 država to je najkraći put do vlasništva nad vlastitim sidrima povjerenja. Za tri sile to je jedini način interoperabilnosti bez odricanja od njih.",
+    "builders": {
+      "who": "Za 190 država - razvojni stručnjaci i arhitekti",
+      "title": "Pokrenite vlastitu suverenu domenu povjerenja.",
+      "desc": "Pročitajte RFC-ove, preuzmite SDK-ove za TypeScript / Go / .NET i uspostavite L2 suverenu zajednicu na infrastrukturi koju već posjedujete.",
+      "cta": "Otvorite razvojno središte →",
+      "altText": "Organizacija otvorenog koda →"
+    },
+    "strategic": {
+      "who": "Za tri sile - državni i strateški akteri",
+      "title": "Ovaj razgovor ne počinje SDK-om.",
+      "desc": "Pročitajte cijeli narativ Elections 2026 radi uvida u filozofske argumente, a zatim otvorite izravan, privatan i povjerljiv kanal. Bez obrazaca, prodajnih lijevaka i posrednika.",
+      "cta": "Pročitajte cijelu priču →",
+      "altText": "Izravni kanal: thaer.saidi@outlook.com →"
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Suradnici projekta Genesis Mesh",
+    "links": {
+      "docs": "Dokumentacija",
+      "devHub": "Razvojno središte",
+      "story": "Priča"
+    },
+    "signature": "Međuverzije ove stranice potpisane su ovlastima sustava Genesis Mesh.",
+    "tagline": "SUVERENITET JE KOD",
+    "verify": "Provjeri",
+    "unsigned": "Potvrda međuverzije (nepotpisana)"
+  },
+  "seo": {
+    "title": "Genesis Mesh - ugovorni sloj za strojeve",
+    "description": "Suverena struktura povjerenja, identiteta i komunikacije za autonomne sustave. Neutralna prema suverenitetu i na razini ugovora: provjerava, ograničava, opoziva i omogućuje reviziju. Nije lanac blokova. Nije VPN. Nije uslužna mreža.",
+    "keywords": "suvereno povjerenje|digitalni suverenitet|identitet strojeva|Ed25519|ugovori o priznavanju|opoziv|infrastruktura povjerenja|Genesis Mesh|ugovorni sloj|autonomni sustavi"
+  }
+}

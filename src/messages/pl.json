@@ -10,6 +10,12 @@
       "docs": "Dokumentacja"
     }
   },
+  "ui": {
+    "menu": "Menu",
+    "searchLanguages": "Szukaj języków",
+    "noLanguageMatch": "Brak pasującego języka",
+    "selectLanguage": "Wybierz język"
+  },
   "hero": {
     "kicker": "Nota publiczna / Genesis Mesh / 2026",
     "title": "Zaufanie, którego żaden naród",
@@ -17,7 +23,7 @@
     "subtitle": "Genesis Mesh to przenośna infrastruktura zaufania dla systemów suwerennych: tożsamość kryptograficzna, traktaty uznania i odwoływalne uprawnienia, które działają tak samo dla 190 państw wciąż szukających cyfrowej suwerenności, jak i dla trzech, które już ją mają.",
     "meta": {
       "verify": "Weryfikuj",
-      "verifyDesc": "kto sprawuje władzę",
+      "verifyDesc": "kto ma uprawnienia",
       "limit": "Ogranicz",
       "limitDesc": "co wolno im zrobić",
       "revoke": "Odwołaj",
@@ -50,7 +56,7 @@
       "code": "CN - Chiny",
       "tag": "Dowód eksportera",
       "title": "Udowodnij technicznie brak kontroli.",
-      "desc": "Każdy eksport infrastruktury napotyka ten sam zarzut: skoro sprzęt jest wasz, kontrola też. Weryfikowalne, należące do operatora i odwoływalne zaufanie jest technicznę odpowiedzią na ten polityczny zarzut.",
+      "desc": "Każdy eksport infrastruktury napotyka ten sam zarzut: skoro sprzęt jest wasz, kontrola też. Weryfikowalne, należące do operatora i odwoływalne zaufanie jest techniczną odpowiedzią na ten polityczny zarzut.",
       "benefits": [
         "Państwa partnerskie audytują i odwołują, nie wierząc nikomu na słowo",
         "Wzajemne uznanie z suwerenami Zachodu: żadna strona nie trzyma kluczy drugiej",
@@ -86,7 +92,7 @@
       {
         "num": "01",
         "name": "Weryfikuj",
-        "desc": "Kryptograficzny dowód tego, kto sprawuje władzę: tożsamość Ed25519, podpisane bloki genezy, łańcuchy dowodowe."
+        "desc": "Kryptograficzny dowód tego, kto ma uprawnienia: tożsamość Ed25519, podpisane bloki genezy, łańcuchy dowodowe."
       },
       {
         "num": "02",
@@ -111,9 +117,21 @@
     "subtitle": "Wydano trzy generacje SDK (TypeScript, Go, .NET). 1041 testów. Osiem lematów Tamarin sprawdzonych maszynowo. Suwereni wielochmurowi działają na Azure, DigitalOcean, Cloudflare i Akamai/Linode.",
     "stack": {
       "title": "Stos",
-      "l1": "L1 - Rdzeń protokołu. Tożsamość Ed25519, podpisane bloki genezy, rejestracja, odwołanie, routing, audyt.",
-      "l2": "L2 - Wspólnoty suwerenne. Niezależne domeny zaufania. Każda kontroluje własne członkostwo, zarządzanie i odwołania.",
-      "l3": "L3 - Sieć uznania. Traktaty między suwerenami. Ścieżki zaufania i propagacja odwołań przez granice."
+      "l1": {
+        "code": "L1",
+        "name": "Rdzeń protokołu",
+        "desc": "Tożsamość Ed25519, podpisane bloki genezy, rejestracja, odwołanie, routing, audyt."
+      },
+      "l2": {
+        "code": "L2",
+        "name": "Wspólnoty suwerenne",
+        "desc": "Niezależne domeny zaufania. Każda kontroluje własne członkostwo, zarządzanie i odwołania."
+      },
+      "l3": {
+        "code": "L3",
+        "name": "Sieć uznania",
+        "desc": "Traktaty między suwerenami. Ścieżki zaufania i propagacja odwołań przez granice."
+      }
     },
     "rfcs": [
       {
@@ -160,9 +178,11 @@
     "live": {
       "title": "Na żywo - Flota suwerenna prowadzona przez opiekuna",
       "subtitle": "Wielochmurowo / Niezależne klucze / Niezależna polityka",
+      "network": "Sieć wzajemnego uznawania",
       "sovereigns": "Suwereni",
       "clouds": "Chmury",
       "edges": "Krawędzie uznania",
+      "edgeStatus": "Podpisane i odwoływalne",
       "operators": "Operatorzy zewnętrzni",
       "status": "Przyłączanie - Faza 2",
       "online": "● ONLINE"
@@ -171,7 +191,7 @@
   "silicon": {
     "label": "Krzem",
     "title": "Suwerenny protokół na cudzym krzemie to teatr.",
-    "subtitle": "Genesis Mesh weryfikuje uprawnienia w oprogramowaniu. Ale oprogramowanie jest suwerenne tylko na tyle, na ile suwerenny jest krzem, na którym działa. TSWI, Tunezyjska Inicjatywa Suwerennego Wafla, domyka pętlę: własne IP interposera, własny zakład pakowania, własny stos orkiestracji. Na wejściu standardowe chiplety, na wyjściu suwerenne obliczenia. Zasilana słońcem na skrzyżowaniu trzech kontynentów, z ponad połową kosztu obliczeń usuniętą. Faza pierwsza zakończona.",
+    "subtitle": "Genesis Mesh weryfikuje uprawnienia w oprogramowaniu. Oprogramowanie jest jednak suwerenne tylko na tyle, na ile suwerenny jest krzem, na którym działa. TSWI, Tunezyjska Inicjatywa Suwerennych Płytek Półprzewodnikowych, domyka pętlę: własna własność intelektualna dotycząca interposera, własny zakład pakowania i własny stos orkiestracji. Na wejściu standardowe chiplety, na wyjściu suwerenne obliczenia. Zasilana energią słoneczną na skrzyżowaniu trzech kontynentów, obniża koszt obliczeń o ponad połowę. Faza pierwsza jest zakończona.",
     "conclusion": "Protokół rządzi logiką. Tunezja rządzi krzemem.",
     "cta": "Przeczytaj notę TSWI →"
   },
@@ -189,8 +209,8 @@
     "over": "Ponad"
   },
   "closing": {
-    "title": "Zatrudnij władzę.",
-    "titleAccent": "Nie dostawcę.",
+    "title": "Postaw na własne uprawnienia.",
+    "titleAccent": "Nie na dostawcę.",
     "subtitle": "Dla 190 to najkrótsza droga do posiadania własnych kotwic zaufania. Dla trzech to jedyny sposób współdziałania bez rezygnacji z nich.",
     "builders": {
       "who": "Dla 190 - Budowniczowie i architekci",
@@ -214,7 +234,7 @@
       "devHub": "Dev Hub",
       "story": "Historia"
     },
-    "signature": "Kompilacje tej strony są podpisane pod władzą Genesis Mesh.",
+    "signature": "Kompilacje tej strony są podpisane w ramach uprawnień Genesis Mesh.",
     "tagline": "SUWERENNOŚĆ TO KOD",
     "verify": "Zweryfikuj",
     "unsigned": "Poświadczenie kompilacji (bez podpisu)"
@@ -222,6 +242,6 @@
   "seo": {
     "title": "Genesis Mesh - Warstwa traktatowa dla maszyn",
     "description": "Suwerenna tkanka zaufania, tożsamości i komunikacji dla systemów autonomicznych. Neutralna wobec suwerenności, klasy traktatowej: weryfikuj, ogranicz, odwołuj, audytuj. To nie blockchain. Nie VPN. Nie service mesh.",
-    "keywords": "suwerenne zaufanie|cyfrowa suwerenność|tożsamość maszyn|Ed25519|traktaty uznania|odwołanie|infrastruktura zaufania|Genesis Mesh|warstwa traktatowa"
+    "keywords": "suwerenne zaufanie|cyfrowa suwerenność|tożsamość maszyn|Ed25519|traktaty uznania|odwołanie|infrastruktura zaufania|Genesis Mesh|warstwa traktatowa|systemy autonomiczne"
   }
 }

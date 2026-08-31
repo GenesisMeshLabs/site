@@ -1,11 +1,12 @@
 'use client';
-import { useLocale } from 'next-intl';
+import { useLocale, useTranslations } from 'next-intl';
 import { useEffect, useMemo, useRef, useState } from 'react';
 import { Link, usePathname } from '@/navigation';
 import { LOCALES } from '@/i18n';
 
 export default function LanguageSelector() {
   const locale = useLocale();
+  const t = useTranslations('ui');
   const pathname = usePathname();
 
   const [open, setOpen] = useState(false);
@@ -63,13 +64,13 @@ export default function LanguageSelector() {
             ref={inputRef}
             type="search"
             className="lang-search"
-            placeholder="Search languages"
-            aria-label="Search languages"
+            placeholder={t('searchLanguages')}
+            aria-label={t('searchLanguages')}
             value={query}
             onChange={(e) => setQuery(e.target.value)}
           />
 
-          <ul className="lang-menu">
+          <ul className="lang-menu" role="listbox" aria-label={t('selectLanguage')}>
             {results.map((l) => (
               <li key={l.code}>
                 <Link
@@ -77,6 +78,8 @@ export default function LanguageSelector() {
                   locale={l.code}
                   hrefLang={l.code}
                   dir={l.dir === 'rtl' ? 'rtl' : 'ltr'}
+                  role="option"
+                  aria-selected={locale === l.code}
                   className={`lang-link ${locale === l.code ? 'active' : ''}`}
                   onClick={() => setOpen(false)}
                 >
@@ -85,7 +88,7 @@ export default function LanguageSelector() {
                 </Link>
               </li>
             ))}
-            {results.length === 0 && <li className="lang-empty">No match</li>}
+            {results.length === 0 && <li className="lang-empty">{t('noLanguageMatch')}</li>}
           </ul>
         </div>
       )}
@@ -95,7 +98,7 @@ export default function LanguageSelector() {
         className="lang-toggle"
         aria-expanded={open}
         aria-haspopup="listbox"
-        aria-label="Select language"
+        aria-label={t('selectLanguage')}
         onClick={() => setOpen((v) => !v)}
       >
         <span className="lang-toggle-code">{locale.toUpperCase()}</span>

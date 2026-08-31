@@ -2,7 +2,7 @@
 
 The public site for Genesis Mesh, the treaty layer for machines.
 
-Next.js 14 (App Router), localised into ten languages with `next-intl`,
+Next.js 14 (App Router), localised into 73 languages with `next-intl`,
 statically prerendered, and published with a signed build attestation.
 
 ## Running it
@@ -18,15 +18,20 @@ npm start
 ```
 
 The default locale is served unprefixed, so the site answers on `/`, not
-`/en`. The other nine locales are prefixed: `/ar`, `/zh`, `/es`, `/fr`,
-`/de`, `/ja`, `/ru`, `/pt`, `/ko`.
+`/en`. Every other locale uses its canonical code as a route prefix, such as
+`/ar`, `/bn`, `/ps`, and `/zh-Hant`.
 
 ## Editing content
 
 All copy lives in `src/messages/<locale>.json`. Components read from it and
 contain no prose, so a wording change never means touching markup.
 `en.json` is the reference for structure: every other catalogue must have
-the same key set, or the build fails on the missing key.
+the same key set and value types, or the build fails before static generation.
+
+Run `npm run check:i18n` for the complete catalogue gate. It checks registry
+and file parity, canonical locale metadata, placeholders, protected product
+terms and identifiers, SEO keyword separators, Unicode normalization, empty
+values, and the project's no-em-dash rule.
 
 ## Layout
 
@@ -36,7 +41,7 @@ src/
   app/sitemap.ts    per-locale entries with hreflang alternates
   app/robots.ts
   components/       one component per section
-  messages/         ten catalogues
+  messages/         one complete catalogue per registered locale
   i18n.ts           locale list, RTL list, request config
   navigation.ts     locale-aware Link and usePathname
   middleware.ts     locale negotiation and routing
@@ -46,17 +51,20 @@ scripts/            build signing and verification
 
 ## Languages
 
-English, Arabic, Chinese, Spanish, French, German, Japanese, Russian,
-Portuguese, Korean.
+`src/i18n.ts` is the locale registry and single source of truth for the 73
+languages. The searchable picker shows endonyms and English names and also
+matches locale codes. Simplified and Traditional Chinese are separate entries,
+and the existing Brazilian Portuguese route is labelled explicitly.
 
-Arabic renders right-to-left: `dir="rtl"` comes from the locale layout, and
-the stylesheet uses logical properties plus `html[dir='rtl']` rules rather
-than a mirrored sheet. Arabic falls back to Noto Sans Arabic, since the
-display faces used elsewhere do not cover the range.
+Arabic, Persian, Hebrew, Pashto, and Urdu render right-to-left. `dir="rtl"`
+comes from the locale layout, and the stylesheet uses logical properties plus
+`html[dir='rtl']` rules rather than a mirrored sheet.
 
-To add a locale, add it to `locales` in `src/i18n.ts`, add a catalogue, add
-its Open Graph code to `OG_LOCALES` in `src/seo.ts`, and add it to the
-middleware matcher. Add it to `rtlLocales` too if it is right-to-left.
+To add a locale, append its canonical BCP-47 code, endonym, English name, Open
+Graph locale, and optional RTL direction to `LOCALES` in `src/i18n.ts`, then
+add the matching catalogue. Locale routing, the dropdown, Open Graph metadata,
+and the sitemap are derived from that registry. The middleware matcher is
+generic and does not need a locale-specific edit.
 
 ## Signed builds
 

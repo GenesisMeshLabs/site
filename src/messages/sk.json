@@ -1,0 +1,247 @@
+{
+  "nav": {
+    "brand": "GENESIS■MESH",
+    "links": {
+      "stakes": "Čo je v stávke",
+      "powers": "Tri mocnosti",
+      "mechanics": "Mechanika",
+      "protocol": "Protokol",
+      "hardware": "Kremík",
+      "docs": "Dokumentácia"
+    }
+  },
+  "ui": {
+    "menu": "Ponuka",
+    "searchLanguages": "Hľadať jazyky",
+    "noLanguageMatch": "Žiadny zodpovedajúci jazyk",
+    "selectLanguage": "Vybrať jazyk"
+  },
+  "hero": {
+    "kicker": "Verejný prehľad / Genesis Mesh / 2026",
+    "title": "Dôvera, ktorej sa nijaký národ",
+    "titleAccent": "nemusí vzdať.",
+    "subtitle": "Genesis Mesh je prenosná infraštruktúra dôvery pre suverénne systémy: kryptografická identita, zmluvy o vzájomnom uznávaní a odvolateľná autorita, ktoré fungujú rovnako pre 190 krajín stále hľadajúcich digitálnu suverenitu aj pre tri, ktoré ju už majú.",
+    "meta": {
+      "verify": "Overiť",
+      "verifyDesc": "kto má autoritu",
+      "limit": "Obmedziť",
+      "limitDesc": "čo môže vykonávať",
+      "revoke": "Odvolať",
+      "revokeDesc": "keď sa dôvera naruší",
+      "audit": "Auditovať",
+      "auditDesc": "aby sa nikto nemusel spoliehať na vaše slovo"
+    },
+    "scroll": "Posunúť ↓",
+    "vlabel": "Infraštruktúra neutrálna voči suverenite"
+  },
+  "stakes": {
+    "label": "Čo je v stávke",
+    "title": "Digitálna suverenita je dnes otázkou národného prežitia, no zmluvná vrstva pre stroje neexistuje.",
+    "subtitle": "Štáty podpisujú zmluvy. Digitálne systémy nemajú žiadny ekvivalent. Keď sa agent umelej inteligencie jedného národa stretne s infraštruktúrou iného, otázky, kto ručí za tento subjekt, podľa čích pravidiel a či možno túto dôveru odvolať, sú diplomatickými otázkami, na ktoré dnes neexistuje protokolová odpoveď. Genesis Mesh je touto odpoveďou.",
+    "notLine": "Nie blockchain. Nie VPN. Nie service mesh. Nie rámec pre agentov. Nie trhovisko. Zmluvná vrstva pre stroje.",
+    "stats": {
+      "one": "190+",
+      "oneDesc": "Národov, ktoré stále hľadajú model suverenity",
+      "two": "3",
+      "twoDesc": "Mocnosti, ktoré už vlastnia celý svoj technologický reťazec",
+      "three": "1",
+      "threeDesc": "Protokol, ktorý slúži obom stranám bez toho, aby si jednu vybral"
+    }
+  },
+  "powers": {
+    "label": "Tri mocnosti",
+    "title": "Suverénne mocnosti nepotrebujú nezávislosť. Potrebujú spolupracovať bez podriadenosti.",
+    "subtitle": "Hodnota sa obracia, ale nestráca. Žiadne hlavné mesto spojeneckého štátu neprijme koreň dôvery iného štátu, preto sa uznávanie musí prenášať prostredníctvom podpísaných, rozsahom vymedzených a odvolateľných zmlúv medzi rovnocennými partnermi.",
+    "cn": {
+      "code": "CN - Čína",
+      "tag": "Dôkaz exportéra",
+      "title": "Technicky dokážte, že nemáte kontrolu.",
+      "desc": "Každý vývoz infraštruktúry naráža na rovnakú námietku: vaše zariadenie znamená vašu kontrolu. Overiteľná, prevádzkovateľom vlastnená a odvolateľná dôvera je technickou odpoveďou na túto politickú námietku.",
+      "benefits": [
+        "Partnerské krajiny môžu vykonávať audit a odvolávať dôveru bez toho, aby sa spoliehali na niečie slovo",
+        "Vzájomné uznávanie so západnými suverénnymi aktérmi, pričom ani jedna strana nedrží kľúče druhej",
+        "Čínsko-západná integrácia v rámci jednotného modelu riadenia"
+      ]
+    },
+    "us": {
+      "code": "US - Spojené štáty",
+      "tag": "Problém federácie",
+      "title": "Spojenci váš koreň dôvery neprijmú.",
+      "desc": "Five Eyes, NATO a partneri z EÚ: nikto z nich sa nepodriadi kotve dôvery kontrolovanej Spojenými štátmi. Zmluvy o vzájomnom uznávaní umožňujú každému spojencovi zachovať si suverenitu a zároveň zabezpečujú tok dôvery.",
+      "benefits": [
+        "Spojenecká infraštruktúra bez politickej kapitulácie",
+        "Hyperscale poskytovatelia môžu predávať v súlade so zahraničnými zákonmi o suverenite"
+      ]
+    },
+    "kp": {
+      "code": "KP - Severná Kórea",
+      "tag": "Extrémne obmedzenie",
+      "title": "Skúška paranoidne suverénneho štátu.",
+      "desc": "Štát, ktorý nedôveruje ničomu externému. Ak protokol funguje pre najstráženejší suverénny štát na svete, s nulovou závislosťou a úplným vlastníctvom zo strany prevádzkovateľa, funguje pre každého.",
+      "benefits": [
+        "Konštrukčné obmedzenie na úrovni autarkie",
+        "Žiadne ukotvenie v zahraničnej autorite, nikdy"
+      ]
+    }
+  },
+  "mechanics": {
+    "label": "Mechanika",
+    "title": "Infraštruktúra, ktorá nekóduje politiku, iba mechaniku.",
+    "subtitle": "Väčšina infraštruktúry dôvery kóduje politiku toho, kto prevádzkuje koreň dôvery. Genesis Mesh kóduje iba štyri operácie a politiku ponecháva suverénnym aktérom. Práve preto dosahuje úroveň medzinárodných zmlúv, nie úroveň dodávateľa.",
+    "ops": [
+      {
+        "num": "01",
+        "name": "Overiť",
+        "desc": "Kryptografický dôkaz o tom, kto má autoritu: identita Ed25519, podpísané bloky genesis a reťazce dôkazov."
+      },
+      {
+        "num": "02",
+        "name": "Obmedziť",
+        "desc": "Rozsahom a časom ohraničené delegovanie právomocí. Manifesty oprávnení určujú, čo smie každá identita vykonávať, a nič navyše."
+      },
+      {
+        "num": "03",
+        "name": "Odvolať",
+        "desc": "V okamihu narušenia dôvery sa podpísané odvolanie rozšíri cez hranice suverénnych aktérov a musí sa rešpektovať."
+      },
+      {
+        "num": "04",
+        "name": "Auditovať",
+        "desc": "Každé rozhodnutie zanecháva dôkaz odhaľujúci neoprávnenú manipuláciu. Nikto sa nemusí spoliehať iba na vaše slovo."
+      }
+    ]
+  },
+  "protocol": {
+    "label": "Protokol",
+    "title": "Otvorený program RFC, formovaný štandardmi, nie dodávateľom.",
+    "subtitle": "Vydali sme tri generácie SDK (TypeScript, Go, .NET). 1 041 testov. Osem strojovo overených lem v Tamarin. Multicloudoví suverénni aktéri sú v prevádzke na platformách Azure, DigitalOcean, Cloudflare a Akamai/Linode.",
+    "stack": {
+      "title": "Technologické vrstvy",
+      "l1": {
+        "code": "L1",
+        "name": "Jadro protokolu",
+        "desc": "Identita Ed25519, podpísané bloky genesis, registrácia, odvolanie, smerovanie a audit."
+      },
+      "l2": {
+        "code": "L2",
+        "name": "Suverénne komunity",
+        "desc": "Nezávislé domény dôvery. Každá riadi vlastné členstvo, správu a odvolávanie."
+      },
+      "l3": {
+        "code": "L3",
+        "name": "Sieť vzájomného uznávania",
+        "desc": "Zmluvy medzi suverénnymi aktérmi. Cesty dôvery a šírenie odvolaní naprieč hranicami."
+      }
+    },
+    "rfcs": [
+      {
+        "id": "RFC-001",
+        "name": "Suverénna identita",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-002",
+        "name": "Zmluvy o vzájomnom uznávaní",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-003",
+        "name": "Balíky dôvery",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-004",
+        "name": "Kanály odvolaní",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-005",
+        "name": "Manifesty oprávnení",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-006",
+        "name": "Model konektómu",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-007",
+        "name": "Kontinuita prevádzkovateľa",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-008",
+        "name": "Rola spravovaného prevádzkovateľa",
+        "status": "Protokol"
+      }
+    ],
+    "live": {
+      "title": "V prevádzke: suverénna flotila riadená správcami",
+      "subtitle": "Viacero cloudov / Nezávislé kľúče / Nezávislá politika",
+      "network": "Sieť vzájomného uznávania",
+      "sovereigns": "Suverénni aktéri",
+      "clouds": "Cloudy",
+      "edges": "Väzby vzájomného uznávania",
+      "edgeStatus": "Podpísané a odvolateľné",
+      "operators": "Externí prevádzkovatelia",
+      "status": "Zapájanie, fáza 2",
+      "online": "● ONLINE"
+    }
+  },
+  "silicon": {
+    "label": "Kremík",
+    "title": "Suverénny protokol na cudzom kremíku je iba divadlo.",
+    "subtitle": "Genesis Mesh overuje autoritu v softvéri. Softvér je však suverénny iba natoľko, nakoľko je suverénny kremík, na ktorom beží. TSWI, Tuniská iniciatíva suverénnych waferov, uzatvára celý reťazec: vlastné duševné vlastníctvo pre interposer, vlastné zariadenie na puzdrenie a vlastný orchestračný stack. Na vstupe komoditné čiplety, na výstupe suverénny výpočtový výkon. So solárnym napájaním na križovatke troch kontinentov a s odstránením viac než polovice nákladov na výpočtový výkon. Prvá fáza je dokončená.",
+    "conclusion": "Protokol riadi logiku. Tunisko riadi kremík.",
+    "cta": "Prečítať prehľad TSWI →"
+  },
+  "live": {
+    "label": "V prevádzke",
+    "title": "Nie prísľub. Fungujúci systém.",
+    "subtitle": "Jeden model autority v produkčnej prevádzke. Nie pilotný projekt ani referenčná architektúra.",
+    "proof": {
+      "version": "Aktuálne vydanie",
+      "cycles": "Dokončené cykly dôvery",
+      "tests": "Testy",
+      "lemmas": "Lemy overené v Tamarin"
+    },
+    "across": "V prevádzke naprieč",
+    "over": "Beží na"
+  },
+  "closing": {
+    "title": "Získajte vlastnú autoritu.",
+    "titleAccent": "Nie závislosť od dodávateľa.",
+    "subtitle": "Pre 190 krajín je to najkratšia cesta k vlastníctvu vlastných kotiev dôvery. Pre tri mocnosti je to jediný spôsob spolupráce bez toho, aby sa ich museli vzdať.",
+    "builders": {
+      "who": "Pre 190 krajín: vývojári a architekti",
+      "title": "Spustite vlastnú suverénnu doménu dôvery.",
+      "desc": "Prečítajte si RFC, stiahnite si SDK pre TypeScript / Go / .NET a vytvorte suverénnu komunitu L2 na infraštruktúre, ktorú už vlastníte.",
+      "cta": "Vstúpiť do vývojárskeho centra →",
+      "altText": "Organizácia s otvoreným zdrojovým kódom →"
+    },
+    "strategic": {
+      "who": "Pre tri mocnosti: štátni a strategickí aktéri",
+      "title": "Tento rozhovor sa nezačína SDK.",
+      "desc": "Prečítajte si úplný príbeh Elections 2026 s filozofickou argumentáciou a potom otvorte priamy, súkromný a dôverný komunikačný kanál. Bez formulárov, marketingových lievikov a sprostredkovateľov.",
+      "cta": "Prečítať celý príbeh →",
+      "altText": "Priamy kanál: thaer.saidi@outlook.com →"
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Prispievatelia Genesis Mesh",
+    "links": {
+      "docs": "Dokumentácia",
+      "devHub": "Vývojárske centrum",
+      "story": "Príbeh"
+    },
+    "signature": "Zostavenia tejto lokality sú podpísané autoritou Genesis Mesh.",
+    "tagline": "SUVERENITA JE KÓD",
+    "verify": "Overiť",
+    "unsigned": "Atestácia zostavenia (nepodpísaná)"
+  },
+  "seo": {
+    "title": "Genesis Mesh - Zmluvná vrstva pre stroje",
+    "description": "Suverénna štruktúra dôvery, identity a komunikácie pre autonómne systémy. Neutrálna voči suverenite a na úrovni medzinárodných zmlúv: overiť, obmedziť, odvolať, auditovať. Nie blockchain. Nie VPN. Nie service mesh.",
+    "keywords": "suverénna dôvera|digitálna suverenita|identita strojov|Ed25519|zmluvy o vzájomnom uznávaní|odvolanie|infraštruktúra dôvery|Genesis Mesh|zmluvná vrstva|autonómne systémy"
+  }
+}

@@ -10,6 +10,12 @@
       "docs": "Documentação"
     }
   },
+  "ui": {
+    "menu": "Menu",
+    "searchLanguages": "Pesquisar idiomas",
+    "noLanguageMatch": "Nenhum idioma correspondente",
+    "selectLanguage": "Selecionar idioma"
+  },
   "hero": {
     "kicker": "Informe Público / Genesis Mesh / 2026",
     "title": "Confiança que nenhuma nação",
@@ -111,9 +117,21 @@
     "subtitle": "Três gerações de SDK entregues (TypeScript, Go, .NET). 1.041 testes. Oito lemas Tamarin verificados por máquina. Soberanos multinuvem em produção sobre Azure, DigitalOcean, Cloudflare e Akamai/Linode.",
     "stack": {
       "title": "A Pilha",
-      "l1": "L1 - Núcleo do protocolo. Identidade Ed25519, blocos gênesis assinados, inscrição, revogação, roteamento, auditoria.",
-      "l2": "L2 - Comunidades soberanas. Domínios de confiança independentes. Cada um controla a própria associação, governança e revogação.",
-      "l3": "L3 - Rede de reconhecimento. Tratados entre soberanos. Caminhos de confiança e propagação de revogações através de fronteiras."
+      "l1": {
+        "code": "L1",
+        "name": "Núcleo do protocolo",
+        "desc": "Identidade Ed25519, blocos gênesis assinados, inscrição, revogação, roteamento, auditoria."
+      },
+      "l2": {
+        "code": "L2",
+        "name": "Comunidades soberanas",
+        "desc": "Domínios de confiança independentes. Cada um controla a própria associação, governança e revogação."
+      },
+      "l3": {
+        "code": "L3",
+        "name": "Rede de reconhecimento",
+        "desc": "Tratados entre soberanos. Caminhos de confiança e propagação de revogações através de fronteiras."
+      }
     },
     "rfcs": [
       {
@@ -160,9 +178,11 @@
     "live": {
       "title": "Ao vivo - Frota soberana operada pelo mantenedor",
       "subtitle": "Multinuvem / Chaves independentes / Política independente",
+      "network": "Rede de Reconhecimento Mútuo",
       "sovereigns": "Soberanos",
       "clouds": "Nuvens",
       "edges": "Arestas de reconhecimento",
+      "edgeStatus": "Assinado e revogável",
       "operators": "Operadores externos",
       "status": "Integração - Fase 2",
       "online": "● ONLINE"
@@ -222,6 +242,6 @@
   "seo": {
     "title": "Genesis Mesh - A camada de tratados para máquinas",
     "description": "Um tecido soberano de confiança, identidade e comunicação para sistemas autônomos. Neutro em soberania e de grau tratado: verificar, limitar, revogar, auditar. Não é uma blockchain. Não é uma VPN. Não é um service mesh.",
-    "keywords": "confiança soberana|soberania digital|identidade de máquina|Ed25519|tratados de reconhecimento|revogação|infraestrutura de confiança|Genesis Mesh|camada de tratados"
+    "keywords": "confiança soberana|soberania digital|identidade de máquina|Ed25519|tratados de reconhecimento|revogação|infraestrutura de confiança|Genesis Mesh|camada de tratados|sistemas autônomos"
   }
 }

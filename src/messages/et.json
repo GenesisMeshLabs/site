@@ -1,0 +1,247 @@
+{
+  "nav": {
+    "brand": "GENESIS■MESH",
+    "links": {
+      "stakes": "Kaalul olev",
+      "powers": "Kolm suurvõimu",
+      "mechanics": "Toimemehhanism",
+      "protocol": "Protokoll",
+      "hardware": "Räni",
+      "docs": "Dokumentatsioon"
+    }
+  },
+  "ui": {
+    "menu": "Menüü",
+    "searchLanguages": "Otsi keeli",
+    "noLanguageMatch": "Sobivat keelt ei leitud",
+    "selectLanguage": "Vali keel"
+  },
+  "hero": {
+    "kicker": "Avalik ülevaade / Genesis Mesh / 2026",
+    "title": "Usaldus, millest ükski riik",
+    "titleAccent": "ei pea loobuma.",
+    "subtitle": "Genesis Mesh on suveräänsete süsteemide teisaldatav usaldustaristu: krüptograafiline identiteet, vastastikuse tunnustamise lepingud ja tühistatavad volitused, mis toimivad ühtmoodi nii 190 riigi jaoks, kes alles otsivad digitaalset suveräänsust, kui ka kolme jaoks, kellel see juba on.",
+    "meta": {
+      "verify": "Kontrolli",
+      "verifyDesc": "kellel on volitus",
+      "limit": "Piira",
+      "limitDesc": "mida nad teha võivad",
+      "revoke": "Tühista",
+      "revokeDesc": "kui usaldus puruneb",
+      "audit": "Auditeeri",
+      "auditDesc": "et keegi ei peaks uskuma pelgalt teie sõnu"
+    },
+    "scroll": "Keri ↓",
+    "vlabel": "Suveräänsuse suhtes neutraalne taristu"
+  },
+  "stakes": {
+    "label": "Kaalul olev",
+    "title": "Digitaalne suveräänsus on nüüd riikliku püsimajäämise küsimus, kuid masinatel puudub lepingukiht.",
+    "subtitle": "Riigid sõlmivad lepinguid. Digisüsteemidel puudub samaväärne mehhanism. Kui ühe riigi tehisintellektiagent puutub kokku teise riigi taristuga, tekivad küsimused: kes selle olemi eest vastutab, kelle reeglid kehtivad ja kas seda usaldust saab tühistada? See on diplomaatiline küsimus, millele ükski protokoll praegu vastust ei anna. Genesis Mesh ongi see vastus.",
+    "notLine": "Mitte plokiahel. Mitte VPN. Mitte teenusevõrk. Mitte agendiraamistik. Mitte kauplemiskoht. Masinate lepingukiht.",
+    "stats": {
+      "one": "190+",
+      "oneDesc": "Riiki otsib endiselt suveräänsuse valemit",
+      "two": "3",
+      "twoDesc": "Suurvõimu juba omavad kogu oma tehnoloogiapinu",
+      "three": "1",
+      "threeDesc": "Protokoll, mis teenib mõlemaid ilma poolt valimata"
+    }
+  },
+  "powers": {
+    "label": "Kolm suurvõimu",
+    "title": "Suveräänsed suurvõimud ei vaja iseseisvust. Nad vajavad koostalitlust ilma allutamiseta.",
+    "subtitle": "Väärtuspakkumine pöördub ümber, kuid ei kao. Ükski liitlasriigi pealinn ei aktsepteeri teise riigi usaldusjuurt, seega peab tunnustamine liikuma võrdsete vahel sõlmitud, allkirjastatud, piiritletud ja tühistatavate lepingutena.",
+    "cn": {
+      "code": "CN - Hiina",
+      "tag": "Eksportija tõend",
+      "title": "Tõendage tehniliselt, et kontrolli ei ole.",
+      "desc": "Iga taristueksport seisab silmitsi sama vastuväitega: teie seadmed tähendavad teie kontrolli. Kontrollitav, käitaja omandis ja tühistatav usaldus on tehniline vastus sellele poliitilisele vastuväitele.",
+      "benefits": [
+        "Partnerriigid saavad auditeerida ja tühistada, ilma et peaksid kellegi sõnu usaldama",
+        "Vastastikune tunnustamine lääne suveräänsete riikidega, kus kumbki pool ei valda teise võtmeid",
+        "Hiina ja lääneriikide lõimimine ühe juhtimismudeli alusel"
+      ]
+    },
+    "us": {
+      "code": "US - Ameerika Ühendriigid",
+      "tag": "Föderatsiooni probleem",
+      "title": "Liitlased ei võta teie usaldusjuurt omaks.",
+      "desc": "Five Eyes, NATO ja ELi partnerid: ükski neist ei alluta end USA kontrollitavale usaldusankrule. Tunnustamislepingud võimaldavad igal liitlasel jääda suveräänseks, samal ajal kui usaldus saab siiski liikuda.",
+      "benefits": [
+        "Liitlaste taristu ilma poliitilise alistumiseta",
+        "Hüperskaala pilveteenuse pakkujad saavad müüa välisriikide suveräänsusõiguse tingimustes"
+      ]
+    },
+    "kp": {
+      "code": "KP - Põhja-Korea",
+      "tag": "Äärmuslik piirang",
+      "title": "Paranoilise suverääni katse.",
+      "desc": "Riik, mis ei usalda midagi välist. Kui protokoll toimib maailma kõige suletuma suveräänse riigi jaoks, ilma sõltuvusteta ja täielikult käitaja omanduses, toimib see igaühe jaoks.",
+      "benefits": [
+        "Autarkia tasemel projekteerimispiirang",
+        "Mitte kunagi ühtegi välismaise volituse usaldusankrut"
+      ]
+    }
+  },
+  "mechanics": {
+    "label": "Toimemehhanism",
+    "title": "Taristu, mis ei kodeeri poliitikat, vaid üksnes toimemehhanisme.",
+    "subtitle": "Enamik usaldustaristuid kodeerib selle poliitikat, kes usaldusjuurt haldab. Genesis Mesh kodeerib ainult neli toimingut ja jätab poliitika suveräänide otsustada. Seetõttu vastab see lepingu, mitte tarnija tasemele.",
+    "ops": [
+      {
+        "num": "01",
+        "name": "Kontrolli",
+        "desc": "Krüptograafiline tõend selle kohta, kellel on volitus: Ed25519 identiteet, allkirjastatud geneesiplokid ja tõendiahelad."
+      },
+      {
+        "num": "02",
+        "name": "Piira",
+        "desc": "Piiritletud ja ajaliselt piiratud delegeerimised. Võimekusmanifestid määravad, mida iga identiteet teha võib, ja mitte midagi enamat."
+      },
+      {
+        "num": "03",
+        "name": "Tühista",
+        "desc": "Usalduse purunemise hetkel levib allkirjastatud tühistus üle suveräänsete piiride ning seda järgitakse."
+      },
+      {
+        "num": "04",
+        "name": "Auditeeri",
+        "desc": "Iga otsus jätab manipuleerimiskindla tõendi. Keegi ei pea uskuma pelgalt teie sõnu."
+      }
+    ]
+  },
+  "protocol": {
+    "label": "Protokoll",
+    "title": "Avatud RFC-programm, kujundatud standardite, mitte tarnija järgi.",
+    "subtitle": "Välja on antud kolm SDK-põlvkonda (TypeScript, Go, .NET). 1,041 testi. Kaheksa masinkontrollitud Tamarin lemmat. Mitme pilve suveräänsed süsteemid töötavad Azure, DigitalOcean, Cloudflare ja Akamai/Linode platvormidel.",
+    "stack": {
+      "title": "Tehnoloogiapinu",
+      "l1": {
+        "code": "L1",
+        "name": "Protokolli tuum",
+        "desc": "Ed25519 identiteet, allkirjastatud geneesiplokid, liitumine, tühistamine, marsruutimine ja audit."
+      },
+      "l2": {
+        "code": "L2",
+        "name": "Suveräänsed kogukonnad",
+        "desc": "Sõltumatud usaldusdomeenid. Igaüks kontrollib ise oma liikmesust, juhtimist ja tühistamist."
+      },
+      "l3": {
+        "code": "L3",
+        "name": "Tunnustusvõrk",
+        "desc": "Suveräänidevahelised lepingud. Usaldusteed ja tühistuste levitamine üle piiride."
+      }
+    },
+    "rfcs": [
+      {
+        "id": "RFC-001",
+        "name": "Suveräänne identiteet",
+        "status": "Protokoll"
+      },
+      {
+        "id": "RFC-002",
+        "name": "Tunnustamislepingud",
+        "status": "Protokoll"
+      },
+      {
+        "id": "RFC-003",
+        "name": "Usalduspaketid",
+        "status": "Protokoll"
+      },
+      {
+        "id": "RFC-004",
+        "name": "Tühistusvood",
+        "status": "Protokoll"
+      },
+      {
+        "id": "RFC-005",
+        "name": "Võimekusmanifestid",
+        "status": "Protokoll"
+      },
+      {
+        "id": "RFC-006",
+        "name": "Konektoomimudel",
+        "status": "Protokoll"
+      },
+      {
+        "id": "RFC-007",
+        "name": "Käitaja järjepidevus",
+        "status": "Protokoll"
+      },
+      {
+        "id": "RFC-008",
+        "name": "Hallatud käitaja roll",
+        "status": "Protokoll"
+      }
+    ],
+    "live": {
+      "title": "Töös, haldaja käitatav suveräänne taristupark",
+      "subtitle": "Mitu pilve / sõltumatud võtmed / sõltumatud reeglid",
+      "network": "Tunnustusvõrk",
+      "sovereigns": "Suveräänid",
+      "clouds": "Pilved",
+      "edges": "Tunnustusseosed",
+      "edgeStatus": "Allkirjastatud ja tühistatavad",
+      "operators": "Välised käitajad",
+      "status": "Kasutuselevõtt, 2. etapp",
+      "online": "● VÕRGUS"
+    }
+  },
+  "silicon": {
+    "label": "Räni",
+    "title": "Välismaisel ränil töötav suveräänne protokoll on vaid teater.",
+    "subtitle": "Genesis Mesh kontrollib volitusi tarkvaras. Kuid tarkvara on täpselt nii suveräänne kui räni, millel see töötab. TSWI, Tuneesia suveräänse räniplaadi algatus, sulgeb ahela: oma interposer-tehnoloogia intellektuaalomand, oma kapseldusrajatis ja oma orkestreerimispinu. Sisse lähevad standardsed kiibipletid ja välja tuleb suveräänne andmetöötlus. Süsteem töötab päikeseenergial kolme maailmajao ristteel ning selle andmetöötluskuludest on eemaldatud üle poole. Esimene etapp on valmis.",
+    "conclusion": "Protokoll juhib loogikat. Tuneesia juhib räni.",
+    "cta": "Lugege TSWI ülevaadet →"
+  },
+  "live": {
+    "label": "Töös",
+    "title": "Mitte lubadus, vaid töötav süsteem.",
+    "subtitle": "Üks volitusmudel tootmiskasutuses. Mitte katseprojekt ega etalonarhitektuur.",
+    "proof": {
+      "version": "Praegune väljalase",
+      "cycles": "Lõpetatud usaldustsüklid",
+      "tests": "Testid",
+      "lemmas": "Tamarin-kontrollitud lemmad"
+    },
+    "across": "Töötab järgmistes keskkondades",
+    "over": "Töötab platvormidel"
+  },
+  "closing": {
+    "title": "Võtke volitused enda kätte.",
+    "titleAccent": "Ärge jääge tarnijast sõltuma.",
+    "subtitle": "190 riigi jaoks on see lühim tee oma usaldusankrute omamiseni. Kolme suurvõimu jaoks on see ainus viis koostalitluseks ilma neist loobumata.",
+    "builders": {
+      "who": "190 riigile, arendajad ja arhitektid",
+      "title": "Looge oma suveräänne usaldusdomeen.",
+      "desc": "Lugege RFC-sid, hankige TypeScript / Go / .NET SDK-d ja käivitage L2 suveräänne kogukond taristul, mis teile juba kuulub.",
+      "cta": "Sisenege arenduskeskusse →",
+      "altText": "Avatud lähtekoodiga organisatsioon →"
+    },
+    "strategic": {
+      "who": "Kolmele suurvõimule, riiklikele ja strateegilistele osalejatele",
+      "title": "See vestlus ei alga SDK-st.",
+      "desc": "Lugege filosoofilise põhjenduse mõistmiseks kogu Elections 2026 käsitlust, seejärel avage otsene ja konfidentsiaalne suhtluskanal. Ei mingeid vorme, müügilehtreid ega vahendajaid.",
+      "cta": "Lugege kogu lugu →",
+      "altText": "Otsekanal: thaer.saidi@outlook.com →"
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Genesis Mesh kaastöötajad",
+    "links": {
+      "docs": "Dokumentatsioon",
+      "devHub": "Arenduskeskus",
+      "story": "Lugu"
+    },
+    "signature": "Selle saidi versioonid allkirjastatakse Genesis Mesh volituse alusel.",
+    "tagline": "SUVERÄÄNSUS ON KOOD",
+    "verify": "Kontrolli",
+    "unsigned": "Versiooni tõend (allkirjastamata)"
+  },
+  "seo": {
+    "title": "Genesis Mesh - masinate lepingukiht",
+    "description": "Suveräänne usaldus-, identiteedi- ja sidekiht autonoomsetele süsteemidele. Suveräänsuse suhtes neutraalne ja lepingu tasemel: kontrolli, piira, tühista, auditeeri. Mitte plokiahel. Mitte VPN. Mitte teenusevõrk.",
+    "keywords": "suveräänne usaldus|digitaalne suveräänsus|masinaidentiteet|Ed25519|tunnustamislepingud|tühistamine|usaldustaristu|Genesis Mesh|lepingukiht|autonoomsed süsteemid"
+  }
+}

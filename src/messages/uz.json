@@ -1,0 +1,247 @@
+{
+  "nav": {
+    "brand": "GENESIS■MESH",
+    "links": {
+      "stakes": "Dolzarb masala",
+      "powers": "Uch qudrat",
+      "mechanics": "Ishlash mexanizmi",
+      "protocol": "Protokol",
+      "hardware": "Kremniy",
+      "docs": "Hujjatlar"
+    }
+  },
+  "ui": {
+    "menu": "Menyu",
+    "searchLanguages": "Tillarni qidirish",
+    "noLanguageMatch": "Mos til topilmadi",
+    "selectLanguage": "Tilni tanlash"
+  },
+  "hero": {
+    "kicker": "Ommaviy ma’lumotnoma / Genesis Mesh / 2026",
+    "title": "Hech bir davlat voz kechishi",
+    "titleAccent": "shart bo‘lmagan ishonch.",
+    "subtitle": "Genesis Mesh suveren tizimlar uchun ko‘chma ishonch infratuzilmasidir: kriptografik identifikatsiya, o‘zaro tan olish shartnomalari va bekor qilinadigan vakolat. Ular raqamli suverenitet formulasini izlayotgan 190 ta mamlakat uchun ham, unga allaqachon ega bo‘lgan uch qudrat uchun ham bir xil ishlaydi.",
+    "meta": {
+      "verify": "Tekshirish",
+      "verifyDesc": "vakolat kimga tegishli ekanini",
+      "limit": "Cheklash",
+      "limitDesc": "ular nima qila olishini",
+      "revoke": "Bekor qilish",
+      "revokeDesc": "ishonch buzilganida",
+      "audit": "Audit qilish",
+      "auditDesc": "hech kimning gapiga ishonishga to‘g‘ri kelmasligi uchun"
+    },
+    "scroll": "Pastga ↓",
+    "vlabel": "Suverenitetga nisbatan betaraf infratuzilma"
+  },
+  "stakes": {
+    "label": "Dolzarb masala",
+    "title": "Raqamli suverenitet endi milliy omon qolish masalasidir, mashinalar uchun esa shartnoma qatlami mavjud emas.",
+    "subtitle": "Davlatlar shartnomalar imzolaydi. Raqamli tizimlarda buning muqobili yo‘q. Bir davlatning sun’iy intellekt agenti boshqa davlat infratuzilmasi bilan to‘qnash kelganda, bu subyekt uchun kim kafolat beradi, u kimning qoidalariga bo‘ysunadi va bu ishonchni bekor qilish mumkinmi, degan savollar tug‘iladi. Bular diplomatik savollar bo‘lib, bugun ularga protokol darajasida javob yo‘q. Genesis Mesh ana shu javobdir.",
+    "notLine": "Blokcheyn emas. VPN emas. Xizmatlar meshi emas. Agentlar freymvorki emas. Bozor maydonchasi emas. Mashinalar uchun shartnoma qatlami.",
+    "stats": {
+      "one": "190+",
+      "oneDesc": "Hali ham suverenitet formulasini izlayotgan davlatlar",
+      "two": "3",
+      "twoDesc": "O‘z texnologik stekiga allaqachon egalik qilayotgan qudratlar",
+      "three": "1",
+      "threeDesc": "Tomon tanlamasdan ikkalasiga ham xizmat qiladigan protokol"
+    }
+  },
+  "powers": {
+    "label": "Uch qudrat",
+    "title": "Suveren qudratlarga mustaqillik kerak emas. Ularga bo‘ysunmasdan o‘zaro ishlash imkoniyati kerak.",
+    "subtitle": "Qiymatning yo‘nalishi o‘zgaradi, ammo u yo‘qolmaydi. Hech bir ittifoqchi poytaxt boshqasining ishonch ildizini qabul qilmaydi. Shu sababli o‘zaro tan olish teng tomonlar o‘rtasidagi imzolangan, doirasi belgilangan va bekor qilinadigan shartnomalar orqali amalga oshishi kerak.",
+    "cn": {
+      "code": "CN - Xitoy",
+      "tag": "Eksportchining isboti",
+      "title": "Nazorat yo‘qligini texnik jihatdan isbotlang.",
+      "desc": "Har qanday infratuzilma eksporti bir xil e’tirozga duch keladi: uskunangiz sizning nazoratingizni anglatadi. Tekshiriladigan, operatorga tegishli va bekor qilinadigan ishonch bu siyosiy e’tirozga texnik javobdir.",
+      "benefits": [
+        "Hamkor davlatlar hech kimning gapiga ishonib qolmasdan audit o‘tkazadi va vakolatni bekor qiladi",
+        "G‘arb suveren davlatlari bilan o‘zaro tan olish, hech bir tomon boshqasining kalitlariga egalik qilmaydi",
+        "Xitoy va G‘arb integratsiyasi yagona boshqaruv modeli asosida"
+      ]
+    },
+    "us": {
+      "code": "US - Qo‘shma Shtatlar",
+      "tag": "Federatsiya muammosi",
+      "title": "Ittifoqchilar ishonch ildizingizni qabul qilmaydi.",
+      "desc": "Five Eyes, NATO va EU hamkorlarining hech biri AQSh nazoratidagi ishonch tayanchiga bo‘ysunmaydi. O‘zaro tan olish shartnomalari har bir ittifoqchiga suveren bo‘lib qolish, ishonch esa baribir tomonlar o‘rtasida uzatilishi imkonini beradi.",
+      "benefits": [
+        "Siyosiy taslim bo‘lishni talab qilmaydigan ittifoqchi infratuzilma",
+        "Gipermasshtabli provayderlar xorijiy suverenitet qonunlari doirasida xizmat sotadi"
+      ]
+    },
+    "kp": {
+      "code": "KP - Shimoliy Koreya",
+      "tag": "Eng keskin cheklov",
+      "title": "Mutlaq ehtiyotkor suveren sinovi.",
+      "desc": "Tashqi hech narsaga ishonmaydigan davlat. Agar protokol dunyodagi eng yopiq suveren davlat uchun, ya’ni tashqi qaramliksiz va operatorning to‘liq egaligi asosida ishlasa, u har kim uchun ishlaydi.",
+      "benefits": [
+        "Avtarkiya darajasidagi loyihalash cheklovi",
+        "Hech qachon xorijiy vakolatga tayanmaydi"
+      ]
+    }
+  },
+  "mechanics": {
+    "label": "Ishlash mexanizmi",
+    "title": "Hech qanday siyosatni emas, faqat mexanizmlarni kodlaydigan infratuzilma.",
+    "subtitle": "Ishonch infratuzilmalarining aksariyati ildizni boshqarayotgan tomon siyosatini o‘zida mujassam etadi. Genesis Mesh faqat to‘rtta amalni kodlaydi va siyosatni suveren davlatlarning o‘ziga qoldiradi. Aynan shu xususiyat uni yetkazib beruvchi darajasida emas, shartnoma darajasida qiladi.",
+    "ops": [
+      {
+        "num": "01",
+        "name": "Tekshirish",
+        "desc": "Vakolat kimga tegishli ekanining kriptografik isboti: Ed25519 identifikatsiyasi, imzolangan genesis bloklari va dalillar zanjiri."
+      },
+      {
+        "num": "02",
+        "name": "Cheklash",
+        "desc": "Doirasi va muddati belgilangan vakolat topshirish. Imkoniyat manifestlari har bir identifikator nima qilishi mumkinligini aniq belgilaydi, ortiqchasiga yo‘l qo‘ymaydi."
+      },
+      {
+        "num": "03",
+        "name": "Bekor qilish",
+        "desc": "Ishonch buzilgan zahoti imzolangan bekor qilish xabari suveren chegaralar bo‘ylab tarqaladi va unga rioya qilinadi."
+      },
+      {
+        "num": "04",
+        "name": "Audit qilish",
+        "desc": "Har bir qaror o‘zgartirish alomatlarini ko‘rsatadigan dalil qoldiradi. Hech kim sizning gapingizga shunchaki ishonishi shart emas."
+      }
+    ]
+  },
+  "protocol": {
+    "label": "Protokol",
+    "title": "Ochiq RFC dasturi: yetkazib beruvchi emas, standartlar asosida shakllangan.",
+    "subtitle": "SDKlarning uch avlodi chiqarilgan (TypeScript, Go, .NET). 1,041 ta test. Mashina yordamida tekshirilgan sakkizta Tamarin lemmasi. Ko‘p bulutli suveren tizimlar Azure, DigitalOcean, Cloudflare va Akamai/Linode platformalarida faol ishlamoqda.",
+    "stack": {
+      "title": "Stek",
+      "l1": {
+        "code": "L1",
+        "name": "Protokol yadrosi",
+        "desc": "Ed25519 identifikatsiyasi, imzolangan genesis bloklari, ro‘yxatga olish, bekor qilish, marshrutlash va audit."
+      },
+      "l2": {
+        "code": "L2",
+        "name": "Suveren hamjamiyatlar",
+        "desc": "Mustaqil ishonch domenlari. Har biri o‘z a’zoligi, boshqaruvi va bekor qilish jarayonini nazorat qiladi."
+      },
+      "l3": {
+        "code": "L3",
+        "name": "O‘zaro tan olish tarmog‘i",
+        "desc": "Suverenlar o‘rtasidagi shartnomalar. Chegaralararo ishonch yo‘llari va bekor qilish xabarlarining tarqalishi."
+      }
+    },
+    "rfcs": [
+      {
+        "id": "RFC-001",
+        "name": "Suveren identifikatsiya",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-002",
+        "name": "O‘zaro tan olish shartnomalari",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-003",
+        "name": "Ishonch to‘plamlari",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-004",
+        "name": "Bekor qilish oqimlari",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-005",
+        "name": "Imkoniyat manifestlari",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-006",
+        "name": "Konnektom modeli",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-007",
+        "name": "Operator uzluksizligi",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-008",
+        "name": "Boshqariladigan operator roli",
+        "status": "Protokol"
+      }
+    ],
+    "live": {
+      "title": "Faol, qo‘llab-quvvatlovchilar tomonidan boshqariladigan suveren flot",
+      "subtitle": "Ko‘p bulutli / Mustaqil kalitlar / Mustaqil siyosat",
+      "network": "O‘zaro tan olish tarmog‘i",
+      "sovereigns": "Suverenlar",
+      "clouds": "Bulutlar",
+      "edges": "O‘zaro tan olish aloqalari",
+      "edgeStatus": "Imzolangan va bekor qilinadigan",
+      "operators": "Tashqi operatorlar",
+      "status": "Ulash jarayoni, 2-bosqich",
+      "online": "● ONLAYN"
+    }
+  },
+  "silicon": {
+    "label": "Kremniy",
+    "title": "Xorijiy kremniyda ishlaydigan suveren protokol shunchaki sahna ko‘rinishidir.",
+    "subtitle": "Genesis Mesh vakolatni dasturiy ta’minotda tekshiradi. Ammo dasturiy ta’minot faqat o‘zi ishlaydigan kremniy darajasidagina suverendir. TSWI, Tunis suveren plastina tashabbusi, bu zanjirni yakunlaydi: o‘ziga tegishli interpozer IP, o‘ziga tegishli qadoqlash korxonasi va o‘ziga tegishli orkestratsiya steki. Kirishda ommaviy chipletlar; chiqishda suveren hisoblash quvvati. Uch qit’a chorrahasida quyosh energiyasi bilan ishlaydi va hisoblash xarajatining yarmidan ko‘pini qisqartiradi. Birinchi bosqich yakunlandi.",
+    "conclusion": "Protokol mantiqni boshqaradi. Tunis kremniyni boshqaradi.",
+    "cta": "TSWI ma’lumotnomasini o‘qing →"
+  },
+  "live": {
+    "label": "Faol tizim",
+    "title": "Bu va’da emas. Bu ishlab turgan tizim.",
+    "subtitle": "Yagona vakolat modeli amaliy muhitda ishlamoqda. Bu pilot loyiha ham, namunaviy arxitektura ham emas.",
+    "proof": {
+      "version": "Joriy reliz",
+      "cycles": "To‘liq ishonch sikllari",
+      "tests": "Testlar",
+      "lemmas": "Tamarin yordamida tekshirilgan lemmalar"
+    },
+    "across": "Quyidagilarda faol",
+    "over": "Quyidagilar asosida ishlaydi"
+  },
+  "closing": {
+    "title": "Vakolatga o‘zingiz egalik qiling.",
+    "titleAccent": "Yetkazib beruvchiga qaram bo‘lmang.",
+    "subtitle": "190 ta davlat uchun bu o‘z ishonch tayanchlariga egalik qilishning eng qisqa yo‘lidir. Uch qudrat uchun esa ulardan voz kechmasdan o‘zaro ishlashning yagona yo‘lidir.",
+    "builders": {
+      "who": "190 ta davlat uchun, dasturchilar va arxitektorlar",
+      "title": "O‘z suveren ishonch domeningizni ishga tushiring.",
+      "desc": "RFC hujjatlarini o‘qing, TypeScript / Go / .NET SDKlarini yuklab oling va o‘zingizga tegishli infratuzilmada L2 suveren hamjamiyatini ishga tushiring.",
+      "cta": "Dasturchilar markaziga o‘ting →",
+      "altText": "Ochiq manbali tashkilotni oching →"
+    },
+    "strategic": {
+      "who": "Uch qudrat uchun, davlat va strategik subyektlar",
+      "title": "Bu suhbat SDKdan boshlanmaydi.",
+      "desc": "Avval falsafiy asoslar bayon etilgan to‘liq Elections 2026 hikoyasini o‘qing, so‘ng bevosita va maxfiy aloqa kanalini oching. Shakllar ham, voronkalar ham, vositachilar ham yo‘q.",
+      "cta": "To‘liq hikoyani o‘qing →",
+      "altText": "Bevosita kanal: thaer.saidi@outlook.com →"
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Genesis Mesh hissa qo‘shuvchilari",
+    "links": {
+      "docs": "Hujjatlar",
+      "devHub": "Dasturchilar markazi",
+      "story": "Hikoya"
+    },
+    "signature": "Ushbu sayt yig‘ilmalari Genesis Mesh vakolati bilan imzolanadi.",
+    "tagline": "SUVERENITET BU KOD",
+    "verify": "Tekshirish",
+    "unsigned": "Yig‘ilma attestatsiyasi (imzolanmagan)"
+  },
+  "seo": {
+    "title": "Genesis Mesh - Mashinalar uchun shartnoma qatlami",
+    "description": "Avtonom tizimlar uchun suveren ishonch, identifikatsiya va aloqa muhiti. Suverenitetga nisbatan betaraf, shartnoma darajasida: tekshirish, cheklash, bekor qilish, audit qilish. Blokcheyn emas. VPN emas. Xizmatlar meshi emas.",
+    "keywords": "suveren ishonch|raqamli suverenitet|mashina identifikatsiyasi|Ed25519|o‘zaro tan olish shartnomalari|bekor qilish|ishonch infratuzilmasi|Genesis Mesh|shartnoma qatlami|avtonom tizimlar"
+  }
+}

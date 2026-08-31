@@ -1,0 +1,247 @@
+{
+  "nav": {
+    "brand": "GENESIS■MESH",
+    "links": {
+      "stakes": "Ang Nakataya",
+      "powers": "Tatlong Kapangyarihan",
+      "mechanics": "Mekanismo",
+      "protocol": "Protokol",
+      "hardware": "Silicon",
+      "docs": "Dokumentasyon"
+    }
+  },
+  "ui": {
+    "menu": "Menu",
+    "searchLanguages": "Maghanap ng mga wika",
+    "noLanguageMatch": "Walang katugmang wika",
+    "selectLanguage": "Pumili ng wika"
+  },
+  "hero": {
+    "kicker": "Pampublikong Buod / Genesis Mesh / 2026",
+    "title": "Tiwalang hindi kailangang",
+    "titleAccent": "isuko ng alinmang bansa.",
+    "subtitle": "Ang Genesis Mesh ay naililipat na imprastraktura ng tiwala para sa mga sistemang may soberanya: kriptograpikong identidad, mga kasunduan ng pagkilala, at nababawi na awtoridad na gumagana nang pareho para sa 190 bansang naghahanap pa rin ng digital na soberanya, at para sa tatlong mayroon na nito.",
+    "meta": {
+      "verify": "Beripikahin",
+      "verifyDesc": "kung sino ang may hawak ng awtoridad",
+      "limit": "Limitahan",
+      "limitDesc": "kung ano ang maaari nilang gawin",
+      "revoke": "Bawiin",
+      "revokeDesc": "kapag nasira ang tiwala",
+      "audit": "I-audit",
+      "auditDesc": "upang walang kailangang basta maniwala sa iyong salita"
+    },
+    "scroll": "Mag-scroll ↓",
+    "vlabel": "Imprastrakturang Neutral sa Soberanya"
+  },
+  "stakes": {
+    "label": "Ang Nakataya",
+    "title": "Ang digital na soberanya ay isa nang usapin ng pambansang kaligtasan, at walang treaty layer para sa mga makina.",
+    "subtitle": "Lumalagda ng mga kasunduan ang mga estado. Walang katumbas nito ang mga digital na sistema. Kapag nakipag-ugnayan ang isang AI agent ng isang bansa sa imprastraktura ng iba, ang mga tanong na kung sino ang nananagot para sa entidad na ito, kaninong mga tuntunin ang umiiral, at kung maaari bang bawiin ang tiwalang iyon, ay mga diplomatikong tanong na wala pang sagot sa antas ng protokol. Ang Genesis Mesh ang sagot na iyon.",
+    "notLine": "Hindi blockchain. Hindi VPN. Hindi service mesh. Hindi framework ng agent. Hindi marketplace. Ang treaty layer para sa mga makina.",
+    "stats": {
+      "one": "190+",
+      "oneDesc": "Mga bansang naghahanap pa rin ng pormula para sa soberanya",
+      "two": "3",
+      "twoDesc": "Mga kapangyarihang nagmamay-ari na ng sarili nilang stack",
+      "three": "1",
+      "threeDesc": "Protokol na nagsisilbi sa dalawa nang walang kinakampihan"
+    }
+  },
+  "powers": {
+    "label": "Ang Tatlong Kapangyarihan",
+    "title": "Hindi kailangan ng mga kapangyarihang may soberanya ang kasarinlan. Kailangan nila ng interoperasyon nang walang pagpapailalim.",
+    "subtitle": "Nababaligtad ang halaga, ngunit hindi ito nawawala. Walang kabisera ng magkakaalyadong bansa ang tatanggap sa root of trust ng iba, kaya dapat dumaloy ang pagkilala bilang nilagdaan, malinaw ang saklaw, at nababawi na mga kasunduan sa pagitan ng magkakapantay.",
+    "cn": {
+      "code": "CN - Tsina",
+      "tag": "Patunay ng Eksporter",
+      "title": "Patunayang walang kontrol, sa teknikal na paraan.",
+      "desc": "Iisa ang pagtutol na kinakaharap ng bawat iniluluwas na imprastraktura: ang kagamitan mo ay nangangahulugang kontrol mo. Ang nabeberipika, pag-aari ng operator, at nababawi na tiwala ang teknikal na sagot sa politikal na pagtutol na iyon.",
+      "benefits": [
+        "Makapag-a-audit at makapagbabawi ang mga katuwang na bansa nang hindi kailangang basta magtiwala sa salita ng sinuman",
+        "Pagkilala sa isa't isa kasama ang mga Kanluraning estadong may soberanya, nang walang sinumang panig na humahawak sa mga susi ng kabila",
+        "Integrasyong Tsino-Kanluranin sa ilalim ng iisang modelo ng pamamahala"
+      ]
+    },
+    "us": {
+      "code": "US - Estados Unidos",
+      "tag": "Ang Suliranin sa Pederasyon",
+      "title": "Hindi tatanggapin ng mga kaalyado ang iyong root.",
+      "desc": "Mga katuwang sa Five Eyes, NATO, at EU: walang papayag na mapasailalim sa trust anchor na kontrolado ng US. Hinahayaan ng mga kasunduan ng pagkilala na manatiling may soberanya ang bawat kaalyado habang patuloy na dumadaloy ang tiwala.",
+      "benefits": [
+        "Imprastraktura ng magkakaalyado nang walang politikal na pagsuko",
+        "Makapagbenta ang mga hyperscaler sa ilalim ng mga batas sa soberanya ng ibang bansa"
+      ]
+    },
+    "kp": {
+      "code": "KP - Hilagang Korea",
+      "tag": "Ang Sukdulang Limitasyon",
+      "title": "Ang pagsubok para sa mapaghinalang estadong may soberanya.",
+      "desc": "Isang estadong walang pinagkakatiwalaang panlabas. Kung gumagana ang isang protokol para sa estadong may pinakamahigpit na pagbabantay sa mundo, walang dependency at ganap na pagmamay-ari ng operator, gagana ito para sa sinuman.",
+      "benefits": [
+        "Pamantayan sa disenyo na akma sa ganap na pagsasarili",
+        "Walang pag-angkla sa dayuhang awtoridad, kailanman"
+      ]
+    }
+  },
+  "mechanics": {
+    "label": "Ang Mekanismo",
+    "title": "Imprastrakturang hindi naglalaman ng nakapaloob na politika, kundi mga mekanismo lamang.",
+    "subtitle": "Karamihan sa imprastraktura ng tiwala ay nakapaloob ang politika ng sinumang nagpapatakbo sa root. Apat na operasyon lamang ang nakapaloob sa Genesis Mesh, at ipinauubaya nito ang politika sa mga estadong may soberanya. Ito ang dahilan kung bakit antas-kasunduan ito sa halip na antas-vendor.",
+    "ops": [
+      {
+        "num": "01",
+        "name": "Beripikahin",
+        "desc": "Kriptograpikong patunay kung sino ang may hawak ng awtoridad: identidad na Ed25519, mga nilagdaang genesis block, at mga chain ng ebidensya."
+      },
+      {
+        "num": "02",
+        "name": "Limitahan",
+        "desc": "Mga delegasyong may tiyak na saklaw at takdang panahon. Tinutukoy ng mga capability manifest kung ano ang maaaring gawin ng bawat identidad, at wala nang iba."
+      },
+      {
+        "num": "03",
+        "name": "Bawiin",
+        "desc": "Sa sandaling masira ang tiwala, kumakalat sa mga hangganan ng soberanya ang nilagdaang pagbawi, at kinikilala ito."
+      },
+      {
+        "num": "04",
+        "name": "I-audit",
+        "desc": "Bawat pasya ay nag-iiwan ng ebidensyang nagpapakita ng anumang pakikialam. Walang kailangang basta maniwala sa iyong salita."
+      }
+    ]
+  },
+  "protocol": {
+    "label": "Ang Protokol",
+    "title": "Isang bukas na programang RFC, hinubog ng mga pamantayan, hindi ng vendor.",
+    "subtitle": "Naipamahagi na ang tatlong henerasyon ng SDK (TypeScript, Go, .NET). 1,041 pagsubok. Walong lemma ng Tamarin na sinuri ng makina. Aktibo ang mga multi-cloud na estadong may soberanya sa Azure, DigitalOcean, Cloudflare, at Akamai/Linode.",
+    "stack": {
+      "title": "Ang Stack",
+      "l1": {
+        "code": "L1",
+        "name": "Ubod ng Protokol",
+        "desc": "Identidad na Ed25519, mga nilagdaang genesis block, pagpapatala, pagbawi, pagruruta, at pag-audit."
+      },
+      "l2": {
+        "code": "L2",
+        "name": "Mga Komunidad na May Soberanya",
+        "desc": "Mga nagsasariling domain ng tiwala. Bawat isa ay may kontrol sa sarili nitong kasapian, pamamahala, at pagbawi."
+      },
+      "l3": {
+        "code": "L3",
+        "name": "Network ng Pagkilala",
+        "desc": "Mga kasunduan sa pagitan ng mga estadong may soberanya. Mga landas ng tiwala at pagpapalaganap ng pagbawi sa mga hangganan."
+      }
+    },
+    "rfcs": [
+      {
+        "id": "RFC-001",
+        "name": "Identidad na May Soberanya",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-002",
+        "name": "Mga Kasunduan ng Pagkilala",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-003",
+        "name": "Mga Bundle ng Tiwala",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-004",
+        "name": "Mga Feed ng Pagbawi",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-005",
+        "name": "Mga Capability Manifest",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-006",
+        "name": "Modelo ng Connectome",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-007",
+        "name": "Pagpapatuloy ng Operator",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-008",
+        "name": "Pinamamahalaang Papel ng Operator",
+        "status": "Protokol"
+      }
+    ],
+    "live": {
+      "title": "Aktibo - Fleet na May Soberanya na Pinatatakbo ng Maintainer",
+      "subtitle": "Multi-Cloud / Mga Hiwalay na Susi / Hiwalay na Patakaran",
+      "network": "Network ng Pagkilala",
+      "sovereigns": "Mga Estadong May Soberanya",
+      "clouds": "Mga Cloud",
+      "edges": "Mga Ugnayan ng Pagkilala",
+      "edgeStatus": "Nilagdaan at Nababawi",
+      "operators": "Mga Panlabas na Operator",
+      "status": "Onboarding - Yugto 2",
+      "online": "● NAKA-ONLINE"
+    }
+  },
+  "silicon": {
+    "label": "Ang Silicon",
+    "title": "Palabas lamang ang protokol na may soberanya kung tumatakbo ito sa dayuhang silicon.",
+    "subtitle": "Biniberipika ng Genesis Mesh ang awtoridad sa software. Ngunit ang soberanya ng software ay hanggang sa soberanya lamang ng silicon na pinatatakbo rito. Isinasara ng TSWI, ang Tunisian Sovereign Wafer Initiative, ang siklo: pag-aari ang interposer IP, pag-aari ang pasilidad sa packaging, at pag-aari ang orchestration stack. Commodity chiplets ang pumapasok; sovereign compute ang lumalabas. Pinapagana ng araw sa sangandaan ng tatlong kontinente, habang inaalis ang mahigit kalahati ng gastos sa compute. Tapos na ang unang yugto.",
+    "conclusion": "Ang protokol ang namamahala sa lohika. Ang Tunisia ang namamahala sa silicon.",
+    "cta": "Basahin ang buod ng TSWI →"
+  },
+  "live": {
+    "label": "Aktibo",
+    "title": "Hindi pangako. Isang sistemang tumatakbo.",
+    "subtitle": "Isang modelo ng awtoridad, nasa produksyon. Hindi pilot, at hindi reference architecture.",
+    "proof": {
+      "version": "Kasalukuyang release",
+      "cycles": "Mga nakumpletong siklo ng tiwala",
+      "tests": "Mga pagsubok",
+      "lemmas": "Mga lemma na napatunayan ng Tamarin"
+    },
+    "across": "Aktibo sa",
+    "over": "Tumatakbo sa"
+  },
+  "closing": {
+    "title": "Angkinin ang awtoridad.",
+    "titleAccent": "Huwag umasa sa vendor.",
+    "subtitle": "Para sa 190, ito ang pinakamaikling landas upang maangkin ang sarili nilang mga trust anchor. Para sa tatlo, ito ang tanging paraan upang makipag-interoperate nang hindi isinusuko ang mga iyon.",
+    "builders": {
+      "who": "Para sa 190 - Mga Builder at Arkitekto",
+      "title": "Magtayo ng sarili mong domain ng tiwalang may soberanya.",
+      "desc": "Basahin ang mga RFC, kunin ang mga TypeScript / Go / .NET SDK, at magtayo ng L2 na Komunidad na May Soberanya sa imprastrakturang pag-aari mo na.",
+      "cta": "Pumunta sa Dev Hub →",
+      "altText": "Open-source na organisasyon →"
+    },
+    "strategic": {
+      "who": "Para sa Tatlo - Mga Estado at Estratehikong Aktor",
+      "title": "Hindi nagsisimula sa SDK ang pag-uusap na ito.",
+      "desc": "Basahin ang buong salaysay na Elections 2026 para sa pilosopikal na batayan, pagkatapos ay magbukas ng direkta, pribado, at kumpidensyal na channel. Walang form, walang funnel, walang tagapamagitan.",
+      "cta": "Basahin ang Buong Kuwento →",
+      "altText": "Direktang channel: thaer.saidi@outlook.com →"
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Mga Kontribyutor ng Genesis Mesh",
+    "links": {
+      "docs": "Dokumentasyon",
+      "devHub": "Dev Hub",
+      "story": "Ang Kuwento"
+    },
+    "signature": "Ang mga build ng site na ito ay nilagdaan sa ilalim ng awtoridad ng Genesis Mesh.",
+    "tagline": "ANG SOBERANYA AY CODE",
+    "verify": "Beripikahin",
+    "unsigned": "Attestation ng build (hindi nilagdaan)"
+  },
+  "seo": {
+    "title": "Genesis Mesh - Ang Treaty Layer para sa mga Makina",
+    "description": "Isang fabric ng tiwala, identidad, at komunikasyon na may soberanya para sa mga awtonomong sistema. Neutral sa soberanya at antas-kasunduan: beripikahin, limitahan, bawiin, i-audit. Hindi blockchain. Hindi VPN. Hindi service mesh.",
+    "keywords": "tiwalang may soberanya|digital na soberanya|identidad ng makina|Ed25519|mga kasunduan ng pagkilala|pagbawi|imprastraktura ng tiwala|Genesis Mesh|treaty layer|mga awtonomong sistema"
+  }
+}

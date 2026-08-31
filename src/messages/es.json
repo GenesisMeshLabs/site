@@ -10,6 +10,12 @@
       "docs": "Documentación"
     }
   },
+  "ui": {
+    "menu": "Menú",
+    "searchLanguages": "Buscar idiomas",
+    "noLanguageMatch": "No hay ningún idioma coincidente",
+    "selectLanguage": "Seleccionar idioma"
+  },
   "hero": {
     "kicker": "Informe Público / Genesis Mesh / 2026",
     "title": "Confianza que ninguna nación",
@@ -107,13 +113,25 @@
   },
   "protocol": {
     "label": "El Protocolo",
-    "title": "Un programa RFC abierto, con forma de estándar y no de producto.",
+    "title": "Un programa RFC abierto, moldeado por estándares y no por un proveedor.",
     "subtitle": "Tres generaciones de SDK entregadas (TypeScript, Go, .NET). 1.041 pruebas. Ocho lemas Tamarin verificados por máquina. Soberanos multinube en producción sobre Azure, DigitalOcean, Cloudflare y Akamai/Linode.",
     "stack": {
       "title": "El Stack",
-      "l1": "L1 - Núcleo del protocolo. Identidad Ed25519, bloques génesis firmados, alta, revocación, enrutamiento y auditoría.",
-      "l2": "L2 - Comunidades soberanas. Dominios de confianza independientes. Cada uno controla su propia membresía, gobernanza y revocación.",
-      "l3": "L3 - Red de reconocimiento. Tratados entre soberanos. Rutas de confianza y propagación de revocaciones a través de fronteras."
+      "l1": {
+        "code": "L1",
+        "name": "Núcleo del protocolo",
+        "desc": "Identidad Ed25519, bloques génesis firmados, alta, revocación, enrutamiento y auditoría."
+      },
+      "l2": {
+        "code": "L2",
+        "name": "Comunidades soberanas",
+        "desc": "Dominios de confianza independientes. Cada uno controla su propia membresía, gobernanza y revocación."
+      },
+      "l3": {
+        "code": "L3",
+        "name": "Red de reconocimiento",
+        "desc": "Tratados entre soberanos. Rutas de confianza y propagación de revocaciones a través de fronteras."
+      }
     },
     "rfcs": [
       {
@@ -160,9 +178,11 @@
     "live": {
       "title": "En vivo - Flota soberana operada por el mantenedor",
       "subtitle": "Multinube / Claves independientes / Política independiente",
+      "network": "Red de Reconocimiento Mutuo",
       "sovereigns": "Soberanos",
       "clouds": "Nubes",
       "edges": "Aristas de reconocimiento",
+      "edgeStatus": "Firmado y revocable",
       "operators": "Operadores externos",
       "status": "Incorporación - Fase 2",
       "online": "● EN LÍNEA"
@@ -222,6 +242,6 @@
   "seo": {
     "title": "Genesis Mesh - La capa de tratados para las máquinas",
     "description": "Un tejido soberano de confianza, identidad y comunicación para sistemas autónomos. Neutral en soberanía y de grado tratado: verificar, limitar, revocar, auditar. No es una blockchain. No es una VPN. No es un service mesh.",
-    "keywords": "confianza soberana|soberanía digital|identidad de máquina|Ed25519|tratados de reconocimiento|revocación|infraestructura de confianza|Genesis Mesh|capa de tratados"
+    "keywords": "confianza soberana|soberanía digital|identidad de máquina|Ed25519|tratados de reconocimiento|revocación|infraestructura de confianza|Genesis Mesh|capa de tratados|sistemas autónomos"
   }
 }

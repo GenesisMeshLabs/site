@@ -5,6 +5,9 @@ export default createMiddleware({
   locales,
   defaultLocale,
   localePrefix: 'as-needed',
+  // Metadata and the sitemap already emit hreflang alternates. Disabling the
+  // duplicate response header keeps it bounded as the locale registry grows.
+  alternateLinks: false,
 });
 
 export const config = {

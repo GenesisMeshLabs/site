@@ -1,4 +1,4 @@
-import { unstable_setRequestLocale } from 'next-intl/server';
+import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
 import Nav from '@/components/Nav';
 import Hero from '@/components/Hero';
 import Stakes from '@/components/Stakes';
@@ -11,8 +11,9 @@ import Closing from '@/components/Closing';
 import Footer from '@/components/Footer';
 import Reveal from '@/components/Reveal';
 
-export default function Home({ params: { locale } }: { params: { locale: string } }) {
+export default async function Home({ params: { locale } }: { params: { locale: string } }) {
   unstable_setRequestLocale(locale);
+  const t = await getTranslations({ locale, namespace: 'footer' });
 
   return (
     <>
@@ -33,7 +34,7 @@ export default function Home({ params: { locale } }: { params: { locale: string 
       <hr className="divider" />
       <Closing />
       <Footer />
-      <div className="big-foot">SOVEREIGNTY IS CODE</div>
+      <div className="big-foot">{t('tagline')}</div>
     </>
   );
 }

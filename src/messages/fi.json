@@ -1,0 +1,247 @@
+{
+  "nav": {
+    "brand": "GENESIS■MESH",
+    "links": {
+      "stakes": "Panokset",
+      "powers": "Kolme suurvaltaa",
+      "mechanics": "Toimintaperiaate",
+      "protocol": "Protokolla",
+      "hardware": "Pii",
+      "docs": "Dokumentaatio"
+    }
+  },
+  "ui": {
+    "menu": "Valikko",
+    "searchLanguages": "Hae kieliä",
+    "noLanguageMatch": "Vastaavaa kieltä ei löytynyt",
+    "selectLanguage": "Valitse kieli"
+  },
+  "hero": {
+    "kicker": "Julkinen katsaus / Genesis Mesh / 2026",
+    "title": "Luottamus, josta yhdenkään valtion",
+    "titleAccent": "ei tarvitse luopua.",
+    "subtitle": "Genesis Mesh on siirrettävä luottamusinfrastruktuuri suvereeneille järjestelmille: kryptografinen identiteetti, vastavuoroisen tunnustamisen sopimukset ja peruutettavissa oleva määräysvalta, jotka toimivat samalla tavalla niin 190 maalle, jotka yhä etsivät digitaalista suvereniteettia, kuin kolmelle suurvallalle, joilla se jo on.",
+    "meta": {
+      "verify": "Varmenna",
+      "verifyDesc": "kenellä on määräysvalta",
+      "limit": "Rajaa",
+      "limitDesc": "mitä ne voivat tehdä",
+      "revoke": "Peruuta",
+      "revokeDesc": "kun luottamus rikkoutuu",
+      "audit": "Auditoi",
+      "auditDesc": "jotta kenenkään sanaan ei tarvitse luottaa"
+    },
+    "scroll": "Vieritä ↓",
+    "vlabel": "Suvereniteettineutraali infrastruktuuri"
+  },
+  "stakes": {
+    "label": "Panokset",
+    "title": "Digitaalinen suvereniteetti on nyt kansallisen selviytymisen kysymys, eikä koneille ole sopimuskerrosta.",
+    "subtitle": "Valtiot solmivat sopimuksia. Digitaalisilla järjestelmillä ei ole vastaavaa mekanismia. Kun yhden valtion tekoälyagentti kohtaa toisen valtion infrastruktuurin, kysymykset siitä, kuka takaa tämän toimijan, kenen sääntöjen mukaan se toimii ja voidaanko luottamus peruuttaa, ovat diplomaattisia kysymyksiä, joihin mikään protokolla ei nykyisin vastaa. Genesis Mesh on tämä vastaus.",
+    "notLine": "Ei lohkoketju. Ei VPN. Ei palveluverkko. Ei agenttikehys. Ei markkinapaikka. Koneiden sopimuskerros.",
+    "stats": {
+      "one": "190+",
+      "oneDesc": "Valtiota, jotka yhä etsivät suvereniteetin mallia",
+      "two": "3",
+      "twoDesc": "Suurvaltaa, jotka jo omistavat koko teknologiapinonsa",
+      "three": "1",
+      "threeDesc": "Protokolla, joka palvelee molempia asettumatta kummankaan puolelle"
+    }
+  },
+  "powers": {
+    "label": "Kolme suurvaltaa",
+    "title": "Suvereenit suurvallat eivät tarvitse itsenäisyyttä. Ne tarvitsevat yhteentoimivuutta ilman alisteisuutta.",
+    "subtitle": "Arvolupaus kääntyy toisin päin, mutta ei katoa. Yksikään liittolaismaan pääkaupunki ei hyväksy toisen valtion luottamusjuurta, joten tunnustamisen on kuljettava tasavertaisten osapuolten välillä allekirjoitettuina, rajattuina ja peruutettavissa olevina sopimuksina.",
+    "cn": {
+      "code": "CN - Kiina",
+      "tag": "Viejän todiste",
+      "title": "Todista teknisesti, ettei määräysvaltaa ole.",
+      "desc": "Jokainen infrastruktuurivienti kohtaa saman vastaväitteen: teidän laitteenne merkitsevät teidän määräysvaltaanne. Todennettava, operaattorin omistama ja peruutettavissa oleva luottamus on tekninen vastaus tähän poliittiseen vastaväitteeseen.",
+      "benefits": [
+        "Kumppanivaltiot voivat auditoida ja peruuttaa luottamuksen luottamatta kenenkään sanaan",
+        "Vastavuoroinen tunnustaminen länsimaisten suvereenien toimijoiden kanssa, eikä kumpikaan osapuoli hallitse toisen avaimia",
+        "Kiinalaisten ja länsimaisten järjestelmien integrointi yhden hallintamallin mukaisesti"
+      ]
+    },
+    "us": {
+      "code": "US - Yhdysvallat",
+      "tag": "Federaatio-ongelma",
+      "title": "Liittolaiset eivät hyväksy luottamusjuurtasi.",
+      "desc": "Five Eyes -maat, NATO ja EU-kumppanit: yksikään niistä ei alistu Yhdysvaltojen hallitsemaan luottamusankkuriin. Tunnustamissopimukset antavat jokaisen liittolaisen säilyttää suvereniteettinsa samalla, kun luottamus voi edelleen välittyä.",
+      "benefits": [
+        "Liittoutuneiden infrastruktuuri ilman poliittista antautumista",
+        "Hyperskaalautuvat pilvipalveluntarjoajat voivat myydä ulkomaisten suvereniteettilakien piirissä"
+      ]
+    },
+    "kp": {
+      "code": "KP - Pohjois-Korea",
+      "tag": "Äärimmäinen rajoite",
+      "title": "Epäluuloisen suvereenin testi.",
+      "desc": "Valtio, joka ei luota mihinkään ulkopuoliseen. Jos protokolla toimii maailman tarkimmin vartioidulle suvereenille toimijalle ilman riippuvuuksia ja täysin operaattorin omistuksessa, se toimii kenelle tahansa.",
+      "benefits": [
+        "Autarkian tasoinen suunnittelurajoite",
+        "Ei koskaan ulkomaiseen määräysvaltaan perustuvaa ankkurointia"
+      ]
+    }
+  },
+  "mechanics": {
+    "label": "Toimintaperiaate",
+    "title": "Infrastruktuuri, johon ei ole koodattu politiikkaa, vain toimintamekanismit.",
+    "subtitle": "Useimpiin luottamusinfrastruktuureihin on koodattu luottamusjuuren ylläpitäjän politiikka. Genesis Mesh sisältää vain neljä toimintoa ja jättää politiikan suvereeneille toimijoille. Siksi se on sopimustasoinen eikä toimittajatasoinen.",
+    "ops": [
+      {
+        "num": "01",
+        "name": "Varmenna",
+        "desc": "Kryptografinen todiste siitä, kenellä on määräysvalta: Ed25519-identiteetti, allekirjoitetut genesis-lohkot ja todistusketjut."
+      },
+      {
+        "num": "02",
+        "name": "Rajaa",
+        "desc": "Soveltamisalaltaan ja ajallisesti rajatut valtuutukset. Kyvykkyysmanifestit määrittävät, mitä kukin identiteetti saa tehdä, eivät mitään muuta."
+      },
+      {
+        "num": "03",
+        "name": "Peruuta",
+        "desc": "Kun luottamus rikkoutuu, allekirjoitettu peruutus leviää suvereenien rajojen yli ja sitä noudatetaan."
+      },
+      {
+        "num": "04",
+        "name": "Auditoi",
+        "desc": "Jokaisesta päätöksestä jää peukaloinnin paljastava todiste. Kenenkään ei tarvitse luottaa pelkkään sanaasi."
+      }
+    ]
+  },
+  "protocol": {
+    "label": "Protokolla",
+    "title": "Avoin RFC-ohjelma, standardien eikä toimittajan muovaama.",
+    "subtitle": "Kolme SDK-sukupolvea julkaistu (TypeScript, Go, .NET). 1 041 testiä. Kahdeksan koneellisesti tarkistettua Tamarin-lemmaa. Monipilviset suvereenit toimijat ovat käytössä Azure-, DigitalOcean-, Cloudflare- ja Akamai/Linode-ympäristöissä.",
+    "stack": {
+      "title": "Teknologiapino",
+      "l1": {
+        "code": "L1",
+        "name": "Protokollan ydin",
+        "desc": "Ed25519-identiteetti, allekirjoitetut genesis-lohkot, liittyminen, peruutus, reititys ja auditointi."
+      },
+      "l2": {
+        "code": "L2",
+        "name": "Suvereenit yhteisöt",
+        "desc": "Itsenäiset luottamusalueet. Kukin hallitsee omia jäsenyyksiään, hallintoaan ja peruutuksiaan."
+      },
+      "l3": {
+        "code": "L3",
+        "name": "Tunnustamisverkosto",
+        "desc": "Suvereenien toimijoiden väliset sopimukset. Luottamuspolut ja peruutusten leviäminen rajojen yli."
+      }
+    },
+    "rfcs": [
+      {
+        "id": "RFC-001",
+        "name": "Suvereeni identiteetti",
+        "status": "Protokolla"
+      },
+      {
+        "id": "RFC-002",
+        "name": "Tunnustamissopimukset",
+        "status": "Protokolla"
+      },
+      {
+        "id": "RFC-003",
+        "name": "Luottamuspaketit",
+        "status": "Protokolla"
+      },
+      {
+        "id": "RFC-004",
+        "name": "Peruutussyötteet",
+        "status": "Protokolla"
+      },
+      {
+        "id": "RFC-005",
+        "name": "Kyvykkyysmanifestit",
+        "status": "Protokolla"
+      },
+      {
+        "id": "RFC-006",
+        "name": "Konnektomimalli",
+        "status": "Protokolla"
+      },
+      {
+        "id": "RFC-007",
+        "name": "Operaattorin jatkuvuus",
+        "status": "Protokolla"
+      },
+      {
+        "id": "RFC-008",
+        "name": "Hallinnoidun operaattorin rooli",
+        "status": "Protokolla"
+      }
+    ],
+    "live": {
+      "title": "Käytössä - ylläpitäjän operoima suvereeni laivasto",
+      "subtitle": "Monipilvi / Itsenäiset avaimet / Itsenäinen toimintapolitiikka",
+      "network": "Tunnustamisverkosto",
+      "sovereigns": "Suvereenit toimijat",
+      "clouds": "Pilvet",
+      "edges": "Tunnustamisyhteydet",
+      "edgeStatus": "Allekirjoitettu ja peruutettavissa",
+      "operators": "Ulkoiset operaattorit",
+      "status": "Käyttöönotto - vaihe 2",
+      "online": "● VERKOSSA"
+    }
+  },
+  "silicon": {
+    "label": "Pii",
+    "title": "Suvereeni protokolla ulkomaisella piillä on pelkkää teatteria.",
+    "subtitle": "Genesis Mesh varmentaa määräysvallan ohjelmistossa. Ohjelmisto on kuitenkin vain yhtä suvereeni kuin pii, jolla sitä ajetaan. TSWI, Tunisian Sovereign Wafer Initiative, sulkee ketjun: omassa omistuksessa olevat välipiirin immateriaalioikeudet, oma paketointilaitos ja oma orkestrointipino. Vakiokomponentteina saatavat sirupalat sisään, suvereeni laskentakapasiteetti ulos. Kokonaisuus toimii aurinkoenergialla kolmen mantereen risteyskohdassa, ja laskennan kustannuksista on karsittu yli puolet. Ensimmäinen vaihe on valmis.",
+    "conclusion": "Protokolla hallitsee logiikkaa. Tunisia hallitsee piitä.",
+    "cta": "Lue TSWI-katsaus →"
+  },
+  "live": {
+    "label": "Käytössä",
+    "title": "Ei lupaus. Toimiva järjestelmä.",
+    "subtitle": "Yksi määräysvaltamalli tuotantokäytössä. Ei pilottihanke eikä viitearkkitehtuuri.",
+    "proof": {
+      "version": "Nykyinen julkaisu",
+      "cycles": "Täydelliset luottamussyklit",
+      "tests": "Testit",
+      "lemmas": "Tamarin-varmennetut lemmat"
+    },
+    "across": "Käytössä ympäristöissä",
+    "over": "Toiminnassa alustoilla"
+  },
+  "closing": {
+    "title": "Hanki määräysvalta.",
+    "titleAccent": "Älä jää toimittajan varaan.",
+    "subtitle": "190 valtiolle se on lyhin tie omien luottamusankkurien hallintaan. Kolmelle suurvallalle se on ainoa tapa toimia yhdessä luopumatta niistä.",
+    "builders": {
+      "who": "190 valtiolle - kehittäjät ja arkkitehdit",
+      "title": "Käynnistä oma suvereeni luottamusalueesi.",
+      "desc": "Lue RFC:t, ota käyttöön TypeScript / Go / .NET SDK:t ja perusta L2-tason suvereeni yhteisö jo omistamallesi infrastruktuurille.",
+      "cta": "Siirry kehittäjäkeskukseen →",
+      "altText": "Avoimen lähdekoodin organisaatio →"
+    },
+    "strategic": {
+      "who": "Kolmelle suurvallalle - valtiolliset ja strategiset toimijat",
+      "title": "Tämä keskustelu ei ala SDK:sta.",
+      "desc": "Lue filosofiset perustelut koko Elections 2026 -kertomuksesta ja avaa sitten suora, yksityinen ja luottamuksellinen kanava. Ei lomakkeita, ei myyntiputkia, ei välikäsiä.",
+      "cta": "Lue koko kertomus →",
+      "altText": "Suora kanava: thaer.saidi@outlook.com →"
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Genesis Mesh -osallistujat",
+    "links": {
+      "docs": "Dokumentaatio",
+      "devHub": "Kehittäjäkeskus",
+      "story": "Kertomus"
+    },
+    "signature": "Tämän sivuston koontiversiot allekirjoitetaan Genesis Mesh -määräysvallan alaisuudessa.",
+    "tagline": "SUVERENITEETTI ON KOODIA",
+    "verify": "Varmenna",
+    "unsigned": "Koontiversion attestointi (allekirjoittamaton)"
+  },
+  "seo": {
+    "title": "Genesis Mesh - koneiden sopimuskerros",
+    "description": "Suvereeni luottamus-, identiteetti- ja viestintärakenne autonomisille järjestelmille. Suvereniteettineutraali ja sopimustasoinen: varmennus, rajaus, peruutus ja auditointi. Ei lohkoketju. Ei VPN. Ei palveluverkko.",
+    "keywords": "suvereeni luottamus|digitaalinen suvereniteetti|koneidentiteetti|Ed25519|tunnustamissopimukset|peruutus|luottamusinfrastruktuuri|Genesis Mesh|sopimuskerros|autonomiset järjestelmät"
+  }
+}

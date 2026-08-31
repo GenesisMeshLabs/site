@@ -1,0 +1,126 @@
+import fs from 'node:fs';
+import path from 'node:path';
+import process from 'node:process';
+
+const baseUrl = (process.argv[2] || 'http://localhost:3000').replace(/\/$/u, '');
+const root = process.cwd();
+const registry = fs.readFileSync(path.join(root, 'src', 'i18n.ts'), 'utf8');
+const locales = [
+  ...registry.matchAll(
+    /\{\s*code:\s*'([^']+)',\s*name:\s*'([^']+)',\s*english:\s*'([^']+)',\s*og:\s*'([^']+)'(?:,\s*dir:\s*'([^']+)')?\s*\}/g
+  ),
+].map((match) => ({ code: match[1], dir: match[5] === 'rtl' ? 'rtl' : 'ltr' }));
+const defaultLocale = 'en';
+const productionOrigin = (process.env.NEXT_PUBLIC_SITE_URL || 'https://genesismesh.org').replace(
+  /\/$/u,
+  ''
+);
+const failures = [];
+
+function escapeHtml(value) {
+  return value
+    .replaceAll('&', '&amp;')
+    .replaceAll('<', '&lt;')
+    .replaceAll('>', '&gt;')
+    .replaceAll('"', '&quot;')
+    .replaceAll("'", '&#x27;');
+}
+
+function routeFor(code) {
+  return code === defaultLocale ? '/' : `/${code}`;
+}
+
+function productionUrlFor(code) {
+  return code === defaultLocale ? `${productionOrigin}/` : `${productionOrigin}/${code}`;
+}
+
+async function checkLocale({ code, dir }) {
+  const route = routeFor(code);
+  const response = await fetch(`${baseUrl}${route}`);
+  const html = await response.text();
+  const messages = JSON.parse(
+    fs.readFileSync(path.join(root, 'src', 'messages', `${code}.json`), 'utf8')
+  );
+
+  if (response.status !== 200) failures.push(`${code}: page returned ${response.status}`);
+  if (!html.includes(`<html lang="${code}" dir="${dir}">`)) {
+    failures.push(`${code}: incorrect html lang or dir`);
+  }
+  if (!html.includes(`<title>${escapeHtml(messages.seo.title)}</title>`)) {
+    failures.push(`${code}: localized title is missing`);
+  }
+  if (!html.includes(`href="/${code}/manifest.webmanifest"`)) {
+    failures.push(`${code}: localized manifest link is missing`);
+  }
+  if (response.headers.has('link')) {
+    failures.push(`${code}: duplicate middleware Link header is still present`);
+  }
+
+  const manifestResponse = await fetch(`${baseUrl}/${code}/manifest.webmanifest`);
+  if (manifestResponse.status !== 200) {
+    failures.push(`${code}: manifest returned ${manifestResponse.status}`);
+    return;
+  }
+  if (!manifestResponse.headers.get('content-type')?.includes('application/manifest+json')) {
+    failures.push(`${code}: manifest has the wrong content type`);
+  }
+  const manifest = await manifestResponse.json();
+  if (manifest.lang !== code || manifest.dir !== dir) {
+    failures.push(`${code}: manifest has incorrect language metadata`);
+  }
+  if (manifest.description !== messages.seo.description) {
+    failures.push(`${code}: manifest description is not localized`);
+  }
+  if (manifest.start_url !== route) {
+    failures.push(`${code}: manifest start_url is ${manifest.start_url}, expected ${route}`);
+  }
+}
+
+for (let index = 0; index < locales.length; index += 8) {
+  await Promise.all(locales.slice(index, index + 8).map(checkLocale));
+}
+
+const sitemapResponse = await fetch(`${baseUrl}/sitemap.xml`);
+const sitemap = await sitemapResponse.text();
+if (sitemapResponse.status !== 200) failures.push(`sitemap returned ${sitemapResponse.status}`);
+const urlCount = (sitemap.match(/<url>/g) || []).length;
+const alternateCount = (sitemap.match(/<xhtml:link\s/g) || []).length;
+if (urlCount !== locales.length) {
+  failures.push(`sitemap has ${urlCount} URLs, expected ${locales.length}`);
+}
+const expectedAlternates = locales.length * (locales.length + 1);
+if (alternateCount !== expectedAlternates) {
+  failures.push(`sitemap has ${alternateCount} alternates, expected ${expectedAlternates}`);
+}
+for (const { code } of locales) {
+  if (!sitemap.includes(`<loc>${productionUrlFor(code)}</loc>`)) {
+    failures.push(`${code}: sitemap URL is missing`);
+  }
+  if (!sitemap.includes(`hreflang="${code}"`)) {
+    failures.push(`${code}: sitemap hreflang is missing`);
+  }
+}
+if (!sitemap.includes('hreflang="x-default"')) {
+  failures.push('sitemap x-default is missing');
+}
+
+const unknownResponse = await fetch(`${baseUrl}/xx-unsupported`, { redirect: 'manual' });
+if (unknownResponse.status !== 404) {
+  failures.push(`unknown locale returned ${unknownResponse.status}, expected 404`);
+}
+
+const prefixedDefault = await fetch(`${baseUrl}/en`, { redirect: 'manual' });
+if (![307, 308].includes(prefixedDefault.status) || prefixedDefault.headers.get('location') !== '/') {
+  failures.push('default locale prefix does not redirect to /');
+}
+
+if (failures.length > 0) {
+  console.error(`Localized site check failed with ${failures.length} error(s):`);
+  failures.forEach((failure) => console.error(`- ${failure}`));
+  process.exit(1);
+}
+
+console.log(
+  `Localized site check passed: ${locales.length} pages, ${locales.length} manifests, ` +
+    `${urlCount} sitemap URLs, and ${alternateCount} hreflang alternates.`
+);

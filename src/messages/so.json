@@ -1,0 +1,247 @@
+{
+  "nav": {
+    "brand": "GENESIS■MESH",
+    "links": {
+      "stakes": "Waxa Halista ku Jira",
+      "powers": "Saddexda Quwadood",
+      "mechanics": "Habka Shaqada",
+      "protocol": "Habmaamuuska",
+      "hardware": "Silikoonka",
+      "docs": "Dukumentiyada"
+    }
+  },
+  "ui": {
+    "menu": "Liiska",
+    "searchLanguages": "Raadi luqadaha",
+    "noLanguageMatch": "Luqad ku habboon lama helin",
+    "selectLanguage": "Dooro luqadda"
+  },
+  "hero": {
+    "kicker": "Warbixin Dadweyne / Genesis Mesh / 2026",
+    "title": "Kalsooni aanay qaranina",
+    "titleAccent": "qasbanayn inuu ka tanaasulo.",
+    "subtitle": "Genesis Mesh waa kaabayaal kalsooni oo la qaadi karo, looguna talagalay nidaamyo qaran ay iyagu maamulaan: aqoonsi sirgudban, heshiisyo aqoonsi oo la kala saxeexday, iyo awood la laali karo, kuwaas oo si isku mid ah ugu shaqeeya 190-ka dal ee weli raadinaya madax-bannaani dijitaal ah iyo saddexda quwadood ee hore u haysta.",
+    "meta": {
+      "verify": "Xaqiiji",
+      "verifyDesc": "cidda awoodda haysa",
+      "limit": "Xaddid",
+      "limitDesc": "waxa ay samayn karaan",
+      "revoke": "Laal",
+      "revokeDesc": "marka kalsoonidu burburto",
+      "audit": "Hanti-dhawr",
+      "auditDesc": "si aan hadalkaaga keliya loo rumaysan"
+    },
+    "scroll": "Hoos u rog ↓",
+    "vlabel": "Kaabayaal Dhexdhexaad ka ah Madax-bannaanida"
+  },
+  "stakes": {
+    "label": "Waxa Halista ku Jira",
+    "title": "Madax-bannaanida dijitaalka ahi hadda waa arrin badbaado qaran, mashiinnaduna ma laha lakab heshiiseed.",
+    "subtitle": "Dawladuhu heshiisyo ayay kala saxeexdaan. Nidaamyada dijitaalka ahi wax u dhigma ma laha. Marka wakiil AI ah oo qaran leeyahay uu la kulmo kaabayaasha qaran kale, su'aalaha ah cidda dammaanad qaadaysa hay'addan, xeerarka ay ku shaqaynayso, iyo in kalsoonidaas lala noqon karo, waa su'aalo diblomaasiyadeed oo aan maanta lahayn jawaab habmaamuus. Genesis Mesh ayaa ah jawaabtaas.",
+    "notLine": "Ma aha blockchain. Ma aha VPN. Ma aha shabakad adeegyo. Ma aha qaab-dhismeed wakiillo. Ma aha suuq. Waa lakabka heshiiseed ee mashiinnada.",
+    "stats": {
+      "one": "190+",
+      "oneDesc": "Qaramo weli raadinaya qaaciddada madax-bannaanida",
+      "two": "3",
+      "twoDesc": "Quwado hore u leh dhammaan lakabyada tiknoolajiyadooda",
+      "three": "1",
+      "threeDesc": "Habmaamuus u adeegaya labadaba, isaga oo aan dhinacna raacin"
+    }
+  },
+  "powers": {
+    "label": "Saddexda Quwadood",
+    "title": "Quwadaha madax-bannaan uma baahna gobannimo. Waxay u baahan yihiin wada-shaqayn aan hoos-tag lahayn.",
+    "subtitle": "Qiimuhu jihada ayuu beddelaa, laakiin ma baaba'o. Caasimad xulafo ahi ma aqbasho xididka kalsoonida ee caasimad kale, sidaas darteed aqoonsigu waa inuu dhex maraa dhinacyo siman, isagoo ah heshiisyo la saxeexay, baaxaddooduna cayiman tahay, lana laali karo.",
+    "cn": {
+      "code": "CN - Shiinaha",
+      "tag": "Caddeynta Dhoofiyaha",
+      "title": "Farsamo ahaan u caddee inaadan gacanta ku hayn.",
+      "desc": "Dhoofin kasta oo kaabayaal ahi waxay wajahdaa diidmada isku midka ah: qalabkiinnu wuxuu ka dhigan yahay inaad idinku gacanta ku haysaan. Kalsooni la xaqiijin karo, hawlwadeenku leeyahay, lana laali karo ayaa ah jawaabta farsamo ee diidmadaas siyaasadeed.",
+      "benefits": [
+        "Dalalka shuraakada ahi way hanti-dhawri karaan oo laali karaan iyaga oo aan hadalka cidna ku kalsoonaan",
+        "Aqoonsi isdhaafsi ah oo lala yeesho dawladaha madax-bannaan ee reer Galbeedka, iyada oo aan dhinacna hayn furayaasha dhinaca kale",
+        "Isdhexgalka Shiinaha iyo reer Galbeedka oo hoos yimaadda hal hannaan maamul"
+      ]
+    },
+    "us": {
+      "code": "US - Maraykanka",
+      "tag": "Dhibaatada Federaalka",
+      "title": "Xulafadu ma qaadan doonaan xididkaaga kalsoonida.",
+      "desc": "Five Eyes, NATO iyo shuraakada EU: midkoodna ma oggolaanayo inuu hoos tago bar-kalsooniyeed uu Maraykanku maamulo. Heshiisyada aqoonsigu waxay u oggolaanayaan xulafo kasta inuu madax-bannaan ahaado iyadoo kalsoonidu weli dhex socoto.",
+      "benefits": [
+        "Kaabayaal xulafo oo aan keenayn isdhiibid siyaasadeed",
+        "Bixiyeyaasha waaweyn ee adeegyada daruurtu waxay wax ku iibiyaan iyagoo waafaqaya shuruucda madax-bannaanida dalalka kale"
+      ]
+    },
+    "kp": {
+      "code": "KP - Kuuriyada Waqooyi",
+      "tag": "Xannibaadda Ugu Adag",
+      "title": "Imtixaanka qaranka madax-bannaan ee wax kasta ka shakisan.",
+      "desc": "Dawlad aan wax dibadeed ku kalsoonayn. Haddii habmaamuusku u shaqeeyo qaranka dunida ugu taxaddarka badan, isaga oo aan cidna ku tiirsanayn, hawlwadeenkuna si buuxda u leeyahay, qof kasta ayuu u shaqayn karaa.",
+      "benefits": [
+        "Shuruud naqshadeed oo gaadhsiisan isku-filnaansho buuxda",
+        "Marna laguma tiirsana awood shisheeye"
+      ]
+    }
+  },
+  "mechanics": {
+    "label": "Habka Shaqada",
+    "title": "Kaabayaal aan xambaarsanayn siyaasad, balse xambaarsan hab-shaqeed keliya.",
+    "subtitle": "Inta badan kaabayaasha kalsoonidu waxay xambaarsan yihiin siyaasadda cidda maamusha xididka. Genesis Mesh wuxuu kood ku qeexaa afar hawlgal oo keliya, siyaasaddana wuxuu u daayaa dawladaha madax-bannaan. Taasi ayaa ka dhigaysa heer heshiiseed halkii uu ka ahaan lahaa heer alaab-qeybiye.",
+    "ops": [
+      {
+        "num": "01",
+        "name": "Xaqiiji",
+        "desc": "Caddeyn sirgudban oo muujinaysa cidda awoodda haysa: aqoonsiga Ed25519, baloogyada bilowga ee la saxeexay iyo silsiladaha caddaynta."
+      },
+      {
+        "num": "02",
+        "name": "Xaddid",
+        "desc": "Wakiilashooyin baaxaddoodu cayiman tahay, waqtigooduna xaddidan yahay. Diiwaannada kartidu waxay qeexaan waxa aqoonsi kastaa samayn karo, intaas wax ka badanna ma jiro."
+      },
+      {
+        "num": "03",
+        "name": "Laal",
+        "desc": "Isla marka kalsoonidu burburto, laalidda la saxeexay waxay ku faaftaa xuduudaha dawladaha madax-bannaan, waana la dhaqan-geliyaa."
+      },
+      {
+        "num": "04",
+        "name": "Hanti-dhawr",
+        "desc": "Go'aan kasta wuxuu reebaa caddayn muujinaysa haddii wax laga beddelo. Qofna khasab kuma aha inuu hadalkaaga keliya rumaysto."
+      }
+    ]
+  },
+  "protocol": {
+    "label": "Habmaamuuska",
+    "title": "Barnaamij RFC oo furan, loo qaabeeyey heerar, ee aan loo qaabayn alaab-qeybiye.",
+    "subtitle": "Saddex jiil oo SDK ah ayaa la sii daayay (TypeScript, Go, .NET). 1,041 tijaabo. Siddeed leemma oo Tamarin si mashiin ah u hubiyey. Dawlado madax-bannaan oo daruuro badan adeegsanaya ayaa si toos ah uga shaqeeya Azure, DigitalOcean, Cloudflare, iyo Akamai/Linode.",
+    "stack": {
+      "title": "Lakabyada Tiknoolajiyada",
+      "l1": {
+        "code": "L1",
+        "name": "Xudunta Habmaamuuska",
+        "desc": "Aqoonsiga Ed25519, baloogyada bilowga ee la saxeexay, diiwaangelinta, laalidda, hagidda iyo hanti-dhawrka."
+      },
+      "l2": {
+        "code": "L2",
+        "name": "Bulshooyinka Madax-bannaan",
+        "desc": "Goobo kalsooni oo madaxbannaan. Mid kastaa wuxuu maamulaa xubinnimadiisa, maamulkiisa iyo laaliddiisa."
+      },
+      "l3": {
+        "code": "L3",
+        "name": "Shabakadda Aqoonsiga",
+        "desc": "Heshiisyo u dhexeeya dawladaha madax-bannaan. Waddooyinka kalsoonida iyo faafinta laalidda ee ka gudba xuduudaha."
+      }
+    },
+    "rfcs": [
+      {
+        "id": "RFC-001",
+        "name": "Aqoonsiga Madax-bannaan",
+        "status": "Habmaamuus"
+      },
+      {
+        "id": "RFC-002",
+        "name": "Heshiisyada Aqoonsiga",
+        "status": "Habmaamuus"
+      },
+      {
+        "id": "RFC-003",
+        "name": "Xidhmooyinka Kalsoonida",
+        "status": "Habmaamuus"
+      },
+      {
+        "id": "RFC-004",
+        "name": "Qulqulka Laalidda",
+        "status": "Habmaamuus"
+      },
+      {
+        "id": "RFC-005",
+        "name": "Diiwaannada Kartida",
+        "status": "Habmaamuus"
+      },
+      {
+        "id": "RFC-006",
+        "name": "Qaabka Connectome",
+        "status": "Habmaamuus"
+      },
+      {
+        "id": "RFC-007",
+        "name": "Sii-socoshada Hawlwadeenka",
+        "status": "Habmaamuus"
+      },
+      {
+        "id": "RFC-008",
+        "name": "Doorka Hawlwadeenka la Maamulo",
+        "status": "Habmaamuus"
+      }
+    ],
+    "live": {
+      "title": "Toos ah - Koox Nidaamyo Madax-bannaan oo Daryeeluhu Hawlgeliyo",
+      "subtitle": "Daruuro Badan / Furayaal Madaxbannaan / Siyaasad Madaxbannaan",
+      "network": "Shabakadda Aqoonsiga",
+      "sovereigns": "Dawladaha Madax-bannaan",
+      "clouds": "Daruuro",
+      "edges": "Xidhiidhada Aqoonsiga",
+      "edgeStatus": "La Saxeexay oo La Laali Karo",
+      "operators": "Hawlwadeenno Dibadeed",
+      "status": "Ku-biirinta - Marxaladda 2",
+      "online": "● KHADKA KU JIRA"
+    }
+  },
+  "silicon": {
+    "label": "Silikoonka",
+    "title": "Habmaamuus madax-bannaan oo ku shaqeeya silikoon shisheeye waa jilitaan.",
+    "subtitle": "Genesis Mesh wuxuu awoodda ku xaqiijiyaa softiweerka. Laakiin softiweerku madax-bannaanidiisu kama badna silikoonka uu ku shaqeeyo. TSWI, Hindisaha Wafer-ka Madax-bannaan ee Tuniisiya, ayaa wareegga dhammaystiraya: interposer IP la leeyahay, xarun baakadayn la leeyahay iyo lakabyo abaabul oo la leeyahay. Chiplet-yo caadi ah ayaa gala; awood xisaabeed madax-bannaan ayaa soo baxda. Waxa ku shaqeeya tamarta qorraxda, goobta ay ku kulmaan saddex qaaradood, iyadoo meesha laga saaray in ka badan kala badh kharashka xisaabinta. Marxaladda koowaad waa dhammaatay.",
+    "conclusion": "Habmaamuusku wuxuu maamulaa maangalka. Tuniisiya waxay maamushaa silikoonka.",
+    "cta": "Akhri warbixinta TSWI →"
+  },
+  "live": {
+    "label": "Toos ah",
+    "title": "Ma aha ballanqaad. Waa nidaam shaqaynaya.",
+    "subtitle": "Hal hannaan awood-maamul ah oo wax-soo-saar ku jira. Ma aha tijaabo hordhac ah, mana aha naqshad tixraaceed.",
+    "proof": {
+      "version": "Sii-daynta hadda",
+      "cycles": "Wareegyada kalsoonida ee dhammaystiran",
+      "tests": "Tijaabooyin",
+      "lemmas": "Leemmada uu Tamarin xaqiijiyey"
+    },
+    "across": "Si toos ah uga shaqeeya",
+    "over": "Ku shaqaynaya"
+  },
+  "closing": {
+    "title": "Awoodda idinku ha jirto.",
+    "titleAccent": "Ha ku tiirsanaanina alaab-qeybiyaha.",
+    "subtitle": "190-ka dal, waa waddada ugu gaaban ee ay ku yeelan karaan barahooda kalsoonida. Saddexda quwadood, waa habka keliya ee ay u wada shaqayn karaan iyaga oo aan ka tanaasulin.",
+    "builders": {
+      "who": "190-ka Dal - Dhisayaasha iyo Naqshadeeyayaasha",
+      "title": "Hawl geli goobtaada kalsoonida ee madax-bannaan.",
+      "desc": "Akhri RFC-yada, soo dejiso SDK-yada TypeScript / Go / .NET, dabadeedna kaabayaal aad hore u lahayd ku dhis Bulsho Madax-bannaan oo L2 ah.",
+      "cta": "Gal Xarunta Horumarinta →",
+      "altText": "Ururka il-furan →"
+    },
+    "strategic": {
+      "who": "Saddexda Quwadood - Dawladaha iyo Jilayaasha Istaraatiijiga ah",
+      "title": "Wadahadalkani SDK kama bilaabmo.",
+      "desc": "Akhri qisada buuxda ee Elections 2026 si aad u fahanto doodda falsafadeed, dabadeed fur xidhiidh toos ah oo gaar ah, sirna ah. Foomam ma jiraan, marinno suuqgeyn ma jiraan, dhexdhexaadiyeyaalna ma jiraan.",
+      "cta": "Akhri Qisada oo Dhan →",
+      "altText": "Xidhiidh toos ah: thaer.saidi@outlook.com →"
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Ka-qaybgalayaasha Genesis Mesh",
+    "links": {
+      "docs": "Dukumentiyada",
+      "devHub": "Xarunta Horumarinta",
+      "story": "Qisada"
+    },
+    "signature": "Dhismayaasha boggan waxaa lagu saxeexaa awoodda Genesis Mesh.",
+    "tagline": "MADAX-BANNAANIDU WAA KOOD",
+    "verify": "Xaqiiji",
+    "unsigned": "Caddeynta dhismaha (aan la saxeexin)"
+  },
+  "seo": {
+    "title": "Genesis Mesh - Lakabka Heshiiseed ee Mashiinnada",
+    "description": "Lakab isku xidhan oo madax-bannaan oo kalsooni, aqoonsi iyo isgaadhsiin u ah nidaamyada is-maamula. Dhexdhexaad ka ah madax-bannaanida, heer heshiiseedna leh: xaqiiji, xaddid, laal, hanti-dhawr. Ma aha blockchain. Ma aha VPN. Ma aha shabakad adeegyo.",
+    "keywords": "kalsooni madax-bannaan|madax-bannaani dijitaal ah|aqoonsiga mashiinka|Ed25519|heshiisyada aqoonsiga|laalid|kaabayaasha kalsoonida|Genesis Mesh|lakabka heshiiseed|nidaamyada is-maamula"
+  }
+}

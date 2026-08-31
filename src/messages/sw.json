@@ -1,0 +1,247 @@
+{
+  "nav": {
+    "brand": "GENESIS■MESH",
+    "links": {
+      "stakes": "Kilicho Hatarini",
+      "powers": "Mamlaka Tatu",
+      "mechanics": "Jinsi Inavyofanya Kazi",
+      "protocol": "Itifaki",
+      "hardware": "Siliconi",
+      "docs": "Nyaraka"
+    }
+  },
+  "ui": {
+    "menu": "Menyu",
+    "searchLanguages": "Tafuta lugha",
+    "noLanguageMatch": "Hakuna lugha inayolingana",
+    "selectLanguage": "Chagua lugha"
+  },
+  "hero": {
+    "kicker": "Muhtasari wa Umma / Genesis Mesh / 2026",
+    "title": "Uaminifu ambao hakuna taifa",
+    "titleAccent": "linalopaswa kuusalimisha.",
+    "subtitle": "Genesis Mesh ni miundombinu inayohamishika ya uaminifu kwa mifumo yenye mamlaka yake yenyewe, ikijumuisha utambulisho wa kikriptografia, mikataba ya utambuzi na mamlaka inayoweza kubatilishwa, inayofanya kazi kwa namna ileile kwa nchi 190 ambazo bado zinatafuta uhuru wa kidijitali, na kwa mamlaka tatu ambazo tayari zinao.",
+    "meta": {
+      "verify": "Thibitisha",
+      "verifyDesc": "nani anayeshikilia mamlaka",
+      "limit": "Weka mipaka",
+      "limitDesc": "kile wanachoweza kufanya",
+      "revoke": "Batilisha",
+      "revokeDesc": "uaminifu unapovunjika",
+      "audit": "Kagua",
+      "auditDesc": "ili hakuna anayelazimika kukuamini kwa kauli yako tu"
+    },
+    "scroll": "Sogeza ↓",
+    "vlabel": "Miundombinu Isiyoegemea Upande Wowote Kuhusu Uhuru wa Kujitawala"
+  },
+  "stakes": {
+    "label": "Kilicho Hatarini",
+    "title": "Uhuru wa kidijitali sasa ni suala la uhai wa taifa, na hakuna tabaka la mikataba kwa mashine.",
+    "subtitle": "Mataifa husaini mikataba. Mifumo ya kidijitali haina mfumo unaolingana nayo. Wakala wa AI wa taifa moja anapokutana na miundombinu ya taifa jingine, swali la nani anayethibitisha uhalali wa huluki hii, chini ya sheria za nani, na iwapo uaminifu huo unaweza kuondolewa, ni swali la kidiplomasia ambalo leo halina jibu la kiitifaki. Genesis Mesh ndiyo jibu hilo.",
+    "notLine": "Si blockchain. Si VPN. Si service mesh. Si mfumo wa mawakala. Si soko. Ni tabaka la mikataba kwa mashine.",
+    "stats": {
+      "one": "190+",
+      "oneDesc": "Mataifa ambayo bado yanatafuta mfumo wa uhuru wa kidijitali",
+      "two": "3",
+      "twoDesc": "Mamlaka ambazo tayari zinamiliki mfumo wao mzima",
+      "three": "1",
+      "threeDesc": "Itifaki inayozihudumia zote mbili bila kuegemea upande wowote"
+    }
+  },
+  "powers": {
+    "label": "Mamlaka Tatu",
+    "title": "Mamlaka zenye kujitawala hazihitaji uhuru. Zinahitaji kushirikiana bila kutawaliwa.",
+    "subtitle": "Thamani hubadilika mwelekeo, lakini haitoweki. Hakuna mji mkuu wa taifa mshirika unaokubali mzizi wa uaminifu wa mwingine, hivyo utambuzi lazima usafirishwe kama mikataba iliyosainiwa, yenye upeo maalumu na inayoweza kubatilishwa kati ya walio sawa.",
+    "cn": {
+      "code": "CN - China",
+      "tag": "Uthibitisho wa Msafirishaji",
+      "title": "Thibitisha kutokuwepo kwa udhibiti, kwa njia ya kiufundi.",
+      "desc": "Kila usafirishaji wa miundombinu hukabili pingamizi lilelile: vifaa vyako vinamaanisha udhibiti wako. Uaminifu unaoweza kuthibitishwa, unaomilikiwa na mwendeshaji na unaoweza kubatilishwa ndiyo jibu la kiufundi kwa pingamizi hilo la kisiasa.",
+      "benefits": [
+        "Mataifa washirika yanakagua na kubatilisha bila kutegemea kauli ya mtu yeyote",
+        "Utambuzi wa pande zote na mataifa huru ya Magharibi, bila upande wowote kushikilia funguo za mwingine",
+        "Muunganisho wa China na Magharibi chini ya muundo mmoja wa utawala"
+      ]
+    },
+    "us": {
+      "code": "US - Marekani",
+      "tag": "Tatizo la Shirikisho",
+      "title": "Washirika hawatakubali mzizi wako wa uaminifu.",
+      "desc": "Five Eyes, NATO, washirika wa EU: hakuna atakayejisalimisha chini ya nanga ya uaminifu inayodhibitiwa na Marekani. Mikataba ya utambuzi humruhusu kila mshirika kubaki na mamlaka yake huku uaminifu ukiendelea kupita.",
+      "benefits": [
+        "Miundombinu ya washirika bila kusalimu amri kisiasa",
+        "Watoa huduma wakubwa wa wingu huuza kwa kuzingatia sheria za nchi za kigeni kuhusu uhuru wa kidijitali"
+      ]
+    },
+    "kp": {
+      "code": "KP - Korea Kaskazini",
+      "tag": "Kizuizi Kikubwa Zaidi",
+      "title": "Jaribio la taifa huru lenye tahadhari kali.",
+      "desc": "Taifa ambalo haliamini chochote cha nje. Ikiwa itifaki inafanya kazi kwa taifa huru linalolindwa zaidi duniani, bila utegemezi wowote na likiwa na umiliki kamili wa mwendeshaji, itafanya kazi kwa yeyote.",
+      "benefits": [
+        "Kigezo cha usanifu cha kiwango cha kujitosheleza kikamilifu",
+        "Hakuna mamlaka ya kigeni inayotumika kama nanga, kamwe"
+      ]
+    }
+  },
+  "mechanics": {
+    "label": "Jinsi Inavyofanya Kazi",
+    "title": "Miundombinu isiyopachika siasa yoyote, bali utendaji pekee.",
+    "subtitle": "Miundombinu mingi ya uaminifu hupachika siasa za yeyote anayeendesha mzizi. Genesis Mesh hupachika operesheni nne pekee na kuyaachia mataifa huru masuala ya kisiasa. Hilo ndilo linaloifanya iwe ya kiwango cha mikataba badala ya kiwango cha muuzaji.",
+    "ops": [
+      {
+        "num": "01",
+        "name": "Thibitisha",
+        "desc": "Uthibitisho wa kikriptografia wa nani anayeshikilia mamlaka, utambulisho wa Ed25519, vizuizi asili vilivyosainiwa na minyororo ya ushahidi."
+      },
+      {
+        "num": "02",
+        "name": "Weka mipaka",
+        "desc": "Ukaimishaji wenye upeo maalumu na muda uliowekwa. Hati za uwezo hufafanua kile ambacho kila utambulisho unaweza kufanya, na si zaidi ya hapo."
+      },
+      {
+        "num": "03",
+        "name": "Batilisha",
+        "desc": "Uaminifu unapovunjika, ubatilishaji uliosainiwa huenezwa katika mipaka ya mataifa huru, na unatekelezwa."
+      },
+      {
+        "num": "04",
+        "name": "Kagua",
+        "desc": "Kila uamuzi huacha ushahidi unaofichua uchezewaji. Hakuna anayelazimika kukuamini kwa kauli yako tu."
+      }
+    ]
+  },
+  "protocol": {
+    "label": "Itifaki",
+    "title": "Mpango wazi wa RFC, ulioundwa kwa kuzingatia viwango, si matakwa ya muuzaji.",
+    "subtitle": "Vizazi vitatu vya SDK vimetolewa (TypeScript, Go, .NET). Majaribio 1,041. Lema nane za Tamarin zilizokaguliwa na mashine. Mataifa huru yanayotumia wingu nyingi yanafanya kazi moja kwa moja kwenye Azure, DigitalOcean, Cloudflare, na Akamai/Linode.",
+    "stack": {
+      "title": "Mfumo Kamili",
+      "l1": {
+        "code": "L1",
+        "name": "Kiini cha Itifaki",
+        "desc": "Utambulisho wa Ed25519, vizuizi asili vilivyosainiwa, uandikishaji, ubatilishaji, uelekezaji na ukaguzi."
+      },
+      "l2": {
+        "code": "L2",
+        "name": "Jumuiya Huru",
+        "desc": "Vikoa huru vya uaminifu. Kila kimoja hudhibiti uanachama, utawala na ubatilishaji wake."
+      },
+      "l3": {
+        "code": "L3",
+        "name": "Mtandao wa Utambuzi",
+        "desc": "Mikataba kati ya mataifa huru. Njia za uaminifu na uenezaji wa ubatilishaji kuvuka mipaka."
+      }
+    },
+    "rfcs": [
+      {
+        "id": "RFC-001",
+        "name": "Utambulisho Huru",
+        "status": "Itifaki"
+      },
+      {
+        "id": "RFC-002",
+        "name": "Mikataba ya Utambuzi",
+        "status": "Itifaki"
+      },
+      {
+        "id": "RFC-003",
+        "name": "Vifurushi vya Uaminifu",
+        "status": "Itifaki"
+      },
+      {
+        "id": "RFC-004",
+        "name": "Milisho ya Ubatilishaji",
+        "status": "Itifaki"
+      },
+      {
+        "id": "RFC-005",
+        "name": "Hati za Uwezo",
+        "status": "Itifaki"
+      },
+      {
+        "id": "RFC-006",
+        "name": "Muundo wa Connectome",
+        "status": "Itifaki"
+      },
+      {
+        "id": "RFC-007",
+        "name": "Mwendelezo wa Mwendeshaji",
+        "status": "Itifaki"
+      },
+      {
+        "id": "RFC-008",
+        "name": "Jukumu la Mwendeshaji Anayesimamiwa",
+        "status": "Itifaki"
+      }
+    ],
+    "live": {
+      "title": "Moja kwa Moja - Kundi Huru Linaloendeshwa na Watunzaji",
+      "subtitle": "Wingu Nyingi / Funguo Huru / Sera Huru",
+      "network": "Mtandao wa Utambuzi",
+      "sovereigns": "Mataifa Huru",
+      "clouds": "Mawingu",
+      "edges": "Miunganisho ya Utambuzi",
+      "edgeStatus": "Imesainiwa na Inaweza Kubatilishwa",
+      "operators": "Waendeshaji wa Nje",
+      "status": "Uandikishaji - Awamu ya 2",
+      "online": "● MTANDAONI"
+    }
+  },
+  "silicon": {
+    "label": "Siliconi",
+    "title": "Itifaki huru inayotumia siliconi ya kigeni ni maigizo.",
+    "subtitle": "Genesis Mesh huthibitisha mamlaka katika programu. Lakini programu ina uhuru wa kujitawala kwa kiwango kilekile cha siliconi inayoendeshewa. TSWI - Mpango wa Wefa Huru wa Tunisia - hukamilisha mzunguko huo: miliki bunifu inayomilikiwa ya interposer, kituo cha ufungashaji kinachomilikiwa na mfumo wa uratibu unaomilikiwa. Chiplet za bidhaa za kawaida zinaingia; uwezo huru wa kompyuta unatoka. Unaendeshwa kwa nishati ya jua katika makutano ya mabara matatu, huku zaidi ya nusu ya gharama za kompyuta ikiwa imeondolewa. Awamu ya kwanza imekamilika.",
+    "conclusion": "Itifaki inatawala mantiki. Tunisia inatawala siliconi.",
+    "cta": "Soma muhtasari wa TSWI →"
+  },
+  "live": {
+    "label": "Moja kwa Moja",
+    "title": "Si ahadi. Ni mfumo unaofanya kazi.",
+    "subtitle": "Muundo mmoja wa mamlaka, katika uzalishaji. Si mradi wa majaribio wala usanifu wa marejeleo.",
+    "proof": {
+      "version": "Toleo la sasa",
+      "cycles": "Mizunguko kamili ya uaminifu",
+      "tests": "Majaribio",
+      "lemmas": "Lema zilizothibitishwa na Tamarin"
+    },
+    "across": "Inafanya kazi moja kwa moja katika",
+    "over": "Inaendeshwa kwenye"
+  },
+  "closing": {
+    "title": "Miliki mamlaka.",
+    "titleAccent": "Usitegemee muuzaji.",
+    "subtitle": "Kwa zile 190, ndiyo njia fupi zaidi ya kumiliki nanga zao za uaminifu. Kwa zile tatu, ndiyo njia pekee ya kushirikiana bila kuzisalimisha.",
+    "builders": {
+      "who": "Kwa zile 190 - Waundaji na Wasanifu",
+      "title": "Anzisha kikoa chako huru cha uaminifu.",
+      "desc": "Soma RFC, pakua SDK za TypeScript / Go / .NET, na uanzishe Jumuiya Huru ya L2 kwenye miundombinu ambayo tayari unamiliki.",
+      "cta": "Ingia kwenye Kituo cha Wasanidi →",
+      "altText": "Shirika la programu huria →"
+    },
+    "strategic": {
+      "who": "Kwa Zile Tatu - Serikali na Wahusika wa Kimkakati",
+      "title": "Mazungumzo haya hayaanzi na SDK.",
+      "desc": "Soma simulizi kamili la Elections 2026 kwa hoja ya kifalsafa, kisha fungua njia ya moja kwa moja, ya faragha na ya siri. Hakuna fomu, hakuna mifumo ya kuvutia wateja, hakuna waamuzi.",
+      "cta": "Soma Simulizi Kamili →",
+      "altText": "Njia ya moja kwa moja: thaer.saidi@outlook.com →"
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Wachangiaji wa Genesis Mesh",
+    "links": {
+      "docs": "Nyaraka",
+      "devHub": "Kituo cha Wasanidi",
+      "story": "Simulizi"
+    },
+    "signature": "Matoleo ya tovuti hii yamesainiwa chini ya mamlaka ya Genesis Mesh.",
+    "tagline": "UHURU WA KUJITAWALA NI MSIMBO",
+    "verify": "Thibitisha",
+    "unsigned": "Uthibitisho wa toleo (haujasainiwa)"
+  },
+  "seo": {
+    "title": "Genesis Mesh - Tabaka la Mikataba kwa Mashine",
+    "description": "Mfumo huru wa uaminifu, utambulisho na mawasiliano kwa mifumo inayojiendesha. Haufungamani na mamlaka yoyote na ni wa kiwango cha mikataba: thibitisha, weka mipaka, batilisha, kagua. Si blockchain. Si VPN. Si service mesh.",
+    "keywords": "uaminifu huru|uhuru wa kidijitali|utambulisho wa mashine|Ed25519|mikataba ya utambuzi|ubatilishaji|miundombinu ya uaminifu|Genesis Mesh|tabaka la mikataba|mifumo inayojiendesha"
+  }
+}

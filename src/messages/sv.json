@@ -10,6 +10,12 @@
       "docs": "Dokumentation"
     }
   },
+  "ui": {
+    "menu": "Meny",
+    "searchLanguages": "Sök språk",
+    "noLanguageMatch": "Inget matchande språk",
+    "selectLanguage": "Välj språk"
+  },
   "hero": {
     "kicker": "Offentlig genomgång / Genesis Mesh / 2026",
     "title": "Tillit som ingen nation",
@@ -101,7 +107,7 @@
       {
         "num": "04",
         "name": "Granska",
-        "desc": "Varje beslut lämnar manipuleringssäkra bevis. Ingen behöver ta ditt ord på det."
+        "desc": "Varje beslut lämnar efter sig bevis där manipulation kan upptäckas. Ingen behöver ta dig på orden."
       }
     ]
   },
@@ -111,9 +117,21 @@
     "subtitle": "Tre SDK-generationer släppta (TypeScript, Go, .NET). 1 041 tester. Åtta maskinkontrollerade Tamarin-lemman. Multimolnsuveräner i drift på Azure, DigitalOcean, Cloudflare och Akamai/Linode.",
     "stack": {
       "title": "Stacken",
-      "l1": "L1 - Protokollkärna. Ed25519-identitet, signerade genesisblock, anslutning, återkallelse, routning, granskning.",
-      "l2": "L2 - Suveräna gemenskaper. Oberoende tillitsdomäner. Var och en styr sitt eget medlemskap, sin styrning och sina återkallelser.",
-      "l3": "L3 - Erkännandenätverk. Fördrag mellan suveräner. Tillitsvägar och spridning av återkallelser över gränser."
+      "l1": {
+        "code": "L1",
+        "name": "Protokollkärna",
+        "desc": "Ed25519-identitet, signerade genesisblock, anslutning, återkallelse, routning, granskning."
+      },
+      "l2": {
+        "code": "L2",
+        "name": "Suveräna gemenskaper",
+        "desc": "Oberoende tillitsdomäner. Var och en styr sitt eget medlemskap, sin styrning och sina återkallelser."
+      },
+      "l3": {
+        "code": "L3",
+        "name": "Erkännandenätverk",
+        "desc": "Fördrag mellan suveräner. Tillitsvägar och spridning av återkallelser över gränser."
+      }
     },
     "rfcs": [
       {
@@ -160,9 +178,11 @@
     "live": {
       "title": "Live - Suverän flotta driven av underhållaren",
       "subtitle": "Multimoln / Oberoende nycklar / Oberoende policy",
+      "network": "Nätverk för ömsesidigt erkännande",
       "sovereigns": "Suveräner",
       "clouds": "Moln",
       "edges": "Erkännandekanter",
+      "edgeStatus": "Signerat och återkalleligt",
       "operators": "Externa operatörer",
       "status": "Anslutning - Fas 2",
       "online": "● ONLINE"
@@ -191,7 +211,7 @@
   "closing": {
     "title": "Anlita behörigheten.",
     "titleAccent": "Inte leverantören.",
-    "subtitle": "För de 190 är det kortaste vägen till att äga sina egna tillitsankare. För de tre är det enda sättet att samverka utan att ge upp dem.",
+    "subtitle": "För de 190 är det den kortaste vägen till att äga sina egna tillitsankare. För de tre är det det enda sättet att samverka utan att ge upp dem.",
     "builders": {
       "who": "För de 190 - Byggare och arkitekter",
       "title": "Res din egen suveräna tillitsdomän.",
@@ -222,6 +242,6 @@
   "seo": {
     "title": "Genesis Mesh - Fördragslagret för maskiner",
     "description": "En suverän väv av tillit, identitet och kommunikation för autonoma system. Suveränitetsneutral och fördragsduglig: verifiera, begränsa, återkalla, granska. Ingen blockkedja. Inget VPN. Inget service mesh.",
-    "keywords": "suverän tillit|digital suveränitet|maskinidentitet|Ed25519|erkännandefördrag|återkallelse|tillitsinfrastruktur|Genesis Mesh|fördragslager"
+    "keywords": "suverän tillit|digital suveränitet|maskinidentitet|Ed25519|erkännandefördrag|återkallelse|tillitsinfrastruktur|Genesis Mesh|fördragslager|autonoma system"
   }
 }

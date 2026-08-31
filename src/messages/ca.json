@@ -1,0 +1,247 @@
+{
+  "nav": {
+    "brand": "GENESIS■MESH",
+    "links": {
+      "stakes": "El que hi ha en joc",
+      "powers": "Tres potències",
+      "mechanics": "Funcionament",
+      "protocol": "Protocol",
+      "hardware": "Silici",
+      "docs": "Documentació"
+    }
+  },
+  "ui": {
+    "menu": "Menú",
+    "searchLanguages": "Cerca idiomes",
+    "noLanguageMatch": "Cap idioma coincident",
+    "selectLanguage": "Selecciona l'idioma"
+  },
+  "hero": {
+    "kicker": "Informe públic / Genesis Mesh / 2026",
+    "title": "La confiança que cap nació",
+    "titleAccent": "no ha de cedir.",
+    "subtitle": "Genesis Mesh és una infraestructura de confiança portable per a sistemes sobirans: identitat criptogràfica, tractats de reconeixement i autoritat revocable que funcionen igual per als 190 països que encara cerquen la sobirania digital i per a les tres potències que ja la tenen.",
+    "meta": {
+      "verify": "Verificar",
+      "verifyDesc": "qui té l'autoritat",
+      "limit": "Limitar",
+      "limitDesc": "què pot fer",
+      "revoke": "Revocar",
+      "revokeDesc": "quan es trenca la confiança",
+      "audit": "Auditar",
+      "auditDesc": "perquè ningú no hagi de creure ningú només perquè ho diu"
+    },
+    "scroll": "Desplaça't ↓",
+    "vlabel": "Infraestructura neutral respecte de la sobirania"
+  },
+  "stakes": {
+    "label": "El que hi ha en joc",
+    "title": "La sobirania digital és ara una qüestió de supervivència nacional, i no hi ha cap capa de tractats per a les màquines.",
+    "subtitle": "Els estats signen tractats. Els sistemes digitals no tenen cap equivalent. Quan un agent d'IA d'una nació es troba amb la infraestructura d'una altra, la pregunta sobre qui avala aquesta entitat, sota quines normes i si aquesta confiança es pot retirar és una qüestió diplomàtica que avui no té resposta en cap protocol. Genesis Mesh és aquesta resposta.",
+    "notLine": "No és una cadena de blocs. No és una VPN. No és una malla de serveis. No és un marc d'agents. No és un mercat. És la capa de tractats per a les màquines.",
+    "stats": {
+      "one": "190+",
+      "oneDesc": "Nacions que encara cerquen una fórmula de sobirania",
+      "two": "3",
+      "twoDesc": "Potències que ja són propietàries de la seva pila tecnològica",
+      "three": "1",
+      "threeDesc": "Protocol que serveix totes dues parts sense prendre partit"
+    }
+  },
+  "powers": {
+    "label": "Les tres potències",
+    "title": "Les potències sobiranes no necessiten independència. Necessiten interoperar sense subordinació.",
+    "subtitle": "El valor s'inverteix, però no desapareix. Cap capital aliada no accepta l'arrel de confiança d'una altra, de manera que el reconeixement ha de circular com a tractats signats, delimitats i revocables entre iguals.",
+    "cn": {
+      "code": "CN - Xina",
+      "tag": "La prova de l'exportador",
+      "title": "Demostrar tècnicament l'absència de control.",
+      "desc": "Tota exportació d'infraestructura topa amb la mateixa objecció: el vostre equip implica el vostre control. Una confiança verificable, propietat de l'operador i revocable és la resposta tècnica a aquesta objecció política.",
+      "benefits": [
+        "Les nacions associades auditen i revoquen sense haver de creure ningú només perquè ho diu",
+        "Reconeixement mutu amb estats sobirans occidentals, sense que cap part tingui les claus de l'altra",
+        "Integració entre la Xina i Occident sota un únic model de governança"
+      ]
+    },
+    "us": {
+      "code": "US - Estats Units",
+      "tag": "El problema de la federació",
+      "title": "Els aliats no acceptaran la vostra arrel.",
+      "desc": "Els Cinc Ulls, l'OTAN i els socis de la UE: cap d'ells no se subordinarà a un àncora de confiança controlada pels Estats Units. Els tractats de reconeixement permeten que cada aliat continuï sent sobirà mentre la confiança continua circulant.",
+      "benefits": [
+        "Infraestructura aliada sense capitulació política",
+        "Els proveïdors de núvol a hiperescala poden vendre sota legislacions estrangeres de sobirania"
+      ]
+    },
+    "kp": {
+      "code": "KP - Corea del Nord",
+      "tag": "La restricció extrema",
+      "title": "La prova de l'estat sobirà paranoic.",
+      "desc": "Un estat que no confia en res d'extern. Si un protocol funciona per a l'estat sobirà més hermètic del planeta, amb dependència zero i plena propietat de l'operador, funciona per a tothom.",
+      "benefits": [
+        "Restricció de disseny de nivell autàrquic",
+        "Cap ancoratge en una autoritat estrangera, mai"
+      ]
+    }
+  },
+  "mechanics": {
+    "label": "El funcionament",
+    "title": "Infraestructura que no codifica cap política, només mecanismes.",
+    "subtitle": "La major part de la infraestructura de confiança codifica la política de qui controla l'arrel. Genesis Mesh només codifica quatre operacions i deixa la política en mans dels estats sobirans. Això és el que li confereix categoria de tractat, en lloc de categoria de proveïdor.",
+    "ops": [
+      {
+        "num": "01",
+        "name": "Verificar",
+        "desc": "Prova criptogràfica de qui té l'autoritat: identitat Ed25519, blocs de gènesi signats i cadenes de proves."
+      },
+      {
+        "num": "02",
+        "name": "Limitar",
+        "desc": "Delegacions delimitades i amb una durada definida. Els manifestos de capacitats defineixen què pot fer cada identitat, i res més."
+      },
+      {
+        "num": "03",
+        "name": "Revocar",
+        "desc": "En el moment en què es trenca la confiança, la revocació signada es propaga a través de les fronteres sobiranes i es respecta."
+      },
+      {
+        "num": "04",
+        "name": "Auditar",
+        "desc": "Cada decisió deixa proves que fan evident qualsevol manipulació. Ningú no ha de creure ningú només perquè ho diu."
+      }
+    ]
+  },
+  "protocol": {
+    "label": "El protocol",
+    "title": "Un programa RFC obert, conformat pels estàndards i no pels proveïdors.",
+    "subtitle": "S'han publicat tres generacions d'SDK (TypeScript, Go, .NET). 1,041 proves. Vuit lemes de Tamarin verificats per màquina. Estats sobirans multinúvol operatius a Azure, DigitalOcean, Cloudflare i Akamai/Linode.",
+    "stack": {
+      "title": "La pila",
+      "l1": {
+        "code": "L1",
+        "name": "Nucli del protocol",
+        "desc": "Identitat Ed25519, blocs de gènesi signats, inscripció, revocació, encaminament i auditoria."
+      },
+      "l2": {
+        "code": "L2",
+        "name": "Comunitats sobiranes",
+        "desc": "Dominis de confiança independents. Cadascun controla els seus membres, la seva governança i la seva revocació."
+      },
+      "l3": {
+        "code": "L3",
+        "name": "Xarxa de reconeixement",
+        "desc": "Tractats entre estats sobirans. Rutes de confiança i propagació de revocacions a través de les fronteres."
+      }
+    },
+    "rfcs": [
+      {
+        "id": "RFC-001",
+        "name": "Identitat sobirana",
+        "status": "Protocol"
+      },
+      {
+        "id": "RFC-002",
+        "name": "Tractats de reconeixement",
+        "status": "Protocol"
+      },
+      {
+        "id": "RFC-003",
+        "name": "Paquets de confiança",
+        "status": "Protocol"
+      },
+      {
+        "id": "RFC-004",
+        "name": "Canals de revocació",
+        "status": "Protocol"
+      },
+      {
+        "id": "RFC-005",
+        "name": "Manifestos de capacitats",
+        "status": "Protocol"
+      },
+      {
+        "id": "RFC-006",
+        "name": "Model de connectoma",
+        "status": "Protocol"
+      },
+      {
+        "id": "RFC-007",
+        "name": "Continuïtat de l'operador",
+        "status": "Protocol"
+      },
+      {
+        "id": "RFC-008",
+        "name": "Funció d'operador gestionat",
+        "status": "Protocol"
+      }
+    ],
+    "live": {
+      "title": "En funcionament - Flota sobirana operada pels mantenidors",
+      "subtitle": "Multinúvol / Claus independents / Política independent",
+      "network": "Xarxa de reconeixement",
+      "sovereigns": "Estats sobirans",
+      "clouds": "Núvols",
+      "edges": "Enllaços de reconeixement",
+      "edgeStatus": "Signats i revocables",
+      "operators": "Operadors externs",
+      "status": "Incorporació - Fase 2",
+      "online": "● EN LÍNIA"
+    }
+  },
+  "silicon": {
+    "label": "El silici",
+    "title": "Un protocol sobirà sobre silici estranger és pur teatre.",
+    "subtitle": "Genesis Mesh verifica l'autoritat mitjançant programari. Però el programari només és tan sobirà com el silici en què s'executa. TSWI, la Iniciativa Tunisiana d'Òblies Sobiranes, tanca el cercle: propietat intel·lectual pròpia dels interposadors, instal·lacions pròpies d'encapsulament i pila pròpia d'orquestració. Entren xiplets de consum general; en surt computació sobirana. Alimentada amb energia solar a la cruïlla de tres continents, amb una reducció de més de la meitat del cost de computació. La primera fase està acabada.",
+    "conclusion": "El protocol governa la lògica. Tunísia governa el silici.",
+    "cta": "Llegiu l'informe de TSWI →"
+  },
+  "live": {
+    "label": "En funcionament",
+    "title": "No és una promesa. És un sistema en funcionament.",
+    "subtitle": "Un model d'autoritat, en producció. No és un projecte pilot ni una arquitectura de referència.",
+    "proof": {
+      "version": "Versió actual",
+      "cycles": "Cicles de confiança complets",
+      "tests": "Proves",
+      "lemmas": "Lemes verificats amb Tamarin"
+    },
+    "across": "Operatiu a",
+    "over": "En execució sobre"
+  },
+  "closing": {
+    "title": "Assumiu l'autoritat.",
+    "titleAccent": "No depengueu del proveïdor.",
+    "subtitle": "Per als 190, és el camí més curt per ser propietaris dels seus àncores de confiança. Per a les tres potències, és l'única manera d'interoperar sense cedir-los.",
+    "builders": {
+      "who": "Per als 190 - Desenvolupadors i arquitectes",
+      "title": "Poseu en marxa el vostre propi domini de confiança sobirà.",
+      "desc": "Llegiu els RFC, descarregueu els SDK de TypeScript / Go / .NET i desplegueu una comunitat sobirana L2 sobre una infraestructura que ja sigui vostra.",
+      "cta": "Accediu al centre de desenvolupament →",
+      "altText": "Organització de codi obert →"
+    },
+    "strategic": {
+      "who": "Per a les tres potències - Actors estatals i estratègics",
+      "title": "Aquesta conversa no comença amb un SDK.",
+      "desc": "Llegiu el relat complet Elections 2026 per conèixer-ne els arguments filosòfics i, després, obriu un canal directe, privat i confidencial. Sense formularis, sense embuts comercials i sense intermediaris.",
+      "cta": "Llegiu la història completa →",
+      "altText": "Canal directe: thaer.saidi@outlook.com →"
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Col·laboradors de Genesis Mesh",
+    "links": {
+      "docs": "Documentació",
+      "devHub": "Centre de desenvolupament",
+      "story": "La història"
+    },
+    "signature": "Les compilacions d'aquest lloc estan signades sota l'autoritat de Genesis Mesh.",
+    "tagline": "LA SOBIRANIA ÉS CODI",
+    "verify": "Verificar",
+    "unsigned": "Atestació de la compilació (sense signar)"
+  },
+  "seo": {
+    "title": "Genesis Mesh - La capa de tractats per a les màquines",
+    "description": "Un teixit sobirà de confiança, identitat i comunicació per a sistemes autònoms. Neutral respecte de la sobirania i amb categoria de tractat: verificar, limitar, revocar i auditar. No és una cadena de blocs. No és una VPN. No és una malla de serveis.",
+    "keywords": "confiança sobirana|sobirania digital|identitat de màquina|Ed25519|tractats de reconeixement|revocació|infraestructura de confiança|Genesis Mesh|capa de tractats|sistemes autònoms"
+  }
+}

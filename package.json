@@ -5,10 +5,12 @@
   "scripts": {
     "predev": "node scripts/sign-build.mjs",
     "dev": "next dev",
-    "prebuild": "node scripts/sign-build.mjs",
+    "prebuild": "node scripts/check-i18n.mjs && node scripts/sign-build.mjs",
     "build": "next build",
     "start": "next start",
     "lint": "next lint",
+    "check:i18n": "node scripts/check-i18n.mjs",
+    "check:i18n:site": "node scripts/check-localized-site.mjs",
     "sign:build": "node scripts/sign-build.mjs",
     "verify:build": "node scripts/verify-build.mjs"
   },

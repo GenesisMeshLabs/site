@@ -1,0 +1,247 @@
+{
+  "nav": {
+    "brand": "GENESIS■MESH",
+    "links": {
+      "stakes": "Wat op die spel is",
+      "powers": "Drie moondhede",
+      "mechanics": "Werking",
+      "protocol": "Protokol",
+      "hardware": "Silikon",
+      "docs": "Dokumentasie"
+    }
+  },
+  "ui": {
+    "menu": "Kieslys",
+    "searchLanguages": "Soek tale",
+    "noLanguageMatch": "Geen ooreenstemmende taal nie",
+    "selectLanguage": "Kies taal"
+  },
+  "hero": {
+    "kicker": "Openbare inligtingstuk / Genesis Mesh / 2026",
+    "title": "Vertroue wat geen nasie",
+    "titleAccent": "hoef prys te gee nie.",
+    "subtitle": "Genesis Mesh is draagbare vertrouensinfrastruktuur vir soewereine stelsels: kriptografiese identiteit, erkenningsverdrae en herroepbare gesag wat op dieselfde manier werk vir die 190 lande wat steeds na digitale soewereiniteit soek, en vir die drie wat dit reeds het.",
+    "meta": {
+      "verify": "Verifieer",
+      "verifyDesc": "wie die gesag besit",
+      "limit": "Beperk",
+      "limitDesc": "wat hulle mag doen",
+      "revoke": "Herroep",
+      "revokeDesc": "wanneer vertroue verbreek word",
+      "audit": "Ouditeer",
+      "auditDesc": "sodat niemand jou bloot op jou woord hoef te glo nie"
+    },
+    "scroll": "Rol af ↓",
+    "vlabel": "Soewereiniteitsneutrale infrastruktuur"
+  },
+  "stakes": {
+    "label": "Wat op die spel is",
+    "title": "Digitale soewereiniteit is nou 'n kwessie van nasionale oorlewing, en daar is geen verdragslaag vir masjiene nie.",
+    "subtitle": "State onderteken verdrae. Digitale stelsels het geen ekwivalent nie. Wanneer 'n KI-agent van een nasie die infrastruktuur van 'n ander teëkom, is die vraag wie vir hierdie entiteit instaan, onder wie se reëls, en of daardie vertroue onttrek kan word, 'n diplomatieke vraag waarop daar vandag geen protokolantwoord is nie. Genesis Mesh is daardie antwoord.",
+    "notLine": "Nie 'n blokketting nie. Nie 'n VPN nie. Nie 'n diensmaas nie. Nie 'n agentraamwerk nie. Nie 'n markplek nie. Die verdragslaag vir masjiene.",
+    "stats": {
+      "one": "190+",
+      "oneDesc": "Nasies wat steeds na 'n formule vir soewereiniteit soek",
+      "two": "3",
+      "twoDesc": "Moondhede wat reeds hul eie stapel besit",
+      "three": "1",
+      "threeDesc": "Protokol wat albei bedien, sonder om kant te kies"
+    }
+  },
+  "powers": {
+    "label": "Die drie moondhede",
+    "title": "Soewereine moondhede het nie onafhanklikheid nodig nie. Hulle het interoperasie sonder onderwerping nodig.",
+    "subtitle": "Die waarde keer om, maar verdwyn nie. Geen geallieerde hoofstad aanvaar 'n ander se vertrouenswortel nie, daarom moet erkenning as ondertekende, afgebakende en herroepbare verdrae tussen gelykes oorgedra word.",
+    "cn": {
+      "code": "CN - Sjina",
+      "tag": "Die uitvoerder se bewys",
+      "title": "Bewys tegnies dat daar geen beheer is nie.",
+      "desc": "Elke infrastruktuuruitvoer stuit op dieselfde beswaar: jou toerusting beteken jou beheer. Verifieerbare, operateurbesitte en herroepbare vertroue is die tegniese antwoord op daardie politieke beswaar.",
+      "benefits": [
+        "Vennootlande ouditeer en herroep sonder om enigiemand bloot op hul woord te glo",
+        "Wedersydse erkenning met Westerse soewereine state, met geen kant wat die ander se sleutels hou nie",
+        "Sjinees-Westerse integrasie onder 'n enkele bestuursmodel"
+      ]
+    },
+    "us": {
+      "code": "US - Verenigde State",
+      "tag": "Die federasieprobleem",
+      "title": "Bondgenote sal nie jou vertrouenswortel aanvaar nie.",
+      "desc": "Five Eyes-, NAVO- en EU-vennote: geeneen sal hulle aan 'n VSA-beheerde vertrouensanker onderwerp nie. Erkenningsverdrae laat elke bondgenoot soewerein bly terwyl vertroue steeds vloei.",
+      "benefits": [
+        "Geallieerde infrastruktuur sonder politieke kapitulasie",
+        "Hiperskaalverskaffers verkoop binne buitelandse soewereiniteitswetgewing"
+      ]
+    },
+    "kp": {
+      "code": "KP - Noord-Korea",
+      "tag": "Die uiterste beperking",
+      "title": "Die toets vir die paranoïese soewereine staat.",
+      "desc": "'n Staat wat niks eksterns vertrou nie. As 'n protokol vir die mees bewaakte soewereine staat op aarde werk, met geen afhanklikheid en volle operateurseienaarskap, werk dit vir enigiemand.",
+      "benefits": [
+        "Ontwerpbeperking op outarkievlak",
+        "Geen verankering deur buitelandse gesag nie, ooit"
+      ]
+    }
+  },
+  "mechanics": {
+    "label": "Die werking",
+    "title": "Infrastruktuur wat geen politiek enkodeer nie, slegs werking.",
+    "subtitle": "Die meeste vertrouensinfrastruktuur enkodeer die politiek van wie ook al die wortel bedryf. Genesis Mesh enkodeer slegs vier bewerkings en laat die politiek aan die soewereine state oor. Dit is wat dit geskik vir verdrae, eerder as verskaffers, maak.",
+    "ops": [
+      {
+        "num": "01",
+        "name": "Verifieer",
+        "desc": "Kriptografiese bewys van wie die gesag besit: Ed25519-identiteit, ondertekende genesisblokke en bewyskettings."
+      },
+      {
+        "num": "02",
+        "name": "Beperk",
+        "desc": "Afgebakende, tydsbeperkte delegerings. Bevoegdheidsmanifeste bepaal wat elke identiteit mag doen, en niks meer nie."
+      },
+      {
+        "num": "03",
+        "name": "Herroep",
+        "desc": "Sodra vertroue verbreek word, versprei ondertekende herroeping oor soewereine grense heen, en word dit eerbiedig."
+      },
+      {
+        "num": "04",
+        "name": "Ouditeer",
+        "desc": "Elke besluit laat manipulasiebespeurbare bewyse. Niemand hoef jou bloot op jou woord te glo nie."
+      }
+    ]
+  },
+  "protocol": {
+    "label": "Die protokol",
+    "title": "'n Oop RFC-program, volgens standaarde gevorm, nie volgens 'n verskaffer nie.",
+    "subtitle": "Drie SDK-generasies is gelewer (TypeScript, Go, .NET). 1,041 toetse. Agt masjiengeverifieerde Tamarin-lemmas. Multiwolk-soewereine omgewings is aktief op Azure, DigitalOcean, Cloudflare en Akamai/Linode.",
+    "stack": {
+      "title": "Die stapel",
+      "l1": {
+        "code": "L1",
+        "name": "Protokolkern",
+        "desc": "Ed25519-identiteit, ondertekende genesisblokke, registrasie, herroeping, roetering en ouditering."
+      },
+      "l2": {
+        "code": "L2",
+        "name": "Soewereine gemeenskappe",
+        "desc": "Onafhanklike vertrouensdomeine. Elkeen beheer sy eie lidmaatskap, bestuur en herroeping."
+      },
+      "l3": {
+        "code": "L3",
+        "name": "Erkenningsnetwerk",
+        "desc": "Verdrae tussen soewereine state. Vertrouenspaaie en verspreiding van herroeping oor grense heen."
+      }
+    },
+    "rfcs": [
+      {
+        "id": "RFC-001",
+        "name": "Soewereine identiteit",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-002",
+        "name": "Erkenningsverdrae",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-003",
+        "name": "Vertrouensbundels",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-004",
+        "name": "Herroepingsstrome",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-005",
+        "name": "Bevoegdheidsmanifeste",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-006",
+        "name": "Konnektomemodel",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-007",
+        "name": "Operateurskontinuïteit",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-008",
+        "name": "Bestuurde operateursrol",
+        "status": "Protokol"
+      }
+    ],
+    "live": {
+      "title": "Aktief - Soewereine vloot deur instandhouers bedryf",
+      "subtitle": "Multiwolk / Onafhanklike sleutels / Onafhanklike beleid",
+      "network": "Erkenningsnetwerk",
+      "sovereigns": "Soewereine state",
+      "clouds": "Wolke",
+      "edges": "Erkenningskakels",
+      "edgeStatus": "Onderteken en herroepbaar",
+      "operators": "Eksterne operateurs",
+      "status": "Aansluiting - Fase 2",
+      "online": "● AANLYN"
+    }
+  },
+  "silicon": {
+    "label": "Die silikon",
+    "title": "'n Soewereine protokol op buitelandse silikon is teater.",
+    "subtitle": "Genesis Mesh verifieer gesag in sagteware. Maar sagteware is net so soewerein soos die silikon waarop dit loop. TSWI, die Tunisiese Soewereine Wafer-inisiatief, sluit die kring: interposer IP in eie besit, 'n verpakkingsfasiliteit in eie besit en 'n orkestrasiestapel in eie besit. Kommoditeitskyfies in; soewereine rekenaarverwerking uit. Sonkragaangedrewe by die kruispunt van drie kontinente, met meer as die helfte van die rekenaarkoste uitgeskakel. Fase een is voltooi.",
+    "conclusion": "Die protokol beheer die logika. Tunisië beheer die silikon.",
+    "cta": "Lees die TSWI-inligtingstuk →"
+  },
+  "live": {
+    "label": "Aktief",
+    "title": "Nie 'n belofte nie. 'n Werkende stelsel.",
+    "subtitle": "Een gesagsmodel, in produksie. Nie 'n loodsprojek nie, en nie 'n verwysingsargitektuur nie.",
+    "proof": {
+      "version": "Huidige vrystelling",
+      "cycles": "Voltooide vertrouensiklusse",
+      "tests": "Toetse",
+      "lemmas": "Tamarin-geverifieerde lemmas"
+    },
+    "across": "Aktief oor",
+    "over": "Bedryf op meer as"
+  },
+  "closing": {
+    "title": "Kies eie gesag.",
+    "titleAccent": "Nie verskafferafhanklikheid nie.",
+    "subtitle": "Vir die 190 is dit die kortste pad om hul vertrouensankers te besit. Vir die drie is dit die enigste manier om interoperabel te wees sonder om daardie ankers prys te gee.",
+    "builders": {
+      "who": "Vir die 190 - Bouers en argitekte",
+      "title": "Stel jou eie soewereine vertrouensdomein in werking.",
+      "desc": "Lees die RFC's, laai die TypeScript / Go / .NET-SDK's af en stel 'n L2 Soewereine Gemeenskap op infrastruktuur in werking wat jy reeds besit.",
+      "cta": "Gaan na die ontwikkelaarspilpunt →",
+      "altText": "Oopbronorganisasie →"
+    },
+    "strategic": {
+      "who": "Vir die Drie - Staats- en strategiese rolspelers",
+      "title": "Hierdie gesprek begin nie met 'n SDK nie.",
+      "desc": "Lees die volledige Elections 2026-narratief vir die filosofiese argument en open daarna 'n direkte, vertroulike kanaal. Geen vorms, geen tregters, geen tussengangers nie.",
+      "cta": "Lees die volledige verhaal →",
+      "altText": "Direkte kanaal: thaer.saidi@outlook.com →"
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Genesis Mesh-bydraers",
+    "links": {
+      "docs": "Dokumentasie",
+      "devHub": "Ontwikkelaarspilpunt",
+      "story": "Die verhaal"
+    },
+    "signature": "Samestellings van hierdie webwerf word onder Genesis Mesh-gesag onderteken.",
+    "tagline": "SOEWEREINITEIT IS KODE",
+    "verify": "Verifieer",
+    "unsigned": "Samestellingsattestasie (ononderteken)"
+  },
+  "seo": {
+    "title": "Genesis Mesh - Die verdragslaag vir masjiene",
+    "description": "'n Soewereine vertrouens-, identiteits- en kommunikasieweefsel vir outonome stelsels. Soewereiniteitsneutraal en geskik vir verdrae: verifieer, beperk, herroep, ouditeer. Nie 'n blokketting nie. Nie 'n VPN nie. Nie 'n diensmaas nie.",
+    "keywords": "soewereine vertroue|digitale soewereiniteit|masjienidentiteit|Ed25519|erkenningsverdrae|herroeping|vertrouensinfrastruktuur|Genesis Mesh|verdragslaag|outonome stelsels"
+  }
+}

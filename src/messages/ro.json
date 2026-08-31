@@ -1,0 +1,247 @@
+{
+  "nav": {
+    "brand": "GENESIS■MESH",
+    "links": {
+      "stakes": "Miza",
+      "powers": "Cele trei puteri",
+      "mechanics": "Mecanismul",
+      "protocol": "Protocolul",
+      "hardware": "Siliciul",
+      "docs": "Documentație"
+    }
+  },
+  "ui": {
+    "menu": "Meniu",
+    "searchLanguages": "Căutați limbi",
+    "noLanguageMatch": "Nicio limbă corespunzătoare",
+    "selectLanguage": "Selectați limba"
+  },
+  "hero": {
+    "kicker": "Informare publică / Genesis Mesh / 2026",
+    "title": "Încrederea la care nicio națiune",
+    "titleAccent": "nu trebuie să renunțe.",
+    "subtitle": "Genesis Mesh este o infrastructură portabilă de încredere pentru sisteme suverane: identitate criptografică, tratate de recunoaștere și autoritate revocabilă, care funcționează la fel pentru cele 190 de țări ce încă își caută suveranitatea digitală și pentru cele trei care o dețin deja.",
+    "meta": {
+      "verify": "Verificare",
+      "verifyDesc": "cine deține autoritatea",
+      "limit": "Limitare",
+      "limitDesc": "ce poate face",
+      "revoke": "Revocare",
+      "revokeDesc": "când încrederea este compromisă",
+      "audit": "Audit",
+      "auditDesc": "pentru ca nimeni să nu fie nevoit să vă creadă pe cuvânt"
+    },
+    "scroll": "Derulați ↓",
+    "vlabel": "Infrastructură neutră față de suveranitate"
+  },
+  "stakes": {
+    "label": "Miza",
+    "title": "Suveranitatea digitală este acum o chestiune de supraviețuire națională, iar pentru mașini nu există niciun strat de tratate.",
+    "subtitle": "Statele semnează tratate. Sistemele digitale nu au un echivalent. Când un agent AI al unei națiuni întâlnește infrastructura alteia, întrebarea privind cine garantează pentru această entitate, conform căror reguli și dacă încrederea respectivă poate fi retrasă este una diplomatică, la care astăzi niciun protocol nu oferă un răspuns. Genesis Mesh este acel răspuns.",
+    "notLine": "Nu este un blockchain. Nu este un VPN. Nu este un service mesh. Nu este un cadru pentru agenți. Nu este o piață. Este stratul de tratate pentru mașini.",
+    "stats": {
+      "one": "190+",
+      "oneDesc": "Națiuni care încă își caută formula suveranității",
+      "two": "3",
+      "twoDesc": "Puteri care își dețin deja întregul stack",
+      "three": "1",
+      "threeDesc": "Protocol care le deservește pe ambele, fără să aleagă o tabără"
+    }
+  },
+  "powers": {
+    "label": "Cele trei puteri",
+    "title": "Puterile suverane nu au nevoie de independență. Au nevoie de interoperabilitate fără subordonare.",
+    "subtitle": "Valoarea se inversează, dar nu dispare. Nicio capitală aliată nu acceptă rădăcina de încredere a alteia, astfel încât recunoașterea trebuie să circule sub forma unor tratate semnate, cu domeniu de aplicare definit și revocabile, încheiate între egali.",
+    "cn": {
+      "code": "CN - China",
+      "tag": "Dovada exportatorului",
+      "title": "Demonstrați tehnic absența controlului.",
+      "desc": "Fiecare export de infrastructură se lovește de aceeași obiecție: echipamentele dumneavoastră înseamnă controlul dumneavoastră. Încrederea verificabilă, deținută de operator și revocabilă este răspunsul tehnic la această obiecție politică.",
+      "benefits": [
+        "Națiunile partenere pot audita și revoca fără să fie nevoite să creadă pe cineva pe cuvânt",
+        "Recunoaștere reciprocă între actori suverani occidentali, fără ca vreuna dintre părți să dețină cheile celeilalte",
+        "Integrare chino-occidentală în cadrul unui singur model de guvernanță"
+      ]
+    },
+    "us": {
+      "code": "US - Statele Unite",
+      "tag": "Problema federației",
+      "title": "Aliații nu vă vor accepta rădăcina de încredere.",
+      "desc": "Five Eyes, NATO, partenerii UE: niciunul nu va accepta subordonarea față de o ancoră de încredere controlată de SUA. Tratatele de recunoaștere permit fiecărui aliat să rămână suveran, în timp ce încrederea continuă să circule.",
+      "benefits": [
+        "Infrastructură aliată fără capitulare politică",
+        "Furnizorii hyperscale pot vinde în jurisdicții străine supuse legislației privind suveranitatea"
+      ]
+    },
+    "kp": {
+      "code": "KP - Coreea de Nord",
+      "tag": "Constrângerea extremă",
+      "title": "Testul actorului suveran suspicios.",
+      "desc": "Un stat care nu are încredere în nimic din exterior. Dacă un protocol funcționează pentru cel mai precaut actor suveran de pe planetă, cu dependență zero și proprietate deplină a operatorului, atunci funcționează pentru oricine.",
+      "benefits": [
+        "Cerințe de proiectare la nivel de autarhie",
+        "Nicio ancorare într-o autoritate străină, niciodată"
+      ]
+    }
+  },
+  "mechanics": {
+    "label": "Mecanismul",
+    "title": "Infrastructură care nu codifică nicio politică, ci doar mecanisme.",
+    "subtitle": "Majoritatea infrastructurilor de încredere codifică politica celui care operează rădăcina. Genesis Mesh codifică doar patru operațiuni și lasă politica în seama actorilor suverani. Acest lucru îi conferă robustețea unui tratat, nu dependența de un furnizor.",
+    "ops": [
+      {
+        "num": "01",
+        "name": "Verificare",
+        "desc": "Dovadă criptografică a celui care deține autoritatea: identitate Ed25519, blocuri genesis semnate și lanțuri de dovezi."
+      },
+      {
+        "num": "02",
+        "name": "Limitare",
+        "desc": "Delegări cu domeniu de aplicare și durată limitate. Manifestele de capabilități definesc ce poate face fiecare identitate, nimic mai mult."
+      },
+      {
+        "num": "03",
+        "name": "Revocare",
+        "desc": "În momentul în care încrederea este compromisă, revocarea semnată se propagă peste granițele suverane și este respectată."
+      },
+      {
+        "num": "04",
+        "name": "Audit",
+        "desc": "Fiecare decizie lasă dovezi care fac orice modificare vizibilă. Nimeni nu trebuie să vă creadă pe cuvânt."
+      }
+    ]
+  },
+  "protocol": {
+    "label": "Protocolul",
+    "title": "Un program RFC deschis, construit după modelul standardelor, nu după cel al furnizorilor.",
+    "subtitle": "Au fost livrate trei generații de SDK-uri (TypeScript, Go, .NET). 1.041 de teste. Opt leme Tamarin verificate automat. Actori suverani multi-cloud sunt operaționali pe Azure, DigitalOcean, Cloudflare și Akamai/Linode.",
+    "stack": {
+      "title": "Stack-ul",
+      "l1": {
+        "code": "L1",
+        "name": "Nucleul protocolului",
+        "desc": "Identitate Ed25519, blocuri genesis semnate, înrolare, revocare, rutare, audit."
+      },
+      "l2": {
+        "code": "L2",
+        "name": "Comunități suverane",
+        "desc": "Domenii de încredere independente. Fiecare își controlează propriii membri, propria guvernanță și propriile revocări."
+      },
+      "l3": {
+        "code": "L3",
+        "name": "Rețeaua de recunoaștere",
+        "desc": "Tratate între actori suverani. Căi de încredere și propagarea revocării peste granițe."
+      }
+    },
+    "rfcs": [
+      {
+        "id": "RFC-001",
+        "name": "Identitate suverană",
+        "status": "Protocol"
+      },
+      {
+        "id": "RFC-002",
+        "name": "Tratate de recunoaștere",
+        "status": "Protocol"
+      },
+      {
+        "id": "RFC-003",
+        "name": "Pachete de încredere",
+        "status": "Protocol"
+      },
+      {
+        "id": "RFC-004",
+        "name": "Fluxuri de revocare",
+        "status": "Protocol"
+      },
+      {
+        "id": "RFC-005",
+        "name": "Manifeste de capabilități",
+        "status": "Protocol"
+      },
+      {
+        "id": "RFC-006",
+        "name": "Modelul conectomului",
+        "status": "Protocol"
+      },
+      {
+        "id": "RFC-007",
+        "name": "Continuitatea operatorului",
+        "status": "Protocol"
+      },
+      {
+        "id": "RFC-008",
+        "name": "Rolul operatorului gestionat",
+        "status": "Protocol"
+      }
+    ],
+    "live": {
+      "title": "Operațională, flotă suverană administrată de mentenanți",
+      "subtitle": "Multi-cloud / Chei independente / Politici independente",
+      "network": "Rețea de recunoaștere",
+      "sovereigns": "Actori suverani",
+      "clouds": "Cloud-uri",
+      "edges": "Legături de recunoaștere",
+      "edgeStatus": "Semnate și revocabile",
+      "operators": "Operatori externi",
+      "status": "Integrare, etapa 2",
+      "online": "● ONLINE"
+    }
+  },
+  "silicon": {
+    "label": "Siliciul",
+    "title": "Un protocol suveran care rulează pe siliciu străin este doar spectacol.",
+    "subtitle": "Genesis Mesh verifică autoritatea la nivel software. Dar software-ul este suveran numai în măsura în care este suveran siliciul pe care rulează. TSWI, Inițiativa Tunisiană pentru Plachete Suverane, închide circuitul: proprietate asupra IP-ului pentru interposer, unitate proprie de încapsulare și stack propriu de orchestrare. La intrare, chipleturi standardizate; la ieșire, putere de calcul suverană. Alimentată cu energie solară la răscrucea a trei continente, cu peste jumătate din costul de calcul eliminat. Prima etapă este finalizată.",
+    "conclusion": "Protocolul guvernează logica. Tunisia guvernează siliciul.",
+    "cta": "Citiți informarea TSWI →"
+  },
+  "live": {
+    "label": "Operațional",
+    "title": "Nu este o promisiune. Este un sistem în funcțiune.",
+    "subtitle": "Un singur model de autoritate, în producție. Nu este un proiect-pilot și nici o arhitectură de referință.",
+    "proof": {
+      "version": "Versiunea curentă",
+      "cycles": "Cicluri complete de încredere",
+      "tests": "Teste",
+      "lemmas": "Leme verificate cu Tamarin"
+    },
+    "across": "Operațional în",
+    "over": "Rulează pe"
+  },
+  "closing": {
+    "title": "Dețineți autoritatea.",
+    "titleAccent": "Nu depindeți de furnizor.",
+    "subtitle": "Pentru cele 190, este cea mai scurtă cale către deținerea propriilor ancore de încredere. Pentru cele trei, este singura modalitate de a interopera fără să renunțe la ele.",
+    "builders": {
+      "who": "Pentru cele 190, dezvoltatori și arhitecți",
+      "title": "Lansați-vă propriul domeniu suveran de încredere.",
+      "desc": "Citiți RFC-urile, descărcați SDK-urile TypeScript / Go / .NET și creați o comunitate suverană L2 pe infrastructura pe care o dețineți deja.",
+      "cta": "Accesați centrul pentru dezvoltatori →",
+      "altText": "Organizație cu sursă deschisă →"
+    },
+    "strategic": {
+      "who": "Pentru cele trei, actori statali și strategici",
+      "title": "Această conversație nu începe cu un SDK.",
+      "desc": "Citiți narațiunea integrală Elections 2026 pentru argumentația filozofică, apoi deschideți un canal direct, privat și confidențial. Fără formulare, fără pâlnii de vânzări, fără intermediari.",
+      "cta": "Citiți povestea integrală →",
+      "altText": "Canal direct: thaer.saidi@outlook.com →"
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Contributorii Genesis Mesh",
+    "links": {
+      "docs": "Documentație",
+      "devHub": "Centru pentru dezvoltatori",
+      "story": "Povestea"
+    },
+    "signature": "Build-urile acestui site sunt semnate sub autoritatea Genesis Mesh.",
+    "tagline": "SUVERANITATEA ESTE COD",
+    "verify": "Verificare",
+    "unsigned": "Atestarea build-ului (nesemnată)"
+  },
+  "seo": {
+    "title": "Genesis Mesh - Stratul de tratate pentru mașini",
+    "description": "O infrastructură suverană de încredere, identitate și comunicații pentru sisteme autonome. Neutră față de suveranitate și cu robustețea unui tratat: verificare, limitare, revocare, audit. Nu este un blockchain. Nu este un VPN. Nu este un service mesh.",
+    "keywords": "încredere suverană|suveranitate digitală|identitate a mașinilor|Ed25519|tratate de recunoaștere|revocare|infrastructură de încredere|Genesis Mesh|strat de tratate|sisteme autonome"
+  }
+}

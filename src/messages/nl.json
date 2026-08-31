@@ -10,6 +10,12 @@
       "docs": "Documentatie"
     }
   },
+  "ui": {
+    "menu": "Menu",
+    "searchLanguages": "Talen zoeken",
+    "noLanguageMatch": "Geen overeenkomende taal",
+    "selectLanguage": "Taal selecteren"
+  },
   "hero": {
     "kicker": "Openbare Toelichting / Genesis Mesh / 2026",
     "title": "Vertrouwen dat geen enkele natie",
@@ -101,7 +107,7 @@
       {
         "num": "04",
         "name": "Auditen",
-        "desc": "Elke beslissing laat manipulatiebestendig bewijs achter. Niemand hoeft u op uw woord te geloven."
+        "desc": "Elke beslissing laat bewijs achter waaraan manipulatie zichtbaar is. Niemand hoeft u op uw woord te geloven."
       }
     ]
   },
@@ -111,9 +117,21 @@
     "subtitle": "Drie SDK-generaties uitgebracht (TypeScript, Go, .NET). 1.041 tests. Acht machinaal gecontroleerde Tamarin-lemma's. Multicloud-soevereinen draaien op Azure, DigitalOcean, Cloudflare en Akamai/Linode.",
     "stack": {
       "title": "De Stack",
-      "l1": "L1 - Protocolkern. Ed25519-identiteit, ondertekende genesisblokken, inschrijving, intrekking, routering, audit.",
-      "l2": "L2 - Soevereine gemeenschappen. Onafhankelijke vertrouwensdomeinen. Elk beheert zijn eigen lidmaatschap, bestuur en intrekking.",
-      "l3": "L3 - Erkenningsnetwerk. Verdragen tussen soevereinen. Vertrouwenspaden en verspreiding van intrekkingen over grenzen heen."
+      "l1": {
+        "code": "L1",
+        "name": "Protocolkern",
+        "desc": "Ed25519-identiteit, ondertekende genesisblokken, inschrijving, intrekking, routering, audit."
+      },
+      "l2": {
+        "code": "L2",
+        "name": "Soevereine gemeenschappen",
+        "desc": "Onafhankelijke vertrouwensdomeinen. Elk beheert zijn eigen lidmaatschap, bestuur en intrekking."
+      },
+      "l3": {
+        "code": "L3",
+        "name": "Erkenningsnetwerk",
+        "desc": "Verdragen tussen soevereinen. Vertrouwenspaden en verspreiding van intrekkingen over grenzen heen."
+      }
     },
     "rfcs": [
       {
@@ -160,9 +178,11 @@
     "live": {
       "title": "Live - Soevereine vloot beheerd door de maintainer",
       "subtitle": "Multicloud / Onafhankelijke sleutels / Onafhankelijk beleid",
+      "network": "Netwerk voor wederzijdse erkenning",
       "sovereigns": "Soevereinen",
       "clouds": "Clouds",
       "edges": "Erkenningsverbindingen",
+      "edgeStatus": "Ondertekend en herroepbaar",
       "operators": "Externe operators",
       "status": "Onboarding - Fase 2",
       "online": "● ONLINE"
@@ -222,6 +242,6 @@
   "seo": {
     "title": "Genesis Mesh - De verdragslaag voor machines",
     "description": "Een soeverein weefsel van vertrouwen, identiteit en communicatie voor autonome systemen. Soevereiniteitsneutraal en verdragswaardig: verifiëren, begrenzen, intrekken, auditen. Geen blockchain. Geen VPN. Geen service mesh.",
-    "keywords": "soeverein vertrouwen|digitale soevereiniteit|machine-identiteit|Ed25519|erkenningsverdragen|intrekking|vertrouwensinfrastructuur|Genesis Mesh|verdragslaag"
+    "keywords": "soeverein vertrouwen|digitale soevereiniteit|machine-identiteit|Ed25519|erkenningsverdragen|intrekking|vertrouwensinfrastructuur|Genesis Mesh|verdragslaag|autonome systemen"
   }
 }

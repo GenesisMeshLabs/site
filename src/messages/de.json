@@ -10,6 +10,12 @@
       "docs": "Dokumentation"
     }
   },
+  "ui": {
+    "menu": "Menü",
+    "searchLanguages": "Sprachen suchen",
+    "noLanguageMatch": "Keine passende Sprache",
+    "selectLanguage": "Sprache auswählen"
+  },
   "hero": {
     "kicker": "Öffentliches Briefing / Genesis Mesh / 2026",
     "title": "Vertrauen, das keine Nation",
@@ -101,7 +107,7 @@
       {
         "num": "04",
         "name": "Auditieren",
-        "desc": "Jede Entscheidung hinterlässt manipulationssichere Belege. Niemand muss Ihnen glauben."
+        "desc": "Jede Entscheidung hinterlässt Belege, an denen Manipulationen erkennbar sind. Niemand muss Ihnen einfach glauben."
       }
     ]
   },
@@ -111,9 +117,21 @@
     "subtitle": "Drei SDK-Generationen ausgeliefert (TypeScript, Go, .NET). 1.041 Tests. Acht maschinengeprüfte Tamarin-Lemmata. Multi-Cloud-Souveräne produktiv auf Azure, DigitalOcean, Cloudflare und Akamai/Linode.",
     "stack": {
       "title": "Der Stack",
-      "l1": "L1 - Protokollkern. Ed25519-Identität, signierte Genesis-Blöcke, Aufnahme, Widerruf, Routing, Audit.",
-      "l2": "L2 - Souveräne Gemeinschaften. Unabhängige Vertrauensdomänen. Jede steuert ihre eigene Mitgliedschaft, Governance und Widerrufe.",
-      "l3": "L3 - Anerkennungsnetz. Verträge zwischen Souveränen. Vertrauenspfade und Widerrufsausbreitung über Grenzen hinweg."
+      "l1": {
+        "code": "L1",
+        "name": "Protokollkern",
+        "desc": "Ed25519-Identität, signierte Genesis-Blöcke, Aufnahme, Widerruf, Routing, Audit."
+      },
+      "l2": {
+        "code": "L2",
+        "name": "Souveräne Gemeinschaften",
+        "desc": "Unabhängige Vertrauensdomänen. Jede steuert ihre eigene Mitgliedschaft, Governance und Widerrufe."
+      },
+      "l3": {
+        "code": "L3",
+        "name": "Anerkennungsnetz",
+        "desc": "Verträge zwischen Souveränen. Vertrauenspfade und Widerrufsausbreitung über Grenzen hinweg."
+      }
     },
     "rfcs": [
       {
@@ -160,9 +178,11 @@
     "live": {
       "title": "Live - Vom Maintainer betriebene souveräne Flotte",
       "subtitle": "Multi-Cloud / Unabhängige Schlüssel / Unabhängige Richtlinien",
+      "network": "Netzwerk gegenseitiger Anerkennung",
       "sovereigns": "Souveräne",
       "clouds": "Clouds",
       "edges": "Anerkennungskanten",
+      "edgeStatus": "Signiert und widerrufbar",
       "operators": "Externe Betreiber",
       "status": "Onboarding - Phase 2",
       "online": "● ONLINE"
@@ -202,7 +222,7 @@
     "strategic": {
       "who": "Für die drei - Staaten und strategische Akteure",
       "title": "Dieses Gespräch beginnt nicht mit einem SDK.",
-      "desc": "Lesen Sie das vollständige Elections-2026-Narrativ für die philosophische Begründung und öffnen Sie danach einen direkten, diskreten Kanal. Keine Formulare, keine Funnels, keine Vermittler.",
+      "desc": "Lesen Sie das vollständige Elections 2026-Narrativ für die philosophische Begründung und öffnen Sie danach einen direkten, diskreten Kanal. Keine Formulare, keine Funnels, keine Vermittler.",
       "cta": "Die ganze Geschichte lesen →",
       "altText": "Direkter Kanal: thaer.saidi@outlook.com →"
     }
@@ -214,7 +234,7 @@
       "devHub": "Dev Hub",
       "story": "Die Geschichte"
     },
-    "signature": "Builds dieser Website sind unter Genesis-Mesh-Autorität signiert.",
+    "signature": "Builds dieser Website sind unter Genesis Mesh-Autorität signiert.",
     "tagline": "SOUVERÄNITÄT IST CODE",
     "verify": "Prüfen",
     "unsigned": "Build-Attestierung (unsigniert)"
@@ -222,6 +242,6 @@
   "seo": {
     "title": "Genesis Mesh - Die Vertragsebene für Maschinen",
     "description": "Ein souveränes Gewebe aus Vertrauen, Identität und Kommunikation für autonome Systeme. Souveränitätsneutral und vertragstauglich: prüfen, begrenzen, widerrufen, auditieren. Keine Blockchain. Kein VPN. Kein Service Mesh.",
-    "keywords": "souveränes Vertrauen|digitale Souveränität|Maschinenidentität|Ed25519|Anerkennungsverträge|Widerruf|Vertrauensinfrastruktur|Genesis Mesh|Vertragsebene"
+    "keywords": "souveränes Vertrauen|digitale Souveränität|Maschinenidentität|Ed25519|Anerkennungsverträge|Widerruf|Vertrauensinfrastruktur|Genesis Mesh|Vertragsebene|autonome Systeme"
   }
 }

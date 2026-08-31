@@ -10,6 +10,12 @@
       "docs": "Belgeler"
     }
   },
+  "ui": {
+    "menu": "Menü",
+    "searchLanguages": "Dil ara",
+    "noLanguageMatch": "Eşleşen dil yok",
+    "selectLanguage": "Dil seçin"
+  },
   "hero": {
     "kicker": "Kamuya Açık Bilgilendirme / Genesis Mesh / 2026",
     "title": "Hiçbir ulusun teslim etmek",
@@ -111,9 +117,21 @@
     "subtitle": "Üç SDK kuşağı yayımlandı (TypeScript, Go, .NET). 1.041 test. Makineyle denetlenmiş sekiz Tamarin önermesi. Çok bulutlu egemenler Azure, DigitalOcean, Cloudflare ve Akamai/Linode üzerinde çalışıyor.",
     "stack": {
       "title": "Yığın",
-      "l1": "L1 - Protokol Çekirdeği. Ed25519 kimliği, imzalı genesis blokları, kayıt, geri alma, yönlendirme, denetim.",
-      "l2": "L2 - Egemen Topluluklar. Bağımsız güven alanları. Her biri kendi üyeliğini, yönetişimini ve geri almasını denetler.",
-      "l3": "L3 - Tanıma Ağı. Egemenler arası antlaşmalar. Güven yolları ve sınırlar boyunca geri alma yayılımı."
+      "l1": {
+        "code": "L1",
+        "name": "Protokol Çekirdeği",
+        "desc": "Ed25519 kimliği, imzalı genesis blokları, kayıt, geri alma, yönlendirme, denetim."
+      },
+      "l2": {
+        "code": "L2",
+        "name": "Egemen Topluluklar",
+        "desc": "Bağımsız güven alanları. Her biri kendi üyeliğini, yönetişimini ve geri almasını denetler."
+      },
+      "l3": {
+        "code": "L3",
+        "name": "Tanıma Ağı",
+        "desc": "Egemenler arası antlaşmalar. Güven yolları ve sınırlar boyunca geri alma yayılımı."
+      }
     },
     "rfcs": [
       {
@@ -160,9 +178,11 @@
     "live": {
       "title": "Canlı - Bakımcı Tarafından İşletilen Egemen Filo",
       "subtitle": "Çok Bulutlu / Bağımsız Anahtarlar / Bağımsız Politika",
+      "network": "Karşılıklı Tanıma Ağı",
       "sovereigns": "Egemenler",
       "clouds": "Bulutlar",
       "edges": "Tanıma Kenarları",
+      "edgeStatus": "İmzalı ve iptal edilebilir",
       "operators": "Dış İşletmeciler",
       "status": "Katılım - Aşama 2",
       "online": "● ÇEVRİMİÇİ"
@@ -202,7 +222,7 @@
     "strategic": {
       "who": "Üçü için - Devletler ve Stratejik Aktörler",
       "title": "Bu görüşme bir SDK ile başlamaz.",
-      "desc": "Felsefi gerekçe için Elections 2026 anlatısının tamamını okuyun, ardından doğrudan ve ihtiyatlı bir kanal açın. Form yok, huni yok, aracı yok.",
+      "desc": "Felsefi gerekçe için Elections 2026 anlatısının tamamını okuyun, ardından doğrudan, özel ve gizli bir iletişim kanalı açın. Form yok, huni yok, aracı yok.",
       "cta": "Hikâyenin tamamını okuyun →",
       "altText": "Doğrudan kanal: thaer.saidi@outlook.com →"
     }
@@ -222,6 +242,6 @@
   "seo": {
     "title": "Genesis Mesh - Makineler için Antlaşma Katmanı",
     "description": "Otonom sistemler için egemen bir güven, kimlik ve iletişim dokusu. Egemenlik açısından tarafsız, antlaşma düzeyinde: doğrula, sınırla, geri al, denetle. Blok zinciri değil. VPN değil. Servis ağı değil.",
-    "keywords": "egemen güven|dijital egemenlik|makine kimliği|Ed25519|tanıma antlaşmaları|geri alma|güven altyapısı|Genesis Mesh|antlaşma katmanı"
+    "keywords": "egemen güven|dijital egemenlik|makine kimliği|Ed25519|tanıma antlaşmaları|geri alma|güven altyapısı|Genesis Mesh|antlaşma katmanı|otonom sistemler"
   }
 }

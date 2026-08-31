@@ -1,0 +1,247 @@
+{
+  "nav": {
+    "brand": "GENESIS■MESH",
+    "links": {
+      "stakes": "Det afgørende spørgsmål",
+      "powers": "Tre stormagter",
+      "mechanics": "Mekanik",
+      "protocol": "Protokol",
+      "hardware": "Silicium",
+      "docs": "Dokumentation"
+    }
+  },
+  "ui": {
+    "menu": "Menu",
+    "searchLanguages": "Søg efter sprog",
+    "noLanguageMatch": "Intet matchende sprog",
+    "selectLanguage": "Vælg sprog"
+  },
+  "hero": {
+    "kicker": "Offentlig orientering / Genesis Mesh / 2026",
+    "title": "Tillid, som ingen nation",
+    "titleAccent": "behøver at opgive.",
+    "subtitle": "Genesis Mesh er portabel tillidsinfrastruktur til suveræne systemer: kryptografisk identitet, traktater om gensidig anerkendelse og autoritet, der kan tilbagekaldes. Den fungerer ens for de 190 lande, der stadig søger digital suverænitet, og for de tre, der allerede har den.",
+    "meta": {
+      "verify": "Verificér",
+      "verifyDesc": "hvem der har autoriteten",
+      "limit": "Begræns",
+      "limitDesc": "hvad de kan gøre",
+      "revoke": "Tilbagekald",
+      "revokeDesc": "når tilliden brydes",
+      "audit": "Revidér",
+      "auditDesc": "så ingen blot skal stole på dit ord"
+    },
+    "scroll": "Rul ↓",
+    "vlabel": "Suverænitetsneutral infrastruktur"
+  },
+  "stakes": {
+    "label": "Det afgørende spørgsmål",
+    "title": "Digital suverænitet er nu et spørgsmål om national overlevelse, og der findes intet traktatlag for maskiner.",
+    "subtitle": "Stater underskriver traktater. Digitale systemer har ingen tilsvarende mekanisme. Når en AI-agent fra én nation møder en anden nations infrastruktur, er spørgsmålene, hvem der står inde for denne enhed, hvis regler den er underlagt, og om tilliden kan tilbagekaldes, diplomatiske spørgsmål, som i dag ikke har noget protokolbaseret svar. Genesis Mesh er dette svar.",
+    "notLine": "Ikke en blockchain. Ikke en VPN. Ikke et servicemesh. Ikke et agentframework. Ikke en markedsplads. Traktatlaget for maskiner.",
+    "stats": {
+      "one": "190+",
+      "oneDesc": "Nationer, der stadig søger en model for suverænitet",
+      "two": "3",
+      "twoDesc": "Stormagter, der allerede ejer hele deres teknologistak",
+      "three": "1",
+      "threeDesc": "Protokol, der tjener begge grupper uden at vælge side"
+    }
+  },
+  "powers": {
+    "label": "De tre stormagter",
+    "title": "Suveræne stormagter har ikke brug for uafhængighed. De har brug for interoperabilitet uden underordning.",
+    "subtitle": "Værdien vendes om, men den forsvinder ikke. Ingen allieret hovedstad accepterer en andens tillidsrod, så anerkendelse skal formidles som underskrevne, afgrænsede traktater mellem ligestillede parter, der kan tilbagekaldes.",
+    "cn": {
+      "code": "CN - Kina",
+      "tag": "Eksportørens bevis",
+      "title": "Bevis teknisk, at kontrollen ikke følger med.",
+      "desc": "Enhver eksport af infrastruktur møder den samme indvending: Jeres udstyr betyder jeres kontrol. Verificerbar, operatørejet tillid, der kan tilbagekaldes, er det tekniske svar på denne politiske indvending.",
+      "benefits": [
+        "Partnernationer kan revidere og tilbagekalde uden at skulle stole på nogens ord",
+        "Gensidig anerkendelse med vestlige suveræne stater, uden at nogen af parterne har den andens nøgler",
+        "Kinesisk-vestlig integration under én fælles styringsmodel"
+      ]
+    },
+    "us": {
+      "code": "US - USA",
+      "tag": "Føderationsproblemet",
+      "title": "Allierede accepterer ikke jeres tillidsrod.",
+      "desc": "Five Eyes, NATO og EU-partnere: Ingen vil underordne sig et amerikansk kontrolleret tillidsanker. Traktater om gensidig anerkendelse lader hver allieret forblive suveræn, samtidig med at tilliden kan flyde.",
+      "benefits": [
+        "Allieret infrastruktur uden politisk kapitulation",
+        "Hyperscale-udbydere kan sælge under fremmed lovgivning om suverænitet"
+      ]
+    },
+    "kp": {
+      "code": "KP - Nordkorea",
+      "tag": "Den ekstreme begrænsning",
+      "title": "Testen for den paranoide suveræne stat.",
+      "desc": "En stat, der ikke har tillid til noget eksternt. Hvis en protokol fungerer for verdens mest afskærmede suveræne stat, med nul afhængighed og fuldt operatørejerskab, fungerer den for alle.",
+      "benefits": [
+        "Designkrav på autarkiniveau",
+        "Ingen forankring i udenlandsk autoritet, nogensinde"
+      ]
+    }
+  },
+  "mechanics": {
+    "label": "Mekanikken",
+    "title": "Infrastruktur, der ikke indkoder politik, kun mekanik.",
+    "subtitle": "Det meste tillidsinfrastruktur indkoder politikken hos den part, der driver roden. Genesis Mesh indkoder kun fire operationer og overlader politikken til de suveræne stater. Det gør løsningen egnet til traktater frem for bundet til leverandører.",
+    "ops": [
+      {
+        "num": "01",
+        "name": "Verificér",
+        "desc": "Kryptografisk bevis for, hvem der har autoriteten: Ed25519-identitet, signerede genesisblokke og beviskæder."
+      },
+      {
+        "num": "02",
+        "name": "Begræns",
+        "desc": "Afgrænsede og tidsbegrænsede delegeringer. Kapabilitetsmanifester definerer, hvad hver identitet må gøre, og intet derudover."
+      },
+      {
+        "num": "03",
+        "name": "Tilbagekald",
+        "desc": "I det øjeblik tilliden brydes, forplantes en signeret tilbagekaldelse på tværs af suveræne grænser og respekteres."
+      },
+      {
+        "num": "04",
+        "name": "Revidér",
+        "desc": "Enhver beslutning efterlader beviser, der afslører manipulation. Ingen behøver blot at stole på dit ord."
+      }
+    ]
+  },
+  "protocol": {
+    "label": "Protokollen",
+    "title": "Et åbent RFC-program, formet som en standard, ikke af en leverandør.",
+    "subtitle": "Tre SDK-generationer er udgivet (TypeScript, Go, .NET). 1,041 test. Otte maskinverificerede Tamarin-lemmaer. Suveræne multi-cloud-domæner er i drift på Azure, DigitalOcean, Cloudflare og Akamai/Linode.",
+    "stack": {
+      "title": "Teknologistakken",
+      "l1": {
+        "code": "L1",
+        "name": "Protokolkerne",
+        "desc": "Ed25519-identitet, signerede genesisblokke, registrering, tilbagekaldelse, routing og revision."
+      },
+      "l2": {
+        "code": "L2",
+        "name": "Suveræne fællesskaber",
+        "desc": "Uafhængige tillidsdomæner. Hvert domæne kontrollerer selv medlemskab, styring og tilbagekaldelse."
+      },
+      "l3": {
+        "code": "L3",
+        "name": "Anerkendelsesnetværk",
+        "desc": "Traktater mellem suveræne stater. Tillidsstier og forplantning af tilbagekaldelser på tværs af grænser."
+      }
+    },
+    "rfcs": [
+      {
+        "id": "RFC-001",
+        "name": "Suveræn identitet",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-002",
+        "name": "Traktater om gensidig anerkendelse",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-003",
+        "name": "Tillidspakker",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-004",
+        "name": "Tilbagekaldelsesfeeds",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-005",
+        "name": "Kapabilitetsmanifester",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-006",
+        "name": "Konnektommodel",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-007",
+        "name": "Operatørkontinuitet",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-008",
+        "name": "Administreret operatørrolle",
+        "status": "Protokol"
+      }
+    ],
+    "live": {
+      "title": "I drift - suveræn flåde drevet af vedligeholderne",
+      "subtitle": "Multi-cloud / Uafhængige nøgler / Uafhængig politik",
+      "network": "Anerkendelsesnetværk",
+      "sovereigns": "Suveræne domæner",
+      "clouds": "Cloudmiljøer",
+      "edges": "Anerkendelsesforbindelser",
+      "edgeStatus": "Signerede og tilbagekaldelige",
+      "operators": "Eksterne operatører",
+      "status": "Tilslutning - fase 2",
+      "online": "● ONLINE"
+    }
+  },
+  "silicon": {
+    "label": "Silicium",
+    "title": "En suveræn protokol på udenlandsk silicium er teater.",
+    "subtitle": "Genesis Mesh verificerer autoritet i software. Men software er kun så suveræn som det silicium, den kører på. TSWI, Tunisian Sovereign Wafer Initiative, lukker kredsløbet: ejet interposer IP, ejet pakningsfacilitet og ejet orkestreringsstak. Standardchiplets ind; suveræn databehandling ud. Solcelledrevet ved tre kontinenters korsvej og med mere end halvdelen af beregningsomkostningerne skåret væk. Første fase er afsluttet.",
+    "conclusion": "Protokollen styrer logikken. Tunesien styrer siliciumet.",
+    "cta": "Læs orienteringen om TSWI →"
+  },
+  "live": {
+    "label": "I drift",
+    "title": "Ikke et løfte. Et kørende system.",
+    "subtitle": "Én autoritetsmodel i produktion. Ikke et pilotprojekt og ikke en referencearkitektur.",
+    "proof": {
+      "version": "Aktuel version",
+      "cycles": "Fuldførte tillidscyklusser",
+      "tests": "Test",
+      "lemmas": "Tamarin-verificerede lemmaer"
+    },
+    "across": "I drift på tværs af",
+    "over": "Kører på"
+  },
+  "closing": {
+    "title": "Få ejerskab over autoriteten.",
+    "titleAccent": "Ikke afhængighed af leverandøren.",
+    "subtitle": "For de 190 er det den korteste vej til at eje deres egne tillidsankre. For de tre er det den eneste måde at opnå interoperabilitet uden at opgive dem.",
+    "builders": {
+      "who": "For de 190 - udviklere og arkitekter",
+      "title": "Etabler jeres eget suveræne tillidsdomæne.",
+      "desc": "Læs RFC'erne, hent SDK'erne til TypeScript / Go / .NET, og etabler et L2-suverænt fællesskab på infrastruktur, I allerede ejer.",
+      "cta": "Gå til udviklerportalen →",
+      "altText": "Open source-organisation →"
+    },
+    "strategic": {
+      "who": "For de tre - statslige og strategiske aktører",
+      "title": "Denne samtale begynder ikke med et SDK.",
+      "desc": "Læs hele Elections 2026-fortællingen for at forstå det filosofiske grundlag, og åbn derefter en direkte, fortrolig kanal. Ingen formularer, ingen salgstragte, ingen mellemmænd.",
+      "cta": "Læs hele fortællingen →",
+      "altText": "Direkte kanal: thaer.saidi@outlook.com →"
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Bidragydere til Genesis Mesh",
+    "links": {
+      "docs": "Dokumentation",
+      "devHub": "Udviklerportal",
+      "story": "Fortællingen"
+    },
+    "signature": "Builds af dette websted signeres under Genesis Mesh-autoritet.",
+    "tagline": "SUVERÆNITET ER KODE",
+    "verify": "Verificér",
+    "unsigned": "Build-attestering (usigneret)"
+  },
+  "seo": {
+    "title": "Genesis Mesh - traktatlaget for maskiner",
+    "description": "En suveræn infrastruktur til tillid, identitet og kommunikation for autonome systemer. Suverænitetsneutral og egnet til traktater: verificér, begræns, tilbagekald, revidér. Ikke en blockchain. Ikke en VPN. Ikke et servicemesh.",
+    "keywords": "suveræn tillid|digital suverænitet|maskinidentitet|Ed25519|traktater om gensidig anerkendelse|tilbagekaldelse|tillidsinfrastruktur|Genesis Mesh|traktatlag|autonome systemer"
+  }
+}

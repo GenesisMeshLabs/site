@@ -10,6 +10,12 @@
       "docs": "Documentation"
     }
   },
+  "ui": {
+    "menu": "Menu",
+    "searchLanguages": "Rechercher des langues",
+    "noLanguageMatch": "Aucune langue correspondante",
+    "selectLanguage": "Sélectionner une langue"
+  },
   "hero": {
     "kicker": "Note publique / Genesis Mesh / 2026",
     "title": "Une confiance qu'aucune nation",
@@ -31,7 +37,7 @@
   "stakes": {
     "label": "Les Enjeux",
     "title": "La souveraineté numérique est désormais une question de survie nationale, et il n'existe aucune couche de traités pour les machines.",
-    "subtitle": "Les États signent des traités. Les systèmes numériques n'ont pas d'équivalent. Lorsque l'agent d'IA d'une nation rencontre l'infrastructure d'une autre, la question - qui se porte garant de cette entité, sous quelles règles, et cette confiance peut-elle être retirée - est une question diplomatique qui n'a aujourd'hui aucune réponse au niveau du protocole. Genesis Mesh est cette réponse.",
+    "subtitle": "Les États signent des traités. Les systèmes numériques n'ont pas d'équivalent. Lorsque l'agent d'IA d'une nation rencontre l'infrastructure d'une autre, la question - qui se porte garant de cette entité, selon quelles règles, et cette confiance peut-elle être retirée - est une question diplomatique qui n'a aujourd'hui aucune réponse au niveau du protocole. Genesis Mesh est cette réponse.",
     "notLine": "Pas une blockchain. Pas un VPN. Pas un service mesh. Pas un framework d'agents. Pas une place de marché. La couche de traités pour les machines.",
     "stats": {
       "one": "190+",
@@ -101,7 +107,7 @@
       {
         "num": "04",
         "name": "Auditer",
-        "desc": "Chaque décision laisse une preuve infalsifiable. Personne n'a à vous croire sur parole."
+        "desc": "Chaque décision laisse des preuves révélant toute altération. Personne n'a à vous croire sur parole."
       }
     ]
   },
@@ -111,9 +117,21 @@
     "subtitle": "Trois générations de SDK livrées (TypeScript, Go, .NET). 1 041 tests. Huit lemmes Tamarin vérifiés par machine. Des souverains multicloud en production sur Azure, DigitalOcean, Cloudflare et Akamai/Linode.",
     "stack": {
       "title": "La Pile",
-      "l1": "L1 - Cœur du protocole. Identité Ed25519, blocs de genèse signés, enrôlement, révocation, routage, audit.",
-      "l2": "L2 - Communautés souveraines. Domaines de confiance indépendants. Chacun contrôle ses propres adhésions, sa gouvernance et ses révocations.",
-      "l3": "L3 - Réseau de reconnaissance. Traités entre souverains. Chemins de confiance et propagation des révocations au-delà des frontières."
+      "l1": {
+        "code": "L1",
+        "name": "Cœur du protocole",
+        "desc": "Identité Ed25519, blocs de genèse signés, enrôlement, révocation, routage, audit."
+      },
+      "l2": {
+        "code": "L2",
+        "name": "Communautés souveraines",
+        "desc": "Domaines de confiance indépendants. Chacun contrôle ses propres adhésions, sa gouvernance et ses révocations."
+      },
+      "l3": {
+        "code": "L3",
+        "name": "Réseau de reconnaissance",
+        "desc": "Traités entre souverains. Chemins de confiance et propagation des révocations au-delà des frontières."
+      }
     },
     "rfcs": [
       {
@@ -160,9 +178,11 @@
     "live": {
       "title": "En direct - Flotte souveraine opérée par le mainteneur",
       "subtitle": "Multicloud / Clés indépendantes / Politique indépendante",
+      "network": "Réseau de reconnaissance mutuelle",
       "sovereigns": "Souverains",
       "clouds": "Clouds",
       "edges": "Arêtes de reconnaissance",
+      "edgeStatus": "Signé et révocable",
       "operators": "Opérateurs externes",
       "status": "Intégration - Phase 2",
       "online": "● EN LIGNE"
@@ -186,7 +206,7 @@
       "lemmas": "Lemmes vérifiés avec Tamarin"
     },
     "across": "En production sur",
-    "over": "Par-dessus"
+    "over": "S'exécute sur"
   },
   "closing": {
     "title": "Recrutez l'autorité.",
@@ -222,6 +242,6 @@
   "seo": {
     "title": "Genesis Mesh - La couche de traités pour les machines",
     "description": "Un tissu souverain de confiance, d'identité et de communication pour les systèmes autonomes. Neutre en souveraineté et de niveau traité : vérifier, limiter, révoquer, auditer. Pas une blockchain. Pas un VPN. Pas un service mesh.",
-    "keywords": "confiance souveraine|souveraineté numérique|identité machine|Ed25519|traités de reconnaissance|révocation|infrastructure de confiance|Genesis Mesh|couche de traités"
+    "keywords": "confiance souveraine|souveraineté numérique|identité machine|Ed25519|traités de reconnaissance|révocation|infrastructure de confiance|Genesis Mesh|couche de traités|systèmes autonomes"
   }
 }

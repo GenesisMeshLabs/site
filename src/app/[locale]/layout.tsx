@@ -48,7 +48,7 @@ export async function generateMetadata({
       ],
       apple: '/assets/icons/logo.png',
     },
-    manifest: '/site.webmanifest',
+    manifest: `/${locale}/manifest.webmanifest`,
     openGraph: {
       type: 'website',
       siteName: 'Genesis Mesh',

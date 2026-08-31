@@ -1,7 +1,12 @@
 'use client';
 import { useEffect, useRef } from 'react';
 
-export default function SovereignMap() {
+type SovereignMapProps = {
+  networkLabel: string;
+  onlineLabel: string;
+};
+
+export default function SovereignMap({ networkLabel, onlineLabel }: SovereignMapProps) {
   const canvasRef = useRef<HTMLCanvasElement>(null);
 
   useEffect(() => {
@@ -13,6 +18,7 @@ export default function SovereignMap() {
 
     const clouds = ['AZURE', 'DIGITALOCEAN', 'CLOUDFLARE', 'AKAMAI/LINODE'];
     let SW = 0, SH = 0;
+    let animationFrameId = 0;
 
     function sresize() {
       SW = sv.width = sv.offsetWidth * devicePixelRatio;
@@ -76,9 +82,10 @@ export default function SovereignMap() {
       sx.stroke();
 
       sx.fillStyle = 'rgba(245,245,245,.55)';
-      sx.font = `${9 * devicePixelRatio}px "JetBrains Mono", monospace`;
+      sx.font = `${9 * devicePixelRatio}px "Inter", "Noto Sans Arabic", sans-serif`;
       sx.textAlign = 'center';
-      sx.fillText('RECOGNITION NETWORK', cx, cy + 22 * devicePixelRatio);
+      sx.direction = document.documentElement.dir === 'rtl' ? 'rtl' : 'ltr';
+      sx.fillText(networkLabel, cx, cy + 22 * devicePixelRatio);
 
       nodes.forEach((n) => {
         const nx = n.bx * SW,
@@ -94,21 +101,22 @@ export default function SovereignMap() {
         sx.stroke();
 
         sx.fillStyle = 'rgba(245,245,245,.6)';
-        sx.font = `${9 * devicePixelRatio}px "JetBrains Mono", monospace`;
+        sx.font = `${9 * devicePixelRatio}px "Inter", "Noto Sans Arabic", sans-serif`;
         sx.fillText(n.name, nx, ny - 14 * devicePixelRatio);
 
         sx.fillStyle = 'rgba(237,28,36,.8)';
-        sx.fillText('● ONLINE', nx, ny + 20 * devicePixelRatio);
+        sx.fillText(onlineLabel, nx, ny + 20 * devicePixelRatio);
       });
 
-      requestAnimationFrame(stick);
+      animationFrameId = requestAnimationFrame(stick);
     }
-    requestAnimationFrame(stick);
+    animationFrameId = requestAnimationFrame(stick);
 
     return () => {
       window.removeEventListener('resize', sresize);
+      cancelAnimationFrame(animationFrameId);
     };
-  }, []);
+  }, [networkLabel, onlineLabel]);
 
-  return <canvas id="sovmap" ref={canvasRef} />;
+  return <canvas id="sovmap" ref={canvasRef} role="img" aria-label={networkLabel} />;
 }

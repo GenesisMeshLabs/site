@@ -1,0 +1,247 @@
+{
+  "nav": {
+    "brand": "GENESIS■MESH",
+    "links": {
+      "stakes": "Taruhannya",
+      "powers": "Tiga Kuasa",
+      "mechanics": "Mekanisme",
+      "protocol": "Protokol",
+      "hardware": "Silikon",
+      "docs": "Dokumentasi"
+    }
+  },
+  "ui": {
+    "menu": "Menu",
+    "searchLanguages": "Cari bahasa",
+    "noLanguageMatch": "Tiada bahasa yang sepadan",
+    "selectLanguage": "Pilih bahasa"
+  },
+  "hero": {
+    "kicker": "Taklimat Awam / Genesis Mesh / 2026",
+    "title": "Kepercayaan yang tidak perlu",
+    "titleAccent": "diserahkan oleh mana-mana negara.",
+    "subtitle": "Genesis Mesh ialah infrastruktur kepercayaan mudah alih untuk sistem berdaulat, merangkumi identiti kriptografi, perjanjian pengiktirafan dan kuasa sah yang boleh ditarik balik, yang berfungsi dengan cara yang sama untuk 190 negara yang masih mencari kedaulatan digital dan untuk tiga kuasa yang sudah memilikinya.",
+    "meta": {
+      "verify": "Sahkan",
+      "verifyDesc": "siapa yang memegang kuasa sah",
+      "limit": "Hadkan",
+      "limitDesc": "perkara yang boleh mereka lakukan",
+      "revoke": "Tarik Balik",
+      "revokeDesc": "apabila kepercayaan terjejas",
+      "audit": "Audit",
+      "auditDesc": "supaya tiada sesiapa sekadar bergantung pada kata-kata anda"
+    },
+    "scroll": "Tatal ↓",
+    "vlabel": "Infrastruktur Neutral Kedaulatan"
+  },
+  "stakes": {
+    "label": "Taruhannya",
+    "title": "Kedaulatan digital kini menjadi persoalan kelangsungan negara, namun masih tiada lapisan perjanjian untuk mesin.",
+    "subtitle": "Negara menandatangani perjanjian. Sistem digital tidak mempunyai mekanisme yang setara. Apabila ejen AI dari sebuah negara berinteraksi dengan infrastruktur negara lain, persoalannya ialah siapa yang menjamin entiti ini, di bawah peraturan siapa, dan sama ada kepercayaan itu boleh ditarik balik. Ini merupakan persoalan diplomatik yang sehingga kini tidak mempunyai jawapan pada peringkat protokol. Genesis Mesh ialah jawapannya.",
+    "notLine": "Bukan rantaian blok. Bukan VPN. Bukan jejaring perkhidmatan. Bukan rangka kerja ejen. Bukan pasaran. Inilah lapisan perjanjian untuk mesin.",
+    "stats": {
+      "one": "190+",
+      "oneDesc": "Negara yang masih mencari formula kedaulatan",
+      "two": "3",
+      "twoDesc": "Kuasa yang sudah memiliki tindanan teknologi mereka sendiri",
+      "three": "1",
+      "threeDesc": "Protokol yang berkhidmat untuk kedua-duanya tanpa memihak"
+    }
+  },
+  "powers": {
+    "label": "Tiga Kuasa",
+    "title": "Kuasa berdaulat tidak memerlukan kemerdekaan. Mereka memerlukan kesalingoperasian tanpa ketundukan.",
+    "subtitle": "Nilainya berubah arah, tetapi tidak lenyap. Tiada ibu negara sekutu yang akan menerima akar kepercayaan pihak lain, maka pengiktirafan mesti disampaikan sebagai perjanjian bertandatangan, berskop dan boleh ditarik balik antara pihak yang setara.",
+    "cn": {
+      "code": "CN - China",
+      "tag": "Bukti Pengeksport",
+      "title": "Buktikan ketiadaan kawalan secara teknikal.",
+      "desc": "Setiap eksport infrastruktur berdepan bantahan yang sama: peralatan anda bermakna kawalan anda. Kepercayaan yang boleh disahkan, dimiliki pengendali dan boleh ditarik balik ialah jawapan teknikal terhadap bantahan politik tersebut.",
+      "benefits": [
+        "Negara rakan boleh mengaudit dan menarik balik kepercayaan tanpa perlu mempercayai kata-kata sesiapa",
+        "Pengiktirafan silang dengan negara berdaulat Barat, tanpa mana-mana pihak memegang kunci pihak yang lain",
+        "Penyepaduan China-Barat di bawah satu model tadbir urus"
+      ]
+    },
+    "us": {
+      "code": "US - Amerika Syarikat",
+      "tag": "Masalah Persekutuan",
+      "title": "Sekutu tidak akan menerima akar kepercayaan anda.",
+      "desc": "Five Eyes, NATO dan rakan EU: tiada satu pun akan tunduk kepada sauh kepercayaan yang dikawal Amerika Syarikat. Perjanjian pengiktirafan membolehkan setiap sekutu kekal berdaulat sambil memastikan kepercayaan terus mengalir.",
+      "benefits": [
+        "Infrastruktur sekutu tanpa penyerahan politik",
+        "Penyedia hiperskala boleh menjual dalam lingkungan undang-undang kedaulatan asing"
+      ]
+    },
+    "kp": {
+      "code": "KP - Korea Utara",
+      "tag": "Kekangan Ekstrem",
+      "title": "Ujian negara berdaulat yang paranoid.",
+      "desc": "Sebuah negara yang tidak mempercayai apa-apa dari luar. Jika sesuatu protokol berfungsi untuk negara berdaulat yang paling ketat kawalannya di dunia, tanpa kebergantungan dan dengan pemilikan penuh oleh pengendali, protokol itu boleh berfungsi untuk sesiapa sahaja.",
+      "benefits": [
+        "Kekangan reka bentuk bertaraf autarki",
+        "Tidak sekali-kali ditambat pada autoriti asing"
+      ]
+    }
+  },
+  "mechanics": {
+    "label": "Mekanisme",
+    "title": "Infrastruktur yang tidak mengekodkan sebarang politik, hanya mekanisme.",
+    "subtitle": "Kebanyakan infrastruktur kepercayaan mengekodkan politik pihak yang mengendalikan akarnya. Genesis Mesh hanya mengekodkan empat operasi dan menyerahkan politik kepada negara-negara berdaulat. Inilah yang menjadikannya bertaraf perjanjian dan bukannya bertaraf pembekal.",
+    "ops": [
+      {
+        "num": "01",
+        "name": "Sahkan",
+        "desc": "Bukti kriptografi tentang siapa yang memegang kuasa sah, menggunakan identiti Ed25519, blok genesis bertandatangan dan rantaian bukti."
+      },
+      {
+        "num": "02",
+        "name": "Hadkan",
+        "desc": "Perwakilan berskop dan berbatas masa. Manifes keupayaan mentakrifkan perkara yang boleh dilakukan oleh setiap identiti, tidak lebih daripada itu."
+      },
+      {
+        "num": "03",
+        "name": "Tarik Balik",
+        "desc": "Sebaik sahaja kepercayaan terjejas, penarikan balik bertandatangan disebarkan merentasi sempadan negara berdaulat dan dipatuhi."
+      },
+      {
+        "num": "04",
+        "name": "Audit",
+        "desc": "Setiap keputusan meninggalkan bukti yang menampakkan sebarang pengusikan. Tiada sesiapa perlu sekadar mempercayai kata-kata anda."
+      }
+    ]
+  },
+  "protocol": {
+    "label": "Protokol",
+    "title": "Program RFC terbuka, dibentuk berasaskan piawaian dan bukannya kepentingan pembekal.",
+    "subtitle": "Tiga generasi SDK telah dikeluarkan (TypeScript, Go, .NET). 1,041 ujian. Lapan lema Tamarin yang disemak mesin. Sistem berdaulat berbilang awan beroperasi pada Azure, DigitalOcean, Cloudflare dan Akamai/Linode.",
+    "stack": {
+      "title": "Tindanan",
+      "l1": {
+        "code": "L1",
+        "name": "Teras Protokol",
+        "desc": "Identiti Ed25519, blok genesis bertandatangan, pendaftaran, penarikan balik, penghalaan dan audit."
+      },
+      "l2": {
+        "code": "L2",
+        "name": "Komuniti Berdaulat",
+        "desc": "Domain kepercayaan bebas. Setiap domain mengawal keahlian, tadbir urus dan penarikan baliknya sendiri."
+      },
+      "l3": {
+        "code": "L3",
+        "name": "Rangkaian Pengiktirafan",
+        "desc": "Perjanjian antara negara berdaulat. Laluan kepercayaan dan penyebaran penarikan balik merentasi sempadan."
+      }
+    },
+    "rfcs": [
+      {
+        "id": "RFC-001",
+        "name": "Identiti Berdaulat",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-002",
+        "name": "Perjanjian Pengiktirafan",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-003",
+        "name": "Himpunan Kepercayaan",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-004",
+        "name": "Suapan Penarikan Balik",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-005",
+        "name": "Manifes Keupayaan",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-006",
+        "name": "Model Konektom",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-007",
+        "name": "Kesinambungan Pengendali",
+        "status": "Protokol"
+      },
+      {
+        "id": "RFC-008",
+        "name": "Peranan Pengendali Terurus",
+        "status": "Protokol"
+      }
+    ],
+    "live": {
+      "title": "Langsung - Armada Berdaulat Kendalian Penyelenggara",
+      "subtitle": "Berbilang Awan / Kunci Bebas / Dasar Bebas",
+      "network": "Rangkaian Pengiktirafan",
+      "sovereigns": "Negara Berdaulat",
+      "clouds": "Awan",
+      "edges": "Hubungan Pengiktirafan",
+      "edgeStatus": "Bertandatangan dan Boleh Ditarik Balik",
+      "operators": "Pengendali Luar",
+      "status": "Penerimaan Masuk - Fasa 2",
+      "online": "● DALAM TALIAN"
+    }
+  },
+  "silicon": {
+    "label": "Silikon",
+    "title": "Protokol berdaulat pada silikon asing hanyalah sandiwara.",
+    "subtitle": "Genesis Mesh mengesahkan kuasa sah dalam perisian. Namun, kedaulatan perisian hanya setakat kedaulatan silikon yang menjalankannya. TSWI, Tunisian Sovereign Wafer Initiative, melengkapkan keseluruhan rantaian: interposer IP milik sendiri, kemudahan pembungkusan milik sendiri dan tindanan orkestrasi milik sendiri. Chiplet komoditi masuk; pengkomputeran berdaulat keluar. Dikuasakan tenaga suria di persimpangan tiga benua, dengan lebih separuh kos pengkomputeran dihapuskan. Fasa pertama telah selesai.",
+    "conclusion": "Protokol mentadbir logik. Tunisia mentadbir silikon.",
+    "cta": "Baca taklimat TSWI →"
+  },
+  "live": {
+    "label": "Langsung",
+    "title": "Bukan sekadar janji. Sebuah sistem yang sedang beroperasi.",
+    "subtitle": "Satu model kuasa sah dalam persekitaran pengeluaran. Bukan perintis dan bukan seni bina rujukan.",
+    "proof": {
+      "version": "Keluaran semasa",
+      "cycles": "Kitaran kepercayaan lengkap",
+      "tests": "Ujian",
+      "lemmas": "Lema yang disahkan Tamarin"
+    },
+    "across": "Beroperasi merentasi",
+    "over": "Dijalankan pada"
+  },
+  "closing": {
+    "title": "Miliki kuasa sah.",
+    "titleAccent": "Jangan bergantung pada pembekal.",
+    "subtitle": "Bagi 190 negara, inilah laluan terpendek untuk memiliki sauh kepercayaan sendiri. Bagi tiga kuasa, inilah satu-satunya cara untuk saling beroperasi tanpa menyerahkannya.",
+    "builders": {
+      "who": "Untuk 190 Negara - Pembangun dan Arkitek",
+      "title": "Wujudkan domain kepercayaan berdaulat anda sendiri.",
+      "desc": "Baca RFC, dapatkan SDK TypeScript / Go / .NET dan bangunkan Komuniti Berdaulat L2 pada infrastruktur yang sudah anda miliki.",
+      "cta": "Masuk ke Hab Pembangun →",
+      "altText": "Organisasi sumber terbuka →"
+    },
+    "strategic": {
+      "who": "Untuk Tiga Kuasa - Negara dan Aktor Strategik",
+      "title": "Perbincangan ini tidak bermula dengan SDK.",
+      "desc": "Baca naratif penuh Elections 2026 untuk memahami hujah falsafahnya, kemudian buka saluran langsung yang peribadi dan sulit. Tiada borang, tiada corong pemasaran, tiada perantara.",
+      "cta": "Baca Kisah Penuh →",
+      "altText": "Saluran langsung: thaer.saidi@outlook.com →"
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Penyumbang Genesis Mesh",
+    "links": {
+      "docs": "Dokumentasi",
+      "devHub": "Hab Pembangun",
+      "story": "Kisahnya"
+    },
+    "signature": "Binaan laman ini ditandatangani di bawah kuasa sah Genesis Mesh.",
+    "tagline": "KEDAULATAN IALAH KOD",
+    "verify": "Sahkan",
+    "unsigned": "Pengesahan binaan (tidak ditandatangani)"
+  },
+  "seo": {
+    "title": "Genesis Mesh - Lapisan Perjanjian untuk Mesin",
+    "description": "Fabrik kepercayaan, identiti dan komunikasi berdaulat untuk sistem autonomi. Neutral kedaulatan dan bertaraf perjanjian: sahkan, hadkan, tarik balik, audit. Bukan rantaian blok. Bukan VPN. Bukan jejaring perkhidmatan.",
+    "keywords": "kepercayaan berdaulat|kedaulatan digital|identiti mesin|Ed25519|perjanjian pengiktirafan|penarikan balik|infrastruktur kepercayaan|Genesis Mesh|lapisan perjanjian|sistem autonomi"
+  }
+}

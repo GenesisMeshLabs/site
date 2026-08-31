@@ -10,6 +10,12 @@
       "docs": "Docs"
     }
   },
+  "ui": {
+    "menu": "Menu",
+    "searchLanguages": "Search languages",
+    "noLanguageMatch": "No matching language",
+    "selectLanguage": "Select language"
+  },
   "hero": {
     "kicker": "Public Brief / Genesis Mesh / 2026",
     "title": "Trust that no nation",
@@ -111,9 +117,21 @@
     "subtitle": "Three SDK generations shipped (TypeScript, Go, .NET). 1,041 tests. Eight machine-checked Tamarin lemmas. Multi-cloud sovereigns live on Azure, DigitalOcean, Cloudflare, and Akamai/Linode.",
     "stack": {
       "title": "The Stack",
-      "l1": "L1 - Protocol Core. Ed25519 identity, signed genesis blocks, enrollment, revocation, routing, audit.",
-      "l2": "L2 - Sovereign Communities. Independent trust domains. Each controls its own membership, governance, revocation.",
-      "l3": "L3 - Recognition Network. Treaties between sovereigns. Trust paths and revocation propagation across boundaries."
+      "l1": {
+        "code": "L1",
+        "name": "Protocol Core",
+        "desc": "Ed25519 identity, signed genesis blocks, enrollment, revocation, routing, audit."
+      },
+      "l2": {
+        "code": "L2",
+        "name": "Sovereign Communities",
+        "desc": "Independent trust domains. Each controls its own membership, governance, revocation."
+      },
+      "l3": {
+        "code": "L3",
+        "name": "Recognition Network",
+        "desc": "Treaties between sovereigns. Trust paths and revocation propagation across boundaries."
+      }
     },
     "rfcs": [
       {
@@ -160,9 +178,11 @@
     "live": {
       "title": "Live - Maintainer-Operated Sovereign Fleet",
       "subtitle": "Multi-Cloud / Independent Keys / Independent Policy",
+      "network": "Recognition Network",
       "sovereigns": "Sovereigns",
       "clouds": "Clouds",
       "edges": "Recognition Edges",
+      "edgeStatus": "Signed & Revocable",
       "operators": "External Operators",
       "status": "Onboarding - Phase 2",
       "online": "● ONLINE"

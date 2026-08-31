@@ -10,6 +10,12 @@
       "docs": "Documentazione"
     }
   },
+  "ui": {
+    "menu": "Menu",
+    "searchLanguages": "Cerca lingue",
+    "noLanguageMatch": "Nessuna lingua corrispondente",
+    "selectLanguage": "Seleziona lingua"
+  },
   "hero": {
     "kicker": "Nota Pubblica / Genesis Mesh / 2026",
     "title": "Fiducia che nessuna nazione",
@@ -111,9 +117,21 @@
     "subtitle": "Tre generazioni di SDK rilasciate (TypeScript, Go, .NET). 1.041 test. Otto lemmi Tamarin verificati automaticamente. Sovrani multicloud in produzione su Azure, DigitalOcean, Cloudflare e Akamai/Linode.",
     "stack": {
       "title": "Lo Stack",
-      "l1": "L1 - Nucleo del protocollo. Identità Ed25519, blocchi genesi firmati, registrazione, revoca, instradamento, audit.",
-      "l2": "L2 - Comunità sovrane. Domini di fiducia indipendenti. Ciascuno controlla la propria membership, governance e revoca.",
-      "l3": "L3 - Rete di riconoscimento. Trattati tra sovrani. Percorsi di fiducia e propagazione delle revoche oltre i confini."
+      "l1": {
+        "code": "L1",
+        "name": "Nucleo del protocollo",
+        "desc": "Identità Ed25519, blocchi genesi firmati, registrazione, revoca, instradamento, audit."
+      },
+      "l2": {
+        "code": "L2",
+        "name": "Comunità sovrane",
+        "desc": "Domini di fiducia indipendenti. Ciascuno controlla la propria membership, governance e revoca."
+      },
+      "l3": {
+        "code": "L3",
+        "name": "Rete di riconoscimento",
+        "desc": "Trattati tra sovrani. Percorsi di fiducia e propagazione delle revoche oltre i confini."
+      }
     },
     "rfcs": [
       {
@@ -160,9 +178,11 @@
     "live": {
       "title": "In diretta - Flotta sovrana gestita dal manutentore",
       "subtitle": "Multicloud / Chiavi indipendenti / Politica indipendente",
+      "network": "Rete di riconoscimento reciproco",
       "sovereigns": "Sovrani",
       "clouds": "Cloud",
       "edges": "Archi di riconoscimento",
+      "edgeStatus": "Firmato e revocabile",
       "operators": "Operatori esterni",
       "status": "Adesione - Fase 2",
       "online": "● ONLINE"
@@ -222,6 +242,6 @@
   "seo": {
     "title": "Genesis Mesh - Il livello dei trattati per le macchine",
     "description": "Un tessuto sovrano di fiducia, identità e comunicazione per sistemi autonomi. Neutrale rispetto alla sovranità e di grado trattato: verificare, limitare, revocare, auditare. Non è una blockchain. Non è una VPN. Non è un service mesh.",
-    "keywords": "fiducia sovrana|sovranità digitale|identità macchina|Ed25519|trattati di riconoscimento|revoca|infrastruttura di fiducia|Genesis Mesh|livello dei trattati"
+    "keywords": "fiducia sovrana|sovranità digitale|identità macchina|Ed25519|trattati di riconoscimento|revoca|infrastruttura di fiducia|Genesis Mesh|livello dei trattati|sistemi autonomi"
   }
 }
