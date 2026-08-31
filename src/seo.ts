@@ -1,4 +1,4 @@
-import { defaultLocale } from './i18n';
+import { LOCALES, defaultLocale } from './i18n';
 
 export const SITE_URL = (
   process.env.NEXT_PUBLIC_SITE_URL || 'https://genesismesh.org'
@@ -16,16 +16,7 @@ export function localeUrl(locale: string, path = ''): string {
   return suffix ? `${SITE_URL}/${locale}/${suffix}` : `${SITE_URL}/${locale}`;
 }
 
-/** BCP-47 to Open Graph locale codes (og:locale wants language_TERRITORY). */
-export const OG_LOCALES: Record<string, string> = {
-  en: 'en_US',
-  ar: 'ar_AR',
-  zh: 'zh_CN',
-  es: 'es_ES',
-  fr: 'fr_FR',
-  de: 'de_DE',
-  ja: 'ja_JP',
-  ru: 'ru_RU',
-  pt: 'pt_BR',
-  ko: 'ko_KR',
-};
+/** BCP-47 to Open Graph locale codes, derived from the locale registry. */
+export const OG_LOCALES: Record<string, string> = Object.fromEntries(
+  LOCALES.map((l) => [l.code, l.og])
+);
