@@ -20,27 +20,35 @@
     "selectLanguage": "Dil seçin"
   },
   "hero": {
-    "kicker": "İctimai arayış / Genesis Mesh / 2026",
-    "title": "Modelləri açın.",
-    "titleAccent": "Səlahiyyətə nəzarət edin.",
-    "subtitle": "Modellər açıqdır. Agentlər muxtardır. Bəs onlar suveren sərhədi keçəndə açarları kim saxlayır? İnsan kimliyi düymələri basan insanlar üçün qurulub və muxtar agentlər sərhədlər arasında danışıq aparıb hərəkət etdiyi an bu sistem çökür. Genesis Mesh maşınlar üçün müqavilə qatıdır: istənilən sistemi, istənilən yerdə, yoxlamaq, məhdudlaşdırmaq, ləğv etmək və audit etmək səlahiyyəti.",
-    "meta": {
-      "verify": "Yoxla",
-      "verifyDesc": "səlahiyyətin kimdə olduğunu",
-      "limit": "Məhdudlaşdır",
-      "limitDesc": "nə edə biləcəklərini",
-      "revoke": "Ləğv et",
-      "revokeDesc": "etimad pozulduqda",
-      "audit": "Audit apar",
-      "auditDesc": "heç kim sözünüzə kor-koranə inanmasın deyə"
+    "kicker": "İctimai arayış / 2026",
+    "title": "Maşınlar sərhədləri keçir.",
+    "titleAccent": "Səlahiyyət keçmir.",
+    "intro": "Süni intellekt agentləri artıq buludlar, təşkilatlar və hüquqi sistemlər arasında fəaliyyət göstərir. Lakin bir suveren sistem digəri ilə qarşılaşdıqda, üç əsas suala cavab vermək üçün heç bir neytral protokol yoxdur:",
+    "questions": [
+      "Sən kimsən?",
+      "Nə etməyə icazən var?",
+      "Bu səlahiyyəti kim ləğv edə bilər?"
+    ],
+    "statement": "Genesis Mesh maşınlar üçün müqavilə qatıdır.",
+    "body": "Müstəqil səlahiyyət orqanları öz etimad kökünü təslim etmədən, təşkilati və milli sərhədlər arasında kimlikləri tanıya, imkanları ötürə və etimadı ləğv edə bilər.",
+    "notLine": "Mərkəzi səlahiyyət yoxdur. Ortaq suverenlik yoxdur. Məcburi bulud yoxdur.",
+    "closing": "Heç bir millətin təslim etmək məcburiyyətində qalmayacağı etimad.",
+    "audiences": {
+      "builders": {
+        "label": "Qurucular üçün →",
+        "rfcs": "RFC-lər",
+        "sdks": "SDK-lar",
+        "run": "Öz səlahiyyətini işə sal"
+      },
+      "states": {
+        "label": "Dövlətlər və institutlar üçün →",
+        "brief": "Müqavilə xülasəsi",
+        "architecture": "Arxitektura",
+        "channel": "Birbaşa kanal"
+      }
     },
     "scroll": "Aşağı keçin ↓",
-    "vlabel": "Suverenliyə münasibətdə neytral infrastruktur",
-    "actions": {
-      "run": "SDK-nı araşdırın",
-      "protocol": "Müqavilə xülasəsini oxuyun",
-      "network": "Canlı şəbəkəni yoxlayın"
-    }
+    "vlabel": "Suverenliyə münasibətdə neytral infrastruktur"
   },
   "stakes": {
     "label": "Məsələnin əhəmiyyəti",

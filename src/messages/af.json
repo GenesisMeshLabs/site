@@ -20,27 +20,35 @@
     "selectLanguage": "Kies taal"
   },
   "hero": {
-    "kicker": "Openbare inligtingstuk / Genesis Mesh / 2026",
-    "title": "Open die modelle.",
-    "titleAccent": "Beheer die gesag.",
-    "subtitle": "Die modelle is oop. Die agente is outonoom. Maar wie hou die sleutels wanneer hulle 'n soewereine grens oorsteek? Menslike identiteit is gebou vir mense wat op knoppies klik, en dit breek af die oomblik outonome agente oor grense onderhandel en optree. Genesis Mesh is die verdraglaag vir masjiene: die gesag om enige stelsel, enige plek, te verifieer, te beperk, te herroep en te ouditeer.",
-    "meta": {
-      "verify": "Verifieer",
-      "verifyDesc": "wie die gesag besit",
-      "limit": "Beperk",
-      "limitDesc": "wat hulle mag doen",
-      "revoke": "Herroep",
-      "revokeDesc": "wanneer vertroue verbreek word",
-      "audit": "Ouditeer",
-      "auditDesc": "sodat niemand jou bloot op jou woord hoef te glo nie"
+    "kicker": "Openbare inligtingstuk / 2026",
+    "title": "Masjiene oorsteek grense.",
+    "titleAccent": "Gesag nie.",
+    "intro": "KI-agente tree reeds oor wolke, organisasies en jurisdiksies heen op. Maar wanneer een soewereine stelsel 'n ander teëkom, is daar geen neutrale protokol om drie basiese vrae te beantwoord nie:",
+    "questions": [
+      "Wie is jy?",
+      "Wat mag jy doen?",
+      "Wie kan daardie gesag herroep?"
+    ],
+    "statement": "Genesis Mesh is 'n verdraglaag vir masjiene.",
+    "body": "Onafhanklike gesagsliggame kan identiteite erken, bevoegdhede delegeer en vertroue herroep oor organisatoriese en nasionale grense heen, sonder om hul eie vertrouenswortel prys te gee.",
+    "notLine": "Geen sentrale gesag nie. Geen gedeelde soewerein nie. Geen verpligte wolk nie.",
+    "closing": "Vertroue wat geen nasie hoef prys te gee nie.",
+    "audiences": {
+      "builders": {
+        "label": "Vir bouers →",
+        "rfcs": "RFC's",
+        "sdks": "SDK's",
+        "run": "Stel jou eie gesag in werking"
+      },
+      "states": {
+        "label": "Vir state en instellings →",
+        "brief": "Verdragsverslag",
+        "architecture": "Argitektuur",
+        "channel": "Direkte kanaal"
+      }
     },
     "scroll": "Rol af ↓",
-    "vlabel": "Soewereiniteitsneutrale infrastruktuur",
-    "actions": {
-      "run": "Verken die SDK",
-      "protocol": "Lees die verdragsverslag",
-      "network": "Verifieer die regstreekse netwerk"
-    }
+    "vlabel": "Soewereiniteitsneutrale infrastruktuur"
   },
   "stakes": {
     "label": "Wat op die spel is",
