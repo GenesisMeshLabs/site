@@ -2,11 +2,11 @@
   "nav": {
     "brand": "GENESIS■MESH",
     "links": {
-      "stakes": "Kas pastatyta ant kortos",
-      "powers": "Trys galybės",
+      "stakes": "Suverenitetas",
+      "powers": "Bendradarbiavimas",
       "mechanics": "Veikimo principai",
       "protocol": "Protokolas",
-      "hardware": "Silicis",
+      "hardware": "Tyrimas",
       "docs": "Dokumentacija",
       "proof": "Įrodymas",
       "live": "Veikiantis tinklas",
@@ -24,7 +24,11 @@
     "title": "Mašinos kerta sienas.",
     "titleAccent": "Įgaliojimai sienų nekerta.",
     "intro": "DI agentai jau veikia debesyse, organizacijose ir jurisdikcijose. Bet kai viena suvereni sistema susiduria su kita, nėra neutralaus protokolo, galinčio atsakyti į tris pagrindinius klausimus:",
-    "questions": ["Kas jūs esate?", "Ką jums leista daryti?", "Kas gali atšaukti tuos įgaliojimus?"],
+    "questions": [
+      "Kas jūs esate?",
+      "Ką jums leista daryti?",
+      "Kas gali atšaukti tuos įgaliojimus?"
+    ],
     "statement": "Genesis Mesh yra sutarčių sluoksnis mašinoms.",
     "body": "Nepriklausomi įgaliojimų subjektai gali pripažinti tapatybes, deleguoti galimybes ir atšaukti pasitikėjimą peržengdami organizacijų bei valstybių sienas, neatsisakydami savo pasitikėjimo šaknies.",
     "notLine": "Jokios centrinės valdžios. Jokio bendro suvereno. Jokio privalomo debesies.",
@@ -47,52 +51,44 @@
     "vlabel": "Suvereniteto atžvilgiu neutrali infrastruktūra"
   },
   "stakes": {
-    "label": "Kas pastatyta ant kortos",
-    "title": "Skaitmeninis suverenitetas tapo nacionalinio išlikimo klausimu, tačiau mašinoms nėra skirto sutarčių sluoksnio.",
-    "subtitle": "Valstybės pasirašo sutartis. Skaitmeninės sistemos neturi jokio jų atitikmens. Kai vienos valstybės DI agentas susiduria su kitos valstybės infrastruktūra, klausimas, kas laiduoja už šį subjektą, kieno taisyklės taikomos ir ar šį pasitikėjimą galima atšaukti, yra diplomatinis. Šiandien protokolai į jį neatsako. Genesis Mesh yra šis atsakymas.",
-    "notLine": "Ne blokų grandinė. Ne VPN. Ne paslaugų tinklas. Ne agentų sistema. Ne prekyvietė. Mašinoms skirtas sutarčių sluoksnis.",
-    "stats": {
-      "one": "190+",
-      "oneDesc": "Valstybių, vis dar ieškančių suvereniteto formulės",
-      "two": "3",
-      "twoDesc": "Galybės, jau valdančios visą savo technologijų rinkinį",
-      "three": "1",
-      "threeDesc": "Protokolas, tarnaujantis abiem pusėms ir nepalaikantis nė vienos iš jų"
-    }
+    "label": "Suverenitetas",
+    "title": "Suverenitetas be izoliacijos.",
+    "subtitle": "Nepriklausomos sistemos turi bendradarbiauti nereikalaujant politinio suderinimo, bendros infrastruktūros ar bendros pasitikėjimo šaknų.",
+    "notLine": "Genesis Mesh tvarko mašininiu būdu įskaitomą šio ryšio pogrupį: pripažinimą, apimtį, delegavimą, atšaukimą ir įrodymus.",
+    "boundary": "Jis nesidera dėl politikos, nesprendžia ginčų ir nevaldo dalyvių. Tai lieka žmogiškosiomis ir institucinėmis pareigomis."
   },
   "powers": {
-    "label": "Trys galybės",
-    "title": "Suverenioms galybėms nepriklausomybės nereikia. Joms reikia sąveikos be pavaldumo.",
-    "subtitle": "Vertės pobūdis apsiverčia, tačiau ji neišnyksta. Nė viena sąjungininkės sostinė nepriims kitos šalies pasitikėjimo šaknies, todėl pripažinimas turi būti perduodamas kaip pasirašytos, apibrėžtos apimties ir atšaukiamos sutartys tarp lygių šalių.",
-    "cn": {
-      "code": "CN - Kinija",
-      "tag": "Eksportuotojo įrodymas",
-      "title": "Techniškai įrodykite, kad kontrolės nėra.",
-      "desc": "Kiekvienas infrastruktūros eksportas susiduria su tuo pačiu prieštaravimu: jūsų įranga reiškia jūsų kontrolę. Patikrinamas, operatoriui priklausantis ir atšaukiamas pasitikėjimas yra techninis atsakymas į šį politinį prieštaravimą.",
-      "benefits": [
-        "Šalys partnerės audituoja ir atšaukia pasitikėjimą, neprivalėdamos niekuo tikėti vien iš žodžio",
-        "Kryžminis pripažinimas su Vakarų suvereniais subjektais, nė viena pusė neturi kitos pusės raktų",
-        "Kinijos ir Vakarų integracija pagal vieną valdysenos modelį"
+    "label": "Bendradarbiavimas",
+    "title": "Bendradarbiavimas nereikalauja derinimosi.",
+    "subtitle": "Genesis Mesh nekoduoja aljansų. Protokolas reikalauja kriptografinio pripažinimo, o ne politinio susitarimo.",
+    "close": {
+      "code": "01",
+      "tag": "Glaudus bendradarbiavimas",
+      "title": "Bendras darbas, atskira valdžia.",
+      "desc": "Valdžios institucijos gali glaudžiai bendradarbiauti, kol kiekviena išsaugo savo raktus, politiką ir atšaukimo teisę.",
+      "examples": [
+        "Nėra bendros pasitikėjimo šaknų",
+        "Neperduodamas operatoriaus valdymas"
       ]
     },
-    "us": {
-      "code": "US - Jungtinės Amerikos Valstijos",
-      "tag": "Federacijos problema",
-      "title": "Sąjungininkai neperims jūsų pasitikėjimo šaknies.",
-      "desc": "Penkių akių aljanso, NATO ir ES partneriai nesutiks būti pavaldūs JAV kontroliuojamam pasitikėjimo inkarui. Pripažinimo sutartys leidžia kiekvienai sąjungininkei išlikti suvereniai ir kartu užtikrina pasitikėjimo sklaidą.",
-      "benefits": [
-        "Sąjungininkų infrastruktūra be politinės kapituliacijos",
-        "Hipermastelio debesijos teikėjai gali parduoti paslaugas jurisdikcijose, kuriose galioja užsienio valstybių suvereniteto teisė"
+    "scoped": {
+      "code": "02",
+      "tag": "Siaura taikymo sritis",
+      "title": "Vieno sandorio gali pakakti.",
+      "desc": "Pripažinimas gali apimti vieną vaidmenį, vieną tikslą arba vieną laiko langą nesukuriant nuolatinio aljanso.",
+      "examples": [
+        "Tiksli taikymo sritis ir galiojimo laikas",
+        "Vietinis leidimas išlieka lemiamas"
       ]
     },
-    "kp": {
-      "code": "KP - Šiaurės Korėja",
-      "tag": "Kraštutinis apribojimas",
-      "title": "Paranojiškai suverenaus subjekto išbandymas.",
-      "desc": "Valstybė, nepasitikinti niekuo, kas yra išorėje. Jei protokolas veikia atsargiausiai saugomam suvereniam subjektui pasaulyje, be jokios priklausomybės ir visiškai priklausydamas operatoriui, jis veiks bet kam.",
-      "benefits": [
-        "Autarkijos lygio projektavimo apribojimas",
-        "Jokio įtvirtinimo užsienio įgaliojimuose, niekada"
+    "different": {
+      "code": "03",
+      "tag": "Skirtingi interesai",
+      "title": "Pripažinimas nėra pritarimas.",
+      "desc": "Valdžios institucijos, kurių politika yra skirtinga, gali patikrinti ribotus santykius nereikalaujant platesnio politinio susitarimo.",
+      "examples": [
+        "Pasirašyti įrodymai pakeičia numanomą suderinimą",
+        "Bet kuri institucija gali atšaukti savo pasitikėjimą"
       ]
     }
   },
@@ -121,12 +117,30 @@
         "name": "Audituoti",
         "desc": "Kiekvienas sprendimas palieka klastojimą atskleidžiančius įrodymus. Nereikia niekuo tikėti vien iš žodžio."
       }
+    ],
+    "evidence": [
+      {
+        "title": "Nėra bendros pasitikėjimo šaknų.",
+        "action": "Žiūrėkite testą"
+      },
+      {
+        "title": "Atšaukimas peržengia valdžios ribas.",
+        "action": "Atgaminti jį"
+      },
+      {
+        "title": "Protokolo savybės turi Tamarin modelius.",
+        "action": "Žiūrėkite oficialius įrodymus"
+      },
+      {
+        "title": "Kodėl ne SPIFFE, DID arba OAuth?",
+        "action": "Perskaitykite palyginimą"
+      }
     ]
   },
   "protocol": {
     "label": "Protokolas",
     "title": "Atvira RFC programa, formuojama pagal standartus, o ne pagal tiekėją.",
-    "subtitle": "Išleistos trys SDK kartos (TypeScript, Go, .NET). 1,041 testas. Aštuonios Tamarin priemonėmis patikrintos lemos. Kelių debesijų suverenūs subjektai veikia Azure, DigitalOcean, Cloudflare ir Akamai/Linode platformose.",
+    "subtitle": "Python nuorodos diegimas ir TypeScript, Go ir .NET SDK yra koordinuojami v0.56.0. Pagrindiniame rinkinyje yra 1,327 testai su oficialiais protokolo įrodymais, patvirtintais Tamarin patvirtinimui.",
     "stack": {
       "title": "Technologijų rinkinys",
       "l1": {
@@ -198,14 +212,21 @@
       "operators": "Išoriniai operatoriai",
       "status": "Prijungimas, 2 etapas",
       "online": "● VEIKIA"
+    },
+    "governance": {
+      "label": "Protokolo valdymas",
+      "title": "Atviras pokytis, aiškus autoritetas.",
+      "description": "Protokolo pakeitimai atliekami viešais juodraščiais, prižiūrėtojo peržiūra, operatoriaus peržiūra, kai pasikeičia įsipareigojimai, saugumo peržiūra dėl pasitikėjimo būsenos pakeitimų ir datuojami sprendimai.",
+      "boundary": "Nuorodos įgyvendinimas nėra protokolas. Operatoriai išsaugo savo raktus, politiką, pasitikėjimo sprendimus ir pasitraukimo teises.",
+      "cta": "Perskaitykite valdymo pagrindą"
     }
   },
   "silicon": {
-    "label": "Silicis",
-    "title": "Suverenus protokolas, veikiantis užsienio silicyje, tėra spektaklis.",
-    "subtitle": "Genesis Mesh programinėje įrangoje tikrina įgaliojimus. Tačiau programinė įranga yra suvereni tik tiek, kiek suverenus silicis, kuriame ji veikia. TSWI, Tuniso suverenių plokštelių iniciatyva, užbaigia ciklą: nuosava tarpinio sluoksnio intelektinė nuosavybė, nuosava korpusavimo gamykla ir nuosavas orkestravimo technologijų rinkinys. Įeina standartizuoti lusteliai; išeina suverenūs skaičiavimo pajėgumai. Trijų žemynų sankryžoje sistema maitinama saulės energija, o daugiau nei pusė skaičiavimo sąnaudų pašalinta. Pirmasis etapas baigtas.",
-    "conclusion": "Protokolas valdo logiką. Tunisas valdo silicį.",
-    "cta": "Skaityti TSWI pristatymą →"
+    "label": "Tyrimas",
+    "title": "Suverenus skaičiavimas",
+    "subtitle": "TSWI tiria aparatūros sluoksnį, esantį po programinės įrangos suvereniteto: operatoriui priklausančią pakuotę, tarpininko dizainą, orkestravimą ir energiją taupančią skaičiavimo infrastruktūrą.",
+    "conclusion": "Tai yra atskiras tyrimo kelias, o ne reikalavimas priimti Genesis Mesh protokolą.",
+    "cta": "Užklauskite TSWI tyrimo instruktažą →"
   },
   "live": {
     "label": "Veikia gyvai",
@@ -221,21 +242,21 @@
     "over": "Veikia naudodama"
   },
   "closing": {
-    "title": "Valdykite įgaliojimus.",
-    "titleAccent": "Nepriklausykite nuo tiekėjo.",
-    "subtitle": "190 šalių tai yra trumpiausias kelias į nuosavų pasitikėjimo inkarų kontrolę. Trims galybėms tai yra vienintelis būdas sąveikauti jų neatsisakant.",
+    "title": "Sukurkite naudojant Genesis Mesh.",
+    "titleAccent": "Išsaugokite savo autoritetą.",
+    "subtitle": "Pasirinkite įvaikinimo kelią, atitinkantį jūsų vaidmenį, neatsisakydami savo pasitikėjimo sprendimų.",
     "builders": {
-      "who": "190 šalims, kūrėjams ir architektams",
+      "who": "Programinės įrangos kūrėjams",
       "title": "Paleiskite nuosavą suverenią pasitikėjimo sritį.",
       "desc": "Perskaitykite RFC, atsisiųskite TypeScript / Go / .NET SDK ir jums jau priklausančioje infrastruktūroje įdiekite L2 suverenią bendruomenę.",
       "cta": "Eiti į kūrėjų centrą →",
       "altText": "Atvirojo kodo organizacija →"
     },
     "strategic": {
-      "who": "Trims galybėms, valstybiniams ir strateginiams subjektams",
-      "title": "Šis pokalbis neprasideda nuo SDK.",
-      "desc": "Perskaitykite visą Elections 2026 pasakojimą, kuriame išdėstyti filosofiniai argumentai, tada atverkite tiesioginį privatų ir konfidencialų kanalą. Jokių formų, konversijos piltuvėlių ar tarpininkų.",
-      "cta": "Skaityti visą istoriją →",
+      "who": "Valstybėms ir institucijoms",
+      "title": "Įvertinkite protokolą, įrodymą ir valdymo ribą.",
+      "desc": "Peržiūrėkite viešąją architektūrą ir atkuriamus įrodymus, tada atidarykite tiesioginį institucinio diegimo klausimų kanalą.",
+      "cta": "Skaitykite strateginę trumpąją informaciją →",
       "altText": "Tiesioginis kanalas: authority@genesismesh.org →"
     }
   },
@@ -348,6 +369,12 @@
     "unknown": "Nežinoma",
     "disclaimer": "Suvestiniai veikimo signalai. Tai nėra išsamus saugumo ar valdymo vaizdas.",
     "unavailableMessage": "Dabartinių duomenų patikrinti nepavyko. Podėlyje saugomos reikšmės nerodomos kaip aktualios.",
-    "dashboard": "Peržiūrėti viešąją suvestinę"
+    "dashboard": "Peržiūrėti viešąją suvestinę",
+    "notReported": "Nepranešta",
+    "browserFallback": {
+      "title": "Tiesioginei telemetrijai reikalinga prieiga prie naršyklės.",
+      "description": "Toliau pateikiami įrašyti ir nepriklausomai atkuriami įrodymai."
+    },
+    "proofAvailability": "Įrašytus ir nepriklausomai atkuriamus įrodymus galima gauti naudojant toliau pateiktas nuorodas."
   }
 }

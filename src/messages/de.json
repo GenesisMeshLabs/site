@@ -2,11 +2,11 @@
   "nav": {
     "brand": "GENESIS■MESH",
     "links": {
-      "stakes": "Worum es geht",
-      "powers": "Drei Mächte",
+      "stakes": "Souveränität",
+      "powers": "Zusammenarbeit",
       "mechanics": "Mechanik",
       "protocol": "Protokoll",
-      "hardware": "Silizium",
+      "hardware": "Forschung",
       "docs": "Dokumentation",
       "proof": "Nachweis",
       "live": "Live-Netzwerk",
@@ -51,52 +51,44 @@
     "vlabel": "Souveränitätsneutrale Infrastruktur"
   },
   "stakes": {
-    "label": "Worum es geht",
-    "title": "Digitale Souveränität ist heute eine Frage des nationalen Überlebens, und für Maschinen gibt es keine Vertragsebene.",
-    "subtitle": "Staaten schließen Verträge. Digitale Systeme haben kein Äquivalent. Wenn der KI-Agent einer Nation auf die Infrastruktur einer anderen trifft, ist die Frage - wer bürgt für diese Entität, nach wessen Regeln, und lässt sich dieses Vertrauen zurückziehen - eine diplomatische Frage, für die es heute keine Antwort auf Protokollebene gibt. Genesis Mesh ist diese Antwort.",
-    "notLine": "Keine Blockchain. Kein VPN. Kein Service Mesh. Kein Agenten-Framework. Kein Marktplatz. Die Vertragsebene für Maschinen.",
-    "stats": {
-      "one": "190+",
-      "oneDesc": "Nationen, die noch eine Souveränitätsformel suchen",
-      "two": "3",
-      "twoDesc": "Mächte, die ihren Stack bereits besitzen",
-      "three": "1",
-      "threeDesc": "Protokoll, das beiden dient, ohne Partei zu ergreifen"
-    }
+    "label": "Souveränität",
+    "title": "Souveränität ohne Isolation.",
+    "subtitle": "Unabhängige Systeme müssen zusammenarbeiten, ohne dass eine politische Ausrichtung, eine gemeinsame Infrastruktur oder eine gemeinsame Vertrauensbasis erforderlich ist.",
+    "notLine": "Genesis Mesh verwaltet die maschinenlesbare Teilmenge dieser Beziehung: Anerkennung, Umfang, Delegation, Widerruf und Beweis.",
+    "boundary": "Es verhandelt keine Richtlinien, schlichtet keine Streitigkeiten und regiert keine Teilnehmer. Dies bleiben menschliche und institutionelle Verantwortlichkeiten."
   },
   "powers": {
-    "label": "Die Drei Mächte",
-    "title": "Souveräne Mächte brauchen keine Unabhängigkeit. Sie brauchen Interoperabilität ohne Unterordnung.",
-    "subtitle": "Der Wert kehrt sich um, aber er verschwindet nicht. Keine verbündete Hauptstadt akzeptiert die Vertrauenswurzel einer anderen, also muss Anerkennung als signierte, begrenzte und widerrufbare Verträge zwischen Gleichen reisen.",
-    "cn": {
-      "code": "CN - China",
-      "tag": "Der Beweis des Exporteurs",
-      "title": "Nichtkontrolle technisch belegen.",
-      "desc": "Jeder Infrastrukturexport trifft auf denselben Einwand: Ihre Ausrüstung bedeutet Ihre Kontrolle. Überprüfbares, betreibereigenes und widerrufbares Vertrauen ist die technische Antwort auf diesen politischen Einwand.",
-      "benefits": [
-        "Partnerstaaten auditieren und widerrufen, ohne jemandem glauben zu müssen",
-        "Gegenseitige Anerkennung mit westlichen Souveränen: keine Seite hält die Schlüssel der anderen",
-        "Chinesisch-westliche Integration unter einem einzigen Governance-Modell"
+    "label": "Zusammenarbeit",
+    "title": "Zusammenarbeit erfordert keine Abstimmung.",
+    "subtitle": "Genesis Mesh kodiert keine Allianzen. Das Protokoll erfordert kryptografische Anerkennung, keine politische Vereinbarung.",
+    "close": {
+      "code": "01",
+      "tag": "Enge Zusammenarbeit",
+      "title": "Geteilte Arbeit, getrennte Autorität.",
+      "desc": "Behörden können eng zusammenarbeiten, wobei jede ihre eigenen Schlüssel, Richtlinien und Widerrufsbefugnisse behält.",
+      "examples": [
+        "Keine gemeinsame Vertrauensbasis",
+        "Keine Übertragung der Bedienerkontrolle"
       ]
     },
-    "us": {
-      "code": "US - Vereinigte Staaten",
-      "tag": "Das Föderationsproblem",
-      "title": "Verbündete nehmen Ihre Wurzel nicht an.",
-      "desc": "Five Eyes, NATO, EU-Partner: Keiner wird sich einem US-kontrollierten Vertrauensanker unterordnen. Anerkennungsverträge lassen jeden Verbündeten souverän bleiben, während Vertrauen weiterhin fließt.",
-      "benefits": [
-        "Verbündete Infrastruktur ohne politische Kapitulation",
-        "Hyperscaler verkaufen in fremdes Souveränitätsrecht hinein"
+    "scoped": {
+      "code": "02",
+      "tag": "Enger Anwendungsbereich",
+      "title": "Eine Transaktion kann ausreichen.",
+      "desc": "Die Anerkennung kann eine Rolle, einen Zweck oder ein Zeitfenster abdecken, ohne dass eine dauerhafte Allianz entsteht.",
+      "examples": [
+        "Ausdrücklicher Geltungsbereich und Ablauf",
+        "Entscheidend bleibt weiterhin die örtliche Genehmigung"
       ]
     },
-    "kp": {
-      "code": "KP - Nordkorea",
-      "tag": "Die extreme Randbedingung",
-      "title": "Der Test des paranoiden Souveräns.",
-      "desc": "Ein Staat, der nichts Äußerem vertraut. Wenn ein Protokoll für den abgeschottetsten Souverän der Welt funktioniert - null Abhängigkeit, volle Betreibereigentümerschaft - funktioniert es für jeden.",
-      "benefits": [
-        "Entwurfsbeschränkung auf Autarkieniveau",
-        "Niemals Verankerung an fremder Autorität"
+    "different": {
+      "code": "03",
+      "tag": "Unterschiedliche Interessen",
+      "title": "Anerkennung ist keine Billigung.",
+      "desc": "Behörden mit unterschiedlichen Richtlinien können eine begrenzte Beziehung überprüfen, ohne Anspruch auf eine umfassendere politische Einigung zu erheben.",
+      "examples": [
+        "Unterzeichnete Beweise ersetzen implizite Übereinstimmung",
+        "Jede Behörde kann ihr eigenes Vertrauen widerrufen"
       ]
     }
   },
@@ -125,12 +117,30 @@
         "name": "Auditieren",
         "desc": "Jede Entscheidung hinterlässt Belege, an denen Manipulationen erkennbar sind. Niemand muss Ihnen einfach glauben."
       }
+    ],
+    "evidence": [
+      {
+        "title": "Keine gemeinsame Vertrauensbasis.",
+        "action": "Sehen Sie sich den Test an"
+      },
+      {
+        "title": "Der Widerruf überschreitet Autoritätsgrenzen.",
+        "action": "Reproduzieren Sie es"
+      },
+      {
+        "title": "Protokolleigenschaften haben Tamarin-Modelle.",
+        "action": "Siehe die formellen Beweise"
+      },
+      {
+        "title": "Warum nicht SPIFFE, DID oder OAuth?",
+        "action": "Lesen Sie den Vergleich"
+      }
     ]
   },
   "protocol": {
     "label": "Das Protokoll",
     "title": "Ein offenes RFC-Programm, standardgeformt statt herstellergeformt.",
-    "subtitle": "Drei SDK-Generationen ausgeliefert (TypeScript, Go, .NET). 1.041 Tests. Acht maschinengeprüfte Tamarin-Lemmata. Multi-Cloud-Souveräne produktiv auf Azure, DigitalOcean, Cloudflare und Akamai/Linode.",
+    "subtitle": "Die Referenzimplementierung Python und die SDKs TypeScript, Go und .NET werden unter v0.56.0 koordiniert. Die Kernsuite verfügt über 1,327-Tests, wobei formale Protokollnachweise für die Tamarin-Verifizierung dokumentiert sind.",
     "stack": {
       "title": "Der Stack",
       "l1": {
@@ -202,14 +212,21 @@
       "operators": "Externe Betreiber",
       "status": "Onboarding - Phase 2",
       "online": "● ONLINE"
+    },
+    "governance": {
+      "label": "Protokoll-Governance",
+      "title": "Offener Wandel, explizite Autorität.",
+      "description": "Protokolländerungen erfolgen durch öffentliche Entwürfe, Überprüfung durch Betreuer, Überprüfung durch Betreiber, wenn sich Verpflichtungen ändern, Sicherheitsüberprüfung bei Änderungen des Vertrauensstatus und datierte Entscheidungen.",
+      "boundary": "Die Referenzimplementierung ist nicht das Protokoll. Betreiber behalten ihre eigenen Schlüssel, Richtlinien, Vertrauensentscheidungen und Ausstiegsrechte.",
+      "cta": "Lesen Sie die Governance-Grundlage"
     }
   },
   "silicon": {
-    "label": "Das Silizium",
-    "title": "Ein souveränes Protokoll auf fremdem Silizium ist Theater.",
-    "subtitle": "Genesis Mesh prüft Autorität in der Software. Aber Software ist nur so souverän wie das Silizium, auf dem sie läuft. TSWI, die Tunesische Initiative für souveräne Wafer, schließt den Kreis: eigene Interposer-IP, eigenes Packaging-Werk, eigener Orchestrierungs-Stack. Standard-Chiplets hinein, souveränes Rechnen hinaus. Solarbetrieben am Schnittpunkt dreier Kontinente, mit mehr als der Hälfte der Rechenkosten herausgenommen. Phase eins ist abgeschlossen.",
-    "conclusion": "Das Protokoll regiert die Logik. Tunesien regiert das Silizium.",
-    "cta": "Das TSWI-Briefing lesen →"
+    "label": "Forschung",
+    "title": "Sovereign Computing",
+    "subtitle": "TSWI untersucht die Hardware-Ebene unterhalb der Software-Souveränität: betreibereigene Paketierung, Interposer-Design, Orchestrierung und energiebewusste Recheninfrastruktur.",
+    "conclusion": "Dies ist ein separater Forschungspfad und keine Voraussetzung für die Übernahme des Genesis Mesh-Protokolls.",
+    "cta": "Fordern Sie das Forschungsbriefing TSWI an →"
   },
   "live": {
     "label": "Live",
@@ -225,21 +242,21 @@
     "over": "Läuft über"
   },
   "closing": {
-    "title": "Verpflichten Sie die Autorität.",
-    "titleAccent": "Nicht den Anbieter.",
-    "subtitle": "Für die 190 ist es der kürzeste Weg zu eigenen Vertrauensankern. Für die drei ist es der einzige Weg zu interoperieren, ohne sie aufzugeben.",
+    "title": "Erstellen Sie mit Genesis Mesh.",
+    "titleAccent": "Behalten Sie Ihre Autorität.",
+    "subtitle": "Wählen Sie den Adoptionspfad, der zu Ihrer Rolle passt, ohne Ihre eigenen Vertrauensentscheidungen aufzugeben.",
     "builders": {
-      "who": "Für die 190 - Entwickler und Architekten",
+      "who": "Für Softwareentwickler",
       "title": "Richten Sie Ihre eigene souveräne Vertrauensdomäne ein.",
       "desc": "Lesen Sie die RFCs, holen Sie sich die SDKs für TypeScript, Go und .NET, und stellen Sie eine souveräne L2-Gemeinschaft auf Infrastruktur auf, die Ihnen bereits gehört.",
       "cta": "Zum Dev Hub →",
       "altText": "Open-Source-Organisation →"
     },
     "strategic": {
-      "who": "Für die drei - Staaten und strategische Akteure",
-      "title": "Dieses Gespräch beginnt nicht mit einem SDK.",
-      "desc": "Lesen Sie das vollständige Elections 2026-Narrativ für die philosophische Begründung und öffnen Sie danach einen direkten, diskreten Kanal. Keine Formulare, keine Funnels, keine Vermittler.",
-      "cta": "Die ganze Geschichte lesen →",
+      "who": "Für Staaten & Institutionen",
+      "title": "Bewerten Sie das Protokoll, den Beweis und die Governance-Grenze.",
+      "desc": "Überprüfen Sie die öffentliche Architektur und reproduzierbare Beweise und eröffnen Sie dann einen direkten Kanal für Fragen zur institutionellen Bereitstellung.",
+      "cta": "Lesen Sie das strategische Briefing →",
       "altText": "Direkter Kanal: authority@genesismesh.org →"
     }
   },
@@ -352,6 +369,12 @@
     "unknown": "Unbekannt",
     "disclaimer": "Aggregierte Betriebssignale. Keine vollständige Darstellung der Sicherheits- oder Governance-Situation.",
     "unavailableMessage": "Die Live-Daten konnten nicht verifiziert werden. Es werden keine zwischengespeicherten Werte als aktuell dargestellt.",
-    "dashboard": "Öffentliches Dashboard prüfen"
+    "dashboard": "Öffentliches Dashboard prüfen",
+    "notReported": "Nicht gemeldet",
+    "browserFallback": {
+      "title": "Live-Telemetrie erfordert Browserzugriff.",
+      "description": "Aufgezeichnete und unabhängig reproduzierbare Nachweise sind weiterhin unten verfügbar."
+    },
+    "proofAvailability": "Aufgezeichnete und unabhängig reproduzierbare Nachweise bleiben über die untenstehenden Links verfügbar."
   }
 }

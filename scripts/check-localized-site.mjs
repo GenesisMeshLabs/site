@@ -137,11 +137,19 @@ const availableKeys = [
   'recognitionEdges',
   'revocations',
   'sovereignDomains',
+  'trustCycle',
 ].sort();
 const unavailableKeys = ['available', 'checkedAt'].sort();
 const expectedLiveKeys = liveProof.available ? availableKeys : unavailableKeys;
 if (JSON.stringify(liveKeys) !== JSON.stringify(expectedLiveKeys)) {
   failures.push(`live proof exposes unexpected fields: ${liveKeys.join(', ')}`);
+}
+if (liveProof.available) {
+  const trustCycleKeys = Object.keys(liveProof.trustCycle || {}).sort();
+  const expectedTrustCycleKeys = ['completedAt', 'freshness', 'status'].sort();
+  if (JSON.stringify(trustCycleKeys) !== JSON.stringify(expectedTrustCycleKeys)) {
+    failures.push(`live proof trust cycle exposes unexpected fields: ${trustCycleKeys.join(', ')}`);
+  }
 }
 if (liveProof.available && liveProofResponse.status !== 200) {
   failures.push(`available live proof returned ${liveProofResponse.status}`);

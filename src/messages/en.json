@@ -3,13 +3,13 @@
     "brand": "GENESIS■MESH",
     "links": {
       "proof": "Proof",
-      "stakes": "The Stakes",
-      "powers": "Three Powers",
+      "stakes": "Sovereignty",
+      "powers": "Cooperation",
       "mechanics": "Mechanics",
       "live": "Live Network",
       "protocol": "Protocol",
       "strategy": "Strategy",
-      "hardware": "Silicon",
+      "hardware": "Research",
       "docs": "Docs"
     }
   },
@@ -136,57 +136,55 @@
       "stale": "Stale"
     },
     "unknown": "Unknown",
+    "notReported": "Not reported",
+    "browserFallback": {
+      "title": "Live telemetry requires browser access.",
+      "description": "Recorded and independently reproducible proofs remain available below."
+    },
+    "proofAvailability": "Recorded and independently reproducible proofs remain available through the links below.",
     "disclaimer": "Aggregate operational signals. Not a complete security or governance view.",
     "unavailableMessage": "Live data could not be verified. No cached values are being presented as current.",
     "dashboard": "Inspect the public dashboard"
   },
   "stakes": {
-    "label": "The Stakes",
-    "title": "Digital sovereignty is now a question of national survival - and there is no treaty layer for machines.",
-    "subtitle": "States sign treaties. Digital systems have no equivalent. When an AI agent of one nation meets the infrastructure of another, the question - who vouches for this entity, under whose rules, and can that trust be withdrawn - is a diplomatic question that today has no protocol answer. Genesis Mesh is that answer.",
-    "notLine": "Not a blockchain. Not a VPN. Not a service mesh. Not an agent framework. Not a marketplace. The treaty layer for machines.",
-    "stats": {
-      "one": "190+",
-      "oneDesc": "Nations still searching for a sovereignty formula",
-      "two": "3",
-      "twoDesc": "Powers that already own their stack",
-      "three": "1",
-      "threeDesc": "Protocol that serves both - without picking a side"
-    }
+    "label": "Sovereignty",
+    "title": "Sovereignty without isolation.",
+    "subtitle": "Independent systems need to cooperate without requiring political alignment, shared infrastructure, or a common root of trust.",
+    "notLine": "Genesis Mesh handles the machine-legible subset of that relationship: recognition, scope, delegation, revocation, and evidence.",
+    "boundary": "It does not negotiate policy, arbitrate disputes, or govern participants. Those remain human and institutional responsibilities."
   },
   "powers": {
-    "label": "The Three Powers",
-    "title": "Sovereign powers don't need independence. They need interoperation without subordination.",
-    "subtitle": "The value flips, but it doesn't disappear. No allied capital accepts another's root of trust - so recognition must travel as signed, scoped, revocable treaties between equals.",
-    "cn": {
-      "code": "CN - China",
-      "tag": "The Exporter's Proof",
-      "title": "Prove non-control, technically.",
-      "desc": "Every infrastructure export meets the same objection: your equipment means your control. Verifiable, operator-owned, revocable trust is the technical answer to that political objection.",
-      "benefits": [
-        "Partner nations audit and revoke without trusting anyone's word",
-        "Cross-recognition with Western sovereigns - neither side holds the other's keys",
-        "Chinese-Western integration under a single governance model"
+    "label": "Cooperation",
+    "title": "Cooperation does not require alignment.",
+    "subtitle": "Genesis Mesh does not encode alliances. The protocol requires cryptographic recognition, not political agreement.",
+    "close": {
+      "code": "01",
+      "tag": "Close cooperation",
+      "title": "Shared work, separate authority.",
+      "desc": "Authorities can cooperate closely while each retains its own keys, policy, and revocation power.",
+      "examples": [
+        "No shared root of trust",
+        "No transfer of operator control"
       ]
     },
-    "us": {
-      "code": "US - United States",
-      "tag": "The Federation Problem",
-      "title": "Allies won't take your root.",
-      "desc": "Five Eyes, NATO, EU partners: none will subordinate to a US-controlled trust anchor. Recognition treaties let each ally stay sovereign while trust still flows.",
-      "benefits": [
-        "Allied infrastructure without political capitulation",
-        "Hyperscalers sell into foreign sovereignty law"
+    "scoped": {
+      "code": "02",
+      "tag": "Narrow scope",
+      "title": "One transaction can be enough.",
+      "desc": "Recognition may cover one role, one purpose, or one time window without creating a permanent alliance.",
+      "examples": [
+        "Explicit scope and expiry",
+        "Local authorization remains decisive"
       ]
     },
-    "kp": {
-      "code": "KP - North Korea",
-      "tag": "The Extreme Constraint",
-      "title": "The paranoid-sovereign test.",
-      "desc": "A state that trusts nothing external. If a protocol works for the most guarded sovereign on earth - zero dependency, full operator ownership - it works for anyone.",
-      "benefits": [
-        "Autarky-grade design constraint",
-        "No foreign authority anchoring, ever"
+    "different": {
+      "code": "03",
+      "tag": "Different interests",
+      "title": "Recognition is not endorsement.",
+      "desc": "Authorities with different policies can verify a bounded relationship without claiming broader political agreement.",
+      "examples": [
+        "Signed evidence replaces implied alignment",
+        "Either authority can revoke its own trust"
       ]
     }
   },
@@ -215,12 +213,30 @@
         "name": "Audit",
         "desc": "Every decision leaves tamper-evident evidence. No one has to take your word for it."
       }
+    ],
+    "evidence": [
+      {
+        "title": "No shared root of trust.",
+        "action": "See the test"
+      },
+      {
+        "title": "Revocation crosses authority boundaries.",
+        "action": "Reproduce it"
+      },
+      {
+        "title": "Protocol properties have Tamarin models.",
+        "action": "See the formal evidence"
+      },
+      {
+        "title": "Why not SPIFFE, DID, or OAuth?",
+        "action": "Read the comparison"
+      }
     ]
   },
   "protocol": {
     "label": "The Protocol",
     "title": "An open RFC program - standards-shaped, not vendor-shaped.",
-    "subtitle": "Three SDK generations shipped (TypeScript, Go, .NET). 1,041 tests. Eight machine-checked Tamarin lemmas. Multi-cloud sovereigns live on Azure, DigitalOcean, Cloudflare, and Akamai/Linode.",
+    "subtitle": "The Python reference implementation and TypeScript, Go, and .NET SDKs are coordinated at v0.56.0. The core suite has 1,327 tests, with formal protocol evidence documented for Tamarin verification.",
     "stack": {
       "title": "The Stack",
       "l1": {
@@ -281,6 +297,13 @@
         "status": "Protocol"
       }
     ],
+    "governance": {
+      "label": "Protocol Governance",
+      "title": "Open change, explicit authority.",
+      "description": "Protocol changes move through public drafts, maintainer review, operator review when obligations change, security review for trust-state changes, and dated decisions.",
+      "boundary": "The reference implementation is not the protocol. Operators retain their own keys, policies, trust decisions, and exit rights.",
+      "cta": "Read the governance baseline"
+    },
     "live": {
       "title": "Maintainer-Operated Public Deployment",
       "subtitle": "Independent Keys / Independent Policy / Reproducible Proofs",
@@ -295,11 +318,11 @@
     }
   },
   "silicon": {
-    "label": "The Silicon",
-    "title": "A sovereign protocol on foreign silicon is theater.",
-    "subtitle": "Genesis Mesh verifies authority in software. But software is only as sovereign as the silicon it runs on. TSWI - the Tunisian Sovereign Wafer Initiative - closes the loop: owned interposer IP, owned packaging facility, owned orchestration stack. Commodity chiplets in; sovereign compute out. Solar-powered at the crossroads of three continents, with more than half the compute cost stripped out. Phase one is done.",
-    "conclusion": "The protocol governs the logic. Tunisia governs the silicon.",
-    "cta": "Read the TSWI briefing →"
+    "label": "Research",
+    "title": "Sovereign Compute",
+    "subtitle": "TSWI explores the hardware layer beneath software sovereignty: operator-owned packaging, interposer design, orchestration, and energy-aware compute infrastructure.",
+    "conclusion": "This is a separate research track, not a requirement for adopting the Genesis Mesh protocol.",
+    "cta": "Request the TSWI research briefing →"
   },
   "live": {
     "label": "Live",
@@ -315,21 +338,21 @@
     "over": "Running over"
   },
   "closing": {
-    "title": "Hire the authority.",
-    "titleAccent": "Not the vendor.",
-    "subtitle": "For the 190, it is the shortest path to owning your trust anchors. For the three, it is the only way to interoperate without giving them up.",
+    "title": "Build with Genesis Mesh.",
+    "titleAccent": "Keep your authority.",
+    "subtitle": "Choose the adoption path that matches your role without surrendering your own trust decisions.",
     "builders": {
-      "who": "For the 190 - Builders & Architects",
+      "who": "For builders",
       "title": "Spin up your own sovereign trust domain.",
       "desc": "Read the RFCs, pull the TypeScript / Go / .NET SDKs, and stand up an L2 Sovereign Community on infrastructure you already own.",
       "cta": "Enter the Dev Hub →",
       "altText": "Open-source organization →"
     },
     "strategic": {
-      "who": "For the Three - State & Strategic Actors",
-      "title": "This conversation does not start with an SDK.",
-      "desc": "Read the full Elections 2026 narrative for the philosophical case, then open a direct, discreet channel. No forms, no funnels, no intermediaries.",
-      "cta": "Read the Full Story →",
+      "who": "For states & institutions",
+      "title": "Evaluate the protocol, proof, and governance boundary.",
+      "desc": "Review the public architecture and reproducible evidence, then open a direct channel for institutional deployment questions.",
+      "cta": "Read the strategic brief →",
       "altText": "Direct channel: authority@genesismesh.org →"
     }
   },

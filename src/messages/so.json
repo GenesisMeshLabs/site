@@ -2,11 +2,11 @@
   "nav": {
     "brand": "GENESIS■MESH",
     "links": {
-      "stakes": "Waxa Halista ku Jira",
-      "powers": "Saddexda Quwadood",
+      "stakes": "Qaranimada",
+      "powers": "iskaashiga",
       "mechanics": "Habka Shaqada",
       "protocol": "Habmaamuuska",
-      "hardware": "Silikoonka",
+      "hardware": "Cilmi baaris",
       "docs": "Dukumentiyada",
       "proof": "Caddeyn",
       "live": "Shabakadda Tooska ah",
@@ -51,52 +51,44 @@
     "vlabel": "Kaabayaal Dhexdhexaad ka ah Madax-bannaanida"
   },
   "stakes": {
-    "label": "Waxa Halista ku Jira",
-    "title": "Madax-bannaanida dijitaalka ahi hadda waa arrin badbaado qaran, mashiinnaduna ma laha lakab heshiiseed.",
-    "subtitle": "Dawladuhu heshiisyo ayay kala saxeexdaan. Nidaamyada dijitaalka ahi wax u dhigma ma laha. Marka wakiil AI ah oo qaran leeyahay uu la kulmo kaabayaasha qaran kale, su'aalaha ah cidda dammaanad qaadaysa hay'addan, xeerarka ay ku shaqaynayso, iyo in kalsoonidaas lala noqon karo, waa su'aalo diblomaasiyadeed oo aan maanta lahayn jawaab habmaamuus. Genesis Mesh ayaa ah jawaabtaas.",
-    "notLine": "Ma aha blockchain. Ma aha VPN. Ma aha shabakad adeegyo. Ma aha qaab-dhismeed wakiillo. Ma aha suuq. Waa lakabka heshiiseed ee mashiinnada.",
-    "stats": {
-      "one": "190+",
-      "oneDesc": "Qaramo weli raadinaya qaaciddada madax-bannaanida",
-      "two": "3",
-      "twoDesc": "Quwado hore u leh dhammaan lakabyada tiknoolajiyadooda",
-      "three": "1",
-      "threeDesc": "Habmaamuus u adeegaya labadaba, isaga oo aan dhinacna raacin"
-    }
+    "label": "Qaranimada",
+    "title": "Qaranimada oo aan cidina ka soo bixin.",
+    "subtitle": "Nidaamyada madax-bannaani waxay u baahan yihiin inay iska kaashadaan iyagoon u baahnayn toosin siyaasadeed, kaabayaasha la wadaago, ama xididka kalsoonida.",
+    "notLine": "Genesis Mesh waxay gacanta ku haysaa mashiin-lagu akhriyi karo qayb hoosaadka xidhiidhkaas: aqoonsiga, baaxadda, ergada, ka noqoshada, iyo caddaynta.",
+    "boundary": "Kama gorgortamo siyaasadda, kama gorgortamo khilaafaadka, mana maamusho ka qaybgalayaasha. Kuwaasi waxay ahaanayaan mas'uuliyadaha aadanaha iyo kuwa hay'adaha."
   },
   "powers": {
-    "label": "Saddexda Quwadood",
-    "title": "Quwadaha madax-bannaan uma baahna gobannimo. Waxay u baahan yihiin wada-shaqayn aan hoos-tag lahayn.",
-    "subtitle": "Qiimuhu jihada ayuu beddelaa, laakiin ma baaba'o. Caasimad xulafo ahi ma aqbasho xididka kalsoonida ee caasimad kale, sidaas darteed aqoonsigu waa inuu dhex maraa dhinacyo siman, isagoo ah heshiisyo la saxeexay, baaxaddooduna cayiman tahay, lana laali karo.",
-    "cn": {
-      "code": "CN - Shiinaha",
-      "tag": "Caddeynta Dhoofiyaha",
-      "title": "Farsamo ahaan u caddee inaadan gacanta ku hayn.",
-      "desc": "Dhoofin kasta oo kaabayaal ahi waxay wajahdaa diidmada isku midka ah: qalabkiinnu wuxuu ka dhigan yahay inaad idinku gacanta ku haysaan. Kalsooni la xaqiijin karo, hawlwadeenku leeyahay, lana laali karo ayaa ah jawaabta farsamo ee diidmadaas siyaasadeed.",
-      "benefits": [
-        "Dalalka shuraakada ahi way hanti-dhawri karaan oo laali karaan iyaga oo aan hadalka cidna ku kalsoonaan",
-        "Aqoonsi isdhaafsi ah oo lala yeesho dawladaha madax-bannaan ee reer Galbeedka, iyada oo aan dhinacna hayn furayaasha dhinaca kale",
-        "Isdhexgalka Shiinaha iyo reer Galbeedka oo hoos yimaadda hal hannaan maamul"
+    "label": "iskaashiga",
+    "title": "Wadashaqeyn uma baahna toosin.",
+    "subtitle": "Genesis Mesh ma qeexayso isbahaysiga. Hab-maamuusku wuxuu u baahan yahay aqoonsi qarsoodi ah, ee maaha heshiis siyaasadeed.",
+    "close": {
+      "code": "01",
+      "tag": "Wadashaqeyn dhow",
+      "title": "Shaqo la wadaago, maamul gooni ah.",
+      "desc": "Maamuladu si dhow ayay u wada shaqayn karaan iyadoo mid walba uu haysto furihiisa, siyaasadiisa, iyo awooda kala noqoshada.",
+      "examples": [
+        "Ma jirto xidid kalsooni wadaag ah",
+        "Ma jiro wareejinta xakamaynta hawlwadeenka"
       ]
     },
-    "us": {
-      "code": "US - Maraykanka",
-      "tag": "Dhibaatada Federaalka",
-      "title": "Xulafadu ma qaadan doonaan xididkaaga kalsoonida.",
-      "desc": "Five Eyes, NATO iyo shuraakada EU: midkoodna ma oggolaanayo inuu hoos tago bar-kalsooniyeed uu Maraykanku maamulo. Heshiisyada aqoonsigu waxay u oggolaanayaan xulafo kasta inuu madax-bannaan ahaado iyadoo kalsoonidu weli dhex socoto.",
-      "benefits": [
-        "Kaabayaal xulafo oo aan keenayn isdhiibid siyaasadeed",
-        "Bixiyeyaasha waaweyn ee adeegyada daruurtu waxay wax ku iibiyaan iyagoo waafaqaya shuruucda madax-bannaanida dalalka kale"
+    "scoped": {
+      "code": "02",
+      "tag": "Baaxadda cidhiidhiga ah",
+      "title": "Hal macaamil ganacsi ayaa ku filnaan kara.",
+      "desc": "Aqoonsigu waxa uu dabooli karaa hal door, hal ujeedo, ama hal wakhti daaqad iyada oo aan la abuurin isbahaysi joogto ah.",
+      "examples": [
+        "Baaxadda cad iyo dhicitaanka",
+        "Oggolaanshaha deegaanka ayaa weli ah mid muhiim ah"
       ]
     },
-    "kp": {
-      "code": "KP - Kuuriyada Waqooyi",
-      "tag": "Xannibaadda Ugu Adag",
-      "title": "Imtixaanka qaranka madax-bannaan ee wax kasta ka shakisan.",
-      "desc": "Dawlad aan wax dibadeed ku kalsoonayn. Haddii habmaamuusku u shaqeeyo qaranka dunida ugu taxaddarka badan, isaga oo aan cidna ku tiirsanayn, hawlwadeenkuna si buuxda u leeyahay, qof kasta ayuu u shaqayn karaa.",
-      "benefits": [
-        "Shuruud naqshadeed oo gaadhsiisan isku-filnaansho buuxda",
-        "Marna laguma tiirsana awood shisheeye"
+    "different": {
+      "code": "03",
+      "tag": "Dano kala duwan",
+      "title": "Aqoonsigu maaha taageero.",
+      "desc": "Maamulada leh siyaasado kala duwan waxay xaqiijin karaan xiriirka soo jireenka ah iyagoon sheegan heshiis siyaasadeed oo ballaaran.",
+      "examples": [
+        "Caddaynta saxeexan waxay beddeshaa toosinta maldahan",
+        "Labada maamul midkoodna wuxuu kala noqon karaa kalsoonidiisa"
       ]
     }
   },
@@ -125,12 +117,30 @@
         "name": "Hanti-dhawr",
         "desc": "Go'aan kasta wuxuu reebaa caddayn muujinaysa haddii wax laga beddelo. Qofna khasab kuma aha inuu hadalkaaga keliya rumaysto."
       }
+    ],
+    "evidence": [
+      {
+        "title": "Ma jirto xidid kalsooni wadaag ah.",
+        "action": "Eeg imtixaanka"
+      },
+      {
+        "title": "Kala noqoshada ayaa ka gudubta xuduudaha maamulka.",
+        "action": "Dib u soo saar"
+      },
+      {
+        "title": "Guryaha borotokoolku waxay leeyihiin moodooyinka Tamarin.",
+        "action": "Eeg caddaynta rasmiga ah"
+      },
+      {
+        "title": "Maxaa diidaya SPIFFE, DID, ama OAuth?",
+        "action": "Akhri isbarbardhigga"
+      }
     ]
   },
   "protocol": {
     "label": "Habmaamuuska",
     "title": "Barnaamij RFC oo furan, loo qaabeeyey heerar, ee aan loo qaabayn alaab-qeybiye.",
-    "subtitle": "Saddex jiil oo SDK ah ayaa la sii daayay (TypeScript, Go, .NET). 1,041 tijaabo. Siddeed leemma oo Tamarin si mashiin ah u hubiyey. Dawlado madax-bannaan oo daruuro badan adeegsanaya ayaa si toos ah uga shaqeeya Azure, DigitalOcean, Cloudflare, iyo Akamai/Linode.",
+    "subtitle": "Hirgelinta tixraaca Python iyo TypeScript, Go, iyo .NET SDKs ayaa la isku duway v0.56.0. Qolka xudunta u ah waxa uu leeyahay imtixaanada 1,327, oo wata cadaymo borotokoolka rasmiga ah oo loo diiwaan galiyay xaqiijinta Tamarin.",
     "stack": {
       "title": "Lakabyada Tiknoolajiyada",
       "l1": {
@@ -202,14 +212,21 @@
       "operators": "Hawlwadeenno Dibadeed",
       "status": "Ku-biirinta - Marxaladda 2",
       "online": "● KHADKA KU JIRA"
+    },
+    "governance": {
+      "label": "Maamulka Habmaamuuska",
+      "title": "Isbeddel furan, awood cad.",
+      "description": "Isbeddellada hab-maamuusku waxay u maraan qabyo-qoraalka dadweynaha, dib-u-eegis ilaaliye, dib-u-eegis hawlwadeenku marka ay waajibaadyadu isbeddelaan, dib-u-eegis amni ee isbeddellada kalsoonida-dawlad, iyo go'aannada taariikhaysan.",
+      "boundary": "Hirgelinta tixraacu maaha borotokoolka. Hawl-wadeenadu waxa ay haystaan ​​furayaal u gaar ah, siyaasadahooda, go'aannada aaminaadda, iyo xuquuqaha bixitaanka.",
+      "cta": "Akhriso gundhigga maamulka"
     }
   },
   "silicon": {
-    "label": "Silikoonka",
-    "title": "Habmaamuus madax-bannaan oo ku shaqeeya silikoon shisheeye waa jilitaan.",
-    "subtitle": "Genesis Mesh wuxuu awoodda ku xaqiijiyaa softiweerka. Laakiin softiweerku madax-bannaanidiisu kama badna silikoonka uu ku shaqeeyo. TSWI, Hindisaha Wafer-ka Madax-bannaan ee Tuniisiya, ayaa wareegga dhammaystiraya: interposer IP la leeyahay, xarun baakadayn la leeyahay iyo lakabyo abaabul oo la leeyahay. Chiplet-yo caadi ah ayaa gala; awood xisaabeed madax-bannaan ayaa soo baxda. Waxa ku shaqeeya tamarta qorraxda, goobta ay ku kulmaan saddex qaaradood, iyadoo meesha laga saaray in ka badan kala badh kharashka xisaabinta. Marxaladda koowaad waa dhammaatay.",
-    "conclusion": "Habmaamuusku wuxuu maamulaa maangalka. Tuniisiya waxay maamushaa silikoonka.",
-    "cta": "Akhri warbixinta TSWI →"
+    "label": "Cilmi baaris",
+    "title": "Xisaabinta Sovereign",
+    "subtitle": "TSWI waxay sahamisaa lakabka hardware ee hoos yimaada madaxbanaanida software: baakadaha uu leeyahay hawlwadeenka, naqshadeeyaha interposer, orchestration, iyo kaabayaasha xisaabinta tamarta.",
+    "conclusion": "Kani waa raad-raac cilmi-baaris oo gaar ah, maahan wax looga baahan yahay qaadashada borotokoolka Genesis Mesh.",
+    "cta": "Codso warbixinta cilmi baarista ee TSWI →"
   },
   "live": {
     "label": "Toos ah",
@@ -225,21 +242,21 @@
     "over": "Ku shaqaynaya"
   },
   "closing": {
-    "title": "Awoodda idinku ha jirto.",
-    "titleAccent": "Ha ku tiirsanaanina alaab-qeybiyaha.",
-    "subtitle": "190-ka dal, waa waddada ugu gaaban ee ay ku yeelan karaan barahooda kalsoonida. Saddexda quwadood, waa habka keliya ee ay u wada shaqayn karaan iyaga oo aan ka tanaasulin.",
+    "title": "Ku dhis Genesis Mesh.",
+    "titleAccent": "Hayso maamulkaaga.",
+    "subtitle": "Dooro dariiqa korsashada ee ku habboon doorkaaga adoon dhiibin go'aamada kalsoonidaada.",
     "builders": {
-      "who": "190-ka Dal - Dhisayaasha iyo Naqshadeeyayaasha",
+      "who": "Loogu talagalay horumariyayaasha software-ka",
       "title": "Hawl geli goobtaada kalsoonida ee madax-bannaan.",
       "desc": "Akhri RFC-yada, soo dejiso SDK-yada TypeScript / Go / .NET, dabadeedna kaabayaal aad hore u lahayd ku dhis Bulsho Madax-bannaan oo L2 ah.",
       "cta": "Gal Xarunta Horumarinta →",
       "altText": "Ururka il-furan →"
     },
     "strategic": {
-      "who": "Saddexda Quwadood - Dawladaha iyo Jilayaasha Istaraatiijiga ah",
-      "title": "Wadahadalkani SDK kama bilaabmo.",
-      "desc": "Akhri qisada buuxda ee Elections 2026 si aad u fahanto doodda falsafadeed, dabadeed fur xidhiidh toos ah oo gaar ah, sirna ah. Foomam ma jiraan, marinno suuqgeyn ma jiraan, dhexdhexaadiyeyaalna ma jiraan.",
-      "cta": "Akhri Qisada oo Dhan →",
+      "who": "Loogu talagalay dawladaha & hay'adaha",
+      "title": "Qiimee hab-maamuuska, caddaynta, iyo xudduudaha maamulka.",
+      "desc": "Dib u eeg qaab dhismeedka guud iyo cadaymaha la soo saari karo, ka dibna u fur kanaal toos ah su'aalaha meelaynta hay'adaha.",
+      "cta": "Akhriso qoraalka istaraatiijiga ah →",
       "altText": "Xidhiidh toos ah: authority@genesismesh.org →"
     }
   },
@@ -352,6 +369,12 @@
     "unknown": "Lama yaqaan",
     "disclaimer": "Calaamado hawlgal oo la isku geeyey. Ma aha aragti dhammaystiran oo amniga ama maamulka ah.",
     "unavailableMessage": "Xogta tooska ah lama xaqiijin karin. Qiimayaal kaydsan looma soo bandhigayo inay hadda jiraan.",
-    "dashboard": "Eeg dashboard-ka dadweynaha"
+    "dashboard": "Eeg dashboard-ka dadweynaha",
+    "notReported": "Lama sheegin",
+    "browserFallback": {
+      "title": "Telemetry toos ah waxay u baahan tahay marin u helka browserka",
+      "description": "Caddaymaha la duubay oo si madaxbanaan loo soo saari karo ayaa halkan ku yaal."
+    },
+    "proofAvailability": "Cadeymaha la duubay oo si madax banaan dib loo soo saari karo ayaa weli laga heli karaa xiriirinta hoose."
   }
 }

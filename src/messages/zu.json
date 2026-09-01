@@ -2,11 +2,11 @@
   "nav": {
     "brand": "GENESIS■MESH",
     "links": {
-      "stakes": "Okusengcupheni",
-      "powers": "Amandla Amathathu",
+      "stakes": "Ubukhosi\nI-",
+      "powers": "Ukubambisana\nI-",
       "mechanics": "Indlela Yokusebenza",
       "protocol": "Iphrothokholi",
-      "hardware": "Isilikhoni",
+      "hardware": "Ucwaningo\nI-",
       "docs": "Amadokhumenti",
       "proof": "Ubufakazi",
       "live": "Inethiwekhi Ebukhoma",
@@ -24,7 +24,11 @@
     "title": "Imishini iwela imingcele.",
     "titleAccent": "Igunya aliweli.",
     "intro": "Ama-ejenti e-AI asevele esebenza kuwo onke amafu, izinhlangano, nezindawo ezibuswa ngokwahlukene. Kodwa lapho isistimu ezimele ihlangana nenye, ayikho iphrothokholi engachemile yokuphendula imibuzo emithathu eyisisekelo:",
-    "questions": ["Ungubani?", "Uvunyelwe ukwenzani?", "Ubani ongalihoxisa igunya lelo?"],
+    "questions": [
+      "Ungubani?",
+      "Uvunyelwe ukwenzani?",
+      "Ubani ongalihoxisa igunya lelo?"
+    ],
     "statement": "I-Genesis Mesh iwungqimba lwezivumelwano lwemishini.",
     "body": "Amagunya azimele angaqashela ubunikazi, anikeze amakhono, futhi ahoxise ukwethembana ngaphesheya kwemingcele yezinhlangano namazwe, ngaphandle kokudela umsuka wabo wokwethembana.",
     "notLine": "Alikho igunya eliphakathi. Alikho ukuzimela okwabiwe. Alikho ifu eliphoqelelwe.",
@@ -47,52 +51,44 @@
     "vlabel": "Ingqalasizinda Engachemile Ekuzimeleni Kwamazwe"
   },
   "stakes": {
-    "label": "Okusengcupheni",
-    "title": "Ukuzimela ngokwedijithali manje sekuyindaba yokusinda kwesizwe, futhi alukho ungqimba lwezivumelwano lwemishini.",
-    "subtitle": "Amazwe asayina izivumelwano. Izinhlelo zedijithali azinalutho olulingana nalokho. Lapho i-ejenti ye-AI yesizwe esisodwa ihlangana nengqalasizinda yesinye, umbuzo othi ubani ofakazela leli bhizinisi, lisebenza ngaphansi kwemithetho kabani, futhi ingabe lokho kwethembana kungahoxiswa, ungumbuzo wezobudlelwano bamazwe ongakabi nayo impendulo yephrothokholi namuhla. I-Genesis Mesh iyileyo mpendulo.",
-    "notLine": "Akuyona i-blockchain. Akuyona i-VPN. Akuyona i-service mesh. Akulona uhlaka lwama-ejenti. Akuyona indawo yokuhweba. Iwungqimba lwezivumelwano lwemishini.",
-    "stats": {
-      "one": "190+",
-      "oneDesc": "Amazwe asafuna indlela yokuzuza ukuzimela",
-      "two": "3",
-      "twoDesc": "Amandla asevele ephethe sonke isitaki sawo",
-      "three": "1",
-      "threeDesc": "Iphrothokholi esebenzela womabili, ngaphandle kokukhetha uhlangothi"
-    }
+    "label": "Ubukhosi\nI-",
+    "title": "Ubukhosi ngaphandle kokuhlukaniswa.\nI-",
+    "subtitle": "Izinhlelo ezizimele zidinga ukubambisana ngaphandle kokudinga ukuqondanisa kwezombusazwe, ingqalasizinda eyabiwe, noma umsuka ofanayo wokwethembana.\nI-",
+    "notLine": "I-Genesis Mesh iphatha isethi engaphansi efundeka ngomshini yalobo budlelwano: ukunakwa, ububanzi, ukuthunyelwa, ukuhoxiswa, kanye nobufakazi.\nI-",
+    "boundary": "Ayixoxisani ngenqubomgomo, ayixazululi izingxabano, noma ibuse ababambiqhaza. Lezo ziseyizibophezelo zabantu kanye nezikhungo.\nI-"
   },
   "powers": {
-    "label": "Amandla Amathathu",
-    "title": "Amandla azimele awadingi inkululeko. Adinga ukusebenzisana ngaphandle kokuzithoba.",
-    "subtitle": "Inani liyaguquka, kodwa alinyamalali. Ayikho inhlokodolobha yezwe elingumfelandawonye eyamukela umsuka wokwethembana welinye, ngakho ukuqashelana kufanele kudluliswe njengezivumelwano ezisayiniwe, ezinomkhawulo, nezingahoxiswa phakathi kwabalinganayo.",
-    "cn": {
-      "code": "CN - iShayina",
-      "tag": "Ubufakazi Bomthumeli Wangaphandle",
-      "title": "Fakazela ngokobuchwepheshe ukuthi akukho kulawula.",
-      "desc": "Konke ukuthunyelwa kwengqalasizinda kwamanye amazwe kubhekana nokuphikiswa okufanayo: imishini yenu isho ukulawula kwenu. Ukwethembana okuqinisekisekayo, okuphethwe umqhubi, nokungahoxiswa kuyimpendulo yobuchwepheshe kulokho kuphikiswa kwezepolitiki.",
-      "benefits": [
-        "Amazwe angabambisene ayacwaninga futhi ahoxise ngaphandle kokwethemba izwi lomuntu",
-        "Ukuqashelana namazwe aseNtshonalanga azimele, alukho uhlangothi oluphethe okhiye bolunye",
-        "Ukuhlanganiswa kweShayina neNtshonalanga ngaphansi kwemodeli eyodwa yokubusa"
+    "label": "Ukubambisana\nI-",
+    "title": "Ukubambisana akudingi ukuqondanisa.\nI-",
+    "subtitle": "I-Genesis Mesh ayifaki imifelandawonye. Iphrothokholi idinga ukuqashelwa kwe-cryptographic, hhayi isivumelwano sezepolitiki.\nI-",
+    "close": {
+      "code": "01",
+      "tag": "Vala ukubambisana\nI-",
+      "title": "Umsebenzi owabiwe, igunya elihlukene.\nI-",
+      "desc": "Iziphathimandla zingabambisana eduze ngenkathi ngayinye igcina okhiye bayo, inqubomgomo, namandla okuhoxisa.\nI-",
+      "examples": [
+        "Ayikho impande yokwethembana eyabiwe\nI-",
+        "Akukho ukudluliswa kokulawula komsebenzisi\nI-"
       ]
     },
-    "us": {
-      "code": "US - i-United States",
-      "tag": "Inkinga Yomfelandawonye",
-      "title": "Abalingani ngeke bamukele umsuka wakho wokwethembana.",
-      "desc": "Abalingani be-Five Eyes, NATO, ne-EU: akekho kubo oyozithoba ku-trust anchor elawulwa yi-US. Izivumelwano zokuqashelana zivumela umlingani ngamunye ukuba aqhubeke ezimele kuyilapho ukwethembana kusadluliselwa.",
-      "benefits": [
-        "Ingqalasizinda yabalingani ngaphandle kokuzinikela kwezepolitiki",
-        "Ama-hyperscaler athengisa ngaphansi kwemithetho yamazwe angaphandle yokuzimela"
+    "scoped": {
+      "code": "02",
+      "tag": "Ububanzi obuncane\nI-",
+      "title": "Okwenziwayo okukodwa kunganele.\nI-",
+      "desc": "Ukuqashelwa kungase kufake indima eyodwa, injongo eyodwa, noma iwindi lesikhathi esisodwa ngaphandle kokudala umfelandawonye ongunaphakade.\nI-",
+      "examples": [
+        "Ububanzi obucacile nokuphelelwa yisikhathi\nI-",
+        "Ukugunyazwa kwendawo kuhlala kuyisinqumo\nI-"
       ]
     },
-    "kp": {
-      "code": "KP - iNyakatho Korea",
-      "tag": "Umkhawulo Oqinile Kakhulu",
-      "title": "Isivivinyo sezwe elizimele nelingathembi muntu.",
-      "desc": "Izwe elingathembi lutho lwangaphandle. Uma iphrothokholi isebenzela izwe elizimele neliqaphe kakhulu emhlabeni, lingenakho ukuncika futhi umqhubi engumnikazi ogcwele, isebenzela noma ubani.",
-      "benefits": [
-        "Umbandela wokuklama wezinga lokuzimela ngokuphelele",
-        "Alikho igunya langaphandle eliyisisekelo, nanini"
+    "different": {
+      "code": "03",
+      "tag": "Izithakazelo ezahlukene\nI-",
+      "title": "Ukuqashelwa akukhona ukuvumela.\nI-",
+      "desc": "Iziphathimandla ezinezinqubomgomo ezihlukene zingaqinisekisa ubudlelwano obunomkhawulo ngaphandle kokufuna isivumelwano esibanzi sezepolitiki.\nI-",
+      "examples": [
+        "Ubufakazi obusayiniwe bungena esikhundleni sokuqondana okushiwo\nI-",
+        "Noma yiliphi igunya lingahoxisa ukuthenjwa kwalo\nI-"
       ]
     }
   },
@@ -121,12 +117,30 @@
         "name": "Cwaninga",
         "desc": "Zonke izinqumo zishiya ubufakazi obubonisa uma buphazanyisiwe. Akudingeki muntu avele akholwe izwi lakho."
       }
+    ],
+    "evidence": [
+      {
+        "title": "Ayikho impande yokwethembana eyabiwe.\nI-",
+        "action": "Bona ukuhlolwa\nI-"
+      },
+      {
+        "title": "Ukuchithwa kweqa imingcele yegunya.\nI-",
+        "action": "Ikhiqize kabusha\nI-"
+      },
+      {
+        "title": "Izakhiwo zephrothokholi zinamamodeli we-Tamarin.\nI-",
+        "action": "Bheka ubufakazi obusemthethweni\nI-"
+      },
+      {
+        "title": "Kungani kungenjalo i-SPIFFE, DID, noma i-OAuth?\nI-",
+        "action": "Funda isiqhathaniso\nI-"
+      }
     ]
   },
   "protocol": {
     "label": "Iphrothokholi",
     "title": "Uhlelo oluvulekile lwe-RFC, olwakheke njengamazinga, hhayi njengomkhiqizo womhlinzeki.",
-    "subtitle": "Sekukhishwe izizukulwane ezintathu zama-SDK (TypeScript, Go, .NET). Izivivinyo ezingu-1,041. Ama-lemma ayisishiyagalombili e-Tamarin ahlolwe ngomshini. Amazwe azimele asebenzisa amafu amaningi asebenza bukhoma ku-Azure, DigitalOcean, Cloudflare, naku-Akamai/Linode.",
+    "subtitle": "Ukuqaliswa kwesethenjwa kwe-Python kanye ne-TypeScript, Go, kanye nama-SDK e-.NET ahlanganiswe ku-v0.56.0. I-core suite inokuhlolwa kwe-1,327, enobufakazi obusemthethweni bephrothokholi obubhalwe phansi ukuze kuqinisekiswe i-Tamarin.\nI-",
     "stack": {
       "title": "Isitaki",
       "l1": {
@@ -198,14 +212,21 @@
       "operators": "Abaqhubi Bangaphandle",
       "status": "Ukungeniswa Ohlelweni - Isigaba 2",
       "online": "● KU-INTHANETHI"
+    },
+    "governance": {
+      "label": "Ukuphathwa Kwephrothokholi",
+      "title": "Ushintsho oluvulekile, igunya elisobala.\nI-",
+      "description": "Izinguquko zephrothokholi zidlulela kokusalungiswa komphakathi, ukubuyekezwa komnakekeli, ukubuyekezwa komsebenzisi lapho izibopho zishintsha, ukubuyekezwa kokuvikeleka kwezinguquko ze-trust-state, nezinqumo zedethi.\nI-",
+      "boundary": "Ukusetshenziswa kwesithenjwa akuyona iphrothokholi. Abasebenzisi bagcina okhiye babo, izinqubomgomo, izinqumo zokwethembana, namalungelo okuphuma.\nI-",
+      "cta": "Funda isisekelo sokubusa\nI-"
     }
   },
   "silicon": {
-    "label": "Isilikhoni",
-    "title": "Iphrothokholi ezimele esebenza kusilikhoni sangaphandle ingumbukiso nje.",
-    "subtitle": "I-Genesis Mesh iqinisekisa igunya kusofthiwe. Kodwa isofthiwe izimele kuphela ngezinga isilikhoni esebenza kuso esizimele ngalo. I-TSWI, i-Tunisian Sovereign Wafer Initiative, ivala umjikelezo: impahla yengqondo ye-interposer ephethwe, indawo yokupakisha ephethwe, nesitaki sokuhlela esiphethwe. Kungena ama-chiplet ajwayelekile; kuphuma amandla okucubungula azimele ngaphansi kombuso kazwelonke. Inikwa amandla elanga ezimpambanweni zamazwekazi amathathu, futhi isusa ngaphezu kwengxenye yezindleko zokucubungula. Isigaba sokuqala sesiqediwe.",
-    "conclusion": "Iphrothokholi ibusa umqondo wokusebenza. ITunisia ibusa isilikhoni.",
-    "cta": "Funda umbiko we-TSWI →"
+    "label": "Ucwaningo\nI-",
+    "title": "I-Compute Ebusayo\nI-",
+    "subtitle": "I-TSWI ihlola isendlalelo sezingxenyekazi zekhompuyutha ngaphansi kobukhulu besofthiwe: ukupakishwa okuphethwe ngu-opharetha, idizayini ye-interposer, i-orchestration, nengqalasizinda yekhompuyutha eqaphela amandla.\nI-",
+    "conclusion": "Lena ithrekhi yocwaningo ehlukile, akuyona imfuneko yokwamukela iphrothokholi ye-Genesis Mesh.\nI-",
+    "cta": "Cela ukwaziswa kocwaningo lwe-TSWI →\nI-"
   },
   "live": {
     "label": "Bukhoma",
@@ -221,21 +242,21 @@
     "over": "Kusebenza phezu kwe"
   },
   "closing": {
-    "title": "Thola igunya libe ngelakho.",
-    "titleAccent": "Unganciki kumhlinzeki.",
-    "subtitle": "Kulawo angu-190, kuyindlela emfushane kakhulu yokuba ngabanikazi bama-trust anchor awo. Kulawo mandla amathathu, kuwukuphela kwendlela yokusebenzisana ngaphandle kokuwadela.",
+    "title": "Yakha nge-Genesis Mesh.\nI-",
+    "titleAccent": "Gcina igunya lakho.\nI-",
+    "subtitle": "Khetha indlela yokutholwa efana nendima yakho ngaphandle kokunikela ngezinqumo zakho zokuthenjwa.\nI-",
     "builders": {
-      "who": "Kulawo angu-190 - Abakhi Nabadwebi Bezinhlelo",
+      "who": "Okwabathuthukisi besofthiwe",
       "title": "Sungula isizinda sakho sokwethembana esizimele.",
       "desc": "Funda ama-RFC, landa ama-SDK e-TypeScript / Go / .NET, bese usungula i-L2 Sovereign Community engqalasizindeni osuvele ungumnikazi wayo.",
       "cta": "Ngena ku-Dev Hub →",
       "altText": "Inhlangano yomthombo ovulekile →"
     },
     "strategic": {
-      "who": "Kulawo Mathathu - Amazwe Nabalingisi Bamasu",
-      "title": "Le ngxoxo ayiqali nge-SDK.",
-      "desc": "Funda indaba ephelele ye-Elections 2026 ukuze uthole isisekelo sefilosofi, bese uvula umzila oqondile, wangasese noyimfihlo. Awekho amafomu, awekho amafaneli, futhi abekho abalamuli.",
-      "cta": "Funda Indaba Ephelele →",
+      "who": "Okwezifunda nezikhungo\nI-",
+      "title": "Linganisa iphrothokholi, ubufakazi, kanye nomngcele wokubusa.\nI-",
+      "desc": "Buyekeza izakhiwo zomphakathi kanye nobufakazi obuphindaphindekayo, bese uvula umzila oqondile wemibuzo yesikhungo.\nI-",
+      "cta": "Funda umusho wamasu →",
       "altText": "Umzila oqondile: authority@genesismesh.org →"
     }
   },
@@ -348,6 +369,12 @@
     "unknown": "Akwaziwa",
     "disclaimer": "Izinkomba zokusebenza ezihlanganisiwe. Akuwona umbono ophelele wezokuphepha noma wokubusa.",
     "unavailableMessage": "Idatha ebukhoma ayikwazanga ukuqinisekiswa. Awekho amanani agcinwe okwesikhashana avezwa njengamanje.",
-    "dashboard": "Hlola ideshibhodi yomphakathi"
+    "dashboard": "Hlola ideshibhodi yomphakathi",
+    "notReported": "Akubikwanga\nI-",
+    "browserFallback": {
+      "title": "I-telemetry ebukhoma idinga ukufinyelela kwesiphequluli.\nI-",
+      "description": "Ubufakazi oburekhodiwe nobungaphinde bukhiqizeke ngokuzimela buhlala butholakala ngezansi.\nI-"
+    },
+    "proofAvailability": "Ubufakazi oburekhodiwe nobungaphinde bukhiqizeke ngokuzimela buhlala butholakala ngezixhumanisi ezingezansi.\nI-"
   }
 }

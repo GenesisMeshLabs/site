@@ -2,11 +2,11 @@
   "nav": {
     "brand": "GENESIS■MESH",
     "links": {
-      "stakes": "Məsələnin əhəmiyyəti",
-      "powers": "Üç güc",
+      "stakes": "Suverenlik",
+      "powers": "Əməkdaşlıq",
       "mechanics": "İş prinsipi",
       "protocol": "Protokol",
-      "hardware": "Silikon",
+      "hardware": "Araşdırma",
       "docs": "Sənədlər",
       "proof": "Sübut",
       "live": "Canlı şəbəkə",
@@ -51,52 +51,44 @@
     "vlabel": "Suverenliyə münasibətdə neytral infrastruktur"
   },
   "stakes": {
-    "label": "Məsələnin əhəmiyyəti",
-    "title": "Rəqəmsal suverenlik artıq milli mövcudluq məsələsidir, maşınlar üçün isə müqavilə qatı yoxdur.",
-    "subtitle": "Dövlətlər müqavilələr imzalayır. Rəqəmsal sistemlərin buna bərabər mexanizmi yoxdur. Bir ölkənin süni intellekt agenti digərinin infrastrukturu ilə qarşılaşdıqda, bu quruma kimin zəmanət verdiyi, hansı qaydaların tətbiq olunduğu və həmin etimadın geri götürülüb-götürülə bilməyəcəyi barədə suallar diplomatik xarakter daşıyır və bu gün protokol səviyyəsində cavabsızdır. Genesis Mesh həmin cavabdır.",
-    "notLine": "Blokçeyn deyil. VPN deyil. Xidmət şəbəkəsi deyil. Agent platforması deyil. Bazar yeri deyil. Maşınlar üçün müqavilə qatıdır.",
-    "stats": {
-      "one": "190+",
-      "oneDesc": "Hələ də suverenlik formulu axtaran ölkə",
-      "two": "3",
-      "twoDesc": "Artıq öz texnoloji yığınına sahib olan güc",
-      "three": "1",
-      "threeDesc": "Tərəf seçmədən hər ikisinə xidmət edən protokol"
-    }
+    "label": "Suverenlik",
+    "title": "İzolyasiya olmadan suverenlik.",
+    "subtitle": "Müstəqil sistemlər siyasi uyğunlaşma, ortaq infrastruktur və ya ümumi etimad kökü tələb etmədən əməkdaşlıq etməlidir.",
+    "notLine": "Genesis Mesh həmin əlaqənin maşınla oxuna bilən alt dəstini idarə edir: tanınma, əhatə dairəsi, nümayəndə heyəti, ləğvetmə və sübut.",
+    "boundary": "O, siyasətlə bağlı danışıqlar aparmır, mübahisələri arbitraj etmir və ya iştirakçıları idarə etmir. Bunlar insani və institusional öhdəliklər olaraq qalır."
   },
   "powers": {
-    "label": "Üç güc",
-    "title": "Suveren güclərin müstəqilliyə ehtiyacı yoxdur. Onlara tabeçilik yaratmadan qarşılıqlı işləmək lazımdır.",
-    "subtitle": "Dəyərin istiqaməti dəyişir, lakin özü yox olmur. Heç bir müttəfiq paytaxt digərinin etimad kökünü qəbul etmir. Buna görə tanınma bərabər tərəflər arasında imzalanmış, əhatəsi müəyyən edilmiş və ləğv edilə bilən müqavilələr vasitəsilə ötürülməlidir.",
-    "cn": {
-      "code": "CN - Çin",
-      "tag": "İxracatçının sübutu",
-      "title": "Nəzarətin olmadığını texniki yolla sübut edin.",
-      "desc": "Hər bir infrastruktur ixracı eyni etirazla qarşılaşır: avadanlıq sizindirsə, nəzarət də sizindir. Yoxlanıla bilən, operatora məxsus və ləğv edilə bilən etimad bu siyasi etiraza texniki cavabdır.",
-      "benefits": [
-        "Tərəfdaş ölkələr heç kimin sözünə güvənmədən audit aparır və səlahiyyəti ləğv edir",
-        "Qərbin suveren aktorları ilə qarşılıqlı tanınma, heç bir tərəf digərinin açarlarına sahib deyil",
-        "Çin və Qərb sistemlərinin vahid idarəetmə modeli əsasında inteqrasiyası"
+    "label": "Əməkdaşlıq",
+    "title": "Əməkdaşlıq uyğunlaşma tələb etmir.",
+    "subtitle": "Genesis Mesh alyansları kodlaşdırmır. Protokol siyasi razılaşma deyil, kriptoqrafik tanınma tələb edir.",
+    "close": {
+      "code": "01",
+      "tag": "Yaxın əməkdaşlıq",
+      "title": "Ortaq iş, ayrı səlahiyyət.",
+      "desc": "Səlahiyyətli orqanlar hər biri öz açarlarını, siyasətini və ləğvetmə səlahiyyətini saxlayaraq sıx əməkdaşlıq edə bilər.",
+      "examples": [
+        "Etibarın ortaq kökü yoxdur",
+        "Operator nəzarətinin ötürülməsi yoxdur"
       ]
     },
-    "us": {
-      "code": "US - Amerika Birləşmiş Ştatları",
-      "tag": "Federasiya problemi",
-      "title": "Müttəfiqlər etimad kökünüzü qəbul etməyəcək.",
-      "desc": "Beş Göz, NATO və Aİ tərəfdaşlarından heç biri ABŞ-ın nəzarətində olan etimad lövbərinə tabe olmayacaq. Tanınma müqavilələri etimadın ötürülməsini təmin etməklə yanaşı, hər bir müttəfiqin suveren qalmasına imkan verir.",
-      "benefits": [
-        "Siyasi təslimçilik olmadan müttəfiq infrastrukturu",
-        "Hipermiqyaslı bulud təminatçıları xarici ölkələrin suverenlik qanunlarına uyğun satış həyata keçirir"
+    "scoped": {
+      "code": "02",
+      "tag": "Dar əhatə dairəsi",
+      "title": "Bir əməliyyat kifayət edə bilər.",
+      "desc": "Tanınma daimi ittifaq yaratmadan bir rol, bir məqsəd və ya bir zaman pəncərəsini əhatə edə bilər.",
+      "examples": [
+        "Aydın əhatə dairəsi və müddəti",
+        "Yerli icazə həlledici olaraq qalır"
       ]
     },
-    "kp": {
-      "code": "KP - Şimali Koreya",
-      "tag": "Son dərəcə sərt məhdudiyyət",
-      "title": "Ən şübhəçi suveren üçün sınaq.",
-      "desc": "Xaricdən gələn heç nəyə etibar etməyən dövlət. Əgər protokol dünyanın ən qapalı suveren dövləti üçün sıfır asılılıq və tam operator mülkiyyəti ilə işləyirsə, hər kəs üçün işləyər.",
-      "benefits": [
-        "Avtarkiya səviyyəli layihələndirmə məhdudiyyəti",
-        "Heç vaxt xarici səlahiyyətə bağlanmır"
+    "different": {
+      "code": "03",
+      "tag": "Fərqli maraqlar",
+      "title": "Tanınma təsdiq deyil.",
+      "desc": "Fərqli siyasətləri olan səlahiyyətlilər, daha geniş siyasi razılaşma tələb etmədən, məhdud əlaqələri yoxlaya bilərlər.",
+      "examples": [
+        "İmzalanmış sübut nəzərdə tutulan uyğunlaşdırmanı əvəz edir",
+        "İstənilən hakimiyyət öz etibarını geri ala bilər"
       ]
     }
   },
@@ -125,12 +117,30 @@
         "name": "Audit apar",
         "desc": "Hər bir qərar müdaxiləni üzə çıxaran sübut izi yaradır. Heç kimin sözünüzə kor-koranə inanmasına ehtiyac qalmır."
       }
+    ],
+    "evidence": [
+      {
+        "title": "Etibarın ortaq kökü yoxdur.",
+        "action": "Testə baxın"
+      },
+      {
+        "title": "Ləğvetmə səlahiyyət sərhədlərini aşır.",
+        "action": "Onu təkrarlayın"
+      },
+      {
+        "title": "Protokol xüsusiyyətləri Tamarin modellərinə malikdir.",
+        "action": "Rəsmi sübutlara baxın"
+      },
+      {
+        "title": "Niyə SPIFFE, DID və ya OAuth olmasın?",
+        "action": "Müqayisəni oxuyun"
+      }
     ]
   },
   "protocol": {
     "label": "Protokol",
     "title": "Açıq RFC proqramı: təchizatçının deyil, standartların formalaşdırdığı yanaşma.",
-    "subtitle": "Üç SDK nəsli istifadəyə verilib (TypeScript, Go, .NET). 1,041 test. Maşınla yoxlanmış səkkiz Tamarin lemması. Çoxbuludlu suveren sistemlər Azure, DigitalOcean, Cloudflare və Akamai/Linode üzərində aktivdir.",
+    "subtitle": "Python istinad tətbiqi və TypeScript, Go və .NET SDK-ları v0.56.0-də əlaqələndirilir. Əsas dəstdə 1,327 testləri var, Tamarin yoxlaması üçün sənədləşdirilmiş rəsmi protokol sübutları.",
     "stack": {
       "title": "Texnoloji yığın",
       "l1": {
@@ -202,14 +212,21 @@
       "operators": "Xarici operatorlar",
       "status": "Qoşulma prosesi: Mərhələ 2",
       "online": "● ONLAYN"
+    },
+    "governance": {
+      "label": "Protokol İdarəçiliyi",
+      "title": "Açıq dəyişiklik, açıq səlahiyyət.",
+      "description": "Protokol dəyişiklikləri ictimai layihələr, baxıcının nəzərdən keçirilməsi, öhdəliklər dəyişdikdə operatorun nəzərdən keçirilməsi, etibarlı dövlət dəyişiklikləri üçün təhlükəsizlik baxışı və tarixli qərarlar vasitəsilə həyata keçirilir.",
+      "boundary": "İstinad icrası protokol deyil. Operatorlar öz açarlarını, siyasətlərini, etibar qərarlarını və çıxış hüquqlarını saxlayırlar.",
+      "cta": "İdarəetmə əsasını oxuyun"
     }
   },
   "silicon": {
-    "label": "Silikon",
-    "title": "Xarici silikon üzərində işləyən suveren protokol sadəcə nümayişdir.",
-    "subtitle": "Genesis Mesh səlahiyyəti proqram təminatında yoxlayır. Lakin proqram təminatı yalnız işlədiyi silikon qədər suverendir. TSWI, Tunisin Suveren Silisium Lövhəsi Təşəbbüsü, dövrəni tamamlayır: interpozerə dair öz əqli mülkiyyəti, öz qablaşdırma müəssisəsi və öz orkestrasiya yığını. Girişdə standart çipletlər, çıxışda suveren hesablama. Üç qitənin kəsişməsində günəş enerjisi ilə işləyir və hesablama xərcinin yarıdan çoxunu aradan qaldırır. Birinci mərhələ tamamlanıb.",
-    "conclusion": "Protokol məntiqi idarə edir. Tunis silikonu idarə edir.",
-    "cta": "TSWI arayışını oxuyun →"
+    "label": "Araşdırma",
+    "title": "Suveren Hesablama",
+    "subtitle": "TSWI proqram təminatının suverenliyinin altında olan aparat qatını araşdırır: operatora məxsus qablaşdırma, interposer dizaynı, orkestrləşdirmə və enerjidən xəbərdar olan hesablama infrastrukturu.",
+    "conclusion": "Bu, Genesis Mesh protokolunun qəbulu üçün tələb deyil, ayrıca tədqiqat yoludur.",
+    "cta": "TSWI tədqiqat brifinqini tələb edin →"
   },
   "live": {
     "label": "Aktiv sistem",
@@ -225,21 +242,21 @@
     "over": "İşlədiyi infrastruktur"
   },
   "closing": {
-    "title": "Səlahiyyəti özünüzdə saxlayın.",
-    "titleAccent": "Təchizatçıdan asılı olmayın.",
-    "subtitle": "190 ölkə üçün bu, öz etimad lövbərlərinə sahib olmağın ən qısa yoludur. Üç güc üçün isə onlardan imtina etmədən qarşılıqlı işləməyin yeganə yoludur.",
+    "title": "Genesis Mesh ilə qurun.",
+    "titleAccent": "Səlahiyyətinizi qoruyun.",
+    "subtitle": "Öz etibar qərarlarınızdan imtina etmədən rolunuza uyğun olan övladlığa götürmə yolunu seçin.",
     "builders": {
-      "who": "190 ölkə üçün: Qurucular və memarlar",
+      "who": "Proqram təminatı tərtibatçıları üçün",
       "title": "Öz suveren etimad domeninizi işə salın.",
       "desc": "RFC-ləri oxuyun, TypeScript / Go / .NET SDK-larını əldə edin və artıq sahib olduğunuz infrastruktur üzərində L2 Suveren İcması yaradın.",
       "cta": "Tərtibatçı mərkəzinə keçin →",
       "altText": "Açıq mənbəli təşkilat →"
     },
     "strategic": {
-      "who": "Üç güc üçün: Dövlət və strateji aktorlar",
-      "title": "Bu söhbət SDK ilə başlamır.",
-      "desc": "Fəlsəfi əsaslandırma üçün Elections 2026 mətnini tam oxuyun, sonra birbaşa, məxfi kanal açın. Forma, satış tuneli və vasitəçi yoxdur.",
-      "cta": "Tam hekayəni oxuyun →",
+      "who": "Dövlətlər və qurumlar üçün",
+      "title": "Protokolu, sübutu və idarəetmə sərhədini qiymətləndirin.",
+      "desc": "İctimai arxitektura və təkrarlana bilən sübutları nəzərdən keçirin, sonra institusional yerləşdirmə sualları üçün birbaşa kanal açın.",
+      "cta": "Strateji hesabatı oxuyun →",
       "altText": "Birbaşa kanal: authority@genesismesh.org →"
     }
   },
@@ -352,6 +369,12 @@
     "unknown": "Naməlum",
     "disclaimer": "Məcmu əməliyyat siqnalları. Təhlükəsizlik və ya idarəetmə barədə tam təsəvvür yaratmır.",
     "unavailableMessage": "Canlı məlumatı yoxlamaq mümkün olmadı. Keşlənmiş dəyərlər aktual kimi təqdim edilmir.",
-    "dashboard": "Açıq idarəetmə panelini yoxlayın"
+    "dashboard": "Açıq idarəetmə panelini yoxlayın",
+    "notReported": "Məlumat verilməyib",
+    "browserFallback": {
+      "title": "Canlı telemetriya brauzerə giriş tələb edir.",
+      "description": "Qeydə alınmış və müstəqil şəkildə təkrarlana bilən sübutlar aşağıda mövcuddur."
+    },
+    "proofAvailability": "Qeydə alınmış və müstəqil surətdə təkrarlana bilən sübutlar aşağıdakı linklərdə mövcuddur."
   }
 }

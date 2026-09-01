@@ -2,11 +2,11 @@
   "nav": {
     "brand": "GENESIS■MESH",
     "links": {
-      "stakes": "Likmes",
-      "powers": "Trīs lielvaras",
+      "stakes": "Suverenitāte",
+      "powers": "Sadarbība",
       "mechanics": "Darbības principi",
       "protocol": "Protokols",
-      "hardware": "Silīcijs",
+      "hardware": "Pētījumi",
       "docs": "Dokumentācija",
       "proof": "Pierādījums",
       "live": "Tiešsaistes tīkls",
@@ -51,52 +51,44 @@
     "vlabel": "Pret suverenitāti neitrāla infrastruktūra"
   },
   "stakes": {
-    "label": "Likmes",
-    "title": "Digitālā suverenitāte tagad ir valsts izdzīvošanas jautājums, bet mašīnām nav līgumu slāņa.",
-    "subtitle": "Valstis slēdz līgumus. Digitālajām sistēmām līdzvērtīga mehānisma nav. Kad vienas valsts MI aģents saskaras ar citas valsts infrastruktūru, jautājums par to, kas galvo par šo vienību, kādi noteikumi tai jāievēro un vai šo uzticēšanos var atsaukt, ir diplomātisks jautājums, uz kuru pašlaik neviens protokols neatbild. Genesis Mesh ir šī atbilde.",
-    "notLine": "Ne blokķēde. Ne VPN. Ne pakalpojumu tīklojums. Ne aģentu ietvars. Ne tirgus platforma. Līgumu slānis mašīnām.",
-    "stats": {
-      "one": "190+",
-      "oneDesc": "Valstis, kas joprojām meklē suverenitātes formulu",
-      "two": "3",
-      "twoDesc": "Lielvaras, kurām jau pieder visa sava tehnoloģiju kopa",
-      "three": "1",
-      "threeDesc": "Protokols, kas kalpo abām pusēm, nenostājoties nevienā no tām"
-    }
+    "label": "Suverenitāte",
+    "title": "Suverenitāte bez izolācijas.",
+    "subtitle": "Neatkarīgām sistēmām ir jāsadarbojas, neprasot politisko saskaņošanu, kopīgu infrastruktūru vai kopīgu uzticības sakni.",
+    "notLine": "Genesis Mesh apstrādā šīs attiecības mašīnlasāmo apakškopu: atzīšanu, darbības jomu, deleģēšanu, atsaukšanu un pierādījumus.",
+    "boundary": "Tas neapspriež politikas, neizšķir strīdus un nepārvalda dalībniekus. Tie paliek cilvēku un institucionālie pienākumi."
   },
   "powers": {
-    "label": "Trīs lielvaras",
-    "title": "Suverēnām lielvarām nav vajadzīga neatkarība. Tām vajadzīga sadarbspēja bez pakļaušanās.",
-    "subtitle": "Vērtības virziens mainās, taču tā nepazūd. Neviena sabiedrotās valsts galvaspilsēta nepieņems citas valsts uzticamības sakni, tāpēc atzīšanai jānotiek ar parakstītiem, tvērumā ierobežotiem un atsaucamiem līgumiem starp līdzvērtīgām pusēm.",
-    "cn": {
-      "code": "CN - Ķīna",
-      "tag": "Eksportētāja apliecinājums",
-      "title": "Tehniski pierādiet kontroles neesamību.",
-      "desc": "Ikviens infrastruktūras eksports sastopas ar vienu un to pašu iebildumu: jūsu aprīkojums nozīmē jūsu kontroli. Pārbaudāma, operatoram piederoša un atsaucama uzticamība ir tehniskā atbilde uz šo politisko iebildumu.",
-      "benefits": [
-        "Partnervalstis var auditēt un atsaukt uzticamību, nevienam neticot uz vārda",
-        "Savstarpēja atzīšana ar Rietumu suverēnajiem dalībniekiem, neviena puse netur otras puses atslēgas",
-        "Ķīnas un Rietumu integrācija vienotā pārvaldības modelī"
+    "label": "Sadarbība",
+    "title": "Sadarbībai nav nepieciešama saskaņošana.",
+    "subtitle": "Genesis Mesh nekodē alianses. Protokolam nepieciešama kriptogrāfiska atpazīšana, nevis politiska vienošanās.",
+    "close": {
+      "code": "01",
+      "tag": "Cieša sadarbība",
+      "title": "Kopīgs darbs, atsevišķa autoritāte.",
+      "desc": "Iestādes var cieši sadarboties, kamēr katra saglabā savas atslēgas, politiku un atsaukšanas tiesības.",
+      "examples": [
+        "Nav kopīgas uzticības saknes",
+        "Nav operatora kontroles nodošanas"
       ]
     },
-    "us": {
-      "code": "US - Amerikas Savienotās Valstis",
-      "tag": "Federācijas problēma",
-      "title": "Sabiedrotie nepieņems jūsu uzticamības sakni.",
-      "desc": "Five Eyes, NATO un ES partneri: neviens no tiem nepakļausies ASV kontrolētam uzticamības enkuram. Atzīšanas līgumi ļauj katram sabiedrotajam saglabāt suverenitāti, vienlaikus nodrošinot uzticamības apriti.",
-      "benefits": [
-        "Sabiedroto infrastruktūra bez politiskas kapitulācijas",
-        "Hipermēroga mākoņpakalpojumu sniedzēji var pārdot pakalpojumus valstīs ar digitālās suverenitātes tiesību aktiem"
+    "scoped": {
+      "code": "02",
+      "tag": "Šaura darbības joma",
+      "title": "Var pietikt ar vienu darījumu.",
+      "desc": "Atzīšana var attiekties uz vienu lomu, vienu mērķi vai vienu laika periodu, neveidojot pastāvīgu aliansi.",
+      "examples": [
+        "Skaidrs darbības joma un derīguma termiņš",
+        "Vietējā atļauja joprojām ir izšķiroša"
       ]
     },
-    "kp": {
-      "code": "KP - Ziemeļkoreja",
-      "tag": "Ekstrēmais ierobežojums",
-      "title": "Paranoiski suverēnā dalībnieka pārbaude.",
-      "desc": "Valsts, kas neuzticas nekam ārējam. Ja protokols darbojas pasaulē visstingrāk aizsargātajam suverēnajam dalībniekam, bez jebkādas atkarības un ar pilnīgu operatora īpašumtiesību kontroli, tas der ikvienam.",
-      "benefits": [
-        "Autarkijas līmeņa projektēšanas ierobežojums",
-        "Nekad nekādas ārvalstu pilnvaru piesaistes"
+    "different": {
+      "code": "03",
+      "tag": "Dažādas intereses",
+      "title": "Atzinība nav apstiprinājums.",
+      "desc": "Varas iestādes ar atšķirīgu politiku var pārbaudīt ierobežotas attiecības, nepretendējot uz plašāku politisko vienošanos.",
+      "examples": [
+        "Parakstīti pierādījumi aizstāj netiešo saskaņošanu",
+        "Jebkura iestāde var atsaukt savu uzticību"
       ]
     }
   },
@@ -125,12 +117,30 @@
         "name": "Auditēt",
         "desc": "Katrs lēmums atstāj pret manipulācijām aizsargātus pierādījumus. Nevienam nav jātic uz vārda."
       }
+    ],
+    "evidence": [
+      {
+        "title": "Nav kopīgas uzticības saknes.",
+        "action": "Skatiet testu"
+      },
+      {
+        "title": "Atcelšana šķērso autoritātes robežas.",
+        "action": "Reproducēt to"
+      },
+      {
+        "title": "Protokola īpašībām ir modeļi Tamarin.",
+        "action": "Skatiet oficiālos pierādījumus"
+      },
+      {
+        "title": "Kāpēc ne SPIFFE, DID vai OAuth?",
+        "action": "Izlasi salīdzinājumu"
+      }
     ]
   },
   "protocol": {
     "label": "Protokols",
     "title": "Atvērta RFC programma, ko veido standarti, nevis piegādātāji.",
-    "subtitle": "Izlaistas trīs SDK paaudzes (TypeScript, Go, .NET). 1,041 tests. Astoņas mašīnpārbaudītas Tamarin lemmas. Vairāku mākoņu suverēnie dalībnieki darbojas Azure, DigitalOcean, Cloudflare un Akamai/Linode vidēs.",
+    "subtitle": "Python atsauces ieviešana un TypeScript, Go un .NET SDK tiek koordinēti vietnē v0.56.0. Pamatkomplektā ir 1,327 testi ar formāliem protokola pierādījumiem, kas dokumentēti Tamarin verifikācijai.",
     "stack": {
       "title": "Tehnoloģiju kopa",
       "l1": {
@@ -202,14 +212,21 @@
       "operators": "Ārējie operatori",
       "status": "Pievienošana: 2. posms",
       "online": "● TIEŠSAISTĒ"
+    },
+    "governance": {
+      "label": "Protokola pārvaldība",
+      "title": "Atklātas izmaiņas, izteikta autoritāte.",
+      "description": "Protokola izmaiņas tiek veiktas, izmantojot publiskos projektus, uzturētāju pārskatīšanu, operatora pārskatīšanu, kad mainās pienākumi, drošības pārskatīšanu attiecībā uz uzticamības stāvokļa izmaiņām un datētus lēmumus.",
+      "boundary": "Atsauces ieviešana nav protokols. Operatori saglabā savas atslēgas, politikas, uzticības lēmumus un izejas tiesības.",
+      "cta": "Izlasiet pārvaldības pamatlīniju"
     }
   },
   "silicon": {
-    "label": "Silīcijs",
-    "title": "Suverēns protokols uz ārvalstu silīcija ir tikai izrāde.",
-    "subtitle": "Genesis Mesh pārbauda pilnvaras programmatūras līmenī. Taču programmatūra ir suverēna tikai tādā mērā, kādā suverēns ir silīcijs, uz kura tā darbojas. TSWI, Tunisijas suverēno pusvadītāju plākšņu iniciatīva, noslēdz šo ciklu: pašiem piederošs starpsavienotāja intelektuālais īpašums, pašiem piederoša korpusēšanas ražotne un pašiem piederoša orķestrēšanas tehnoloģiju kopa. Ievadē standarta čipleti; izvadē suverēna skaitļošana. Ar saules enerģiju darbināta infrastruktūra trīs kontinentu krustpunktā, samazinot skaitļošanas izmaksas par vairāk nekā pusi. Pirmais posms ir pabeigts.",
-    "conclusion": "Protokols pārvalda loģiku. Tunisija pārvalda silīciju.",
-    "cta": "Lasīt TSWI pārskatu →"
+    "label": "Pētījumi",
+    "title": "Suverēna skaitļošana",
+    "subtitle": "TSWI pēta aparatūras slāni, kas ir zem programmatūras suverenitātes: operatoram piederošs iepakojums, starpposma dizains, orķestrēšana un energoefektīva skaitļošanas infrastruktūra.",
+    "conclusion": "Šis ir atsevišķs izpētes ceļš, nevis prasība, lai pieņemtu protokolu Genesis Mesh.",
+    "cta": "Pieprasiet TSWI izpētes instruktāžu →"
   },
   "live": {
     "label": "Darbībā",
@@ -225,21 +242,21 @@
     "over": "Darbojas uz"
   },
   "closing": {
-    "title": "Iegūstiet pilnvaras savās rokās.",
-    "titleAccent": "Nevis atkarību no piegādātāja.",
-    "subtitle": "190 valstīm tas ir īsākais ceļš uz īpašumtiesībām pār saviem uzticamības enkuriem. Trim lielvarām tas ir vienīgais veids, kā nodrošināt sadarbspēju, neatsakoties no tiem.",
+    "title": "Veidot ar Genesis Mesh.",
+    "titleAccent": "Saglabājiet savu autoritāti.",
+    "subtitle": "Izvēlieties adopcijas ceļu, kas atbilst jūsu lomai, nenododot savus uzticības lēmumus.",
     "builders": {
-      "who": "190 valstīm: izstrādātāji un arhitekti",
+      "who": "Programmatūras izstrādātājiem",
       "title": "Izveidojiet savu suverēno uzticamības domēnu.",
       "desc": "Izlasiet RFC, lejupielādējiet TypeScript / Go / .NET SDK un izveidojiet L2 suverēno kopienu infrastruktūrā, kas jums jau pieder.",
       "cta": "Doties uz izstrādātāju centru →",
       "altText": "Atvērtā pirmkoda organizācija →"
     },
     "strategic": {
-      "who": "Trim lielvarām: valsts un stratēģiskie dalībnieki",
-      "title": "Šī saruna nesākas ar SDK.",
-      "desc": "Izlasiet pilno Elections 2026 vēstījumu, lai iepazītos ar filozofisko pamatojumu, un pēc tam atveriet tiešu, privātu un konfidenciālu saziņas kanālu. Bez veidlapām, pārdošanas piltuvēm un starpniekiem.",
-      "cta": "Lasīt pilno stāstu →",
+      "who": "Valstīm un iestādēm",
+      "title": "Novērtējiet protokolu, pierādījumus un pārvaldības robežu.",
+      "desc": "Pārskatiet publisko arhitektūru un atkārtojamos pierādījumus, pēc tam atveriet tiešu kanālu institucionālās izvietošanas jautājumiem.",
+      "cta": "Izlasiet stratēģisko ziņojumu →",
       "altText": "Tiešais kanāls: authority@genesismesh.org →"
     }
   },
@@ -352,6 +369,12 @@
     "unknown": "Nav zināms",
     "disclaimer": "Apkopoti darbības signāli. Tie nesniedz pilnīgu drošības vai pārvaldības ainu.",
     "unavailableMessage": "Tiešsaistes datus nevarēja pārbaudīt. Kešatmiņā saglabātās vērtības netiek rādītas kā aktuālas.",
-    "dashboard": "Apskatīt publisko informācijas paneli"
+    "dashboard": "Apskatīt publisko informācijas paneli",
+    "notReported": "Nav ziņots",
+    "browserFallback": {
+      "title": "Tiešraides telemetrijai ir nepieciešama pārlūkprogrammas piekļuve.",
+      "description": "Ierakstīti un neatkarīgi reproducējami pierādījumi joprojām ir pieejami zemāk."
+    },
+    "proofAvailability": "Ierakstīti un neatkarīgi reproducējami pierādījumi joprojām ir pieejami, izmantojot tālāk norādītās saites."
   }
 }

@@ -2,11 +2,11 @@
   "nav": {
     "brand": "GENESIS■MESH",
     "links": {
-      "stakes": "Kaalul olev",
-      "powers": "Kolm suurvõimu",
+      "stakes": "Suveräänsus",
+      "powers": "Koostöö",
       "mechanics": "Toimemehhanism",
       "protocol": "Protokoll",
-      "hardware": "Räni",
+      "hardware": "Uurimine",
       "docs": "Dokumentatsioon",
       "proof": "Tõendus",
       "live": "Reaalajavõrk",
@@ -51,52 +51,44 @@
     "vlabel": "Suveräänsuse suhtes neutraalne taristu"
   },
   "stakes": {
-    "label": "Kaalul olev",
-    "title": "Digitaalne suveräänsus on nüüd riikliku püsimajäämise küsimus, kuid masinatel puudub lepingukiht.",
-    "subtitle": "Riigid sõlmivad lepinguid. Digisüsteemidel puudub samaväärne mehhanism. Kui ühe riigi tehisintellektiagent puutub kokku teise riigi taristuga, tekivad küsimused: kes selle olemi eest vastutab, kelle reeglid kehtivad ja kas seda usaldust saab tühistada? See on diplomaatiline küsimus, millele ükski protokoll praegu vastust ei anna. Genesis Mesh ongi see vastus.",
-    "notLine": "Mitte plokiahel. Mitte VPN. Mitte teenusevõrk. Mitte agendiraamistik. Mitte kauplemiskoht. Masinate lepingukiht.",
-    "stats": {
-      "one": "190+",
-      "oneDesc": "Riiki otsib endiselt suveräänsuse valemit",
-      "two": "3",
-      "twoDesc": "Suurvõimu juba omavad kogu oma tehnoloogiapinu",
-      "three": "1",
-      "threeDesc": "Protokoll, mis teenib mõlemaid ilma poolt valimata"
-    }
+    "label": "Suveräänsus",
+    "title": "Suveräänsus ilma isolatsioonita.",
+    "subtitle": "Sõltumatud süsteemid peavad tegema koostööd, ilma et oleks vaja poliitilist ühtlustumist, jagatud infrastruktuuri või ühist usaldusjuurt.",
+    "notLine": "Genesis Mesh käsitleb selle seose masinloetavat alamhulka: tunnustamine, ulatus, delegeerimine, tühistamine ja tõendid.",
+    "boundary": "See ei pea läbirääkimisi poliitika üle, ei lahenda vaidlusi ega reguleeri osalejaid. Need jäävad inimlikeks ja institutsionaalseteks kohustusteks."
   },
   "powers": {
-    "label": "Kolm suurvõimu",
-    "title": "Suveräänsed suurvõimud ei vaja iseseisvust. Nad vajavad koostalitlust ilma allutamiseta.",
-    "subtitle": "Väärtuspakkumine pöördub ümber, kuid ei kao. Ükski liitlasriigi pealinn ei aktsepteeri teise riigi usaldusjuurt, seega peab tunnustamine liikuma võrdsete vahel sõlmitud, allkirjastatud, piiritletud ja tühistatavate lepingutena.",
-    "cn": {
-      "code": "CN - Hiina",
-      "tag": "Eksportija tõend",
-      "title": "Tõendage tehniliselt, et kontrolli ei ole.",
-      "desc": "Iga taristueksport seisab silmitsi sama vastuväitega: teie seadmed tähendavad teie kontrolli. Kontrollitav, käitaja omandis ja tühistatav usaldus on tehniline vastus sellele poliitilisele vastuväitele.",
-      "benefits": [
-        "Partnerriigid saavad auditeerida ja tühistada, ilma et peaksid kellegi sõnu usaldama",
-        "Vastastikune tunnustamine lääne suveräänsete riikidega, kus kumbki pool ei valda teise võtmeid",
-        "Hiina ja lääneriikide lõimimine ühe juhtimismudeli alusel"
+    "label": "Koostöö",
+    "title": "Koostöö ei nõua ühtlustamist.",
+    "subtitle": "Genesis Mesh ei kodeeri liite. Protokoll nõuab krüptograafilist äratundmist, mitte poliitilist kokkulepet.",
+    "close": {
+      "code": "01",
+      "tag": "Tihe koostöö",
+      "title": "Ühine töö, eraldi asutus.",
+      "desc": "Ametiasutused saavad teha tihedat koostööd, samal ajal kui igaüks säilitab oma võtmed, poliitika ja tühistamisõiguse.",
+      "examples": [
+        "Ühine usaldusjuur puudub",
+        "Ei mingit operaatori kontrolli üleandmist"
       ]
     },
-    "us": {
-      "code": "US - Ameerika Ühendriigid",
-      "tag": "Föderatsiooni probleem",
-      "title": "Liitlased ei võta teie usaldusjuurt omaks.",
-      "desc": "Five Eyes, NATO ja ELi partnerid: ükski neist ei alluta end USA kontrollitavale usaldusankrule. Tunnustamislepingud võimaldavad igal liitlasel jääda suveräänseks, samal ajal kui usaldus saab siiski liikuda.",
-      "benefits": [
-        "Liitlaste taristu ilma poliitilise alistumiseta",
-        "Hüperskaala pilveteenuse pakkujad saavad müüa välisriikide suveräänsusõiguse tingimustes"
+    "scoped": {
+      "code": "02",
+      "tag": "Kitsas ulatus",
+      "title": "Ühest tehingust võib piisata.",
+      "desc": "Tunnustus võib hõlmata ühte rolli, ühte eesmärki või ühte ajaakent ilma püsivat liitu loomata.",
+      "examples": [
+        "Selgesõnaline kohaldamisala ja kehtivusaeg",
+        "Kohalik luba jääb määravaks"
       ]
     },
-    "kp": {
-      "code": "KP - Põhja-Korea",
-      "tag": "Äärmuslik piirang",
-      "title": "Paranoilise suverääni katse.",
-      "desc": "Riik, mis ei usalda midagi välist. Kui protokoll toimib maailma kõige suletuma suveräänse riigi jaoks, ilma sõltuvusteta ja täielikult käitaja omanduses, toimib see igaühe jaoks.",
-      "benefits": [
-        "Autarkia tasemel projekteerimispiirang",
-        "Mitte kunagi ühtegi välismaise volituse usaldusankrut"
+    "different": {
+      "code": "03",
+      "tag": "Erinevad huvid",
+      "title": "Tunnustus ei ole heakskiit.",
+      "desc": "Erineva poliitikaga võimud saavad kontrollida piiratud suhet ilma laiema poliitilise kokkuleppe saavutamiseta.",
+      "examples": [
+        "Allkirjastatud tõendid asendavad kaudset joondamist",
+        "Kumbki asutus võib oma usalduse tühistada"
       ]
     }
   },
@@ -125,12 +117,30 @@
         "name": "Auditeeri",
         "desc": "Iga otsus jätab manipuleerimiskindla tõendi. Keegi ei pea uskuma pelgalt teie sõnu."
       }
+    ],
+    "evidence": [
+      {
+        "title": "Ühine usaldusjuur puudub.",
+        "action": "Vaata testi"
+      },
+      {
+        "title": "Tühistamine ületab volituste piire.",
+        "action": "Paljundage seda"
+      },
+      {
+        "title": "Protokolli omadustel on mudelid Tamarin.",
+        "action": "Vaadake ametlikke tõendeid"
+      },
+      {
+        "title": "Miks mitte SPIFFE, DID või OAuth?",
+        "action": "Lugege võrdlust"
+      }
     ]
   },
   "protocol": {
     "label": "Protokoll",
     "title": "Avatud RFC-programm, kujundatud standardite, mitte tarnija järgi.",
-    "subtitle": "Välja on antud kolm SDK-põlvkonda (TypeScript, Go, .NET). 1,041 testi. Kaheksa masinkontrollitud Tamarin lemmat. Mitme pilve suveräänsed süsteemid töötavad Azure, DigitalOcean, Cloudflare ja Akamai/Linode platvormidel.",
+    "subtitle": "Python viiterakendust ning TypeScript, Go ja .NET SDK-sid koordineeritakse aadressil v0.56.0. Põhikomplektis on 1,327 testid ja ametlikud protokolli tõendid on dokumenteeritud Tamarin kontrollimiseks.",
     "stack": {
       "title": "Tehnoloogiapinu",
       "l1": {
@@ -202,14 +212,21 @@
       "operators": "Välised käitajad",
       "status": "Kasutuselevõtt, 2. etapp",
       "online": "● VÕRGUS"
+    },
+    "governance": {
+      "label": "Protokollijuhtimine",
+      "title": "Avatud muutus, selge volitus.",
+      "description": "Protokolli muudatused liiguvad läbi avalike mustandite, hooldaja ülevaatuse, operaatori ülevaatuse, kui kohustused muutuvad, usaldusseisundi muudatuste turvalisuse ülevaatuse ja kuupäevastatud otsuste kaudu.",
+      "boundary": "Võrdlusrakendus ei ole protokoll. Operaatorid säilitavad oma võtmed, poliitikad, usaldusotsused ja väljumisõigused.",
+      "cta": "Lugege juhtimispõhimõtteid"
     }
   },
   "silicon": {
-    "label": "Räni",
-    "title": "Välismaisel ränil töötav suveräänne protokoll on vaid teater.",
-    "subtitle": "Genesis Mesh kontrollib volitusi tarkvaras. Kuid tarkvara on täpselt nii suveräänne kui räni, millel see töötab. TSWI, Tuneesia suveräänse räniplaadi algatus, sulgeb ahela: oma interposer-tehnoloogia intellektuaalomand, oma kapseldusrajatis ja oma orkestreerimispinu. Sisse lähevad standardsed kiibipletid ja välja tuleb suveräänne andmetöötlus. Süsteem töötab päikeseenergial kolme maailmajao ristteel ning selle andmetöötluskuludest on eemaldatud üle poole. Esimene etapp on valmis.",
-    "conclusion": "Protokoll juhib loogikat. Tuneesia juhib räni.",
-    "cta": "Lugege TSWI ülevaadet →"
+    "label": "Uurimine",
+    "title": "Suveräänne arvutus",
+    "subtitle": "TSWI uurib tarkvara suveräänsuse all olevat riistvarakihti: operaatorile kuuluv pakend, interposer disain, orkestreerimine ja energiateadlik arvutusinfrastruktuur.",
+    "conclusion": "See on eraldi uurimisrada, mitte protokolli Genesis Mesh kasutuselevõtu nõue.",
+    "cta": "Taotlege TSWI teadusuuringute infotundi →"
   },
   "live": {
     "label": "Töös",
@@ -225,21 +242,21 @@
     "over": "Töötab platvormidel"
   },
   "closing": {
-    "title": "Võtke volitused enda kätte.",
-    "titleAccent": "Ärge jääge tarnijast sõltuma.",
-    "subtitle": "190 riigi jaoks on see lühim tee oma usaldusankrute omamiseni. Kolme suurvõimu jaoks on see ainus viis koostalitluseks ilma neist loobumata.",
+    "title": "Ehitage koos Genesis Mesh-ga.",
+    "titleAccent": "Hoidke oma autoriteeti.",
+    "subtitle": "Valige oma rolliga sobiv lapsendamise tee, ilma et peaksite oma usaldusotsuseid loovutama.",
     "builders": {
-      "who": "190 riigile, arendajad ja arhitektid",
+      "who": "Tarkvaraarendajatele",
       "title": "Looge oma suveräänne usaldusdomeen.",
       "desc": "Lugege RFC-sid, hankige TypeScript / Go / .NET SDK-d ja käivitage L2 suveräänne kogukond taristul, mis teile juba kuulub.",
       "cta": "Sisenege arenduskeskusse →",
       "altText": "Avatud lähtekoodiga organisatsioon →"
     },
     "strategic": {
-      "who": "Kolmele suurvõimule, riiklikele ja strateegilistele osalejatele",
-      "title": "See vestlus ei alga SDK-st.",
-      "desc": "Lugege filosoofilise põhjenduse mõistmiseks kogu Elections 2026 käsitlust, seejärel avage otsene ja konfidentsiaalne suhtluskanal. Ei mingeid vorme, müügilehtreid ega vahendajaid.",
-      "cta": "Lugege kogu lugu →",
+      "who": "Riikide ja institutsioonide jaoks",
+      "title": "Hinnake protokolli, tõestust ja juhtimispiiri.",
+      "desc": "Vaadake üle avalik arhitektuur ja reprodutseeritavad tõendid ning avage seejärel otsene kanal institutsionaalsete kasutuselevõtu küsimuste jaoks.",
+      "cta": "Lugege strateegilist ülevaadet →",
       "altText": "Otsekanal: authority@genesismesh.org →"
     }
   },
@@ -352,6 +369,12 @@
     "unknown": "Teadmata",
     "disclaimer": "Koondatud töösignaalid. Need ei anna täielikku ülevaadet turvalisusest ega juhtimisest.",
     "unavailableMessage": "Reaalajaandmeid ei saanud kontrollida. Puhverdatud väärtusi ei esitata ajakohastena.",
-    "dashboard": "Vaata avalikku töölauda"
+    "dashboard": "Vaata avalikku töölauda",
+    "notReported": "Ei teatatud",
+    "browserFallback": {
+      "title": "Reaalajas telemeetria nõuab juurdepääsu brauserile.",
+      "description": "Salvestatud ja iseseisvalt reprodutseeritavad tõendid on saadaval allpool."
+    },
+    "proofAvailability": "Salvestatud ja iseseisvalt reprodutseeritavad tõendid jäävad kättesaadavaks allolevate linkide kaudu."
   }
 }

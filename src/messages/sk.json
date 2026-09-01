@@ -2,11 +2,11 @@
   "nav": {
     "brand": "GENESIS■MESH",
     "links": {
-      "stakes": "Čo je v stávke",
-      "powers": "Tri mocnosti",
+      "stakes": "Suverenita",
+      "powers": "Spolupráca",
       "mechanics": "Mechanika",
       "protocol": "Protokol",
-      "hardware": "Kremík",
+      "hardware": "Výskum",
       "docs": "Dokumentácia",
       "proof": "Dôkaz",
       "live": "Živá sieť",
@@ -51,52 +51,44 @@
     "vlabel": "Infraštruktúra neutrálna voči suverenite"
   },
   "stakes": {
-    "label": "Čo je v stávke",
-    "title": "Digitálna suverenita je dnes otázkou národného prežitia, no zmluvná vrstva pre stroje neexistuje.",
-    "subtitle": "Štáty podpisujú zmluvy. Digitálne systémy nemajú žiadny ekvivalent. Keď sa agent umelej inteligencie jedného národa stretne s infraštruktúrou iného, otázky, kto ručí za tento subjekt, podľa čích pravidiel a či možno túto dôveru odvolať, sú diplomatickými otázkami, na ktoré dnes neexistuje protokolová odpoveď. Genesis Mesh je touto odpoveďou.",
-    "notLine": "Nie blockchain. Nie VPN. Nie service mesh. Nie rámec pre agentov. Nie trhovisko. Zmluvná vrstva pre stroje.",
-    "stats": {
-      "one": "190+",
-      "oneDesc": "Národov, ktoré stále hľadajú model suverenity",
-      "two": "3",
-      "twoDesc": "Mocnosti, ktoré už vlastnia celý svoj technologický reťazec",
-      "three": "1",
-      "threeDesc": "Protokol, ktorý slúži obom stranám bez toho, aby si jednu vybral"
-    }
+    "label": "Suverenita",
+    "title": "Suverenita bez izolácie.",
+    "subtitle": "Nezávislé systémy musia spolupracovať bez toho, aby vyžadovali politické zladenie, spoločnú infraštruktúru alebo spoločný koreň dôvery.",
+    "notLine": "Genesis Mesh spracováva strojovo čitateľnú podmnožinu tohto vzťahu: uznanie, rozsah, delegovanie, zrušenie a dôkaz.",
+    "boundary": "Nevyjednáva politiku, nerozhoduje o sporoch ani neriadi účastníkov. Zostávajú ľudské a inštitucionálne povinnosti."
   },
   "powers": {
-    "label": "Tri mocnosti",
-    "title": "Suverénne mocnosti nepotrebujú nezávislosť. Potrebujú spolupracovať bez podriadenosti.",
-    "subtitle": "Hodnota sa obracia, ale nestráca. Žiadne hlavné mesto spojeneckého štátu neprijme koreň dôvery iného štátu, preto sa uznávanie musí prenášať prostredníctvom podpísaných, rozsahom vymedzených a odvolateľných zmlúv medzi rovnocennými partnermi.",
-    "cn": {
-      "code": "CN - Čína",
-      "tag": "Dôkaz exportéra",
-      "title": "Technicky dokážte, že nemáte kontrolu.",
-      "desc": "Každý vývoz infraštruktúry naráža na rovnakú námietku: vaše zariadenie znamená vašu kontrolu. Overiteľná, prevádzkovateľom vlastnená a odvolateľná dôvera je technickou odpoveďou na túto politickú námietku.",
-      "benefits": [
-        "Partnerské krajiny môžu vykonávať audit a odvolávať dôveru bez toho, aby sa spoliehali na niečie slovo",
-        "Vzájomné uznávanie so západnými suverénnymi aktérmi, pričom ani jedna strana nedrží kľúče druhej",
-        "Čínsko-západná integrácia v rámci jednotného modelu riadenia"
+    "label": "Spolupráca",
+    "title": "Spolupráca si nevyžaduje zosúladenie.",
+    "subtitle": "Genesis Mesh nekóduje aliancie. Protokol vyžaduje kryptografické rozpoznanie, nie politickú dohodu.",
+    "close": {
+      "code": "01",
+      "tag": "Úzka spolupráca",
+      "title": "Spoločná práca, samostatná právomoc.",
+      "desc": "Orgány môžu úzko spolupracovať, pričom si každý ponecháva svoje vlastné kľúče, politiku a právo na odvolanie.",
+      "examples": [
+        "Žiadny spoločný koreň dôvery",
+        "Žiadny prenos kontroly operátora"
       ]
     },
-    "us": {
-      "code": "US - Spojené štáty",
-      "tag": "Problém federácie",
-      "title": "Spojenci váš koreň dôvery neprijmú.",
-      "desc": "Five Eyes, NATO a partneri z EÚ: nikto z nich sa nepodriadi kotve dôvery kontrolovanej Spojenými štátmi. Zmluvy o vzájomnom uznávaní umožňujú každému spojencovi zachovať si suverenitu a zároveň zabezpečujú tok dôvery.",
-      "benefits": [
-        "Spojenecká infraštruktúra bez politickej kapitulácie",
-        "Hyperscale poskytovatelia môžu predávať v súlade so zahraničnými zákonmi o suverenite"
+    "scoped": {
+      "code": "02",
+      "tag": "Úzky rozsah",
+      "title": "Jedna transakcia môže stačiť.",
+      "desc": "Uznanie môže pokrývať jednu rolu, jeden účel alebo jedno časové okno bez vytvorenia stálej aliancie.",
+      "examples": [
+        "Explicitný rozsah a expirácia",
+        "Rozhodujúce zostáva miestne povolenie"
       ]
     },
-    "kp": {
-      "code": "KP - Severná Kórea",
-      "tag": "Extrémne obmedzenie",
-      "title": "Skúška paranoidne suverénneho štátu.",
-      "desc": "Štát, ktorý nedôveruje ničomu externému. Ak protokol funguje pre najstráženejší suverénny štát na svete, s nulovou závislosťou a úplným vlastníctvom zo strany prevádzkovateľa, funguje pre každého.",
-      "benefits": [
-        "Konštrukčné obmedzenie na úrovni autarkie",
-        "Žiadne ukotvenie v zahraničnej autorite, nikdy"
+    "different": {
+      "code": "03",
+      "tag": "Rôzne záujmy",
+      "title": "Uznanie nie je schválenie.",
+      "desc": "Orgány s rôznymi politikami môžu overiť ohraničený vzťah bez nároku na širšiu politickú dohodu.",
+      "examples": [
+        "Podpísané dôkazy nahrádzajú implicitné zarovnanie",
+        "Každý orgán môže odvolať svoju dôveru"
       ]
     }
   },
@@ -125,12 +117,30 @@
         "name": "Auditovať",
         "desc": "Každé rozhodnutie zanecháva dôkaz odhaľujúci neoprávnenú manipuláciu. Nikto sa nemusí spoliehať iba na vaše slovo."
       }
+    ],
+    "evidence": [
+      {
+        "title": "Žiadny spoločný koreň dôvery.",
+        "action": "Pozrite si test"
+      },
+      {
+        "title": "Odvolanie prekračuje hranice autority.",
+        "action": "Reprodukujte to"
+      },
+      {
+        "title": "Vlastnosti protokolu majú modely Tamarin.",
+        "action": "Pozrite si formálne dôkazy"
+      },
+      {
+        "title": "Prečo nie SPIFFE, DID alebo OAuth?",
+        "action": "Prečítajte si porovnanie"
+      }
     ]
   },
   "protocol": {
     "label": "Protokol",
     "title": "Otvorený program RFC, formovaný štandardmi, nie dodávateľom.",
-    "subtitle": "Vydali sme tri generácie SDK (TypeScript, Go, .NET). 1 041 testov. Osem strojovo overených lem v Tamarin. Multicloudoví suverénni aktéri sú v prevádzke na platformách Azure, DigitalOcean, Cloudflare a Akamai/Linode.",
+    "subtitle": "Referenčná implementácia Python a súpravy SDK TypeScript, Go a .NET sú koordinované v v0.56.0. Základná sada má testy 1,327 s formálnymi protokolmi zdokumentovanými pre overenie Tamarin.",
     "stack": {
       "title": "Technologické vrstvy",
       "l1": {
@@ -202,14 +212,21 @@
       "operators": "Externí prevádzkovatelia",
       "status": "Zapájanie, fáza 2",
       "online": "● ONLINE"
+    },
+    "governance": {
+      "label": "Správa protokolov",
+      "title": "Otvorená zmena, explicitná autorita.",
+      "description": "Zmeny protokolu sa pohybujú prostredníctvom verejných návrhov, kontroly správcom, kontroly operátora, keď sa zmenia povinnosti, kontroly bezpečnosti pre zmeny stavu dôveryhodnosti a dátumových rozhodnutí.",
+      "boundary": "Referenčná implementácia nie je protokol. Operátori si ponechávajú svoje vlastné kľúče, zásady, rozhodnutia o dôveryhodnosti a práva na ukončenie.",
+      "cta": "Prečítajte si základnú líniu riadenia"
     }
   },
   "silicon": {
-    "label": "Kremík",
-    "title": "Suverénny protokol na cudzom kremíku je iba divadlo.",
-    "subtitle": "Genesis Mesh overuje autoritu v softvéri. Softvér je však suverénny iba natoľko, nakoľko je suverénny kremík, na ktorom beží. TSWI, Tuniská iniciatíva suverénnych waferov, uzatvára celý reťazec: vlastné duševné vlastníctvo pre interposer, vlastné zariadenie na puzdrenie a vlastný orchestračný stack. Na vstupe komoditné čiplety, na výstupe suverénny výpočtový výkon. So solárnym napájaním na križovatke troch kontinentov a s odstránením viac než polovice nákladov na výpočtový výkon. Prvá fáza je dokončená.",
-    "conclusion": "Protokol riadi logiku. Tunisko riadi kremík.",
-    "cta": "Prečítať prehľad TSWI →"
+    "label": "Výskum",
+    "title": "Sovereign Compute",
+    "subtitle": "TSWI skúma hardvérovú vrstvu pod softvérovou suverenitou: obaly vo vlastníctve operátora, dizajn interposeru, orchestráciu a energeticky orientovanú výpočtovú infraštruktúru.",
+    "conclusion": "Toto je samostatný výskumný kanál, nie je to požiadavka na prijatie protokolu Genesis Mesh.",
+    "cta": "Vyžiadajte si brífing výskumu TSWI →"
   },
   "live": {
     "label": "V prevádzke",
@@ -225,21 +242,21 @@
     "over": "Beží na"
   },
   "closing": {
-    "title": "Získajte vlastnú autoritu.",
-    "titleAccent": "Nie závislosť od dodávateľa.",
-    "subtitle": "Pre 190 krajín je to najkratšia cesta k vlastníctvu vlastných kotiev dôvery. Pre tri mocnosti je to jediný spôsob spolupráce bez toho, aby sa ich museli vzdať.",
+    "title": "Zostavte pomocou Genesis Mesh.",
+    "titleAccent": "Udržujte svoju autoritu.",
+    "subtitle": "Vyberte si cestu osvojenia, ktorá zodpovedá vašej úlohe, bez toho, aby ste sa vzdali svojich vlastných rozhodnutí o dôvere.",
     "builders": {
-      "who": "Pre 190 krajín: vývojári a architekti",
+      "who": "Pre vývojárov softvéru",
       "title": "Spustite vlastnú suverénnu doménu dôvery.",
       "desc": "Prečítajte si RFC, stiahnite si SDK pre TypeScript / Go / .NET a vytvorte suverénnu komunitu L2 na infraštruktúre, ktorú už vlastníte.",
       "cta": "Vstúpiť do vývojárskeho centra →",
       "altText": "Organizácia s otvoreným zdrojovým kódom →"
     },
     "strategic": {
-      "who": "Pre tri mocnosti: štátni a strategickí aktéri",
-      "title": "Tento rozhovor sa nezačína SDK.",
-      "desc": "Prečítajte si úplný príbeh Elections 2026 s filozofickou argumentáciou a potom otvorte priamy, súkromný a dôverný komunikačný kanál. Bez formulárov, marketingových lievikov a sprostredkovateľov.",
-      "cta": "Prečítať celý príbeh →",
+      "who": "Pre štáty a inštitúcie",
+      "title": "Vyhodnoťte protokol, dôkaz a hranice riadenia.",
+      "desc": "Preskúmajte verejnú architektúru a reprodukovateľné dôkazy a potom otvorte priamy kanál pre otázky inštitucionálneho nasadenia.",
+      "cta": "Prečítajte si strategický brief →",
       "altText": "Priamy kanál: authority@genesismesh.org →"
     }
   },
@@ -352,6 +369,12 @@
     "unknown": "Neznáme",
     "disclaimer": "Súhrnné prevádzkové signály. Neposkytujú úplný pohľad na bezpečnosť ani správu.",
     "unavailableMessage": "Živé údaje sa nepodarilo overiť. Hodnoty z vyrovnávacej pamäte sa neprezentujú ako aktuálne.",
-    "dashboard": "Preskúmať verejný panel"
+    "dashboard": "Preskúmať verejný panel",
+    "notReported": "Nenahlásené",
+    "browserFallback": {
+      "title": "Živá telemetria vyžaduje prístup cez prehliadač.",
+      "description": "Zaznamenané a nezávisle reprodukovateľné dôkazy zostávajú dostupné nižšie."
+    },
+    "proofAvailability": "Zaznamenané a nezávisle reprodukovateľné dôkazy zostávajú dostupné prostredníctvom nižšie uvedených odkazov."
   }
 }

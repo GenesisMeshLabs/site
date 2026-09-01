@@ -2,11 +2,11 @@
   "nav": {
     "brand": "GENESIS■MESH",
     "links": {
-      "stakes": "Lo que está en juego",
-      "powers": "Tres Potencias",
+      "stakes": "soberanía",
+      "powers": "Cooperación",
       "mechanics": "Mecánica",
       "protocol": "Protocolo",
-      "hardware": "Silicio",
+      "hardware": "Investigación",
       "docs": "Documentación",
       "proof": "Prueba",
       "live": "Red en vivo",
@@ -51,52 +51,44 @@
     "vlabel": "Infraestructura neutral en soberanía"
   },
   "stakes": {
-    "label": "Lo que está en juego",
-    "title": "La soberanía digital es ya una cuestión de supervivencia nacional, y no existe una capa de tratados para las máquinas.",
-    "subtitle": "Los Estados firman tratados. Los sistemas digitales no tienen equivalente. Cuando el agente de IA de una nación se encuentra con la infraestructura de otra, la pregunta (quién responde por esta entidad, bajo qué reglas, y si esa confianza puede retirarse) es una cuestión diplomática que hoy no tiene respuesta a nivel de protocolo. Genesis Mesh es esa respuesta.",
-    "notLine": "No es una blockchain. No es una VPN. No es un service mesh. No es un framework de agentes. No es un marketplace. Es la capa de tratados para las máquinas.",
-    "stats": {
-      "one": "190+",
-      "oneDesc": "Naciones que aún buscan una fórmula de soberanía",
-      "two": "3",
-      "twoDesc": "Potencias que ya son dueñas de su stack",
-      "three": "1",
-      "threeDesc": "Protocolo que sirve a ambas sin tomar partido"
-    }
+    "label": "soberanía",
+    "title": "Soberanía sin aislamiento.",
+    "subtitle": "Los sistemas independientes necesitan cooperar sin requerir alineación política, infraestructura compartida o una raíz común de confianza.",
+    "notLine": "Genesis Mesh maneja el subconjunto legible por máquina de esa relación: reconocimiento, alcance, delegación, revocación y evidencia.",
+    "boundary": "No negocia políticas, arbitra disputas ni gobierna a los participantes. Esas siguen siendo responsabilidades humanas e institucionales."
   },
   "powers": {
-    "label": "Las Tres Potencias",
-    "title": "Las potencias soberanas no necesitan independencia. Necesitan interoperar sin subordinarse.",
-    "subtitle": "El valor se invierte, pero no desaparece. Ninguna capital aliada acepta la raíz de confianza de otra, por lo que el reconocimiento debe viajar como tratados firmados, acotados y revocables entre iguales.",
-    "cn": {
-      "code": "CN - China",
-      "tag": "La prueba del exportador",
-      "title": "Demostrar la ausencia de control, técnicamente.",
-      "desc": "Toda exportación de infraestructura se topa con la misma objeción: tu equipamiento implica tu control. La confianza verificable, propiedad del operador y revocable es la respuesta técnica a esa objeción política.",
-      "benefits": [
-        "Las naciones socias auditan y revocan sin creer en la palabra de nadie",
-        "Reconocimiento cruzado con soberanos occidentales: ninguna parte guarda las claves de la otra",
-        "Integración chino-occidental bajo un único modelo de gobernanza"
+    "label": "Cooperación",
+    "title": "La cooperación no requiere alineación.",
+    "subtitle": "Genesis Mesh no codifica alianzas. El protocolo requiere reconocimiento criptográfico, no acuerdo político.",
+    "close": {
+      "code": "01",
+      "tag": "Estrecha cooperación",
+      "title": "Trabajo compartido, autoridad separada.",
+      "desc": "Las autoridades pueden cooperar estrechamente mientras cada una conserva sus propias claves, políticas y poder de revocación.",
+      "examples": [
+        "Sin raíz de confianza compartida",
+        "Sin transferencia del control del operador"
       ]
     },
-    "us": {
-      "code": "US - Estados Unidos",
-      "tag": "El problema de la federación",
-      "title": "Los aliados no aceptarán tu raíz.",
-      "desc": "Five Eyes, OTAN, socios de la UE: ninguno se subordinará a un ancla de confianza controlada por Estados Unidos. Los tratados de reconocimiento permiten que cada aliado siga siendo soberano mientras la confianza sigue fluyendo.",
-      "benefits": [
-        "Infraestructura aliada sin capitulación política",
-        "Los hiperescaladores venden dentro de la ley de soberanía extranjera"
+    "scoped": {
+      "code": "02",
+      "tag": "Alcance limitado",
+      "title": "Una transacción puede ser suficiente.",
+      "desc": "El reconocimiento puede cubrir una función, un propósito o un período de tiempo sin crear una alianza permanente.",
+      "examples": [
+        "Alcance explícito y caducidad",
+        "La autorización local sigue siendo decisiva"
       ]
     },
-    "kp": {
-      "code": "KP - Corea del Norte",
-      "tag": "La restricción extrema",
-      "title": "La prueba del soberano paranoico.",
-      "desc": "Un Estado que no confía en nada externo. Si un protocolo funciona para el soberano más resguardado del planeta, con cero dependencias y propiedad total del operador, funciona para cualquiera.",
-      "benefits": [
-        "Restricción de diseño de grado autárquico",
-        "Sin anclaje a ninguna autoridad extranjera, jamás"
+    "different": {
+      "code": "03",
+      "tag": "Diferentes intereses",
+      "title": "El reconocimiento no es respaldo.",
+      "desc": "Autoridades con diferentes políticas pueden verificar una relación limitada sin pretender un acuerdo político más amplio.",
+      "examples": [
+        "La evidencia firmada reemplaza la alineación implícita",
+        "Cualquiera de las autoridades puede revocar su propia confianza."
       ]
     }
   },
@@ -125,12 +117,30 @@
         "name": "Auditar",
         "desc": "Cada decisión deja evidencia a prueba de manipulación. Nadie tiene que creer en tu palabra."
       }
+    ],
+    "evidence": [
+      {
+        "title": "No hay una raíz de confianza compartida.",
+        "action": "ver la prueba"
+      },
+      {
+        "title": "La revocación cruza los límites de la autoridad.",
+        "action": "reproducirlo"
+      },
+      {
+        "title": "Las propiedades del protocolo tienen modelos Tamarin.",
+        "action": "Ver la evidencia formal"
+      },
+      {
+        "title": "¿Por qué no SPIFFE, DID o OAuth?",
+        "action": "Lee la comparación"
+      }
     ]
   },
   "protocol": {
     "label": "El Protocolo",
     "title": "Un programa RFC abierto, moldeado por estándares y no por un proveedor.",
-    "subtitle": "Tres generaciones de SDK entregadas (TypeScript, Go, .NET). 1.041 pruebas. Ocho lemas Tamarin verificados por máquina. Soberanos multinube en producción sobre Azure, DigitalOcean, Cloudflare y Akamai/Linode.",
+    "subtitle": "La implementación de referencia Python y los SDK TypeScript, Go y .NET se coordinan en v0.56.0. El conjunto principal tiene pruebas 1,327, con evidencia de protocolo formal documentada para la verificación Tamarin.",
     "stack": {
       "title": "El Stack",
       "l1": {
@@ -202,14 +212,21 @@
       "operators": "Operadores externos",
       "status": "Incorporación - Fase 2",
       "online": "● EN LÍNEA"
+    },
+    "governance": {
+      "label": "Gobernanza del protocolo",
+      "title": "Cambio abierto, autoridad explícita.",
+      "description": "Los cambios de protocolo pasan por borradores públicos, revisión del mantenedor, revisión del operador cuando cambian las obligaciones, revisión de seguridad para cambios en el estado de confianza y decisiones fechadas.",
+      "boundary": "La implementación de referencia no es el protocolo. Los operadores conservan sus propias claves, políticas, decisiones de confianza y derechos de salida.",
+      "cta": "Lea la línea base de gobernanza"
     }
   },
   "silicon": {
-    "label": "El Silicio",
-    "title": "Un protocolo soberano sobre silicio ajeno es puro teatro.",
-    "subtitle": "Genesis Mesh verifica la autoridad en el software. Pero el software solo es tan soberano como el silicio sobre el que corre. TSWI, la Iniciativa Tunecina de Obleas Soberanas, cierra el círculo: propiedad del IP del interposer, propiedad de la planta de encapsulado, propiedad del stack de orquestación. Entran chiplets de mercado; sale cómputo soberano. Alimentado por energía solar en el cruce de tres continentes, con más de la mitad del coste de cómputo eliminado. La fase uno está terminada.",
-    "conclusion": "El protocolo gobierna la lógica. Túnez gobierna el silicio.",
-    "cta": "Leer el informe TSWI →"
+    "label": "Investigación",
+    "title": "Computación soberana",
+    "subtitle": "TSWI explora la capa de hardware debajo de la soberanía del software: empaquetado propiedad del operador, diseño de intercalador, orquestación e infraestructura informática con conciencia energética.",
+    "conclusion": "Esta es una vía de investigación separada, no un requisito para adoptar el protocolo Genesis Mesh.",
+    "cta": "Solicite el informe de investigación TSWI →"
   },
   "live": {
     "label": "En vivo",
@@ -225,21 +242,21 @@
     "over": "Por encima de"
   },
   "closing": {
-    "title": "Contrata la autoridad.",
-    "titleAccent": "No al proveedor.",
-    "subtitle": "Para los 190, es el camino más corto para ser dueños de sus anclas de confianza. Para los tres, es la única manera de interoperar sin renunciar a ellas.",
+    "title": "Construya con Genesis Mesh.",
+    "titleAccent": "Mantenga su autoridad.",
+    "subtitle": "Elija el camino de adopción que coincida con su función sin renunciar a sus propias decisiones de confianza.",
     "builders": {
-      "who": "Para los 190 - Constructores y arquitectos",
+      "who": "Para desarrolladores de software",
       "title": "Levanta tu propio dominio de confianza soberano.",
       "desc": "Lee los RFC, descarga los SDK de TypeScript, Go y .NET, y levanta una Comunidad Soberana L2 sobre infraestructura que ya posees.",
       "cta": "Entrar al Dev Hub →",
       "altText": "Organización de código abierto →"
     },
     "strategic": {
-      "who": "Para los tres - Estados y actores estratégicos",
-      "title": "Esta conversación no empieza con un SDK.",
-      "desc": "Lee la narrativa completa de Elections 2026 para el argumento filosófico y abre después un canal directo y discreto. Sin formularios, sin embudos, sin intermediarios.",
-      "cta": "Leer la historia completa →",
+      "who": "Para estados e instituciones",
+      "title": "Evaluar el protocolo, las pruebas y los límites de gobernanza.",
+      "desc": "Revise la arquitectura pública y la evidencia reproducible, luego abra un canal directo para preguntas sobre implementación institucional.",
+      "cta": "Lea el resumen estratégico →",
       "altText": "Canal directo: authority@genesismesh.org →"
     }
   },
@@ -352,6 +369,12 @@
     "unknown": "Desconocido",
     "disclaimer": "Señales operativas agregadas. No ofrecen una visión completa de la seguridad ni de la gobernanza.",
     "unavailableMessage": "No se pudieron verificar los datos en vivo. No se muestran valores almacenados en caché como si fueran actuales.",
-    "dashboard": "Examinar el panel público"
+    "dashboard": "Examinar el panel público",
+    "notReported": "No reportado",
+    "browserFallback": {
+      "title": "La telemetría en vivo requiere acceso al navegador.",
+      "description": "Las pruebas grabadas y reproducibles de forma independiente permanecen disponibles a continuación."
+    },
+    "proofAvailability": "Las pruebas grabadas y reproducibles de forma independiente permanecen disponibles a través de los enlaces a continuación."
   }
 }

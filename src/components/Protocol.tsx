@@ -39,6 +39,23 @@ export default function Protocol() {
         ))}
       </div>
 
+      <div className="governance-block rv">
+        <div>
+          <span className="governance-label">{t('governance.label')}</span>
+          <h3>{t('governance.title')}</h3>
+          <p>{t('governance.description')}</p>
+          <p className="governance-boundary">{t('governance.boundary')}</p>
+        </div>
+        <a
+          className="btn"
+          href="https://github.com/GenesisMeshLabs/genesismesh/blob/main/docs/development/governance.md"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          {t('governance.cta')}
+        </a>
+      </div>
+
       <div className="live rv" id="livesov">
         <div className="live-head">
           <span>

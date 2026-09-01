@@ -2,11 +2,11 @@
   "nav": {
     "brand": "GENESIS■MESH",
     "links": {
-      "stakes": "Neyin Riski Var",
-      "powers": "Üç Güç",
+      "stakes": "Egemenlik",
+      "powers": "İşbirliği",
       "mechanics": "Mekanik",
       "protocol": "Protokol",
-      "hardware": "Silikon",
+      "hardware": "Araştırma",
       "docs": "Belgeler",
       "proof": "Kanıt",
       "live": "Canlı Ağ",
@@ -24,7 +24,11 @@
     "title": "Makineler sınırları aşıyor.",
     "titleAccent": "Yetki aşmıyor.",
     "intro": "Yapay zekâ ajanları zaten bulutlar, kuruluşlar ve yargı alanları arasında hareket ediyor. Ama bir egemen sistem bir başkasıyla karşılaştığında, üç temel soruyu yanıtlayacak tarafsız bir protokol yok:",
-    "questions": ["Siz kimsiniz?", "Ne yapmaya yetkiniz var?", "Bu yetkiyi kim geri alabilir?"],
+    "questions": [
+      "Siz kimsiniz?",
+      "Ne yapmaya yetkiniz var?",
+      "Bu yetkiyi kim geri alabilir?"
+    ],
     "statement": "Genesis Mesh, makineler için antlaşma katmanıdır.",
     "body": "Bağımsız yetkili kurumlar, kendi güven köklerinden vazgeçmeden, kuruluş ve ulus sınırlarının ötesinde kimlikleri tanıyabilir, yetenekleri devredebilir ve güveni geri alabilir.",
     "notLine": "Merkezi yetki yok. Paylaşılan egemen yok. Zorunlu bulut yok.",
@@ -47,52 +51,44 @@
     "vlabel": "Egemenlik Açısından Tarafsız Altyapı"
   },
   "stakes": {
-    "label": "Neyin Riski Var",
-    "title": "Dijital egemenlik artık ulusal bir hayatta kalma meselesi ve makineler için bir antlaşma katmanı yok.",
-    "subtitle": "Devletler antlaşma imzalar. Dijital sistemlerin bunun karşılığı yoktur. Bir ulusun yapay zekâ ajanı bir başkasının altyapısıyla karşılaştığında ortaya çıkan soru, yani bu varlığa kim kefil oluyor, kimin kuralları altında ve bu güven geri çekilebilir mi sorusu, bugün protokol düzeyinde yanıtı olmayan diplomatik bir sorudur. Genesis Mesh bu yanıttır.",
-    "notLine": "Blok zinciri değil. VPN değil. Servis ağı değil. Ajan çerçevesi değil. Pazar yeri değil. Makineler için antlaşma katmanı.",
-    "stats": {
-      "one": "190+",
-      "oneDesc": "Hâlâ bir egemenlik formülü arayan ülke",
-      "two": "3",
-      "twoDesc": "Yığınının zaten sahibi olan güç",
-      "three": "1",
-      "threeDesc": "Taraf tutmadan her ikisine de hizmet eden protokol"
-    }
+    "label": "Egemenlik",
+    "title": "İzolasyon olmadan egemenlik.",
+    "subtitle": "Bağımsız sistemlerin siyasi uyum, ortak altyapı veya ortak güven kökü gerektirmeden işbirliği yapması gerekir.",
+    "notLine": "Genesis Mesh bu ilişkinin makine tarafından okunabilen alt kümesini yönetir: tanıma, kapsam, yetkilendirme, iptal ve kanıt.",
+    "boundary": "Politika müzakere etmez, anlaşmazlıklarda hakemlik yapmaz veya katılımcıları yönetmez. Bunlar insani ve kurumsal sorumluluklardır."
   },
   "powers": {
-    "label": "Üç Güç",
-    "title": "Egemen güçlerin bağımsızlığa ihtiyacı yok. Tabi olmadan birlikte çalışmaya ihtiyaçları var.",
-    "subtitle": "Değer tersine döner ama yok olmaz. Hiçbir müttefik başkent bir başkasının güven kökünü kabul etmez; bu yüzden tanıma, eşitler arasında imzalanmış, kapsamı belirlenmiş ve geri alınabilir antlaşmalar olarak dolaşmak zorundadır.",
-    "cn": {
-      "code": "CN - Çin",
-      "tag": "İhracatçının Kanıtı",
-      "title": "Kontrol etmediğinizi teknik olarak kanıtlayın.",
-      "desc": "Her altyapı ihracatı aynı itirazla karşılaşır: ekipman sizinse kontrol de sizindir. Doğrulanabilir, işletmecinin sahip olduğu ve geri alınabilir güven, bu siyasi itirazın teknik yanıtıdır.",
-      "benefits": [
-        "Ortak ülkeler kimsenin sözüne güvenmeden denetler ve geri alır",
-        "Batılı egemenlerle karşılıklı tanıma: hiçbir taraf diğerinin anahtarlarını tutmaz",
-        "Tek bir yönetişim modeli altında Çin ve Batı entegrasyonu"
+    "label": "İşbirliği",
+    "title": "İşbirliği uyum gerektirmez.",
+    "subtitle": "Genesis Mesh ittifakları kodlamaz. Protokol, siyasi anlaşmayı değil, kriptografik tanınmayı gerektiriyor.",
+    "close": {
+      "code": "01",
+      "tag": "Yakın işbirliği",
+      "title": "Paylaşılan iş, ayrı yetki.",
+      "desc": "Yetkililer, her biri kendi anahtarlarını, politikasını ve iptal yetkisini elinde tutarken yakın işbirliği yapabilir.",
+      "examples": [
+        "Paylaşılan güven kökü yok",
+        "Operatör kontrolünün aktarımı yok"
       ]
     },
-    "us": {
-      "code": "US - Amerika Birleşik Devletleri",
-      "tag": "Federasyon Sorunu",
-      "title": "Müttefikler kökünüzü kabul etmeyecek.",
-      "desc": "Five Eyes, NATO, AB ortakları: hiçbiri ABD kontrolündeki bir güven çıpasına tabi olmayacak. Tanıma antlaşmaları, güven akmaya devam ederken her müttefikin egemen kalmasını sağlar.",
-      "benefits": [
-        "Siyasi teslimiyet olmadan müttefik altyapı",
-        "Hiper ölçekleyiciler yabancı egemenlik hukukunun içine satış yapar"
+    "scoped": {
+      "code": "02",
+      "tag": "Dar kapsam",
+      "title": "Bir işlem yeterli olabilir.",
+      "desc": "Tanınma, kalıcı bir ittifak yaratmadan tek bir rolü, tek amacı veya tek bir zaman aralığını kapsayabilir.",
+      "examples": [
+        "Açık kapsam ve sona erme",
+        "Yerel yetki belirleyici olmaya devam ediyor"
       ]
     },
-    "kp": {
-      "code": "KP - Kuzey Kore",
-      "tag": "Uç Kısıt",
-      "title": "Paranoyak egemen testi.",
-      "desc": "Dışarıdan hiçbir şeye güvenmeyen bir devlet. Bir protokol, sıfır bağımlılık ve işletmecinin tam sahipliğiyle dünyanın en tedbirli egemeni için çalışıyorsa, herkes için çalışır.",
-      "benefits": [
-        "Otarşi düzeyinde tasarım kısıtı",
-        "Asla yabancı bir otoriteye çıpalanma yok"
+    "different": {
+      "code": "03",
+      "tag": "Farklı ilgi alanları",
+      "title": "Tanınmak onaylamak değildir.",
+      "desc": "Farklı politikalara sahip yetkililer, daha geniş bir siyasi anlaşma iddiasında bulunmadan sınırlı bir ilişkiyi doğrulayabilirler.",
+      "examples": [
+        "İmzalı kanıtlar zımni hizalamanın yerini alır",
+        "Her iki otorite de kendi güvenini iptal edebilir"
       ]
     }
   },
@@ -121,12 +117,30 @@
         "name": "Denetle",
         "desc": "Her karar kurcalamayı belli eden kanıt bırakır. Kimsenin sözünüze inanması gerekmez."
       }
+    ],
+    "evidence": [
+      {
+        "title": "Paylaşılan güven kökü yok.",
+        "action": "Testi görün"
+      },
+      {
+        "title": "İptal yetki sınırlarını aşar.",
+        "action": "Çoğalt"
+      },
+      {
+        "title": "Protokol özellikleri Tamarin modellerine sahiptir.",
+        "action": "Resmi kanıtları görün"
+      },
+      {
+        "title": "Neden SPIFFE, DID veya OAuth olmasın?",
+        "action": "Karşılaştırmayı okuyun"
+      }
     ]
   },
   "protocol": {
     "label": "Protokol",
     "title": "Açık bir RFC programı: tedarikçinin değil, standartların biçimlendirdiği.",
-    "subtitle": "Üç SDK kuşağı yayımlandı (TypeScript, Go, .NET). 1.041 test. Makineyle denetlenmiş sekiz Tamarin önermesi. Çok bulutlu egemenler Azure, DigitalOcean, Cloudflare ve Akamai/Linode üzerinde çalışıyor.",
+    "subtitle": "Python referans uygulaması ve TypeScript, Go ve .NET SDK'ları v0.56.0'de koordine edilir. Çekirdek paket, Tamarin doğrulaması için belgelenen resmi protokol kanıtlarıyla birlikte 1,327 testlerine sahiptir.",
     "stack": {
       "title": "Yığın",
       "l1": {
@@ -198,14 +212,21 @@
       "operators": "Dış İşletmeciler",
       "status": "Katılım - Aşama 2",
       "online": "● ÇEVRİMİÇİ"
+    },
+    "governance": {
+      "label": "Protokol Yönetişimi",
+      "title": "Açık değişim, açık otorite.",
+      "description": "Protokol değişiklikleri kamuya açık taslaklar, bakımcı incelemesi, yükümlülükler değiştiğinde operatörün incelemesi, güven durumu değişiklikleri için güvenlik incelemesi ve tarihli kararlar yoluyla gerçekleştirilir.",
+      "boundary": "Referans uygulaması protokol değildir. Operatörler kendi anahtarlarını, ilkelerini, güven kararlarını ve çıkış haklarını korurlar.",
+      "cta": "Yönetişim temel çizgisini okuyun"
     }
   },
   "silicon": {
-    "label": "Silikon",
-    "title": "Yabancı silikon üzerindeki egemen bir protokol tiyatrodur.",
-    "subtitle": "Genesis Mesh yetkiyi yazılımda doğrular. Ama yazılım ancak üzerinde çalıştığı silikon kadar egemendir. Tunus Egemen Gofret Girişimi TSWI döngüyü kapatır: sahip olunan ara katman fikri mülkiyeti, sahip olunan paketleme tesisi, sahip olunan orkestrasyon yığını. İçeri sıradan çipletler, dışarı egemen hesaplama. Üç kıtanın kavşağında güneş enerjisiyle çalışır ve hesaplama maliyetinin yarısından fazlasını söker atar. Birinci aşama tamamlandı.",
-    "conclusion": "Protokol mantığı yönetir. Tunus silikonu yönetir.",
-    "cta": "TSWI bilgilendirmesini okuyun →"
+    "label": "Araştırma",
+    "title": "Egemen Bilgi İşlem",
+    "subtitle": "TSWI, yazılım egemenliğinin altındaki donanım katmanını araştırıyor: operatöre ait paketleme, aracı tasarımı, orkestrasyon ve enerjiye duyarlı bilgi işlem altyapısı.",
+    "conclusion": "Bu ayrı bir araştırma yoludur; Genesis Mesh protokolünü benimsemek için bir gereklilik değildir.",
+    "cta": "TSWI araştırma brifingini talep edin →"
   },
   "live": {
     "label": "Canlı",
@@ -221,21 +242,21 @@
     "over": "Şunların üzerinde"
   },
   "closing": {
-    "title": "Yetkiyi işe alın.",
-    "titleAccent": "Tedarikçiyi değil.",
-    "subtitle": "190 için bu, kendi güven çıpalarınıza sahip olmanın en kısa yoludur. Üçü için ise onlardan vazgeçmeden birlikte çalışmanın tek yoludur.",
+    "title": "Genesis Mesh ile oluşturun.",
+    "titleAccent": "Otoritenizi koruyun.",
+    "subtitle": "Kendi güven kararlarınızdan vazgeçmeden, rolünüze uygun benimseme yolunu seçin.",
     "builders": {
-      "who": "190 için - Geliştiriciler ve Mimarlar",
+      "who": "Yazılım geliştiriciler için",
       "title": "Kendi egemen güven alanınızı ayağa kaldırın.",
       "desc": "RFC'leri okuyun, TypeScript, Go ve .NET SDK'larını indirin ve zaten sahip olduğunuz altyapı üzerinde bir L2 Egemen Topluluk kurun.",
       "cta": "Geliştirici Merkezine girin →",
       "altText": "Açık kaynak kuruluşu →"
     },
     "strategic": {
-      "who": "Üçü için - Devletler ve Stratejik Aktörler",
-      "title": "Bu görüşme bir SDK ile başlamaz.",
-      "desc": "Felsefi gerekçe için Elections 2026 anlatısının tamamını okuyun, ardından doğrudan, özel ve gizli bir iletişim kanalı açın. Form yok, huni yok, aracı yok.",
-      "cta": "Hikâyenin tamamını okuyun →",
+      "who": "Eyaletler ve kurumlar için",
+      "title": "Protokolü, kanıtı ve yönetişim sınırını değerlendirin.",
+      "desc": "Kamu mimarisini ve tekrarlanabilir kanıtları gözden geçirin, ardından kurumsal dağıtım soruları için doğrudan bir kanal açın.",
+      "cta": "Stratejik özeti okuyun →",
       "altText": "Doğrudan kanal: authority@genesismesh.org →"
     }
   },
@@ -348,6 +369,12 @@
     "unknown": "Bilinmiyor",
     "disclaimer": "Toplu operasyonel sinyaller. Güvenlik veya yönetişimin eksiksiz bir görünümü değildir.",
     "unavailableMessage": "Canlı veriler doğrulanamadı. Önbelleğe alınmış hiçbir değer güncelmiş gibi sunulmuyor.",
-    "dashboard": "Herkese açık panoyu incele"
+    "dashboard": "Herkese açık panoyu incele",
+    "notReported": "Bildirilmedi",
+    "browserFallback": {
+      "title": "Canlı telemetri tarayıcı erişimi gerektirir.",
+      "description": "Kaydedilmiş ve bağımsız olarak tekrarlanabilir kanıtlar aşağıda mevcuttur."
+    },
+    "proofAvailability": "Kaydedilmiş ve bağımsız olarak tekrarlanabilir kanıtlara aşağıdaki bağlantılardan ulaşılabilir."
   }
 }

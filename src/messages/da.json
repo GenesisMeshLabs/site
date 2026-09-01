@@ -2,11 +2,11 @@
   "nav": {
     "brand": "GENESIS■MESH",
     "links": {
-      "stakes": "Det afgørende spørgsmål",
-      "powers": "Tre stormagter",
+      "stakes": "Suverænitet",
+      "powers": "Samarbejde",
       "mechanics": "Mekanik",
       "protocol": "Protokol",
-      "hardware": "Silicium",
+      "hardware": "Forskning",
       "docs": "Dokumentation",
       "proof": "Bevis",
       "live": "Live-netværk",
@@ -51,52 +51,44 @@
     "vlabel": "Suverænitetsneutral infrastruktur"
   },
   "stakes": {
-    "label": "Det afgørende spørgsmål",
-    "title": "Digital suverænitet er nu et spørgsmål om national overlevelse, og der findes intet traktatlag for maskiner.",
-    "subtitle": "Stater underskriver traktater. Digitale systemer har ingen tilsvarende mekanisme. Når en AI-agent fra én nation møder en anden nations infrastruktur, er spørgsmålene, hvem der står inde for denne enhed, hvis regler den er underlagt, og om tilliden kan tilbagekaldes, diplomatiske spørgsmål, som i dag ikke har noget protokolbaseret svar. Genesis Mesh er dette svar.",
-    "notLine": "Ikke en blockchain. Ikke en VPN. Ikke et servicemesh. Ikke et agentframework. Ikke en markedsplads. Traktatlaget for maskiner.",
-    "stats": {
-      "one": "190+",
-      "oneDesc": "Nationer, der stadig søger en model for suverænitet",
-      "two": "3",
-      "twoDesc": "Stormagter, der allerede ejer hele deres teknologistak",
-      "three": "1",
-      "threeDesc": "Protokol, der tjener begge grupper uden at vælge side"
-    }
+    "label": "Suverænitet",
+    "title": "Suverænitet uden isolation.",
+    "subtitle": "Uafhængige systemer skal samarbejde uden at kræve politisk tilpasning, delt infrastruktur eller en fælles rod til tillid.",
+    "notLine": "Genesis Mesh håndterer den maskinlæselige delmængde af dette forhold: anerkendelse, omfang, delegering, tilbagekaldelse og bevis.",
+    "boundary": "Det forhandler ikke politik, voldgiftsstridigheder eller styrer deltagere. Disse forbliver menneskelige og institutionelle ansvar."
   },
   "powers": {
-    "label": "De tre stormagter",
-    "title": "Suveræne stormagter har ikke brug for uafhængighed. De har brug for interoperabilitet uden underordning.",
-    "subtitle": "Værdien vendes om, men den forsvinder ikke. Ingen allieret hovedstad accepterer en andens tillidsrod, så anerkendelse skal formidles som underskrevne, afgrænsede traktater mellem ligestillede parter, der kan tilbagekaldes.",
-    "cn": {
-      "code": "CN - Kina",
-      "tag": "Eksportørens bevis",
-      "title": "Bevis teknisk, at kontrollen ikke følger med.",
-      "desc": "Enhver eksport af infrastruktur møder den samme indvending: Jeres udstyr betyder jeres kontrol. Verificerbar, operatørejet tillid, der kan tilbagekaldes, er det tekniske svar på denne politiske indvending.",
-      "benefits": [
-        "Partnernationer kan revidere og tilbagekalde uden at skulle stole på nogens ord",
-        "Gensidig anerkendelse med vestlige suveræne stater, uden at nogen af parterne har den andens nøgler",
-        "Kinesisk-vestlig integration under én fælles styringsmodel"
+    "label": "Samarbejde",
+    "title": "Samarbejde kræver ikke ensretning.",
+    "subtitle": "Genesis Mesh koder ikke alliancer. Protokollen kræver kryptografisk anerkendelse, ikke politisk enighed.",
+    "close": {
+      "code": "01",
+      "tag": "Tæt samarbejde",
+      "title": "Delt arbejde, særskilt myndighed.",
+      "desc": "Myndigheder kan samarbejde tæt, mens hver enkelt bevarer sine egne nøgler, politik og tilbagekaldelsesbeføjelser.",
+      "examples": [
+        "Ingen fælles rod af tillid",
+        "Ingen overførsel af operatørkontrol"
       ]
     },
-    "us": {
-      "code": "US - USA",
-      "tag": "Føderationsproblemet",
-      "title": "Allierede accepterer ikke jeres tillidsrod.",
-      "desc": "Five Eyes, NATO og EU-partnere: Ingen vil underordne sig et amerikansk kontrolleret tillidsanker. Traktater om gensidig anerkendelse lader hver allieret forblive suveræn, samtidig med at tilliden kan flyde.",
-      "benefits": [
-        "Allieret infrastruktur uden politisk kapitulation",
-        "Hyperscale-udbydere kan sælge under fremmed lovgivning om suverænitet"
+    "scoped": {
+      "code": "02",
+      "tag": "Snævert omfang",
+      "title": "En transaktion kan være nok.",
+      "desc": "Anerkendelse kan dække en rolle, et formål eller et tidsvindue uden at skabe en permanent alliance.",
+      "examples": [
+        "Eksplicit omfang og udløb",
+        "Lokal autorisation er fortsat afgørende"
       ]
     },
-    "kp": {
-      "code": "KP - Nordkorea",
-      "tag": "Den ekstreme begrænsning",
-      "title": "Testen for den paranoide suveræne stat.",
-      "desc": "En stat, der ikke har tillid til noget eksternt. Hvis en protokol fungerer for verdens mest afskærmede suveræne stat, med nul afhængighed og fuldt operatørejerskab, fungerer den for alle.",
-      "benefits": [
-        "Designkrav på autarkiniveau",
-        "Ingen forankring i udenlandsk autoritet, nogensinde"
+    "different": {
+      "code": "03",
+      "tag": "Forskellige interesser",
+      "title": "Anerkendelse er ikke påtegning.",
+      "desc": "Myndigheder med forskellige politikker kan verificere et afgrænset forhold uden at kræve bredere politisk enighed.",
+      "examples": [
+        "Underskrevne beviser erstatter underforstået tilpasning",
+        "Hver myndighed kan tilbagekalde sin egen tillid"
       ]
     }
   },
@@ -125,12 +117,30 @@
         "name": "Revidér",
         "desc": "Enhver beslutning efterlader beviser, der afslører manipulation. Ingen behøver blot at stole på dit ord."
       }
+    ],
+    "evidence": [
+      {
+        "title": "Ingen fælles rod af tillid.",
+        "action": "Se testen"
+      },
+      {
+        "title": "Tilbagekaldelse krydser myndighedsgrænser.",
+        "action": "Gengiv det"
+      },
+      {
+        "title": "Protokolegenskaber har Tamarin-modeller.",
+        "action": "Se de formelle beviser"
+      },
+      {
+        "title": "Hvorfor ikke SPIFFE, DID eller OAuth?",
+        "action": "Læs sammenligningen"
+      }
     ]
   },
   "protocol": {
     "label": "Protokollen",
     "title": "Et åbent RFC-program, formet som en standard, ikke af en leverandør.",
-    "subtitle": "Tre SDK-generationer er udgivet (TypeScript, Go, .NET). 1,041 test. Otte maskinverificerede Tamarin-lemmaer. Suveræne multi-cloud-domæner er i drift på Azure, DigitalOcean, Cloudflare og Akamai/Linode.",
+    "subtitle": "Python referenceimplementering og TypeScript, Go og .NET SDK'er koordineres ved v0.56.0. Kernepakken har 1,327-tests med formelt protokolbevis dokumenteret til Tamarin-verifikation.",
     "stack": {
       "title": "Teknologistakken",
       "l1": {
@@ -202,14 +212,21 @@
       "operators": "Eksterne operatører",
       "status": "Tilslutning - fase 2",
       "online": "● ONLINE"
+    },
+    "governance": {
+      "label": "Protokolstyring",
+      "title": "Åben forandring, eksplicit autoritet.",
+      "description": "Protokolændringer bevæger sig gennem offentlige udkast, vedligeholdelsesgennemgang, operatørgennemgang, når forpligtelser ændres, sikkerhedsgennemgang for ændringer i tillidstilstand og daterede beslutninger.",
+      "boundary": "Referenceimplementeringen er ikke protokollen. Operatører beholder deres egne nøgler, politikker, tillidsbeslutninger og exit-rettigheder.",
+      "cta": "Læs styringsgrundlaget"
     }
   },
   "silicon": {
-    "label": "Silicium",
-    "title": "En suveræn protokol på udenlandsk silicium er teater.",
-    "subtitle": "Genesis Mesh verificerer autoritet i software. Men software er kun så suveræn som det silicium, den kører på. TSWI, Tunisian Sovereign Wafer Initiative, lukker kredsløbet: ejet interposer IP, ejet pakningsfacilitet og ejet orkestreringsstak. Standardchiplets ind; suveræn databehandling ud. Solcelledrevet ved tre kontinenters korsvej og med mere end halvdelen af beregningsomkostningerne skåret væk. Første fase er afsluttet.",
-    "conclusion": "Protokollen styrer logikken. Tunesien styrer siliciumet.",
-    "cta": "Læs orienteringen om TSWI →"
+    "label": "Forskning",
+    "title": "Sovereign Compute",
+    "subtitle": "TSWI udforsker hardwarelaget under softwaresuverænitet: operatørejet emballage, interposer-design, orkestrering og energibevidst computerinfrastruktur.",
+    "conclusion": "Dette er et separat forskningsspor, ikke et krav for at vedtage Genesis Mesh-protokollen.",
+    "cta": "Anmod om TSWI forskningsbriefing →"
   },
   "live": {
     "label": "I drift",
@@ -225,21 +242,21 @@
     "over": "Kører på"
   },
   "closing": {
-    "title": "Få ejerskab over autoriteten.",
-    "titleAccent": "Ikke afhængighed af leverandøren.",
-    "subtitle": "For de 190 er det den korteste vej til at eje deres egne tillidsankre. For de tre er det den eneste måde at opnå interoperabilitet uden at opgive dem.",
+    "title": "Byg med Genesis Mesh.",
+    "titleAccent": "Hold din autoritet.",
+    "subtitle": "Vælg den adoptionsvej, der matcher din rolle uden at give afkald på dine egne tillidsbeslutninger.",
     "builders": {
-      "who": "For de 190 - udviklere og arkitekter",
+      "who": "For softwareudviklere",
       "title": "Etabler jeres eget suveræne tillidsdomæne.",
       "desc": "Læs RFC'erne, hent SDK'erne til TypeScript / Go / .NET, og etabler et L2-suverænt fællesskab på infrastruktur, I allerede ejer.",
       "cta": "Gå til udviklerportalen →",
       "altText": "Open source-organisation →"
     },
     "strategic": {
-      "who": "For de tre - statslige og strategiske aktører",
-      "title": "Denne samtale begynder ikke med et SDK.",
-      "desc": "Læs hele Elections 2026-fortællingen for at forstå det filosofiske grundlag, og åbn derefter en direkte, fortrolig kanal. Ingen formularer, ingen salgstragte, ingen mellemmænd.",
-      "cta": "Læs hele fortællingen →",
+      "who": "For stater og institutioner",
+      "title": "Evaluer protokollen, beviset og styringsgrænsen.",
+      "desc": "Gennemgå den offentlige arkitektur og reproducerbare beviser, og åbn derefter en direkte kanal for spørgsmål om institutionel implementering.",
+      "cta": "Læs den strategiske brief →",
       "altText": "Direkte kanal: authority@genesismesh.org →"
     }
   },
@@ -352,6 +369,12 @@
     "unknown": "Ukendt",
     "disclaimer": "Aggregerede driftssignaler. Ikke et komplet billede af sikkerhed eller styring.",
     "unavailableMessage": "Live-data kunne ikke verificeres. Ingen cachelagrede værdier vises som aktuelle.",
-    "dashboard": "Gennemse det offentlige kontrolpanel"
+    "dashboard": "Gennemse det offentlige kontrolpanel",
+    "notReported": "Ikke rapporteret",
+    "browserFallback": {
+      "title": "Live telemetri kræver browseradgang.",
+      "description": "Optagne og uafhængigt reproducerbare beviser forbliver tilgængelige nedenfor."
+    },
+    "proofAvailability": "Optagne og uafhængigt reproducerbare beviser forbliver tilgængelige via nedenstående links."
   }
 }

@@ -2,11 +2,11 @@
   "nav": {
     "brand": "GENESIS■MESH",
     "links": {
-      "stakes": "A tét",
-      "powers": "Három nagyhatalom",
+      "stakes": "Szuverenitás",
+      "powers": "Együttműködés",
       "mechanics": "Működés",
       "protocol": "Protokoll",
-      "hardware": "Szilícium",
+      "hardware": "Kutatás",
       "docs": "Dokumentáció",
       "proof": "Bizonyíték",
       "live": "Élő hálózat",
@@ -51,52 +51,44 @@
     "vlabel": "Szuverenitássemleges infrastruktúra"
   },
   "stakes": {
-    "label": "A tét",
-    "title": "A digitális szuverenitás mára a nemzeti fennmaradás kérdése lett, a gépek számára azonban nem létezik szerződéses protokollréteg.",
-    "subtitle": "Az államok szerződéseket kötnek. A digitális rendszereknek nincs ezzel egyenértékű megoldásuk. Amikor az egyik nemzet MI-ügynöke egy másik nemzet infrastruktúrájával kerül kapcsolatba, diplomáciai kérdések merülnek fel: ki kezeskedik ezért az entitásért, kinek a szabályai szerint, és visszavonható-e ez a bizalom? Ezekre ma nincs protokollszintű válasz. A Genesis Mesh ezt a választ adja meg.",
-    "notLine": "Nem blokklánc. Nem VPN. Nem szolgáltatásháló. Nem ügynökkeretrendszer. Nem piactér. A gépek szerződéses protokollrétege.",
-    "stats": {
-      "one": "190+",
-      "oneDesc": "Nemzet, amely még keresi a szuverenitás képletét",
-      "two": "3",
-      "twoDesc": "Nagyhatalom, amely már birtokolja a teljes technológiai láncát",
-      "three": "1",
-      "threeDesc": "Protokoll, amely mindkét csoportot szolgálja, anélkül hogy oldalt választana"
-    }
+    "label": "Szuverenitás",
+    "title": "Szuverenitás elszigeteltség nélkül.",
+    "subtitle": "A független rendszereknek együtt kell működniük anélkül, hogy politikai igazodást, megosztott infrastruktúrát vagy közös bizalmi gyökeret igényelnének.",
+    "notLine": "A Genesis Mesh ennek a kapcsolatnak a géppel olvasható részhalmazát kezeli: elismerés, hatály, delegálás, visszavonás és bizonyíték.",
+    "boundary": "Nem tárgyal irányelvekről, nem dönt vitákban, és nem irányítja a résztvevőket. Ezek továbbra is emberi és intézményi felelősségek maradnak."
   },
   "powers": {
-    "label": "A három nagyhatalom",
-    "title": "A szuverén nagyhatalmaknak nincs szükségük függetlenedésre. Alárendeltség nélküli együttműködésre van szükségük.",
-    "subtitle": "Az értékajánlat megfordul, de nem tűnik el. Egyetlen szövetséges főváros sem fogadja el egy másik ország bizalmi gyökerét, ezért az elismerést egyenrangú felek közötti, aláírt, körülhatárolt és visszavonható szerződéseknek kell közvetíteniük.",
-    "cn": {
-      "code": "CN - Kína",
-      "tag": "Az exportőr bizonyítéka",
-      "title": "Technikailag bizonyítsa a külső ellenőrzés hiányát.",
-      "desc": "Minden infrastruktúra-export ugyanabba az ellenvetésbe ütközik: ha az eszköz az öné, az ellenőrzés is az öné. A politikai ellenvetés technikai megoldása az ellenőrizhető, az üzemeltető tulajdonában álló és visszavonható bizalom.",
-      "benefits": [
-        "A partnernemzetek anélkül auditálhatnak és vonhatják vissza a bizalmat, hogy bárki szavára hagyatkoznának",
-        "Kölcsönös elismerés a nyugati szuverén szereplőkkel, miközben egyik fél sem birtokolja a másik kulcsait",
-        "Kínai és nyugati rendszerek integrációja egységes irányítási modellben"
+    "label": "Együttműködés",
+    "title": "Az együttműködéshez nincs szükség összehangolásra.",
+    "subtitle": "A Genesis Mesh nem kódol szövetségeket. A protokoll kriptográfiai felismerést igényel, nem politikai megállapodást.",
+    "close": {
+      "code": "01",
+      "tag": "Szoros együttműködés",
+      "title": "Közös munka, külön jogosultság.",
+      "desc": "A hatóságok szorosan együttműködhetnek, miközben mindegyik megtartja saját kulcsát, szabályzatát és visszavonási jogát.",
+      "examples": [
+        "Nincs közös bizalom gyökere",
+        "Nincs kezelői irányítás átadása"
       ]
     },
-    "us": {
-      "code": "US - Egyesült Államok",
-      "tag": "A föderáció problémája",
-      "title": "A szövetségesek nem fogadják el az ön bizalmi gyökerét.",
-      "desc": "Az Öt Szem, a NATO és az EU partnerei közül egyik sem rendeli alá magát egy amerikai ellenőrzésű bizalmi horgonynak. Az elismerési szerződések révén minden szövetséges megőrizheti szuverenitását, miközben a bizalom továbbra is áramlik.",
-      "benefits": [
-        "Szövetségesi infrastruktúra politikai behódolás nélkül",
-        "A hiperskálázó szolgáltatók a külföldi szuverenitási jogszabályoknak megfelelően értékesíthetnek"
+    "scoped": {
+      "code": "02",
+      "tag": "Szűk hatókör",
+      "title": "Egy tranzakció elég lehet.",
+      "desc": "Az elismerés kiterjedhet egy szerepre, egy célra vagy egy időablakra anélkül, hogy állandó szövetséget hozna létre.",
+      "examples": [
+        "Kifejezett hatály és lejárat",
+        "A helyi engedély továbbra is meghatározó"
       ]
     },
-    "kp": {
-      "code": "KP - Észak-Korea",
-      "tag": "A végletes korlát",
-      "title": "A minden külső hatástól óvakodó szuverén próbája.",
-      "desc": "Egy állam, amely semmilyen külső szereplőben nem bízik. Ha egy protokoll a világ legszigorúbban őrzött szuverén állama számára is működik, nulla függőséggel és teljes üzemeltetői tulajdonnal, akkor bárki számára működik.",
-      "benefits": [
-        "Autarkiának is megfelelő tervezési követelmény",
-        "Soha, semmilyen külföldi felhatalmazás nem szolgál bizalmi horgonyként"
+    "different": {
+      "code": "03",
+      "tag": "Különböző érdekek",
+      "title": "Az elismerés nem jóváhagyás.",
+      "desc": "Az eltérő politikát folytató hatóságok szélesebb politikai egyetértés igénye nélkül is ellenőrizhetik a korlátozott kapcsolatot.",
+      "examples": [
+        "Az aláírt bizonyítékok helyettesítik a hallgatólagos igazodást",
+        "Bármelyik hatóság megvonhatja saját bizalmát"
       ]
     }
   },
@@ -125,12 +117,30 @@
         "name": "Auditálás",
         "desc": "Minden döntés manipulációt kimutathatóvá tevő bizonyítékot hagy maga után. Senkinek sem kell bemondásra hinnie."
       }
+    ],
+    "evidence": [
+      {
+        "title": "Nincs közös bizalom gyökere.",
+        "action": "Lásd a tesztet"
+      },
+      {
+        "title": "A visszavonás átlépi a hatásköri határokat.",
+        "action": "Reprodukálja azt"
+      },
+      {
+        "title": "A protokolltulajdonságok Tamarin modellekkel rendelkeznek.",
+        "action": "Lásd a hivatalos bizonyítékot"
+      },
+      {
+        "title": "Miért nem a SPIFFE, a DID vagy a OAuth?",
+        "action": "Olvasd el az összehasonlítást"
+      }
     ]
   },
   "protocol": {
     "label": "A protokoll",
     "title": "Nyílt RFC-program, szabványok, nem pedig egy beszállító igényei szerint kialakítva.",
-    "subtitle": "Három SDK-generáció jelent meg (TypeScript, Go, .NET). 1,041 teszt. Nyolc géppel ellenőrzött Tamarin-lemma. Többfelhős szuverén rendszerek működnek az Azure, DigitalOcean, Cloudflare és Akamai/Linode platformokon.",
+    "subtitle": "A Python referencia megvalósítás és a TypeScript, Go és .NET SDK-k koordinálása a v0.56.0 helyen történik. Az alapcsomag 1,327 tesztekkel rendelkezik, a Tamarin ellenőrzéséhez dokumentált hivatalos protokoll bizonyítékokkal.",
     "stack": {
       "title": "A rétegstruktúra",
       "l1": {
@@ -202,14 +212,21 @@
       "operators": "Külső üzemeltetők",
       "status": "Csatlakoztatás - 2. fázis",
       "online": "● ONLINE"
+    },
+    "governance": {
+      "label": "Protokoll kormányzás",
+      "title": "Nyílt változás, kifejezett jogosultság.",
+      "description": "A protokollmódosítások nyilvános tervezeteken, karbantartói felülvizsgálaton, üzemeltetői felülvizsgálaton, a kötelezettségek változása esetén, a megbízhatósági állapot változásainak biztonsági felülvizsgálatán és dátumozott határozatokon keresztül mennek végbe.",
+      "boundary": "A referencia megvalósítás nem a protokoll. Az üzemeltetők megtartják saját kulcsaikat, szabályzataikat, bizalmi döntéseiket és kilépési jogaikat.",
+      "cta": "Olvassa el a kormányzás alapjait"
     }
   },
   "silicon": {
-    "label": "A szilícium",
-    "title": "A külföldi szilíciumon futó szuverén protokoll csak színjáték.",
-    "subtitle": "A Genesis Mesh szoftveresen ellenőrzi a felhatalmazást. A szoftver azonban csak annyira szuverén, mint a szilícium, amelyen fut. A TSWI, a Tunéziai Szuverén Ostyalemez-kezdeményezés, bezárja a kört: saját interposer-szellemitulajdon-portfólió, saját tokozóüzem és saját vezénylési technológiai lánc. Szabványos chipletek be; szuverén számítási kapacitás ki. Napenergiával működik három kontinens találkozásánál, és a számítási költség több mint felét lefaragja. Az első fázis elkészült.",
-    "conclusion": "A protokoll a logikát szabályozza. Tunézia a szilíciumot.",
-    "cta": "A TSWI-tájékoztató elolvasása →"
+    "label": "Kutatás",
+    "title": "Sovereign Compute",
+    "subtitle": "A TSWI a szoftverszuverenitás alatti hardverréteget kutatja: az üzemeltető tulajdonában lévő csomagolást, a közbeiktató tervezést, a hangszerelést és az energiatudatos számítási infrastruktúrát.",
+    "conclusion": "Ez egy külön kutatási pálya, nem feltétele a Genesis Mesh protokoll elfogadásának.",
+    "cta": "Kérje a TSWI kutatási tájékoztatót →"
   },
   "live": {
     "label": "Élő rendszer",
@@ -225,21 +242,21 @@
     "over": "Ezeken működik"
   },
   "closing": {
-    "title": "A felhatalmazást birtokolja.",
-    "titleAccent": "Ne a beszállítótól függjön.",
-    "subtitle": "A 190 számára ez a legrövidebb út saját bizalmi horgonyaik birtoklásához. A három számára ez az egyetlen módja az együttműködésnek anélkül, hogy lemondanának róluk.",
+    "title": "Építsd a Genesis Mesh-vel.",
+    "titleAccent": "Tartsa meg a tekintélyét.",
+    "subtitle": "Válassza ki a szerepének megfelelő örökbefogadási utat anélkül, hogy feladná saját bizalmi döntéseit.",
     "builders": {
-      "who": "A 190 számára - Fejlesztők és architektek",
+      "who": "Szoftverfejlesztőknek",
       "title": "Indítsa el saját szuverén bizalmi tartományát.",
       "desc": "Olvassa el az RFC-ket, töltse le a TypeScript / Go / .NET SDK-kat, és hozzon létre egy L2 szuverén közösséget a már saját tulajdonában lévő infrastruktúrán.",
       "cta": "Belépés a fejlesztői központba →",
       "altText": "Nyílt forráskódú szervezet →"
     },
     "strategic": {
-      "who": "A három számára - Állami és stratégiai szereplők",
-      "title": "Ez a beszélgetés nem egy SDK-val kezdődik.",
-      "desc": "Olvassa el az Elections 2026 teljes narratíváját a filozófiai érvelésért, majd nyisson közvetlen, bizalmas csatornát. Nincsenek űrlapok, értékesítési tölcsérek vagy közvetítők.",
-      "cta": "A teljes történet elolvasása →",
+      "who": "Államoknak és intézményeknek",
+      "title": "Értékelje a protokollt, a bizonyítást és az irányítási határt.",
+      "desc": "Tekintse át a nyilvános architektúrát és a reprodukálható bizonyítékokat, majd nyisson közvetlen csatornát az intézményi telepítési kérdésekhez.",
+      "cta": "Olvassa el a stratégiai összefoglalót →",
       "altText": "Közvetlen csatorna: authority@genesismesh.org →"
     }
   },
@@ -352,6 +369,12 @@
     "unknown": "Ismeretlen",
     "disclaimer": "Összesített működési jelek. Nem adnak teljes képet a biztonságról vagy az irányításról.",
     "unavailableMessage": "Az élő adatok nem voltak ellenőrizhetők. A gyorsítótárazott értékeket nem jelenítjük meg aktuálisként.",
-    "dashboard": "A nyilvános irányítópult megtekintése"
+    "dashboard": "A nyilvános irányítópult megtekintése",
+    "notReported": "Nem jelentették",
+    "browserFallback": {
+      "title": "Az élő telemetria böngésző-hozzáférést igényel.",
+      "description": "A rögzített és önállóan reprodukálható bizonyítékok alább elérhetők."
+    },
+    "proofAvailability": "A rögzített és önállóan reprodukálható bizonyítékok továbbra is elérhetők az alábbi linkeken."
   }
 }

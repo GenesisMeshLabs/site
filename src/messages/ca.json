@@ -2,11 +2,11 @@
   "nav": {
     "brand": "GENESIS■MESH",
     "links": {
-      "stakes": "El que hi ha en joc",
-      "powers": "Tres potències",
+      "stakes": "Sobirania",
+      "powers": "Cooperació",
       "mechanics": "Funcionament",
       "protocol": "Protocol",
-      "hardware": "Silici",
+      "hardware": "Recerca",
       "docs": "Documentació",
       "proof": "Prova",
       "live": "Xarxa en directe",
@@ -51,52 +51,44 @@
     "vlabel": "Infraestructura neutral respecte de la sobirania"
   },
   "stakes": {
-    "label": "El que hi ha en joc",
-    "title": "La sobirania digital és ara una qüestió de supervivència nacional, i no hi ha cap capa de tractats per a les màquines.",
-    "subtitle": "Els estats signen tractats. Els sistemes digitals no tenen cap equivalent. Quan un agent d'IA d'una nació es troba amb la infraestructura d'una altra, la pregunta sobre qui avala aquesta entitat, sota quines normes i si aquesta confiança es pot retirar és una qüestió diplomàtica que avui no té resposta en cap protocol. Genesis Mesh és aquesta resposta.",
-    "notLine": "No és una cadena de blocs. No és una VPN. No és una malla de serveis. No és un marc d'agents. No és un mercat. És la capa de tractats per a les màquines.",
-    "stats": {
-      "one": "190+",
-      "oneDesc": "Nacions que encara cerquen una fórmula de sobirania",
-      "two": "3",
-      "twoDesc": "Potències que ja són propietàries de la seva pila tecnològica",
-      "three": "1",
-      "threeDesc": "Protocol que serveix totes dues parts sense prendre partit"
-    }
+    "label": "Sobirania",
+    "title": "Sobirania sense aïllament.",
+    "subtitle": "Els sistemes independents han de cooperar sense requerir una alineació política, una infraestructura compartida o una arrel de confiança comuna.",
+    "notLine": "Genesis Mesh gestiona el subconjunt llegible per màquina d'aquesta relació: reconeixement, abast, delegació, revocació i evidència.",
+    "boundary": "No negocia polítiques, arbitra disputes ni governa els participants. Aquestes continuen sent responsabilitats humanes i institucionals."
   },
   "powers": {
-    "label": "Les tres potències",
-    "title": "Les potències sobiranes no necessiten independència. Necessiten interoperar sense subordinació.",
-    "subtitle": "El valor s'inverteix, però no desapareix. Cap capital aliada no accepta l'arrel de confiança d'una altra, de manera que el reconeixement ha de circular com a tractats signats, delimitats i revocables entre iguals.",
-    "cn": {
-      "code": "CN - Xina",
-      "tag": "La prova de l'exportador",
-      "title": "Demostrar tècnicament l'absència de control.",
-      "desc": "Tota exportació d'infraestructura topa amb la mateixa objecció: el vostre equip implica el vostre control. Una confiança verificable, propietat de l'operador i revocable és la resposta tècnica a aquesta objecció política.",
-      "benefits": [
-        "Les nacions associades auditen i revoquen sense haver de creure ningú només perquè ho diu",
-        "Reconeixement mutu amb estats sobirans occidentals, sense que cap part tingui les claus de l'altra",
-        "Integració entre la Xina i Occident sota un únic model de governança"
+    "label": "Cooperació",
+    "title": "La cooperació no requereix alineació.",
+    "subtitle": "Genesis Mesh no codifica aliances. El protocol requereix un reconeixement criptogràfic, no un acord polític.",
+    "close": {
+      "code": "01",
+      "tag": "Col·laboració estreta",
+      "title": "Treball compartit, autoritat separada.",
+      "desc": "Les autoritats poden cooperar estretament mentre cadascuna conserva les seves pròpies claus, política i poder de revocació.",
+      "examples": [
+        "No hi ha cap arrel de confiança compartida",
+        "Sense transferència del control de l'operador"
       ]
     },
-    "us": {
-      "code": "US - Estats Units",
-      "tag": "El problema de la federació",
-      "title": "Els aliats no acceptaran la vostra arrel.",
-      "desc": "Els Cinc Ulls, l'OTAN i els socis de la UE: cap d'ells no se subordinarà a un àncora de confiança controlada pels Estats Units. Els tractats de reconeixement permeten que cada aliat continuï sent sobirà mentre la confiança continua circulant.",
-      "benefits": [
-        "Infraestructura aliada sense capitulació política",
-        "Els proveïdors de núvol a hiperescala poden vendre sota legislacions estrangeres de sobirania"
+    "scoped": {
+      "code": "02",
+      "tag": "Àmbit estret",
+      "title": "Una transacció pot ser suficient.",
+      "desc": "El reconeixement pot cobrir un rol, un propòsit o una finestra temporal sense crear una aliança permanent.",
+      "examples": [
+        "Àmbit explícit i caducitat",
+        "L'autorització local segueix sent decisiva"
       ]
     },
-    "kp": {
-      "code": "KP - Corea del Nord",
-      "tag": "La restricció extrema",
-      "title": "La prova de l'estat sobirà paranoic.",
-      "desc": "Un estat que no confia en res d'extern. Si un protocol funciona per a l'estat sobirà més hermètic del planeta, amb dependència zero i plena propietat de l'operador, funciona per a tothom.",
-      "benefits": [
-        "Restricció de disseny de nivell autàrquic",
-        "Cap ancoratge en una autoritat estrangera, mai"
+    "different": {
+      "code": "03",
+      "tag": "Interessos diferents",
+      "title": "El reconeixement no és aval.",
+      "desc": "Les autoritats amb polítiques diferents poden verificar una relació limitada sense reclamar un acord polític més ampli.",
+      "examples": [
+        "L'evidència signada substitueix l'alineació implícita",
+        "Qualsevol autoritat pot revocar la seva pròpia confiança"
       ]
     }
   },
@@ -125,12 +117,30 @@
         "name": "Auditar",
         "desc": "Cada decisió deixa proves que fan evident qualsevol manipulació. Ningú no ha de creure ningú només perquè ho diu."
       }
+    ],
+    "evidence": [
+      {
+        "title": "No hi ha cap arrel de confiança compartida.",
+        "action": "Veure la prova"
+      },
+      {
+        "title": "La revocació traspassa els límits de l'autoritat.",
+        "action": "Reprodueix-ho"
+      },
+      {
+        "title": "Les propietats del protocol tenen models Tamarin.",
+        "action": "Vegeu la prova formal"
+      },
+      {
+        "title": "Per què no SPIFFE, DID o OAuth?",
+        "action": "Llegeix la comparació"
+      }
     ]
   },
   "protocol": {
     "label": "El protocol",
     "title": "Un programa RFC obert, conformat pels estàndards i no pels proveïdors.",
-    "subtitle": "S'han publicat tres generacions d'SDK (TypeScript, Go, .NET). 1,041 proves. Vuit lemes de Tamarin verificats per màquina. Estats sobirans multinúvol operatius a Azure, DigitalOcean, Cloudflare i Akamai/Linode.",
+    "subtitle": "La implementació de referència Python i els SDK TypeScript, Go i .NET es coordinen a v0.56.0. La suite principal té proves 1,327, amb proves formals de protocol documentades per a la verificació Tamarin.",
     "stack": {
       "title": "La pila",
       "l1": {
@@ -202,14 +212,21 @@
       "operators": "Operadors externs",
       "status": "Incorporació - Fase 2",
       "online": "● EN LÍNIA"
+    },
+    "governance": {
+      "label": "Govern del protocol",
+      "title": "Canvi obert, autoritat explícita.",
+      "description": "Els canvis de protocol es mouen mitjançant esborranys públics, revisió del mantenedor, revisió de l'operador quan canvien les obligacions, revisió de seguretat per a canvis d'estat de confiança i decisions amb data.",
+      "boundary": "La implementació de referència no és el protocol. Els operadors conserven les seves pròpies claus, polítiques, decisions de confiança i drets de sortida.",
+      "cta": "Llegiu la base de govern"
     }
   },
   "silicon": {
-    "label": "El silici",
-    "title": "Un protocol sobirà sobre silici estranger és pur teatre.",
-    "subtitle": "Genesis Mesh verifica l'autoritat mitjançant programari. Però el programari només és tan sobirà com el silici en què s'executa. TSWI, la Iniciativa Tunisiana d'Òblies Sobiranes, tanca el cercle: propietat intel·lectual pròpia dels interposadors, instal·lacions pròpies d'encapsulament i pila pròpia d'orquestració. Entren xiplets de consum general; en surt computació sobirana. Alimentada amb energia solar a la cruïlla de tres continents, amb una reducció de més de la meitat del cost de computació. La primera fase està acabada.",
-    "conclusion": "El protocol governa la lògica. Tunísia governa el silici.",
-    "cta": "Llegiu l'informe de TSWI →"
+    "label": "Recerca",
+    "title": "Càlcul sobirà",
+    "subtitle": "TSWI explora la capa de maquinari sota la sobirania del programari: embalatge propietat de l'operador, disseny d'interposador, orquestració i infraestructura informàtica conscient de l'energia.",
+    "conclusion": "Aquesta és una pista de recerca independent, no és un requisit per adoptar el protocol Genesis Mesh.",
+    "cta": "Sol·liciteu la sessió informativa de recerca TSWI →"
   },
   "live": {
     "label": "En funcionament",
@@ -225,21 +242,21 @@
     "over": "En execució sobre"
   },
   "closing": {
-    "title": "Assumiu l'autoritat.",
-    "titleAccent": "No depengueu del proveïdor.",
-    "subtitle": "Per als 190, és el camí més curt per ser propietaris dels seus àncores de confiança. Per a les tres potències, és l'única manera d'interoperar sense cedir-los.",
+    "title": "Construeix amb Genesis Mesh.",
+    "titleAccent": "Mantingueu la vostra autoritat.",
+    "subtitle": "Trieu el camí d'adopció que coincideixi amb el vostre paper sense renunciar a les vostres pròpies decisions de confiança.",
     "builders": {
-      "who": "Per als 190 - Desenvolupadors i arquitectes",
+      "who": "Per a desenvolupadors de programari",
       "title": "Poseu en marxa el vostre propi domini de confiança sobirà.",
       "desc": "Llegiu els RFC, descarregueu els SDK de TypeScript / Go / .NET i desplegueu una comunitat sobirana L2 sobre una infraestructura que ja sigui vostra.",
       "cta": "Accediu al centre de desenvolupament →",
       "altText": "Organització de codi obert →"
     },
     "strategic": {
-      "who": "Per a les tres potències - Actors estatals i estratègics",
-      "title": "Aquesta conversa no comença amb un SDK.",
-      "desc": "Llegiu el relat complet Elections 2026 per conèixer-ne els arguments filosòfics i, després, obriu un canal directe, privat i confidencial. Sense formularis, sense embuts comercials i sense intermediaris.",
-      "cta": "Llegiu la història completa →",
+      "who": "Per a estats i institucions",
+      "title": "Avalueu el protocol, la prova i el límit de govern.",
+      "desc": "Reviseu l'arquitectura pública i les proves reproduïbles i, a continuació, obriu un canal directe per a preguntes de desplegament institucional.",
+      "cta": "Llegeix el resum estratègic →",
       "altText": "Canal directe: authority@genesismesh.org →"
     }
   },
@@ -352,6 +369,12 @@
     "unknown": "Desconegut",
     "disclaimer": "Senyals operatius agregats. No ofereixen una visió completa de la seguretat ni de la governança.",
     "unavailableMessage": "No s'han pogut verificar les dades en directe. No es presenta cap valor de la memòria cau com si fos actual.",
-    "dashboard": "Examineu el tauler públic"
+    "dashboard": "Examineu el tauler públic",
+    "notReported": "No informat",
+    "browserFallback": {
+      "title": "La telemetria en directe requereix accés al navegador.",
+      "description": "Les proves enregistrades i reproduïbles de manera independent continuen disponibles a continuació."
+    },
+    "proofAvailability": "Les proves enregistrades i reproduïbles de manera independent continuen disponibles a través dels enllaços següents."
   }
 }

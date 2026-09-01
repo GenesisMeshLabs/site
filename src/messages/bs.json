@@ -2,11 +2,11 @@
   "nav": {
     "brand": "GENESIS■MESH",
     "links": {
-      "stakes": "Šta je u pitanju",
-      "powers": "Tri sile",
+      "stakes": "Suverenost",
+      "powers": "Saradnja",
       "mechanics": "Mehanika",
       "protocol": "Protokol",
-      "hardware": "Silicij",
+      "hardware": "Istraživanja",
       "docs": "Dokumentacija",
       "proof": "Dokaz",
       "live": "Mreža uživo",
@@ -51,52 +51,44 @@
     "vlabel": "Infrastruktura neutralna prema suverenitetu"
   },
   "stakes": {
-    "label": "Šta je u pitanju",
-    "title": "Digitalni suverenitet sada je pitanje nacionalnog opstanka, a protokolarni sloj sporazuma za mašine ne postoji.",
-    "subtitle": "Države potpisuju sporazume. Digitalni sistemi nemaju ništa slično. Kada AI agent jedne države stupi u kontakt s infrastrukturom druge, pitanja ko jamči za taj entitet, prema čijim pravilima i može li se to povjerenje povući predstavljaju diplomatska pitanja na koja danas nijedan protokol ne daje odgovor. Genesis Mesh je taj odgovor.",
-    "notLine": "Nije blockchain. Nije VPN. Nije servisna mreža. Nije radni okvir za agente. Nije tržište. To je protokolarni sloj sporazuma za mašine.",
-    "stats": {
-      "one": "190+",
-      "oneDesc": "Država koje još traže formulu za suverenitet",
-      "two": "3",
-      "twoDesc": "Sile koje već posjeduju vlastiti tehnološki sistem",
-      "three": "1",
-      "threeDesc": "Protokol koji služi objema stranama, bez svrstavanja"
-    }
+    "label": "Suverenost",
+    "title": "Suverenitet bez izolacije.",
+    "subtitle": "Nezavisni sistemi moraju da sarađuju bez potrebe za političkim usklađivanjem, zajedničkom infrastrukturom ili zajedničkim korenom poverenja.",
+    "notLine": "Genesis Mesh rukuje mašinski čitljivim podskupom tog odnosa: prepoznavanje, opseg, delegiranje, opoziv i dokaz.",
+    "boundary": "Ne pregovara o politici, ne arbitrira u sporovima niti upravlja učesnicima. To ostaju ljudske i institucionalne odgovornosti."
   },
   "powers": {
-    "label": "Tri sile",
-    "title": "Suverenim silama ne treba nezavisnost. Treba im interoperabilnost bez podređivanja.",
-    "subtitle": "Vrijednost se preokreće, ali ne nestaje. Nijedna saveznička prijestolnica ne prihvata tuđi korijen povjerenja, pa se priznavanje mora prenositi putem potpisanih, ograničenih i opozivih sporazuma među jednakima.",
-    "cn": {
-      "code": "CN - Kina",
-      "tag": "Dokaz izvoznika",
-      "title": "Tehnički dokažite da nemate kontrolu.",
-      "desc": "Svaki izvoz infrastrukture nailazi na isti prigovor: vaša oprema znači vašu kontrolu. Provjerljivo i opozivo povjerenje u vlasništvu operatera tehnički je odgovor na taj politički prigovor.",
-      "benefits": [
-        "Partnerske države provode reviziju i opoziv bez oslanjanja na bilo čiju riječ",
-        "Uzajamno priznavanje sa zapadnim suverenim akterima, pri čemu nijedna strana ne posjeduje ključeve druge strane",
-        "Kinesko-zapadna integracija u okviru jedinstvenog modela upravljanja"
+    "label": "Saradnja",
+    "title": "Saradnja ne zahtijeva usklađivanje.",
+    "subtitle": "Genesis Mesh ne kodira saveze. Protokol zahtijeva kriptografsko priznanje, a ne politički dogovor.",
+    "close": {
+      "code": "01",
+      "tag": "Bliska saradnja",
+      "title": "Zajednički rad, odvojena vlast.",
+      "desc": "Vlasti mogu blisko sarađivati dok svaka zadržava svoje ključeve, politiku i moć opoziva.",
+      "examples": [
+        "Nema zajedničkog korijena povjerenja",
+        "Nema prijenosa kontrole operatera"
       ]
     },
-    "us": {
-      "code": "US - Sjedinjene Američke Države",
-      "tag": "Problem federacije",
-      "title": "Saveznici neće prihvatiti vaš korijen povjerenja.",
-      "desc": "Pet očiju, NATO i partneri iz EU: niko se neće podrediti sidru povjerenja pod kontrolom SAD-a. Sporazumi o priznavanju omogućavaju svakom savezniku da ostane suveren, dok se povjerenje i dalje prenosi.",
-      "benefits": [
-        "Saveznička infrastruktura bez političke kapitulacije",
-        "Hiperskaleri prodaju na tržištima pod stranim zakonima o suverenitetu"
+    "scoped": {
+      "code": "02",
+      "tag": "Uski opseg",
+      "title": "Jedna transakcija može biti dovoljna.",
+      "desc": "Priznanje može pokriti jednu ulogu, jednu svrhu ili jedan vremenski prozor bez stvaranja trajnog saveza.",
+      "examples": [
+        "Eksplicitni opseg i rok trajanja",
+        "Lokalno ovlaštenje ostaje odlučujuće"
       ]
     },
-    "kp": {
-      "code": "KP - Sjeverna Koreja",
-      "tag": "Krajnje ograničenje",
-      "title": "Test za krajnje nepovjerljivog suverenog aktera.",
-      "desc": "Država koja ne vjeruje ničemu izvana. Ako protokol funkcionira za najzatvorenijeg suverenog aktera na svijetu, bez ikakve zavisnosti i uz potpuno vlasništvo operatera, funkcionira za svakoga.",
-      "benefits": [
-        "Projektno ograničenje na nivou autarkije",
-        "Nikakvo sidrenje povjerenja u stranoj instanci ovlaštenja, nikada"
+    "different": {
+      "code": "03",
+      "tag": "Različiti interesi",
+      "title": "Priznanje nije odobravanje.",
+      "desc": "Vlasti sa različitim politikama mogu potvrditi ograničen odnos bez traženja šireg političkog dogovora.",
+      "examples": [
+        "Potpisani dokaz zamjenjuje podrazumijevano poravnanje",
+        "Bilo koji organ vlasti može opozvati svoje povjerenje"
       ]
     }
   },
@@ -125,12 +117,30 @@
         "name": "Revizija",
         "desc": "Svaka odluka ostavlja dokaz na kojem su pokušaji neovlaštene izmjene vidljivi. Niko ne mora vjerovati samo vašoj riječi."
       }
+    ],
+    "evidence": [
+      {
+        "title": "Nema zajedničkog korijena povjerenja.",
+        "action": "Pogledajte test"
+      },
+      {
+        "title": "Opoziv prelazi granice ovlaštenja.",
+        "action": "Reproduciraj ga"
+      },
+      {
+        "title": "Svojstva protokola imaju modele Tamarin.",
+        "action": "Pogledajte formalne dokaze"
+      },
+      {
+        "title": "Zašto ne SPIFFE, DID ili OAuth?",
+        "action": "Pročitajte poređenje"
+      }
     ]
   },
   "protocol": {
     "label": "Protokol",
     "title": "Otvoreni RFC program, oblikovan kao standard, a ne prema dobavljaču.",
-    "subtitle": "Objavljene su tri generacije SDK-ova (TypeScript, Go, .NET). 1,041 test. Osam Tamarin lema provjerenih mašinskim putem. Višeoblačni suvereni sistemi aktivni su na platformama Azure, DigitalOcean, Cloudflare i Akamai/Linode.",
+    "subtitle": "Python referentna implementacija i TypeScript, Go i .NET SDK-ovi su koordinirani na v0.56.0. Jezgro paketa ima 1,327 testove, sa formalnim dokazima protokola dokumentovanim za Tamarin verifikaciju.",
     "stack": {
       "title": "Tehnološki slojevi",
       "l1": {
@@ -202,14 +212,21 @@
       "operators": "Vanjski operateri",
       "status": "Uvođenje - faza 2",
       "online": "● NA MREŽI"
+    },
+    "governance": {
+      "label": "Upravljanje protokolom",
+      "title": "Otvorena promjena, eksplicitno ovlaštenje.",
+      "description": "Promjene protokola se kreću kroz javne nacrte, pregled održavatelja, pregled operatora kada se obaveze promijene, sigurnosni pregled za promjene stanja povjerenja i datirane odluke.",
+      "boundary": "Referentna implementacija nije protokol. Operateri zadržavaju svoje ključeve, politike, odluke o povjerenju i izlazna prava.",
+      "cta": "Pročitajte osnovnu liniju upravljanja"
     }
   },
   "silicon": {
-    "label": "Silicij",
-    "title": "Suvereni protokol na stranom siliciju samo je predstava.",
-    "subtitle": "Genesis Mesh provjerava ovlaštenja u softveru. Međutim, softver je suveren samo onoliko koliko je suveren silicij na kojem radi. TSWI, Tuniska inicijativa za suverene poluprovodničke pločice, zatvara krug: vlastito intelektualno vlasništvo nad interposerom, vlastiti pogon za pakovanje i vlastiti orkestracijski sistem. Standardni čipleti ulaze; suvereni računarski kapacitet izlazi. Sistem se napaja solarnom energijom na raskršću triju kontinenata, uz smanjenje troškova računarske obrade za više od polovine. Prva faza je završena.",
-    "conclusion": "Protokol upravlja logikom. Tunis upravlja silicijem.",
-    "cta": "Pročitajte sažetak o TSWI-ju →"
+    "label": "Istraživanja",
+    "title": "Sovereign Compute",
+    "subtitle": "TSWI istražuje sloj hardvera ispod suvereniteta softvera: pakovanje u vlasništvu operatera, dizajn interposera, orkestraciju i računarsku infrastrukturu koja je svesna energije.",
+    "conclusion": "Ovo je zasebna istraživačka staza, a ne uslov za usvajanje Genesis Mesh protokola.",
+    "cta": "Zatražite brifing istraživanja TSWI →"
   },
   "live": {
     "label": "Aktivno",
@@ -225,21 +242,21 @@
     "over": "Radi na"
   },
   "closing": {
-    "title": "Zadržite ovlaštenja u svojim rukama.",
-    "titleAccent": "Ne ovisite o dobavljaču.",
-    "subtitle": "Za njih 190, to je najkraći put do vlasništva nad vlastitim sidrima povjerenja. Za njih tri, to je jedini način interoperabilnosti bez odricanja od tih sidara.",
+    "title": "Napravi sa Genesis Mesh.",
+    "titleAccent": "Zadržite svoj autoritet.",
+    "subtitle": "Odaberite put usvajanja koji odgovara vašoj ulozi bez odricanja od vlastitih odluka o povjerenju.",
     "builders": {
-      "who": "Za 190 država - graditelji i arhitekti",
+      "who": "Za programere",
       "title": "Pokrenite vlastitu suverenu domenu povjerenja.",
       "desc": "Pročitajte RFC-ove, preuzmite TypeScript / Go / .NET SDK-ove i uspostavite L2 suverenu zajednicu na infrastrukturi koju već posjedujete.",
       "cta": "Otvorite razvojno središte →",
       "altText": "Organizacija otvorenog koda →"
     },
     "strategic": {
-      "who": "Za tri sile - državni i strateški akteri",
-      "title": "Ovaj razgovor ne počinje SDK-om.",
-      "desc": "Pročitajte cjelovitu priču Elections 2026 radi upoznavanja s filozofskim obrazloženjem, a zatim otvorite direktan, privatan i povjerljiv kanal. Bez obrazaca, prodajnih lijevaka i posrednika.",
-      "cta": "Pročitajte cijelu priču →",
+      "who": "Za države i institucije",
+      "title": "Procijenite protokol, dokaz i granice upravljanja.",
+      "desc": "Pregledajte javnu arhitekturu i reproducibilne dokaze, a zatim otvorite direktan kanal za pitanja institucionalne implementacije.",
+      "cta": "Pročitajte strateški sažetak →",
       "altText": "Direktni kanal: authority@genesismesh.org →"
     }
   },
@@ -352,6 +369,12 @@
     "unknown": "Nepoznato",
     "disclaimer": "Zbirni operativni signali. Ne predstavljaju potpun prikaz sigurnosti ili upravljanja.",
     "unavailableMessage": "Podaci uživo nisu mogli biti provjereni. Keširane vrijednosti ne prikazuju se kao aktuelne.",
-    "dashboard": "Pregledajte javnu kontrolnu ploču"
+    "dashboard": "Pregledajte javnu kontrolnu ploču",
+    "notReported": "Nije prijavljeno",
+    "browserFallback": {
+      "title": "Telemetrija uživo zahtijeva pristup pregledniku.",
+      "description": "Snimljeni i neovisno reproducirani dokazi ostaju dostupni u nastavku."
+    },
+    "proofAvailability": "Snimljeni i neovisno reproducirani dokazi ostaju dostupni putem linkova ispod."
   }
 }

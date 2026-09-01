@@ -2,11 +2,11 @@
   "nav": {
     "brand": "GENESIS■MESH",
     "links": {
-      "stakes": "Wat op die spel is",
-      "powers": "Drie moondhede",
+      "stakes": "Soewereiniteit",
+      "powers": "Samewerking",
       "mechanics": "Werking",
       "protocol": "Protokol",
-      "hardware": "Silikon",
+      "hardware": "Navorsing",
       "docs": "Dokumentasie",
       "proof": "Bewys",
       "live": "Regstreekse netwerk",
@@ -51,52 +51,44 @@
     "vlabel": "Soewereiniteitsneutrale infrastruktuur"
   },
   "stakes": {
-    "label": "Wat op die spel is",
-    "title": "Digitale soewereiniteit is nou 'n kwessie van nasionale oorlewing, en daar is geen verdragslaag vir masjiene nie.",
-    "subtitle": "State onderteken verdrae. Digitale stelsels het geen ekwivalent nie. Wanneer 'n KI-agent van een nasie die infrastruktuur van 'n ander teëkom, is die vraag wie vir hierdie entiteit instaan, onder wie se reëls, en of daardie vertroue onttrek kan word, 'n diplomatieke vraag waarop daar vandag geen protokolantwoord is nie. Genesis Mesh is daardie antwoord.",
-    "notLine": "Nie 'n blokketting nie. Nie 'n VPN nie. Nie 'n diensmaas nie. Nie 'n agentraamwerk nie. Nie 'n markplek nie. Die verdragslaag vir masjiene.",
-    "stats": {
-      "one": "190+",
-      "oneDesc": "Nasies wat steeds na 'n formule vir soewereiniteit soek",
-      "two": "3",
-      "twoDesc": "Moondhede wat reeds hul eie stapel besit",
-      "three": "1",
-      "threeDesc": "Protokol wat albei bedien, sonder om kant te kies"
-    }
+    "label": "Soewereiniteit",
+    "title": "Soewereiniteit sonder isolasie.",
+    "subtitle": "Onafhanklike stelsels moet saamwerk sonder om politieke belyning, gedeelde infrastruktuur of 'n gemeenskaplike wortel van vertroue te vereis.",
+    "notLine": "Genesis Mesh hanteer die masjienleesbare subset van daardie verhouding: erkenning, omvang, delegering, herroeping en bewyse.",
+    "boundary": "Dit onderhandel nie oor beleid, arbitreer geskille of beheer nie deelnemers nie. Dit bly menslike en institusionele verantwoordelikhede."
   },
   "powers": {
-    "label": "Die drie moondhede",
-    "title": "Soewereine moondhede het nie onafhanklikheid nodig nie. Hulle het interoperasie sonder onderwerping nodig.",
-    "subtitle": "Die waarde keer om, maar verdwyn nie. Geen geallieerde hoofstad aanvaar 'n ander se vertrouenswortel nie, daarom moet erkenning as ondertekende, afgebakende en herroepbare verdrae tussen gelykes oorgedra word.",
-    "cn": {
-      "code": "CN - Sjina",
-      "tag": "Die uitvoerder se bewys",
-      "title": "Bewys tegnies dat daar geen beheer is nie.",
-      "desc": "Elke infrastruktuuruitvoer stuit op dieselfde beswaar: jou toerusting beteken jou beheer. Verifieerbare, operateurbesitte en herroepbare vertroue is die tegniese antwoord op daardie politieke beswaar.",
-      "benefits": [
-        "Vennootlande ouditeer en herroep sonder om enigiemand bloot op hul woord te glo",
-        "Wedersydse erkenning met Westerse soewereine state, met geen kant wat die ander se sleutels hou nie",
-        "Sjinees-Westerse integrasie onder 'n enkele bestuursmodel"
+    "label": "Samewerking",
+    "title": "Samewerking vereis nie belyning nie.",
+    "subtitle": "Genesis Mesh enkodeer nie alliansies nie. Die protokol vereis kriptografiese erkenning, nie politieke ooreenkoms nie.",
+    "close": {
+      "code": "01",
+      "tag": "Noue samewerking",
+      "title": "Gedeelde werk, aparte gesag.",
+      "desc": "Owerhede kan nou saamwerk terwyl elkeen sy eie sleutels, beleid en herroepingsmag behou.",
+      "examples": [
+        "Geen gedeelde wortel van vertroue nie",
+        "Geen oordrag van operateurbeheer nie"
       ]
     },
-    "us": {
-      "code": "US - Verenigde State",
-      "tag": "Die federasieprobleem",
-      "title": "Bondgenote sal nie jou vertrouenswortel aanvaar nie.",
-      "desc": "Five Eyes-, NAVO- en EU-vennote: geeneen sal hulle aan 'n VSA-beheerde vertrouensanker onderwerp nie. Erkenningsverdrae laat elke bondgenoot soewerein bly terwyl vertroue steeds vloei.",
-      "benefits": [
-        "Geallieerde infrastruktuur sonder politieke kapitulasie",
-        "Hiperskaalverskaffers verkoop binne buitelandse soewereiniteitswetgewing"
+    "scoped": {
+      "code": "02",
+      "tag": "Smal omvang",
+      "title": "Een transaksie kan genoeg wees.",
+      "desc": "Erkenning kan een rol, een doel of een tydvenster dek sonder om 'n permanente alliansie te skep.",
+      "examples": [
+        "Eksplisiete omvang en vervaldatum",
+        "Plaaslike magtiging bly deurslaggewend"
       ]
     },
-    "kp": {
-      "code": "KP - Noord-Korea",
-      "tag": "Die uiterste beperking",
-      "title": "Die toets vir die paranoïese soewereine staat.",
-      "desc": "'n Staat wat niks eksterns vertrou nie. As 'n protokol vir die mees bewaakte soewereine staat op aarde werk, met geen afhanklikheid en volle operateurseienaarskap, werk dit vir enigiemand.",
-      "benefits": [
-        "Ontwerpbeperking op outarkievlak",
-        "Geen verankering deur buitelandse gesag nie, ooit"
+    "different": {
+      "code": "03",
+      "tag": "Verskillende belangstellings",
+      "title": "Erkenning is nie onderskrywing nie.",
+      "desc": "Owerhede met verskillende beleide kan 'n begrensde verhouding verifieer sonder om aanspraak te maak op breër politieke ooreenkoms.",
+      "examples": [
+        "Getekende bewyse vervang geïmpliseerde belyning",
+        "Enige owerheid kan sy eie vertroue herroep"
       ]
     }
   },
@@ -125,12 +117,30 @@
         "name": "Ouditeer",
         "desc": "Elke besluit laat manipulasiebespeurbare bewyse. Niemand hoef jou bloot op jou woord te glo nie."
       }
+    ],
+    "evidence": [
+      {
+        "title": "Geen gedeelde wortel van vertroue nie.",
+        "action": "Sien die toets"
+      },
+      {
+        "title": "Herroeping oorskry gesagsgrense.",
+        "action": "Reproduseer dit"
+      },
+      {
+        "title": "Protokol eienskappe het Tamarin modelle.",
+        "action": "Sien die formele bewyse"
+      },
+      {
+        "title": "Hoekom nie SPIFFE, DID of OAuth nie?",
+        "action": "Lees die vergelyking"
+      }
     ]
   },
   "protocol": {
     "label": "Die protokol",
     "title": "'n Oop RFC-program, volgens standaarde gevorm, nie volgens 'n verskaffer nie.",
-    "subtitle": "Drie SDK-generasies is gelewer (TypeScript, Go, .NET). 1,041 toetse. Agt masjiengeverifieerde Tamarin-lemmas. Multiwolk-soewereine omgewings is aktief op Azure, DigitalOcean, Cloudflare en Akamai/Linode.",
+    "subtitle": "Die Python verwysingsimplementering en TypeScript, Go, en .NET SDK's word by v0.56.0 gekoördineer. Die kernsuite het 1,327-toetse, met formele protokolbewyse gedokumenteer vir Tamarin-verifikasie.",
     "stack": {
       "title": "Die stapel",
       "l1": {
@@ -202,14 +212,21 @@
       "operators": "Eksterne operateurs",
       "status": "Aansluiting - Fase 2",
       "online": "● AANLYN"
+    },
+    "governance": {
+      "label": "Protokolbestuur",
+      "title": "Oop verandering, eksplisiete gesag.",
+      "description": "Protokolveranderings beweeg deur publieke konsepte, instandhouer-hersiening, operateur-hersiening wanneer verpligtinge verander, sekuriteitshersiening vir truststaatveranderings en gedateerde besluite.",
+      "boundary": "Die verwysingsimplementering is nie die protokol nie. Operateurs behou hul eie sleutels, beleide, trustbesluite en uittreeregte.",
+      "cta": "Lees die bestuursbasislyn"
     }
   },
   "silicon": {
-    "label": "Die silikon",
-    "title": "'n Soewereine protokol op buitelandse silikon is teater.",
-    "subtitle": "Genesis Mesh verifieer gesag in sagteware. Maar sagteware is net so soewerein soos die silikon waarop dit loop. TSWI, die Tunisiese Soewereine Wafer-inisiatief, sluit die kring: interposer IP in eie besit, 'n verpakkingsfasiliteit in eie besit en 'n orkestrasiestapel in eie besit. Kommoditeitskyfies in; soewereine rekenaarverwerking uit. Sonkragaangedrewe by die kruispunt van drie kontinente, met meer as die helfte van die rekenaarkoste uitgeskakel. Fase een is voltooi.",
-    "conclusion": "Die protokol beheer die logika. Tunisië beheer die silikon.",
-    "cta": "Lees die TSWI-inligtingstuk →"
+    "label": "Navorsing",
+    "title": "Sovereign Compute",
+    "subtitle": "TSWI ondersoek die hardewarelaag onder sagteware-soewereiniteit: verpakking wat deur operateur besit word, tussenvoegerontwerp, orkestrasie en energiebewuste rekenaarinfrastruktuur.",
+    "conclusion": "Dit is 'n aparte navorsingsbaan, nie 'n vereiste vir die aanvaarding van die Genesis Mesh-protokol nie.",
+    "cta": "Versoek die TSWI navorsingsinligtingsessie →"
   },
   "live": {
     "label": "Aktief",
@@ -225,21 +242,21 @@
     "over": "Bedryf op meer as"
   },
   "closing": {
-    "title": "Kies eie gesag.",
-    "titleAccent": "Nie verskafferafhanklikheid nie.",
-    "subtitle": "Vir die 190 is dit die kortste pad om hul vertrouensankers te besit. Vir die drie is dit die enigste manier om interoperabel te wees sonder om daardie ankers prys te gee.",
+    "title": "Bou met Genesis Mesh.",
+    "titleAccent": "Hou jou gesag.",
+    "subtitle": "Kies die aannemingspad wat by jou rol pas sonder om jou eie vertrouebesluite prys te gee.",
     "builders": {
-      "who": "Vir die 190 - Bouers en argitekte",
+      "who": "Vir sagtewareontwikkelaars",
       "title": "Stel jou eie soewereine vertrouensdomein in werking.",
       "desc": "Lees die RFC's, laai die TypeScript / Go / .NET-SDK's af en stel 'n L2 Soewereine Gemeenskap op infrastruktuur in werking wat jy reeds besit.",
       "cta": "Gaan na die ontwikkelaarspilpunt →",
       "altText": "Oopbronorganisasie →"
     },
     "strategic": {
-      "who": "Vir die Drie - Staats- en strategiese rolspelers",
-      "title": "Hierdie gesprek begin nie met 'n SDK nie.",
-      "desc": "Lees die volledige Elections 2026-narratief vir die filosofiese argument en open daarna 'n direkte, vertroulike kanaal. Geen vorms, geen tregters, geen tussengangers nie.",
-      "cta": "Lees die volledige verhaal →",
+      "who": "Vir state en instellings",
+      "title": "Evalueer die protokol, bewys en bestuursgrens.",
+      "desc": "Hersien die openbare argitektuur en reproduceerbare bewyse, maak dan 'n direkte kanaal oop vir institusionele ontplooiingsvrae.",
+      "cta": "Lees die strategiese opdrag →",
       "altText": "Direkte kanaal: authority@genesismesh.org →"
     }
   },
@@ -352,6 +369,12 @@
     "unknown": "Onbekend",
     "disclaimer": "Saamgevoegde bedryfseine. Nie 'n volledige beeld van sekuriteit of beheer nie.",
     "unavailableMessage": "Regstreekse data kon nie geverifieer word nie. Geen gekaste waardes word as aktueel aangebied nie.",
-    "dashboard": "Inspekteer die openbare kontroleskerm"
+    "dashboard": "Inspekteer die openbare kontroleskerm",
+    "notReported": "Nie aangemeld nie",
+    "browserFallback": {
+      "title": "Regstreekse telemetrie vereis blaaiertoegang.",
+      "description": "Opgeneemde en onafhanklik reproduceerbare bewyse bly hieronder beskikbaar."
+    },
+    "proofAvailability": "Opgeneemde en onafhanklik reproduceerbare bewyse bly beskikbaar deur die skakels hieronder."
   }
 }

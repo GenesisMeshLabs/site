@@ -2,11 +2,11 @@
   "nav": {
     "brand": "GENESIS■MESH",
     "links": {
-      "stakes": "Abin da ke Cikin Haɗari",
-      "powers": "Ƙasashe Masu Iko Uku",
+      "stakes": "Mulki\nSaukewa:",
+      "powers": "Haɗin kai\nSaukewa:",
       "mechanics": "Yadda yake Aiki",
       "protocol": "Ka'idar Sadarwa",
-      "hardware": "Silicon",
+      "hardware": "Bincike\nSaukewa:",
       "docs": "Takardu",
       "proof": "Hujja",
       "live": "Cibiyar Sadarwa Kai Tsaye",
@@ -51,52 +51,44 @@
     "vlabel": "Ababen More Rayuwa Marasa Nuna Son Rai Kan Ikon Kai"
   },
   "stakes": {
-    "label": "Abin da ke Cikin Haɗari",
-    "title": "Ikon kai na dijital yanzu batu ne na wanzuwar ƙasa, kuma babu matakin yarjejeniya ga na'urori.",
-    "subtitle": "Ƙasashe suna sanya hannu kan yarjejeniyoyi. Tsare-tsaren dijital ba su da makamancinsu. Idan wakilin AI na wata ƙasa ya haɗu da ababen more rayuwar wata, tambayoyin su ne: wa ke tabbatar da wannan mahaluƙi, a ƙarƙashin dokokin wa, kuma za a iya janye wannan amincewa? Wannan tambaya ce ta diflomasiyya wadda a yau ba ta da amsa ta ka'idar sadarwa. Genesis Mesh ita ce amsar.",
-    "notLine": "Ba blockchain ba ne. Ba VPN ba ne. Ba service mesh ba ne. Ba tsarin wakilai ba ne. Ba kasuwa ba ce. Shi ne matakin yarjejeniya ga na'urori.",
-    "stats": {
-      "one": "190+",
-      "oneDesc": "Ƙasashen da har yanzu suke neman tsarin samun ikon kansu",
-      "two": "3",
-      "twoDesc": "Ƙasashe masu iko da suka riga suka mallaki dukkan tsarin fasaharsu",
-      "three": "1",
-      "threeDesc": "Ka'idar sadarwa da ke yi wa ɓangarorin biyu hidima, ba tare da nuna son rai ba"
-    }
+    "label": "Mulki\nSaukewa:",
+    "title": "Mulki ba tare da ware ba.\nSaukewa:",
+    "subtitle": "Tsari mai zaman kansa yana buƙatar haɗin kai ba tare da buƙatar daidaita siyasa ba, kayayyakin more rayuwa, ko tushen amincewa ɗaya.\nSaukewa:",
+    "notLine": "Genesis Mesh yana sarrafa juzu'in da za'a iya karantawa na'ura na waccan dangantakar: fitarwa, iyaka, wakilai, sokewa, da shaida.\nSaukewa:",
+    "boundary": "Ba ya yin shawarwarin manufa, sasanta rikice-rikice, ko mulkin mahalarta. Waɗancan sun kasance alhakin ɗan adam da na hukumomi.\nSaukewa:"
   },
   "powers": {
-    "label": "Ƙasashe Masu Iko Uku",
-    "title": "Ƙasashe masu ikon kansu ba sa buƙatar 'yanci. Suna buƙatar yin aiki tare ba tare da miƙa wuya ba.",
-    "subtitle": "Darajar tana sauya alkibla, amma ba ta ɓacewa. Babu wata babban birnin ƙasar ƙawance da za ta amince da tushen amincin wata ƙasa, saboda haka dole amincewa ta gudana a matsayin yarjejeniyoyi masu sa hannu, takamaiman iyaka, da yiwuwar janyewa tsakanin ɓangarori masu daidaito.",
-    "cn": {
-      "code": "CN - Sin",
-      "tag": "Hujjar Mai Fitar da Kaya",
-      "title": "Tabbatar da rashin iko, ta hanyar fasaha.",
-      "desc": "Duk wani fitar da ababen more rayuwa yana fuskantar ƙalubale iri ɗaya: kayan aikinku na nufin ikonsa yana hannunku. Aminci da za a iya tantancewa, wanda ma'aikacin tsarin ya mallaka kuma za a iya janyewa, shi ne amsar fasaha ga wannan ƙalubalen siyasa.",
-      "benefits": [
-        "Ƙasashe abokan hulɗa suna dubawa da janyewa ba tare da dogaro da maganar kowa ba",
-        "Amincewar juna da ƙasashe masu ikon kansu na Yamma, babu ɓangaren da ke riƙe da maɓallan ɗayan",
-        "Haɗa tsarin Sin da na Yamma a ƙarƙashin tsarin shugabanci guda"
+    "label": "Haɗin kai\nSaukewa:",
+    "title": "Haɗin kai baya buƙatar daidaitawa.\nSaukewa:",
+    "subtitle": "Genesis Mesh baya ɓoye haɗin gwiwa. Yarjejeniyar tana buƙatar sanin sirrin sirri, ba yarjejeniya ta siyasa ba.\nSaukewa:",
+    "close": {
+      "code": "01",
+      "tag": "Rufe haɗin gwiwa\nSaukewa:",
+      "title": "Aiki na raba, iko daban.\nSaukewa:",
+      "desc": "Hukumomi na iya ba da haɗin kai sosai yayin da kowannensu ke riƙe da maɓallansa, manufofinsa, da ikon sokewa.\nSaukewa:",
+      "examples": [
+        "Babu tushen aminci\nSaukewa:",
+        "Babu canja wurin sarrafa ma'aikata\nSaukewa:"
       ]
     },
-    "us": {
-      "code": "US - Amurka",
-      "tag": "Matsalar Tarayya",
-      "title": "Ƙawayenku ba za su karɓi tushen amincinku ba.",
-      "desc": "Five Eyes, NATO, abokan hulɗar EU: babu wanda zai miƙa ikonsa ga ginshiƙin aminci da Amurka ke sarrafawa. Yarjejeniyoyin amincewa suna bai wa kowane ƙawa damar riƙe ikon kansa yayin da aminci ke ci gaba da gudana.",
-      "benefits": [
-        "Ababen more rayuwar ƙawance ba tare da miƙa wuya a siyasance ba",
-        "Manyan masu samar da sabis na gajimare suna sayarwa bisa dokokin ikon kai na ƙasashen waje"
+    "scoped": {
+      "code": "02",
+      "tag": "Matsakaicin iyaka\nSaukewa:",
+      "title": "Ma'amala ɗaya na iya isa.\nSaukewa:",
+      "desc": "Ganewa na iya rufe rawar ɗaya, manufa ɗaya, ko taga lokaci ɗaya ba tare da ƙirƙirar ƙawancen dindindin ba.\nSaukewa:",
+      "examples": [
+        "Bayyanar iyaka da ƙarewa\nSaukewa:",
+        "Izinin gida ya kasance mai yanke hukunci\nSaukewa:"
       ]
     },
-    "kp": {
-      "code": "KP - Koriya ta Arewa",
-      "tag": "Tsauraran Ƙuntatawa",
-      "title": "Gwajin ƙasa mai tsananin zargin kowa.",
-      "desc": "Ƙasar da ba ta amince da komai daga waje ba. Idan ka'idar sadarwa tana aiki ga ƙasar da ta fi kowa tsare kanta a duniya, ba tare da wata dogaro ba kuma ma'aikacin tsarin yana da cikakkiyar mallaka, to za ta yi aiki ga kowa.",
-      "benefits": [
-        "Ƙa'idar ƙira mai matsayin dogaro da kai gaba ɗaya",
-        "Babu taɓa ɗora tsarin kan ikon izini na ƙasar waje"
+    "different": {
+      "code": "03",
+      "tag": "Sha'awa daban-daban\nSaukewa:",
+      "title": "Ganewa ba yarda ba ne.\nSaukewa:",
+      "desc": "Hukumomin da ke da manufofi daban-daban na iya tabbatar da dangantaka mai iyaka ba tare da da'awar yarjejeniya ta siyasa ba.\nSaukewa:",
+      "examples": [
+        "Shaidar da aka sa hannu ta maye gurbin jeri mai ma'ana\nSaukewa:",
+        "Ko wace hukuma za ta iya soke amincewar ta\nSaukewa:"
       ]
     }
   },
@@ -125,12 +117,30 @@
         "name": "Duba",
         "desc": "Kowane hukunci yana barin shaidar da ke bayyana duk wani kutse. Babu wanda zai dogara da maganarka kawai."
       }
+    ],
+    "evidence": [
+      {
+        "title": "Babu tushen aminci.\nSaukewa:",
+        "action": "Duba gwajin\nSaukewa:"
+      },
+      {
+        "title": "Sokewa ya ketare iyakokin hukuma.\nSaukewa:",
+        "action": "Maimaita shi\nSaukewa:"
+      },
+      {
+        "title": "Kaddarorin yarjejeniya suna da samfuran Tamarin.\nSaukewa:",
+        "action": "Dubi shaida ta gaskiya\nSaukewa:"
+      },
+      {
+        "title": "Me yasa ba SPIFFE, DID, ko OAuth?\nSaukewa:",
+        "action": "Karanta kwatanta\nSaukewa:"
+      }
     ]
   },
   "protocol": {
     "label": "Ka'idar Sadarwa",
     "title": "Shirin RFC a buɗe, wanda ƙa'idoji suka tsara, ba mai sayar da kaya ba.",
-    "subtitle": "An fitar da ƙarni uku na SDK (TypeScript, Go, .NET). Gwaje-gwaje 1,041. Ka'idojin hujja takwas na Tamarin da na'ura ta tantance. Tsare-tsare masu ikon kansu na gajimare da yawa suna aiki kai tsaye a Azure, DigitalOcean, Cloudflare, da Akamai/Linode.",
+    "subtitle": "An daidaita aiwatar da tunani na Python da TypeScript, Go, da .NET SDKs a v0.56.0. Babban babban ɗakin yana da gwaje-gwajen 1,327, tare da shaidar ƙa'idar ƙa'idar da aka rubuta don tabbatarwa Tamarin.\nSaukewa:",
     "stack": {
       "title": "Jerin Matakan Tsarin",
       "l1": {
@@ -202,14 +212,21 @@
       "operators": "Ma'aikatan Tsarin na Waje",
       "status": "Shigarwa - Mataki na 2",
       "online": "● KAN LAYI"
+    },
+    "governance": {
+      "label": "Mulkin Protocol",
+      "title": "Buɗe canji, iko bayyananne.\nSaukewa:",
+      "description": "Canje-canjen yarjejeniya suna motsawa ta hanyar tsararrun jama'a, bita mai kulawa, bitar mai aiki lokacin da wajibai suka canza, bitar tsaro don canje-canjen rikon amana, da yanke shawara kwanan wata.\nSaukewa:",
+      "boundary": "Aiwatar da tunani ba ƙa'idar ba ce. Masu gudanarwa suna riƙe da nasu maɓallai, manufofi, amincewa da yanke shawara, da haƙƙin fita.\nSaukewa:",
+      "cta": "Karanta tushen mulki\nSaukewa:"
     }
   },
   "silicon": {
-    "label": "Silicon",
-    "title": "Ka'idar sadarwa mai ikon kanta a kan silicon na ƙasar waje wasan kwaikwayo ne kawai.",
-    "subtitle": "Genesis Mesh yana tabbatar da ikon izini a cikin manhaja. Amma ikon kai na manhaja bai wuce na silicon da take aiki a kansa ba. TSWI, Tunisian Sovereign Wafer Initiative, yana cike giɓin: mallakar interposer IP, mallakar cibiyar haɗa marufi, da mallakar tsarin tsara ayyuka. Ana shigar da chiplets na kasuwa; ana fitar da sarrafa bayanai mai ikon kansa. Ana amfani da makamashin rana a mahaɗar nahiyoyi uku, tare da rage fiye da rabin kuɗin sarrafa bayanai. An kammala mataki na ɗaya.",
-    "conclusion": "Ka'idar sadarwa ce ke tafiyar da dabarun aiki. Tunisiya ce ke tafiyar da silicon.",
-    "cta": "Karanta taƙaitaccen bayanin TSWI →"
+    "label": "Bincike\nSaukewa:",
+    "title": "Sovereign Compute\nSaukewa:",
+    "subtitle": "TSWI yana bincika ƙirar kayan masarufi a ƙarƙashin ikon mallakar software: fakitin mallakar mai aiki, ƙirar mai shiga tsakani, ƙungiyar kade-kade, da kayan aikin ƙididdige makamashi-sani.\nSaukewa:",
+    "conclusion": "Wannan hanya ce ta bincike daban, ba buƙatu ba don ɗaukar ka'idar Genesis Mesh.\nSaukewa:",
+    "cta": "Nemi bayanin binciken TSWI →\nSaukewa:"
   },
   "live": {
     "label": "Kai Tsaye",
@@ -225,21 +242,21 @@
     "over": "Yana gudana a kan"
   },
   "closing": {
-    "title": "Mallaki ikon izini.",
-    "titleAccent": "Kada ka dogara ga mai kaya.",
-    "subtitle": "Ga ƙasashe 190, ita ce hanya mafi gajarta ta mallakar ginshiƙan amincinsu. Ga ƙasashe uku, ita ce kawai hanyar yin aiki tare ba tare da sadaukar da su ba.",
+    "title": "Gina da Genesis Mesh.\nSaukewa:",
+    "titleAccent": "Ka kiyaye ikonka.\nSaukewa:",
+    "subtitle": "Zaɓi hanyar karɓowa wacce ta dace da aikinku ba tare da ƙaddamar da shawarar amincewar ku ba.\nSaukewa:",
     "builders": {
-      "who": "Ga Ƙasashe 190 - Masu Ginawa da Masu Tsara Tsari",
+      "who": "Ga masu haɓaka manhaja",
       "title": "Kafa yankin amincinka mai ikon kansa.",
       "desc": "Karanta RFCs, sauke SDKs na TypeScript / Go / .NET, sannan ka kafa wata Al'umma Mai Ikon Kanta ta L2 a kan ababen more rayuwar da ka riga ka mallaka.",
       "cta": "Shiga Cibiyar Masu Haɓakawa →",
       "altText": "Ƙungiyar buɗaɗɗen tushe →"
     },
     "strategic": {
-      "who": "Ga Ƙasashe Uku - Gwamnatoci da Masu Rawar Dabara",
-      "title": "Wannan tattaunawar ba ta farawa da SDK.",
-      "desc": "Karanta cikakken labarin Elections 2026 don fahimtar hujjar falsafa, sannan ka buɗe tashar sadarwa kai tsaye, ta sirri kuma amintacciya. Babu fom, babu matakan jan hankalin kwastoma, babu masu shiga tsakani.",
-      "cta": "Karanta Cikakken Labarin →",
+      "who": "Don jihohi & cibiyoyi\nSaukewa:",
+      "title": "Ƙimar yarjejeniya, hujja, da iyakar mulki.\nSaukewa:",
+      "desc": "Yi bitar gine-ginen jama'a da shaidar da za a iya maimaitawa, sannan buɗe tashar kai tsaye don tambayoyin tura hukumomi.\nSaukewa:",
+      "cta": "Karanta taƙaitaccen dabarun →",
       "altText": "Tashar kai tsaye: authority@genesismesh.org →"
     }
   },
@@ -352,6 +369,12 @@
     "unknown": "Ba a sani ba",
     "disclaimer": "Jimillar alamomin aiki ne. Ba cikakken bayani ne kan tsaro ko tsarin gudanarwa ba.",
     "unavailableMessage": "Ba a iya tabbatar da bayanan kai tsaye ba. Ba a nuna tsoffin bayanan da aka adana a matsayin na yanzu ba.",
-    "dashboard": "Duba dashboard na jama'a"
+    "dashboard": "Duba dashboard na jama'a",
+    "notReported": "Ba a ruwaito ba\nSaukewa:",
+    "browserFallback": {
+      "title": "Live telemetry yana buƙatar samun damar mai lilo.\nSaukewa:",
+      "description": "Abubuwan da aka yi rikodi da masu iya sakewa suna wanzuwa a ƙasa.\nSaukewa:"
+    },
+    "proofAvailability": "Shaidu da aka yi rikodi kuma masu zaman kansu suna nan ta hanyar hanyoyin haɗin da ke ƙasa.\nSaukewa:"
   }
 }

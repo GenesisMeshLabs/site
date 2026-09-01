@@ -156,9 +156,9 @@ const protectedTerms = [
 
 const fixedValuePaths = new Set([
   'nav.brand',
-  'stakes.stats.one',
-  'stakes.stats.two',
-  'stakes.stats.three',
+  'powers.close.code',
+  'powers.scoped.code',
+  'powers.different.code',
   'mechanics.ops[0].num',
   'mechanics.ops[1].num',
   'mechanics.ops[2].num',
@@ -172,6 +172,13 @@ const fixedValuePaths = new Set([
   'protocol.rfcs[6].id',
   'protocol.rfcs[7].id',
 ]);
+
+function containsProtectedTerm(value, term) {
+  if (term === 'Go') {
+    return /(?:^|[^\p{L}\p{N}])Go(?=$|[^\p{L}\p{N}])/u.test(value);
+  }
+  return value.includes(term);
+}
 
 for (const file of messageFiles) {
   const catalogue = file === `${referenceLocale}.json` ? reference : parseCatalogue(file);
@@ -217,7 +224,7 @@ for (const file of messageFiles) {
         errors.push(`${file}: ${keyPath} must remain exactly ${expected}`);
       }
       for (const term of protectedTerms) {
-        if (expected.includes(term) && !value.includes(term)) {
+        if (containsProtectedTerm(expected, term) && !value.includes(term)) {
           errors.push(`${file}: ${keyPath} does not preserve ${term}`);
         }
       }

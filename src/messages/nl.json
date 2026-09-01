@@ -2,11 +2,11 @@
   "nav": {
     "brand": "GENESIS■MESH",
     "links": {
-      "stakes": "Wat Op Het Spel Staat",
-      "powers": "Drie Machten",
+      "stakes": "Soevereiniteit",
+      "powers": "Samenwerking",
       "mechanics": "Mechaniek",
       "protocol": "Protocol",
-      "hardware": "Silicium",
+      "hardware": "Onderzoek",
       "docs": "Documentatie",
       "proof": "Bewijs",
       "live": "Live netwerk",
@@ -51,52 +51,44 @@
     "vlabel": "Soevereiniteitsneutrale infrastructuur"
   },
   "stakes": {
-    "label": "Wat Op Het Spel Staat",
-    "title": "Digitale soevereiniteit is inmiddels een kwestie van nationaal voortbestaan, en voor machines bestaat er geen verdragslaag.",
-    "subtitle": "Staten sluiten verdragen. Digitale systemen kennen geen equivalent. Wanneer de AI-agent van de ene natie de infrastructuur van een andere tegenkomt, is de vraag wie voor deze entiteit instaat, onder wiens regels, en of dat vertrouwen kan worden ingetrokken, een diplomatieke vraag waarop vandaag geen antwoord op protocolniveau bestaat. Genesis Mesh is dat antwoord.",
-    "notLine": "Geen blockchain. Geen VPN. Geen service mesh. Geen agentframework. Geen marktplaats. De verdragslaag voor machines.",
-    "stats": {
-      "one": "190+",
-      "oneDesc": "Naties die nog een soevereiniteitsformule zoeken",
-      "two": "3",
-      "twoDesc": "Machten die hun stack al bezitten",
-      "three": "1",
-      "threeDesc": "Protocol dat beide dient zonder partij te kiezen"
-    }
+    "label": "Soevereiniteit",
+    "title": "Soevereiniteit zonder isolement.",
+    "subtitle": "Onafhankelijke systemen moeten samenwerken zonder dat hiervoor politieke afstemming, gedeelde infrastructuur of een gemeenschappelijke basis van vertrouwen nodig is.",
+    "notLine": "Genesis Mesh verwerkt de machinaal leesbare subset van die relatie: herkenning, reikwijdte, delegatie, intrekking en bewijs.",
+    "boundary": "Het onderhandelt niet over beleid, bemiddelt niet in geschillen en bestuurt geen deelnemers. Dat blijven menselijke en institutionele verantwoordelijkheden."
   },
   "powers": {
-    "label": "De Drie Machten",
-    "title": "Soevereine machten hebben geen onafhankelijkheid nodig. Zij hebben interoperabiliteit zonder onderschikking nodig.",
-    "subtitle": "De waarde kantelt, maar verdwijnt niet. Geen enkele geallieerde hoofdstad aanvaardt de vertrouwenswortel van een ander; erkenning moet dus reizen als ondertekende, afgebakende en intrekbare verdragen tussen gelijken.",
-    "cn": {
-      "code": "CN - China",
-      "tag": "Het bewijs van de exporteur",
-      "title": "Bewijs technisch dat u geen controle hebt.",
-      "desc": "Elke infrastructuurexport stuit op hetzelfde bezwaar: uw apparatuur betekent uw controle. Verifieerbaar, in handen van de operator en intrekbaar vertrouwen is het technische antwoord op dat politieke bezwaar.",
-      "benefits": [
-        "Partnerlanden auditen en trekken in zonder iemand op zijn woord te geloven",
-        "Wederzijdse erkenning met westerse soevereinen: geen van beide houdt de sleutels van de ander",
-        "Chinees-westerse integratie onder één bestuursmodel"
+    "label": "Samenwerking",
+    "title": "Samenwerking vereist geen afstemming.",
+    "subtitle": "Genesis Mesh codeert geen allianties. Het protocol vereist cryptografische herkenning, geen politieke overeenstemming.",
+    "close": {
+      "code": "01",
+      "tag": "Nauwe samenwerking",
+      "title": "Gedeeld werk, aparte bevoegdheid.",
+      "desc": "Autoriteiten kunnen nauw samenwerken, terwijl elk zijn eigen sleutels, beleid en intrekkingsbevoegdheid behoudt.",
+      "examples": [
+        "Geen gedeelde basis van vertrouwen",
+        "Geen overdracht van controle door de operator"
       ]
     },
-    "us": {
-      "code": "US - Verenigde Staten",
-      "tag": "Het federatieprobleem",
-      "title": "Bondgenoten accepteren uw wortel niet.",
-      "desc": "Five Eyes, NAVO, EU-partners: niemand zal zich onderschikken aan een door de VS gecontroleerd vertrouwensanker. Erkenningsverdragen laten elke bondgenoot soeverein blijven terwijl vertrouwen blijft stromen.",
-      "benefits": [
-        "Geallieerde infrastructuur zonder politieke capitulatie",
-        "Hyperscalers verkopen binnen buitenlands soevereiniteitsrecht"
+    "scoped": {
+      "code": "02",
+      "tag": "Smalle reikwijdte",
+      "title": "Eén transactie kan voldoende zijn.",
+      "desc": "Erkenning kan betrekking hebben op één rol, één doel of één tijdsbestek zonder dat er een permanente alliantie ontstaat.",
+      "examples": [
+        "Expliciete reikwijdte en vervaldatum",
+        "Lokale autorisatie blijft doorslaggevend"
       ]
     },
-    "kp": {
-      "code": "KP - Noord-Korea",
-      "tag": "De extreme randvoorwaarde",
-      "title": "De test van de paranoïde soeverein.",
-      "desc": "Een staat die niets van buitenaf vertrouwt. Als een protocol werkt voor de meest afgeschermde soeverein ter wereld, met nul afhankelijkheid en volledig eigendom bij de operator, werkt het voor iedereen.",
-      "benefits": [
-        "Ontwerpbeperking op autarkieniveau",
-        "Nooit verankering bij een buitenlandse autoriteit"
+    "different": {
+      "code": "03",
+      "tag": "Verschillende interesses",
+      "title": "Erkenning is geen goedkeuring.",
+      "desc": "Autoriteiten met verschillend beleid kunnen een beperkte relatie verifiëren zonder een bredere politieke overeenstemming te claimen.",
+      "examples": [
+        "Ondertekend bewijsmateriaal vervangt impliciete afstemming",
+        "Beide autoriteiten kunnen hun eigen vertrouwen intrekken"
       ]
     }
   },
@@ -125,12 +117,30 @@
         "name": "Auditen",
         "desc": "Elke beslissing laat bewijs achter waaraan manipulatie zichtbaar is. Niemand hoeft u op uw woord te geloven."
       }
+    ],
+    "evidence": [
+      {
+        "title": "Geen gedeelde basis van vertrouwen.",
+        "action": "Zie de test"
+      },
+      {
+        "title": "Intrekking overschrijdt de grenzen van de autoriteit.",
+        "action": "Reproduceer het"
+      },
+      {
+        "title": "Protocoleigenschappen hebben Tamarin-modellen.",
+        "action": "Zie het formele bewijs"
+      },
+      {
+        "title": "Waarom niet SPIFFE, DID of OAuth?",
+        "action": "Lees de vergelijking"
+      }
     ]
   },
   "protocol": {
     "label": "Het Protocol",
     "title": "Een open RFC-programma, gevormd door standaarden en niet door een leverancier.",
-    "subtitle": "Drie SDK-generaties uitgebracht (TypeScript, Go, .NET). 1.041 tests. Acht machinaal gecontroleerde Tamarin-lemma's. Multicloud-soevereinen draaien op Azure, DigitalOcean, Cloudflare en Akamai/Linode.",
+    "subtitle": "De Python-referentie-implementatie en TypeScript, Go en .NET SDK's worden gecoördineerd op v0.56.0. De kernsuite beschikt over 1,327-tests, waarbij formeel protocolbewijs is gedocumenteerd voor Tamarin-verificatie.",
     "stack": {
       "title": "De Stack",
       "l1": {
@@ -202,14 +212,21 @@
       "operators": "Externe operators",
       "status": "Onboarding - Fase 2",
       "online": "● ONLINE"
+    },
+    "governance": {
+      "label": "Protocolbeheer",
+      "title": "Open verandering, expliciete autoriteit.",
+      "description": "Protocolwijzigingen verlopen via openbare concepten, beoordeling door onderhouder, beoordeling door operator wanneer verplichtingen veranderen, veiligheidsbeoordeling voor wijzigingen in de truststatus en gedateerde beslissingen.",
+      "boundary": "De referentie-implementatie is niet het protocol. Operators behouden hun eigen sleutels, beleid, vertrouwensbeslissingen en exitrechten.",
+      "cta": "Lees de governance basislijn"
     }
   },
   "silicon": {
-    "label": "Het Silicium",
-    "title": "Een soeverein protocol op andermans silicium is theater.",
-    "subtitle": "Genesis Mesh verifieert gezag in de software. Maar software is niet soevereiner dan het silicium waarop zij draait. TSWI, het Tunesische Soevereine Waferinitiatief, sluit de cirkel: eigen interposer-IP, eigen packagingfabriek, eigen orkestratiestack. Standaardchiplets erin, soevereine rekenkracht eruit. Op zonne-energie op het kruispunt van drie continenten, met meer dan de helft van de rekenkosten weggesneden. Fase één is afgerond.",
-    "conclusion": "Het protocol bestuurt de logica. Tunesië bestuurt het silicium.",
-    "cta": "Lees de TSWI-toelichting →"
+    "label": "Onderzoek",
+    "title": "Soevereine computer",
+    "subtitle": "TSWI onderzoekt de hardwarelaag onder de softwaresoevereiniteit: verpakking van de operator, ontwerp van interposer, orkestratie en energiebewuste computerinfrastructuur.",
+    "conclusion": "Dit is een apart onderzoekstraject en geen vereiste voor het adopteren van het Genesis Mesh-protocol.",
+    "cta": "Vraag de TSWI onderzoeksbriefing aan →"
   },
   "live": {
     "label": "Live",
@@ -225,21 +242,21 @@
     "over": "Draait op"
   },
   "closing": {
-    "title": "Huur het gezag in.",
-    "titleAccent": "Niet de leverancier.",
-    "subtitle": "Voor de 190 is dit de kortste weg naar eigen vertrouwensankers. Voor de drie is het de enige manier om te interopereren zonder ze op te geven.",
+    "title": "Bouw met Genesis Mesh.",
+    "titleAccent": "Behoud uw autoriteit.",
+    "subtitle": "Kies het adoptietraject dat bij uw rol past, zonder uw eigen vertrouwensbeslissingen op te geven.",
     "builders": {
-      "who": "Voor de 190 - Bouwers en architecten",
+      "who": "Voor softwareontwikkelaars",
       "title": "Zet uw eigen soevereine vertrouwensdomein op.",
       "desc": "Lees de RFC's, haal de SDK's voor TypeScript, Go en .NET op, en zet een L2 Soevereine Gemeenschap op infrastructuur die u al bezit.",
       "cta": "Naar de Dev Hub →",
       "altText": "Opensource-organisatie →"
     },
     "strategic": {
-      "who": "Voor de drie - Staten en strategische actoren",
-      "title": "Dit gesprek begint niet met een SDK.",
-      "desc": "Lees het volledige Elections 2026-verhaal voor de filosofische onderbouwing en open daarna een direct, discreet kanaal. Geen formulieren, geen funnels, geen tussenpersonen.",
-      "cta": "Lees het volledige verhaal →",
+      "who": "Voor staten en instellingen",
+      "title": "Evalueer de grenzen van het protocol, het bewijs en het bestuur.",
+      "desc": "Bekijk de publieke architectuur en het reproduceerbare bewijsmateriaal en open vervolgens een direct kanaal voor vragen over institutionele implementatie.",
+      "cta": "Lees de strategische briefing →",
       "altText": "Direct kanaal: authority@genesismesh.org →"
     }
   },
@@ -352,6 +369,12 @@
     "unknown": "Onbekend",
     "disclaimer": "Geaggregeerde operationele signalen. Geen volledig beeld van beveiliging of governance.",
     "unavailableMessage": "De live gegevens konden niet worden geverifieerd. Waarden uit de cache worden niet als actueel gepresenteerd.",
-    "dashboard": "Bekijk het openbare dashboard"
+    "dashboard": "Bekijk het openbare dashboard",
+    "notReported": "Niet gerapporteerd",
+    "browserFallback": {
+      "title": "Voor live telemetrie is browsertoegang vereist.",
+      "description": "Opgenomen en onafhankelijk reproduceerbare proefdrukken blijven hieronder beschikbaar."
+    },
+    "proofAvailability": "Opgenomen en onafhankelijk reproduceerbare proefdrukken blijven beschikbaar via de onderstaande links."
   }
 }

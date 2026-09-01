@@ -2,11 +2,11 @@
   "nav": {
     "brand": "GENESIS■MESH",
     "links": {
-      "stakes": "Ang Nakataya",
-      "powers": "Tatlong Kapangyarihan",
+      "stakes": "Soberanya",
+      "powers": "Pagtutulungan",
       "mechanics": "Mekanismo",
       "protocol": "Protokol",
-      "hardware": "Silicon",
+      "hardware": "Pananaliksik",
       "docs": "Dokumentasyon",
       "proof": "Patunay",
       "live": "Live na Network",
@@ -51,52 +51,44 @@
     "vlabel": "Imprastrakturang Neutral sa Soberanya"
   },
   "stakes": {
-    "label": "Ang Nakataya",
-    "title": "Ang digital na soberanya ay isa nang usapin ng pambansang kaligtasan, at walang treaty layer para sa mga makina.",
-    "subtitle": "Lumalagda ng mga kasunduan ang mga estado. Walang katumbas nito ang mga digital na sistema. Kapag nakipag-ugnayan ang isang AI agent ng isang bansa sa imprastraktura ng iba, ang mga tanong na kung sino ang nananagot para sa entidad na ito, kaninong mga tuntunin ang umiiral, at kung maaari bang bawiin ang tiwalang iyon, ay mga diplomatikong tanong na wala pang sagot sa antas ng protokol. Ang Genesis Mesh ang sagot na iyon.",
-    "notLine": "Hindi blockchain. Hindi VPN. Hindi service mesh. Hindi framework ng agent. Hindi marketplace. Ang treaty layer para sa mga makina.",
-    "stats": {
-      "one": "190+",
-      "oneDesc": "Mga bansang naghahanap pa rin ng pormula para sa soberanya",
-      "two": "3",
-      "twoDesc": "Mga kapangyarihang nagmamay-ari na ng sarili nilang stack",
-      "three": "1",
-      "threeDesc": "Protokol na nagsisilbi sa dalawa nang walang kinakampihan"
-    }
+    "label": "Soberanya",
+    "title": "Soberanya nang walang paghihiwalay.",
+    "subtitle": "Kailangang magtulungan ang mga independiyenteng sistema nang hindi nangangailangan ng pagkakahanay sa pulitika, ibinahaging imprastraktura, o isang karaniwang ugat ng tiwala.",
+    "notLine": "Pinangangasiwaan ng Genesis Mesh ang subset na nababasa ng makina ng relasyong iyon: pagkilala, saklaw, delegasyon, pagbawi, at ebidensya.",
+    "boundary": "Hindi ito nakikipag-usap sa patakaran, nakikinabang sa mga hindi pagkakaunawaan, o namamahala sa mga kalahok. Nananatiling mga responsibilidad ng tao at institusyonal ang mga iyon."
   },
   "powers": {
-    "label": "Ang Tatlong Kapangyarihan",
-    "title": "Hindi kailangan ng mga kapangyarihang may soberanya ang kasarinlan. Kailangan nila ng interoperasyon nang walang pagpapailalim.",
-    "subtitle": "Nababaligtad ang halaga, ngunit hindi ito nawawala. Walang kabisera ng magkakaalyadong bansa ang tatanggap sa root of trust ng iba, kaya dapat dumaloy ang pagkilala bilang nilagdaan, malinaw ang saklaw, at nababawi na mga kasunduan sa pagitan ng magkakapantay.",
-    "cn": {
-      "code": "CN - Tsina",
-      "tag": "Patunay ng Eksporter",
-      "title": "Patunayang walang kontrol, sa teknikal na paraan.",
-      "desc": "Iisa ang pagtutol na kinakaharap ng bawat iniluluwas na imprastraktura: ang kagamitan mo ay nangangahulugang kontrol mo. Ang nabeberipika, pag-aari ng operator, at nababawi na tiwala ang teknikal na sagot sa politikal na pagtutol na iyon.",
-      "benefits": [
-        "Makapag-a-audit at makapagbabawi ang mga katuwang na bansa nang hindi kailangang basta magtiwala sa salita ng sinuman",
-        "Pagkilala sa isa't isa kasama ang mga Kanluraning estadong may soberanya, nang walang sinumang panig na humahawak sa mga susi ng kabila",
-        "Integrasyong Tsino-Kanluranin sa ilalim ng iisang modelo ng pamamahala"
+    "label": "Pagtutulungan",
+    "title": "Ang pakikipagtulungan ay hindi nangangailangan ng pagkakahanay.",
+    "subtitle": "Ang Genesis Mesh ay hindi nag-encode ng mga alyansa. Ang protocol ay nangangailangan ng cryptographic na pagkilala, hindi pampulitika na kasunduan.",
+    "close": {
+      "code": "01",
+      "tag": "Malapit na pagtutulungan",
+      "title": "Nakabahaging trabaho, hiwalay na awtoridad.",
+      "desc": "Ang mga awtoridad ay maaaring makipagtulungan nang mahigpit habang ang bawat isa ay may sariling mga susi, patakaran, at kapangyarihan sa pagbawi.",
+      "examples": [
+        "Walang ibinahaging ugat ng tiwala",
+        "Walang paglipat ng kontrol ng operator"
       ]
     },
-    "us": {
-      "code": "US - Estados Unidos",
-      "tag": "Ang Suliranin sa Pederasyon",
-      "title": "Hindi tatanggapin ng mga kaalyado ang iyong root.",
-      "desc": "Mga katuwang sa Five Eyes, NATO, at EU: walang papayag na mapasailalim sa trust anchor na kontrolado ng US. Hinahayaan ng mga kasunduan ng pagkilala na manatiling may soberanya ang bawat kaalyado habang patuloy na dumadaloy ang tiwala.",
-      "benefits": [
-        "Imprastraktura ng magkakaalyado nang walang politikal na pagsuko",
-        "Makapagbenta ang mga hyperscaler sa ilalim ng mga batas sa soberanya ng ibang bansa"
+    "scoped": {
+      "code": "02",
+      "tag": "Makitid na saklaw",
+      "title": "Ang isang transaksyon ay maaaring sapat.",
+      "desc": "Maaaring saklawin ng pagkilala ang isang tungkulin, isang layunin, o isang beses na palugit nang hindi gumagawa ng permanenteng alyansa.",
+      "examples": [
+        "Tahasang saklaw at pag-expire",
+        "Ang lokal na awtorisasyon ay nananatiling mapagpasyahan"
       ]
     },
-    "kp": {
-      "code": "KP - Hilagang Korea",
-      "tag": "Ang Sukdulang Limitasyon",
-      "title": "Ang pagsubok para sa mapaghinalang estadong may soberanya.",
-      "desc": "Isang estadong walang pinagkakatiwalaang panlabas. Kung gumagana ang isang protokol para sa estadong may pinakamahigpit na pagbabantay sa mundo, walang dependency at ganap na pagmamay-ari ng operator, gagana ito para sa sinuman.",
-      "benefits": [
-        "Pamantayan sa disenyo na akma sa ganap na pagsasarili",
-        "Walang pag-angkla sa dayuhang awtoridad, kailanman"
+    "different": {
+      "code": "03",
+      "tag": "Iba't ibang interes",
+      "title": "Ang pagkilala ay hindi pag-endorso.",
+      "desc": "Maaaring i-verify ng mga awtoridad na may iba't ibang patakaran ang isang may hangganang relasyon nang hindi naghahabol ng mas malawak na kasunduan sa pulitika.",
+      "examples": [
+        "Pinapalitan ng nilagdaang ebidensya ang ipinahiwatig na pagkakahanay",
+        "Maaaring bawiin ng alinmang awtoridad ang sarili nitong tiwala"
       ]
     }
   },
@@ -125,12 +117,30 @@
         "name": "I-audit",
         "desc": "Bawat pasya ay nag-iiwan ng ebidensyang nagpapakita ng anumang pakikialam. Walang kailangang basta maniwala sa iyong salita."
       }
+    ],
+    "evidence": [
+      {
+        "title": "Walang ibinahaging ugat ng tiwala.",
+        "action": "Tingnan ang pagsubok"
+      },
+      {
+        "title": "Ang pagpapawalang bisa ay lumalampas sa mga hangganan ng awtoridad.",
+        "action": "I-reproduce ito"
+      },
+      {
+        "title": "Ang mga katangian ng protocol ay may mga modelong Tamarin.",
+        "action": "Tingnan ang pormal na ebidensya"
+      },
+      {
+        "title": "Bakit hindi SPIFFE, DID, o OAuth?",
+        "action": "Basahin ang paghahambing"
+      }
     ]
   },
   "protocol": {
     "label": "Ang Protokol",
     "title": "Isang bukas na programang RFC, hinubog ng mga pamantayan, hindi ng vendor.",
-    "subtitle": "Naipamahagi na ang tatlong henerasyon ng SDK (TypeScript, Go, .NET). 1,041 pagsubok. Walong lemma ng Tamarin na sinuri ng makina. Aktibo ang mga multi-cloud na estadong may soberanya sa Azure, DigitalOcean, Cloudflare, at Akamai/Linode.",
+    "subtitle": "Ang Python na pagpapatupad ng reference at TypeScript, Go, at .NET SDK ay pinag-ugnay sa v0.56.0. Ang core suite ay may mga pagsubok na 1,327, na may pormal na ebidensya sa protocol na nakadokumento para sa pag-verify ng Tamarin.",
     "stack": {
       "title": "Ang Stack",
       "l1": {
@@ -202,14 +212,21 @@
       "operators": "Mga Panlabas na Operator",
       "status": "Onboarding - Yugto 2",
       "online": "● NAKA-ONLINE"
+    },
+    "governance": {
+      "label": "Pamamahala ng Protokol",
+      "title": "Buksan ang pagbabago, tahasang awtoridad.",
+      "description": "Ang mga pagbabago sa protocol ay gumagalaw sa pamamagitan ng mga pampublikong draft, pagsusuri ng maintainer, pagsusuri ng operator kapag nagbago ang mga obligasyon, pagsusuri sa seguridad para sa mga pagbabago ng trust-state, at mga desisyong may petsang.",
+      "boundary": "Ang pagpapatupad ng sanggunian ay hindi ang protocol. Pinapanatili ng mga operator ang kanilang sariling mga susi, patakaran, mga desisyon sa pagtitiwala, at mga karapatan sa pag-alis.",
+      "cta": "Basahin ang baseline ng pamamahala"
     }
   },
   "silicon": {
-    "label": "Ang Silicon",
-    "title": "Palabas lamang ang protokol na may soberanya kung tumatakbo ito sa dayuhang silicon.",
-    "subtitle": "Biniberipika ng Genesis Mesh ang awtoridad sa software. Ngunit ang soberanya ng software ay hanggang sa soberanya lamang ng silicon na pinatatakbo rito. Isinasara ng TSWI, ang Tunisian Sovereign Wafer Initiative, ang siklo: pag-aari ang interposer IP, pag-aari ang pasilidad sa packaging, at pag-aari ang orchestration stack. Commodity chiplets ang pumapasok; sovereign compute ang lumalabas. Pinapagana ng araw sa sangandaan ng tatlong kontinente, habang inaalis ang mahigit kalahati ng gastos sa compute. Tapos na ang unang yugto.",
-    "conclusion": "Ang protokol ang namamahala sa lohika. Ang Tunisia ang namamahala sa silicon.",
-    "cta": "Basahin ang buod ng TSWI →"
+    "label": "Pananaliksik",
+    "title": "Sovereign Compute",
+    "subtitle": "Sinasaliksik ng TSWI ang layer ng hardware sa ilalim ng soberanya ng software: packaging na pagmamay-ari ng operator, disenyo ng interposer, orkestrasyon, at imprastraktura ng pag-compute na may kaalaman sa enerhiya.",
+    "conclusion": "Ito ay isang hiwalay na track ng pananaliksik, hindi isang kinakailangan para sa paggamit ng Genesis Mesh protocol.",
+    "cta": "Humiling ng TSWI research briefing →"
   },
   "live": {
     "label": "Aktibo",
@@ -225,21 +242,21 @@
     "over": "Tumatakbo sa"
   },
   "closing": {
-    "title": "Angkinin ang awtoridad.",
-    "titleAccent": "Huwag umasa sa vendor.",
-    "subtitle": "Para sa 190, ito ang pinakamaikling landas upang maangkin ang sarili nilang mga trust anchor. Para sa tatlo, ito ang tanging paraan upang makipag-interoperate nang hindi isinusuko ang mga iyon.",
+    "title": "Bumuo gamit ang Genesis Mesh.",
+    "titleAccent": "Panatilihin ang iyong awtoridad.",
+    "subtitle": "Piliin ang landas ng pag-aampon na tumutugma sa iyong tungkulin nang hindi isinusuko ang sarili mong mga desisyon sa pagtitiwala.",
     "builders": {
-      "who": "Para sa 190 - Mga Builder at Arkitekto",
+      "who": "Para sa mga software developer",
       "title": "Magtayo ng sarili mong domain ng tiwalang may soberanya.",
       "desc": "Basahin ang mga RFC, kunin ang mga TypeScript / Go / .NET SDK, at magtayo ng L2 na Komunidad na May Soberanya sa imprastrakturang pag-aari mo na.",
       "cta": "Pumunta sa Dev Hub →",
       "altText": "Open-source na organisasyon →"
     },
     "strategic": {
-      "who": "Para sa Tatlo - Mga Estado at Estratehikong Aktor",
-      "title": "Hindi nagsisimula sa SDK ang pag-uusap na ito.",
-      "desc": "Basahin ang buong salaysay na Elections 2026 para sa pilosopikal na batayan, pagkatapos ay magbukas ng direkta, pribado, at kumpidensyal na channel. Walang form, walang funnel, walang tagapamagitan.",
-      "cta": "Basahin ang Buong Kuwento →",
+      "who": "Para sa mga estado at institusyon",
+      "title": "Suriin ang protocol, patunay, at hangganan ng pamamahala.",
+      "desc": "Suriin ang pampublikong arkitektura at reproducible na ebidensya, pagkatapos ay magbukas ng direktang channel para sa mga katanungan sa pag-deploy ng institusyon.",
+      "cta": "Basahin ang strategic brief →",
       "altText": "Direktang channel: authority@genesismesh.org →"
     }
   },
@@ -352,6 +369,12 @@
     "unknown": "Hindi alam",
     "disclaimer": "Pinagsama-samang mga signal ng operasyon. Hindi ito kumpletong pananaw sa seguridad o pamamahala.",
     "unavailableMessage": "Hindi maberipika ang live na datos. Walang naka-cache na halaga ang ipinapakitang kasalukuyan.",
-    "dashboard": "Suriin ang pampublikong dashboard"
+    "dashboard": "Suriin ang pampublikong dashboard",
+    "notReported": "Hindi naiulat",
+    "browserFallback": {
+      "title": "Nangangailangan ng access sa browser ang live telemetry.",
+      "description": "Nananatiling available sa ibaba ang mga naitala at independiyenteng reproducible na mga patunay."
+    },
+    "proofAvailability": "Ang mga naitala at independiyenteng reproducible na patunay ay mananatiling available sa pamamagitan ng mga link sa ibaba."
   }
 }

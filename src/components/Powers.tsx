@@ -1,10 +1,18 @@
 'use client';
 import { useTranslations } from 'next-intl';
 
+type Scenario = {
+  code: string;
+  tag: string;
+  title: string;
+  desc: string;
+  examples: string[];
+};
+
+const SCENARIO_KEYS = ['close', 'scoped', 'different'] as const;
+
 export default function Powers() {
   const t = useTranslations('powers');
-
-  const powers = ['cn', 'us', 'kp'] as const;
 
   return (
     <section id="powers">
@@ -15,20 +23,19 @@ export default function Powers() {
       <p className="lead rv">{t('subtitle')}</p>
 
       <div className="powers">
-        {powers.map((key) => {
-          const power = t.raw(key as any) as any;
-          const benefits = power.benefits as string[];
+        {SCENARIO_KEYS.map((key) => {
+          const scenario = t.raw(key) as Scenario;
           return (
             <article key={key} className="power rv">
               <div className="phead">
-                <div className="code">{power.code}</div>
-                <span className="tag">{power.tag}</span>
+                <div className="code">{scenario.code}</div>
+                <span className="tag">{scenario.tag}</span>
               </div>
-              <h3>{power.title}</h3>
-              <p>{power.desc}</p>
+              <h3>{scenario.title}</h3>
+              <p>{scenario.desc}</p>
               <ul>
-                {benefits.map((benefit: string, idx: number) => (
-                  <li key={idx}>{benefit}</li>
+                {scenario.examples.map((example) => (
+                  <li key={example}>{example}</li>
                 ))}
               </ul>
             </article>

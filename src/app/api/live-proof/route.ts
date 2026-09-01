@@ -47,6 +47,7 @@ export async function GET() {
     const connectome = asRecord(dashboard.connectome_summary);
     const treaties = asRecord(dashboard.treaty_summary);
     const feeds = asRecord(dashboard.revocation_feed_summary);
+    const trustCycle = asRecord(dashboard.trust_cycle_summary);
     const recentChanges = Array.isArray(dashboard.recent_changes)
       ? dashboard.recent_changes.map(asRecord)
       : [];
@@ -68,6 +69,11 @@ export async function GET() {
         checkedAt: new Date().toISOString(),
         lastUpdatedAt: latestChange,
         freshness: asString(feeds.freshness) ?? 'unknown',
+        trustCycle: {
+          status: asString(trustCycle.status) === 'verified' ? 'verified' : 'not_observed',
+          completedAt: asString(trustCycle.completed_at),
+          freshness: asString(trustCycle.freshness) ?? 'unknown',
+        },
       },
       {
         headers: {

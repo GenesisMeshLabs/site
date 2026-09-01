@@ -13,12 +13,20 @@ type LiveProofData = {
   checkedAt: string;
   lastUpdatedAt?: string | null;
   freshness?: string;
+  trustCycle?: {
+    status: 'verified' | 'not_observed';
+    completedAt: string | null;
+    freshness: string;
+  };
 };
 
 const DASHBOARD_URL = 'https://na.genesismesh.connectorzzz.com/dashboard';
+const RUN_PROOF_URL =
+  'https://github.com/GenesisMeshLabs/genesismesh/blob/main/docs/examples/assets/scripts/cross-sovereign-revocation-demo.py';
 
 export default function LiveNetwork() {
   const t = useTranslations('liveNetwork');
+  const trustCycleT = useTranslations('trustCycle');
   const locale = useLocale();
   const [data, setData] = useState<LiveProofData | null>(null);
   const [failed, setFailed] = useState(false);
@@ -67,19 +75,22 @@ export default function LiveNetwork() {
       ? 'checking'
       : data.health === 'degraded'
         ? 'degraded'
-        : data.freshness === 'stale'
+        : data.trustCycle?.status !== 'verified' || data.trustCycle.freshness !== 'fresh'
           ? 'stale'
           : 'live';
+
+  const trustCycleFresh =
+    data?.trustCycle?.status === 'verified' && data.trustCycle.freshness === 'fresh';
 
   const metrics = [
     {
       key: 'health',
-      value: data ? t(`health.${data.health ?? 'degraded'}`) : t('unknown'),
+      value: data?.health ? t(`health.${data.health}`) : t('notReported'),
     },
-    { key: 'sovereigns', value: data?.sovereignDomains ?? t('unknown') },
-    { key: 'edges', value: data?.recognitionEdges ?? t('unknown') },
-    { key: 'treaties', value: data?.activeTreaties ?? t('unknown') },
-    { key: 'revocations', value: data?.revocations ?? t('unknown') },
+    { key: 'sovereigns', value: data?.sovereignDomains ?? t('notReported') },
+    { key: 'edges', value: data?.recognitionEdges ?? t('notReported') },
+    { key: 'treaties', value: data?.activeTreaties ?? t('notReported') },
+    { key: 'revocations', value: data?.revocations ?? t('notReported') },
   ] as const;
 
   return (
@@ -96,28 +107,43 @@ export default function LiveNetwork() {
             <span className={`live-network-dot status-${statusKey}`} aria-hidden="true" />
             <strong>{t(`status.${statusKey}`)}</strong>
           </div>
-          <span>{t('checked')}: {formatTime(data?.checkedAt)}</span>
+          {data ? <span>{t('checked')}: {formatTime(data.checkedAt)}</span> : null}
         </div>
 
-        <div className="live-network-metrics">
-          {metrics.map((metric) => (
-            <div className="live-network-metric" key={metric.key}>
-              <strong>{metric.value}</strong>
-              <span>{t(`metrics.${metric.key}`)}</span>
-            </div>
-          ))}
-        </div>
+        {data ? (
+          <div className="live-network-metrics">
+            {metrics.map((metric) => (
+              <div className="live-network-metric" key={metric.key}>
+                <strong>{metric.value}</strong>
+                <span>{t(`metrics.${metric.key}`)}</span>
+              </div>
+            ))}
+          </div>
+        ) : (
+          <div className="live-network-fallback">
+            <strong>{t('browserFallback.title')}</strong>
+            <p>{failed ? t('unavailableMessage') : t('browserFallback.description')}</p>
+          </div>
+        )}
 
-        <div className="live-network-meta">
-          <span>{t('lastUpdate')}: {formatTime(data?.lastUpdatedAt)}</span>
-          <span>{t('freshness')}: {data ? t(`freshnessValues.${data.freshness === 'stale' ? 'stale' : 'current'}`) : t('unknown')}</span>
-        </div>
+        {data ? (
+          <div className="live-network-meta">
+            <span>{t('lastUpdate')}: {formatTime(data.lastUpdatedAt)}</span>
+            <span>{trustCycleT('label')}: {formatTime(data.trustCycle?.completedAt)}</span>
+            <span>{t('freshness')}: {t(`freshnessValues.${trustCycleFresh ? 'current' : 'stale'}`)}</span>
+          </div>
+        ) : null}
 
         <div className="live-network-foot">
-          <p>{failed ? t('unavailableMessage') : t('disclaimer')}</p>
-          <a href={DASHBOARD_URL} target="_blank" rel="noopener noreferrer">
-            {t('dashboard')}
-          </a>
+          <p>{data ? t('disclaimer') : t('proofAvailability')}</p>
+          <div className="live-network-actions">
+            <a href={RUN_PROOF_URL} target="_blank" rel="noopener noreferrer">
+              {trustCycleT('actions.run')}
+            </a>
+            <a href={DASHBOARD_URL} target="_blank" rel="noopener noreferrer">
+              {t('dashboard')}
+            </a>
+          </div>
         </div>
       </div>
     </section>

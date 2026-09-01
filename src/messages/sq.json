@@ -2,11 +2,11 @@
   "nav": {
     "brand": "GENESIS■MESH",
     "links": {
-      "stakes": "Çfarë është në lojë",
-      "powers": "Tri Fuqitë",
+      "stakes": "Sovraniteti",
+      "powers": "Bashkëpunimi",
       "mechanics": "Mekanika",
       "protocol": "Protokolli",
-      "hardware": "Silici",
+      "hardware": "Hulumtimi",
       "docs": "Dokumentacioni",
       "proof": "Provë",
       "live": "Rrjeti drejtpërdrejt",
@@ -51,52 +51,44 @@
     "vlabel": "Infrastrukturë neutrale ndaj sovranitetit"
   },
   "stakes": {
-    "label": "Çfarë është në lojë",
-    "title": "Sovraniteti digjital tani është çështje e mbijetesës kombëtare, dhe nuk ekziston asnjë shtresë traktatesh për makinat.",
-    "subtitle": "Shtetet nënshkruajnë traktate. Sistemet digjitale nuk kanë një të barasvlershëm. Kur një agjent i inteligjencës artificiale i një kombi ndeshet me infrastrukturën e një tjetri, pyetja se kush garanton për këtë entitet, sipas rregullave të kujt dhe nëse ky besim mund të tërhiqet, është një pyetje diplomatike që sot nuk ka përgjigje protokollare. Genesis Mesh është kjo përgjigje.",
-    "notLine": "Jo blockchain. Jo VPN. Jo rrjet shërbimesh. Jo kornizë agjentësh. Jo treg. Shtresa e traktateve për makinat.",
-    "stats": {
-      "one": "190+",
-      "oneDesc": "Kombe që ende kërkojnë një formulë sovraniteti",
-      "two": "3",
-      "twoDesc": "Fuqitë që e zotërojnë tashmë të gjithë arkitekturën e tyre",
-      "three": "1",
-      "threeDesc": "Protokoll që u shërben të dyja palëve, pa zgjedhur anë"
-    }
+    "label": "Sovraniteti",
+    "title": "Sovranitet pa izolim.",
+    "subtitle": "Sistemet e pavarura duhet të bashkëpunojnë pa kërkuar rreshtim politik, infrastrukturë të përbashkët ose një rrënjë të përbashkët besimi.",
+    "notLine": "Genesis Mesh trajton nëngrupin e lexueshëm nga makina të asaj marrëdhënieje: njohjen, shtrirjen, delegimin, revokimin dhe dëshminë.",
+    "boundary": "Ai nuk negocion politika, nuk arbitron mosmarrëveshjet ose nuk qeveris pjesëmarrësit. Këto mbeten përgjegjësi njerëzore dhe institucionale."
   },
   "powers": {
-    "label": "Tri Fuqitë",
-    "title": "Fuqive sovrane nuk u duhet pavarësia. U duhet ndërveprimi pa nënshtrim.",
-    "subtitle": "Vlera përmbyset, por nuk zhduket. Asnjë kryeqytet aleat nuk pranon rrënjën e besimit të një tjetri, ndaj njohja duhet të qarkullojë si traktate të nënshkruara, me fushëveprim të kufizuar dhe të revokueshme ndërmjet të barabartëve.",
-    "cn": {
-      "code": "CN - Kina",
-      "tag": "Prova e eksportuesit",
-      "title": "Provoni teknikisht mungesën e kontrollit.",
-      "desc": "Çdo eksport infrastrukture përballet me të njëjtin kundërshtim: pajisjet tuaja nënkuptojnë kontrollin tuaj. Besimi i verifikueshëm, në pronësi të operatorit dhe i revokueshëm është përgjigjja teknike ndaj këtij kundërshtimi politik.",
-      "benefits": [
-        "Kombet partnere auditojnë dhe revokojnë pa u mbështetur te fjala e askujt",
-        "Njohje e ndërsjellë me shtetet sovrane perëndimore, pa mbajtur asnjëra palë çelësat e tjetrës",
-        "Integrim kinezo-perëndimor nën një model të vetëm qeverisjeje"
+    "label": "Bashkëpunimi",
+    "title": "Bashkëpunimi nuk kërkon përafrim.",
+    "subtitle": "Genesis Mesh nuk kodon aleanca. Protokolli kërkon njohje kriptografike, jo marrëveshje politike.",
+    "close": {
+      "code": "01",
+      "tag": "Bashkëpunim i ngushtë",
+      "title": "Punë e përbashkët, autoritet i veçantë.",
+      "desc": "Autoritetet mund të bashkëpunojnë ngushtë ndërkohë që secila ruan çelësat, politikën dhe fuqinë e vet revokimi.",
+      "examples": [
+        "Nuk ka rrënjë të përbashkët besimi",
+        "Asnjë transferim i kontrollit të operatorit"
       ]
     },
-    "us": {
-      "code": "US - Shtetet e Bashkuara",
-      "tag": "Problemi i federimit",
-      "title": "Aleatët nuk do ta pranojnë rrënjën tuaj të besimit.",
-      "desc": "Five Eyes, NATO, partnerët e BE-së: asnjëri nuk do t'i nënshtrohet një spirance besimi të kontrolluar nga SHBA-ja. Traktatet e njohjes i lejojnë çdo aleati të mbetet sovran, ndërkohë që besimi vazhdon të qarkullojë.",
-      "benefits": [
-        "Infrastrukturë aleate pa kapitullim politik",
-        "Ofruesit hipershkallëzues shesin në përputhje me ligjet e huaja për sovranitetin"
+    "scoped": {
+      "code": "02",
+      "tag": "Shtrirja e ngushtë",
+      "title": "Një transaksion mund të jetë i mjaftueshëm.",
+      "desc": "Njohja mund të mbulojë një rol, një qëllim ose një dritare kohore pa krijuar një aleancë të përhershme.",
+      "examples": [
+        "Shtrirja dhe skadimi i qartë",
+        "Autorizimi vendor mbetet vendimtar"
       ]
     },
-    "kp": {
-      "code": "KP - Koreja e Veriut",
-      "tag": "Kufizimi ekstrem",
-      "title": "Prova e sovranit mosbesues.",
-      "desc": "Një shtet që nuk i beson asgjëje të jashtme. Nëse një protokoll funksionon për shtetin sovran më të ruajtur në botë, me zero varësi dhe pronësi të plotë të operatorit, ai funksionon për këdo.",
-      "benefits": [
-        "Kufizim projektimi në nivel autarkie",
-        "Asnjë ankorim në autoritet të huaj, kurrë"
+    "different": {
+      "code": "03",
+      "tag": "Interesat e ndryshme",
+      "title": "Njohja nuk është miratim.",
+      "desc": "Autoritetet me politika të ndryshme mund të verifikojnë një marrëdhënie të kufizuar pa pretenduar marrëveshje më të gjerë politike.",
+      "examples": [
+        "Dëshmia e nënshkruar zëvendëson shtrirjen e nënkuptuar",
+        "Secili autoritet mund të revokojë besimin e tij"
       ]
     }
   },
@@ -125,12 +117,30 @@
         "name": "Audito",
         "desc": "Çdo vendim lë prova që nxjerrin në pah çdo manipulim. Askush nuk duhet të mbështetet vetëm te fjala juaj."
       }
+    ],
+    "evidence": [
+      {
+        "title": "Nuk ka rrënjë të përbashkët besimi.",
+        "action": "Shihni testin"
+      },
+      {
+        "title": "Revokimi i kalon kufijtë e autoritetit.",
+        "action": "Riprodhoni atë"
+      },
+      {
+        "title": "Karakteristikat e protokollit kanë modelet Tamarin.",
+        "action": "Shihni provat formale"
+      },
+      {
+        "title": "Pse jo SPIFFE, DID, ose OAuth?",
+        "action": "Lexoni krahasimin"
+      }
     ]
   },
   "protocol": {
     "label": "Protokolli",
     "title": "Një program i hapur RFC, i formësuar nga standardet, jo nga furnitori.",
-    "subtitle": "Janë publikuar tri breza SDK-sh (TypeScript, Go, .NET). 1,041 teste. Tetë lema Tamarin të kontrolluara nga makina. Sisteme sovrane shumë-re të vëna në punë në Azure, DigitalOcean, Cloudflare dhe Akamai/Linode.",
+    "subtitle": "Python zbatimi i referencës dhe TypeScript, Go dhe .NET SDK janë të koordinuara në v0.56.0. Kompleti bazë ka teste 1,327, me prova formale të protokollit të dokumentuara për verifikimin Tamarin.",
     "stack": {
       "title": "Arkitektura",
       "l1": {
@@ -202,14 +212,21 @@
       "operators": "Operatorë të jashtëm",
       "status": "Integrimi - Faza 2",
       "online": "● ONLINE"
+    },
+    "governance": {
+      "label": "Qeverisja e Protokollit",
+      "title": "Ndryshim i hapur, autoritet i qartë.",
+      "description": "Ndryshimet e protokollit kalojnë përmes drafteve publike, rishikimit të mirëmbajtësit, rishikimit të operatorit kur ndryshojnë detyrimet, rishikimit të sigurisë për ndryshimet e gjendjes së besimit dhe vendimeve të datës.",
+      "boundary": "Zbatimi i referencës nuk është protokoll. Operatorët ruajnë çelësat e tyre, politikat, vendimet e besimit dhe të drejtat e daljes.",
+      "cta": "Lexoni bazën e qeverisjes"
     }
   },
   "silicon": {
-    "label": "Silici",
-    "title": "Një protokoll sovran mbi silic të huaj është teatër.",
-    "subtitle": "Genesis Mesh verifikon autoritetin në softuer. Por softueri është sovran vetëm aq sa është silici mbi të cilin ekzekutohet. TSWI, Nisma Tuniziane për Vaferin Sovran, e mbyll ciklin: pronësi mbi interposer IP, pronësi mbi impiantin e paketimit dhe pronësi mbi arkitekturën e orkestrimit. Çipleta standarde hyjnë; kapaciteti kompjuterik sovran del. Mundësohet nga energjia diellore në pikëtakimin e tri kontinenteve, me më shumë se gjysmën e kostos së përpunimit të eliminuar. Faza e parë ka përfunduar.",
-    "conclusion": "Protokolli qeveris logjikën. Tunizia qeveris silicin.",
-    "cta": "Lexoni përmbledhjen e TSWI →"
+    "label": "Hulumtimi",
+    "title": "Llogaritja sovrane",
+    "subtitle": "TSWI eksploron shtresën e harduerit nën sovranitetin e softuerit: paketimin në pronësi të operatorit, dizajnin e interpozuesit, orkestrimin dhe infrastrukturën kompjuterike të vetëdijshme për energjinë.",
+    "conclusion": "Ky është një udhë kërkimi i veçantë, jo një kërkesë për miratimin e protokollit Genesis Mesh.",
+    "cta": "Kërkoni konferencën kërkimore TSWI →"
   },
   "live": {
     "label": "Aktiv",
@@ -225,21 +242,21 @@
     "over": "Ekzekutohet mbi"
   },
   "closing": {
-    "title": "Merrni në dorë autoritetin.",
-    "titleAccent": "Jo varësinë nga furnitori.",
-    "subtitle": "Për 190 vendet, kjo është rruga më e shkurtër për të zotëruar spirancat e tyre të besimit. Për tri fuqitë, është e vetmja mënyrë për të ndërvepruar pa i dorëzuar ato.",
+    "title": "Ndërtoni me Genesis Mesh.",
+    "titleAccent": "Mbani autoritetin tuaj.",
+    "subtitle": "Zgjidhni rrugën e adoptimit që përputhet me rolin tuaj pa hequr dorë nga vendimet tuaja të besimit.",
     "builders": {
-      "who": "Për 190 vendet - Ndërtues dhe arkitektë",
+      "who": "Për zhvilluesit e softuerit",
       "title": "Ngrini domenin tuaj sovran të besimit.",
       "desc": "Lexoni RFC-të, merrni SDK-të TypeScript / Go / .NET dhe ngrini një Komunitet Sovran L2 në infrastrukturën që zotëroni tashmë.",
       "cta": "Hyni në Qendrën e Zhvilluesve →",
       "altText": "Organizata me burim të hapur →"
     },
     "strategic": {
-      "who": "Për Tri Fuqitë - Aktorë shtetërorë dhe strategjikë",
-      "title": "Kjo bisedë nuk fillon me një SDK.",
-      "desc": "Lexoni narrativën e plotë Elections 2026 për argumentin filozofik, pastaj hapni një kanal të drejtpërdrejtë, privat dhe konfidencial. Pa formularë, pa kanale konvertimi, pa ndërmjetës.",
-      "cta": "Lexoni historinë e plotë →",
+      "who": "Për shtetet dhe institucionet",
+      "title": "Vlerësoni protokollin, provën dhe kufirin e qeverisjes.",
+      "desc": "Rishikoni arkitekturën publike dhe dëshmitë e riprodhueshme, më pas hapni një kanal të drejtpërdrejtë për pyetjet e vendosjes institucionale.",
+      "cta": "Lexoni përmbledhjen strategjike →",
       "altText": "Kanal i drejtpërdrejtë: authority@genesismesh.org →"
     }
   },
@@ -352,6 +369,12 @@
     "unknown": "E panjohur",
     "disclaimer": "Sinjale operative të agreguara. Nuk përbëjnë një pamje të plotë të sigurisë ose qeverisjes.",
     "unavailableMessage": "Të dhënat drejtpërdrejt nuk mund të verifikoheshin. Asnjë vlerë nga memoria e përkohshme nuk po paraqitet si aktuale.",
-    "dashboard": "Shqyrtoni panelin publik"
+    "dashboard": "Shqyrtoni panelin publik",
+    "notReported": "Nuk raportohet",
+    "browserFallback": {
+      "title": "Telemetria e drejtpërdrejtë kërkon qasje në shfletues.",
+      "description": "Provat e regjistruara dhe të riprodhueshme në mënyrë të pavarur mbeten të disponueshme më poshtë."
+    },
+    "proofAvailability": "Provat e regjistruara dhe të riprodhueshme në mënyrë të pavarur mbeten të disponueshme përmes lidhjeve më poshtë."
   }
 }

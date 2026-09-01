@@ -2,11 +2,11 @@
   "nav": {
     "brand": "GENESIS■MESH",
     "links": {
-      "stakes": "Panokset",
-      "powers": "Kolme suurvaltaa",
+      "stakes": "Suvereniteetti",
+      "powers": "Yhteistyö",
       "mechanics": "Toimintaperiaate",
       "protocol": "Protokolla",
-      "hardware": "Pii",
+      "hardware": "Tutkimus",
       "docs": "Dokumentaatio",
       "proof": "Todiste",
       "live": "Reaaliaikainen verkko",
@@ -51,52 +51,44 @@
     "vlabel": "Suvereniteettineutraali infrastruktuuri"
   },
   "stakes": {
-    "label": "Panokset",
-    "title": "Digitaalinen suvereniteetti on nyt kansallisen selviytymisen kysymys, eikä koneille ole sopimuskerrosta.",
-    "subtitle": "Valtiot solmivat sopimuksia. Digitaalisilla järjestelmillä ei ole vastaavaa mekanismia. Kun yhden valtion tekoälyagentti kohtaa toisen valtion infrastruktuurin, kysymykset siitä, kuka takaa tämän toimijan, kenen sääntöjen mukaan se toimii ja voidaanko luottamus peruuttaa, ovat diplomaattisia kysymyksiä, joihin mikään protokolla ei nykyisin vastaa. Genesis Mesh on tämä vastaus.",
-    "notLine": "Ei lohkoketju. Ei VPN. Ei palveluverkko. Ei agenttikehys. Ei markkinapaikka. Koneiden sopimuskerros.",
-    "stats": {
-      "one": "190+",
-      "oneDesc": "Valtiota, jotka yhä etsivät suvereniteetin mallia",
-      "two": "3",
-      "twoDesc": "Suurvaltaa, jotka jo omistavat koko teknologiapinonsa",
-      "three": "1",
-      "threeDesc": "Protokolla, joka palvelee molempia asettumatta kummankaan puolelle"
-    }
+    "label": "Suvereniteetti",
+    "title": "Suvereniteetti ilman eristäytymistä.",
+    "subtitle": "Riippumattomien järjestelmien on tehtävä yhteistyötä ilman poliittista linjausta, yhteistä infrastruktuuria tai yhteistä luottamuksen juurta.",
+    "notLine": "Genesis Mesh käsittelee tämän suhteen koneellisesti luettavan osajoukon: tunnustamisen, laajuuden, delegoinnin, peruutuksen ja todisteet.",
+    "boundary": "Se ei neuvottele politiikasta, ratkaise riitoja tai hallitse osallistujia. Ne ovat edelleen inhimillisiä ja institutionaalisia vastuita."
   },
   "powers": {
-    "label": "Kolme suurvaltaa",
-    "title": "Suvereenit suurvallat eivät tarvitse itsenäisyyttä. Ne tarvitsevat yhteentoimivuutta ilman alisteisuutta.",
-    "subtitle": "Arvolupaus kääntyy toisin päin, mutta ei katoa. Yksikään liittolaismaan pääkaupunki ei hyväksy toisen valtion luottamusjuurta, joten tunnustamisen on kuljettava tasavertaisten osapuolten välillä allekirjoitettuina, rajattuina ja peruutettavissa olevina sopimuksina.",
-    "cn": {
-      "code": "CN - Kiina",
-      "tag": "Viejän todiste",
-      "title": "Todista teknisesti, ettei määräysvaltaa ole.",
-      "desc": "Jokainen infrastruktuurivienti kohtaa saman vastaväitteen: teidän laitteenne merkitsevät teidän määräysvaltaanne. Todennettava, operaattorin omistama ja peruutettavissa oleva luottamus on tekninen vastaus tähän poliittiseen vastaväitteeseen.",
-      "benefits": [
-        "Kumppanivaltiot voivat auditoida ja peruuttaa luottamuksen luottamatta kenenkään sanaan",
-        "Vastavuoroinen tunnustaminen länsimaisten suvereenien toimijoiden kanssa, eikä kumpikaan osapuoli hallitse toisen avaimia",
-        "Kiinalaisten ja länsimaisten järjestelmien integrointi yhden hallintamallin mukaisesti"
+    "label": "Yhteistyö",
+    "title": "Yhteistyö ei vaadi linjaamista.",
+    "subtitle": "Genesis Mesh ei koodaa liittoutumia. Protokolla vaatii kryptografista tunnustamista, ei poliittista sopimusta.",
+    "close": {
+      "code": "01",
+      "tag": "Tiivistä yhteistyötä",
+      "title": "Yhteistyö, erillinen auktoriteetti.",
+      "desc": "Viranomaiset voivat tehdä tiivistä yhteistyötä, mutta kukin säilyttää omat avaimensa, toimintatapansa ja peruutusoikeutensa.",
+      "examples": [
+        "Ei yhteistä luottamuksen juurta",
+        "Ei käyttäjän hallinnan siirtoa"
       ]
     },
-    "us": {
-      "code": "US - Yhdysvallat",
-      "tag": "Federaatio-ongelma",
-      "title": "Liittolaiset eivät hyväksy luottamusjuurtasi.",
-      "desc": "Five Eyes -maat, NATO ja EU-kumppanit: yksikään niistä ei alistu Yhdysvaltojen hallitsemaan luottamusankkuriin. Tunnustamissopimukset antavat jokaisen liittolaisen säilyttää suvereniteettinsa samalla, kun luottamus voi edelleen välittyä.",
-      "benefits": [
-        "Liittoutuneiden infrastruktuuri ilman poliittista antautumista",
-        "Hyperskaalautuvat pilvipalveluntarjoajat voivat myydä ulkomaisten suvereniteettilakien piirissä"
+    "scoped": {
+      "code": "02",
+      "tag": "Kapea kattavuus",
+      "title": "Yksi kauppa voi riittää.",
+      "desc": "Tunnustus voi kattaa yhden roolin, yhden tarkoituksen tai yhden aikaikkunan ilman pysyvää liittoa.",
+      "examples": [
+        "Selkeä soveltamisala ja voimassaoloaika",
+        "Paikallinen lupa on ratkaiseva"
       ]
     },
-    "kp": {
-      "code": "KP - Pohjois-Korea",
-      "tag": "Äärimmäinen rajoite",
-      "title": "Epäluuloisen suvereenin testi.",
-      "desc": "Valtio, joka ei luota mihinkään ulkopuoliseen. Jos protokolla toimii maailman tarkimmin vartioidulle suvereenille toimijalle ilman riippuvuuksia ja täysin operaattorin omistuksessa, se toimii kenelle tahansa.",
-      "benefits": [
-        "Autarkian tasoinen suunnittelurajoite",
-        "Ei koskaan ulkomaiseen määräysvaltaan perustuvaa ankkurointia"
+    "different": {
+      "code": "03",
+      "tag": "Eri kiinnostuksen kohteet",
+      "title": "Tunnustus ei ole hyväksyntää.",
+      "desc": "Viranomaiset, joilla on eri politiikka, voivat varmistaa rajallisen suhteen vaatimatta laajempaa poliittista sopimusta.",
+      "examples": [
+        "Allekirjoitetut todisteet korvaavat implisiittisen linjauksen",
+        "Kumpikin viranomainen voi kumota oman luottamuksensa"
       ]
     }
   },
@@ -125,12 +117,30 @@
         "name": "Auditoi",
         "desc": "Jokaisesta päätöksestä jää peukaloinnin paljastava todiste. Kenenkään ei tarvitse luottaa pelkkään sanaasi."
       }
+    ],
+    "evidence": [
+      {
+        "title": "Ei yhteistä luottamuksen juurta.",
+        "action": "Katso testi"
+      },
+      {
+        "title": "Peruuttaminen ylittää auktoriteettirajat.",
+        "action": "Toista se"
+      },
+      {
+        "title": "Protokollaominaisuuksilla on mallit Tamarin.",
+        "action": "Katso muodolliset todisteet"
+      },
+      {
+        "title": "Miksei SPIFFE, DID tai OAuth?",
+        "action": "Lue vertailu"
+      }
     ]
   },
   "protocol": {
     "label": "Protokolla",
     "title": "Avoin RFC-ohjelma, standardien eikä toimittajan muovaama.",
-    "subtitle": "Kolme SDK-sukupolvea julkaistu (TypeScript, Go, .NET). 1 041 testiä. Kahdeksan koneellisesti tarkistettua Tamarin-lemmaa. Monipilviset suvereenit toimijat ovat käytössä Azure-, DigitalOcean-, Cloudflare- ja Akamai/Linode-ympäristöissä.",
+    "subtitle": "Python-viitetoteutus ja TypeScript, Go ja .NET SDK:t koordinoidaan osoitteessa v0.56.0. Ydinsarjassa on 1,327-testit, ja muodollinen protokollatodistus on dokumentoitu Tamarin-varmennusta varten.",
     "stack": {
       "title": "Teknologiapino",
       "l1": {
@@ -202,14 +212,21 @@
       "operators": "Ulkoiset operaattorit",
       "status": "Käyttöönotto - vaihe 2",
       "online": "● VERKOSSA"
+    },
+    "governance": {
+      "label": "pöytäkirjan hallinto",
+      "title": "Avoin muutos, selkeä auktoriteetti.",
+      "description": "Protokollamuutokset tapahtuvat julkisten luonnosten, ylläpitäjän tarkastelun, operaattorin tarkastuksen, kun velvoitteet muuttuvat, turvallisuustilan muutosten turvatarkastuksen ja päivättyjen päätösten kautta.",
+      "boundary": "Viitetoteutus ei ole protokolla. Operaattorit säilyttävät omat avaimensa, käytäntönsä, luottamuspäätöksensä ja poistumisoikeutensa.",
+      "cta": "Lue hallinnon perusta"
     }
   },
   "silicon": {
-    "label": "Pii",
-    "title": "Suvereeni protokolla ulkomaisella piillä on pelkkää teatteria.",
-    "subtitle": "Genesis Mesh varmentaa määräysvallan ohjelmistossa. Ohjelmisto on kuitenkin vain yhtä suvereeni kuin pii, jolla sitä ajetaan. TSWI, Tunisian Sovereign Wafer Initiative, sulkee ketjun: omassa omistuksessa olevat välipiirin immateriaalioikeudet, oma paketointilaitos ja oma orkestrointipino. Vakiokomponentteina saatavat sirupalat sisään, suvereeni laskentakapasiteetti ulos. Kokonaisuus toimii aurinkoenergialla kolmen mantereen risteyskohdassa, ja laskennan kustannuksista on karsittu yli puolet. Ensimmäinen vaihe on valmis.",
-    "conclusion": "Protokolla hallitsee logiikkaa. Tunisia hallitsee piitä.",
-    "cta": "Lue TSWI-katsaus →"
+    "label": "Tutkimus",
+    "title": "Suvereeni Compute",
+    "subtitle": "TSWI tutkii ohjelmistosuvereniteetin alla olevaa laitteistokerrosta: operaattorin omistamat pakkaukset, interposer-suunnittelu, orkestrointi ja energiatietoinen laskentainfrastruktuuri.",
+    "conclusion": "Tämä on erillinen tutkimusrata, ei vaatimus Genesis Mesh-protokollan käyttöönotolle.",
+    "cta": "Pyydä TSWI-tutkimustiedotus →"
   },
   "live": {
     "label": "Käytössä",
@@ -225,21 +242,21 @@
     "over": "Toiminnassa alustoilla"
   },
   "closing": {
-    "title": "Hanki määräysvalta.",
-    "titleAccent": "Älä jää toimittajan varaan.",
-    "subtitle": "190 valtiolle se on lyhin tie omien luottamusankkurien hallintaan. Kolmelle suurvallalle se on ainoa tapa toimia yhdessä luopumatta niistä.",
+    "title": "Rakenna Genesis Mesh:lla.",
+    "titleAccent": "Säilytä auktoriteettisi.",
+    "subtitle": "Valitse rooliasi vastaava adoptiopolku luopumatta omista luottamuspäätöksistäsi.",
     "builders": {
-      "who": "190 valtiolle - kehittäjät ja arkkitehdit",
+      "who": "Ohjelmistokehittäjille",
       "title": "Käynnistä oma suvereeni luottamusalueesi.",
       "desc": "Lue RFC:t, ota käyttöön TypeScript / Go / .NET SDK:t ja perusta L2-tason suvereeni yhteisö jo omistamallesi infrastruktuurille.",
       "cta": "Siirry kehittäjäkeskukseen →",
       "altText": "Avoimen lähdekoodin organisaatio →"
     },
     "strategic": {
-      "who": "Kolmelle suurvallalle - valtiolliset ja strategiset toimijat",
-      "title": "Tämä keskustelu ei ala SDK:sta.",
-      "desc": "Lue filosofiset perustelut koko Elections 2026 -kertomuksesta ja avaa sitten suora, yksityinen ja luottamuksellinen kanava. Ei lomakkeita, ei myyntiputkia, ei välikäsiä.",
-      "cta": "Lue koko kertomus →",
+      "who": "Valtioille ja instituutioille",
+      "title": "Arvioi protokolla, todiste ja hallintoraja.",
+      "desc": "Tarkista julkinen arkkitehtuuri ja toistettavat todisteet ja avaa sitten suora kanava institutionaalisille käyttöönottokysymyksille.",
+      "cta": "Lue strateginen selostus →",
       "altText": "Suora kanava: authority@genesismesh.org →"
     }
   },
@@ -352,6 +369,12 @@
     "unknown": "Tuntematon",
     "disclaimer": "Koostettuja toimintasignaaleja. Ei kattava näkymä tietoturvaan tai hallintoon.",
     "unavailableMessage": "Reaaliaikaisia tietoja ei voitu todentaa. Välimuistissa olevia arvoja ei esitetä ajantasaisina.",
-    "dashboard": "Tarkastele julkista koontinäyttöä"
+    "dashboard": "Tarkastele julkista koontinäyttöä",
+    "notReported": "Ei raportoitu",
+    "browserFallback": {
+      "title": "Live-telemetria vaatii pääsyn selaimeen.",
+      "description": "Tallennetut ja itsenäisesti toistettavat todisteet ovat saatavilla alla."
+    },
+    "proofAvailability": "Tallennetut ja itsenäisesti toistettavat todisteet ovat saatavilla alla olevien linkkien kautta."
   }
 }

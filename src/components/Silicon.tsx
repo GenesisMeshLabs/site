@@ -17,7 +17,7 @@ export default function Silicon() {
             rather than pointing at a page that does not exist. */}
         <a
           className="btn"
-          href="mailto:authority@genesismesh.org?subject=TSWI%20briefing%20request"
+          href="mailto:authority@genesismesh.org?subject=TSWI%20research%20briefing"
         >
           {t('cta')}
         </a>
