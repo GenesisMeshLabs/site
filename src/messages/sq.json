@@ -20,27 +20,35 @@
     "selectLanguage": "Zgjidh gjuhën"
   },
   "hero": {
-    "kicker": "Përmbledhje publike / Genesis Mesh / 2026",
-    "title": "Besimi që asnjë komb",
-    "titleAccent": "nuk duhet ta dorëzojë.",
-    "subtitle": "Genesis Mesh u mundëson sistemeve të administruara në mënyrë të pavarur të njohin dhe autorizojnë njëri-tjetrin, të revokojnë materialin e besimit dhe të auditojnë njëri-tjetrin pa hequr dorë nga sovraniteti.",
-    "meta": {
-      "verify": "Verifiko",
-      "verifyDesc": "kush e zotëron autoritetin",
-      "limit": "Kufizo",
-      "limitDesc": "çfarë mund të bëjë",
-      "revoke": "Revoko",
-      "revokeDesc": "kur besimi prishet",
-      "audit": "Audito",
-      "auditDesc": "që askush të mos mbështetet vetëm te fjala juaj"
+    "kicker": "Përmbledhje publike / 2026",
+    "title": "Makinat kalojnë kufij.",
+    "titleAccent": "Autoriteti jo.",
+    "intro": "Agjentët e IA-së veprojnë tashmë nëpër re (cloud), organizata dhe juridiksione. Por kur një sistem sovran ndeshet me një tjetër, nuk ka protokoll neutral për t'u përgjigjur tri pyetjeve themelore:",
+    "questions": [
+      "Kush je?",
+      "Çfarë të lejohet të bësh?",
+      "Kush mund ta revokojë atë autoritet?"
+    ],
+    "statement": "Genesis Mesh është shtresa e traktatit për makinat.",
+    "body": "Autoritetet e pavarura mund të njohin identitete, të delegojnë kompetenca dhe të revokojnë besimin përtej kufijve organizativë dhe kombëtarë, pa hequr dorë nga rrënja e tyre e besimit.",
+    "notLine": "Asnjë autoritet qendror. Asnjë sovran i përbashkët. Asnjë re e detyrueshme.",
+    "closing": "Besim që asnjë komb nuk duhet ta dorëzojë.",
+    "audiences": {
+      "builders": {
+        "label": "Për ndërtuesit →",
+        "rfcs": "RFC-të",
+        "sdks": "SDK-të",
+        "run": "Drejtoni autoritetin tuaj"
+      },
+      "states": {
+        "label": "Për shtetet dhe institucionet →",
+        "brief": "Përmbledhja e traktatit",
+        "architecture": "Arkitektura",
+        "channel": "Kanal i drejtpërdrejtë"
+      }
     },
     "scroll": "Lëviz poshtë ↓",
-    "vlabel": "Infrastrukturë neutrale ndaj sovranitetit",
-    "actions": {
-      "run": "Ekzekutojeni provën lokalisht",
-      "protocol": "Lexoni protokollin",
-      "network": "Verifikoni rrjetin drejtpërdrejt"
-    }
+    "vlabel": "Infrastrukturë neutrale ndaj sovranitetit"
   },
   "stakes": {
     "label": "Çfarë është në lojë",

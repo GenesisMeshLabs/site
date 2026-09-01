@@ -20,27 +20,31 @@
     "selectLanguage": "Tilni tanlash"
   },
   "hero": {
-    "kicker": "Ommaviy ma’lumotnoma / Genesis Mesh / 2026",
-    "title": "Hech bir davlat voz kechishi",
-    "titleAccent": "shart bo‘lmagan ishonch.",
-    "subtitle": "Genesis Mesh mustaqil boshqariladigan tizimlarga o‘z suverenitetidan voz kechmasdan bir-birini tan olish, avtorizatsiya qilish, ishonch materialini bekor qilish va auditdan o‘tkazish imkonini beradi.",
-    "meta": {
-      "verify": "Tekshirish",
-      "verifyDesc": "vakolat kimga tegishli ekanini",
-      "limit": "Cheklash",
-      "limitDesc": "ular nima qila olishini",
-      "revoke": "Bekor qilish",
-      "revokeDesc": "ishonch buzilganida",
-      "audit": "Audit qilish",
-      "auditDesc": "hech kimning gapiga ishonishga to‘g‘ri kelmasligi uchun"
+    "kicker": "Ommaviy ma’lumotnoma / 2026",
+    "title": "Mashinalar chegaralardan o'tadi.",
+    "titleAccent": "Vakolat o'tmaydi.",
+    "intro": "Sun'iy intellekt agentlari allaqachon bulutlar, tashkilotlar va yurisdiksiyalar bo'ylab harakat qilmoqda. Ammo bir suveren tizim boshqasi bilan to'qnash kelganda, uchta asosiy savolga javob beradigan betaraf protokol mavjud emas:",
+    "questions": ["Siz kimsiz?", "Sizga nima qilishga ruxsat berilgan?", "Bu vakolatni kim bekor qila oladi?"],
+    "statement": "Genesis Mesh - mashinalar uchun shartnoma qatlamidir.",
+    "body": "Mustaqil vakolatli tuzilmalar tashkiliy va milliy chegaralar bo'ylab shaxsiyatlarni tan olishi, imkoniyatlarni topshirishi va ishonchni bekor qilishi mumkin, bunda o'z ishonch ildizidan voz kechmaydi.",
+    "notLine": "Markaziy vakolat yo'q. Umumiy suveren yo'q. Majburiy bulut yo'q.",
+    "closing": "Hech bir davlat voz kechishga majbur bo'lmaydigan ishonch.",
+    "audiences": {
+      "builders": {
+        "label": "Quruvchilar uchun →",
+        "rfcs": "RFC",
+        "sdks": "SDK",
+        "run": "O'z vakolatingizni ishga tushiring"
+      },
+      "states": {
+        "label": "Davlatlar va muassasalar uchun →",
+        "brief": "Shartnoma xulosasi",
+        "architecture": "Arxitektura",
+        "channel": "Bevosita kanal"
+      }
     },
     "scroll": "Pastga ↓",
-    "vlabel": "Suverenitetga nisbatan betaraf infratuzilma",
-    "actions": {
-      "run": "Isbotni lokal ishga tushirish",
-      "protocol": "Protokolni o‘qish",
-      "network": "Jonli tarmoqni tekshirish"
-    }
+    "vlabel": "Suverenitetga nisbatan betaraf infratuzilma"
   },
   "stakes": {
     "label": "Dolzarb masala",

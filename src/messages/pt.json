@@ -20,27 +20,35 @@
     "selectLanguage": "Selecionar idioma"
   },
   "hero": {
-    "kicker": "Informe Público / Genesis Mesh / 2026",
-    "title": "Confiança que nenhuma nação",
-    "titleAccent": "precisa entregar.",
-    "subtitle": "O Genesis Mesh permite que sistemas com governação independente se reconheçam, autorizem, revoguem confiança e auditem mutuamente sem abdicar da sua soberania.",
-    "meta": {
-      "verify": "Verificar",
-      "verifyDesc": "quem detém a autoridade",
-      "limit": "Limitar",
-      "limitDesc": "o que podem fazer",
-      "revoke": "Revogar",
-      "revokeDesc": "quando a confiança se rompe",
-      "audit": "Auditar",
-      "auditDesc": "para que ninguém precise acreditar na sua palavra"
+    "kicker": "Informe Público / 2026",
+    "title": "As máquinas atravessam fronteiras.",
+    "titleAccent": "A autoridade não.",
+    "intro": "Os agentes de IA já atuam entre nuvens, organizações e jurisdições. Mas quando um sistema soberano encontra outro, não existe um protocolo neutro para responder a três perguntas básicas:",
+    "questions": [
+      "Quem é você?",
+      "O que está autorizado a fazer?",
+      "Quem pode revogar essa autoridade?"
+    ],
+    "statement": "A Genesis Mesh é uma camada de tratado para máquinas.",
+    "body": "Autoridades independentes podem reconhecer identidades, delegar capacidades e revogar confiança além de fronteiras organizacionais e nacionais, sem renunciarem à sua própria raiz de confiança.",
+    "notLine": "Sem autoridade central. Sem soberano partilhado. Sem nuvem obrigatória.",
+    "closing": "Confiança que nenhuma nação tem de ceder.",
+    "audiences": {
+      "builders": {
+        "label": "Para construtores →",
+        "rfcs": "RFCs",
+        "sdks": "SDKs",
+        "run": "Opere a sua própria autoridade"
+      },
+      "states": {
+        "label": "Para Estados e instituições →",
+        "brief": "Resumo do tratado",
+        "architecture": "Arquitetura",
+        "channel": "Canal direto"
+      }
     },
     "scroll": "Rolar ↓",
-    "vlabel": "Infraestrutura neutra em soberania",
-    "actions": {
-      "run": "Executar a prova localmente",
-      "protocol": "Ler o protocolo",
-      "network": "Verificar a rede em tempo real"
-    }
+    "vlabel": "Infraestrutura neutra em soberania"
   },
   "stakes": {
     "label": "O que está em jogo",

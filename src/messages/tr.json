@@ -20,27 +20,31 @@
     "selectLanguage": "Dil seçin"
   },
   "hero": {
-    "kicker": "Kamuya Açık Bilgilendirme / Genesis Mesh / 2026",
-    "title": "Hiçbir ulusun teslim etmek",
-    "titleAccent": "zorunda olmadığı güven.",
-    "subtitle": "Genesis Mesh, bağımsız olarak yönetilen sistemlerin egemenliklerinden vazgeçmeden birbirlerini tanımasını, yetkilendirmesini, güven materyalini iptal etmesini ve denetlemesini sağlar.",
-    "meta": {
-      "verify": "Doğrula",
-      "verifyDesc": "yetkiyi kimin elinde tuttuğunu",
-      "limit": "Sınırla",
-      "limitDesc": "ne yapabileceklerini",
-      "revoke": "Geri al",
-      "revokeDesc": "güven kırıldığında",
-      "audit": "Denetle",
-      "auditDesc": "kimse sözünüze inanmak zorunda kalmasın diye"
+    "kicker": "Kamuya Açık Bilgilendirme / 2026",
+    "title": "Makineler sınırları aşıyor.",
+    "titleAccent": "Yetki aşmıyor.",
+    "intro": "Yapay zekâ ajanları zaten bulutlar, kuruluşlar ve yargı alanları arasında hareket ediyor. Ama bir egemen sistem bir başkasıyla karşılaştığında, üç temel soruyu yanıtlayacak tarafsız bir protokol yok:",
+    "questions": ["Siz kimsiniz?", "Ne yapmaya yetkiniz var?", "Bu yetkiyi kim geri alabilir?"],
+    "statement": "Genesis Mesh, makineler için antlaşma katmanıdır.",
+    "body": "Bağımsız yetkili kurumlar, kendi güven köklerinden vazgeçmeden, kuruluş ve ulus sınırlarının ötesinde kimlikleri tanıyabilir, yetenekleri devredebilir ve güveni geri alabilir.",
+    "notLine": "Merkezi yetki yok. Paylaşılan egemen yok. Zorunlu bulut yok.",
+    "closing": "Hiçbir ulusun vazgeçmek zorunda kalmadığı güven.",
+    "audiences": {
+      "builders": {
+        "label": "Geliştiriciler için →",
+        "rfcs": "RFC'ler",
+        "sdks": "SDK'lar",
+        "run": "Kendi yetkinizi çalıştırın"
+      },
+      "states": {
+        "label": "Devletler ve kurumlar için →",
+        "brief": "Antlaşma özeti",
+        "architecture": "Mimari",
+        "channel": "Doğrudan kanal"
+      }
     },
     "scroll": "Kaydır ↓",
-    "vlabel": "Egemenlik Açısından Tarafsız Altyapı",
-    "actions": {
-      "run": "Kanıtı yerel olarak çalıştır",
-      "protocol": "Protokolü oku",
-      "network": "Canlı ağı doğrula"
-    }
+    "vlabel": "Egemenlik Açısından Tarafsız Altyapı"
   },
   "stakes": {
     "label": "Neyin Riski Var",

@@ -20,27 +20,31 @@
     "selectLanguage": "Chọn ngôn ngữ"
   },
   "hero": {
-    "kicker": "Bản tóm lược công khai / Genesis Mesh / 2026",
-    "title": "Niềm tin mà không quốc gia nào",
-    "titleAccent": "phải giao nộp.",
-    "subtitle": "Genesis Mesh cho phép các hệ thống được quản trị độc lập công nhận, cấp quyền, thu hồi và kiểm tra lẫn nhau mà không phải từ bỏ quyền tự chủ.",
-    "meta": {
-      "verify": "Xác minh",
-      "verifyDesc": "ai đang nắm thẩm quyền",
-      "limit": "Giới hạn",
-      "limitDesc": "họ được làm gì",
-      "revoke": "Thu hồi",
-      "revokeDesc": "khi niềm tin đổ vỡ",
-      "audit": "Kiểm toán",
-      "auditDesc": "để không ai phải tin lời bạn suông"
+    "kicker": "Bản tóm lược công khai / 2026",
+    "title": "Máy móc vượt qua biên giới.",
+    "titleAccent": "Thẩm quyền thì không.",
+    "intro": "Các tác nhân AI đã hoạt động xuyên các đám mây, tổ chức và thẩm quyền tài phán. Nhưng khi một hệ thống có chủ quyền gặp một hệ thống khác, không có giao thức trung lập nào để trả lời ba câu hỏi cơ bản:",
+    "questions": ["Bạn là ai?", "Bạn được phép làm gì?", "Ai có thể thu hồi thẩm quyền đó?"],
+    "statement": "Genesis Mesh là tầng hiệp ước cho máy móc.",
+    "body": "Các cơ quan có chủ quyền độc lập có thể công nhận danh tính, ủy quyền năng lực, và thu hồi niềm tin xuyên ranh giới tổ chức và quốc gia mà không phải từ bỏ gốc tin cậy của chính mình.",
+    "notLine": "Không có thẩm quyền trung ương. Không có chủ quyền chung. Không có đám mây bắt buộc.",
+    "closing": "Niềm tin mà không quốc gia nào phải từ bỏ.",
+    "audiences": {
+      "builders": {
+        "label": "Dành cho người xây dựng →",
+        "rfcs": "RFC",
+        "sdks": "SDK",
+        "run": "Vận hành thẩm quyền của riêng bạn"
+      },
+      "states": {
+        "label": "Dành cho nhà nước & tổ chức →",
+        "brief": "Bản tóm tắt hiệp ước",
+        "architecture": "Kiến trúc",
+        "channel": "Kênh trực tiếp"
+      }
     },
     "scroll": "Cuộn xuống ↓",
-    "vlabel": "Hạ tầng trung lập về chủ quyền",
-    "actions": {
-      "run": "Chạy bằng chứng cục bộ",
-      "protocol": "Đọc giao thức",
-      "network": "Xác minh mạng trực tiếp"
-    }
+    "vlabel": "Hạ tầng trung lập về chủ quyền"
   },
   "stakes": {
     "label": "Điều Đang Đặt Cược",

@@ -20,27 +20,35 @@
     "selectLanguage": "Taal selecteren"
   },
   "hero": {
-    "kicker": "Openbare Toelichting / Genesis Mesh / 2026",
-    "title": "Vertrouwen dat geen enkele natie",
-    "titleAccent": "hoeft af te staan.",
-    "subtitle": "Met Genesis Mesh kunnen onafhankelijk bestuurde systemen elkaar erkennen, autoriseren, intrekken en auditen zonder hun autonomie op te geven.",
-    "meta": {
-      "verify": "Verifiëren",
-      "verifyDesc": "wie het gezag heeft",
-      "limit": "Begrenzen",
-      "limitDesc": "wat zij mogen doen",
-      "revoke": "Intrekken",
-      "revokeDesc": "wanneer vertrouwen breekt",
-      "audit": "Auditen",
-      "auditDesc": "zodat niemand u op uw woord hoeft te geloven"
+    "kicker": "Openbare toelichting / 2026",
+    "title": "Machines steken grenzen over.",
+    "titleAccent": "Gezag niet.",
+    "intro": "AI-agenten opereren al over clouds, organisaties en rechtsgebieden heen. Maar wanneer het ene soevereine systeem het andere ontmoet, bestaat er geen neutraal protocol om drie fundamentele vragen te beantwoorden:",
+    "questions": [
+      "Wie bent u?",
+      "Wat mag u doen?",
+      "Wie kan dat gezag intrekken?"
+    ],
+    "statement": "Genesis Mesh is een verdragslaag voor machines.",
+    "body": "Onafhankelijke autoriteiten kunnen identiteiten erkennen, bevoegdheden delegeren en vertrouwen intrekken over organisatorische en nationale grenzen heen, zonder hun eigen vertrouwenswortel op te geven.",
+    "notLine": "Geen centraal gezag. Geen gedeelde soeverein. Geen verplichte cloud.",
+    "closing": "Vertrouwen dat geen enkele natie hoeft op te geven.",
+    "audiences": {
+      "builders": {
+        "label": "Voor bouwers →",
+        "rfcs": "RFC's",
+        "sdks": "SDK's",
+        "run": "Draai uw eigen autoriteit"
+      },
+      "states": {
+        "label": "Voor staten en instellingen →",
+        "brief": "Verdragsoverzicht",
+        "architecture": "Architectuur",
+        "channel": "Direct kanaal"
+      }
     },
     "scroll": "Scroll ↓",
-    "vlabel": "Soevereiniteitsneutrale infrastructuur",
-    "actions": {
-      "run": "Voer het bewijs lokaal uit",
-      "protocol": "Lees het protocol",
-      "network": "Verifieer het live netwerk"
-    }
+    "vlabel": "Soevereiniteitsneutrale infrastructuur"
   },
   "stakes": {
     "label": "Wat Op Het Spel Staat",

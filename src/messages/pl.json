@@ -20,27 +20,35 @@
     "selectLanguage": "Wybierz język"
   },
   "hero": {
-    "kicker": "Nota publiczna / Genesis Mesh / 2026",
-    "title": "Zaufanie, którego żaden naród",
-    "titleAccent": "nie musi oddawać.",
-    "subtitle": "Genesis Mesh umożliwia niezależnie zarządzanym systemom wzajemne uznawanie, autoryzowanie, unieważnianie i audytowanie bez rezygnacji z suwerenności.",
-    "meta": {
-      "verify": "Weryfikuj",
-      "verifyDesc": "kto ma uprawnienia",
-      "limit": "Ogranicz",
-      "limitDesc": "co wolno im zrobić",
-      "revoke": "Odwołaj",
-      "revokeDesc": "gdy zaufanie pęka",
-      "audit": "Audytuj",
-      "auditDesc": "aby nikt nie musiał wierzyć ci na słowo"
+    "kicker": "Nota publiczna / 2026",
+    "title": "Maszyny przekraczają granice.",
+    "titleAccent": "Uprawnienia nie.",
+    "intro": "Agenci AI już teraz działają w wielu chmurach, organizacjach i jurysdykcjach. Ale gdy jeden suwerenny system napotyka drugi, nie istnieje neutralny protokół pozwalający odpowiedzieć na trzy podstawowe pytania:",
+    "questions": [
+      "Kim jesteś?",
+      "Co wolno ci robić?",
+      "Kto może odwołać te uprawnienia?"
+    ],
+    "statement": "Genesis Mesh to warstwa traktatowa dla maszyn.",
+    "body": "Niezależne urzędy mogą uznawać tożsamości, delegować uprawnienia i odwoływać zaufanie ponad granicami organizacyjnymi i narodowymi, bez konieczności oddawania własnego korzenia zaufania.",
+    "notLine": "Żadnej centralnej władzy. Żadnego wspólnego suwerena. Żadnej wymaganej chmury.",
+    "closing": "Zaufanie, którego żaden naród nie musi oddawać.",
+    "audiences": {
+      "builders": {
+        "label": "Dla budowniczych →",
+        "rfcs": "RFC",
+        "sdks": "SDK",
+        "run": "Uruchom własne uprawnienia"
+      },
+      "states": {
+        "label": "Dla państw i instytucji →",
+        "brief": "Podsumowanie traktatu",
+        "architecture": "Architektura",
+        "channel": "Kanał bezpośredni"
+      }
     },
     "scroll": "Przewiń ↓",
-    "vlabel": "Infrastruktura neutralna wobec suwerenności",
-    "actions": {
-      "run": "Uruchom dowód lokalnie",
-      "protocol": "Przeczytaj protokół",
-      "network": "Zweryfikuj sieć na żywo"
-    }
+    "vlabel": "Infrastruktura neutralna wobec suwerenności"
   },
   "stakes": {
     "label": "Stawka",

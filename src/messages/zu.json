@@ -20,27 +20,31 @@
     "selectLanguage": "Khetha ulimi"
   },
   "hero": {
-    "kicker": "Umbiko Womphakathi / Genesis Mesh / 2026",
-    "title": "Ukwethenjwa okungekho sizwe",
-    "titleAccent": "okufanele sikudele.",
-    "subtitle": "I-Genesis Mesh yenza amasistimu abuswa ngokuzimela akwazi ukuqaphelana, ukunikezana igunya, ukuhoxisa nokucwaningana ngaphandle kokudela ukuzibusa kwawo.",
-    "meta": {
-      "verify": "Qinisekisa",
-      "verifyDesc": "ukuthi ubani ophethe igunya",
-      "limit": "Khawulela",
-      "limitDesc": "lokho abangakwenza",
-      "revoke": "Hoxisa",
-      "revokeDesc": "lapho ukwethembana kuphuka",
-      "audit": "Cwaninga",
-      "auditDesc": "ukuze kungadingeki ukholwe izwi lomuntu"
+    "kicker": "Umbiko Womphakathi / 2026",
+    "title": "Imishini iwela imingcele.",
+    "titleAccent": "Igunya aliweli.",
+    "intro": "Ama-ejenti e-AI asevele esebenza kuwo onke amafu, izinhlangano, nezindawo ezibuswa ngokwahlukene. Kodwa lapho isistimu ezimele ihlangana nenye, ayikho iphrothokholi engachemile yokuphendula imibuzo emithathu eyisisekelo:",
+    "questions": ["Ungubani?", "Uvunyelwe ukwenzani?", "Ubani ongalihoxisa igunya lelo?"],
+    "statement": "I-Genesis Mesh iwungqimba lwezivumelwano lwemishini.",
+    "body": "Amagunya azimele angaqashela ubunikazi, anikeze amakhono, futhi ahoxise ukwethembana ngaphesheya kwemingcele yezinhlangano namazwe, ngaphandle kokudela umsuka wabo wokwethembana.",
+    "notLine": "Alikho igunya eliphakathi. Alikho ukuzimela okwabiwe. Alikho ifu eliphoqelelwe.",
+    "closing": "Ukwethembana okungadingeki ukuba izwe lidele.",
+    "audiences": {
+      "builders": {
+        "label": "Kwabakhi →",
+        "rfcs": "ama-RFC",
+        "sdks": "ama-SDK",
+        "run": "Qalisa igunya lakho"
+      },
+      "states": {
+        "label": "Kwamazwe Nezikhungo →",
+        "brief": "Isifinyezo sesivumelwano",
+        "architecture": "Ulwakhiwo",
+        "channel": "Umzila oqondile"
+      }
     },
     "scroll": "Skrola ↓",
-    "vlabel": "Ingqalasizinda Engachemile Ekuzimeleni Kwamazwe",
-    "actions": {
-      "run": "Qalisa ubufakazi endaweni yakho",
-      "protocol": "Funda iphrothokholi",
-      "network": "Qinisekisa inethiwekhi ebukhoma"
-    }
+    "vlabel": "Ingqalasizinda Engachemile Ekuzimeleni Kwamazwe"
   },
   "stakes": {
     "label": "Okusengcupheni",

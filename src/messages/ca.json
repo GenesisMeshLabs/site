@@ -20,27 +20,35 @@
     "selectLanguage": "Selecciona l'idioma"
   },
   "hero": {
-    "kicker": "Informe públic / Genesis Mesh / 2026",
-    "title": "La confiança que cap nació",
-    "titleAccent": "no ha de cedir.",
-    "subtitle": "Genesis Mesh permet que sistemes governats de manera independent es reconeguin, s'autoritzin, revoquin confiança i s'auditin mútuament sense renunciar a la seva sobirania.",
-    "meta": {
-      "verify": "Verificar",
-      "verifyDesc": "qui té l'autoritat",
-      "limit": "Limitar",
-      "limitDesc": "què pot fer",
-      "revoke": "Revocar",
-      "revokeDesc": "quan es trenca la confiança",
-      "audit": "Auditar",
-      "auditDesc": "perquè ningú no hagi de creure ningú només perquè ho diu"
+    "kicker": "Informe públic / 2026",
+    "title": "Les màquines travessen fronteres.",
+    "titleAccent": "L'autoritat, no.",
+    "intro": "Els agents d'IA ja actuen a través de núvols, organitzacions i jurisdiccions. Però quan un sistema sobirà en troba un altre, no hi ha cap protocol neutral per respondre tres preguntes bàsiques:",
+    "questions": [
+      "Qui ets?",
+      "Què tens permès fer?",
+      "Qui pot revocar aquesta autoritat?"
+    ],
+    "statement": "Genesis Mesh és la capa de tractat per a les màquines.",
+    "body": "Les autoritats independents poden reconèixer identitats, delegar capacitats i revocar la confiança a través de fronteres organitzatives i nacionals, sense renunciar a la seva pròpia arrel de confiança.",
+    "notLine": "Cap autoritat central. Cap sobirania compartida. Cap núvol obligatori.",
+    "closing": "Una confiança que cap nació no ha de cedir.",
+    "audiences": {
+      "builders": {
+        "label": "Per als desenvolupadors →",
+        "rfcs": "RFC",
+        "sdks": "SDK",
+        "run": "Poseu en marxa la vostra pròpia autoritat"
+      },
+      "states": {
+        "label": "Per als estats i les institucions →",
+        "brief": "Resum del tractat",
+        "architecture": "Arquitectura",
+        "channel": "Canal directe"
+      }
     },
     "scroll": "Desplaça't ↓",
-    "vlabel": "Infraestructura neutral respecte de la sobirania",
-    "actions": {
-      "run": "Executeu la prova localment",
-      "protocol": "Llegiu el protocol",
-      "network": "Verifiqueu la xarxa en directe"
-    }
+    "vlabel": "Infraestructura neutral respecte de la sobirania"
   },
   "stakes": {
     "label": "El que hi ha en joc",

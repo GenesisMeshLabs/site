@@ -20,27 +20,35 @@
     "selectLanguage": "Atlasīt valodu"
   },
   "hero": {
-    "kicker": "Publisks pārskats / Genesis Mesh / 2026",
-    "title": "Uzticēšanās, no kuras nevienai valstij",
-    "titleAccent": "nav jāatsakās.",
-    "subtitle": "Genesis Mesh ļauj neatkarīgi pārvaldītām sistēmām savstarpēji atzīt, pilnvarot, atsaukt un auditēt cita citu, neatsakoties no savas suverenitātes.",
-    "meta": {
-      "verify": "Pārbaudīt",
-      "verifyDesc": "kam ir pilnvaras",
-      "limit": "Ierobežot",
-      "limitDesc": "ko tās ļauj darīt",
-      "revoke": "Atsaukt",
-      "revokeDesc": "kad uzticēšanās zūd",
-      "audit": "Auditēt",
-      "auditDesc": "lai nevienam nebūtu jātic uz vārda"
+    "kicker": "Publisks pārskats / 2026",
+    "title": "Mašīnas šķērso robežas.",
+    "titleAccent": "Autoritāte to nedara.",
+    "intro": "MI aģenti jau darbojas dažādos mākoņos, organizācijās un jurisdikcijās. Bet, kad viena suverēna sistēma satiek citu, nav neitrāla protokola, kas atbildētu uz trim pamatjautājumiem:",
+    "questions": [
+      "Kas jūs esat?",
+      "Ko jums ir atļauts darīt?",
+      "Kas var atsaukt šo autoritāti?"
+    ],
+    "statement": "Genesis Mesh ir līguma slānis mašīnām.",
+    "body": "Neatkarīgas autoritātes var atzīt identitātes, deleģēt pilnvaras un atsaukt uzticēšanos pāri organizāciju un valstu robežām, nezaudējot savu uzticamības sakni.",
+    "notLine": "Ne centrāla autoritāte. Ne kopīgs suverēns. Ne obligāts mākonis.",
+    "closing": "Uzticēšanās, no kuras nevienai valstij nav jāatsakās.",
+    "audiences": {
+      "builders": {
+        "label": "Izstrādātājiem →",
+        "rfcs": "RFC",
+        "sdks": "SDK",
+        "run": "Palaidiet savu autoritāti"
+      },
+      "states": {
+        "label": "Valstīm un iestādēm →",
+        "brief": "Līguma kopsavilkums",
+        "architecture": "Arhitektūra",
+        "channel": "Tiešais kanāls"
+      }
     },
     "scroll": "Ritināt ↓",
-    "vlabel": "Pret suverenitāti neitrāla infrastruktūra",
-    "actions": {
-      "run": "Palaist pierādījumu lokāli",
-      "protocol": "Lasīt protokolu",
-      "network": "Pārbaudīt tiešsaistes tīklu"
-    }
+    "vlabel": "Pret suverenitāti neitrāla infrastruktūra"
   },
   "stakes": {
     "label": "Likmes",

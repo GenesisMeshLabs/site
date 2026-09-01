@@ -20,27 +20,35 @@
     "selectLanguage": "Pumili ng wika"
   },
   "hero": {
-    "kicker": "Pampublikong Buod / Genesis Mesh / 2026",
-    "title": "Tiwalang hindi kailangang",
-    "titleAccent": "isuko ng alinmang bansa.",
-    "subtitle": "Sa Genesis Mesh, maaaring kilalanin, pahintulutan, bawiin ang tiwala, at i-audit ng mga sistemang malayang pinamamahalaan ang isa't isa nang hindi isinusuko ang kanilang awtonomiya.",
-    "meta": {
-      "verify": "Beripikahin",
-      "verifyDesc": "kung sino ang may hawak ng awtoridad",
-      "limit": "Limitahan",
-      "limitDesc": "kung ano ang maaari nilang gawin",
-      "revoke": "Bawiin",
-      "revokeDesc": "kapag nasira ang tiwala",
-      "audit": "I-audit",
-      "auditDesc": "upang walang kailangang basta maniwala sa iyong salita"
+    "kicker": "Pampublikong Buod / 2026",
+    "title": "Tumatawid ang mga makina sa hangganan.",
+    "titleAccent": "Hindi ang awtoridad.",
+    "intro": "Kumikilos na ang mga AI agent sa iba't ibang cloud, organisasyon, at hurisdiksyon. Pero kapag nakipag-ugnayan ang isang soberanong sistema sa isa pa, walang neutral na protocol para sagutin ang tatlong pangunahing tanong:",
+    "questions": [
+      "Sino ka?",
+      "Ano ang pinapayagang gawin mo?",
+      "Sino ang makakabawi sa awtoridad na iyon?"
+    ],
+    "statement": "Ang Genesis Mesh ay treaty layer para sa mga makina.",
+    "body": "Maaaring kilalanin ng mga independiyenteng awtoridad ang mga identidad, i-delegate ang mga kakayahan, at bawiin ang tiwala lampas sa mga hangganang pang-organisasyon at pambansa, nang hindi isinusuko ang sarili nilang root of trust.",
+    "notLine": "Walang sentral na awtoridad. Walang ibinabahaging soberanya. Walang kinakailangang cloud.",
+    "closing": "Tiwalang hindi kailangang isuko ng kahit anong bansa.",
+    "audiences": {
+      "builders": {
+        "label": "Para sa mga Builder →",
+        "rfcs": "RFCs",
+        "sdks": "SDKs",
+        "run": "Magtayo ng sarili mong awtoridad"
+      },
+      "states": {
+        "label": "Para sa mga Estado at Institusyon →",
+        "brief": "Buod ng kasunduan",
+        "architecture": "Arkitektura",
+        "channel": "Direktang channel"
+      }
     },
     "scroll": "Mag-scroll ↓",
-    "vlabel": "Imprastrakturang Neutral sa Soberanya",
-    "actions": {
-      "run": "Patakbuhin ang patunay nang lokal",
-      "protocol": "Basahin ang protocol",
-      "network": "Beripikahin ang live na network"
-    }
+    "vlabel": "Imprastrakturang Neutral sa Soberanya"
   },
   "stakes": {
     "label": "Ang Nakataya",

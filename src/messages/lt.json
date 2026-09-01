@@ -20,27 +20,31 @@
     "selectLanguage": "Pasirinkti kalbą"
   },
   "hero": {
-    "kicker": "Viešas pristatymas / Genesis Mesh / 2026",
-    "title": "Pasitikėjimas, kurio nė vienai valstybei",
-    "titleAccent": "nereikia atsisakyti.",
-    "subtitle": "Genesis Mesh leidžia nepriklausomai valdomoms sistemoms pripažinti, autorizuoti, atšaukti ir audituoti vienai kitą, neatsisakant savo suvereniteto.",
-    "meta": {
-      "verify": "Patikrinti",
-      "verifyDesc": "kas turi įgaliojimus",
-      "limit": "Apriboti",
-      "limitDesc": "ką jie gali daryti",
-      "revoke": "Atšaukti",
-      "revokeDesc": "kai pasitikėjimas žlunga",
-      "audit": "Audituoti",
-      "auditDesc": "kad nereikėtų niekuo tikėti vien iš žodžio"
+    "kicker": "Viešas pristatymas / 2026",
+    "title": "Mašinos kerta sienas.",
+    "titleAccent": "Įgaliojimai sienų nekerta.",
+    "intro": "DI agentai jau veikia debesyse, organizacijose ir jurisdikcijose. Bet kai viena suvereni sistema susiduria su kita, nėra neutralaus protokolo, galinčio atsakyti į tris pagrindinius klausimus:",
+    "questions": ["Kas jūs esate?", "Ką jums leista daryti?", "Kas gali atšaukti tuos įgaliojimus?"],
+    "statement": "Genesis Mesh yra sutarčių sluoksnis mašinoms.",
+    "body": "Nepriklausomi įgaliojimų subjektai gali pripažinti tapatybes, deleguoti galimybes ir atšaukti pasitikėjimą peržengdami organizacijų bei valstybių sienas, neatsisakydami savo pasitikėjimo šaknies.",
+    "notLine": "Jokios centrinės valdžios. Jokio bendro suvereno. Jokio privalomo debesies.",
+    "closing": "Pasitikėjimas, kurio jokiai valstybei nereikia atsisakyti.",
+    "audiences": {
+      "builders": {
+        "label": "Kūrėjams →",
+        "rfcs": "RFC",
+        "sdks": "SDK",
+        "run": "Valdykite savo įgaliojimus"
+      },
+      "states": {
+        "label": "Valstybėms ir institucijoms →",
+        "brief": "Sutarties apžvalga",
+        "architecture": "Architektūra",
+        "channel": "Tiesioginis kanalas"
+      }
     },
     "scroll": "Slinkite ↓",
-    "vlabel": "Suvereniteto atžvilgiu neutrali infrastruktūra",
-    "actions": {
-      "run": "Paleisti įrodymą vietoje",
-      "protocol": "Skaityti protokolą",
-      "network": "Patikrinti veikiantį tinklą"
-    }
+    "vlabel": "Suvereniteto atžvilgiu neutrali infrastruktūra"
   },
   "stakes": {
     "label": "Kas pastatyta ant kortos",

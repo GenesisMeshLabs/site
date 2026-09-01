@@ -20,27 +20,35 @@
     "selectLanguage": "Vælg sprog"
   },
   "hero": {
-    "kicker": "Offentlig orientering / Genesis Mesh / 2026",
-    "title": "Tillid, som ingen nation",
-    "titleAccent": "behøver at opgive.",
-    "subtitle": "Genesis Mesh gør det muligt for uafhængigt styrede systemer at anerkende, autorisere, tilbagekalde tillid til og revidere hinanden uden at opgive deres suverænitet.",
-    "meta": {
-      "verify": "Verificér",
-      "verifyDesc": "hvem der har autoriteten",
-      "limit": "Begræns",
-      "limitDesc": "hvad de kan gøre",
-      "revoke": "Tilbagekald",
-      "revokeDesc": "når tilliden brydes",
-      "audit": "Revidér",
-      "auditDesc": "så ingen blot skal stole på dit ord"
+    "kicker": "Offentlig orientering / 2026",
+    "title": "Maskiner krydser grænser.",
+    "titleAccent": "Autoritet gør ikke.",
+    "intro": "AI-agenter handler allerede på tværs af skyer, organisationer og jurisdiktioner. Men når ét suverænt system møder et andet, findes der ingen neutral protokol til at besvare tre grundlæggende spørgsmål:",
+    "questions": [
+      "Hvem er du?",
+      "Hvad må du gøre?",
+      "Hvem kan tilbagekalde den autoritet?"
+    ],
+    "statement": "Genesis Mesh er traktatlaget for maskiner.",
+    "body": "Uafhængige autoriteter kan anerkende identiteter, delegere kapabiliteter og tilbagekalde tillid på tværs af organisatoriske og nationale grænser, uden at opgive deres egen tillidsrod.",
+    "notLine": "Ingen central autoritet. Ingen fælles suveræn. Ingen påkrævet sky.",
+    "closing": "Tillid, som intet land skal opgive.",
+    "audiences": {
+      "builders": {
+        "label": "Til udviklere →",
+        "rfcs": "RFC'er",
+        "sdks": "SDK'er",
+        "run": "Etabler din egen autoritet"
+      },
+      "states": {
+        "label": "Til stater og institutioner →",
+        "brief": "Traktatresumé",
+        "architecture": "Arkitektur",
+        "channel": "Direkte kanal"
+      }
     },
     "scroll": "Rul ↓",
-    "vlabel": "Suverænitetsneutral infrastruktur",
-    "actions": {
-      "run": "Kør beviset lokalt",
-      "protocol": "Læs protokollen",
-      "network": "Verificer live-netværket"
-    }
+    "vlabel": "Suverænitetsneutral infrastruktur"
   },
   "stakes": {
     "label": "Det afgørende spørgsmål",

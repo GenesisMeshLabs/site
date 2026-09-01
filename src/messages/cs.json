@@ -20,27 +20,35 @@
     "selectLanguage": "Vybrat jazyk"
   },
   "hero": {
-    "kicker": "Veřejný přehled / Genesis Mesh / 2026",
-    "title": "Důvěra, které se žádný stát",
-    "titleAccent": "nemusí vzdát.",
-    "subtitle": "Genesis Mesh umožňuje nezávisle spravovaným systémům, aby se vzájemně uznávaly, autorizovaly, odvolávaly důvěru a auditovaly, aniž by se vzdaly své suverenity.",
-    "meta": {
-      "verify": "Ověřit",
-      "verifyDesc": "kdo má autoritu",
-      "limit": "Omezit",
-      "limitDesc": "co smí dělat",
-      "revoke": "Odvolat",
-      "revokeDesc": "když dojde k narušení důvěry",
-      "audit": "Auditovat",
-      "auditDesc": "aby nikdo nemusel věřit pouhému slovu"
+    "kicker": "Veřejný přehled / 2026",
+    "title": "Stroje překračují hranice.",
+    "titleAccent": "Autorita ne.",
+    "intro": "Agenti umělé inteligence již dnes jednají napříč cloudy, organizacemi a jurisdikcemi. Když se však jeden suverénní systém setká s druhým, neexistuje neutrální protokol, který by odpověděl na tři základní otázky:",
+    "questions": [
+      "Kdo jste?",
+      "Co smíte dělat?",
+      "Kdo může tuto autoritu odvolat?"
+    ],
+    "statement": "Genesis Mesh je smluvní vrstva pro stroje.",
+    "body": "Nezávislé autority mohou napříč organizačními i státními hranicemi uznávat identity, delegovat pravomoci a odvolávat důvěru, aniž by se musely vzdát vlastního kořene důvěry.",
+    "notLine": "Žádná centrální autorita. Žádný sdílený suverén. Žádný povinný cloud.",
+    "closing": "Důvěra, které se žádný stát nemusí vzdát.",
+    "audiences": {
+      "builders": {
+        "label": "Pro tvůrce →",
+        "rfcs": "RFC",
+        "sdks": "SDK",
+        "run": "Spusťte vlastní autoritu"
+      },
+      "states": {
+        "label": "Pro státy a instituce →",
+        "brief": "Smluvní přehled",
+        "architecture": "Architektura",
+        "channel": "Přímý kanál"
+      }
     },
     "scroll": "Posunout ↓",
-    "vlabel": "Infrastruktura neutrální vůči suverenitě",
-    "actions": {
-      "run": "Spustit důkaz místně",
-      "protocol": "Přečíst protokol",
-      "network": "Ověřit živou síť"
-    }
+    "vlabel": "Infrastruktura neutrální vůči suverenitě"
   },
   "stakes": {
     "label": "Co je v sázce",

@@ -20,27 +20,35 @@
     "selectLanguage": "Velg språk"
   },
   "hero": {
-    "kicker": "Offentlig orientering / Genesis Mesh / 2026",
-    "title": "Tillit som ingen nasjon",
-    "titleAccent": "må gi fra seg.",
-    "subtitle": "Genesis Mesh lar uavhengig styrte systemer anerkjenne, autorisere, tilbakekalle og revidere hverandre uten å gi avkall på egen suverenitet.",
-    "meta": {
-      "verify": "Verifiser",
-      "verifyDesc": "hvem som har myndighet",
-      "limit": "Begrens",
-      "limitDesc": "hva de kan gjøre",
-      "revoke": "Tilbakekall",
-      "revokeDesc": "når tilliten brytes",
-      "audit": "Revider",
-      "auditDesc": "slik at ingen må stole på ditt ord"
+    "kicker": "Offentlig orientering / 2026",
+    "title": "Maskiner krysser grenser.",
+    "titleAccent": "Autoritet gjør det ikke.",
+    "intro": "KI-agenter opererer allerede på tvers av skytjenester, organisasjoner og jurisdiksjoner. Men når ett suverent system møter et annet, finnes det ingen nøytral protokoll for å svare på tre grunnleggende spørsmål:",
+    "questions": [
+      "Hvem er du?",
+      "Hva har du lov til å gjøre?",
+      "Hvem kan tilbakekalle den autoriteten?"
+    ],
+    "statement": "Genesis Mesh er traktatlaget for maskiner.",
+    "body": "Uavhengige autoriteter kan anerkjenne identiteter, delegere kapabiliteter og tilbakekalle tillit på tvers av organisatoriske og nasjonale grenser, uten å gi fra seg sin egen tillitsrot.",
+    "notLine": "Ingen sentral autoritet. Ingen delt suveren. Ingen påkrevd sky.",
+    "closing": "Tillit som ingen nasjon må gi fra seg.",
+    "audiences": {
+      "builders": {
+        "label": "For utviklere →",
+        "rfcs": "RFC-er",
+        "sdks": "SDK-er",
+        "run": "Kjør din egen autoritet"
+      },
+      "states": {
+        "label": "For stater og institusjoner →",
+        "brief": "Traktatsammendrag",
+        "architecture": "Arkitektur",
+        "channel": "Direkte kanal"
+      }
     },
     "scroll": "Rull ↓",
-    "vlabel": "Suverenitetsnøytral infrastruktur",
-    "actions": {
-      "run": "Kjør beviset lokalt",
-      "protocol": "Les protokollen",
-      "network": "Verifiser direktenettverket"
-    }
+    "vlabel": "Suverenitetsnøytral infrastruktur"
   },
   "stakes": {
     "label": "Hva som står på spill",

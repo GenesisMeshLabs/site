@@ -20,27 +20,35 @@
     "selectLanguage": "Zaɓi harshe"
   },
   "hero": {
-    "kicker": "Taƙaitaccen Bayanin Jama'a / Genesis Mesh / 2026",
-    "title": "Amincin da babu wata ƙasa",
-    "titleAccent": "za ta zama dole ta sadaukar.",
-    "subtitle": "Genesis Mesh yana bai wa tsarin da ake gudanarwa da kansu damar gane juna, ba da izini, soke amincewa da kuma binciken juna ba tare da sun bar ikon cin gashin kansu ba.",
-    "meta": {
-      "verify": "Tabbatar",
-      "verifyDesc": "da wanda ke da ikon izini",
-      "limit": "Iyakance",
-      "limitDesc": "abin da zai iya yi",
-      "revoke": "Janye",
-      "revokeDesc": "idan aminci ya rushe",
-      "audit": "Duba",
-      "auditDesc": "don kada a dogara da maganarka kawai"
+    "kicker": "Taƙaitaccen Bayanin Jama'a / 2026",
+    "title": "Injina suna ketare iyakoki.",
+    "titleAccent": "Ba ikon ba.",
+    "intro": "Wakilan AI sun rigaya suna aiki a fadin gajimare, ƙungiyoyi, da yankunan shari'a. Amma idan wani tsarin mai ikon kansa ya haɗu da wani, babu wata ka'idar sadarwa marar nuna son kai da za ta amsa tambayoyi uku na asali:",
+    "questions": [
+      "Wane ne kai?",
+      "Me aka yarda ka yi?",
+      "Wa zai iya janye wannan ikon?"
+    ],
+    "statement": "Genesis Mesh shine matakin yarjejeniya ga injina.",
+    "body": "Hukumomi masu zaman kansu na iya amincewa da shaidu, ba da wakilcin iko, da janye aminci a fadin iyakokin ƙungiyoyi da na ƙasashe, ba tare da sadaukar da tushen amincinsu ba.",
+    "notLine": "Babu hukuma ta tsakiya. Babu ikon-kai da ake rabawa. Babu gajimare wanda ake tilastawa.",
+    "closing": "Amincin da babu wata ƙasa da za ta sadaukar da shi.",
+    "audiences": {
+      "builders": {
+        "label": "Ga Masu Ginawa →",
+        "rfcs": "RFCs",
+        "sdks": "SDKs",
+        "run": "Gudanar da ikonka"
+      },
+      "states": {
+        "label": "Ga Gwamnatoci da Cibiyoyi →",
+        "brief": "Taƙaitaccen yarjejeniya",
+        "architecture": "Tsari",
+        "channel": "Tashar kai tsaye"
+      }
     },
     "scroll": "Gungura ↓",
-    "vlabel": "Ababen More Rayuwa Marasa Nuna Son Rai Kan Ikon Kai",
-    "actions": {
-      "run": "Gudanar da hujjar a na'urarka",
-      "protocol": "Karanta ƙa'idar aiki",
-      "network": "Tabbatar da cibiyar sadarwa kai tsaye"
-    }
+    "vlabel": "Ababen More Rayuwa Marasa Nuna Son Rai Kan Ikon Kai"
   },
   "stakes": {
     "label": "Abin da ke Cikin Haɗari",

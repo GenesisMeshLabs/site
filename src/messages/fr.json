@@ -20,27 +20,35 @@
     "selectLanguage": "Sélectionner une langue"
   },
   "hero": {
-    "kicker": "Note publique / Genesis Mesh / 2026",
-    "title": "Une confiance qu'aucune nation",
-    "titleAccent": "n'a à céder.",
-    "subtitle": "Genesis Mesh permet à des systèmes gouvernés de manière indépendante de se reconnaître, de s'autoriser, de révoquer la confiance et de s'auditer mutuellement sans renoncer à leur souveraineté.",
-    "meta": {
-      "verify": "Vérifier",
-      "verifyDesc": "qui détient l'autorité",
-      "limit": "Limiter",
-      "limitDesc": "ce qu'ils peuvent faire",
-      "revoke": "Révoquer",
-      "revokeDesc": "quand la confiance se rompt",
-      "audit": "Auditer",
-      "auditDesc": "pour que nul n'ait à vous croire sur parole"
+    "kicker": "Note publique / 2026",
+    "title": "Les machines franchissent les frontières.",
+    "titleAccent": "Pas l'autorité.",
+    "intro": "Les agents d'IA agissent déjà à travers les clouds, les organisations et les juridictions. Mais quand un système souverain en rencontre un autre, il n'existe aucun protocole neutre pour répondre à trois questions fondamentales :",
+    "questions": [
+      "Qui êtes-vous ?",
+      "Qu'avez-vous le droit de faire ?",
+      "Qui peut révoquer cette autorité ?"
+    ],
+    "statement": "Genesis Mesh est une couche de traité pour les machines.",
+    "body": "Des autorités indépendantes peuvent reconnaître des identités, déléguer des capacités et révoquer la confiance à travers les frontières organisationnelles et nationales, sans renoncer à leur propre racine de confiance.",
+    "notLine": "Pas d'autorité centrale. Pas de souverain partagé. Pas de cloud imposé.",
+    "closing": "Une confiance qu'aucune nation n'a à abandonner.",
+    "audiences": {
+      "builders": {
+        "label": "Pour les bâtisseurs →",
+        "rfcs": "RFC",
+        "sdks": "SDK",
+        "run": "Exploitez votre propre autorité"
+      },
+      "states": {
+        "label": "Pour les États et les institutions →",
+        "brief": "Note de traité",
+        "architecture": "Architecture",
+        "channel": "Canal direct"
+      }
     },
     "scroll": "Faire défiler ↓",
-    "vlabel": "Infrastructure neutre en souveraineté",
-    "actions": {
-      "run": "Exécuter la preuve localement",
-      "protocol": "Lire le protocole",
-      "network": "Vérifier le réseau en direct"
-    }
+    "vlabel": "Infrastructure neutre en souveraineté"
   },
   "stakes": {
     "label": "Les Enjeux",

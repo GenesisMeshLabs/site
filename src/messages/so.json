@@ -20,27 +20,35 @@
     "selectLanguage": "Dooro luqadda"
   },
   "hero": {
-    "kicker": "Warbixin Dadweyne / Genesis Mesh / 2026",
-    "title": "Kalsooni aanay qaranina",
-    "titleAccent": "qasbanayn inuu ka tanaasulo.",
-    "subtitle": "Genesis Mesh wuxuu u suurtageliyaa nidaamyo si madax-bannaan loo maamulo inay is aqoonsadaan, isu oggolaadaan, agabka kalsoonida kala noqdaan, isla markaana is hanti-dhawraan iyaga oo aan ka tanaasulin madax-bannaanidooda.",
-    "meta": {
-      "verify": "Xaqiiji",
-      "verifyDesc": "cidda awoodda haysa",
-      "limit": "Xaddid",
-      "limitDesc": "waxa ay samayn karaan",
-      "revoke": "Laal",
-      "revokeDesc": "marka kalsoonidu burburto",
-      "audit": "Hanti-dhawr",
-      "auditDesc": "si aan hadalkaaga keliya loo rumaysan"
+    "kicker": "Warbixin Dadweyne / 2026",
+    "title": "Mashiinnadu waxay ka gudbaan xuduudaha.",
+    "titleAccent": "Awoodda ma gudbato.",
+    "intro": "Wakiilada AI-ga ayaa hore ugu shaqeeya daruuraha, ururrada, iyo jurisdiksiyada kala duwan. Laakiin marka nidaam madax-bannaan uu la kulmo mid kale, ma jiro habmaamuus dhexdhexaad ah oo ka jawaabaya saddex su'aalood oo aasaasi ah:",
+    "questions": [
+      "Yaad tahay?",
+      "Maxaad samayn kartaa?",
+      "Yaa awoodaas laalin kara?"
+    ],
+    "statement": "Genesis Mesh waa lakabka heshiiska mashiinnada.",
+    "body": "Awoodaha madax-bannaan waxay aqoonsan karaan aqoonsiyada, u wakiil siin karaan awoodaha, oo ka bixin karaan kalsoonida marka ay ka gudbaan xuduudaha ururka iyo kuwa qaranka, iyagoon ka tanaasulin xididka kalsoonidooda.",
+    "notLine": "Awood dhexe ma jirto. Madax-bannaan wadaag ah ma jirto. Daruur lagu qasbo ma jirto.",
+    "closing": "Kalsooni aan qaran waajib ku ahayn inuu ka tanaasulo.",
+    "audiences": {
+      "builders": {
+        "label": "Dhisayaasha →",
+        "rfcs": "RFC-yada",
+        "sdks": "SDK-yada",
+        "run": "Maamul awoodaada gaarka ah"
+      },
+      "states": {
+        "label": "Dawladaha iyo Hay'adaha →",
+        "brief": "Soo-koobidda Heshiiska",
+        "architecture": "Qaab-dhismeedka",
+        "channel": "Xidhiidh Toos ah"
+      }
     },
     "scroll": "Hoos u rog ↓",
-    "vlabel": "Kaabayaal Dhexdhexaad ka ah Madax-bannaanida",
-    "actions": {
-      "run": "Caddeynta maxalli ahaan u socodsii",
-      "protocol": "Akhri hab-maamuuska",
-      "network": "Xaqiiji shabakadda tooska ah"
-    }
+    "vlabel": "Kaabayaal Dhexdhexaad ka ah Madax-bannaanida"
   },
   "stakes": {
     "label": "Waxa Halista ku Jira",

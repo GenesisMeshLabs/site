@@ -20,27 +20,35 @@
     "selectLanguage": "Välj språk"
   },
   "hero": {
-    "kicker": "Offentlig genomgång / Genesis Mesh / 2026",
-    "title": "Tillit som ingen nation",
-    "titleAccent": "behöver lämna ifrån sig.",
-    "subtitle": "Genesis Mesh gör det möjligt för självständigt styrda system att erkänna och auktorisera varandra, återkalla förtroendematerial och granska varandra utan att ge upp sin suveränitet.",
-    "meta": {
-      "verify": "Verifiera",
-      "verifyDesc": "vem som har behörigheten",
-      "limit": "Begränsa",
-      "limitDesc": "vad de får göra",
-      "revoke": "Återkalla",
-      "revokeDesc": "när tilliten brister",
-      "audit": "Granska",
-      "auditDesc": "så att ingen behöver ta ditt ord på det"
+    "kicker": "Offentlig genomgång / 2026",
+    "title": "Maskiner korsar gränser.",
+    "titleAccent": "Auktoritet gör det inte.",
+    "intro": "AI-agenter agerar redan över moln, organisationer och jurisdiktioner. Men när ett suveränt system möter ett annat finns det inget neutralt protokoll som besvarar tre grundläggande frågor:",
+    "questions": [
+      "Vem är du?",
+      "Vad får du göra?",
+      "Vem kan återkalla den auktoriteten?"
+    ],
+    "statement": "Genesis Mesh är fördragslagret för maskiner.",
+    "body": "Oberoende myndigheter kan erkänna identiteter, delegera behörigheter och återkalla tillit över organisatoriska och nationella gränser, utan att ge upp sin egen tillitsrot.",
+    "notLine": "Ingen central auktoritet. Ingen delad suverän. Inget obligatoriskt moln.",
+    "closing": "Tillit som ingen nation behöver ge upp.",
+    "audiences": {
+      "builders": {
+        "label": "För byggare →",
+        "rfcs": "RFC:er",
+        "sdks": "SDK:er",
+        "run": "Driftsätt din egen auktoritet"
+      },
+      "states": {
+        "label": "För stater och institutioner →",
+        "brief": "Fördragssammanfattning",
+        "architecture": "Arkitektur",
+        "channel": "Direktkanal"
+      }
     },
     "scroll": "Skrolla ↓",
-    "vlabel": "Suveränitetsneutral infrastruktur",
-    "actions": {
-      "run": "Kör beviset lokalt",
-      "protocol": "Läs protokollet",
-      "network": "Verifiera livenätverket"
-    }
+    "vlabel": "Suveränitetsneutral infrastruktur"
   },
   "stakes": {
     "label": "Vad Som Står På Spel",

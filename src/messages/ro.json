@@ -20,27 +20,35 @@
     "selectLanguage": "Selectați limba"
   },
   "hero": {
-    "kicker": "Informare publică / Genesis Mesh / 2026",
-    "title": "Încrederea la care nicio națiune",
-    "titleAccent": "nu trebuie să renunțe.",
-    "subtitle": "Genesis Mesh permite sistemelor administrate independent să se recunoască, să se autorizeze, să revoce încrederea și să se auditeze reciproc fără să renunțe la suveranitate.",
-    "meta": {
-      "verify": "Verificare",
-      "verifyDesc": "cine deține autoritatea",
-      "limit": "Limitare",
-      "limitDesc": "ce poate face",
-      "revoke": "Revocare",
-      "revokeDesc": "când încrederea este compromisă",
-      "audit": "Audit",
-      "auditDesc": "pentru ca nimeni să nu fie nevoit să vă creadă pe cuvânt"
+    "kicker": "Informare publică / 2026",
+    "title": "Mașinile traversează granițele.",
+    "titleAccent": "Autoritatea nu.",
+    "intro": "Agenții AI acționează deja în clouduri, organizații și jurisdicții diferite. Dar atunci când un sistem suveran întâlnește altul, nu există niciun protocol neutru pentru a răspunde la trei întrebări fundamentale:",
+    "questions": [
+      "Cine ești?",
+      "Ce ai voie să faci?",
+      "Cine poate revoca acea autoritate?"
+    ],
+    "statement": "Genesis Mesh este un strat de tratate pentru mașini.",
+    "body": "Autorități independente pot recunoaște identități, pot delega capabilități și pot revoca încrederea dincolo de granițele organizaționale și naționale, fără să renunțe la propria rădăcină de încredere.",
+    "notLine": "Nicio autoritate centrală. Niciun suveran comun. Niciun cloud obligatoriu.",
+    "closing": "Încredere pe care nicio națiune nu trebuie să o cedeze.",
+    "audiences": {
+      "builders": {
+        "label": "Pentru dezvoltatori →",
+        "rfcs": "RFC-uri",
+        "sdks": "SDK-uri",
+        "run": "Operați propria autoritate"
+      },
+      "states": {
+        "label": "Pentru state și instituții →",
+        "brief": "Rezumatul tratatului",
+        "architecture": "Arhitectură",
+        "channel": "Canal direct"
+      }
     },
     "scroll": "Derulați ↓",
-    "vlabel": "Infrastructură neutră față de suveranitate",
-    "actions": {
-      "run": "Rulează dovada local",
-      "protocol": "Citește protocolul",
-      "network": "Verifică rețeaua live"
-    }
+    "vlabel": "Infrastructură neutră față de suveranitate"
   },
   "stakes": {
     "label": "Miza",

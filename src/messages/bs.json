@@ -20,27 +20,35 @@
     "selectLanguage": "Odaberi jezik"
   },
   "hero": {
-    "kicker": "Javni sažetak / Genesis Mesh / 2026",
-    "title": "Povjerenje kojeg se nijedna država",
-    "titleAccent": "ne mora odreći.",
-    "subtitle": "Genesis Mesh omogućava nezavisno upravljanim sistemima da se međusobno prepoznaju, ovlašćuju, opozivaju povjerenje i provode reviziju bez odricanja od suvereniteta.",
-    "meta": {
-      "verify": "Provjerite",
-      "verifyDesc": "ko ima ovlaštenje",
-      "limit": "Ograničite",
-      "limitDesc": "šta smije raditi",
-      "revoke": "Opozovite",
-      "revokeDesc": "kada se povjerenje naruši",
-      "audit": "Revidirajte",
-      "auditDesc": "da niko ne mora vjerovati samo vašoj riječi"
+    "kicker": "Javni sažetak / 2026",
+    "title": "Mašine prelaze granice.",
+    "titleAccent": "Ovlaštenje ne.",
+    "intro": "AI agenti već djeluju preko oblaka, organizacija i jurisdikcija. Ali kada jedan suveren sistem naiđe na drugi, ne postoji neutralan protokol za odgovor na tri osnovna pitanja:",
+    "questions": [
+      "Ko si ti?",
+      "Šta smiješ raditi?",
+      "Ko može opozvati to ovlaštenje?"
+    ],
+    "statement": "Genesis Mesh je protokolarni sloj sporazuma za mašine.",
+    "body": "Nezavisni nosioci ovlaštenja mogu prepoznati identitete, delegirati sposobnosti i opozvati povjerenje preko organizacijskih i nacionalnih granica, bez odricanja od vlastitog korijena povjerenja.",
+    "notLine": "Nema centralnog ovlaštenja. Nema zajedničkog suvereniteta. Nema obaveznog oblaka.",
+    "closing": "Povjerenje koje nijedna nacija ne mora predati.",
+    "audiences": {
+      "builders": {
+        "label": "Za graditelje →",
+        "rfcs": "RFC-ovi",
+        "sdks": "SDK-ovi",
+        "run": "Pokrenite vlastito ovlaštenje"
+      },
+      "states": {
+        "label": "Za države i institucije →",
+        "brief": "Pregled ugovora",
+        "architecture": "Arhitektura",
+        "channel": "Direktni kanal"
+      }
     },
     "scroll": "Pomaknite se ↓",
-    "vlabel": "Infrastruktura neutralna prema suverenitetu",
-    "actions": {
-      "run": "Pokrenite dokaz lokalno",
-      "protocol": "Pročitajte protokol",
-      "network": "Provjerite mrežu uživo"
-    }
+    "vlabel": "Infrastruktura neutralna prema suverenitetu"
   },
   "stakes": {
     "label": "Šta je u pitanju",

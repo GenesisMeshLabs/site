@@ -20,27 +20,35 @@
     "selectLanguage": "Chagua lugha"
   },
   "hero": {
-    "kicker": "Muhtasari wa Umma / Genesis Mesh / 2026",
-    "title": "Uaminifu ambao hakuna taifa",
-    "titleAccent": "linalopaswa kuusalimisha.",
-    "subtitle": "Genesis Mesh huwezesha mifumo inayojitawala kwa kujitegemea kutambuana, kuidhinishana, kubatilishana na kukaguana bila kuachilia mamlaka yake huru.",
-    "meta": {
-      "verify": "Thibitisha",
-      "verifyDesc": "nani anayeshikilia mamlaka",
-      "limit": "Weka mipaka",
-      "limitDesc": "kile wanachoweza kufanya",
-      "revoke": "Batilisha",
-      "revokeDesc": "uaminifu unapovunjika",
-      "audit": "Kagua",
-      "auditDesc": "ili hakuna anayelazimika kukuamini kwa kauli yako tu"
+    "kicker": "Muhtasari wa Umma / 2026",
+    "title": "Mashine zinavuka mipaka.",
+    "titleAccent": "Mamlaka hayavuki.",
+    "intro": "Mawakala wa AI tayari wanafanya kazi kupitia mawingu, mashirika, na maeneo tofauti ya kisheria. Lakini mfumo mmoja huru unapokutana na mwingine, hakuna itifaki isiyoegemea upande wowote ya kujibu maswali matatu ya msingi:",
+    "questions": [
+      "Wewe ni nani?",
+      "Umeruhusiwa kufanya nini?",
+      "Ni nani anayeweza kubatilisha mamlaka hayo?"
+    ],
+    "statement": "Genesis Mesh ni tabaka la mkataba kwa mashine.",
+    "body": "Mamlaka huru zinaweza kutambua utambulisho, kukabidhi uwezo, na kubatilisha uaminifu kuvuka mipaka ya kimashirika na kitaifa, bila kuachana na msingi wao wa uaminifu.",
+    "notLine": "Hakuna mamlaka kuu. Hakuna mtawala mshirika. Hakuna wingu la lazima.",
+    "closing": "Uaminifu ambao hakuna taifa linalopaswa kuachia.",
+    "audiences": {
+      "builders": {
+        "label": "Kwa waundaji →",
+        "rfcs": "RFC",
+        "sdks": "SDK",
+        "run": "Endesha mamlaka yako mwenyewe"
+      },
+      "states": {
+        "label": "Kwa mataifa na taasisi →",
+        "brief": "Muhtasari wa mkataba",
+        "architecture": "Usanifu",
+        "channel": "Njia ya moja kwa moja"
+      }
     },
     "scroll": "Sogeza ↓",
-    "vlabel": "Miundombinu Isiyoegemea Upande Wowote Kuhusu Uhuru wa Kujitawala",
-    "actions": {
-      "run": "Endesha uthibitisho ndani ya mfumo wako",
-      "protocol": "Soma itifaki",
-      "network": "Thibitisha mtandao hai"
-    }
+    "vlabel": "Miundombinu Isiyoegemea Upande Wowote Kuhusu Uhuru wa Kujitawala"
   },
   "stakes": {
     "label": "Kilicho Hatarini",

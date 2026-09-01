@@ -20,27 +20,35 @@
     "selectLanguage": "Izberite jezik"
   },
   "hero": {
-    "kicker": "Javni povzetek / Genesis Mesh / 2026",
-    "title": "Zaupanje, ki se mu nobeni državi",
-    "titleAccent": "ni treba odreči.",
-    "subtitle": "Genesis Mesh neodvisno upravljanim sistemom omogoča, da se medsebojno priznavajo, pooblaščajo, preklicujejo zaupanje in izvajajo revizije, ne da bi se odpovedali svoji suverenosti.",
-    "meta": {
-      "verify": "Preverite",
-      "verifyDesc": "kdo ima pristojnost",
-      "limit": "Omejite",
-      "limitDesc": "kaj lahko stori",
-      "revoke": "Prekličite",
-      "revokeDesc": "ko se zaupanje poruši",
-      "audit": "Revidirajte",
-      "auditDesc": "da nikomur ni treba verjeti na besedo"
+    "kicker": "Javni povzetek / 2026",
+    "title": "Stroji prečkajo meje.",
+    "titleAccent": "Pristojnost ne.",
+    "intro": "UI agenti že delujejo prek oblakov, organizacij in jurisdikcij. Toda ko en suveren sistem naleti na drugega, ni nevtralnega protokola za odgovor na tri temeljna vprašanja:",
+    "questions": [
+      "Kdo ste?",
+      "Kaj smete storiti?",
+      "Kdo lahko to pristojnost prekliče?"
+    ],
+    "statement": "Genesis Mesh je pogodbena plast za stroje.",
+    "body": "Neodvisni organi lahko priznavajo identitete, delegirajo pristojnosti in prekličejo zaupanje prek organizacijskih in nacionalnih meja, ne da bi se odpovedali lastnemu korenu zaupanja.",
+    "notLine": "Brez centralnega organa. Brez skupnega suverena. Brez obveznega oblaka.",
+    "closing": "Zaupanje, ki se mu nobeni državi ni treba odpovedati.",
+    "audiences": {
+      "builders": {
+        "label": "Za razvijalce →",
+        "rfcs": "RFC-ji",
+        "sdks": "SDK-ji",
+        "run": "Upravljajte lastni organ"
+      },
+      "states": {
+        "label": "Za države in institucije →",
+        "brief": "Povzetek pogodbe",
+        "architecture": "Arhitektura",
+        "channel": "Neposredni kanal"
+      }
     },
     "scroll": "Pomaknite se ↓",
-    "vlabel": "Infrastruktura, nevtralna do suverenosti",
-    "actions": {
-      "run": "Zaženi dokaz lokalno",
-      "protocol": "Preberi protokol",
-      "network": "Preveri živo omrežje"
-    }
+    "vlabel": "Infrastruktura, nevtralna do suverenosti"
   },
   "stakes": {
     "label": "Kaj je na kocki",

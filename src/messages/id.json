@@ -20,27 +20,35 @@
     "selectLanguage": "Pilih bahasa"
   },
   "hero": {
-    "kicker": "Ringkasan Publik / Genesis Mesh / 2026",
-    "title": "Kepercayaan yang tak perlu",
-    "titleAccent": "diserahkan bangsa mana pun.",
-    "subtitle": "Genesis Mesh memungkinkan sistem yang dikelola secara independen untuk saling mengakui, mengotorisasi, mencabut, dan mengaudit tanpa melepaskan kedaulatan.",
-    "meta": {
-      "verify": "Verifikasi",
-      "verifyDesc": "siapa pemegang wewenang",
-      "limit": "Batasi",
-      "limitDesc": "apa yang boleh mereka lakukan",
-      "revoke": "Cabut",
-      "revokeDesc": "saat kepercayaan runtuh",
-      "audit": "Audit",
-      "auditDesc": "agar tak seorang pun harus percaya begitu saja"
+    "kicker": "Ringkasan Publik / 2026",
+    "title": "Mesin melintasi batas.",
+    "titleAccent": "Wewenang tidak melintasi.",
+    "intro": "Agen AI sudah bertindak lintas awan, organisasi, dan yurisdiksi. Namun ketika satu sistem berdaulat bertemu dengan yang lain, tidak ada protokol netral untuk menjawab tiga pertanyaan mendasar:",
+    "questions": [
+      "Siapa Anda?",
+      "Apa yang boleh Anda lakukan?",
+      "Siapa yang bisa mencabut wewenang itu?"
+    ],
+    "statement": "Genesis Mesh adalah lapisan perjanjian untuk mesin.",
+    "body": "Otoritas independen dapat mengakui identitas, mendelegasikan kapabilitas, dan mencabut kepercayaan lintas batas organisasi dan negara, tanpa harus melepaskan akar kepercayaan mereka sendiri.",
+    "notLine": "Tidak ada otoritas pusat. Tidak ada pemegang kedaulatan bersama. Tidak ada awan wajib.",
+    "closing": "Kepercayaan yang tidak perlu dilepaskan oleh negara mana pun.",
+    "audiences": {
+      "builders": {
+        "label": "Untuk pembangun →",
+        "rfcs": "RFC",
+        "sdks": "SDK",
+        "run": "Jalankan otoritas Anda sendiri"
+      },
+      "states": {
+        "label": "Untuk negara & institusi →",
+        "brief": "Ringkasan perjanjian",
+        "architecture": "Arsitektur",
+        "channel": "Kanal langsung"
+      }
     },
     "scroll": "Gulir ↓",
-    "vlabel": "Infrastruktur netral terhadap kedaulatan",
-    "actions": {
-      "run": "Jalankan bukti secara lokal",
-      "protocol": "Baca protokol",
-      "network": "Verifikasi jaringan aktif"
-    }
+    "vlabel": "Infrastruktur netral terhadap kedaulatan"
   },
   "stakes": {
     "label": "Yang Dipertaruhkan",

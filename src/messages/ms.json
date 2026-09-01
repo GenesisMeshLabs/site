@@ -20,27 +20,35 @@
     "selectLanguage": "Pilih bahasa"
   },
   "hero": {
-    "kicker": "Taklimat Awam / Genesis Mesh / 2026",
-    "title": "Kepercayaan yang tidak perlu",
-    "titleAccent": "diserahkan oleh mana-mana negara.",
-    "subtitle": "Genesis Mesh membolehkan sistem yang ditadbir secara bebas saling mengiktiraf, memberi kuasa, membatalkan dan mengaudit tanpa melepaskan kedaulatan masing-masing.",
-    "meta": {
-      "verify": "Sahkan",
-      "verifyDesc": "siapa yang memegang kuasa sah",
-      "limit": "Hadkan",
-      "limitDesc": "perkara yang boleh mereka lakukan",
-      "revoke": "Tarik Balik",
-      "revokeDesc": "apabila kepercayaan terjejas",
-      "audit": "Audit",
-      "auditDesc": "supaya tiada sesiapa sekadar bergantung pada kata-kata anda"
+    "kicker": "Taklimat Awam / 2026",
+    "title": "Mesin melintasi sempadan.",
+    "titleAccent": "Kuasa sah tidak melintasinya.",
+    "intro": "Ejen AI sudah bertindak merentasi awan, organisasi dan bidang kuasa. Tetapi apabila satu sistem berdaulat bertembung dengan satu lagi, tiada protokol neutral untuk menjawab tiga soalan asas:",
+    "questions": [
+      "Siapakah anda?",
+      "Apakah yang anda dibenarkan lakukan?",
+      "Siapakah yang boleh menarik balik kuasa sah itu?"
+    ],
+    "statement": "Genesis Mesh ialah lapisan perjanjian untuk mesin.",
+    "body": "Pihak berkuasa yang bebas boleh mengiktiraf identiti, mendelegasikan keupayaan dan menarik balik kepercayaan merentasi sempadan organisasi dan negara, tanpa perlu menyerahkan akar kepercayaan mereka sendiri.",
+    "notLine": "Tiada kuasa pusat. Tiada daulat yang dikongsi. Tiada awan yang diwajibkan.",
+    "closing": "Kepercayaan yang tidak perlu diserahkan oleh mana-mana negara.",
+    "audiences": {
+      "builders": {
+        "label": "Untuk pembangun →",
+        "rfcs": "RFC",
+        "sdks": "SDK",
+        "run": "Jalankan pihak berkuasa anda sendiri"
+      },
+      "states": {
+        "label": "Untuk negara & institusi →",
+        "brief": "Ringkasan perjanjian",
+        "architecture": "Senibina",
+        "channel": "Saluran langsung"
+      }
     },
     "scroll": "Tatal ↓",
-    "vlabel": "Infrastruktur Neutral Kedaulatan",
-    "actions": {
-      "run": "Jalankan bukti secara setempat",
-      "protocol": "Baca protokol",
-      "network": "Sahkan rangkaian langsung"
-    }
+    "vlabel": "Infrastruktur Neutral Kedaulatan"
   },
   "stakes": {
     "label": "Taruhannya",

@@ -20,27 +20,31 @@
     "selectLanguage": "Seleziona lingua"
   },
   "hero": {
-    "kicker": "Nota Pubblica / Genesis Mesh / 2026",
-    "title": "Fiducia che nessuna nazione",
-    "titleAccent": "deve cedere.",
-    "subtitle": "Genesis Mesh consente a sistemi governati in modo indipendente di riconoscersi, autorizzarsi, revocare il materiale fiduciario e sottoporsi reciprocamente ad audit senza rinunciare alla propria sovranità.",
-    "meta": {
-      "verify": "Verificare",
-      "verifyDesc": "chi detiene l'autorità",
-      "limit": "Limitare",
-      "limitDesc": "cosa può fare",
-      "revoke": "Revocare",
-      "revokeDesc": "quando la fiducia si rompe",
-      "audit": "Verificare i registri",
-      "auditDesc": "perché nessuno debba crederti sulla parola"
+    "kicker": "Nota Pubblica / 2026",
+    "title": "Le macchine attraversano i confini.",
+    "titleAccent": "L'autorità non li attraversa.",
+    "intro": "Gli agenti IA già agiscono attraverso cloud, organizzazioni e giurisdizioni. Ma quando un sistema sovrano ne incontra un altro, non esiste un protocollo neutrale in grado di rispondere a tre domande fondamentali:",
+    "questions": ["Chi sei?", "Cosa hai il permesso di fare?", "Chi può revocare quell'autorità?"],
+    "statement": "Genesis Mesh è uno strato di trattato per le macchine.",
+    "body": "Autorità indipendenti possono riconoscere identità, delegare capacità e revocare la fiducia oltre i confini organizzativi e nazionali, senza rinunciare alla propria radice di attendibilità.",
+    "notLine": "Nessuna autorità centrale. Nessun sovrano condiviso. Nessun cloud obbligatorio.",
+    "closing": "Una fiducia che nessuna nazione deve cedere.",
+    "audiences": {
+      "builders": {
+        "label": "Per i costruttori →",
+        "rfcs": "RFC",
+        "sdks": "SDK",
+        "run": "Gestisci la tua autorità"
+      },
+      "states": {
+        "label": "Per Stati e istituzioni →",
+        "brief": "Resoconto del trattato",
+        "architecture": "Architettura",
+        "channel": "Canale diretto"
+      }
     },
     "scroll": "Scorri ↓",
-    "vlabel": "Infrastruttura neutrale rispetto alla sovranità",
-    "actions": {
-      "run": "Esegui la prova in locale",
-      "protocol": "Leggi il protocollo",
-      "network": "Verifica la rete attiva"
-    }
+    "vlabel": "Infrastruttura neutrale rispetto alla sovranità"
   },
   "stakes": {
     "label": "La Posta in Gioco",
