@@ -12,7 +12,9 @@ type LiveProofData = {
   revocations?: number | null;
   checkedAt: string;
   lastUpdatedAt?: string | null;
-  freshness?: string;
+  revocationFeed?: {
+    freshness: string;
+  };
   trustCycle?: {
     status: 'verified' | 'not_observed';
     completedAt: string | null;

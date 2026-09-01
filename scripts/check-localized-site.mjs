@@ -131,10 +131,10 @@ const availableKeys = [
   'activeTreaties',
   'available',
   'checkedAt',
-  'freshness',
   'health',
   'lastUpdatedAt',
   'recognitionEdges',
+  'revocationFeed',
   'revocations',
   'sovereignDomains',
   'trustCycle',
@@ -145,6 +145,14 @@ if (JSON.stringify(liveKeys) !== JSON.stringify(expectedLiveKeys)) {
   failures.push(`live proof exposes unexpected fields: ${liveKeys.join(', ')}`);
 }
 if (liveProof.available) {
+  if (Object.hasOwn(liveProof, 'freshness')) {
+    failures.push('live proof exposes an ambiguous top-level freshness field');
+  }
+  const revocationFeedKeys = Object.keys(liveProof.revocationFeed || {}).sort();
+  const expectedRevocationFeedKeys = ['freshness'];
+  if (JSON.stringify(revocationFeedKeys) !== JSON.stringify(expectedRevocationFeedKeys)) {
+    failures.push(`live proof revocation feed exposes unexpected fields: ${revocationFeedKeys.join(', ')}`);
+  }
   const trustCycleKeys = Object.keys(liveProof.trustCycle || {}).sort();
   const expectedTrustCycleKeys = ['completedAt', 'freshness', 'status'].sort();
   if (JSON.stringify(trustCycleKeys) !== JSON.stringify(expectedTrustCycleKeys)) {

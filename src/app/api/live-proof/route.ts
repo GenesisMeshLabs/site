@@ -68,7 +68,9 @@ export async function GET() {
         revocations: asNumber(connectome.revoked_trust_material_count),
         checkedAt: new Date().toISOString(),
         lastUpdatedAt: latestChange,
-        freshness: asString(feeds.freshness) ?? 'unknown',
+        revocationFeed: {
+          freshness: asString(feeds.freshness) ?? 'unknown',
+        },
         trustCycle: {
           status: asString(trustCycle.status) === 'verified' ? 'verified' : 'not_observed',
           completedAt: asString(trustCycle.completed_at),
