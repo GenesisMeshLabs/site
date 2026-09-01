@@ -20,27 +20,35 @@
     "selectLanguage": "Valitse kieli"
   },
   "hero": {
-    "kicker": "Julkinen katsaus / Genesis Mesh / 2026",
-    "title": "Avaa mallit.",
-    "titleAccent": "Hallitse valtuutusta.",
-    "subtitle": "Mallit ovat avoimia. Agentit ovat autonomisia. Mutta kenellä on avaimet, kun ne ylittävät suvereenin rajan? Ihmisen identiteetti rakennettiin nappia painaville ihmisille, ja se murtuu hetkellä, jolloin autonomiset agentit neuvottelevat ja toimivat rajojen yli. Genesis Mesh on koneiden sopimuskerros: valtuutus varmentaa, rajata, peruuttaa ja auditoida mikä tahansa järjestelmä, missä tahansa.",
-    "meta": {
-      "verify": "Varmenna",
-      "verifyDesc": "kenellä on määräysvalta",
-      "limit": "Rajaa",
-      "limitDesc": "mitä ne voivat tehdä",
-      "revoke": "Peruuta",
-      "revokeDesc": "kun luottamus rikkoutuu",
-      "audit": "Auditoi",
-      "auditDesc": "jotta kenenkään sanaan ei tarvitse luottaa"
+    "kicker": "Julkinen katsaus / 2026",
+    "title": "Koneet ylittävät rajoja.",
+    "titleAccent": "Valtuutus ei.",
+    "intro": "Tekoälyagentit toimivat jo pilvien, organisaatioiden ja lainkäyttöalueiden yli. Mutta kun yksi suvereeni järjestelmä kohtaa toisen, ei ole olemassa puolueetonta protokollaa, joka vastaisi kolmeen peruskysymykseen:",
+    "questions": [
+      "Kuka olet?",
+      "Mitä sinulla on lupa tehdä?",
+      "Kuka voi peruuttaa sen valtuutuksen?"
+    ],
+    "statement": "Genesis Mesh on koneiden sopimuskerros.",
+    "body": "Itsenäiset toimialueet voivat tunnustaa identiteettejä, delegoida kyvykkyyksiä ja peruuttaa luottamuksen organisaatio- ja valtiorajojen yli, luopumatta omasta luottamusjuurestaan.",
+    "notLine": "Ei keskitettyä valtuutusta. Ei jaettua suvereenia. Ei pakollista pilveä.",
+    "closing": "Luottamus, josta yhdenkään valtion ei tarvitse luopua.",
+    "audiences": {
+      "builders": {
+        "label": "Kehittäjille →",
+        "rfcs": "RFC:t",
+        "sdks": "SDK:t",
+        "run": "Käynnistä oma valtuutuksesi"
+      },
+      "states": {
+        "label": "Valtioille ja instituutioille →",
+        "brief": "Sopimuskatsaus",
+        "architecture": "Arkkitehtuuri",
+        "channel": "Suora kanava"
+      }
     },
     "scroll": "Vieritä ↓",
-    "vlabel": "Suvereniteettineutraali infrastruktuuri",
-    "actions": {
-      "run": "Tutustu SDK:hon",
-      "protocol": "Lue sopimuskatsaus",
-      "network": "Todenna reaaliaikainen verkko"
-    }
+    "vlabel": "Suvereniteettineutraali infrastruktuuri"
   },
   "stakes": {
     "label": "Panokset",

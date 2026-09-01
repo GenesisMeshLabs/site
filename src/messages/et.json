@@ -20,27 +20,35 @@
     "selectLanguage": "Vali keel"
   },
   "hero": {
-    "kicker": "Avalik ülevaade / Genesis Mesh / 2026",
-    "title": "Avage mudelid.",
-    "titleAccent": "Kontrollige volitust.",
-    "subtitle": "Mudelid on avatud. Agendid on autonoomsed. Aga kellel on võtmed, kui nad ületavad suveräänse piiri? Inimese identiteet on loodud nuppudele klõpsavatele inimestele ning see variseb kokku hetkel, mil autonoomsed agendid üle piiride läbirääkimisi peavad ja tegutsevad. Genesis Mesh on masinate lepingukiht: volitus kontrollida, piirata, tühistada ja auditeerida mistahes süsteemi, ükskõik kus.",
-    "meta": {
-      "verify": "Kontrolli",
-      "verifyDesc": "kellel on volitus",
-      "limit": "Piira",
-      "limitDesc": "mida nad teha võivad",
-      "revoke": "Tühista",
-      "revokeDesc": "kui usaldus puruneb",
-      "audit": "Auditeeri",
-      "auditDesc": "et keegi ei peaks uskuma pelgalt teie sõnu"
+    "kicker": "Avalik ülevaade / 2026",
+    "title": "Masinad ületavad piire.",
+    "titleAccent": "Volitus ei ületa.",
+    "intro": "Tehisintellekti agendid tegutsevad juba pilvede, organisatsioonide ja jurisdiktsioonide vahel. Kuid kui üks suveräänne süsteem puutub kokku teisega, puudub neutraalne protokoll kolmele põhiküsimusele vastamiseks:",
+    "questions": [
+      "Kes te olete?",
+      "Mida teil on lubatud teha?",
+      "Kes saab selle volituse tühistada?"
+    ],
+    "statement": "Genesis Mesh on masinate lepingukiht.",
+    "body": "Sõltumatud domeenid saavad tunnustada identiteete, delegeerida volitusi ja tühistada usaldust üle organisatsiooniliste ja riigipiiride, loobumata seejuures oma usaldusjuurest.",
+    "notLine": "Ei mingit keskset volitust. Ei mingit jagatud suveräänsust. Ei mingit kohustuslikku pilve.",
+    "closing": "Usaldus, millest ükski riik ei pea loobuma.",
+    "audiences": {
+      "builders": {
+        "label": "Arendajatele →",
+        "rfcs": "RFC-d",
+        "sdks": "SDK-d",
+        "run": "Käivitage oma volitus"
+      },
+      "states": {
+        "label": "Riikidele ja institutsioonidele →",
+        "brief": "Lepingu ülevaade",
+        "architecture": "Arhitektuur",
+        "channel": "Otsekanal"
+      }
     },
     "scroll": "Keri ↓",
-    "vlabel": "Suveräänsuse suhtes neutraalne taristu",
-    "actions": {
-      "run": "Uuri SDK-d",
-      "protocol": "Loe lepinguülevaadet",
-      "network": "Kontrolli reaalajavõrku"
-    }
+    "vlabel": "Suveräänsuse suhtes neutraalne taristu"
   },
   "stakes": {
     "label": "Kaalul olev",

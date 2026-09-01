@@ -20,27 +20,35 @@
     "selectLanguage": "Sprache auswählen"
   },
   "hero": {
-    "kicker": "Öffentliches Briefing / Genesis Mesh / 2026",
-    "title": "Modelle öffnen.",
-    "titleAccent": "Autorität kontrollieren.",
-    "subtitle": "Die Modelle sind offen. Die Agenten sind autonom. Doch wer hält die Schlüssel, wenn sie eine souveräne Grenze überschreiten? Menschliche Identität wurde für Menschen gebaut, die auf Schaltflächen klicken, und sie bricht in dem Moment zusammen, in dem autonome Agenten über Grenzen hinweg verhandeln und handeln. Genesis Mesh ist die Vertragsschicht für Maschinen: die Autorität, jedes System, überall, zu prüfen, zu begrenzen, zu widerrufen und zu auditieren.",
-    "meta": {
-      "verify": "Prüfen",
-      "verifyDesc": "wer Autorität hält",
-      "limit": "Begrenzen",
-      "limitDesc": "was sie tun dürfen",
-      "revoke": "Widerrufen",
-      "revokeDesc": "wenn Vertrauen bricht",
-      "audit": "Auditieren",
-      "auditDesc": "damit niemand Ihnen glauben muss"
+    "kicker": "Öffentliches Briefing / 2026",
+    "title": "Maschinen überschreiten Grenzen.",
+    "titleAccent": "Autorität nicht.",
+    "intro": "KI-Agenten handeln bereits über Clouds, Organisationen und Jurisdiktionen hinweg. Doch wenn ein souveränes System auf ein anderes trifft, gibt es kein neutrales Protokoll, um drei grundlegende Fragen zu beantworten:",
+    "questions": [
+      "Wer sind Sie?",
+      "Was dürfen Sie tun?",
+      "Wer kann diese Autorität widerrufen?"
+    ],
+    "statement": "Genesis Mesh ist die Vertragsschicht für Maschinen.",
+    "body": "Unabhängige Autoritäten können Identitäten anerkennen, Capabilities delegieren und Vertrauen über organisatorische und nationale Grenzen hinweg widerrufen, ohne die eigene Vertrauenswurzel aufzugeben.",
+    "notLine": "Keine zentrale Autorität. Kein gemeinsamer Souverän. Keine erforderliche Cloud.",
+    "closing": "Vertrauen, das kein Staat aufgeben muss.",
+    "audiences": {
+      "builders": {
+        "label": "Für Entwickler →",
+        "rfcs": "RFCs",
+        "sdks": "SDKs",
+        "run": "Betreiben Sie Ihre eigene Autorität"
+      },
+      "states": {
+        "label": "Für Staaten und Institutionen →",
+        "brief": "Vertragsbriefing",
+        "architecture": "Architektur",
+        "channel": "Direkter Kanal"
+      }
     },
     "scroll": "Scrollen ↓",
-    "vlabel": "Souveränitätsneutrale Infrastruktur",
-    "actions": {
-      "run": "SDK entdecken",
-      "protocol": "Vertragsbriefing lesen",
-      "network": "Live-Netzwerk verifizieren"
-    }
+    "vlabel": "Souveränitätsneutrale Infrastruktur"
   },
   "stakes": {
     "label": "Worum es geht",
