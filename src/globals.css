@@ -1934,7 +1934,18 @@ html[dir='rtl'] .not-line {
   nav {
     padding: 14px 20px;
   }
+
   .lang-panel {
-    width: calc(100vw - 40px);
+    position: fixed;
+    top: calc(68px + env(safe-area-inset-top, 0px));
+    inset-inline: 16px;
+    width: auto;
+    max-width: none;
+    max-height: calc(100dvh - 84px - env(safe-area-inset-bottom, 0px));
+  }
+
+  .lang-menu {
+    max-height: 40vh;
+    max-height: min(40dvh, 320px);
   }
 }

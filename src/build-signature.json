@@ -1,7 +1,7 @@
 {
   "path": "/.well-known/genesis-mesh/signature.txt",
   "signed": false,
-  "digest": "b9e4480f46a06db29cc3bb9caf50c0eef4598d64fcf22f728193a7f4945737d9",
-  "builtAt": "2026-08-31T23:58:44.463Z",
+  "digest": "c92efcef70f1521e177b722d7c59724f54ff3046e40669d61334fac588580bd0",
+  "builtAt": "2026-09-01T00:05:07.503Z",
   "algorithm": "ed25519"
 }
