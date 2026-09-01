@@ -20,27 +20,31 @@
     "selectLanguage": "選擇語言"
   },
   "hero": {
-    "kicker": "公開簡報 / Genesis Mesh / 2026",
-    "title": "開放模型。",
-    "titleAccent": "掌控權限。",
-    "subtitle": "模型是開放的。代理是自主的。但當它們跨越主權邊界時，鑰匙握在誰手中？人類身分系統是為按按鈕的人而建立的，一旦自主代理跨越邊界進行協商與行動，它便會崩潰。Genesis Mesh 是機器的條約層：驗證、限制、撤銷與稽核任何系統、在任何地方的權限。",
-    "meta": {
-      "verify": "驗證",
-      "verifyDesc": "誰掌握授權權",
-      "limit": "限制",
-      "limitDesc": "他們能做什麼",
-      "revoke": "撤銷",
-      "revokeDesc": "信任破裂時",
-      "audit": "稽核",
-      "auditDesc": "無須採信任何人的片面之詞"
+    "kicker": "公開簡報 / 2026",
+    "title": "機器跨越邊界。",
+    "titleAccent": "權限不會。",
+    "intro": "AI 代理程式早已跨雲端、組織與司法管轄區行動。但當一個主權體系與另一個相遇時，卻沒有中立的協定能夠回答三個基本問題：",
+    "questions": ["你是誰？", "你被允許做什麼？", "誰能撤銷那項權限？"],
+    "statement": "Genesis Mesh 是機器之間的條約層。",
+    "body": "獨立的主權體能夠承認身分、委派能力，並跨越組織與國家邊界撤銷信任，同時無須交出自身的信任根。",
+    "notLine": "沒有中央權限。沒有共享主權體。沒有強制雲端。",
+    "closing": "沒有任何國家必須放棄的信任。",
+    "audiences": {
+      "builders": {
+        "label": "面向建置者 →",
+        "rfcs": "RFC",
+        "sdks": "SDK",
+        "run": "建置您自己的權限"
+      },
+      "states": {
+        "label": "面向國家與機構 →",
+        "brief": "條約簡報",
+        "architecture": "架構",
+        "channel": "直接聯絡管道"
+      }
     },
     "scroll": "向下捲動 ↓",
-    "vlabel": "主權中立基礎設施",
-    "actions": {
-      "run": "探索 SDK",
-      "protocol": "閱讀條約簡報",
-      "network": "驗證即時網路"
-    }
+    "vlabel": "主權中立基礎設施"
   },
   "stakes": {
     "label": "攸關存亡",

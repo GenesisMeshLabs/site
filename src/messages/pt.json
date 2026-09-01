@@ -20,27 +20,35 @@
     "selectLanguage": "Selecionar idioma"
   },
   "hero": {
-    "kicker": "Informe Público / Genesis Mesh / 2026",
-    "title": "Abra os modelos.",
-    "titleAccent": "Controle a autoridade.",
-    "subtitle": "Os modelos são abertos. Os agentes são autónomos. Mas quem detém as chaves quando cruzam uma fronteira soberana? A identidade humana foi construída para pessoas que clicam em botões, e desmorona no instante em que agentes autónomos negoceiam e agem além-fronteiras. O Genesis Mesh é a camada de tratado para as máquinas: a autoridade para verificar, limitar, revogar e auditar qualquer sistema, em qualquer lugar.",
-    "meta": {
-      "verify": "Verificar",
-      "verifyDesc": "quem detém a autoridade",
-      "limit": "Limitar",
-      "limitDesc": "o que podem fazer",
-      "revoke": "Revogar",
-      "revokeDesc": "quando a confiança se rompe",
-      "audit": "Auditar",
-      "auditDesc": "para que ninguém precise acreditar na sua palavra"
+    "kicker": "Informe Público / 2026",
+    "title": "As máquinas atravessam fronteiras.",
+    "titleAccent": "A autoridade não.",
+    "intro": "Os agentes de IA já atuam entre nuvens, organizações e jurisdições. Mas quando um sistema soberano encontra outro, não existe um protocolo neutro para responder a três perguntas básicas:",
+    "questions": [
+      "Quem é você?",
+      "O que está autorizado a fazer?",
+      "Quem pode revogar essa autoridade?"
+    ],
+    "statement": "A Genesis Mesh é uma camada de tratado para máquinas.",
+    "body": "Autoridades independentes podem reconhecer identidades, delegar capacidades e revogar confiança além de fronteiras organizacionais e nacionais, sem renunciarem à sua própria raiz de confiança.",
+    "notLine": "Sem autoridade central. Sem soberano partilhado. Sem nuvem obrigatória.",
+    "closing": "Confiança que nenhuma nação tem de ceder.",
+    "audiences": {
+      "builders": {
+        "label": "Para construtores →",
+        "rfcs": "RFCs",
+        "sdks": "SDKs",
+        "run": "Opere a sua própria autoridade"
+      },
+      "states": {
+        "label": "Para Estados e instituições →",
+        "brief": "Resumo do tratado",
+        "architecture": "Arquitetura",
+        "channel": "Canal direto"
+      }
     },
     "scroll": "Rolar ↓",
-    "vlabel": "Infraestrutura neutra em soberania",
-    "actions": {
-      "run": "Explore o SDK",
-      "protocol": "Leia o resumo do tratado",
-      "network": "Verificar a rede em tempo real"
-    }
+    "vlabel": "Infraestrutura neutra em soberania"
   },
   "stakes": {
     "label": "O que está em jogo",

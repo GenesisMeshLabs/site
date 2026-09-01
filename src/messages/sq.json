@@ -20,27 +20,35 @@
     "selectLanguage": "Zgjidh gjuhën"
   },
   "hero": {
-    "kicker": "Përmbledhje publike / Genesis Mesh / 2026",
-    "title": "Hapni modelet.",
-    "titleAccent": "Kontrolloni autoritetin.",
-    "subtitle": "Modelet janë të hapura. Agjentët janë autonomë. Por kush i mban çelësat kur kalojnë një kufi sovran? Identiteti njerëzor u ndërtua për njerëz që klikojnë butona, dhe shembet në çastin kur agjentë autonomë negociojnë dhe veprojnë përtej kufijve. Genesis Mesh është shtresa e traktatit për makinat: autoriteti për të verifikuar, kufizuar, revokuar dhe audituar çdo sistem, kudo.",
-    "meta": {
-      "verify": "Verifiko",
-      "verifyDesc": "kush e zotëron autoritetin",
-      "limit": "Kufizo",
-      "limitDesc": "çfarë mund të bëjë",
-      "revoke": "Revoko",
-      "revokeDesc": "kur besimi prishet",
-      "audit": "Audito",
-      "auditDesc": "që askush të mos mbështetet vetëm te fjala juaj"
+    "kicker": "Përmbledhje publike / 2026",
+    "title": "Makinat kalojnë kufij.",
+    "titleAccent": "Autoriteti jo.",
+    "intro": "Agjentët e IA-së veprojnë tashmë nëpër re (cloud), organizata dhe juridiksione. Por kur një sistem sovran ndeshet me një tjetër, nuk ka protokoll neutral për t'u përgjigjur tri pyetjeve themelore:",
+    "questions": [
+      "Kush je?",
+      "Çfarë të lejohet të bësh?",
+      "Kush mund ta revokojë atë autoritet?"
+    ],
+    "statement": "Genesis Mesh është shtresa e traktatit për makinat.",
+    "body": "Autoritetet e pavarura mund të njohin identitete, të delegojnë kompetenca dhe të revokojnë besimin përtej kufijve organizativë dhe kombëtarë, pa hequr dorë nga rrënja e tyre e besimit.",
+    "notLine": "Asnjë autoritet qendror. Asnjë sovran i përbashkët. Asnjë re e detyrueshme.",
+    "closing": "Besim që asnjë komb nuk duhet ta dorëzojë.",
+    "audiences": {
+      "builders": {
+        "label": "Për ndërtuesit →",
+        "rfcs": "RFC-të",
+        "sdks": "SDK-të",
+        "run": "Drejtoni autoritetin tuaj"
+      },
+      "states": {
+        "label": "Për shtetet dhe institucionet →",
+        "brief": "Përmbledhja e traktatit",
+        "architecture": "Arkitektura",
+        "channel": "Kanal i drejtpërdrejtë"
+      }
     },
     "scroll": "Lëviz poshtë ↓",
-    "vlabel": "Infrastrukturë neutrale ndaj sovranitetit",
-    "actions": {
-      "run": "Eksploroni SDK-në",
-      "protocol": "Lexoni përmbledhjen e traktatit",
-      "network": "Verifikoni rrjetin drejtpërdrejt"
-    }
+    "vlabel": "Infrastrukturë neutrale ndaj sovranitetit"
   },
   "stakes": {
     "label": "Çfarë është në lojë",

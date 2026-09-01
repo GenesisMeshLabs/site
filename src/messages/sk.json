@@ -20,27 +20,35 @@
     "selectLanguage": "Vybrať jazyk"
   },
   "hero": {
-    "kicker": "Verejný prehľad / Genesis Mesh / 2026",
-    "title": "Otvorte modely.",
-    "titleAccent": "Ovládnite autoritu.",
-    "subtitle": "Modely sú otvorené. Agenti sú autonómni. Ale kto drží kľúče, keď prekročia suverénnu hranicu? Ľudská identita bola vytvorená pre ľudí klikajúcich na tlačidlá a rúca sa vo chvíli, keď autonómni agenti vyjednávajú a konajú naprieč hranicami. Genesis Mesh je zmluvná vrstva pre stroje: autorita overiť, obmedziť, odvolať a auditovať akýkoľvek systém, kdekoľvek.",
-    "meta": {
-      "verify": "Overiť",
-      "verifyDesc": "kto má autoritu",
-      "limit": "Obmedziť",
-      "limitDesc": "čo môže vykonávať",
-      "revoke": "Odvolať",
-      "revokeDesc": "keď sa dôvera naruší",
-      "audit": "Auditovať",
-      "auditDesc": "aby sa nikto nemusel spoliehať na vaše slovo"
+    "kicker": "Verejný prehľad / 2026",
+    "title": "Stroje prekračujú hranice.",
+    "titleAccent": "Autorita nie.",
+    "intro": "Agenti umelej inteligencie už dnes konajú naprieč cloudmi, organizáciami a jurisdikciami. No keď sa jeden suverénny systém stretne s druhým, neexistuje neutrálny protokol na zodpovedanie troch základných otázok:",
+    "questions": [
+      "Kto ste?",
+      "Čo smiete robiť?",
+      "Kto môže túto autoritu odvolať?"
+    ],
+    "statement": "Genesis Mesh je zmluvná vrstva pre stroje.",
+    "body": "Nezávislé autority môžu uznávať identity, delegovať oprávnenia a odvolávať dôveru naprieč organizačnými a národnými hranicami, bez toho, aby sa vzdali vlastného koreňa dôvery.",
+    "notLine": "Žiadna centrálna autorita. Žiadny spoločný suverén. Žiadny povinný cloud.",
+    "closing": "Dôvera, ktorej sa nemusí vzdať žiadny národ.",
+    "audiences": {
+      "builders": {
+        "label": "Pre vývojárov →",
+        "rfcs": "RFC",
+        "sdks": "SDK",
+        "run": "Prevádzkujte vlastnú autoritu"
+      },
+      "states": {
+        "label": "Pre štáty a inštitúcie →",
+        "brief": "Prehľad zmluvy",
+        "architecture": "Architektúra",
+        "channel": "Priamy kanál"
+      }
     },
     "scroll": "Posunúť ↓",
-    "vlabel": "Infraštruktúra neutrálna voči suverenite",
-    "actions": {
-      "run": "Preskúmajte SDK",
-      "protocol": "Prečítajte si prehľad zmluvy",
-      "network": "Overiť živú sieť"
-    }
+    "vlabel": "Infraštruktúra neutrálna voči suverenite"
   },
   "stakes": {
     "label": "Čo je v stávke",

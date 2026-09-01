@@ -20,27 +20,35 @@
     "selectLanguage": "Välj språk"
   },
   "hero": {
-    "kicker": "Offentlig genomgång / Genesis Mesh / 2026",
-    "title": "Öppna modellerna.",
-    "titleAccent": "Kontrollera behörigheten.",
-    "subtitle": "Modellerna är öppna. Agenterna är autonoma. Men vem har nycklarna när de korsar en suverän gräns? Mänsklig identitet byggdes för människor som klickar på knappar, och den kollapsar i det ögonblick autonoma agenter förhandlar och agerar över gränser. Genesis Mesh är avtalslagret för maskiner: behörigheten att verifiera, begränsa, återkalla och granska vilket system som helst, var som helst.",
-    "meta": {
-      "verify": "Verifiera",
-      "verifyDesc": "vem som har behörigheten",
-      "limit": "Begränsa",
-      "limitDesc": "vad de får göra",
-      "revoke": "Återkalla",
-      "revokeDesc": "när tilliten brister",
-      "audit": "Granska",
-      "auditDesc": "så att ingen behöver ta ditt ord på det"
+    "kicker": "Offentlig genomgång / 2026",
+    "title": "Maskiner korsar gränser.",
+    "titleAccent": "Auktoritet gör det inte.",
+    "intro": "AI-agenter agerar redan över moln, organisationer och jurisdiktioner. Men när ett suveränt system möter ett annat finns det inget neutralt protokoll som besvarar tre grundläggande frågor:",
+    "questions": [
+      "Vem är du?",
+      "Vad får du göra?",
+      "Vem kan återkalla den auktoriteten?"
+    ],
+    "statement": "Genesis Mesh är fördragslagret för maskiner.",
+    "body": "Oberoende myndigheter kan erkänna identiteter, delegera behörigheter och återkalla tillit över organisatoriska och nationella gränser, utan att ge upp sin egen tillitsrot.",
+    "notLine": "Ingen central auktoritet. Ingen delad suverän. Inget obligatoriskt moln.",
+    "closing": "Tillit som ingen nation behöver ge upp.",
+    "audiences": {
+      "builders": {
+        "label": "För byggare →",
+        "rfcs": "RFC:er",
+        "sdks": "SDK:er",
+        "run": "Driftsätt din egen auktoritet"
+      },
+      "states": {
+        "label": "För stater och institutioner →",
+        "brief": "Fördragssammanfattning",
+        "architecture": "Arkitektur",
+        "channel": "Direktkanal"
+      }
     },
     "scroll": "Skrolla ↓",
-    "vlabel": "Suveränitetsneutral infrastruktur",
-    "actions": {
-      "run": "Utforska SDK:t",
-      "protocol": "Läs avtalssammanfattningen",
-      "network": "Verifiera livenätverket"
-    }
+    "vlabel": "Suveränitetsneutral infrastruktur"
   },
   "stakes": {
     "label": "Vad Som Står På Spel",

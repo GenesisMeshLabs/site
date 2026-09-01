@@ -20,27 +20,31 @@
     "selectLanguage": "选择语言"
   },
   "hero": {
-    "kicker": "公开简报 / Genesis Mesh / 2026",
-    "title": "开放模型。",
-    "titleAccent": "掌控权限。",
-    "subtitle": "模型是开放的。智能体是自主的。但当它们跨越主权边界时，钥匙握在谁手中？人类身份系统是为点击按钮的人建立的，一旦自主智能体跨越边界进行协商与行动，它便会崩溃。Genesis Mesh 是机器的条约层：验证、限制、撤销和审计任何系统、在任何地方的权限。",
-    "meta": {
-      "verify": "验证",
-      "verifyDesc": "谁掌握权限",
-      "limit": "限制",
-      "limitDesc": "他们能做什么",
-      "revoke": "撤销",
-      "revokeDesc": "当信任破裂时",
-      "audit": "审计",
-      "auditDesc": "因此谁都不必只听信你的一面之词"
+    "kicker": "公开简报 / 2026",
+    "title": "机器跨越边界。",
+    "titleAccent": "权限不会。",
+    "intro": "AI 智能体已经跨云端、组织与司法管辖区行动。但当一个主权体系遇到另一个时，却没有中立的协议能够回答三个基本问题：",
+    "questions": ["你是谁？", "你被允许做什么？", "谁能撤销那项权限？"],
+    "statement": "Genesis Mesh 是机器的条约层。",
+    "body": "独立的主权体能够承认身份、委派能力，并跨越组织与国家边界撤销信任，同时无需交出自身的信任根。",
+    "notLine": "没有中央权限。没有共享主权。没有强制云。",
+    "closing": "没有任何国家必须放弃的信任。",
+    "audiences": {
+      "builders": {
+        "label": "面向构建者 →",
+        "rfcs": "RFC",
+        "sdks": "SDK",
+        "run": "构建您自己的权限"
+      },
+      "states": {
+        "label": "面向国家与机构 →",
+        "brief": "条约简报",
+        "architecture": "架构",
+        "channel": "直接渠道"
+      }
     },
     "scroll": "向下滚动 ↓",
-    "vlabel": "主权中立的基础设施",
-    "actions": {
-      "run": "探索 SDK",
-      "protocol": "阅读条约简报",
-      "network": "验证实时网络"
-    }
+    "vlabel": "主权中立的基础设施"
   },
   "stakes": {
     "label": "利害所在",
