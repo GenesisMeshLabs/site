@@ -21,9 +21,9 @@
   },
   "hero": {
     "kicker": "Warbixin Dadweyne / Genesis Mesh / 2026",
-    "title": "Kalsooni aanay qaranina",
-    "titleAccent": "qasbanayn inuu ka tanaasulo.",
-    "subtitle": "Genesis Mesh wuxuu u suurtageliyaa nidaamyo si madax-bannaan loo maamulo inay is aqoonsadaan, isu oggolaadaan, agabka kalsoonida kala noqdaan, isla markaana is hanti-dhawraan iyaga oo aan ka tanaasulin madax-bannaanidooda.",
+    "title": "Fur qaababka.",
+    "titleAccent": "Xakameyso awoodda.",
+    "subtitle": "Qaababku waa furan yihiin. Wakiiladu waa madax-bannaan yihiin. Laakiin yaa haysta furayaasha marka ay ka gudbaan xuduud madax-bannaan? Aqoonsiga bini'aadamku wuxuu loo dhisay dadka riixa badhamada, wuxuuna burburaa xilliga ay wakiilada madax-bannaani ka gudbaan xuduudaha oo ay wada xaajoodaan oo falaan. Genesis Mesh waa lakabka heshiiska mishiinnada: awoodda lagu xaqiijinayo, xaddidayo, laalaynayo, oo hanti-dhawrayo nidaam kasta, meel kasta.",
     "meta": {
       "verify": "Xaqiiji",
       "verifyDesc": "cidda awoodda haysa",
@@ -37,8 +37,8 @@
     "scroll": "Hoos u rog ↓",
     "vlabel": "Kaabayaal Dhexdhexaad ka ah Madax-bannaanida",
     "actions": {
-      "run": "Caddeynta maxalli ahaan u socodsii",
-      "protocol": "Akhri hab-maamuuska",
+      "run": "Sahamiso SDK-ga",
+      "protocol": "Akhri warqadda soo-koobidda heshiiska",
       "network": "Xaqiiji shabakadda tooska ah"
     }
   },

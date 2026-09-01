@@ -21,9 +21,9 @@
   },
   "hero": {
     "kicker": "Ommaviy ma’lumotnoma / Genesis Mesh / 2026",
-    "title": "Hech bir davlat voz kechishi",
-    "titleAccent": "shart bo‘lmagan ishonch.",
-    "subtitle": "Genesis Mesh mustaqil boshqariladigan tizimlarga o‘z suverenitetidan voz kechmasdan bir-birini tan olish, avtorizatsiya qilish, ishonch materialini bekor qilish va auditdan o‘tkazish imkonini beradi.",
+    "title": "Modellarni oching.",
+    "titleAccent": "Vakolatni nazorat qiling.",
+    "subtitle": "Modellar ochiq. Agentlar mustaqil. Ammo ular suveren chegaradan o'tganda kalitlarni kim ushlab turadi? Inson shaxsiyati tugmalarni bosadigan odamlar uchun qurilgan va mustaqil agentlar chegaralar bo'ylab muzokara olib borib, harakat qilgan zahoti u qulaydi. Genesis Mesh mashinalar uchun shartnoma qatlamidir: istalgan tizimni, istalgan joyda tekshirish, cheklash, bekor qilish va auditdan o'tkazish vakolati.",
     "meta": {
       "verify": "Tekshirish",
       "verifyDesc": "vakolat kimga tegishli ekanini",
@@ -37,8 +37,8 @@
     "scroll": "Pastga ↓",
     "vlabel": "Suverenitetga nisbatan betaraf infratuzilma",
     "actions": {
-      "run": "Isbotni lokal ishga tushirish",
-      "protocol": "Protokolni o‘qish",
+      "run": "SDK'ni o'rganing",
+      "protocol": "Shartnoma xulosasini o'qing",
       "network": "Jonli tarmoqni tekshirish"
     }
   },

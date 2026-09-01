@@ -21,9 +21,9 @@
   },
   "hero": {
     "kicker": "Javni sažetak / Genesis Mesh / 2026",
-    "title": "Povjerenje kojeg se nijedna država",
-    "titleAccent": "ne mora odreći.",
-    "subtitle": "Genesis Mesh omogućava nezavisno upravljanim sistemima da se međusobno prepoznaju, ovlašćuju, opozivaju povjerenje i provode reviziju bez odricanja od suvereniteta.",
+    "title": "Otvorite modele.",
+    "titleAccent": "Kontrolišite ovlaštenje.",
+    "subtitle": "Modeli su otvoreni. Agenti su autonomni. Ali ko drži ključeve kada pređu suverenu granicu? Ljudski identitet je izgrađen za ljude koji kliču dugmad, a slama se u trenutku kada autonomni agenti pregovaraju i djeluju preko granica. Genesis Mesh je sloj ugovora za mašine: ovlaštenje da se provjeri, ograniči, opozove i revidira bilo koji sistem, bilo gdje.",
     "meta": {
       "verify": "Provjerite",
       "verifyDesc": "ko ima ovlaštenje",
@@ -37,8 +37,8 @@
     "scroll": "Pomaknite se ↓",
     "vlabel": "Infrastruktura neutralna prema suverenitetu",
     "actions": {
-      "run": "Pokrenite dokaz lokalno",
-      "protocol": "Pročitajte protokol",
+      "run": "Istražite SDK",
+      "protocol": "Pročitajte pregled ugovora",
       "network": "Provjerite mrežu uživo"
     }
   },

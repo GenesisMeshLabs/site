@@ -21,9 +21,9 @@
   },
   "hero": {
     "kicker": "Bản tóm lược công khai / Genesis Mesh / 2026",
-    "title": "Niềm tin mà không quốc gia nào",
-    "titleAccent": "phải giao nộp.",
-    "subtitle": "Genesis Mesh cho phép các hệ thống được quản trị độc lập công nhận, cấp quyền, thu hồi và kiểm tra lẫn nhau mà không phải từ bỏ quyền tự chủ.",
+    "title": "Mở các mô hình.",
+    "titleAccent": "Kiểm soát thẩm quyền.",
+    "subtitle": "Các mô hình đều mở. Các tác nhân đều tự chủ. Nhưng ai nắm giữ chìa khóa khi chúng vượt qua một biên giới chủ quyền? Danh tính con người được xây dựng cho những người bấm nút, và nó sụp đổ ngay khoảnh khắc các tác nhân tự chủ đàm phán và hành động xuyên biên giới. Genesis Mesh là lớp hiệp ước dành cho máy móc: thẩm quyền để xác minh, giới hạn, thu hồi và kiểm toán bất kỳ hệ thống nào, ở bất kỳ đâu.",
     "meta": {
       "verify": "Xác minh",
       "verifyDesc": "ai đang nắm thẩm quyền",
@@ -37,8 +37,8 @@
     "scroll": "Cuộn xuống ↓",
     "vlabel": "Hạ tầng trung lập về chủ quyền",
     "actions": {
-      "run": "Chạy bằng chứng cục bộ",
-      "protocol": "Đọc giao thức",
+      "run": "Khám phá SDK",
+      "protocol": "Đọc tóm tắt hiệp ước",
       "network": "Xác minh mạng trực tiếp"
     }
   },

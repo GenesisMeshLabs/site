@@ -21,9 +21,9 @@
   },
   "hero": {
     "kicker": "Kamuya Açık Bilgilendirme / Genesis Mesh / 2026",
-    "title": "Hiçbir ulusun teslim etmek",
-    "titleAccent": "zorunda olmadığı güven.",
-    "subtitle": "Genesis Mesh, bağımsız olarak yönetilen sistemlerin egemenliklerinden vazgeçmeden birbirlerini tanımasını, yetkilendirmesini, güven materyalini iptal etmesini ve denetlemesini sağlar.",
+    "title": "Modelleri açın.",
+    "titleAccent": "Yetkiyi kontrol edin.",
+    "subtitle": "Modeller açık. Ajanlar özerk. Ama egemen bir sınırı geçtiklerinde anahtarları kim tutuyor? İnsan kimliği düğmelere tıklayan insanlar için inşa edildi ve özerk ajanlar sınırlar arasında müzakere edip harekete geçtiği an çöküyor. Genesis Mesh, makineler için antlaşma katmanıdır: herhangi bir sistemi, her yerde doğrulama, sınırlama, iptal etme ve denetleme yetkisi.",
     "meta": {
       "verify": "Doğrula",
       "verifyDesc": "yetkiyi kimin elinde tuttuğunu",
@@ -37,8 +37,8 @@
     "scroll": "Kaydır ↓",
     "vlabel": "Egemenlik Açısından Tarafsız Altyapı",
     "actions": {
-      "run": "Kanıtı yerel olarak çalıştır",
-      "protocol": "Protokolü oku",
+      "run": "SDK'yı keşfedin",
+      "protocol": "Antlaşma özetini okuyun",
       "network": "Canlı ağı doğrula"
     }
   },

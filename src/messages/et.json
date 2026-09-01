@@ -21,9 +21,9 @@
   },
   "hero": {
     "kicker": "Avalik ülevaade / Genesis Mesh / 2026",
-    "title": "Usaldus, millest ükski riik",
-    "titleAccent": "ei pea loobuma.",
-    "subtitle": "Genesis Mesh võimaldab sõltumatult hallatavatel süsteemidel üksteist tunnustada ja volitada, usaldusmaterjali tühistada ning üksteist auditeerida, ilma et nad loobuksid oma suveräänsusest.",
+    "title": "Avage mudelid.",
+    "titleAccent": "Kontrollige volitust.",
+    "subtitle": "Mudelid on avatud. Agendid on autonoomsed. Aga kellel on võtmed, kui nad ületavad suveräänse piiri? Inimese identiteet on loodud nuppudele klõpsavatele inimestele ning see variseb kokku hetkel, mil autonoomsed agendid üle piiride läbirääkimisi peavad ja tegutsevad. Genesis Mesh on masinate lepingukiht: volitus kontrollida, piirata, tühistada ja auditeerida mistahes süsteemi, ükskõik kus.",
     "meta": {
       "verify": "Kontrolli",
       "verifyDesc": "kellel on volitus",
@@ -37,8 +37,8 @@
     "scroll": "Keri ↓",
     "vlabel": "Suveräänsuse suhtes neutraalne taristu",
     "actions": {
-      "run": "Käivita tõendus kohalikult",
-      "protocol": "Loe protokolli",
+      "run": "Uuri SDK-d",
+      "protocol": "Loe lepinguülevaadet",
       "network": "Kontrolli reaalajavõrku"
     }
   },

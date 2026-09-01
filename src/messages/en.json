@@ -21,12 +21,12 @@
   },
   "hero": {
     "kicker": "Public Brief / Genesis Mesh / 2026",
-    "title": "Trust that no nation",
-    "titleAccent": "has to surrender.",
-    "subtitle": "Genesis Mesh lets independently governed systems recognize, authorize, revoke, and audit one another without surrendering sovereignty.",
+    "title": "Open the models.",
+    "titleAccent": "Control the authority.",
+    "subtitle": "The models are open. The agents are autonomous. But who holds the keys when they cross a sovereign border? Human identity was built for people clicking buttons, and it breaks the moment autonomous agents negotiate and act across borders. Genesis Mesh is the treaty layer for machines: the authority to verify, limit, revoke, and audit any system, anywhere.",
     "actions": {
-      "run": "Run the proof locally",
-      "protocol": "Read the protocol",
+      "run": "Explore the SDK",
+      "protocol": "Read the treaty briefing",
       "network": "Verify the live network"
     },
     "meta": {

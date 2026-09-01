@@ -21,9 +21,9 @@
   },
   "hero": {
     "kicker": "Öffentliches Briefing / Genesis Mesh / 2026",
-    "title": "Vertrauen, das keine Nation",
-    "titleAccent": "aufgeben muss.",
-    "subtitle": "Genesis Mesh ermöglicht unabhängig verwalteten Systemen, einander anzuerkennen, zu autorisieren, Vertrauen zu widerrufen und zu auditieren, ohne ihre Souveränität aufzugeben.",
+    "title": "Modelle öffnen.",
+    "titleAccent": "Autorität kontrollieren.",
+    "subtitle": "Die Modelle sind offen. Die Agenten sind autonom. Doch wer hält die Schlüssel, wenn sie eine souveräne Grenze überschreiten? Menschliche Identität wurde für Menschen gebaut, die auf Schaltflächen klicken, und sie bricht in dem Moment zusammen, in dem autonome Agenten über Grenzen hinweg verhandeln und handeln. Genesis Mesh ist die Vertragsschicht für Maschinen: die Autorität, jedes System, überall, zu prüfen, zu begrenzen, zu widerrufen und zu auditieren.",
     "meta": {
       "verify": "Prüfen",
       "verifyDesc": "wer Autorität hält",
@@ -37,8 +37,8 @@
     "scroll": "Scrollen ↓",
     "vlabel": "Souveränitätsneutrale Infrastruktur",
     "actions": {
-      "run": "Nachweis lokal ausführen",
-      "protocol": "Protokoll lesen",
+      "run": "SDK entdecken",
+      "protocol": "Vertragsbriefing lesen",
       "network": "Live-Netzwerk verifizieren"
     }
   },

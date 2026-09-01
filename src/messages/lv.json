@@ -21,9 +21,9 @@
   },
   "hero": {
     "kicker": "Publisks pārskats / Genesis Mesh / 2026",
-    "title": "Uzticēšanās, no kuras nevienai valstij",
-    "titleAccent": "nav jāatsakās.",
-    "subtitle": "Genesis Mesh ļauj neatkarīgi pārvaldītām sistēmām savstarpēji atzīt, pilnvarot, atsaukt un auditēt cita citu, neatsakoties no savas suverenitātes.",
+    "title": "Atveriet modeļus.",
+    "titleAccent": "Kontrolējiet pilnvaras.",
+    "subtitle": "Modeļi ir atvērti. Aģenti ir autonomi. Bet kam pieder atslēgas, kad tie šķērso suverēnu robežu? Cilvēka identitāte tika veidota cilvēkiem, kas spiež pogas, un tā sabrūk brīdī, kad autonomi aģenti risina sarunas un darbojas pāri robežām. Genesis Mesh ir līguma slānis mašīnām: pilnvaras jebkuru sistēmu, jebkurā vietā, pārbaudīt, ierobežot, atsaukt un auditēt.",
     "meta": {
       "verify": "Pārbaudīt",
       "verifyDesc": "kam ir pilnvaras",
@@ -37,8 +37,8 @@
     "scroll": "Ritināt ↓",
     "vlabel": "Pret suverenitāti neitrāla infrastruktūra",
     "actions": {
-      "run": "Palaist pierādījumu lokāli",
-      "protocol": "Lasīt protokolu",
+      "run": "Izpētiet SDK",
+      "protocol": "Lasīt līguma kopsavilkumu",
       "network": "Pārbaudīt tiešsaistes tīklu"
     }
   },

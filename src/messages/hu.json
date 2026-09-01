@@ -21,9 +21,9 @@
   },
   "hero": {
     "kicker": "Nyilvános tájékoztató / Genesis Mesh / 2026",
-    "title": "Bizalom, amelyről egyetlen nemzetnek sem",
-    "titleAccent": "kell lemondania.",
-    "subtitle": "A Genesis Mesh lehetővé teszi, hogy az egymástól függetlenül irányított rendszerek szuverenitásuk feladása nélkül kölcsönösen elismerjék és engedélyezzék egymást, visszavonják a bizalmi anyagokat, valamint auditálják egymást.",
+    "title": "Nyisd meg a modelleket.",
+    "titleAccent": "Urald a felhatalmazást.",
+    "subtitle": "A modellek nyitottak. Az ügynökök autonómak. De ki tartja a kulcsokat, amikor átlépnek egy szuverén határt? Az emberi identitást gombokra kattintó emberek számára építették, és összeomlik abban a pillanatban, amikor autonóm ügynökök határokon átívelően tárgyalnak és cselekszenek. A Genesis Mesh a gépek szerződési rétege: a felhatalmazás bármely rendszer, bárhol történő ellenőrzésére, korlátozására, visszavonására és auditálására.",
     "meta": {
       "verify": "Ellenőrzés",
       "verifyDesc": "ki rendelkezik felhatalmazással",
@@ -37,8 +37,8 @@
     "scroll": "Görgessen ↓",
     "vlabel": "Szuverenitássemleges infrastruktúra",
     "actions": {
-      "run": "Bizonyíték futtatása helyben",
-      "protocol": "A protokoll elolvasása",
+      "run": "Fedezd fel az SDK-t",
+      "protocol": "Olvasd el a szerződési összefoglalót",
       "network": "Az élő hálózat ellenőrzése"
     }
   },

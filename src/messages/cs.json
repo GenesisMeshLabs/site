@@ -21,9 +21,9 @@
   },
   "hero": {
     "kicker": "Veřejný přehled / Genesis Mesh / 2026",
-    "title": "Důvěra, které se žádný stát",
-    "titleAccent": "nemusí vzdát.",
-    "subtitle": "Genesis Mesh umožňuje nezávisle spravovaným systémům, aby se vzájemně uznávaly, autorizovaly, odvolávaly důvěru a auditovaly, aniž by se vzdaly své suverenity.",
+    "title": "Otevřete modely.",
+    "titleAccent": "Ovládněte autoritu.",
+    "subtitle": "Modely jsou otevřené. Agenti jsou autonomní. Ale kdo drží klíče, když překročí suverénní hranici? Lidská identita byla vytvořena pro lidi klikající na tlačítka a hroutí se ve chvíli, kdy autonomní agenti vyjednávají a jednají napříč hranicemi. Genesis Mesh je smluvní vrstva pro stroje: autorita ověřit, omezit, odvolat a auditovat jakýkoli systém, kdekoli.",
     "meta": {
       "verify": "Ověřit",
       "verifyDesc": "kdo má autoritu",
@@ -37,8 +37,8 @@
     "scroll": "Posunout ↓",
     "vlabel": "Infrastruktura neutrální vůči suverenitě",
     "actions": {
-      "run": "Spustit důkaz místně",
-      "protocol": "Přečíst protokol",
+      "run": "Prozkoumejte SDK",
+      "protocol": "Přečíst přehled smlouvy",
       "network": "Ověřit živou síť"
     }
   },

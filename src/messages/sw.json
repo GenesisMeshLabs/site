@@ -21,9 +21,9 @@
   },
   "hero": {
     "kicker": "Muhtasari wa Umma / Genesis Mesh / 2026",
-    "title": "Uaminifu ambao hakuna taifa",
-    "titleAccent": "linalopaswa kuusalimisha.",
-    "subtitle": "Genesis Mesh huwezesha mifumo inayojitawala kwa kujitegemea kutambuana, kuidhinishana, kubatilishana na kukaguana bila kuachilia mamlaka yake huru.",
+    "title": "Fungua mifano.",
+    "titleAccent": "Dhibiti mamlaka.",
+    "subtitle": "Mifano hiyo ni huria. Mawakala hao wanajitawala. Lakini ni nani anayeshikilia funguo wanapovuka mpaka wa nchi huru? Utambulisho wa binadamu ulijengwa kwa ajili ya watu wanaobofya vitufe, na huvunjika wakati mawakala wanaojitawala wanapofanya majadiliano na kutenda kuvuka mipaka. Genesis Mesh ni tabaka la mkataba kwa mashine: mamlaka ya kuthibitisha, kuweka mipaka, kubatilisha na kukagua mfumo wowote, popote.",
     "meta": {
       "verify": "Thibitisha",
       "verifyDesc": "nani anayeshikilia mamlaka",
@@ -37,8 +37,8 @@
     "scroll": "Sogeza ↓",
     "vlabel": "Miundombinu Isiyoegemea Upande Wowote Kuhusu Uhuru wa Kujitawala",
     "actions": {
-      "run": "Endesha uthibitisho ndani ya mfumo wako",
-      "protocol": "Soma itifaki",
+      "run": "Chunguza SDK",
+      "protocol": "Soma muhtasari wa mkataba",
       "network": "Thibitisha mtandao hai"
     }
   },

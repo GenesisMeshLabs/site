@@ -21,9 +21,9 @@
   },
   "hero": {
     "kicker": "Informe Público / Genesis Mesh / 2026",
-    "title": "Confianza que ninguna nación",
-    "titleAccent": "tiene que ceder.",
-    "subtitle": "Genesis Mesh permite que los sistemas con gobernanza independiente se reconozcan y autoricen entre sí, revoquen material de confianza y se auditen mutuamente sin renunciar a su soberanía.",
+    "title": "Abre los modelos.",
+    "titleAccent": "Controla la autoridad.",
+    "subtitle": "Los modelos son abiertos. Los agentes son autónomos. Pero ¿quién tiene las llaves cuando cruzan una frontera soberana? La identidad humana se construyó para personas que hacen clic en botones, y se rompe en el instante en que agentes autónomos negocian y actúan a través de fronteras. Genesis Mesh es la capa de tratado para las máquinas: la autoridad para verificar, limitar, revocar y auditar cualquier sistema, en cualquier lugar.",
     "meta": {
       "verify": "Verificar",
       "verifyDesc": "quién ostenta la autoridad",
@@ -37,8 +37,8 @@
     "scroll": "Desplazar ↓",
     "vlabel": "Infraestructura neutral en soberanía",
     "actions": {
-      "run": "Ejecutar la prueba localmente",
-      "protocol": "Leer el protocolo",
+      "run": "Explora el SDK",
+      "protocol": "Lee el resumen del tratado",
       "network": "Verificar la red en vivo"
     }
   },

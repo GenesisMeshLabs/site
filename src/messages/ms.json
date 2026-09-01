@@ -21,9 +21,9 @@
   },
   "hero": {
     "kicker": "Taklimat Awam / Genesis Mesh / 2026",
-    "title": "Kepercayaan yang tidak perlu",
-    "titleAccent": "diserahkan oleh mana-mana negara.",
-    "subtitle": "Genesis Mesh membolehkan sistem yang ditadbir secara bebas saling mengiktiraf, memberi kuasa, membatalkan dan mengaudit tanpa melepaskan kedaulatan masing-masing.",
+    "title": "Buka model-model.",
+    "titleAccent": "Kawal kuasa sah.",
+    "subtitle": "Model-model itu terbuka. Ejen-ejen itu autonomi. Tetapi siapa yang memegang kunci apabila mereka melintasi sempadan berdaulat? Identiti manusia dibina untuk orang yang menekan butang, dan ia runtuh pada saat ejen autonomi berunding dan bertindak merentasi sempadan. Genesis Mesh ialah lapisan perjanjian untuk mesin: kuasa untuk mengesahkan, menghadkan, menarik balik dan mengaudit mana-mana sistem, di mana-mana sahaja.",
     "meta": {
       "verify": "Sahkan",
       "verifyDesc": "siapa yang memegang kuasa sah",
@@ -37,8 +37,8 @@
     "scroll": "Tatal ↓",
     "vlabel": "Infrastruktur Neutral Kedaulatan",
     "actions": {
-      "run": "Jalankan bukti secara setempat",
-      "protocol": "Baca protokol",
+      "run": "Terokai SDK",
+      "protocol": "Baca ringkasan perjanjian",
       "network": "Sahkan rangkaian langsung"
     }
   },

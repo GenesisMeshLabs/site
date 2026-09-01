@@ -21,9 +21,9 @@
   },
   "hero": {
     "kicker": "Openbare inligtingstuk / Genesis Mesh / 2026",
-    "title": "Vertroue wat geen nasie",
-    "titleAccent": "hoef prys te gee nie.",
-    "subtitle": "Genesis Mesh stel onafhanklik beheerde stelsels in staat om mekaar te erken, te magtig, te herroep en te oudit sonder om hul soewereiniteit prys te gee.",
+    "title": "Open die modelle.",
+    "titleAccent": "Beheer die gesag.",
+    "subtitle": "Die modelle is oop. Die agente is outonoom. Maar wie hou die sleutels wanneer hulle 'n soewereine grens oorsteek? Menslike identiteit is gebou vir mense wat op knoppies klik, en dit breek af die oomblik outonome agente oor grense onderhandel en optree. Genesis Mesh is die verdraglaag vir masjiene: die gesag om enige stelsel, enige plek, te verifieer, te beperk, te herroep en te ouditeer.",
     "meta": {
       "verify": "Verifieer",
       "verifyDesc": "wie die gesag besit",
@@ -37,8 +37,8 @@
     "scroll": "Rol af ↓",
     "vlabel": "Soewereiniteitsneutrale infrastruktuur",
     "actions": {
-      "run": "Voer die bewys plaaslik uit",
-      "protocol": "Lees die protokol",
+      "run": "Verken die SDK",
+      "protocol": "Lees die verdragsverslag",
       "network": "Verifieer die regstreekse netwerk"
     }
   },

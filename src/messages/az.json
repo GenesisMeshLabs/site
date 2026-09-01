@@ -21,9 +21,9 @@
   },
   "hero": {
     "kicker": "İctimai arayış / Genesis Mesh / 2026",
-    "title": "Heç bir dövlətin təslim etməli olmadığı",
-    "titleAccent": "etimad.",
-    "subtitle": "Genesis Mesh müstəqil idarə olunan sistemlərə suverenlikdən imtina etmədən bir-birini tanımaq, avtorizasiya etmək, etimadı ləğv etmək və audit aparmaq imkanı verir.",
+    "title": "Modelləri açın.",
+    "titleAccent": "Səlahiyyətə nəzarət edin.",
+    "subtitle": "Modellər açıqdır. Agentlər muxtardır. Bəs onlar suveren sərhədi keçəndə açarları kim saxlayır? İnsan kimliyi düymələri basan insanlar üçün qurulub və muxtar agentlər sərhədlər arasında danışıq aparıb hərəkət etdiyi an bu sistem çökür. Genesis Mesh maşınlar üçün müqavilə qatıdır: istənilən sistemi, istənilən yerdə, yoxlamaq, məhdudlaşdırmaq, ləğv etmək və audit etmək səlahiyyəti.",
     "meta": {
       "verify": "Yoxla",
       "verifyDesc": "səlahiyyətin kimdə olduğunu",
@@ -37,8 +37,8 @@
     "scroll": "Aşağı keçin ↓",
     "vlabel": "Suverenliyə münasibətdə neytral infrastruktur",
     "actions": {
-      "run": "Sübutu lokal olaraq işə salın",
-      "protocol": "Protokolu oxuyun",
+      "run": "SDK-nı araşdırın",
+      "protocol": "Müqavilə xülasəsini oxuyun",
       "network": "Canlı şəbəkəni yoxlayın"
     }
   },

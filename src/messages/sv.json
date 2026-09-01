@@ -21,9 +21,9 @@
   },
   "hero": {
     "kicker": "Offentlig genomgång / Genesis Mesh / 2026",
-    "title": "Tillit som ingen nation",
-    "titleAccent": "behöver lämna ifrån sig.",
-    "subtitle": "Genesis Mesh gör det möjligt för självständigt styrda system att erkänna och auktorisera varandra, återkalla förtroendematerial och granska varandra utan att ge upp sin suveränitet.",
+    "title": "Öppna modellerna.",
+    "titleAccent": "Kontrollera behörigheten.",
+    "subtitle": "Modellerna är öppna. Agenterna är autonoma. Men vem har nycklarna när de korsar en suverän gräns? Mänsklig identitet byggdes för människor som klickar på knappar, och den kollapsar i det ögonblick autonoma agenter förhandlar och agerar över gränser. Genesis Mesh är avtalslagret för maskiner: behörigheten att verifiera, begränsa, återkalla och granska vilket system som helst, var som helst.",
     "meta": {
       "verify": "Verifiera",
       "verifyDesc": "vem som har behörigheten",
@@ -37,8 +37,8 @@
     "scroll": "Skrolla ↓",
     "vlabel": "Suveränitetsneutral infrastruktur",
     "actions": {
-      "run": "Kör beviset lokalt",
-      "protocol": "Läs protokollet",
+      "run": "Utforska SDK:t",
+      "protocol": "Läs avtalssammanfattningen",
       "network": "Verifiera livenätverket"
     }
   },

@@ -21,9 +21,9 @@
   },
   "hero": {
     "kicker": "Informe públic / Genesis Mesh / 2026",
-    "title": "La confiança que cap nació",
-    "titleAccent": "no ha de cedir.",
-    "subtitle": "Genesis Mesh permet que sistemes governats de manera independent es reconeguin, s'autoritzin, revoquin confiança i s'auditin mútuament sense renunciar a la seva sobirania.",
+    "title": "Obriu els models.",
+    "titleAccent": "Controleu l'autoritat.",
+    "subtitle": "Els models són oberts. Els agents són autònoms. Però qui té les claus quan travessen una frontera sobirana? La identitat humana es va construir per a persones que clicaven botons, i es trenca en el moment en què agents autònoms negocien i actuen a través de fronteres. Genesis Mesh és la capa de tractat per a les màquines: l'autoritat per verificar, limitar, revocar i auditar qualsevol sistema, a qualsevol lloc.",
     "meta": {
       "verify": "Verificar",
       "verifyDesc": "qui té l'autoritat",
@@ -37,8 +37,8 @@
     "scroll": "Desplaça't ↓",
     "vlabel": "Infraestructura neutral respecte de la sobirania",
     "actions": {
-      "run": "Executeu la prova localment",
-      "protocol": "Llegiu el protocol",
+      "run": "Exploreu l'SDK",
+      "protocol": "Llegiu el resum del tractat",
       "network": "Verifiqueu la xarxa en directe"
     }
   },

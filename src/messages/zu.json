@@ -21,9 +21,9 @@
   },
   "hero": {
     "kicker": "Umbiko Womphakathi / Genesis Mesh / 2026",
-    "title": "Ukwethenjwa okungekho sizwe",
-    "titleAccent": "okufanele sikudele.",
-    "subtitle": "I-Genesis Mesh yenza amasistimu abuswa ngokuzimela akwazi ukuqaphelana, ukunikezana igunya, ukuhoxisa nokucwaningana ngaphandle kokudela ukuzibusa kwawo.",
+    "title": "Vula amamodeli.",
+    "titleAccent": "Lawula igunya.",
+    "subtitle": "Amamodeli avuliwe. Ama-ejenti azimele. Kepha ubani ophethe okhiye lapho ewela umngcele obusayo? Ubunikazi babantu bakhiwe abantu abachofoza izinkinobho, futhi buyaphahlazeka ngomzuzu ama-ejenti azimele exoxa futhi enza izinto ngaphesheya kwemingcele. I-Genesis Mesh iyisendlalelo sesivumelwano samamishini: igunya lokuqinisekisa, ukukhawulela, ukuhoxisa nokucwaninga noma iyiphi isistimu, noma kuphi.",
     "meta": {
       "verify": "Qinisekisa",
       "verifyDesc": "ukuthi ubani ophethe igunya",
@@ -37,8 +37,8 @@
     "scroll": "Skrola ↓",
     "vlabel": "Ingqalasizinda Engachemile Ekuzimeleni Kwamazwe",
     "actions": {
-      "run": "Qalisa ubufakazi endaweni yakho",
-      "protocol": "Funda iphrothokholi",
+      "run": "Hlola i-SDK",
+      "protocol": "Funda isifinyezo sesivumelwano",
       "network": "Qinisekisa inethiwekhi ebukhoma"
     }
   },

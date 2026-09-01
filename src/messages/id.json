@@ -21,9 +21,9 @@
   },
   "hero": {
     "kicker": "Ringkasan Publik / Genesis Mesh / 2026",
-    "title": "Kepercayaan yang tak perlu",
-    "titleAccent": "diserahkan bangsa mana pun.",
-    "subtitle": "Genesis Mesh memungkinkan sistem yang dikelola secara independen untuk saling mengakui, mengotorisasi, mencabut, dan mengaudit tanpa melepaskan kedaulatan.",
+    "title": "Buka model-modelnya.",
+    "titleAccent": "Kendalikan wewenangnya.",
+    "subtitle": "Model-modelnya terbuka. Agen-agennya otonom. Tapi siapa yang memegang kuncinya ketika mereka melintasi perbatasan berdaulat? Identitas manusia dibangun untuk orang yang mengklik tombol, dan runtuh pada saat agen otonom bernegosiasi dan bertindak lintas batas. Genesis Mesh adalah lapisan perjanjian untuk mesin: wewenang untuk memverifikasi, membatasi, mencabut, dan mengaudit sistem apa pun, di mana pun.",
     "meta": {
       "verify": "Verifikasi",
       "verifyDesc": "siapa pemegang wewenang",
@@ -37,8 +37,8 @@
     "scroll": "Gulir ↓",
     "vlabel": "Infrastruktur netral terhadap kedaulatan",
     "actions": {
-      "run": "Jalankan bukti secara lokal",
-      "protocol": "Baca protokol",
+      "run": "Jelajahi SDK",
+      "protocol": "Baca ringkasan perjanjian",
       "network": "Verifikasi jaringan aktif"
     }
   },

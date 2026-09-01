@@ -23,19 +23,19 @@ export default function Hero() {
         <div className="hero-actions rv">
           <a
             className="hero-action hero-action-primary"
-            href="https://github.com/GenesisMeshLabs/genesismesh/blob/main/docs/examples/cross-sovereign-revocation.md#run"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {t('actions.run')}
-          </a>
-          <a
-            className="hero-action"
             href="https://genesismesh.connectorzzz.com/rfcs/rfc-002-recognition-treaties.html"
             target="_blank"
             rel="noopener noreferrer"
           >
             {t('actions.protocol')}
+          </a>
+          <a
+            className="hero-action"
+            href="https://github.com/GenesisMeshLabs/genesismesh/blob/main/docs/examples/cross-sovereign-revocation.md#run"
+            target="_blank"
+            rel="noopener noreferrer"
+          >
+            {t('actions.run')}
           </a>
           <a className="hero-action" href="#live-network">
             {t('actions.network')}

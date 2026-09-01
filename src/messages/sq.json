@@ -21,9 +21,9 @@
   },
   "hero": {
     "kicker": "Përmbledhje publike / Genesis Mesh / 2026",
-    "title": "Besimi që asnjë komb",
-    "titleAccent": "nuk duhet ta dorëzojë.",
-    "subtitle": "Genesis Mesh u mundëson sistemeve të administruara në mënyrë të pavarur të njohin dhe autorizojnë njëri-tjetrin, të revokojnë materialin e besimit dhe të auditojnë njëri-tjetrin pa hequr dorë nga sovraniteti.",
+    "title": "Hapni modelet.",
+    "titleAccent": "Kontrolloni autoritetin.",
+    "subtitle": "Modelet janë të hapura. Agjentët janë autonomë. Por kush i mban çelësat kur kalojnë një kufi sovran? Identiteti njerëzor u ndërtua për njerëz që klikojnë butona, dhe shembet në çastin kur agjentë autonomë negociojnë dhe veprojnë përtej kufijve. Genesis Mesh është shtresa e traktatit për makinat: autoriteti për të verifikuar, kufizuar, revokuar dhe audituar çdo sistem, kudo.",
     "meta": {
       "verify": "Verifiko",
       "verifyDesc": "kush e zotëron autoritetin",
@@ -37,8 +37,8 @@
     "scroll": "Lëviz poshtë ↓",
     "vlabel": "Infrastrukturë neutrale ndaj sovranitetit",
     "actions": {
-      "run": "Ekzekutojeni provën lokalisht",
-      "protocol": "Lexoni protokollin",
+      "run": "Eksploroni SDK-në",
+      "protocol": "Lexoni përmbledhjen e traktatit",
       "network": "Verifikoni rrjetin drejtpërdrejt"
     }
   },

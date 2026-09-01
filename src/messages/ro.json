@@ -21,9 +21,9 @@
   },
   "hero": {
     "kicker": "Informare publică / Genesis Mesh / 2026",
-    "title": "Încrederea la care nicio națiune",
-    "titleAccent": "nu trebuie să renunțe.",
-    "subtitle": "Genesis Mesh permite sistemelor administrate independent să se recunoască, să se autorizeze, să revoce încrederea și să se auditeze reciproc fără să renunțe la suveranitate.",
+    "title": "Deschideți modelele.",
+    "titleAccent": "Controlați autoritatea.",
+    "subtitle": "Modelele sunt deschise. Agenții sunt autonomi. Dar cine deține cheile când traversează o graniță suverană? Identitatea umană a fost construită pentru oameni care apasă butoane și se prăbușește în clipa în care agenți autonomi negociază și acționează peste granițe. Genesis Mesh este stratul de tratat pentru mașini: autoritatea de a verifica, limita, revoca și audita orice sistem, oriunde.",
     "meta": {
       "verify": "Verificare",
       "verifyDesc": "cine deține autoritatea",
@@ -37,8 +37,8 @@
     "scroll": "Derulați ↓",
     "vlabel": "Infrastructură neutră față de suveranitate",
     "actions": {
-      "run": "Rulează dovada local",
-      "protocol": "Citește protocolul",
+      "run": "Explorați SDK-ul",
+      "protocol": "Citiți rezumatul tratatului",
       "network": "Verifică rețeaua live"
     }
   },

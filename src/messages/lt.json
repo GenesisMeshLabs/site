@@ -21,9 +21,9 @@
   },
   "hero": {
     "kicker": "Viešas pristatymas / Genesis Mesh / 2026",
-    "title": "Pasitikėjimas, kurio nė vienai valstybei",
-    "titleAccent": "nereikia atsisakyti.",
-    "subtitle": "Genesis Mesh leidžia nepriklausomai valdomoms sistemoms pripažinti, autorizuoti, atšaukti ir audituoti vienai kitą, neatsisakant savo suvereniteto.",
+    "title": "Atverkite modelius.",
+    "titleAccent": "Valdykite įgaliojimus.",
+    "subtitle": "Modeliai yra atviri. Agentai yra autonomiški. Bet kas laiko raktus, kai jie kerta suverenią sieną? Žmogaus tapatybė buvo sukurta žmonėms, spaudžiantiems mygtukus, ir ji sugriūva tą akimirką, kai autonomiški agentai derasi ir veikia kertant sienas. Genesis Mesh yra sutarties sluoksnis mašinoms: įgaliojimas patikrinti, apriboti, atšaukti ir audituoti bet kurią sistemą, bet kur.",
     "meta": {
       "verify": "Patikrinti",
       "verifyDesc": "kas turi įgaliojimus",
@@ -37,8 +37,8 @@
     "scroll": "Slinkite ↓",
     "vlabel": "Suvereniteto atžvilgiu neutrali infrastruktūra",
     "actions": {
-      "run": "Paleisti įrodymą vietoje",
-      "protocol": "Skaityti protokolą",
+      "run": "Tyrinėkite SDK",
+      "protocol": "Skaityti sutarties apžvalgą",
       "network": "Patikrinti veikiantį tinklą"
     }
   },

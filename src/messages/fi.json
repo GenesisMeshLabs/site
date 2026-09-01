@@ -21,9 +21,9 @@
   },
   "hero": {
     "kicker": "Julkinen katsaus / Genesis Mesh / 2026",
-    "title": "Luottamus, josta yhdenkään valtion",
-    "titleAccent": "ei tarvitse luopua.",
-    "subtitle": "Genesis Mesh mahdollistaa sen, että itsenäisesti hallitut järjestelmät voivat tunnistaa ja valtuuttaa toisensa, peruuttaa luottamuksen ja auditoida toimintaa luopumatta itsemääräämisoikeudestaan.",
+    "title": "Avaa mallit.",
+    "titleAccent": "Hallitse valtuutusta.",
+    "subtitle": "Mallit ovat avoimia. Agentit ovat autonomisia. Mutta kenellä on avaimet, kun ne ylittävät suvereenin rajan? Ihmisen identiteetti rakennettiin nappia painaville ihmisille, ja se murtuu hetkellä, jolloin autonomiset agentit neuvottelevat ja toimivat rajojen yli. Genesis Mesh on koneiden sopimuskerros: valtuutus varmentaa, rajata, peruuttaa ja auditoida mikä tahansa järjestelmä, missä tahansa.",
     "meta": {
       "verify": "Varmenna",
       "verifyDesc": "kenellä on määräysvalta",
@@ -37,8 +37,8 @@
     "scroll": "Vieritä ↓",
     "vlabel": "Suvereniteettineutraali infrastruktuuri",
     "actions": {
-      "run": "Suorita todiste paikallisesti",
-      "protocol": "Lue protokolla",
+      "run": "Tutustu SDK:hon",
+      "protocol": "Lue sopimuskatsaus",
       "network": "Todenna reaaliaikainen verkko"
     }
   },

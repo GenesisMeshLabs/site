@@ -21,9 +21,9 @@
   },
   "hero": {
     "kicker": "Offentlig orientering / Genesis Mesh / 2026",
-    "title": "Tillit som ingen nasjon",
-    "titleAccent": "må gi fra seg.",
-    "subtitle": "Genesis Mesh lar uavhengig styrte systemer anerkjenne, autorisere, tilbakekalle og revidere hverandre uten å gi avkall på egen suverenitet.",
+    "title": "Åpne modellene.",
+    "titleAccent": "Kontroller autoriteten.",
+    "subtitle": "Modellene er åpne. Agentene er autonome. Men hvem har nøklene når de krysser en suveren grense? Menneskelig identitet ble bygget for folk som klikker på knapper, og den bryter sammen i det øyeblikket autonome agenter forhandler og handler på tvers av grenser. Genesis Mesh er traktatlaget for maskiner: autoriteten til å verifisere, begrense, tilbakekalle og revidere ethvert system, hvor som helst.",
     "meta": {
       "verify": "Verifiser",
       "verifyDesc": "hvem som har myndighet",
@@ -37,8 +37,8 @@
     "scroll": "Rull ↓",
     "vlabel": "Suverenitetsnøytral infrastruktur",
     "actions": {
-      "run": "Kjør beviset lokalt",
-      "protocol": "Les protokollen",
+      "run": "Utforsk SDK-et",
+      "protocol": "Les traktatsammendraget",
       "network": "Verifiser direktenettverket"
     }
   },

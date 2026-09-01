@@ -21,9 +21,9 @@
   },
   "hero": {
     "kicker": "Nota publiczna / Genesis Mesh / 2026",
-    "title": "Zaufanie, którego żaden naród",
-    "titleAccent": "nie musi oddawać.",
-    "subtitle": "Genesis Mesh umożliwia niezależnie zarządzanym systemom wzajemne uznawanie, autoryzowanie, unieważnianie i audytowanie bez rezygnacji z suwerenności.",
+    "title": "Otwórz modele.",
+    "titleAccent": "Kontroluj uprawnienia.",
+    "subtitle": "Modele są otwarte. Agenci są autonomiczni. Ale kto trzyma klucze, gdy przekraczają suwerenną granicę? Ludzka tożsamość została zbudowana dla ludzi klikających przyciski i zawodzi w chwili, gdy autonomiczni agenci negocjują i działają w poprzek granic. Genesis Mesh to warstwa traktatowa dla maszyn: uprawnienie do weryfikowania, ograniczania, unieważniania i audytowania dowolnego systemu, w dowolnym miejscu.",
     "meta": {
       "verify": "Weryfikuj",
       "verifyDesc": "kto ma uprawnienia",
@@ -37,8 +37,8 @@
     "scroll": "Przewiń ↓",
     "vlabel": "Infrastruktura neutralna wobec suwerenności",
     "actions": {
-      "run": "Uruchom dowód lokalnie",
-      "protocol": "Przeczytaj protokół",
+      "run": "Poznaj SDK",
+      "protocol": "Przeczytaj podsumowanie traktatu",
       "network": "Zweryfikuj sieć na żywo"
     }
   },

@@ -21,9 +21,9 @@
   },
   "hero": {
     "kicker": "Pampublikong Buod / Genesis Mesh / 2026",
-    "title": "Tiwalang hindi kailangang",
-    "titleAccent": "isuko ng alinmang bansa.",
-    "subtitle": "Sa Genesis Mesh, maaaring kilalanin, pahintulutan, bawiin ang tiwala, at i-audit ng mga sistemang malayang pinamamahalaan ang isa't isa nang hindi isinusuko ang kanilang awtonomiya.",
+    "title": "Buksan ang mga modelo.",
+    "titleAccent": "Kontrolin ang awtoridad.",
+    "subtitle": "Bukas ang mga modelo. Autonomous ang mga ahente. Pero sino ang may hawak ng susi kapag tumatawid sila sa isang soberanong hangganan? Ang pagkakakilanlan ng tao ay ginawa para sa mga taong nagki-click ng mga button, at nasisira ito sa sandaling makipag-ayos at kumilos ang mga autonomous na ahente sa kabila ng mga hangganan. Ang Genesis Mesh ang treaty layer para sa mga makina: ang awtoridad na beripikahin, limitahan, bawiin, at i-audit ang anumang sistema, kahit saan.",
     "meta": {
       "verify": "Beripikahin",
       "verifyDesc": "kung sino ang may hawak ng awtoridad",
@@ -37,8 +37,8 @@
     "scroll": "Mag-scroll ↓",
     "vlabel": "Imprastrakturang Neutral sa Soberanya",
     "actions": {
-      "run": "Patakbuhin ang patunay nang lokal",
-      "protocol": "Basahin ang protocol",
+      "run": "Tuklasin ang SDK",
+      "protocol": "Basahin ang buod ng kasunduan",
       "network": "Beripikahin ang live na network"
     }
   },
