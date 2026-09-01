@@ -20,27 +20,35 @@
     "selectLanguage": "Pilih bahasa"
   },
   "hero": {
-    "kicker": "Taklimat Awam / Genesis Mesh / 2026",
-    "title": "Buka model-model.",
-    "titleAccent": "Kawal kuasa sah.",
-    "subtitle": "Model-model itu terbuka. Ejen-ejen itu autonomi. Tetapi siapa yang memegang kunci apabila mereka melintasi sempadan berdaulat? Identiti manusia dibina untuk orang yang menekan butang, dan ia runtuh pada saat ejen autonomi berunding dan bertindak merentasi sempadan. Genesis Mesh ialah lapisan perjanjian untuk mesin: kuasa untuk mengesahkan, menghadkan, menarik balik dan mengaudit mana-mana sistem, di mana-mana sahaja.",
-    "meta": {
-      "verify": "Sahkan",
-      "verifyDesc": "siapa yang memegang kuasa sah",
-      "limit": "Hadkan",
-      "limitDesc": "perkara yang boleh mereka lakukan",
-      "revoke": "Tarik Balik",
-      "revokeDesc": "apabila kepercayaan terjejas",
-      "audit": "Audit",
-      "auditDesc": "supaya tiada sesiapa sekadar bergantung pada kata-kata anda"
+    "kicker": "Taklimat Awam / 2026",
+    "title": "Mesin melintasi sempadan.",
+    "titleAccent": "Kuasa sah tidak melintasinya.",
+    "intro": "Ejen AI sudah bertindak merentasi awan, organisasi dan bidang kuasa. Tetapi apabila satu sistem berdaulat bertembung dengan satu lagi, tiada protokol neutral untuk menjawab tiga soalan asas:",
+    "questions": [
+      "Siapakah anda?",
+      "Apakah yang anda dibenarkan lakukan?",
+      "Siapakah yang boleh menarik balik kuasa sah itu?"
+    ],
+    "statement": "Genesis Mesh ialah lapisan perjanjian untuk mesin.",
+    "body": "Pihak berkuasa yang bebas boleh mengiktiraf identiti, mendelegasikan keupayaan dan menarik balik kepercayaan merentasi sempadan organisasi dan negara, tanpa perlu menyerahkan akar kepercayaan mereka sendiri.",
+    "notLine": "Tiada kuasa pusat. Tiada daulat yang dikongsi. Tiada awan yang diwajibkan.",
+    "closing": "Kepercayaan yang tidak perlu diserahkan oleh mana-mana negara.",
+    "audiences": {
+      "builders": {
+        "label": "Untuk pembangun →",
+        "rfcs": "RFC",
+        "sdks": "SDK",
+        "run": "Jalankan pihak berkuasa anda sendiri"
+      },
+      "states": {
+        "label": "Untuk negara & institusi →",
+        "brief": "Ringkasan perjanjian",
+        "architecture": "Senibina",
+        "channel": "Saluran langsung"
+      }
     },
     "scroll": "Tatal ↓",
-    "vlabel": "Infrastruktur Neutral Kedaulatan",
-    "actions": {
-      "run": "Terokai SDK",
-      "protocol": "Baca ringkasan perjanjian",
-      "network": "Sahkan rangkaian langsung"
-    }
+    "vlabel": "Infrastruktur Neutral Kedaulatan"
   },
   "stakes": {
     "label": "Taruhannya",
