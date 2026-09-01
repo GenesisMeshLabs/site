@@ -20,27 +20,35 @@
     "selectLanguage": "Odaberite jezik"
   },
   "hero": {
-    "kicker": "Javni sažetak / Genesis Mesh / 2026",
-    "title": "Otvorite modele.",
-    "titleAccent": "Kontrolirajte ovlast.",
-    "subtitle": "Modeli su otvoreni. Agenti su autonomni. Ali tko drži ključeve kad prijeđu suverenu granicu? Ljudski identitet izgrađen je za ljude koji klikaju gumbe, a slama se u trenutku kad autonomni agenti pregovaraju i djeluju preko granica. Genesis Mesh je ugovorni sloj za strojeve: ovlast za provjeru, ograničavanje, opoziv i reviziju bilo kojeg sustava, bilo gdje.",
-    "meta": {
-      "verify": "Provjeri",
-      "verifyDesc": "tko ima ovlasti",
-      "limit": "Ograniči",
-      "limitDesc": "što smije učiniti",
-      "revoke": "Opozovi",
-      "revokeDesc": "kada se povjerenje naruši",
-      "audit": "Revidiraj",
-      "auditDesc": "kako nitko ne bi morao vjerovati na riječ"
+    "kicker": "Javni sažetak / 2026",
+    "title": "Strojevi prelaze granice.",
+    "titleAccent": "Ovlast ne prelazi.",
+    "intro": "AI agenti već djeluju preko oblaka, organizacija i jurisdikcija. No kada jedan suvereni sustav stupi u kontakt s drugim, ne postoji neutralan protokol koji bi odgovorio na tri temeljna pitanja:",
+    "questions": [
+      "Tko ste vi?",
+      "Što smijete raditi?",
+      "Tko može opozvati tu ovlast?"
+    ],
+    "statement": "Genesis Mesh je ugovorni sloj za strojeve.",
+    "body": "Neovisna tijela mogu priznavati identitete, delegirati ovlasti i opozivati povjerenje preko organizacijskih i nacionalnih granica, bez odricanja od vlastitog korijena povjerenja.",
+    "notLine": "Nema središnje ovlasti. Nema zajedničkog suverena. Nema obveznog oblaka.",
+    "closing": "Povjerenje kojeg se nijedna država ne mora odreći.",
+    "audiences": {
+      "builders": {
+        "label": "Za graditelje →",
+        "rfcs": "RFC-ovi",
+        "sdks": "SDK-ovi",
+        "run": "Pokrenite vlastitu ovlast"
+      },
+      "states": {
+        "label": "Za države i institucije →",
+        "brief": "Sažetak ugovora",
+        "architecture": "Arhitektura",
+        "channel": "Izravni kanal"
+      }
     },
     "scroll": "Pomaknite se ↓",
-    "vlabel": "Infrastruktura neutralna prema suverenitetu",
-    "actions": {
-      "run": "Istražite SDK",
-      "protocol": "Pročitajte sažetak ugovora",
-      "network": "Provjerite mrežu uživo"
-    }
+    "vlabel": "Infrastruktura neutralna prema suverenitetu"
   },
   "stakes": {
     "label": "Što je na kocki",
