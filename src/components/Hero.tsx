@@ -2,8 +2,16 @@
 import { useTranslations } from 'next-intl';
 import MeshCanvas from './MeshCanvas';
 
+const RFC_URL = 'https://genesismesh.connectorzzz.com/rfcs/rfc-002-recognition-treaties.html';
+const DEV_HUB_URL = 'https://dev.connectorzzz.com/';
+const RUN_URL =
+  'https://github.com/GenesisMeshLabs/genesismesh/blob/main/docs/examples/cross-sovereign-revocation.md#run';
+const STORY_URL = 'https://story.thaersaidi.com/';
+const CHANNEL_URL = 'mailto:authority@genesismesh.org?subject=Genesis%20Mesh';
+
 export default function Hero() {
   const t = useTranslations('hero');
+  const questions = t.raw('questions') as string[];
 
   return (
     <header className="hero">
@@ -18,34 +26,48 @@ export default function Hero() {
           <span className="accent">{t('titleAccent')}</span>
         </h1>
         <p className="hero-sub rv">
-          {t('subtitle')}
+          {t('intro')}
         </p>
-        <div className="hero-actions rv">
-          <a
-            className="hero-action hero-action-primary"
-            href="https://genesismesh.connectorzzz.com/rfcs/rfc-002-recognition-treaties.html"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {t('actions.protocol')}
-          </a>
-          <a
-            className="hero-action"
-            href="https://github.com/GenesisMeshLabs/genesismesh/blob/main/docs/examples/cross-sovereign-revocation.md#run"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            {t('actions.run')}
-          </a>
-          <a className="hero-action" href="#live-network">
-            {t('actions.network')}
-          </a>
-        </div>
-        <div className="hero-meta rv">
-          <div>{t('meta.verify')}<b>{t('meta.verifyDesc')}</b></div>
-          <div>{t('meta.limit')}<b>{t('meta.limitDesc')}</b></div>
-          <div>{t('meta.revoke')}<b>{t('meta.revokeDesc')}</b></div>
-          <div>{t('meta.audit')}<b>{t('meta.auditDesc')}</b></div>
+        <ul className="hero-questions rv">
+          {questions.map((question) => (
+            <li key={question}>{question}</li>
+          ))}
+        </ul>
+        <p className="hero-statement rv">{t('statement')}</p>
+        <p className="hero-sub rv">
+          {t('body')}
+        </p>
+        <div className="not-line rv">{t('notLine')}</div>
+        <p className="hero-closing rv">{t('closing')}</p>
+        <div className="hero-audiences rv">
+          <div className="hero-audience">
+            <span className="hero-audience-label">{t('audiences.builders.label')}</span>
+            <span className="hero-audience-links">
+              <a href={RFC_URL} target="_blank" rel="noopener noreferrer">
+                {t('audiences.builders.rfcs')}
+              </a>
+              <span className="sep" aria-hidden="true">·</span>
+              <a href={DEV_HUB_URL} target="_blank" rel="noopener noreferrer">
+                {t('audiences.builders.sdks')}
+              </a>
+              <span className="sep" aria-hidden="true">·</span>
+              <a href={RUN_URL} target="_blank" rel="noopener noreferrer">
+                {t('audiences.builders.run')}
+              </a>
+            </span>
+          </div>
+          <div className="hero-audience">
+            <span className="hero-audience-label">{t('audiences.states.label')}</span>
+            <span className="hero-audience-links">
+              <a href={STORY_URL} target="_blank" rel="noopener noreferrer">
+                {t('audiences.states.brief')}
+              </a>
+              <span className="sep" aria-hidden="true">·</span>
+              <a href="#mechanics">{t('audiences.states.architecture')}</a>
+              <span className="sep" aria-hidden="true">·</span>
+              <a href={CHANNEL_URL}>{t('audiences.states.channel')}</a>
+            </span>
+          </div>
         </div>
       </div>
       <div className="scroll-hint">{t('scroll')}</div>

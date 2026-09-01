@@ -20,24 +20,28 @@
     "selectLanguage": "Select language"
   },
   "hero": {
-    "kicker": "Public Brief / Genesis Mesh / 2026",
-    "title": "Open the models.",
-    "titleAccent": "Control the authority.",
-    "subtitle": "The models are open. The agents are autonomous. But who holds the keys when they cross a sovereign border? Human identity was built for people clicking buttons, and it breaks the moment autonomous agents negotiate and act across borders. Genesis Mesh is the treaty layer for machines: the authority to verify, limit, revoke, and audit any system, anywhere.",
-    "actions": {
-      "run": "Explore the SDK",
-      "protocol": "Read the treaty briefing",
-      "network": "Verify the live network"
-    },
-    "meta": {
-      "verify": "Verify",
-      "verifyDesc": "who holds authority",
-      "limit": "Limit",
-      "limitDesc": "what they can do",
-      "revoke": "Revoke",
-      "revokeDesc": "when trust breaks",
-      "audit": "Audit",
-      "auditDesc": "so no one takes your word"
+    "kicker": "Public Brief / 2026",
+    "title": "Machines cross borders.",
+    "titleAccent": "Authority doesn't.",
+    "intro": "AI agents already act across clouds, organizations, and jurisdictions. But when one sovereign system encounters another, there is no neutral protocol for answering three basic questions:",
+    "questions": ["Who are you?", "What are you allowed to do?", "Who can revoke that authority?"],
+    "statement": "Genesis Mesh is a treaty layer for machines.",
+    "body": "Independent authorities can recognize identities, delegate capabilities, and revoke trust across organizational and national boundaries, without surrendering their own root of trust.",
+    "notLine": "No central authority. No shared sovereign. No required cloud.",
+    "closing": "Trust that no nation has to surrender.",
+    "audiences": {
+      "builders": {
+        "label": "For builders →",
+        "rfcs": "RFCs",
+        "sdks": "SDKs",
+        "run": "Run your own authority"
+      },
+      "states": {
+        "label": "For states & institutions →",
+        "brief": "Treaty brief",
+        "architecture": "Architecture",
+        "channel": "Direct channel"
+      }
     },
     "scroll": "Scroll ↓",
     "vlabel": "Sovereignty-Neutral Infrastructure"
