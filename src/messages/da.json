@@ -262,7 +262,8 @@
     "copyright": "© 2026 Bidragydere til Genesis Mesh",
     "links": {
       "docs": "Dokumentation",
-      "devHub": "Udviklerportal"
+      "devHub": "Udviklerportal",
+      "github": "GitHub"
     },
     "signature": "Builds af dette websted signeres under Genesis Mesh-autoritet.",
     "tagline": "SUVERÆNITET ER KODE",

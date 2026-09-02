@@ -262,7 +262,8 @@
     "copyright": "© 2026 Genesis Mesh 贡献者",
     "links": {
       "docs": "文档",
-      "devHub": "开发中心"
+      "devHub": "开发中心",
+      "github": "GitHub"
     },
     "signature": "本站构建均在 Genesis Mesh 授权体系下完成签名。",
     "tagline": "主权就是代码",

@@ -262,7 +262,8 @@
     "copyright": "© 2026 Genesis Mesh 기여자",
     "links": {
       "docs": "문서",
-      "devHub": "개발 허브"
+      "devHub": "개발 허브",
+      "github": "GitHub"
     },
     "signature": "이 사이트의 빌드는 Genesis Mesh 권한으로 서명된다.",
     "tagline": "주권은 코드입니다",

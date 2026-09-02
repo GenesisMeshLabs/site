@@ -262,7 +262,8 @@
     "copyright": "© 2026 ผู้ร่วมสร้าง Genesis Mesh",
     "links": {
       "docs": "เอกสาร",
-      "devHub": "Dev Hub"
+      "devHub": "Dev Hub",
+      "github": "GitHub"
     },
     "signature": "บิลด์ของเว็บไซต์นี้ลงนามภายใต้อำนาจของ Genesis Mesh",
     "tagline": "อธิปไตยคือรหัส",

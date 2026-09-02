@@ -262,7 +262,8 @@
     "copyright": "© 2026 Genesis Mesh kaastöötajad",
     "links": {
       "docs": "Dokumentatsioon",
-      "devHub": "Arenduskeskus"
+      "devHub": "Arenduskeskus",
+      "github": "GitHub"
     },
     "signature": "Selle saidi versioonid allkirjastatakse Genesis Mesh volituse alusel.",
     "tagline": "SUVERÄÄNSUS ON KOOD",

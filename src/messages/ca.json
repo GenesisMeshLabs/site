@@ -262,7 +262,8 @@
     "copyright": "© 2026 Col·laboradors de Genesis Mesh",
     "links": {
       "docs": "Documentació",
-      "devHub": "Centre de desenvolupament"
+      "devHub": "Centre de desenvolupament",
+      "github": "GitHub"
     },
     "signature": "Les compilacions d'aquest lloc estan signades sota l'autoritat de Genesis Mesh.",
     "tagline": "LA SOBIRANIA ÉS CODI",

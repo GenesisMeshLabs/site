@@ -2,5 +2,5 @@
 status: UNSIGNED
 reason: GENESIS_MESH_SIGNING_KEY is not configured for this build
 algorithm: ed25519
-source-digest: sha256:bdb5175f5460dc9732ade2eb4a813b4e61af90660d4cc4be5f24c9c28f5a7c9e
-built-at: 2026-09-02T21:15:05.280Z
+source-digest: sha256:4d89121887f284b4662b9d729e45d6eaee4c3c055894beccab4bec91f87a7b78
+built-at: 2026-09-02T21:20:15.108Z

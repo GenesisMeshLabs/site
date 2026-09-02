@@ -262,7 +262,8 @@
     "copyright": "© 2026 Suradnici projekta Genesis Mesh",
     "links": {
       "docs": "Dokumentacija",
-      "devHub": "Razvojno središte"
+      "devHub": "Razvojno središte",
+      "github": "GitHub"
     },
     "signature": "Međuverzije ove stranice potpisane su ovlastima sustava Genesis Mesh.",
     "tagline": "SUVERENITET JE KOD",

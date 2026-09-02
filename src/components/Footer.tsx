@@ -19,6 +19,9 @@ export default function Footer() {
         <a href="https://dev.connectorzzz.com/" target="_blank" rel="noopener noreferrer">
           {t('links.devHub')}
         </a>
+        <a href="https://github.com/GenesisMeshLabs" target="_blank" rel="noopener noreferrer">
+          {t('links.github')}
+        </a>
       </span>
 
       {/* Only claim the builds are signed when this build actually was. */}

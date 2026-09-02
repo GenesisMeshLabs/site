@@ -262,7 +262,8 @@
     "copyright": "© 2026 Genesis Mesh 貢獻者",
     "links": {
       "docs": "文件",
-      "devHub": "開發者中心"
+      "devHub": "開發者中心",
+      "github": "GitHub"
     },
     "signature": "本站的建置版本均依 Genesis Mesh 授權權完成簽署。",
     "tagline": "主權就是程式碼",

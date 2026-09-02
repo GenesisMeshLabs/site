@@ -262,7 +262,8 @@
     "copyright": "© 2026 Contributeurs Genesis Mesh",
     "links": {
       "docs": "Documentation",
-      "devHub": "Dev Hub"
+      "devHub": "Dev Hub",
+      "github": "GitHub"
     },
     "signature": "Les builds de ce site sont signés sous l'autorité Genesis Mesh.",
     "tagline": "LA SOUVERAINETÉ EST DU CODE",
