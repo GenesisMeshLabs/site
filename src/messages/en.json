@@ -24,7 +24,11 @@
     "title": "Machines cross borders.",
     "titleAccent": "Authority doesn't.",
     "intro": "AI agents already act across clouds, organizations, and jurisdictions. But when one sovereign system encounters another, there is no neutral protocol for answering three basic questions:",
-    "questions": ["Who are you?", "What are you allowed to do?", "Who can revoke that authority?"],
+    "questions": [
+      "Who are you?",
+      "What are you allowed to do?",
+      "Who can revoke that authority?"
+    ],
     "statement": "Genesis Mesh is a treaty layer for machines.",
     "body": "Independent authorities can recognize identities, delegate capabilities, and revoke trust across organizational and national boundaries, without surrendering their own root of trust.",
     "notLine": "No central authority. No shared sovereign. No required cloud.",
@@ -38,7 +42,6 @@
       },
       "states": {
         "label": "For states & institutions →",
-        "brief": "Treaty brief",
         "architecture": "Architecture",
         "channel": "Direct channel"
       }
@@ -352,7 +355,6 @@
       "who": "For states & institutions",
       "title": "Evaluate the protocol, proof, and governance boundary.",
       "desc": "Review the public architecture and reproducible evidence, then open a direct channel for institutional deployment questions.",
-      "cta": "Read the strategic brief →",
       "altText": "Direct channel: authority@genesismesh.org →"
     }
   },
@@ -360,8 +362,7 @@
     "copyright": "© 2026 Genesis Mesh Contributors",
     "links": {
       "docs": "Docs",
-      "devHub": "Dev Hub",
-      "story": "The Story"
+      "devHub": "Dev Hub"
     },
     "signature": "Builds of this site are signed under Genesis Mesh authority.",
     "tagline": "SOVEREIGNTY IS CODE",

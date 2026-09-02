@@ -42,7 +42,6 @@
       },
       "states": {
         "label": "Dövlətlər və institutlar üçün →",
-        "brief": "Müqavilə xülasəsi",
         "architecture": "Arxitektura",
         "channel": "Birbaşa kanal"
       }
@@ -256,7 +255,6 @@
       "who": "Dövlətlər və qurumlar üçün",
       "title": "Protokolu, sübutu və idarəetmə sərhədini qiymətləndirin.",
       "desc": "İctimai arxitektura və təkrarlana bilən sübutları nəzərdən keçirin, sonra institusional yerləşdirmə sualları üçün birbaşa kanal açın.",
-      "cta": "Strateji hesabatı oxuyun →",
       "altText": "Birbaşa kanal: authority@genesismesh.org →"
     }
   },
@@ -264,8 +262,7 @@
     "copyright": "© 2026 Genesis Mesh iştirakçıları",
     "links": {
       "docs": "Sənədlər",
-      "devHub": "Tərtibatçı mərkəzi",
-      "story": "Hekayə"
+      "devHub": "Tərtibatçı mərkəzi"
     },
     "signature": "Bu saytın yığımları Genesis Mesh səlahiyyəti ilə imzalanır.",
     "tagline": "SUVERENLİK KODDUR",

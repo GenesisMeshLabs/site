@@ -42,7 +42,6 @@
       },
       "states": {
         "label": "Untuk negara & institusi →",
-        "brief": "Ringkasan perjanjian",
         "architecture": "Senibina",
         "channel": "Saluran langsung"
       }
@@ -256,7 +255,6 @@
       "who": "Untuk negeri & institusi",
       "title": "Nilai protokol, bukti, dan sempadan tadbir urus.",
       "desc": "Semak seni bina awam dan bukti yang boleh diterbitkan semula, kemudian buka saluran langsung untuk soalan penempatan institusi.",
-      "cta": "Baca ringkasan strategik →",
       "altText": "Saluran langsung: authority@genesismesh.org →"
     }
   },
@@ -264,8 +262,7 @@
     "copyright": "© 2026 Penyumbang Genesis Mesh",
     "links": {
       "docs": "Dokumentasi",
-      "devHub": "Hab Pembangun",
-      "story": "Kisahnya"
+      "devHub": "Hab Pembangun"
     },
     "signature": "Binaan laman ini ditandatangani di bawah kuasa sah Genesis Mesh.",
     "tagline": "KEDAULATAN IALAH KOD",

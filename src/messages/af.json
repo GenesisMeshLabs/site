@@ -42,7 +42,6 @@
       },
       "states": {
         "label": "Vir state en instellings →",
-        "brief": "Verdragsverslag",
         "architecture": "Argitektuur",
         "channel": "Direkte kanaal"
       }
@@ -256,7 +255,6 @@
       "who": "Vir state en instellings",
       "title": "Evalueer die protokol, bewys en bestuursgrens.",
       "desc": "Hersien die openbare argitektuur en reproduceerbare bewyse, maak dan 'n direkte kanaal oop vir institusionele ontplooiingsvrae.",
-      "cta": "Lees die strategiese opdrag →",
       "altText": "Direkte kanaal: authority@genesismesh.org →"
     }
   },
@@ -264,8 +262,7 @@
     "copyright": "© 2026 Genesis Mesh-bydraers",
     "links": {
       "docs": "Dokumentasie",
-      "devHub": "Ontwikkelaarspilpunt",
-      "story": "Die verhaal"
+      "devHub": "Ontwikkelaarspilpunt"
     },
     "signature": "Samestellings van hierdie webwerf word onder Genesis Mesh-gesag onderteken.",
     "tagline": "SOEWEREINITEIT IS KODE",

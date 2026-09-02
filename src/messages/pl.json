@@ -42,7 +42,6 @@
       },
       "states": {
         "label": "Dla państw i instytucji →",
-        "brief": "Podsumowanie traktatu",
         "architecture": "Architektura",
         "channel": "Kanał bezpośredni"
       }
@@ -256,7 +255,6 @@
       "who": "Dla państw i instytucji",
       "title": "Oceń protokół, dowód i granicę zarządzania.",
       "desc": "Przejrzyj architekturę publiczną i powtarzalne dowody, a następnie otwórz bezpośredni kanał pytań dotyczących wdrażania instytucjonalnego.",
-      "cta": "Przeczytaj brief strategiczny →",
       "altText": "Kanał bezpośredni: authority@genesismesh.org →"
     }
   },
@@ -264,8 +262,7 @@
     "copyright": "© 2026 Współtwórcy Genesis Mesh",
     "links": {
       "docs": "Dokumentacja",
-      "devHub": "Dev Hub",
-      "story": "Historia"
+      "devHub": "Dev Hub"
     },
     "signature": "Kompilacje tej strony są podpisane w ramach uprawnień Genesis Mesh.",
     "tagline": "SUWERENNOŚĆ TO KOD",

@@ -42,7 +42,6 @@
       },
       "states": {
         "label": "Za države in institucije →",
-        "brief": "Povzetek pogodbe",
         "architecture": "Arhitektura",
         "channel": "Neposredni kanal"
       }
@@ -256,7 +255,6 @@
       "who": "Za države in institucije",
       "title": "Ocenite mejo protokola, dokazila in upravljanja.",
       "desc": "Preglejte javno arhitekturo in ponovljive dokaze, nato pa odprite neposreden kanal za vprašanja institucionalne uvedbe.",
-      "cta": "Preberite strateški brief →",
       "altText": "Neposredni kanal: authority@genesismesh.org →"
     }
   },
@@ -264,8 +262,7 @@
     "copyright": "© 2026 sodelavci projekta Genesis Mesh",
     "links": {
       "docs": "Dokumentacija",
-      "devHub": "Razvojno središče",
-      "story": "Zgodba"
+      "devHub": "Razvojno središče"
     },
     "signature": "Graditve tega spletnega mesta so podpisane s pristojnostjo Genesis Mesh.",
     "tagline": "SUVERENOST JE KODA",

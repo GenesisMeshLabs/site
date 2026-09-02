@@ -42,7 +42,6 @@
       },
       "states": {
         "label": "For stater og institusjoner →",
-        "brief": "Traktatsammendrag",
         "architecture": "Arkitektur",
         "channel": "Direkte kanal"
       }
@@ -256,7 +255,6 @@
       "who": "For stater og institusjoner",
       "title": "Evaluer protokollen, beviset og styringsgrensen.",
       "desc": "Gjennomgå den offentlige arkitekturen og reproduserbare bevis, og åpne deretter en direkte kanal for spørsmål om institusjonell distribusjon.",
-      "cta": "Les den strategiske briefen →",
       "altText": "Direkte kanal: authority@genesismesh.org →"
     }
   },
@@ -264,8 +262,7 @@
     "copyright": "© 2026 Bidragsytere til Genesis Mesh",
     "links": {
       "docs": "Dokumentasjon",
-      "devHub": "Utviklerportal",
-      "story": "Fortellingen"
+      "devHub": "Utviklerportal"
     },
     "signature": "Bygg av dette nettstedet signeres under Genesis Mesh-myndighet.",
     "tagline": "SUVERENITET ER KODE",

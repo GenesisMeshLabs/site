@@ -42,7 +42,6 @@
       },
       "states": {
         "label": "Devletler ve kurumlar için →",
-        "brief": "Antlaşma özeti",
         "architecture": "Mimari",
         "channel": "Doğrudan kanal"
       }
@@ -256,7 +255,6 @@
       "who": "Eyaletler ve kurumlar için",
       "title": "Protokolü, kanıtı ve yönetişim sınırını değerlendirin.",
       "desc": "Kamu mimarisini ve tekrarlanabilir kanıtları gözden geçirin, ardından kurumsal dağıtım soruları için doğrudan bir kanal açın.",
-      "cta": "Stratejik özeti okuyun →",
       "altText": "Doğrudan kanal: authority@genesismesh.org →"
     }
   },
@@ -264,8 +262,7 @@
     "copyright": "© 2026 Genesis Mesh Katkıda Bulunanları",
     "links": {
       "docs": "Belgeler",
-      "devHub": "Geliştirici Merkezi",
-      "story": "Hikâye"
+      "devHub": "Geliştirici Merkezi"
     },
     "signature": "Bu sitenin derlemeleri Genesis Mesh yetkisi altında imzalanır.",
     "tagline": "EGEMENLİK KODDUR",

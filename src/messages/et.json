@@ -42,7 +42,6 @@
       },
       "states": {
         "label": "Riikidele ja institutsioonidele →",
-        "brief": "Lepingu ülevaade",
         "architecture": "Arhitektuur",
         "channel": "Otsekanal"
       }
@@ -256,7 +255,6 @@
       "who": "Riikide ja institutsioonide jaoks",
       "title": "Hinnake protokolli, tõestust ja juhtimispiiri.",
       "desc": "Vaadake üle avalik arhitektuur ja reprodutseeritavad tõendid ning avage seejärel otsene kanal institutsionaalsete kasutuselevõtu küsimuste jaoks.",
-      "cta": "Lugege strateegilist ülevaadet →",
       "altText": "Otsekanal: authority@genesismesh.org →"
     }
   },
@@ -264,8 +262,7 @@
     "copyright": "© 2026 Genesis Mesh kaastöötajad",
     "links": {
       "docs": "Dokumentatsioon",
-      "devHub": "Arenduskeskus",
-      "story": "Lugu"
+      "devHub": "Arenduskeskus"
     },
     "signature": "Selle saidi versioonid allkirjastatakse Genesis Mesh volituse alusel.",
     "tagline": "SUVERÄÄNSUS ON KOOD",

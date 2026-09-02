@@ -42,7 +42,6 @@
       },
       "states": {
         "label": "Para Estados e instituições →",
-        "brief": "Resumo do tratado",
         "architecture": "Arquitetura",
         "channel": "Canal direto"
       }
@@ -256,7 +255,6 @@
       "who": "Para estados e instituições",
       "title": "Avalie o protocolo, a prova e o limite de governança.",
       "desc": "Rever a arquitectura pública e as provas reproduzíveis e, em seguida, abrir um canal directo para questões de implantação institucional.",
-      "cta": "Leia o resumo estratégico →",
       "altText": "Canal direto: authority@genesismesh.org →"
     }
   },
@@ -264,8 +262,7 @@
     "copyright": "© 2026 Colaboradores da Genesis Mesh",
     "links": {
       "docs": "Documentação",
-      "devHub": "Dev Hub",
-      "story": "A História"
+      "devHub": "Dev Hub"
     },
     "signature": "As builds deste site são assinadas sob autoridade da Genesis Mesh.",
     "tagline": "SOBERANIA É CÓDIGO",

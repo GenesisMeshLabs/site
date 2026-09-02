@@ -27,10 +27,7 @@ export default function Closing() {
           <div className="who">{t('strategic.who')}</div>
           <h3>{t('strategic.title')}</h3>
           <p>{t('strategic.desc')}</p>
-          <a className="btn" href="https://story.thaersaidi.com/" target="_blank" rel="noopener noreferrer">
-            {t('strategic.cta')}
-          </a>
-          <a className="alt" href="mailto:authority@genesismesh.org?subject=Genesis%20Mesh">
+          <a className="btn" href="mailto:authority@genesismesh.org?subject=Genesis%20Mesh">
             {t('strategic.altText')}
           </a>
         </div>

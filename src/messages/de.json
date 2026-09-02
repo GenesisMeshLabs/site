@@ -42,7 +42,6 @@
       },
       "states": {
         "label": "Für Staaten und Institutionen →",
-        "brief": "Vertragsbriefing",
         "architecture": "Architektur",
         "channel": "Direkter Kanal"
       }
@@ -256,7 +255,6 @@
       "who": "Für Staaten & Institutionen",
       "title": "Bewerten Sie das Protokoll, den Beweis und die Governance-Grenze.",
       "desc": "Überprüfen Sie die öffentliche Architektur und reproduzierbare Beweise und eröffnen Sie dann einen direkten Kanal für Fragen zur institutionellen Bereitstellung.",
-      "cta": "Lesen Sie das strategische Briefing →",
       "altText": "Direkter Kanal: authority@genesismesh.org →"
     }
   },
@@ -264,8 +262,7 @@
     "copyright": "© 2026 Genesis Mesh Mitwirkende",
     "links": {
       "docs": "Dokumentation",
-      "devHub": "Dev Hub",
-      "story": "Die Geschichte"
+      "devHub": "Dev Hub"
     },
     "signature": "Builds dieser Website sind unter Genesis Mesh-Autorität signiert.",
     "tagline": "SOUVERÄNITÄT IST CODE",

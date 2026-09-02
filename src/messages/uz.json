@@ -42,7 +42,6 @@
       },
       "states": {
         "label": "Davlatlar va muassasalar uchun →",
-        "brief": "Shartnoma xulosasi",
         "architecture": "Arxitektura",
         "channel": "Bevosita kanal"
       }
@@ -256,7 +255,6 @@
       "who": "Davlatlar va muassasalar uchun",
       "title": "Protokol, isbot va boshqaruv chegarasini baholang.",
       "desc": "Jamoat arxitekturasini va takrorlanadigan dalillarni ko'rib chiqing, so'ngra institutsional joylashtirish savollari uchun to'g'ridan-to'g'ri kanalni oching.",
-      "cta": "Strategik qisqacha ma'lumotni o'qing →",
       "altText": "Bevosita kanal: authority@genesismesh.org →"
     }
   },
@@ -264,8 +262,7 @@
     "copyright": "© 2026 Genesis Mesh hissa qo‘shuvchilari",
     "links": {
       "docs": "Hujjatlar",
-      "devHub": "Dasturchilar markazi",
-      "story": "Hikoya"
+      "devHub": "Dasturchilar markazi"
     },
     "signature": "Ushbu sayt yig‘ilmalari Genesis Mesh vakolati bilan imzolanadi.",
     "tagline": "SUVERENITET BU KOD",

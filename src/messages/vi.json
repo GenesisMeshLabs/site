@@ -42,7 +42,6 @@
       },
       "states": {
         "label": "Dành cho nhà nước & tổ chức →",
-        "brief": "Bản tóm tắt hiệp ước",
         "architecture": "Kiến trúc",
         "channel": "Kênh trực tiếp"
       }
@@ -256,7 +255,6 @@
       "who": "Dành cho các tiểu bang và tổ chức",
       "title": "Đánh giá giao thức, bằng chứng và ranh giới quản trị.",
       "desc": "Xem xét cấu trúc công cộng và bằng chứng có thể tái tạo, sau đó mở kênh trực tiếp cho các câu hỏi về triển khai thể chế.",
-      "cta": "Đọc tóm tắt chiến lược →",
       "altText": "Kênh trực tiếp: authority@genesismesh.org →"
     }
   },
@@ -264,8 +262,7 @@
     "copyright": "© 2026 Những người đóng góp Genesis Mesh",
     "links": {
       "docs": "Tài liệu",
-      "devHub": "Dev Hub",
-      "story": "Câu Chuyện"
+      "devHub": "Dev Hub"
     },
     "signature": "Các bản dựng của trang này được ký dưới thẩm quyền Genesis Mesh.",
     "tagline": "CHỦ QUYỀN LÀ MÃ NGUỒN",

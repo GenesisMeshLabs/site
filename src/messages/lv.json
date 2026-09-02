@@ -42,7 +42,6 @@
       },
       "states": {
         "label": "Valstīm un iestādēm →",
-        "brief": "Līguma kopsavilkums",
         "architecture": "Arhitektūra",
         "channel": "Tiešais kanāls"
       }
@@ -256,7 +255,6 @@
       "who": "Valstīm un iestādēm",
       "title": "Novērtējiet protokolu, pierādījumus un pārvaldības robežu.",
       "desc": "Pārskatiet publisko arhitektūru un atkārtojamos pierādījumus, pēc tam atveriet tiešu kanālu institucionālās izvietošanas jautājumiem.",
-      "cta": "Izlasiet stratēģisko ziņojumu →",
       "altText": "Tiešais kanāls: authority@genesismesh.org →"
     }
   },
@@ -264,8 +262,7 @@
     "copyright": "© 2026 Genesis Mesh līdzveidotāji",
     "links": {
       "docs": "Dokumentācija",
-      "devHub": "Izstrādātāju centrs",
-      "story": "Stāsts"
+      "devHub": "Izstrādātāju centrs"
     },
     "signature": "Šīs vietnes būvējumi ir parakstīti ar Genesis Mesh pilnvarojumu.",
     "tagline": "SUVERENITĀTE IR KODS",

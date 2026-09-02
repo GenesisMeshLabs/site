@@ -6,7 +6,6 @@ const RFC_URL = 'https://genesismesh.connectorzzz.com/rfcs/rfc-002-recognition-t
 const DEV_HUB_URL = 'https://dev.connectorzzz.com/';
 const RUN_URL =
   'https://github.com/GenesisMeshLabs/genesismesh/blob/main/docs/examples/cross-sovereign-revocation.md#run';
-const STORY_URL = 'https://story.thaersaidi.com/';
 const CHANNEL_URL = 'mailto:authority@genesismesh.org?subject=Genesis%20Mesh';
 
 export default function Hero() {
@@ -59,10 +58,6 @@ export default function Hero() {
           <div className="hero-audience">
             <span className="hero-audience-label">{t('audiences.states.label')}</span>
             <span className="hero-audience-links">
-              <a href={STORY_URL} target="_blank" rel="noopener noreferrer">
-                {t('audiences.states.brief')}
-              </a>
-              <span className="sep" aria-hidden="true">·</span>
               <a href="#mechanics">{t('audiences.states.architecture')}</a>
               <span className="sep" aria-hidden="true">·</span>
               <a href={CHANNEL_URL}>{t('audiences.states.channel')}</a>

@@ -42,7 +42,6 @@
       },
       "states": {
         "label": "Valstybėms ir institucijoms →",
-        "brief": "Sutarties apžvalga",
         "architecture": "Architektūra",
         "channel": "Tiesioginis kanalas"
       }
@@ -256,7 +255,6 @@
       "who": "Valstybėms ir institucijoms",
       "title": "Įvertinkite protokolą, įrodymą ir valdymo ribą.",
       "desc": "Peržiūrėkite viešąją architektūrą ir atkuriamus įrodymus, tada atidarykite tiesioginį institucinio diegimo klausimų kanalą.",
-      "cta": "Skaitykite strateginę trumpąją informaciją →",
       "altText": "Tiesioginis kanalas: authority@genesismesh.org →"
     }
   },
@@ -264,8 +262,7 @@
     "copyright": "© 2026 Genesis Mesh bendraautoriai",
     "links": {
       "docs": "Dokumentacija",
-      "devHub": "Kūrėjų centras",
-      "story": "Istorija"
+      "devHub": "Kūrėjų centras"
     },
     "signature": "Šios svetainės versijos pasirašomos naudojant Genesis Mesh įgaliojimus.",
     "tagline": "SUVERENITETAS YRA KODAS",

@@ -42,7 +42,6 @@
       },
       "states": {
         "label": "Pro státy a instituce →",
-        "brief": "Smluvní přehled",
         "architecture": "Architektura",
         "channel": "Přímý kanál"
       }
@@ -256,7 +255,6 @@
       "who": "Pro státy a instituce",
       "title": "Vyhodnoťte protokol, důkaz a hranici řízení.",
       "desc": "Prohlédněte si veřejnou architekturu a reprodukovatelné důkazy a poté otevřete přímý kanál pro otázky institucionálního nasazení.",
-      "cta": "Přečtěte si strategický brief →",
       "altText": "Přímý kanál: authority@genesismesh.org →"
     }
   },
@@ -264,8 +262,7 @@
     "copyright": "© 2026 Přispěvatelé Genesis Mesh",
     "links": {
       "docs": "Dokumentace",
-      "devHub": "Vývojářské centrum",
-      "story": "Příběh"
+      "devHub": "Vývojářské centrum"
     },
     "signature": "Sestavení tohoto webu jsou podepsána autoritou Genesis Mesh.",
     "tagline": "SUVERENITA JE KÓD",

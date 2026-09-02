@@ -42,7 +42,6 @@
       },
       "states": {
         "label": "Per als estats i les institucions →",
-        "brief": "Resum del tractat",
         "architecture": "Arquitectura",
         "channel": "Canal directe"
       }
@@ -256,7 +255,6 @@
       "who": "Per a estats i institucions",
       "title": "Avalueu el protocol, la prova i el límit de govern.",
       "desc": "Reviseu l'arquitectura pública i les proves reproduïbles i, a continuació, obriu un canal directe per a preguntes de desplegament institucional.",
-      "cta": "Llegeix el resum estratègic →",
       "altText": "Canal directe: authority@genesismesh.org →"
     }
   },
@@ -264,8 +262,7 @@
     "copyright": "© 2026 Col·laboradors de Genesis Mesh",
     "links": {
       "docs": "Documentació",
-      "devHub": "Centre de desenvolupament",
-      "story": "La història"
+      "devHub": "Centre de desenvolupament"
     },
     "signature": "Les compilacions d'aquest lloc estan signades sota l'autoritat de Genesis Mesh.",
     "tagline": "LA SOBIRANIA ÉS CODI",

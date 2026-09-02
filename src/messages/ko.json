@@ -42,7 +42,6 @@
       },
       "states": {
         "label": "국가 및 기관을 위한 →",
-        "brief": "조약 브리핑",
         "architecture": "아키텍처",
         "channel": "직접 채널"
       }
@@ -256,7 +255,6 @@
       "who": "국가 및 기관용",
       "title": "프로토콜, 증명, 거버넌스 경계를 평가합니다.",
       "desc": "공개 아키텍처와 재현 가능한 증거를 검토한 후 기관 배포 관련 질문에 대한 직접 채널을 개설하세요.",
-      "cta": "전략 개요 읽기 →",
       "altText": "직접 채널: authority@genesismesh.org →"
     }
   },
@@ -264,8 +262,7 @@
     "copyright": "© 2026 Genesis Mesh 기여자",
     "links": {
       "docs": "문서",
-      "devHub": "개발 허브",
-      "story": "스토리"
+      "devHub": "개발 허브"
     },
     "signature": "이 사이트의 빌드는 Genesis Mesh 권한으로 서명된다.",
     "tagline": "주권은 코드입니다",

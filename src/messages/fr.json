@@ -42,7 +42,6 @@
       },
       "states": {
         "label": "Pour les États et les institutions →",
-        "brief": "Note de traité",
         "architecture": "Architecture",
         "channel": "Canal direct"
       }
@@ -256,7 +255,6 @@
       "who": "Pour les Etats et les institutions",
       "title": "Évaluez le protocole, la preuve et les limites de gouvernance.",
       "desc": "Examinez l’architecture publique et les preuves reproductibles, puis ouvrez un canal direct pour les questions de déploiement institutionnel.",
-      "cta": "Lire la note stratégique →",
       "altText": "Canal direct : authority@genesismesh.org →"
     }
   },
@@ -264,8 +262,7 @@
     "copyright": "© 2026 Contributeurs Genesis Mesh",
     "links": {
       "docs": "Documentation",
-      "devHub": "Dev Hub",
-      "story": "L'Histoire"
+      "devHub": "Dev Hub"
     },
     "signature": "Les builds de ce site sont signés sous l'autorité Genesis Mesh.",
     "tagline": "LA SOUVERAINETÉ EST DU CODE",

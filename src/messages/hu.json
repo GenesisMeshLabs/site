@@ -42,7 +42,6 @@
       },
       "states": {
         "label": "Államoknak és intézményeknek →",
-        "brief": "Szerződési összefoglaló",
         "architecture": "Architektúra",
         "channel": "Közvetlen csatorna"
       }
@@ -256,7 +255,6 @@
       "who": "Államoknak és intézményeknek",
       "title": "Értékelje a protokollt, a bizonyítást és az irányítási határt.",
       "desc": "Tekintse át a nyilvános architektúrát és a reprodukálható bizonyítékokat, majd nyisson közvetlen csatornát az intézményi telepítési kérdésekhez.",
-      "cta": "Olvassa el a stratégiai összefoglalót →",
       "altText": "Közvetlen csatorna: authority@genesismesh.org →"
     }
   },
@@ -264,8 +262,7 @@
     "copyright": "© 2026 A Genesis Mesh közreműködői",
     "links": {
       "docs": "Dokumentáció",
-      "devHub": "Fejlesztői központ",
-      "story": "A történet"
+      "devHub": "Fejlesztői központ"
     },
     "signature": "A webhely összeállításait a Genesis Mesh felhatalmazása alatt írják alá.",
     "tagline": "A SZUVERENITÁS KÓD",

@@ -42,7 +42,6 @@
       },
       "states": {
         "label": "Pentru state și instituții →",
-        "brief": "Rezumatul tratatului",
         "architecture": "Arhitectură",
         "channel": "Canal direct"
       }
@@ -256,7 +255,6 @@
       "who": "Pentru state și instituții",
       "title": "Evaluați protocolul, dovada și limita de guvernare.",
       "desc": "Examinați arhitectura publică și dovezile reproductibile, apoi deschideți un canal direct pentru întrebări privind implementarea instituțională.",
-      "cta": "Citiți brief-ul strategic →",
       "altText": "Canal direct: authority@genesismesh.org →"
     }
   },
@@ -264,8 +262,7 @@
     "copyright": "© 2026 Contributorii Genesis Mesh",
     "links": {
       "docs": "Documentație",
-      "devHub": "Centru pentru dezvoltatori",
-      "story": "Povestea"
+      "devHub": "Centru pentru dezvoltatori"
     },
     "signature": "Build-urile acestui site sunt semnate sub autoritatea Genesis Mesh.",
     "tagline": "SUVERANITATEA ESTE COD",

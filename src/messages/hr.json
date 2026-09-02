@@ -42,7 +42,6 @@
       },
       "states": {
         "label": "Za države i institucije →",
-        "brief": "Sažetak ugovora",
         "architecture": "Arhitektura",
         "channel": "Izravni kanal"
       }
@@ -256,7 +255,6 @@
       "who": "Za države i institucije",
       "title": "Ocijenite protokol, dokaz i granicu upravljanja.",
       "desc": "Pregledajte javnu arhitekturu i ponovljive dokaze, a zatim otvorite izravan kanal za pitanja institucionalne implementacije.",
-      "cta": "Pročitajte strateški sažetak →",
       "altText": "Izravni kanal: authority@genesismesh.org →"
     }
   },
@@ -264,8 +262,7 @@
     "copyright": "© 2026 Suradnici projekta Genesis Mesh",
     "links": {
       "docs": "Dokumentacija",
-      "devHub": "Razvojno središte",
-      "story": "Priča"
+      "devHub": "Razvojno središte"
     },
     "signature": "Međuverzije ove stranice potpisane su ovlastima sustava Genesis Mesh.",
     "tagline": "SUVERENITET JE KOD",

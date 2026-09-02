@@ -42,7 +42,6 @@
       },
       "states": {
         "label": "Voor staten en instellingen →",
-        "brief": "Verdragsoverzicht",
         "architecture": "Architectuur",
         "channel": "Direct kanaal"
       }
@@ -256,7 +255,6 @@
       "who": "Voor staten en instellingen",
       "title": "Evalueer de grenzen van het protocol, het bewijs en het bestuur.",
       "desc": "Bekijk de publieke architectuur en het reproduceerbare bewijsmateriaal en open vervolgens een direct kanaal voor vragen over institutionele implementatie.",
-      "cta": "Lees de strategische briefing →",
       "altText": "Direct kanaal: authority@genesismesh.org →"
     }
   },
@@ -264,8 +262,7 @@
     "copyright": "© 2026 Genesis Mesh-bijdragers",
     "links": {
       "docs": "Documentatie",
-      "devHub": "Dev Hub",
-      "story": "Het Verhaal"
+      "devHub": "Dev Hub"
     },
     "signature": "Builds van deze site zijn ondertekend onder Genesis Mesh-gezag.",
     "tagline": "SOEVEREINITEIT IS CODE",

@@ -42,7 +42,6 @@
       },
       "states": {
         "label": "Untuk negara & institusi →",
-        "brief": "Ringkasan perjanjian",
         "architecture": "Arsitektur",
         "channel": "Kanal langsung"
       }
@@ -256,7 +255,6 @@
       "who": "Untuk negara bagian & institusi",
       "title": "Evaluasi batasan protokol, bukti, dan tata kelola.",
       "desc": "Tinjau arsitektur publik dan bukti yang dapat direproduksi, lalu buka saluran langsung untuk pertanyaan penerapan kelembagaan.",
-      "cta": "Baca ringkasan strategis →",
       "altText": "Kanal langsung: authority@genesismesh.org →"
     }
   },
@@ -264,8 +262,7 @@
     "copyright": "© 2026 Kontributor Genesis Mesh",
     "links": {
       "docs": "Dokumentasi",
-      "devHub": "Dev Hub",
-      "story": "Kisahnya"
+      "devHub": "Dev Hub"
     },
     "signature": "Build situs ini ditandatangani di bawah wewenang Genesis Mesh.",
     "tagline": "KEDAULATAN ADALAH KODE",

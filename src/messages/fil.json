@@ -42,7 +42,6 @@
       },
       "states": {
         "label": "Para sa mga Estado at Institusyon →",
-        "brief": "Buod ng kasunduan",
         "architecture": "Arkitektura",
         "channel": "Direktang channel"
       }
@@ -256,7 +255,6 @@
       "who": "Para sa mga estado at institusyon",
       "title": "Suriin ang protocol, patunay, at hangganan ng pamamahala.",
       "desc": "Suriin ang pampublikong arkitektura at reproducible na ebidensya, pagkatapos ay magbukas ng direktang channel para sa mga katanungan sa pag-deploy ng institusyon.",
-      "cta": "Basahin ang strategic brief →",
       "altText": "Direktang channel: authority@genesismesh.org →"
     }
   },
@@ -264,8 +262,7 @@
     "copyright": "© 2026 Mga Kontribyutor ng Genesis Mesh",
     "links": {
       "docs": "Dokumentasyon",
-      "devHub": "Dev Hub",
-      "story": "Ang Kuwento"
+      "devHub": "Dev Hub"
     },
     "signature": "Ang mga build ng site na ito ay nilagdaan sa ilalim ng awtoridad ng Genesis Mesh.",
     "tagline": "ANG SOBERANYA AY CODE",

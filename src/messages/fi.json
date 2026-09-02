@@ -42,7 +42,6 @@
       },
       "states": {
         "label": "Valtioille ja instituutioille →",
-        "brief": "Sopimuskatsaus",
         "architecture": "Arkkitehtuuri",
         "channel": "Suora kanava"
       }
@@ -256,7 +255,6 @@
       "who": "Valtioille ja instituutioille",
       "title": "Arvioi protokolla, todiste ja hallintoraja.",
       "desc": "Tarkista julkinen arkkitehtuuri ja toistettavat todisteet ja avaa sitten suora kanava institutionaalisille käyttöönottokysymyksille.",
-      "cta": "Lue strateginen selostus →",
       "altText": "Suora kanava: authority@genesismesh.org →"
     }
   },
@@ -264,8 +262,7 @@
     "copyright": "© 2026 Genesis Mesh -osallistujat",
     "links": {
       "docs": "Dokumentaatio",
-      "devHub": "Kehittäjäkeskus",
-      "story": "Kertomus"
+      "devHub": "Kehittäjäkeskus"
     },
     "signature": "Tämän sivuston koontiversiot allekirjoitetaan Genesis Mesh -määräysvallan alaisuudessa.",
     "tagline": "SUVERENITEETTI ON KOODIA",

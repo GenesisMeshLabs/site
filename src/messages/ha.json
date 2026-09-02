@@ -42,7 +42,6 @@
       },
       "states": {
         "label": "Ga Gwamnatoci da Cibiyoyi →",
-        "brief": "Taƙaitaccen yarjejeniya",
         "architecture": "Tsari",
         "channel": "Tashar kai tsaye"
       }
@@ -256,7 +255,6 @@
       "who": "Don jihohi & cibiyoyi\nSaukewa:",
       "title": "Ƙimar yarjejeniya, hujja, da iyakar mulki.\nSaukewa:",
       "desc": "Yi bitar gine-ginen jama'a da shaidar da za a iya maimaitawa, sannan buɗe tashar kai tsaye don tambayoyin tura hukumomi.\nSaukewa:",
-      "cta": "Karanta taƙaitaccen dabarun →",
       "altText": "Tashar kai tsaye: authority@genesismesh.org →"
     }
   },
@@ -264,8 +262,7 @@
     "copyright": "© 2026 Masu Ba da Gudummawa ga Genesis Mesh",
     "links": {
       "docs": "Takardu",
-      "devHub": "Cibiyar Masu Haɓakawa",
-      "story": "Labarin"
+      "devHub": "Cibiyar Masu Haɓakawa"
     },
     "signature": "Ana sanya wa sigogin wannan shafi hannu a ƙarƙashin ikon Genesis Mesh.",
     "tagline": "IKON KAI LAMBAR MANHAJA CE",

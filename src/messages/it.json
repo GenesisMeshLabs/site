@@ -42,7 +42,6 @@
       },
       "states": {
         "label": "Per Stati e istituzioni →",
-        "brief": "Resoconto del trattato",
         "architecture": "Architettura",
         "channel": "Canale diretto"
       }
@@ -256,7 +255,6 @@
       "who": "Per Stati e istituzioni",
       "title": "Valutare il protocollo, la prova e il confine di governance.",
       "desc": "Esaminare l’architettura pubblica e le prove riproducibili, quindi aprire un canale diretto per le domande sulla distribuzione istituzionale.",
-      "cta": "Leggi il brief strategico →",
       "altText": "Canale diretto: authority@genesismesh.org →"
     }
   },
@@ -264,8 +262,7 @@
     "copyright": "© 2026 Contributori Genesis Mesh",
     "links": {
       "docs": "Documentazione",
-      "devHub": "Dev Hub",
-      "story": "La Storia"
+      "devHub": "Dev Hub"
     },
     "signature": "Le build di questo sito sono firmate sotto l'autorità Genesis Mesh.",
     "tagline": "LA SOVRANITÀ È CODICE",

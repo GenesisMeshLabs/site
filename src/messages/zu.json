@@ -42,7 +42,6 @@
       },
       "states": {
         "label": "Kwamazwe Nezikhungo →",
-        "brief": "Isifinyezo sesivumelwano",
         "architecture": "Ulwakhiwo",
         "channel": "Umzila oqondile"
       }
@@ -256,7 +255,6 @@
       "who": "Okwezifunda nezikhungo\nI-",
       "title": "Linganisa iphrothokholi, ubufakazi, kanye nomngcele wokubusa.\nI-",
       "desc": "Buyekeza izakhiwo zomphakathi kanye nobufakazi obuphindaphindekayo, bese uvula umzila oqondile wemibuzo yesikhungo.\nI-",
-      "cta": "Funda umusho wamasu →",
       "altText": "Umzila oqondile: authority@genesismesh.org →"
     }
   },
@@ -264,8 +262,7 @@
     "copyright": "© 2026 Abanikeli be-Genesis Mesh",
     "links": {
       "docs": "Amadokhumenti",
-      "devHub": "I-Dev Hub",
-      "story": "Indaba"
+      "devHub": "I-Dev Hub"
     },
     "signature": "Ama-build ale sayithi asayinwa ngaphansi kwegunya le-Genesis Mesh.",
     "tagline": "UKUZIMELA KUYIKHODI",

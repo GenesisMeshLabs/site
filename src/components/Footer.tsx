@@ -19,9 +19,6 @@ export default function Footer() {
         <a href="https://dev.connectorzzz.com/" target="_blank" rel="noopener noreferrer">
           {t('links.devHub')}
         </a>
-        <a href="https://story.thaersaidi.com/" target="_blank" rel="noopener noreferrer">
-          {t('links.story')}
-        </a>
       </span>
 
       {/* Only claim the builds are signed when this build actually was. */}

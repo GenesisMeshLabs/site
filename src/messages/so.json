@@ -42,7 +42,6 @@
       },
       "states": {
         "label": "Dawladaha iyo Hay'adaha →",
-        "brief": "Soo-koobidda Heshiiska",
         "architecture": "Qaab-dhismeedka",
         "channel": "Xidhiidh Toos ah"
       }
@@ -256,7 +255,6 @@
       "who": "Loogu talagalay dawladaha & hay'adaha",
       "title": "Qiimee hab-maamuuska, caddaynta, iyo xudduudaha maamulka.",
       "desc": "Dib u eeg qaab dhismeedka guud iyo cadaymaha la soo saari karo, ka dibna u fur kanaal toos ah su'aalaha meelaynta hay'adaha.",
-      "cta": "Akhriso qoraalka istaraatiijiga ah →",
       "altText": "Xidhiidh toos ah: authority@genesismesh.org →"
     }
   },
@@ -264,8 +262,7 @@
     "copyright": "© 2026 Ka-qaybgalayaasha Genesis Mesh",
     "links": {
       "docs": "Dukumentiyada",
-      "devHub": "Xarunta Horumarinta",
-      "story": "Qisada"
+      "devHub": "Xarunta Horumarinta"
     },
     "signature": "Dhismayaasha boggan waxaa lagu saxeexaa awoodda Genesis Mesh.",
     "tagline": "MADAX-BANNAANIDU WAA KOOD",

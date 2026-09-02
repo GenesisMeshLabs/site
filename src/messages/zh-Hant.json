@@ -42,7 +42,6 @@
       },
       "states": {
         "label": "面向國家與機構 →",
-        "brief": "條約簡報",
         "architecture": "架構",
         "channel": "直接聯絡管道"
       }
@@ -256,7 +255,6 @@
       "who": "對於國家和機構",
       "title": "評估協議、證明和治理邊界。",
       "desc": "檢視公共架構和可重複的證據，然後為機構部署問題開闢直接管道。",
-      "cta": "閱讀戰略簡報 →",
       "altText": "直接聯絡管道：authority@genesismesh.org →"
     }
   },
@@ -264,8 +262,7 @@
     "copyright": "© 2026 Genesis Mesh 貢獻者",
     "links": {
       "docs": "文件",
-      "devHub": "開發者中心",
-      "story": "完整故事"
+      "devHub": "開發者中心"
     },
     "signature": "本站的建置版本均依 Genesis Mesh 授權權完成簽署。",
     "tagline": "主權就是程式碼",

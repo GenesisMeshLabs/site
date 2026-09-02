@@ -42,7 +42,6 @@
       },
       "states": {
         "label": "Kwa mataifa na taasisi →",
-        "brief": "Muhtasari wa mkataba",
         "architecture": "Usanifu",
         "channel": "Njia ya moja kwa moja"
       }
@@ -256,7 +255,6 @@
       "who": "Kwa majimbo na taasisi",
       "title": "Tathmini itifaki, uthibitisho, na mipaka ya utawala.",
       "desc": "Kagua usanifu wa umma na ushahidi unaoweza kutolewa tena, kisha ufungue mkondo wa moja kwa moja kwa maswali ya upelekaji wa taasisi.",
-      "cta": "Soma muhtasari wa kimkakati →",
       "altText": "Njia ya moja kwa moja: authority@genesismesh.org →"
     }
   },
@@ -264,8 +262,7 @@
     "copyright": "© 2026 Wachangiaji wa Genesis Mesh",
     "links": {
       "docs": "Nyaraka",
-      "devHub": "Kituo cha Wasanidi",
-      "story": "Simulizi"
+      "devHub": "Kituo cha Wasanidi"
     },
     "signature": "Matoleo ya tovuti hii yamesainiwa chini ya mamlaka ya Genesis Mesh.",
     "tagline": "UHURU WA KUJITAWALA NI MSIMBO",

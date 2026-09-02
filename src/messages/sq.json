@@ -42,7 +42,6 @@
       },
       "states": {
         "label": "Për shtetet dhe institucionet →",
-        "brief": "Përmbledhja e traktatit",
         "architecture": "Arkitektura",
         "channel": "Kanal i drejtpërdrejtë"
       }
@@ -256,7 +255,6 @@
       "who": "Për shtetet dhe institucionet",
       "title": "Vlerësoni protokollin, provën dhe kufirin e qeverisjes.",
       "desc": "Rishikoni arkitekturën publike dhe dëshmitë e riprodhueshme, më pas hapni një kanal të drejtpërdrejtë për pyetjet e vendosjes institucionale.",
-      "cta": "Lexoni përmbledhjen strategjike →",
       "altText": "Kanal i drejtpërdrejtë: authority@genesismesh.org →"
     }
   },
@@ -264,8 +262,7 @@
     "copyright": "© 2026 Kontribuesit e Genesis Mesh",
     "links": {
       "docs": "Dokumentacioni",
-      "devHub": "Qendra e Zhvilluesve",
-      "story": "Historia"
+      "devHub": "Qendra e Zhvilluesve"
     },
     "signature": "Versionet e këtij sajti nënshkruhen nën autoritetin e Genesis Mesh.",
     "tagline": "SOVRANITETI ËSHTË KOD",
