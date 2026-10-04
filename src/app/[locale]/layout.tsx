@@ -59,10 +59,10 @@ export async function generateMetadata({
       alternateLocale: locales.filter((c) => c !== locale).map((c) => OG_LOCALES[c]),
       images: [
         {
-          url: '/assets/icons/logo.png',
+          url: '/assets/social-card.png',
           width: 1200,
           height: 630,
-          alt: 'Genesis Mesh',
+          alt: 'Genesis Mesh, the Treaty Layer for Machines',
         },
       ],
     },
@@ -70,7 +70,7 @@ export async function generateMetadata({
       card: 'summary_large_image',
       title: t('title'),
       description: t('description'),
-      images: ['/assets/icons/logo.png'],
+      images: ['/assets/social-card.png'],
     },
     robots: {
       index: true,

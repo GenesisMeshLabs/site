@@ -16,7 +16,7 @@ export type LiveProofData = {
   trustCycle?: { status: 'verified' | 'not_observed'; completedAt: string | null; freshness: string };
 };
 
-export const AUTHORITY_URL = 'https://na.genesismesh.connectorzzz.com';
+export const AUTHORITY_URL = 'https://na.genesismesh.org';
 const REQUEST_TIMEOUT_MS = 5000;
 
 type JsonRecord = Record<string, unknown>;
