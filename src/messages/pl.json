@@ -10,7 +10,10 @@
       "docs": "Dokumentacja",
       "proof": "Dowód",
       "live": "Sieć na żywo",
-      "strategy": "Strategia"
+      "strategy": "Strategia",
+      "concepts": "Koncepcje",
+      "liveMesh": "Sieć na żywo",
+      "github": "GitHub"
     }
   },
   "ui": {
@@ -47,7 +50,14 @@
       }
     },
     "scroll": "Przewiń ↓",
-    "vlabel": "Infrastruktura neutralna wobec suwerenności"
+    "vlabel": "Infrastruktura neutralna wobec suwerenności",
+    "tryIt": {
+      "primary": "Wypróbuj sieć na żywo",
+      "docs": "Szybki start",
+      "local": "Lub uruchom własny organ lokalnie:",
+      "copy": "Kopiuj",
+      "copied": "Skopiowano"
+    }
   },
   "stakes": {
     "label": "Suwerenność",
@@ -139,7 +149,7 @@
   "protocol": {
     "label": "Protokół",
     "title": "Otwarty program RFC, kształtowany przez standardy, a nie przez dostawcę.",
-    "subtitle": "Implementacja referencyjna Python oraz zestawy SDK TypeScript, Go i .NET są koordynowane w v0.56.0. Pakiet podstawowy zawiera testy 1,327, z formalnym protokołem udokumentowanym na potrzeby weryfikacji Tamarin.",
+    "subtitle": "Implementacja referencyjna w Pythonie oraz SDK dla TypeScriptu, Go, .NET i Rusta są skoordynowane w wersji v{version}. Główny zestaw ma {tests} testów, a formalne dowody protokołu są udokumentowane na potrzeby weryfikacji narzędziem Tamarin.",
     "stack": {
       "title": "Stos",
       "l1": {
@@ -162,42 +172,42 @@
       {
         "id": "RFC-001",
         "name": "Tożsamość suwerenna",
-        "status": "Protokół"
+        "status": "Przyjęty"
       },
       {
         "id": "RFC-002",
         "name": "Traktaty uznania",
-        "status": "Protokół"
+        "status": "Przyjęty"
       },
       {
         "id": "RFC-003",
         "name": "Pakiety zaufania",
-        "status": "Protokół"
+        "status": "Przyjęty"
       },
       {
         "id": "RFC-004",
         "name": "Kanały odwołań",
-        "status": "Protokół"
+        "status": "Przyjęty"
       },
       {
         "id": "RFC-005",
         "name": "Manifesty uprawnień",
-        "status": "Protokół"
+        "status": "Projekt"
       },
       {
         "id": "RFC-006",
         "name": "Model konektomu",
-        "status": "Protokół"
+        "status": "Projekt"
       },
       {
         "id": "RFC-007",
         "name": "Ciągłość operatora",
-        "status": "Protokół"
+        "status": "Projekt"
       },
       {
         "id": "RFC-008",
         "name": "Rola operatora zarządzanego",
-        "status": "Protokół"
+        "status": "Projekt"
       }
     ],
     "live": {
@@ -244,11 +254,17 @@
     "title": "Kompiluj z Genesis Mesh.",
     "titleAccent": "Zachowaj swój autorytet.",
     "subtitle": "Wybierz ścieżkę adopcyjną odpowiadającą Twojej roli, nie rezygnując z własnych decyzji dotyczących zaufania.",
+    "operators": {
+      "who": "Dla operatorów",
+      "title": "Prowadź własną suwerenną domenę.",
+      "desc": "Zachowaj własne klucze i politykę: uruchom organ sieci, uznawaj partnerów traktatem i odwołuj na własnych warunkach.",
+      "cta": "Przeczytaj przewodnik operatora →"
+    },
     "builders": {
       "who": "Dla programistów",
       "title": "Postaw własną suwerenną domenę zaufania.",
-      "desc": "Przeczytaj RFC, pobierz SDK dla TypeScript, Go i .NET i postaw Suwerenną Wspólnotę L2 na infrastrukturze, którą już masz.",
-      "cta": "Wejdź do Dev Hub →",
+      "desc": "Przeczytaj RFC, użyj SDK dla Pythona, TypeScriptu, Go, .NET lub Rusta i zbuduj suwerenną społeczność L2 na infrastrukturze, którą już posiadasz.",
+      "cta": "Poznaj SDK →",
       "altText": "Organizacja open source →"
     },
     "strategic": {
@@ -333,7 +349,8 @@
       "recorded": "Otwórz zarejestrowany dowód",
       "run": "Uruchom ten dowód samodzielnie",
       "protocol": "Przeczytaj RFC-002 i RFC-004"
-    }
+    },
+    "runBrowser": "Lub wypróbuj w przeglądarce, bez instalacji:"
   },
   "liveNetwork": {
     "label": "Dowód na żywo",
@@ -370,7 +387,7 @@
     "dashboard": "Sprawdź publiczny pulpit",
     "notReported": "Nie zgłoszono",
     "browserFallback": {
-      "title": "Telemetria na żywo wymaga dostępu do przeglądarki.",
+      "title": "Dane na żywo są tymczasowo niedostępne.",
       "description": "Nagrane i niezależnie odtwarzalne dowody są dostępne poniżej."
     },
     "proofAvailability": "Nagrane i niezależnie odtwarzalne dowody są nadal dostępne za pośrednictwem poniższych łączy."

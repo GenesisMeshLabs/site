@@ -10,7 +10,10 @@
       "docs": "Belgeler",
       "proof": "Kanıt",
       "live": "Canlı Ağ",
-      "strategy": "Strateji"
+      "strategy": "Strateji",
+      "concepts": "Kavramlar",
+      "liveMesh": "Canlı ağ",
+      "github": "GitHub"
     }
   },
   "ui": {
@@ -47,7 +50,14 @@
       }
     },
     "scroll": "Kaydır ↓",
-    "vlabel": "Egemenlik Açısından Tarafsız Altyapı"
+    "vlabel": "Egemenlik Açısından Tarafsız Altyapı",
+    "tryIt": {
+      "primary": "Canlı ağı deneyin",
+      "docs": "Hızlı başlangıç",
+      "local": "Ya da kendi otoritenizi yerel olarak çalıştırın:",
+      "copy": "Kopyala",
+      "copied": "Kopyalandı"
+    }
   },
   "stakes": {
     "label": "Egemenlik",
@@ -139,7 +149,7 @@
   "protocol": {
     "label": "Protokol",
     "title": "Açık bir RFC programı: tedarikçinin değil, standartların biçimlendirdiği.",
-    "subtitle": "Python referans uygulaması ve TypeScript, Go ve .NET SDK'ları v0.56.0'de koordine edilir. Çekirdek paket, Tamarin doğrulaması için belgelenen resmi protokol kanıtlarıyla birlikte 1,327 testlerine sahiptir.",
+    "subtitle": "Python referans uygulaması ile TypeScript, Go, .NET ve Rust SDK'ları v{version} sürümünde koordine edilmiştir. Çekirdek pakette {tests} test bulunur ve Tamarin doğrulaması için resmi protokol kanıtları belgelenmiştir.",
     "stack": {
       "title": "Yığın",
       "l1": {
@@ -162,42 +172,42 @@
       {
         "id": "RFC-001",
         "name": "Egemen Kimlik",
-        "status": "Protokol"
+        "status": "Kabul edildi"
       },
       {
         "id": "RFC-002",
         "name": "Tanıma Antlaşmaları",
-        "status": "Protokol"
+        "status": "Kabul edildi"
       },
       {
         "id": "RFC-003",
         "name": "Güven Paketleri",
-        "status": "Protokol"
+        "status": "Kabul edildi"
       },
       {
         "id": "RFC-004",
         "name": "Geri Alma Akışları",
-        "status": "Protokol"
+        "status": "Kabul edildi"
       },
       {
         "id": "RFC-005",
         "name": "Yetenek Bildirimleri",
-        "status": "Protokol"
+        "status": "Taslak"
       },
       {
         "id": "RFC-006",
         "name": "Bağlantı Modeli",
-        "status": "Protokol"
+        "status": "Taslak"
       },
       {
         "id": "RFC-007",
         "name": "İşletmeci Sürekliliği",
-        "status": "Protokol"
+        "status": "Taslak"
       },
       {
         "id": "RFC-008",
         "name": "Yönetilen İşletmeci Rolü",
-        "status": "Protokol"
+        "status": "Taslak"
       }
     ],
     "live": {
@@ -244,11 +254,17 @@
     "title": "Genesis Mesh ile oluşturun.",
     "titleAccent": "Otoritenizi koruyun.",
     "subtitle": "Kendi güven kararlarınızdan vazgeçmeden, rolünüze uygun benimseme yolunu seçin.",
+    "operators": {
+      "who": "Operatörler için",
+      "title": "Kendi egemen alanınızı yönetin.",
+      "desc": "Kendi anahtarlarınızı ve politikanızı elinizde tutun: bir Ağ Otoritesi başlatın, eşleri antlaşmayla tanıyın ve kendi koşullarınızla iptal edin.",
+      "cta": "Operatör kılavuzunu okuyun →"
+    },
     "builders": {
       "who": "Yazılım geliştiriciler için",
       "title": "Kendi egemen güven alanınızı ayağa kaldırın.",
-      "desc": "RFC'leri okuyun, TypeScript, Go ve .NET SDK'larını indirin ve zaten sahip olduğunuz altyapı üzerinde bir L2 Egemen Topluluk kurun.",
-      "cta": "Geliştirici Merkezine girin →",
+      "desc": "RFC'leri okuyun, Python, TypeScript, Go, .NET veya Rust SDK'larını kullanın ve zaten sahip olduğunuz altyapı üzerinde bir L2 Egemen Topluluk kurun.",
+      "cta": "SDK'ları keşfedin →",
       "altText": "Açık kaynak kuruluşu →"
     },
     "strategic": {
@@ -333,7 +349,8 @@
       "recorded": "Kaydedilmiş kanıtı aç",
       "run": "Bu kanıtı kendiniz çalıştırın",
       "protocol": "RFC-002 ve RFC-004'ü okuyun"
-    }
+    },
+    "runBrowser": "Ya da kurulum yapmadan tarayıcınızda deneyin:"
   },
   "liveNetwork": {
     "label": "Canlı Kanıt",
@@ -370,7 +387,7 @@
     "dashboard": "Herkese açık panoyu incele",
     "notReported": "Bildirilmedi",
     "browserFallback": {
-      "title": "Canlı telemetri tarayıcı erişimi gerektirir.",
+      "title": "Canlı veriler geçici olarak kullanılamıyor.",
       "description": "Kaydedilmiş ve bağımsız olarak tekrarlanabilir kanıtlar aşağıda mevcuttur."
     },
     "proofAvailability": "Kaydedilmiş ve bağımsız olarak tekrarlanabilir kanıtlara aşağıdaki bağlantılardan ulaşılabilir."

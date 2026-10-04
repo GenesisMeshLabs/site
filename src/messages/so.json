@@ -10,7 +10,10 @@
       "docs": "Dukumentiyada",
       "proof": "Caddeyn",
       "live": "Shabakadda Tooska ah",
-      "strategy": "Istaraatiijiyad"
+      "strategy": "Istaraatiijiyad",
+      "concepts": "Fikradaha",
+      "liveMesh": "Shabakad toos ah",
+      "github": "GitHub"
     }
   },
   "ui": {
@@ -47,7 +50,14 @@
       }
     },
     "scroll": "Hoos u rog ↓",
-    "vlabel": "Kaabayaal Dhexdhexaad ka ah Madax-bannaanida"
+    "vlabel": "Kaabayaal Dhexdhexaad ka ah Madax-bannaanida",
+    "tryIt": {
+      "primary": "Tijaabi shabakadda tooska ah",
+      "docs": "Bilow degdeg ah",
+      "local": "Ama ku shaqaysii maamulkaaga gaarka ah si maxalli ah:",
+      "copy": "Koobiyee",
+      "copied": "Waa la koobiyeeyay"
+    }
   },
   "stakes": {
     "label": "Qaranimada",
@@ -139,7 +149,7 @@
   "protocol": {
     "label": "Habmaamuuska",
     "title": "Barnaamij RFC oo furan, loo qaabeeyey heerar, ee aan loo qaabayn alaab-qeybiye.",
-    "subtitle": "Hirgelinta tixraaca Python iyo TypeScript, Go, iyo .NET SDKs ayaa la isku duway v0.56.0. Qolka xudunta u ah waxa uu leeyahay imtixaanada 1,327, oo wata cadaymo borotokoolka rasmiga ah oo loo diiwaan galiyay xaqiijinta Tamarin.",
+    "subtitle": "Hirgelinta tixraaca ee Python iyo SDK-yada TypeScript, Go, .NET iyo Rust waxaa lagu isku dubariday v{version}. Xirmada aasaasiga ah waxay leedahay {tests} imtixaan, oo leh caddeyn borotokool rasmi ah oo loo diiwaangeliyay xaqiijinta Tamarin.",
     "stack": {
       "title": "Lakabyada Tiknoolajiyada",
       "l1": {
@@ -162,42 +172,42 @@
       {
         "id": "RFC-001",
         "name": "Aqoonsiga Madax-bannaan",
-        "status": "Habmaamuus"
+        "status": "La aqbalay"
       },
       {
         "id": "RFC-002",
         "name": "Heshiisyada Aqoonsiga",
-        "status": "Habmaamuus"
+        "status": "La aqbalay"
       },
       {
         "id": "RFC-003",
         "name": "Xidhmooyinka Kalsoonida",
-        "status": "Habmaamuus"
+        "status": "La aqbalay"
       },
       {
         "id": "RFC-004",
         "name": "Qulqulka Laalidda",
-        "status": "Habmaamuus"
+        "status": "La aqbalay"
       },
       {
         "id": "RFC-005",
         "name": "Diiwaannada Kartida",
-        "status": "Habmaamuus"
+        "status": "Qabyo"
       },
       {
         "id": "RFC-006",
         "name": "Qaabka Connectome",
-        "status": "Habmaamuus"
+        "status": "Qabyo"
       },
       {
         "id": "RFC-007",
         "name": "Sii-socoshada Hawlwadeenka",
-        "status": "Habmaamuus"
+        "status": "Qabyo"
       },
       {
         "id": "RFC-008",
         "name": "Doorka Hawlwadeenka la Maamulo",
-        "status": "Habmaamuus"
+        "status": "Qabyo"
       }
     ],
     "live": {
@@ -244,11 +254,17 @@
     "title": "Ku dhis Genesis Mesh.",
     "titleAccent": "Hayso maamulkaaga.",
     "subtitle": "Dooro dariiqa korsashada ee ku habboon doorkaaga adoon dhiibin go'aamada kalsoonidaada.",
+    "operators": {
+      "who": "Hawlwadeennada",
+      "title": "Maamul domainkaaga madax-bannaan.",
+      "desc": "Hayso furayaashaada iyo siyaasaddaada: bilow Maamulka Shabakadda, ku aqoonso dhiggayaasha heshiis, kuna jooji shuruudahaaga.",
+      "cta": "Akhri hagaha hawlwadeenka →"
+    },
     "builders": {
       "who": "Loogu talagalay horumariyayaasha software-ka",
       "title": "Hawl geli goobtaada kalsoonida ee madax-bannaan.",
-      "desc": "Akhri RFC-yada, soo dejiso SDK-yada TypeScript / Go / .NET, dabadeedna kaabayaal aad hore u lahayd ku dhis Bulsho Madax-bannaan oo L2 ah.",
-      "cta": "Gal Xarunta Horumarinta →",
+      "desc": "Akhri RFC-yada, isticmaal SDK-yada Python, TypeScript, Go, .NET ama Rust, kuna dhis Bulsho Madax-bannaan oo L2 ah kaabayaal aad horay u leedahay.",
+      "cta": "Sahami SDK-yada →",
       "altText": "Ururka il-furan →"
     },
     "strategic": {
@@ -333,7 +349,8 @@
       "recorded": "Fur caddeynta la duubay",
       "run": "Adigu socodsii caddeyntan",
       "protocol": "Akhri RFC-002 iyo RFC-004"
-    }
+    },
+    "runBrowser": "Ama ku tijaabi biraawsarkaaga, adigoon waxba rakibin:"
   },
   "liveNetwork": {
     "label": "Caddeyn Toos ah",
@@ -370,7 +387,7 @@
     "dashboard": "Eeg dashboard-ka dadweynaha",
     "notReported": "Lama sheegin",
     "browserFallback": {
-      "title": "Telemetry toos ah waxay u baahan tahay marin u helka browserka",
+      "title": "Xogta tooska ah si ku meel gaar ah looma heli karo.",
       "description": "Caddaymaha la duubay oo si madaxbanaan loo soo saari karo ayaa halkan ku yaal."
     },
     "proofAvailability": "Cadeymaha la duubay oo si madax banaan dib loo soo saari karo ayaa weli laga heli karaa xiriirinta hoose."

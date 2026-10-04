@@ -10,7 +10,10 @@
       "docs": "Dokumentation",
       "proof": "Bevis",
       "live": "Livenätverk",
-      "strategy": "Strategi"
+      "strategy": "Strategi",
+      "concepts": "Begrepp",
+      "liveMesh": "Live-mesh",
+      "github": "GitHub"
     }
   },
   "ui": {
@@ -47,7 +50,14 @@
       }
     },
     "scroll": "Skrolla ↓",
-    "vlabel": "Suveränitetsneutral infrastruktur"
+    "vlabel": "Suveränitetsneutral infrastruktur",
+    "tryIt": {
+      "primary": "Prova det levande meshet",
+      "docs": "Snabbstart",
+      "local": "Eller kör din egen myndighet lokalt:",
+      "copy": "Kopiera",
+      "copied": "Kopierat"
+    }
   },
   "stakes": {
     "label": "Suveränitet",
@@ -139,7 +149,7 @@
   "protocol": {
     "label": "Protokollet",
     "title": "Ett öppet RFC-program, format av standarder och inte av en leverantör.",
-    "subtitle": "Python referensimplementering och TypeScript, Go och .NET SDK:er koordineras vid v0.56.0. Kärnpaketet har 1,327-tester, med formella protokollbevis dokumenterade för Tamarin-verifiering.",
+    "subtitle": "Python-referensimplementationen och SDK:erna för TypeScript, Go, .NET och Rust är samordnade på v{version}. Kärnsviten har {tests} tester, med formella protokollbevis dokumenterade för verifiering med Tamarin.",
     "stack": {
       "title": "Stacken",
       "l1": {
@@ -162,42 +172,42 @@
       {
         "id": "RFC-001",
         "name": "Suverän identitet",
-        "status": "Protokoll"
+        "status": "Godkänd"
       },
       {
         "id": "RFC-002",
         "name": "Erkännandefördrag",
-        "status": "Protokoll"
+        "status": "Godkänd"
       },
       {
         "id": "RFC-003",
         "name": "Tillitspaket",
-        "status": "Protokoll"
+        "status": "Godkänd"
       },
       {
         "id": "RFC-004",
         "name": "Återkallelseflöden",
-        "status": "Protokoll"
+        "status": "Godkänd"
       },
       {
         "id": "RFC-005",
         "name": "Kapabilitetsmanifest",
-        "status": "Protokoll"
+        "status": "Utkast"
       },
       {
         "id": "RFC-006",
         "name": "Konnektommodell",
-        "status": "Protokoll"
+        "status": "Utkast"
       },
       {
         "id": "RFC-007",
         "name": "Operatörskontinuitet",
-        "status": "Protokoll"
+        "status": "Utkast"
       },
       {
         "id": "RFC-008",
         "name": "Hanterad operatörsroll",
-        "status": "Protokoll"
+        "status": "Utkast"
       }
     ],
     "live": {
@@ -244,11 +254,17 @@
     "title": "Bygg med Genesis Mesh.",
     "titleAccent": "Behåll din auktoritet.",
     "subtitle": "Välj den adoptionsväg som matchar din roll utan att ge upp dina egna förtroendebeslut.",
+    "operators": {
+      "who": "För operatörer",
+      "title": "Driv din egen suveräna domän.",
+      "desc": "Behåll dina egna nycklar och din egen policy: starta en nätverksmyndighet, erkänn partner genom fördrag och återkalla på dina egna villkor.",
+      "cta": "Läs operatörsguiden →"
+    },
     "builders": {
       "who": "För mjukvaruutvecklare",
       "title": "Res din egen suveräna tillitsdomän.",
-      "desc": "Läs RFC:erna, hämta SDK:erna för TypeScript, Go och .NET, och res en suverän L2-gemenskap på infrastruktur du redan äger.",
-      "cta": "Gå till Dev Hub →",
+      "desc": "Läs RFC:erna, använd SDK:erna för Python, TypeScript, Go, .NET eller Rust och bygg en suverän L2-gemenskap på infrastruktur du redan äger.",
+      "cta": "Utforska SDK:erna →",
       "altText": "Öppen källkodsorganisation →"
     },
     "strategic": {
@@ -333,7 +349,8 @@
       "recorded": "Öppna det inspelade beviset",
       "run": "Kör beviset själv",
       "protocol": "Läs RFC-002 och RFC-004"
-    }
+    },
+    "runBrowser": "Eller prova i webbläsaren utan installation:"
   },
   "liveNetwork": {
     "label": "Livebevis",
@@ -370,7 +387,7 @@
     "dashboard": "Granska den offentliga kontrollpanelen",
     "notReported": "Ej rapporterad",
     "browserFallback": {
-      "title": "Livetelemetri kräver webbläsaråtkomst.",
+      "title": "Livedata är tillfälligt otillgängliga.",
       "description": "Inspelade och oberoende reproducerbara bevis finns kvar nedan."
     },
     "proofAvailability": "Inspelade och oberoende reproducerbara bevis förblir tillgängliga via länkarna nedan."

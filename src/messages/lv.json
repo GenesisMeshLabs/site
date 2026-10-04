@@ -10,7 +10,10 @@
       "docs": "Dokumentācija",
       "proof": "Pierādījums",
       "live": "Tiešsaistes tīkls",
-      "strategy": "Stratēģija"
+      "strategy": "Stratēģija",
+      "concepts": "Jēdzieni",
+      "liveMesh": "Tiešsaistes tīkls",
+      "github": "GitHub"
     }
   },
   "ui": {
@@ -47,7 +50,14 @@
       }
     },
     "scroll": "Ritināt ↓",
-    "vlabel": "Pret suverenitāti neitrāla infrastruktūra"
+    "vlabel": "Pret suverenitāti neitrāla infrastruktūra",
+    "tryIt": {
+      "primary": "Izmēģiniet tiešsaistes tīklu",
+      "docs": "Ātrais sākums",
+      "local": "Vai palaidiet savu iestādi lokāli:",
+      "copy": "Kopēt",
+      "copied": "Nokopēts"
+    }
   },
   "stakes": {
     "label": "Suverenitāte",
@@ -139,7 +149,7 @@
   "protocol": {
     "label": "Protokols",
     "title": "Atvērta RFC programma, ko veido standarti, nevis piegādātāji.",
-    "subtitle": "Python atsauces ieviešana un TypeScript, Go un .NET SDK tiek koordinēti vietnē v0.56.0. Pamatkomplektā ir 1,327 testi ar formāliem protokola pierādījumiem, kas dokumentēti Tamarin verifikācijai.",
+    "subtitle": "Python atsauces implementācija un TypeScript, Go, .NET un Rust SDK ir saskaņoti versijā v{version}. Pamatkomplektā ir {tests} testi, un formālie protokola pierādījumi ir dokumentēti Tamarin pārbaudei.",
     "stack": {
       "title": "Tehnoloģiju kopa",
       "l1": {
@@ -162,42 +172,42 @@
       {
         "id": "RFC-001",
         "name": "Suverēnā identitāte",
-        "status": "Protokols"
+        "status": "Pieņemts"
       },
       {
         "id": "RFC-002",
         "name": "Atzīšanas līgumi",
-        "status": "Protokols"
+        "status": "Pieņemts"
       },
       {
         "id": "RFC-003",
         "name": "Uzticamības pakotnes",
-        "status": "Protokols"
+        "status": "Pieņemts"
       },
       {
         "id": "RFC-004",
         "name": "Atsaukumu plūsmas",
-        "status": "Protokols"
+        "status": "Pieņemts"
       },
       {
         "id": "RFC-005",
         "name": "Iespēju manifesti",
-        "status": "Protokols"
+        "status": "Melnraksts"
       },
       {
         "id": "RFC-006",
         "name": "Konektoma modelis",
-        "status": "Protokols"
+        "status": "Melnraksts"
       },
       {
         "id": "RFC-007",
         "name": "Operatora darbības nepārtrauktība",
-        "status": "Protokols"
+        "status": "Melnraksts"
       },
       {
         "id": "RFC-008",
         "name": "Pārvaldīta operatora loma",
-        "status": "Protokols"
+        "status": "Melnraksts"
       }
     ],
     "live": {
@@ -244,11 +254,17 @@
     "title": "Veidot ar Genesis Mesh.",
     "titleAccent": "Saglabājiet savu autoritāti.",
     "subtitle": "Izvēlieties adopcijas ceļu, kas atbilst jūsu lomai, nenododot savus uzticības lēmumus.",
+    "operators": {
+      "who": "Operatoriem",
+      "title": "Pārvaldiet savu suverēno domēnu.",
+      "desc": "Paturiet savas atslēgas un politiku: palaidiet tīkla iestādi, atzīstiet partnerus ar līgumu un atsauciet ar saviem noteikumiem.",
+      "cta": "Lasiet operatora rokasgrāmatu →"
+    },
     "builders": {
       "who": "Programmatūras izstrādātājiem",
       "title": "Izveidojiet savu suverēno uzticamības domēnu.",
-      "desc": "Izlasiet RFC, lejupielādējiet TypeScript / Go / .NET SDK un izveidojiet L2 suverēno kopienu infrastruktūrā, kas jums jau pieder.",
-      "cta": "Doties uz izstrādātāju centru →",
+      "desc": "Izlasiet RFC, izmantojiet Python, TypeScript, Go, .NET vai Rust SDK un izveidojiet L2 suverēnu kopienu infrastruktūrā, kas jums jau pieder.",
+      "cta": "Izpētiet SDK →",
       "altText": "Atvērtā pirmkoda organizācija →"
     },
     "strategic": {
@@ -333,7 +349,8 @@
       "recorded": "Atvērt ierakstīto pierādījumu",
       "run": "Patstāvīgi palaist šo pierādījumu",
       "protocol": "Lasīt RFC-002 un RFC-004"
-    }
+    },
+    "runBrowser": "Vai izmēģiniet pārlūkā bez instalēšanas:"
   },
   "liveNetwork": {
     "label": "Tiešsaistes pierādījums",
@@ -370,7 +387,7 @@
     "dashboard": "Apskatīt publisko informācijas paneli",
     "notReported": "Nav ziņots",
     "browserFallback": {
-      "title": "Tiešraides telemetrijai ir nepieciešama pārlūkprogrammas piekļuve.",
+      "title": "Tiešsaistes dati īslaicīgi nav pieejami.",
       "description": "Ierakstīti un neatkarīgi reproducējami pierādījumi joprojām ir pieejami zemāk."
     },
     "proofAvailability": "Ierakstīti un neatkarīgi reproducējami pierādījumi joprojām ir pieejami, izmantojot tālāk norādītās saites."

@@ -10,7 +10,10 @@
       "docs": "Sənədlər",
       "proof": "Sübut",
       "live": "Canlı şəbəkə",
-      "strategy": "Strategiya"
+      "strategy": "Strategiya",
+      "concepts": "Konsepsiyalar",
+      "liveMesh": "Canlı şəbəkə",
+      "github": "GitHub"
     }
   },
   "ui": {
@@ -47,7 +50,14 @@
       }
     },
     "scroll": "Aşağı keçin ↓",
-    "vlabel": "Suverenliyə münasibətdə neytral infrastruktur"
+    "vlabel": "Suverenliyə münasibətdə neytral infrastruktur",
+    "tryIt": {
+      "primary": "Canlı şəbəkəni sınayın",
+      "docs": "Sürətli başlanğıc",
+      "local": "Və ya öz səlahiyyət orqanınızı lokal olaraq işə salın:",
+      "copy": "Kopyala",
+      "copied": "Kopyalandı"
+    }
   },
   "stakes": {
     "label": "Suverenlik",
@@ -139,7 +149,7 @@
   "protocol": {
     "label": "Protokol",
     "title": "Açıq RFC proqramı: təchizatçının deyil, standartların formalaşdırdığı yanaşma.",
-    "subtitle": "Python istinad tətbiqi və TypeScript, Go və .NET SDK-ları v0.56.0-də əlaqələndirilir. Əsas dəstdə 1,327 testləri var, Tamarin yoxlaması üçün sənədləşdirilmiş rəsmi protokol sübutları.",
+    "subtitle": "Python istinad tətbiqi və TypeScript, Go, .NET və Rust SDK-ları v{version}-də əlaqələndirilir. Əsas dəstdə {tests} test var, Tamarin yoxlaması üçün sənədləşdirilmiş rəsmi protokol sübutları ilə.",
     "stack": {
       "title": "Texnoloji yığın",
       "l1": {
@@ -162,42 +172,42 @@
       {
         "id": "RFC-001",
         "name": "Suveren identiklik",
-        "status": "Protokol"
+        "status": "Qəbul edilib"
       },
       {
         "id": "RFC-002",
         "name": "Tanınma müqavilələri",
-        "status": "Protokol"
+        "status": "Qəbul edilib"
       },
       {
         "id": "RFC-003",
         "name": "Etimad paketləri",
-        "status": "Protokol"
+        "status": "Qəbul edilib"
       },
       {
         "id": "RFC-004",
         "name": "Ləğvetmə axınları",
-        "status": "Protokol"
+        "status": "Qəbul edilib"
       },
       {
         "id": "RFC-005",
         "name": "İmkan manifestləri",
-        "status": "Protokol"
+        "status": "Layihə"
       },
       {
         "id": "RFC-006",
         "name": "Konnektom modeli",
-        "status": "Protokol"
+        "status": "Layihə"
       },
       {
         "id": "RFC-007",
         "name": "Operator davamlılığı",
-        "status": "Protokol"
+        "status": "Layihə"
       },
       {
         "id": "RFC-008",
         "name": "İdarə olunan operator rolu",
-        "status": "Protokol"
+        "status": "Layihə"
       }
     ],
     "live": {
@@ -244,11 +254,17 @@
     "title": "Genesis Mesh ilə qurun.",
     "titleAccent": "Səlahiyyətinizi qoruyun.",
     "subtitle": "Öz etibar qərarlarınızdan imtina etmədən rolunuza uyğun olan övladlığa götürmə yolunu seçin.",
+    "operators": {
+      "who": "Operatorlar üçün",
+      "title": "Öz suveren domeninizi idarə edin.",
+      "desc": "Öz açarlarınızı və siyasətinizi saxlayın: Şəbəkə Səlahiyyət Orqanını işə salın, həmkarları müqavilə ilə tanıyın və öz şərtlərinizlə ləğv edin.",
+      "cta": "Operator bələdçisini oxuyun →"
+    },
     "builders": {
       "who": "Proqram təminatı tərtibatçıları üçün",
       "title": "Öz suveren etimad domeninizi işə salın.",
-      "desc": "RFC-ləri oxuyun, TypeScript / Go / .NET SDK-larını əldə edin və artıq sahib olduğunuz infrastruktur üzərində L2 Suveren İcması yaradın.",
-      "cta": "Tərtibatçı mərkəzinə keçin →",
+      "desc": "RFC-ləri oxuyun, Python, TypeScript, Go, .NET və ya Rust SDK-larından istifadə edin və artıq sahib olduğunuz infrastruktur üzərində L2 Suveren İcması yaradın.",
+      "cta": "SDK-ları kəşf edin →",
       "altText": "Açıq mənbəli təşkilat →"
     },
     "strategic": {
@@ -333,7 +349,8 @@
       "recorded": "Qeydə alınmış sübutu açın",
       "run": "Bu sübutu özünüz işə salın",
       "protocol": "RFC-002 və RFC-004 sənədlərini oxuyun"
-    }
+    },
+    "runBrowser": "Və ya quraşdırmadan brauzerinizdə sınayın:"
   },
   "liveNetwork": {
     "label": "Canlı sübut",
@@ -370,7 +387,7 @@
     "dashboard": "Açıq idarəetmə panelini yoxlayın",
     "notReported": "Məlumat verilməyib",
     "browserFallback": {
-      "title": "Canlı telemetriya brauzerə giriş tələb edir.",
+      "title": "Canlı məlumatlar müvəqqəti olaraq əlçatan deyil.",
       "description": "Qeydə alınmış və müstəqil şəkildə təkrarlana bilən sübutlar aşağıda mövcuddur."
     },
     "proofAvailability": "Qeydə alınmış və müstəqil surətdə təkrarlana bilən sübutlar aşağıdakı linklərdə mövcuddur."

@@ -10,7 +10,10 @@
       "docs": "Dokumentasie",
       "proof": "Bewys",
       "live": "Regstreekse netwerk",
-      "strategy": "Strategie"
+      "strategy": "Strategie",
+      "concepts": "Konsepte",
+      "liveMesh": "Lewendige mesh",
+      "github": "GitHub"
     }
   },
   "ui": {
@@ -47,7 +50,14 @@
       }
     },
     "scroll": "Rol af ↓",
-    "vlabel": "Soewereiniteitsneutrale infrastruktuur"
+    "vlabel": "Soewereiniteitsneutrale infrastruktuur",
+    "tryIt": {
+      "primary": "Probeer die lewendige mesh",
+      "docs": "Vinnige begin",
+      "local": "Of bestuur jou eie owerheid plaaslik:",
+      "copy": "Kopieer",
+      "copied": "Gekopieer"
+    }
   },
   "stakes": {
     "label": "Soewereiniteit",
@@ -139,7 +149,7 @@
   "protocol": {
     "label": "Die protokol",
     "title": "'n Oop RFC-program, volgens standaarde gevorm, nie volgens 'n verskaffer nie.",
-    "subtitle": "Die Python verwysingsimplementering en TypeScript, Go, en .NET SDK's word by v0.56.0 gekoördineer. Die kernsuite het 1,327-toetse, met formele protokolbewyse gedokumenteer vir Tamarin-verifikasie.",
+    "subtitle": "Die Python-verwysingsimplementering en die TypeScript-, Go-, .NET- en Rust-SDK's word by v{version} gekoördineer. Die kernsuite het {tests} toetse, met formele protokolbewyse gedokumenteer vir Tamarin-verifikasie.",
     "stack": {
       "title": "Die stapel",
       "l1": {
@@ -162,42 +172,42 @@
       {
         "id": "RFC-001",
         "name": "Soewereine identiteit",
-        "status": "Protokol"
+        "status": "Aanvaar"
       },
       {
         "id": "RFC-002",
         "name": "Erkenningsverdrae",
-        "status": "Protokol"
+        "status": "Aanvaar"
       },
       {
         "id": "RFC-003",
         "name": "Vertrouensbundels",
-        "status": "Protokol"
+        "status": "Aanvaar"
       },
       {
         "id": "RFC-004",
         "name": "Herroepingsstrome",
-        "status": "Protokol"
+        "status": "Aanvaar"
       },
       {
         "id": "RFC-005",
         "name": "Bevoegdheidsmanifeste",
-        "status": "Protokol"
+        "status": "Konsep"
       },
       {
         "id": "RFC-006",
         "name": "Konnektomemodel",
-        "status": "Protokol"
+        "status": "Konsep"
       },
       {
         "id": "RFC-007",
         "name": "Operateurskontinuïteit",
-        "status": "Protokol"
+        "status": "Konsep"
       },
       {
         "id": "RFC-008",
         "name": "Bestuurde operateursrol",
-        "status": "Protokol"
+        "status": "Konsep"
       }
     ],
     "live": {
@@ -244,11 +254,17 @@
     "title": "Bou met Genesis Mesh.",
     "titleAccent": "Hou jou gesag.",
     "subtitle": "Kies die aannemingspad wat by jou rol pas sonder om jou eie vertrouebesluite prys te gee.",
+    "operators": {
+      "who": "Vir operateurs",
+      "title": "Bestuur jou eie soewereine domein.",
+      "desc": "Hou jou eie sleutels en beleid: begin 'n Netwerkowerheid, erken eweknieë deur verdrag en herroep op jou eie voorwaardes.",
+      "cta": "Lees die operateursgids →"
+    },
     "builders": {
       "who": "Vir sagtewareontwikkelaars",
       "title": "Stel jou eie soewereine vertrouensdomein in werking.",
-      "desc": "Lees die RFC's, laai die TypeScript / Go / .NET-SDK's af en stel 'n L2 Soewereine Gemeenskap op infrastruktuur in werking wat jy reeds besit.",
-      "cta": "Gaan na die ontwikkelaarspilpunt →",
+      "desc": "Lees die RFC's, gebruik die Python-, TypeScript-, Go-, .NET- of Rust-SDK's en stel 'n L2 Soewereine Gemeenskap op infrastruktuur in werking wat jy reeds besit.",
+      "cta": "Verken die SDK's →",
       "altText": "Oopbronorganisasie →"
     },
     "strategic": {
@@ -333,7 +349,8 @@
       "recorded": "Maak opgeneemde bewys oop",
       "run": "Voer hierdie bewys self uit",
       "protocol": "Lees RFC-002 en RFC-004"
-    }
+    },
+    "runBrowser": "Of probeer dit in jou blaaier, sonder installasie:"
   },
   "liveNetwork": {
     "label": "Regstreekse bewys",
@@ -370,7 +387,7 @@
     "dashboard": "Inspekteer die openbare kontroleskerm",
     "notReported": "Nie aangemeld nie",
     "browserFallback": {
-      "title": "Regstreekse telemetrie vereis blaaiertoegang.",
+      "title": "Regstreekse data is tydelik nie beskikbaar nie.",
       "description": "Opgeneemde en onafhanklik reproduceerbare bewyse bly hieronder beskikbaar."
     },
     "proofAvailability": "Opgeneemde en onafhanklik reproduceerbare bewyse bly beskikbaar deur die skakels hieronder."

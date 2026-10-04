@@ -10,7 +10,10 @@
       "docs": "Dokumentation",
       "proof": "Nachweis",
       "live": "Live-Netzwerk",
-      "strategy": "Strategie"
+      "strategy": "Strategie",
+      "concepts": "Konzepte",
+      "liveMesh": "Live-Mesh",
+      "github": "GitHub"
     }
   },
   "ui": {
@@ -47,7 +50,14 @@
       }
     },
     "scroll": "Scrollen ↓",
-    "vlabel": "Souveränitätsneutrale Infrastruktur"
+    "vlabel": "Souveränitätsneutrale Infrastruktur",
+    "tryIt": {
+      "primary": "Live-Mesh ausprobieren",
+      "docs": "Schnellstart",
+      "local": "Oder betreiben Sie Ihre eigene Autorität lokal:",
+      "copy": "Kopieren",
+      "copied": "Kopiert"
+    }
   },
   "stakes": {
     "label": "Souveränität",
@@ -139,7 +149,7 @@
   "protocol": {
     "label": "Das Protokoll",
     "title": "Ein offenes RFC-Programm, standardgeformt statt herstellergeformt.",
-    "subtitle": "Die Referenzimplementierung Python und die SDKs TypeScript, Go und .NET werden unter v0.56.0 koordiniert. Die Kernsuite verfügt über 1,327-Tests, wobei formale Protokollnachweise für die Tamarin-Verifizierung dokumentiert sind.",
+    "subtitle": "Die Python-Referenzimplementierung und die SDKs für TypeScript, Go, .NET und Rust sind auf v{version} abgestimmt. Die Kernsuite umfasst {tests} Tests, mit formalen Protokollnachweisen für die Tamarin-Verifikation.",
     "stack": {
       "title": "Der Stack",
       "l1": {
@@ -162,42 +172,42 @@
       {
         "id": "RFC-001",
         "name": "Souveräne Identität",
-        "status": "Protokoll"
+        "status": "Angenommen"
       },
       {
         "id": "RFC-002",
         "name": "Anerkennungsverträge",
-        "status": "Protokoll"
+        "status": "Angenommen"
       },
       {
         "id": "RFC-003",
         "name": "Vertrauensbündel",
-        "status": "Protokoll"
+        "status": "Angenommen"
       },
       {
         "id": "RFC-004",
         "name": "Widerrufs-Feeds",
-        "status": "Protokoll"
+        "status": "Angenommen"
       },
       {
         "id": "RFC-005",
         "name": "Capability-Manifeste",
-        "status": "Protokoll"
+        "status": "Entwurf"
       },
       {
         "id": "RFC-006",
         "name": "Connectome-Modell",
-        "status": "Protokoll"
+        "status": "Entwurf"
       },
       {
         "id": "RFC-007",
         "name": "Betreiberkontinuität",
-        "status": "Protokoll"
+        "status": "Entwurf"
       },
       {
         "id": "RFC-008",
         "name": "Verwaltete Betreiberrolle",
-        "status": "Protokoll"
+        "status": "Entwurf"
       }
     ],
     "live": {
@@ -244,11 +254,17 @@
     "title": "Erstellen Sie mit Genesis Mesh.",
     "titleAccent": "Behalten Sie Ihre Autorität.",
     "subtitle": "Wählen Sie den Adoptionspfad, der zu Ihrer Rolle passt, ohne Ihre eigenen Vertrauensentscheidungen aufzugeben.",
+    "operators": {
+      "who": "Für Betreiber",
+      "title": "Betreiben Sie Ihre eigene souveräne Domäne.",
+      "desc": "Behalten Sie Ihre eigenen Schlüssel und Richtlinien: Starten Sie eine Netzwerkautorität, erkennen Sie Partner per Vertrag an und widerrufen Sie zu Ihren eigenen Bedingungen.",
+      "cta": "Betreiberhandbuch lesen →"
+    },
     "builders": {
       "who": "Für Softwareentwickler",
       "title": "Richten Sie Ihre eigene souveräne Vertrauensdomäne ein.",
-      "desc": "Lesen Sie die RFCs, holen Sie sich die SDKs für TypeScript, Go und .NET, und stellen Sie eine souveräne L2-Gemeinschaft auf Infrastruktur auf, die Ihnen bereits gehört.",
-      "cta": "Zum Dev Hub →",
+      "desc": "Lesen Sie die RFCs, nutzen Sie die SDKs für Python, TypeScript, Go, .NET oder Rust und bauen Sie eine souveräne L2-Gemeinschaft auf Infrastruktur auf, die Ihnen bereits gehört.",
+      "cta": "SDKs entdecken →",
       "altText": "Open-Source-Organisation →"
     },
     "strategic": {
@@ -333,7 +349,8 @@
       "recorded": "Aufgezeichneten Nachweis öffnen",
       "run": "Diesen Nachweis selbst ausführen",
       "protocol": "RFC-002 und RFC-004 lesen"
-    }
+    },
+    "runBrowser": "Oder probieren Sie es ohne Installation im Browser aus:"
   },
   "liveNetwork": {
     "label": "Live-Nachweis",
@@ -370,7 +387,7 @@
     "dashboard": "Öffentliches Dashboard prüfen",
     "notReported": "Nicht gemeldet",
     "browserFallback": {
-      "title": "Live-Telemetrie erfordert Browserzugriff.",
+      "title": "Live-Daten sind vorübergehend nicht verfügbar.",
       "description": "Aufgezeichnete und unabhängig reproduzierbare Nachweise sind weiterhin unten verfügbar."
     },
     "proofAvailability": "Aufgezeichnete und unabhängig reproduzierbare Nachweise bleiben über die untenstehenden Links verfügbar."

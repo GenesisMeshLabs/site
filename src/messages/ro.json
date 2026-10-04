@@ -10,7 +10,10 @@
       "docs": "Documentație",
       "proof": "Dovadă",
       "live": "Rețea live",
-      "strategy": "Strategie"
+      "strategy": "Strategie",
+      "concepts": "Concepte",
+      "liveMesh": "Rețea live",
+      "github": "GitHub"
     }
   },
   "ui": {
@@ -47,7 +50,14 @@
       }
     },
     "scroll": "Derulați ↓",
-    "vlabel": "Infrastructură neutră față de suveranitate"
+    "vlabel": "Infrastructură neutră față de suveranitate",
+    "tryIt": {
+      "primary": "Încercați rețeaua live",
+      "docs": "Pornire rapidă",
+      "local": "Sau rulați propria autoritate local:",
+      "copy": "Copiază",
+      "copied": "Copiat"
+    }
   },
   "stakes": {
     "label": "Suveranitatea",
@@ -139,7 +149,7 @@
   "protocol": {
     "label": "Protocolul",
     "title": "Un program RFC deschis, construit după modelul standardelor, nu după cel al furnizorilor.",
-    "subtitle": "Implementarea de referință Python și SDK-urile TypeScript, Go și .NET sunt coordonate la v0.56.0. Suita de bază are teste 1,327, cu dovezi oficiale ale protocolului documentate pentru verificarea Tamarin.",
+    "subtitle": "Implementarea de referință în Python și SDK-urile pentru TypeScript, Go, .NET și Rust sunt coordonate la v{version}. Suita principală are {tests} teste, cu dovezi formale ale protocolului documentate pentru verificarea cu Tamarin.",
     "stack": {
       "title": "Stack-ul",
       "l1": {
@@ -162,42 +172,42 @@
       {
         "id": "RFC-001",
         "name": "Identitate suverană",
-        "status": "Protocol"
+        "status": "Acceptat"
       },
       {
         "id": "RFC-002",
         "name": "Tratate de recunoaștere",
-        "status": "Protocol"
+        "status": "Acceptat"
       },
       {
         "id": "RFC-003",
         "name": "Pachete de încredere",
-        "status": "Protocol"
+        "status": "Acceptat"
       },
       {
         "id": "RFC-004",
         "name": "Fluxuri de revocare",
-        "status": "Protocol"
+        "status": "Acceptat"
       },
       {
         "id": "RFC-005",
         "name": "Manifeste de capabilități",
-        "status": "Protocol"
+        "status": "Ciornă"
       },
       {
         "id": "RFC-006",
         "name": "Modelul conectomului",
-        "status": "Protocol"
+        "status": "Ciornă"
       },
       {
         "id": "RFC-007",
         "name": "Continuitatea operatorului",
-        "status": "Protocol"
+        "status": "Ciornă"
       },
       {
         "id": "RFC-008",
         "name": "Rolul operatorului gestionat",
-        "status": "Protocol"
+        "status": "Ciornă"
       }
     ],
     "live": {
@@ -244,11 +254,17 @@
     "title": "Construiți cu Genesis Mesh.",
     "titleAccent": "Păstrează-ți autoritatea.",
     "subtitle": "Alege calea de adopție care se potrivește cu rolul tău fără a renunța la propriile decizii de încredere.",
+    "operators": {
+      "who": "Pentru operatori",
+      "title": "Administrați propriul domeniu suveran.",
+      "desc": "Păstrați-vă propriile chei și politici: porniți o autoritate de rețea, recunoașteți parteneri prin tratat și revocați în propriii termeni.",
+      "cta": "Citiți ghidul operatorului →"
+    },
     "builders": {
       "who": "Pentru dezvoltatorii de software",
       "title": "Lansați-vă propriul domeniu suveran de încredere.",
-      "desc": "Citiți RFC-urile, descărcați SDK-urile TypeScript / Go / .NET și creați o comunitate suverană L2 pe infrastructura pe care o dețineți deja.",
-      "cta": "Accesați centrul pentru dezvoltatori →",
+      "desc": "Citiți RFC-urile, folosiți SDK-urile pentru Python, TypeScript, Go, .NET sau Rust și construiți o comunitate suverană L2 pe o infrastructură pe care o dețineți deja.",
+      "cta": "Explorați SDK-urile →",
       "altText": "Organizație cu sursă deschisă →"
     },
     "strategic": {
@@ -333,7 +349,8 @@
       "recorded": "Deschide dovada înregistrată",
       "run": "Rulează personal această dovadă",
       "protocol": "Citește RFC-002 și RFC-004"
-    }
+    },
+    "runBrowser": "Sau încercați în browser, fără instalare:"
   },
   "liveNetwork": {
     "label": "Dovadă live",
@@ -370,7 +387,7 @@
     "dashboard": "Consultă panoul public",
     "notReported": "Nu este raportat",
     "browserFallback": {
-      "title": "Telemetria live necesită acces la browser.",
+      "title": "Datele live sunt temporar indisponibile.",
       "description": "Dovezile înregistrate și reproductibile independent rămân disponibile mai jos."
     },
     "proofAvailability": "Dovezile înregistrate și reproductibile independent rămân disponibile prin linkurile de mai jos."

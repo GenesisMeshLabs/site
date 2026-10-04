@@ -10,7 +10,10 @@
       "docs": "Dokumentatsioon",
       "proof": "Tõendus",
       "live": "Reaalajavõrk",
-      "strategy": "Strateegia"
+      "strategy": "Strateegia",
+      "concepts": "Mõisted",
+      "liveMesh": "Reaalajas võrk",
+      "github": "GitHub"
     }
   },
   "ui": {
@@ -47,7 +50,14 @@
       }
     },
     "scroll": "Keri ↓",
-    "vlabel": "Suveräänsuse suhtes neutraalne taristu"
+    "vlabel": "Suveräänsuse suhtes neutraalne taristu",
+    "tryIt": {
+      "primary": "Proovi reaalajas võrku",
+      "docs": "Kiirstart",
+      "local": "Või käivita oma autoriteet kohalikult:",
+      "copy": "Kopeeri",
+      "copied": "Kopeeritud"
+    }
   },
   "stakes": {
     "label": "Suveräänsus",
@@ -139,7 +149,7 @@
   "protocol": {
     "label": "Protokoll",
     "title": "Avatud RFC-programm, kujundatud standardite, mitte tarnija järgi.",
-    "subtitle": "Python viiterakendust ning TypeScript, Go ja .NET SDK-sid koordineeritakse aadressil v0.56.0. Põhikomplektis on 1,327 testid ja ametlikud protokolli tõendid on dokumenteeritud Tamarin kontrollimiseks.",
+    "subtitle": "Pythoni viiterakendus ning TypeScripti, Go, .NET-i ja Rusti SDK-d on kooskõlastatud versioonil v{version}. Põhikomplektis on {tests} testi ning Tamarini verifitseerimiseks on dokumenteeritud ametlikud protokollitõendid.",
     "stack": {
       "title": "Tehnoloogiapinu",
       "l1": {
@@ -162,42 +172,42 @@
       {
         "id": "RFC-001",
         "name": "Suveräänne identiteet",
-        "status": "Protokoll"
+        "status": "Vastu võetud"
       },
       {
         "id": "RFC-002",
         "name": "Tunnustamislepingud",
-        "status": "Protokoll"
+        "status": "Vastu võetud"
       },
       {
         "id": "RFC-003",
         "name": "Usalduspaketid",
-        "status": "Protokoll"
+        "status": "Vastu võetud"
       },
       {
         "id": "RFC-004",
         "name": "Tühistusvood",
-        "status": "Protokoll"
+        "status": "Vastu võetud"
       },
       {
         "id": "RFC-005",
         "name": "Võimekusmanifestid",
-        "status": "Protokoll"
+        "status": "Mustand"
       },
       {
         "id": "RFC-006",
         "name": "Konektoomimudel",
-        "status": "Protokoll"
+        "status": "Mustand"
       },
       {
         "id": "RFC-007",
         "name": "Käitaja järjepidevus",
-        "status": "Protokoll"
+        "status": "Mustand"
       },
       {
         "id": "RFC-008",
         "name": "Hallatud käitaja roll",
-        "status": "Protokoll"
+        "status": "Mustand"
       }
     ],
     "live": {
@@ -244,11 +254,17 @@
     "title": "Ehitage koos Genesis Mesh-ga.",
     "titleAccent": "Hoidke oma autoriteeti.",
     "subtitle": "Valige oma rolliga sobiv lapsendamise tee, ilma et peaksite oma usaldusotsuseid loovutama.",
+    "operators": {
+      "who": "Operaatoritele",
+      "title": "Halda oma suveräänset domeeni.",
+      "desc": "Hoia oma võtmed ja poliitika enda käes: käivita võrguautoriteet, tunnusta partnereid lepinguga ja tühista oma tingimustel.",
+      "cta": "Loe operaatori juhendit →"
+    },
     "builders": {
       "who": "Tarkvaraarendajatele",
       "title": "Looge oma suveräänne usaldusdomeen.",
-      "desc": "Lugege RFC-sid, hankige TypeScript / Go / .NET SDK-d ja käivitage L2 suveräänne kogukond taristul, mis teile juba kuulub.",
-      "cta": "Sisenege arenduskeskusse →",
+      "desc": "Loe RFC-sid, kasuta Pythoni, TypeScripti, Go, .NET-i või Rusti SDK-sid ning loo L2 suveräänne kogukond taristule, mis sulle juba kuulub.",
+      "cta": "Uuri SDK-sid →",
       "altText": "Avatud lähtekoodiga organisatsioon →"
     },
     "strategic": {
@@ -333,7 +349,8 @@
       "recorded": "Ava salvestatud tõendus",
       "run": "Käivita see tõendus ise",
       "protocol": "Loe RFC-002 ja RFC-004"
-    }
+    },
+    "runBrowser": "Või proovi seda brauseris ilma paigaldamata:"
   },
   "liveNetwork": {
     "label": "Reaalajaline tõendus",
@@ -370,7 +387,7 @@
     "dashboard": "Vaata avalikku töölauda",
     "notReported": "Ei teatatud",
     "browserFallback": {
-      "title": "Reaalajas telemeetria nõuab juurdepääsu brauserile.",
+      "title": "Reaalajas andmed pole ajutiselt saadaval.",
       "description": "Salvestatud ja iseseisvalt reprodutseeritavad tõendid on saadaval allpool."
     },
     "proofAvailability": "Salvestatud ja iseseisvalt reprodutseeritavad tõendid jäävad kättesaadavaks allolevate linkide kaudu."

@@ -4,6 +4,7 @@ import { useEffect, useState } from 'react';
 import Image from 'next/image';
 import { Link } from '@/navigation';
 import LanguageSelector from './LanguageSelector';
+import { LINKS } from '@/lib/links';
 
 const SECTIONS = [
   { href: '#proof', key: 'proof' },
@@ -11,6 +12,13 @@ const SECTIONS = [
   { href: '#live-network', key: 'live' },
   { href: '#protocol', key: 'protocol' },
   { href: '#stakes', key: 'strategy' },
+] as const;
+
+const EXTERNAL = [
+  { href: LINKS.concepts, key: 'concepts' },
+  { href: LINKS.docs, key: 'docs' },
+  { href: LINKS.liveMesh, key: 'liveMesh' },
+  { href: LINKS.github, key: 'github' },
 ] as const;
 
 export default function Nav() {
@@ -48,11 +56,13 @@ export default function Nav() {
               <a href={s.href}>{t(`nav.links.${s.key}`)}</a>
             </li>
           ))}
-          <li>
-            <a href="https://genesismesh.connectorzzz.com/" target="_blank" rel="noopener noreferrer">
-              {t('nav.links.docs')} ↗
-            </a>
-          </li>
+          {EXTERNAL.map((s) => (
+            <li key={s.key}>
+              <a href={s.href} target="_blank" rel="noopener noreferrer">
+                {t(`nav.links.${s.key}`)} ↗
+              </a>
+            </li>
+          ))}
         </ul>
 
         <LanguageSelector />
@@ -78,16 +88,13 @@ export default function Nav() {
               </a>
             </li>
           ))}
-          <li>
-            <a
-              href="https://genesismesh.connectorzzz.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              onClick={() => setOpen(false)}
-            >
-              {t('nav.links.docs')} ↗
-            </a>
-          </li>
+          {EXTERNAL.map((s) => (
+            <li key={s.key}>
+              <a href={s.href} target="_blank" rel="noopener noreferrer" onClick={() => setOpen(false)}>
+                {t(`nav.links.${s.key}`)} ↗
+              </a>
+            </li>
+          ))}
         </ul>
       </div>
     </nav>

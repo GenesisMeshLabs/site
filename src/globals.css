@@ -447,6 +447,81 @@ html[dir='rtl'] .hero-questions li::before {
   color: var(--ink-faint);
 }
 
+.hero-try {
+  display: grid;
+  gap: 18px;
+  margin-top: 36px;
+}
+
+.hero-try-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+}
+
+.hero-try-actions .btn {
+  padding: 14px 22px;
+}
+
+.hero-install {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto;
+  gap: 8px 16px;
+  align-items: end;
+  max-width: 640px;
+  padding: 16px 18px;
+  border: 1px solid var(--line);
+  background: var(--bg2);
+}
+
+.hero-install-label {
+  grid-column: 1 / -1;
+  color: var(--ink-faint);
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+}
+
+.hero-install pre {
+  margin: 0;
+  overflow-x: auto;
+  color: var(--ink);
+  font-family: var(--mono);
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.hero-install-copy {
+  border: 1px solid var(--line);
+  background: transparent;
+  color: var(--ink-dim);
+  font-family: var(--mono);
+  font-size: 11px;
+  letter-spacing: 0.08em;
+  text-transform: uppercase;
+  padding: 8px 12px;
+  cursor: pointer;
+}
+
+.hero-install-copy:hover {
+  color: var(--ink);
+  border-color: var(--red);
+}
+
+.proof-run pre {
+  margin: 0;
+  overflow-x: auto;
+  color: var(--ink);
+  font-family: var(--mono);
+  font-size: 12px;
+  line-height: 1.7;
+}
+
+.proof-run-label a {
+  color: var(--ink-dim);
+}
+
 /* Decorative marginalia. It sat close enough to the headline to read as
    clutter, so it only appears once there is genuine margin to put it in. */
 .vlabel {
@@ -1693,7 +1768,7 @@ html[dir='rtl'] .roadmap li {
 /* Audiences */
 .audiences {
   display: grid;
-  grid-template-columns: 1fr 1fr;
+  grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
   gap: 1px;
   background: var(--line);
   border: 1px solid var(--line);

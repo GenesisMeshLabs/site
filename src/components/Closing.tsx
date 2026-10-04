@@ -1,5 +1,6 @@
 'use client';
 import { useTranslations } from 'next-intl';
+import { LINKS } from '@/lib/links';
 
 export default function Closing() {
   const t = useTranslations('closing');
@@ -13,10 +14,18 @@ export default function Closing() {
       <p className="lead rv">{t('subtitle')}</p>
       <div className="audiences rv">
         <div className="aud">
+          <div className="who">{t('operators.who')}</div>
+          <h3>{t('operators.title')}</h3>
+          <p>{t('operators.desc')}</p>
+          <a className="btn primary" href={LINKS.operatorGuide} target="_blank" rel="noopener noreferrer">
+            {t('operators.cta')}
+          </a>
+        </div>
+        <div className="aud">
           <div className="who">{t('builders.who')}</div>
           <h3>{t('builders.title')}</h3>
           <p>{t('builders.desc')}</p>
-          <a className="btn primary" href="https://dev.connectorzzz.com/" target="_blank" rel="noopener noreferrer">
+          <a className="btn" href={LINKS.sdks} target="_blank" rel="noopener noreferrer">
             {t('builders.cta')}
           </a>
           <a className="alt" href="https://github.com/GenesisMeshLabs" target="_blank" rel="noopener noreferrer">

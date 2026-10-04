@@ -10,7 +10,10 @@
       "docs": "Documentation",
       "proof": "Preuve",
       "live": "Réseau en direct",
-      "strategy": "Stratégie"
+      "strategy": "Stratégie",
+      "concepts": "Concepts",
+      "liveMesh": "Maillage en direct",
+      "github": "GitHub"
     }
   },
   "ui": {
@@ -47,7 +50,14 @@
       }
     },
     "scroll": "Faire défiler ↓",
-    "vlabel": "Infrastructure neutre en souveraineté"
+    "vlabel": "Infrastructure neutre en souveraineté",
+    "tryIt": {
+      "primary": "Essayer le maillage en direct",
+      "docs": "Démarrage rapide",
+      "local": "Ou exécutez votre propre autorité en local :",
+      "copy": "Copier",
+      "copied": "Copié"
+    }
   },
   "stakes": {
     "label": "Souveraineté",
@@ -139,7 +149,7 @@
   "protocol": {
     "label": "Le Protocole",
     "title": "Un programme RFC ouvert, façonné par les normes et non par un fournisseur.",
-    "subtitle": "L'implémentation de référence Python et les SDK TypeScript, Go et .NET sont coordonnés au niveau de v0.56.0. La suite principale comprend des tests 1,327, avec des preuves de protocole formelles documentées pour la vérification Tamarin.",
+    "subtitle": "L'implémentation de référence en Python et les SDK TypeScript, Go, .NET et Rust sont coordonnés en v{version}. La suite principale compte {tests} tests, avec des preuves formelles du protocole documentées pour la vérification avec Tamarin.",
     "stack": {
       "title": "La Pile",
       "l1": {
@@ -162,42 +172,42 @@
       {
         "id": "RFC-001",
         "name": "Identité Souveraine",
-        "status": "Protocole"
+        "status": "Accepté"
       },
       {
         "id": "RFC-002",
         "name": "Traités de Reconnaissance",
-        "status": "Protocole"
+        "status": "Accepté"
       },
       {
         "id": "RFC-003",
         "name": "Paquets de Confiance",
-        "status": "Protocole"
+        "status": "Accepté"
       },
       {
         "id": "RFC-004",
         "name": "Flux de Révocation",
-        "status": "Protocole"
+        "status": "Accepté"
       },
       {
         "id": "RFC-005",
         "name": "Manifestes de Capacités",
-        "status": "Protocole"
+        "status": "Brouillon"
       },
       {
         "id": "RFC-006",
         "name": "Modèle Connectome",
-        "status": "Protocole"
+        "status": "Brouillon"
       },
       {
         "id": "RFC-007",
         "name": "Continuité de l'Opérateur",
-        "status": "Protocole"
+        "status": "Brouillon"
       },
       {
         "id": "RFC-008",
         "name": "Rôle d'Opérateur Géré",
-        "status": "Protocole"
+        "status": "Brouillon"
       }
     ],
     "live": {
@@ -244,11 +254,17 @@
     "title": "Construisez avec Genesis Mesh.",
     "titleAccent": "Gardez votre autorité.",
     "subtitle": "Choisissez le chemin d'adoption qui correspond à votre rôle sans renoncer à vos propres décisions de confiance.",
+    "operators": {
+      "who": "Pour les opérateurs",
+      "title": "Exploitez votre propre domaine souverain.",
+      "desc": "Gardez vos propres clés et votre politique : démarrez une autorité de réseau, reconnaissez vos pairs par traité et révoquez selon vos propres conditions.",
+      "cta": "Lire le guide de l'opérateur →"
+    },
     "builders": {
       "who": "Pour les développeurs",
       "title": "Déployez votre propre domaine de confiance souverain.",
-      "desc": "Lisez les RFC, récupérez les SDK TypeScript, Go et .NET, et montez une Communauté Souveraine L2 sur une infrastructure que vous possédez déjà.",
-      "cta": "Entrer dans le Dev Hub →",
+      "desc": "Lisez les RFC, utilisez les SDK Python, TypeScript, Go, .NET ou Rust et déployez une communauté souveraine L2 sur une infrastructure qui vous appartient déjà.",
+      "cta": "Découvrir les SDK →",
       "altText": "Organisation open source →"
     },
     "strategic": {
@@ -333,7 +349,8 @@
       "recorded": "Ouvrir la preuve enregistrée",
       "run": "Exécuter vous-même cette preuve",
       "protocol": "Lire RFC-002 et RFC-004"
-    }
+    },
+    "runBrowser": "Ou essayez-le dans votre navigateur, sans installation :"
   },
   "liveNetwork": {
     "label": "Preuve en direct",
@@ -370,7 +387,7 @@
     "dashboard": "Consulter le tableau de bord public",
     "notReported": "Non signalé",
     "browserFallback": {
-      "title": "La télémétrie en direct nécessite un accès au navigateur.",
+      "title": "Les données en direct sont temporairement indisponibles.",
       "description": "Des épreuves enregistrées et reproductibles indépendamment restent disponibles ci-dessous."
     },
     "proofAvailability": "Des épreuves enregistrées et reproductibles indépendamment restent disponibles via les liens ci-dessous."

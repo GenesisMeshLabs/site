@@ -10,7 +10,10 @@
       "docs": "文档",
       "proof": "证明",
       "live": "实时网络",
-      "strategy": "策略"
+      "strategy": "策略",
+      "concepts": "概念",
+      "liveMesh": "实时网格",
+      "github": "GitHub"
     }
   },
   "ui": {
@@ -47,7 +50,14 @@
       }
     },
     "scroll": "向下滚动 ↓",
-    "vlabel": "主权中立的基础设施"
+    "vlabel": "主权中立的基础设施",
+    "tryIt": {
+      "primary": "试用实时网格",
+      "docs": "快速入门",
+      "local": "或在本地运行您自己的权威机构：",
+      "copy": "复制",
+      "copied": "已复制"
+    }
   },
   "stakes": {
     "label": "主权",
@@ -139,7 +149,7 @@
   "protocol": {
     "label": "协议",
     "title": "开放的RFC计划 - 由标准塑造，而不是由供应商塑造。",
-    "subtitle": "Python 参考实现以及 TypeScript、Go 和 .NET SDK 在 v0.56.0 进行协调。核心套件具有 1,327 测试，并记录了用于 Tamarin 验证的正式协议证据。",
+    "subtitle": "Python 参考实现与 TypeScript、Go、.NET 和 Rust SDK 已在 v{version} 协调一致。核心测试套件共有 {tests} 项测试，并记录了用于 Tamarin 验证的形式化协议证据。",
     "stack": {
       "title": "堆栈",
       "l1": {
@@ -162,42 +172,42 @@
       {
         "id": "RFC-001",
         "name": "主权身份",
-        "status": "协议"
+        "status": "已接受"
       },
       {
         "id": "RFC-002",
         "name": "认可条约",
-        "status": "协议"
+        "status": "已接受"
       },
       {
         "id": "RFC-003",
         "name": "信任包",
-        "status": "协议"
+        "status": "已接受"
       },
       {
         "id": "RFC-004",
         "name": "撤销源",
-        "status": "协议"
+        "status": "已接受"
       },
       {
         "id": "RFC-005",
         "name": "能力清单",
-        "status": "协议"
+        "status": "草案"
       },
       {
         "id": "RFC-006",
         "name": "连接体模型",
-        "status": "协议"
+        "status": "草案"
       },
       {
         "id": "RFC-007",
         "name": "运营商连续性",
-        "status": "协议"
+        "status": "草案"
       },
       {
         "id": "RFC-008",
         "name": "受管运营商角色",
-        "status": "协议"
+        "status": "草案"
       }
     ],
     "live": {
@@ -244,11 +254,17 @@
     "title": "使用 Genesis Mesh 构建。",
     "titleAccent": "保留您的自主权。",
     "subtitle": "选择与您的角色相匹配的采用路径，而无需放弃您自己的信任决定。",
+    "operators": {
+      "who": "面向运营者",
+      "title": "运营您自己的主权域。",
+      "desc": "自行掌握密钥和策略：启动网络权威机构，通过条约承认对等方，并按您自己的条件撤销。",
+      "cta": "阅读运营者指南 →"
+    },
     "builders": {
       "who": "面向软件开发者",
       "title": "建立您自己的主权信任域。",
-      "desc": "阅读RFC、拉取TypeScript/Go/.NET SDK，并在您已拥有的基础设施上建立L2主权社群。",
-      "cta": "进入开发中心 →",
+      "desc": "阅读 RFC，使用 Python、TypeScript、Go、.NET 或 Rust SDK，并在您已拥有的基础设施上建立 L2 主权社区。",
+      "cta": "探索 SDK →",
       "altText": "开源组织 →"
     },
     "strategic": {
@@ -333,7 +349,8 @@
       "recorded": "打开已记录的证明",
       "run": "自行运行此证明流程",
       "protocol": "阅读 RFC-002 和 RFC-004"
-    }
+    },
+    "runBrowser": "或直接在浏览器中试用，无需安装："
   },
   "liveNetwork": {
     "label": "实时证明",
@@ -370,7 +387,7 @@
     "dashboard": "查看公共仪表板",
     "notReported": "未报道",
     "browserFallback": {
-      "title": "实时遥测需要浏览器访问。",
+      "title": "实时数据暂时不可用。",
       "description": "已记录且可独立复制的证据仍可在下面找到。"
     },
     "proofAvailability": "已记录且可独立复制的证据可通过以下链接获取。"

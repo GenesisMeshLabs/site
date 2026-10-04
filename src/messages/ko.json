@@ -10,7 +10,10 @@
       "docs": "문서",
       "proof": "증명",
       "live": "라이브 네트워크",
-      "strategy": "전략"
+      "strategy": "전략",
+      "concepts": "개념",
+      "liveMesh": "라이브 메시",
+      "github": "GitHub"
     }
   },
   "ui": {
@@ -47,7 +50,14 @@
       }
     },
     "scroll": "스크롤 ↓",
-    "vlabel": "주권 중립 인프라스트럭처"
+    "vlabel": "주권 중립 인프라스트럭처",
+    "tryIt": {
+      "primary": "라이브 메시 체험하기",
+      "docs": "빠른 시작",
+      "local": "또는 직접 오소리티를 로컬에서 실행하세요:",
+      "copy": "복사",
+      "copied": "복사됨"
+    }
   },
   "stakes": {
     "label": "주권",
@@ -139,7 +149,7 @@
   "protocol": {
     "label": "프로토콜",
     "title": "개방형 RFC 프로그램 - 공급업체가 아닌 표준으로 형성됩니다.",
-    "subtitle": "Python 참조 구현과 TypeScript, Go 및 .NET SDK는 v0.56.0에서 조정됩니다. 핵심 제품군에는 Tamarin 검증을 위해 문서화된 공식 프로토콜 증거와 함께 1,327 테스트가 있습니다.",
+    "subtitle": "Python 레퍼런스 구현과 TypeScript, Go, .NET, Rust SDK는 v{version}에서 조율되어 있습니다. 핵심 테스트 모음에는 {tests}개의 테스트가 있으며, Tamarin 검증을 위한 공식 프로토콜 증거가 문서화되어 있습니다.",
     "stack": {
       "title": "스택",
       "l1": {
@@ -162,42 +172,42 @@
       {
         "id": "RFC-001",
         "name": "주권 신원",
-        "status": "프로토콜"
+        "status": "승인됨"
       },
       {
         "id": "RFC-002",
         "name": "인정 조약",
-        "status": "프로토콜"
+        "status": "승인됨"
       },
       {
         "id": "RFC-003",
         "name": "신뢰 번들",
-        "status": "프로토콜"
+        "status": "승인됨"
       },
       {
         "id": "RFC-004",
         "name": "철회 피드",
-        "status": "프로토콜"
+        "status": "승인됨"
       },
       {
         "id": "RFC-005",
         "name": "기능 매니페스트",
-        "status": "프로토콜"
+        "status": "초안"
       },
       {
         "id": "RFC-006",
         "name": "커넥톰 모델",
-        "status": "프로토콜"
+        "status": "초안"
       },
       {
         "id": "RFC-007",
         "name": "운영자 연속성",
-        "status": "프로토콜"
+        "status": "초안"
       },
       {
         "id": "RFC-008",
         "name": "관리형 운영자 역할",
-        "status": "프로토콜"
+        "status": "초안"
       }
     ],
     "live": {
@@ -244,11 +254,17 @@
     "title": "Genesis Mesh로 빌드하세요.",
     "titleAccent": "당신의 권위를 유지하십시오.",
     "subtitle": "자신의 신뢰 결정을 포기하지 않고 역할에 맞는 채택 경로를 선택하세요.",
+    "operators": {
+      "who": "운영자를 위해",
+      "title": "자신만의 주권 도메인을 운영하세요.",
+      "desc": "키와 정책을 직접 보유하세요. 네트워크 오소리티를 시작하고, 조약으로 상대를 인정하며, 자신의 조건으로 철회하세요.",
+      "cta": "운영자 가이드 읽기 →"
+    },
     "builders": {
       "who": "소프트웨어 개발자를 위해",
       "title": "자신의 주권 신뢰 도메인을 설정합니다.",
-      "desc": "RFC를 읽고 TypeScript / Go / .NET SDK를 가져와, 이미 소유한 인프라에 L2 주권 커뮤니티를 구축하십시오.",
-      "cta": "개발 허브로 이동 →",
+      "desc": "RFC를 읽고 Python, TypeScript, Go, .NET 또는 Rust SDK를 사용하여 이미 보유한 인프라 위에 L2 주권 커뮤니티를 구축하세요.",
+      "cta": "SDK 살펴보기 →",
       "altText": "오픈 소스 조직 →"
     },
     "strategic": {
@@ -333,7 +349,8 @@
       "recorded": "기록된 증명 열기",
       "run": "이 증명 직접 실행",
       "protocol": "RFC-002 및 RFC-004 읽기"
-    }
+    },
+    "runBrowser": "또는 설치 없이 브라우저에서 체험해 보세요:"
   },
   "liveNetwork": {
     "label": "라이브 증명",
@@ -370,7 +387,7 @@
     "dashboard": "공개 대시보드 살펴보기",
     "notReported": "보고되지 않음",
     "browserFallback": {
-      "title": "실시간 원격 측정에는 브라우저 액세스가 필요합니다.",
+      "title": "실시간 데이터를 일시적으로 사용할 수 없습니다.",
       "description": "기록되고 독립적으로 재현 가능한 증거는 아래에서 확인할 수 있습니다."
     },
     "proofAvailability": "기록되고 독립적으로 재현 가능한 증거는 아래 링크를 통해 계속 사용할 수 있습니다."

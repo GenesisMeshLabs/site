@@ -10,7 +10,10 @@
       "docs": "Documentació",
       "proof": "Prova",
       "live": "Xarxa en directe",
-      "strategy": "Estratègia"
+      "strategy": "Estratègia",
+      "concepts": "Conceptes",
+      "liveMesh": "Malla en directe",
+      "github": "GitHub"
     }
   },
   "ui": {
@@ -47,7 +50,14 @@
       }
     },
     "scroll": "Desplaça't ↓",
-    "vlabel": "Infraestructura neutral respecte de la sobirania"
+    "vlabel": "Infraestructura neutral respecte de la sobirania",
+    "tryIt": {
+      "primary": "Proveu la malla en directe",
+      "docs": "Inici ràpid",
+      "local": "O executeu la vostra pròpia autoritat localment:",
+      "copy": "Copia",
+      "copied": "Copiat"
+    }
   },
   "stakes": {
     "label": "Sobirania",
@@ -139,7 +149,7 @@
   "protocol": {
     "label": "El protocol",
     "title": "Un programa RFC obert, conformat pels estàndards i no pels proveïdors.",
-    "subtitle": "La implementació de referència Python i els SDK TypeScript, Go i .NET es coordinen a v0.56.0. La suite principal té proves 1,327, amb proves formals de protocol documentades per a la verificació Tamarin.",
+    "subtitle": "La implementació de referència en Python i els SDK de TypeScript, Go, .NET i Rust estan coordinats a la v{version}. El conjunt principal té {tests} proves, amb evidència formal del protocol documentada per a la verificació amb Tamarin.",
     "stack": {
       "title": "La pila",
       "l1": {
@@ -162,42 +172,42 @@
       {
         "id": "RFC-001",
         "name": "Identitat sobirana",
-        "status": "Protocol"
+        "status": "Acceptat"
       },
       {
         "id": "RFC-002",
         "name": "Tractats de reconeixement",
-        "status": "Protocol"
+        "status": "Acceptat"
       },
       {
         "id": "RFC-003",
         "name": "Paquets de confiança",
-        "status": "Protocol"
+        "status": "Acceptat"
       },
       {
         "id": "RFC-004",
         "name": "Canals de revocació",
-        "status": "Protocol"
+        "status": "Acceptat"
       },
       {
         "id": "RFC-005",
         "name": "Manifestos de capacitats",
-        "status": "Protocol"
+        "status": "Esborrany"
       },
       {
         "id": "RFC-006",
         "name": "Model de connectoma",
-        "status": "Protocol"
+        "status": "Esborrany"
       },
       {
         "id": "RFC-007",
         "name": "Continuïtat de l'operador",
-        "status": "Protocol"
+        "status": "Esborrany"
       },
       {
         "id": "RFC-008",
         "name": "Funció d'operador gestionat",
-        "status": "Protocol"
+        "status": "Esborrany"
       }
     ],
     "live": {
@@ -244,11 +254,17 @@
     "title": "Construeix amb Genesis Mesh.",
     "titleAccent": "Mantingueu la vostra autoritat.",
     "subtitle": "Trieu el camí d'adopció que coincideixi amb el vostre paper sense renunciar a les vostres pròpies decisions de confiança.",
+    "operators": {
+      "who": "Per a operadors",
+      "title": "Gestioneu el vostre propi domini sobirà.",
+      "desc": "Conserveu les vostres claus i la vostra política: inicieu una autoritat de xarxa, reconeixeu altres parts mitjançant un tractat i revoqueu-ho amb les vostres condicions.",
+      "cta": "Llegiu la guia d'operadors →"
+    },
     "builders": {
       "who": "Per a desenvolupadors de programari",
       "title": "Poseu en marxa el vostre propi domini de confiança sobirà.",
-      "desc": "Llegiu els RFC, descarregueu els SDK de TypeScript / Go / .NET i desplegueu una comunitat sobirana L2 sobre una infraestructura que ja sigui vostra.",
-      "cta": "Accediu al centre de desenvolupament →",
+      "desc": "Llegiu els RFC, utilitzeu els SDK de Python, TypeScript, Go, .NET o Rust i desplegueu una comunitat sobirana L2 sobre una infraestructura que ja sigui vostra.",
+      "cta": "Exploreu els SDK →",
       "altText": "Organització de codi obert →"
     },
     "strategic": {
@@ -333,7 +349,8 @@
       "recorded": "Obriu la prova enregistrada",
       "run": "Executeu personalment aquesta prova",
       "protocol": "Llegiu RFC-002 i RFC-004"
-    }
+    },
+    "runBrowser": "O proveu-ho al navegador, sense instal·lar res:"
   },
   "liveNetwork": {
     "label": "Prova en directe",
@@ -370,7 +387,7 @@
     "dashboard": "Examineu el tauler públic",
     "notReported": "No informat",
     "browserFallback": {
-      "title": "La telemetria en directe requereix accés al navegador.",
+      "title": "Les dades en directe no estan disponibles temporalment.",
       "description": "Les proves enregistrades i reproduïbles de manera independent continuen disponibles a continuació."
     },
     "proofAvailability": "Les proves enregistrades i reproduïbles de manera independent continuen disponibles a través dels enllaços següents."

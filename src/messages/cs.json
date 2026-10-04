@@ -10,7 +10,10 @@
       "docs": "Dokumentace",
       "proof": "Důkaz",
       "live": "Živá síť",
-      "strategy": "Strategie"
+      "strategy": "Strategie",
+      "concepts": "Koncepty",
+      "liveMesh": "Živá síť",
+      "github": "GitHub"
     }
   },
   "ui": {
@@ -47,7 +50,14 @@
       }
     },
     "scroll": "Posunout ↓",
-    "vlabel": "Infrastruktura neutrální vůči suverenitě"
+    "vlabel": "Infrastruktura neutrální vůči suverenitě",
+    "tryIt": {
+      "primary": "Vyzkoušejte živou síť",
+      "docs": "Rychlý start",
+      "local": "Nebo spusťte vlastní autoritu lokálně:",
+      "copy": "Kopírovat",
+      "copied": "Zkopírováno"
+    }
   },
   "stakes": {
     "label": "Suverenita",
@@ -139,7 +149,7 @@
   "protocol": {
     "label": "Protokol",
     "title": "Otevřený program RFC, utvářený standardy, nikoli dodavatelem.",
-    "subtitle": "Referenční implementace Python a sady SDK TypeScript, Go a .NET jsou koordinovány v v0.56.0. Základní sada má testy 1,327 s formálními protokoly zdokumentovanými pro ověření Tamarin.",
+    "subtitle": "Referenční implementace v Pythonu a SDK pro TypeScript, Go, .NET a Rust jsou koordinovány ve verzi v{version}. Hlavní sada má {tests} testů a formální důkazy protokolu jsou zdokumentovány pro ověření nástrojem Tamarin.",
     "stack": {
       "title": "Technologický řetězec",
       "l1": {
@@ -162,42 +172,42 @@
       {
         "id": "RFC-001",
         "name": "Suverénní identita",
-        "status": "Protokol"
+        "status": "Přijato"
       },
       {
         "id": "RFC-002",
         "name": "Smlouvy o vzájemném uznávání",
-        "status": "Protokol"
+        "status": "Přijato"
       },
       {
         "id": "RFC-003",
         "name": "Balíčky důvěry",
-        "status": "Protokol"
+        "status": "Přijato"
       },
       {
         "id": "RFC-004",
         "name": "Kanály odvolání",
-        "status": "Protokol"
+        "status": "Přijato"
       },
       {
         "id": "RFC-005",
         "name": "Manifesty oprávnění",
-        "status": "Protokol"
+        "status": "Návrh"
       },
       {
         "id": "RFC-006",
         "name": "Model konektomu",
-        "status": "Protokol"
+        "status": "Návrh"
       },
       {
         "id": "RFC-007",
         "name": "Kontinuita provozovatele",
-        "status": "Protokol"
+        "status": "Návrh"
       },
       {
         "id": "RFC-008",
         "name": "Role řízeného provozovatele",
-        "status": "Protokol"
+        "status": "Návrh"
       }
     ],
     "live": {
@@ -244,11 +254,17 @@
     "title": "Sestavte pomocí Genesis Mesh.",
     "titleAccent": "Udržujte svou autoritu.",
     "subtitle": "Vyberte si cestu přijetí, která odpovídá vaší roli, aniž byste se vzdali svých vlastních rozhodnutí o důvěře.",
+    "operators": {
+      "who": "Pro operátory",
+      "title": "Provozujte vlastní suverénní doménu.",
+      "desc": "Ponechte si vlastní klíče a politiku: spusťte síťovou autoritu, uznávejte partnery smlouvou a odvolávejte za vlastních podmínek.",
+      "cta": "Přečtěte si příručku pro operátory →"
+    },
     "builders": {
       "who": "Pro vývojáře softwaru",
       "title": "Spusťte vlastní suverénní doménu důvěry.",
-      "desc": "Prostudujte si RFC, stáhněte SDK pro TypeScript / Go / .NET a zprovozněte suverénní komunitu L2 na infrastruktuře, kterou již vlastníte.",
-      "cta": "Vstoupit do vývojářského centra →",
+      "desc": "Přečtěte si RFC, použijte SDK pro Python, TypeScript, Go, .NET nebo Rust a vybudujte suverénní komunitu L2 na infrastruktuře, kterou již vlastníte.",
+      "cta": "Prozkoumejte SDK →",
       "altText": "Organizace s otevřeným zdrojovým kódem →"
     },
     "strategic": {
@@ -333,7 +349,8 @@
       "recorded": "Otevřít zaznamenaný důkaz",
       "run": "Spustit tento důkaz samostatně",
       "protocol": "Přečíst RFC-002 a RFC-004"
-    }
+    },
+    "runBrowser": "Nebo si to vyzkoušejte v prohlížeči, bez instalace:"
   },
   "liveNetwork": {
     "label": "Živý důkaz",
@@ -370,7 +387,7 @@
     "dashboard": "Prohlédnout veřejný řídicí panel",
     "notReported": "Nenahlášeno",
     "browserFallback": {
-      "title": "Živá telemetrie vyžaduje přístup pomocí prohlížeče.",
+      "title": "Živá data jsou dočasně nedostupná.",
       "description": "Zaznamenané a nezávisle reprodukovatelné důkazy zůstávají k dispozici níže."
     },
     "proofAvailability": "Zaznamenané a nezávisle reprodukovatelné důkazy zůstávají dostupné prostřednictvím odkazů níže."

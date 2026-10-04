@@ -10,7 +10,10 @@
       "docs": "Documentación",
       "proof": "Prueba",
       "live": "Red en vivo",
-      "strategy": "Estrategia"
+      "strategy": "Estrategia",
+      "concepts": "Conceptos",
+      "liveMesh": "Malla en vivo",
+      "github": "GitHub"
     }
   },
   "ui": {
@@ -47,7 +50,14 @@
       }
     },
     "scroll": "Desplazar ↓",
-    "vlabel": "Infraestructura neutral en soberanía"
+    "vlabel": "Infraestructura neutral en soberanía",
+    "tryIt": {
+      "primary": "Prueba la malla en vivo",
+      "docs": "Inicio rápido",
+      "local": "O ejecuta tu propia autoridad en local:",
+      "copy": "Copiar",
+      "copied": "Copiado"
+    }
   },
   "stakes": {
     "label": "soberanía",
@@ -139,7 +149,7 @@
   "protocol": {
     "label": "El Protocolo",
     "title": "Un programa RFC abierto, moldeado por estándares y no por un proveedor.",
-    "subtitle": "La implementación de referencia Python y los SDK TypeScript, Go y .NET se coordinan en v0.56.0. El conjunto principal tiene pruebas 1,327, con evidencia de protocolo formal documentada para la verificación Tamarin.",
+    "subtitle": "La implementación de referencia en Python y los SDK de TypeScript, Go, .NET y Rust están coordinados en la v{version}. El conjunto principal tiene {tests} pruebas, con evidencia formal del protocolo documentada para la verificación con Tamarin.",
     "stack": {
       "title": "El Stack",
       "l1": {
@@ -162,42 +172,42 @@
       {
         "id": "RFC-001",
         "name": "Identidad Soberana",
-        "status": "Protocolo"
+        "status": "Aceptado"
       },
       {
         "id": "RFC-002",
         "name": "Tratados de Reconocimiento",
-        "status": "Protocolo"
+        "status": "Aceptado"
       },
       {
         "id": "RFC-003",
         "name": "Paquetes de Confianza",
-        "status": "Protocolo"
+        "status": "Aceptado"
       },
       {
         "id": "RFC-004",
         "name": "Feeds de Revocación",
-        "status": "Protocolo"
+        "status": "Aceptado"
       },
       {
         "id": "RFC-005",
         "name": "Manifiestos de Capacidad",
-        "status": "Protocolo"
+        "status": "Borrador"
       },
       {
         "id": "RFC-006",
         "name": "Modelo Conectoma",
-        "status": "Protocolo"
+        "status": "Borrador"
       },
       {
         "id": "RFC-007",
         "name": "Continuidad del Operador",
-        "status": "Protocolo"
+        "status": "Borrador"
       },
       {
         "id": "RFC-008",
         "name": "Rol de Operador Gestionado",
-        "status": "Protocolo"
+        "status": "Borrador"
       }
     ],
     "live": {
@@ -244,11 +254,17 @@
     "title": "Construya con Genesis Mesh.",
     "titleAccent": "Mantenga su autoridad.",
     "subtitle": "Elija el camino de adopción que coincida con su función sin renunciar a sus propias decisiones de confianza.",
+    "operators": {
+      "who": "Para operadores",
+      "title": "Gestiona tu propio dominio soberano.",
+      "desc": "Conserva tus propias claves y política: inicia una Autoridad de Red, reconoce a otras partes mediante tratado y revoca en tus propios términos.",
+      "cta": "Lee la guía de operadores →"
+    },
     "builders": {
       "who": "Para desarrolladores de software",
       "title": "Levanta tu propio dominio de confianza soberano.",
-      "desc": "Lee los RFC, descarga los SDK de TypeScript, Go y .NET, y levanta una Comunidad Soberana L2 sobre infraestructura que ya posees.",
-      "cta": "Entrar al Dev Hub →",
+      "desc": "Lee los RFC, usa los SDK de Python, TypeScript, Go, .NET o Rust y despliega una Comunidad Soberana L2 en infraestructura que ya posees.",
+      "cta": "Explora los SDK →",
       "altText": "Organización de código abierto →"
     },
     "strategic": {
@@ -333,7 +349,8 @@
       "recorded": "Abrir la prueba registrada",
       "run": "Ejecutar esta prueba",
       "protocol": "Leer RFC-002 y RFC-004"
-    }
+    },
+    "runBrowser": "O pruébalo en tu navegador, sin instalar nada:"
   },
   "liveNetwork": {
     "label": "Prueba en vivo",
@@ -370,7 +387,7 @@
     "dashboard": "Examinar el panel público",
     "notReported": "No reportado",
     "browserFallback": {
-      "title": "La telemetría en vivo requiere acceso al navegador.",
+      "title": "Los datos en vivo no están disponibles temporalmente.",
       "description": "Las pruebas grabadas y reproducibles de forma independiente permanecen disponibles a continuación."
     },
     "proofAvailability": "Las pruebas grabadas y reproducibles de forma independiente permanecen disponibles a través de los enlaces a continuación."

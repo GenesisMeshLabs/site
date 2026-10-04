@@ -10,7 +10,10 @@
       "docs": "Documentatie",
       "proof": "Bewijs",
       "live": "Live netwerk",
-      "strategy": "Strategie"
+      "strategy": "Strategie",
+      "concepts": "Concepten",
+      "liveMesh": "Live mesh",
+      "github": "GitHub"
     }
   },
   "ui": {
@@ -47,7 +50,14 @@
       }
     },
     "scroll": "Scroll ↓",
-    "vlabel": "Soevereiniteitsneutrale infrastructuur"
+    "vlabel": "Soevereiniteitsneutrale infrastructuur",
+    "tryIt": {
+      "primary": "Probeer de live mesh",
+      "docs": "Snelstart",
+      "local": "Of draai je eigen autoriteit lokaal:",
+      "copy": "Kopiëren",
+      "copied": "Gekopieerd"
+    }
   },
   "stakes": {
     "label": "Soevereiniteit",
@@ -139,7 +149,7 @@
   "protocol": {
     "label": "Het Protocol",
     "title": "Een open RFC-programma, gevormd door standaarden en niet door een leverancier.",
-    "subtitle": "De Python-referentie-implementatie en TypeScript, Go en .NET SDK's worden gecoördineerd op v0.56.0. De kernsuite beschikt over 1,327-tests, waarbij formeel protocolbewijs is gedocumenteerd voor Tamarin-verificatie.",
+    "subtitle": "De Python-referentie-implementatie en de SDK's voor TypeScript, Go, .NET en Rust zijn afgestemd op v{version}. De kernsuite heeft {tests} tests, met formeel protocolbewijs gedocumenteerd voor verificatie met Tamarin.",
     "stack": {
       "title": "De Stack",
       "l1": {
@@ -162,42 +172,42 @@
       {
         "id": "RFC-001",
         "name": "Soevereine Identiteit",
-        "status": "Protocol"
+        "status": "Aanvaard"
       },
       {
         "id": "RFC-002",
         "name": "Erkenningsverdragen",
-        "status": "Protocol"
+        "status": "Aanvaard"
       },
       {
         "id": "RFC-003",
         "name": "Vertrouwensbundels",
-        "status": "Protocol"
+        "status": "Aanvaard"
       },
       {
         "id": "RFC-004",
         "name": "Intrekkingsfeeds",
-        "status": "Protocol"
+        "status": "Aanvaard"
       },
       {
         "id": "RFC-005",
         "name": "Capability-manifesten",
-        "status": "Protocol"
+        "status": "Concept"
       },
       {
         "id": "RFC-006",
         "name": "Connectoommodel",
-        "status": "Protocol"
+        "status": "Concept"
       },
       {
         "id": "RFC-007",
         "name": "Operatorcontinuïteit",
-        "status": "Protocol"
+        "status": "Concept"
       },
       {
         "id": "RFC-008",
         "name": "Beheerde operatorrol",
-        "status": "Protocol"
+        "status": "Concept"
       }
     ],
     "live": {
@@ -244,11 +254,17 @@
     "title": "Bouw met Genesis Mesh.",
     "titleAccent": "Behoud uw autoriteit.",
     "subtitle": "Kies het adoptietraject dat bij uw rol past, zonder uw eigen vertrouwensbeslissingen op te geven.",
+    "operators": {
+      "who": "Voor operators",
+      "title": "Beheer je eigen soevereine domein.",
+      "desc": "Houd je eigen sleutels en beleid: start een netwerkautoriteit, erken partners via een verdrag en trek in op je eigen voorwaarden.",
+      "cta": "Lees de operatorgids →"
+    },
     "builders": {
       "who": "Voor softwareontwikkelaars",
       "title": "Zet uw eigen soevereine vertrouwensdomein op.",
-      "desc": "Lees de RFC's, haal de SDK's voor TypeScript, Go en .NET op, en zet een L2 Soevereine Gemeenschap op infrastructuur die u al bezit.",
-      "cta": "Naar de Dev Hub →",
+      "desc": "Lees de RFC's, gebruik de SDK's voor Python, TypeScript, Go, .NET of Rust en zet een L2 Soevereine Gemeenschap op infrastructuur op die je al bezit.",
+      "cta": "Ontdek de SDK's →",
       "altText": "Opensource-organisatie →"
     },
     "strategic": {
@@ -333,7 +349,8 @@
       "recorded": "Open het vastgelegde bewijs",
       "run": "Voer dit bewijs zelf uit",
       "protocol": "Lees RFC-002 en RFC-004"
-    }
+    },
+    "runBrowser": "Of probeer het in je browser, zonder installatie:"
   },
   "liveNetwork": {
     "label": "Live bewijs",
@@ -370,7 +387,7 @@
     "dashboard": "Bekijk het openbare dashboard",
     "notReported": "Niet gerapporteerd",
     "browserFallback": {
-      "title": "Voor live telemetrie is browsertoegang vereist.",
+      "title": "Live-gegevens zijn tijdelijk niet beschikbaar.",
       "description": "Opgenomen en onafhankelijk reproduceerbare proefdrukken blijven hieronder beschikbaar."
     },
     "proofAvailability": "Opgenomen en onafhankelijk reproduceerbare proefdrukken blijven beschikbaar via de onderstaande links."

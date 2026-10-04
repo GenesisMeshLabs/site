@@ -3,35 +3,20 @@
 import { useLocale, useTranslations } from 'next-intl';
 import { useEffect, useState } from 'react';
 
-type LiveProofData = {
-  available: boolean;
-  health?: 'healthy' | 'degraded';
-  sovereignDomains?: number | null;
-  recognitionEdges?: number | null;
-  activeTreaties?: number | null;
-  revocations?: number | null;
-  checkedAt: string;
-  lastUpdatedAt?: string | null;
-  revocationFeed?: {
-    freshness: string;
-  };
-  trustCycle?: {
-    status: 'verified' | 'not_observed';
-    completedAt: string | null;
-    freshness: string;
-  };
-};
+import type { LiveProofData } from '@/lib/live-proof';
+import { AUTHORITY_URL } from '@/lib/live-proof';
 
-const DASHBOARD_URL = 'https://na.genesismesh.connectorzzz.com/dashboard';
+const DASHBOARD_URL = `${AUTHORITY_URL}/dashboard`;
 const RUN_PROOF_URL =
   'https://github.com/GenesisMeshLabs/genesismesh/blob/main/docs/examples/assets/scripts/cross-sovereign-revocation-demo.py';
 
-export default function LiveNetwork() {
+export default function LiveNetwork({ initial }: { initial?: LiveProofData }) {
   const t = useTranslations('liveNetwork');
   const trustCycleT = useTranslations('trustCycle');
   const locale = useLocale();
-  const [data, setData] = useState<LiveProofData | null>(null);
-  const [failed, setFailed] = useState(false);
+  // The server renders the first snapshot; the browser keeps it fresh.
+  const [data, setData] = useState<LiveProofData | null>(initial?.available ? initial : null);
+  const [failed, setFailed] = useState(initial !== undefined && !initial.available);
 
   useEffect(() => {
     let active = true;

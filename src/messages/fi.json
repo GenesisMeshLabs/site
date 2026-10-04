@@ -10,7 +10,10 @@
       "docs": "Dokumentaatio",
       "proof": "Todiste",
       "live": "Reaaliaikainen verkko",
-      "strategy": "Strategia"
+      "strategy": "Strategia",
+      "concepts": "Käsitteet",
+      "liveMesh": "Live-mesh",
+      "github": "GitHub"
     }
   },
   "ui": {
@@ -47,7 +50,14 @@
       }
     },
     "scroll": "Vieritä ↓",
-    "vlabel": "Suvereniteettineutraali infrastruktuuri"
+    "vlabel": "Suvereniteettineutraali infrastruktuuri",
+    "tryIt": {
+      "primary": "Kokeile live-meshiä",
+      "docs": "Pikaopas",
+      "local": "Tai aja omaa auktoriteettiasi paikallisesti:",
+      "copy": "Kopioi",
+      "copied": "Kopioitu"
+    }
   },
   "stakes": {
     "label": "Suvereniteetti",
@@ -139,7 +149,7 @@
   "protocol": {
     "label": "Protokolla",
     "title": "Avoin RFC-ohjelma, standardien eikä toimittajan muovaama.",
-    "subtitle": "Python-viitetoteutus ja TypeScript, Go ja .NET SDK:t koordinoidaan osoitteessa v0.56.0. Ydinsarjassa on 1,327-testit, ja muodollinen protokollatodistus on dokumentoitu Tamarin-varmennusta varten.",
+    "subtitle": "Python-viitetoteutus sekä TypeScriptin, Gon, .NETin ja Rustin SDK:t on koordinoitu versioon v{version}. Ydinpaketissa on {tests} testiä, ja muodolliset protokollatodisteet on dokumentoitu Tamarin-verifiointia varten.",
     "stack": {
       "title": "Teknologiapino",
       "l1": {
@@ -162,42 +172,42 @@
       {
         "id": "RFC-001",
         "name": "Suvereeni identiteetti",
-        "status": "Protokolla"
+        "status": "Hyväksytty"
       },
       {
         "id": "RFC-002",
         "name": "Tunnustamissopimukset",
-        "status": "Protokolla"
+        "status": "Hyväksytty"
       },
       {
         "id": "RFC-003",
         "name": "Luottamuspaketit",
-        "status": "Protokolla"
+        "status": "Hyväksytty"
       },
       {
         "id": "RFC-004",
         "name": "Peruutussyötteet",
-        "status": "Protokolla"
+        "status": "Hyväksytty"
       },
       {
         "id": "RFC-005",
         "name": "Kyvykkyysmanifestit",
-        "status": "Protokolla"
+        "status": "Luonnos"
       },
       {
         "id": "RFC-006",
         "name": "Konnektomimalli",
-        "status": "Protokolla"
+        "status": "Luonnos"
       },
       {
         "id": "RFC-007",
         "name": "Operaattorin jatkuvuus",
-        "status": "Protokolla"
+        "status": "Luonnos"
       },
       {
         "id": "RFC-008",
         "name": "Hallinnoidun operaattorin rooli",
-        "status": "Protokolla"
+        "status": "Luonnos"
       }
     ],
     "live": {
@@ -244,11 +254,17 @@
     "title": "Rakenna Genesis Mesh:lla.",
     "titleAccent": "Säilytä auktoriteettisi.",
     "subtitle": "Valitse rooliasi vastaava adoptiopolku luopumatta omista luottamuspäätöksistäsi.",
+    "operators": {
+      "who": "Operaattoreille",
+      "title": "Ylläpidä omaa suvereenia toimialuettasi.",
+      "desc": "Pidä omat avaimesi ja käytäntösi: käynnistä verkkoauktoriteetti, tunnusta kumppanit sopimuksella ja peru omilla ehdoillasi.",
+      "cta": "Lue operaattorin opas →"
+    },
     "builders": {
       "who": "Ohjelmistokehittäjille",
       "title": "Käynnistä oma suvereeni luottamusalueesi.",
-      "desc": "Lue RFC:t, ota käyttöön TypeScript / Go / .NET SDK:t ja perusta L2-tason suvereeni yhteisö jo omistamallesi infrastruktuurille.",
-      "cta": "Siirry kehittäjäkeskukseen →",
+      "desc": "Lue RFC:t, käytä Pythonin, TypeScriptin, Gon, .NETin tai Rustin SDK:ita ja perusta L2-suvereeni yhteisö infrastruktuurille, jonka jo omistat.",
+      "cta": "Tutustu SDK:ihin →",
       "altText": "Avoimen lähdekoodin organisaatio →"
     },
     "strategic": {
@@ -333,7 +349,8 @@
       "recorded": "Avaa tallennettu todiste",
       "run": "Suorita tämä todiste itse",
       "protocol": "Lue RFC-002 ja RFC-004"
-    }
+    },
+    "runBrowser": "Tai kokeile selaimessa ilman asennusta:"
   },
   "liveNetwork": {
     "label": "Reaaliaikainen todiste",
@@ -370,7 +387,7 @@
     "dashboard": "Tarkastele julkista koontinäyttöä",
     "notReported": "Ei raportoitu",
     "browserFallback": {
-      "title": "Live-telemetria vaatii pääsyn selaimeen.",
+      "title": "Live-tiedot eivät ole tilapäisesti saatavilla.",
       "description": "Tallennetut ja itsenäisesti toistettavat todisteet ovat saatavilla alla."
     },
     "proofAvailability": "Tallennetut ja itsenäisesti toistettavat todisteet ovat saatavilla alla olevien linkkien kautta."

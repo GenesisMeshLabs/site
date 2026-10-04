@@ -10,7 +10,10 @@
       "protocol": "Protocol",
       "strategy": "Strategy",
       "hardware": "Research",
-      "docs": "Docs"
+      "docs": "Docs",
+      "concepts": "Concepts",
+      "liveMesh": "Live mesh",
+      "github": "GitHub"
     }
   },
   "ui": {
@@ -47,7 +50,14 @@
       }
     },
     "scroll": "Scroll ↓",
-    "vlabel": "Sovereignty-Neutral Infrastructure"
+    "vlabel": "Sovereignty-Neutral Infrastructure",
+    "tryIt": {
+      "primary": "Try the live mesh",
+      "docs": "Quick start",
+      "local": "Or run your own authority locally:",
+      "copy": "Copy",
+      "copied": "Copied"
+    }
   },
   "trustCycle": {
     "label": "One Complete Trust Cycle",
@@ -107,7 +117,8 @@
       "recorded": "Open recorded proof",
       "run": "Run this proof yourself",
       "protocol": "Read RFC-002 and RFC-004"
-    }
+    },
+    "runBrowser": "Or try it in your browser, no install:"
   },
   "liveNetwork": {
     "label": "Live Proof",
@@ -141,7 +152,7 @@
     "unknown": "Unknown",
     "notReported": "Not reported",
     "browserFallback": {
-      "title": "Live telemetry requires browser access.",
+      "title": "Live data is temporarily unavailable.",
       "description": "Recorded and independently reproducible proofs remain available below."
     },
     "proofAvailability": "Recorded and independently reproducible proofs remain available through the links below.",
@@ -239,7 +250,7 @@
   "protocol": {
     "label": "The Protocol",
     "title": "An open RFC program - standards-shaped, not vendor-shaped.",
-    "subtitle": "The Python reference implementation and TypeScript, Go, and .NET SDKs are coordinated at v0.56.0. The core suite has 1,327 tests, with formal protocol evidence documented for Tamarin verification.",
+    "subtitle": "The Python reference implementation and the TypeScript, Go, .NET and Rust SDKs are coordinated at v{version}. The core suite has {tests} tests, with formal protocol evidence documented for Tamarin verification.",
     "stack": {
       "title": "The Stack",
       "l1": {
@@ -262,42 +273,42 @@
       {
         "id": "RFC-001",
         "name": "Sovereign Identity",
-        "status": "Protocol"
+        "status": "Accepted"
       },
       {
         "id": "RFC-002",
         "name": "Recognition Treaties",
-        "status": "Protocol"
+        "status": "Accepted"
       },
       {
         "id": "RFC-003",
         "name": "Trust Bundles",
-        "status": "Protocol"
+        "status": "Accepted"
       },
       {
         "id": "RFC-004",
         "name": "Revocation Feeds",
-        "status": "Protocol"
+        "status": "Accepted"
       },
       {
         "id": "RFC-005",
         "name": "Capability Manifests",
-        "status": "Protocol"
+        "status": "Draft"
       },
       {
         "id": "RFC-006",
         "name": "Connectome Model",
-        "status": "Protocol"
+        "status": "Draft"
       },
       {
         "id": "RFC-007",
         "name": "Operator Continuity",
-        "status": "Protocol"
+        "status": "Draft"
       },
       {
         "id": "RFC-008",
         "name": "Managed Operator Role",
-        "status": "Protocol"
+        "status": "Draft"
       }
     ],
     "governance": {
@@ -344,11 +355,17 @@
     "title": "Build with Genesis Mesh.",
     "titleAccent": "Keep your authority.",
     "subtitle": "Choose the adoption path that matches your role without surrendering your own trust decisions.",
+    "operators": {
+      "who": "For operators",
+      "title": "Run your own sovereign.",
+      "desc": "Hold your own keys and policy: start a Network Authority, recognize peers by treaty, and revoke on your own terms.",
+      "cta": "Read the operator guide →"
+    },
     "builders": {
       "who": "For builders",
       "title": "Spin up your own sovereign trust domain.",
-      "desc": "Read the RFCs, pull the TypeScript / Go / .NET SDKs, and stand up an L2 Sovereign Community on infrastructure you already own.",
-      "cta": "Enter the Dev Hub →",
+      "desc": "Read the RFCs, use the Python, TypeScript, Go, .NET or Rust SDKs, and stand up an L2 Sovereign Community on infrastructure you already own.",
+      "cta": "Explore the SDKs →",
       "altText": "Open-source organization →"
     },
     "strategic": {

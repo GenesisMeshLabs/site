@@ -10,7 +10,10 @@
       "docs": "Tài Liệu",
       "proof": "Bằng chứng",
       "live": "Mạng trực tiếp",
-      "strategy": "Chiến lược"
+      "strategy": "Chiến lược",
+      "concepts": "Khái niệm",
+      "liveMesh": "Lưới trực tiếp",
+      "github": "GitHub"
     }
   },
   "ui": {
@@ -47,7 +50,14 @@
       }
     },
     "scroll": "Cuộn xuống ↓",
-    "vlabel": "Hạ tầng trung lập về chủ quyền"
+    "vlabel": "Hạ tầng trung lập về chủ quyền",
+    "tryIt": {
+      "primary": "Dùng thử lưới trực tiếp",
+      "docs": "Bắt đầu nhanh",
+      "local": "Hoặc chạy cơ quan của riêng bạn trên máy:",
+      "copy": "Sao chép",
+      "copied": "Đã sao chép"
+    }
   },
   "stakes": {
     "label": "chủ quyền",
@@ -139,7 +149,7 @@
   "protocol": {
     "label": "Giao Thức",
     "title": "Một chương trình RFC mở, định hình bởi tiêu chuẩn chứ không bởi nhà cung cấp.",
-    "subtitle": "Việc triển khai tham chiếu Python và SDK TypeScript, Go và .NET được phối hợp tại v0.56.0. Bộ lõi có các bài kiểm tra 1,327, với bằng chứng giao thức chính thức được ghi lại để xác minh Tamarin.",
+    "subtitle": "Bản triển khai tham chiếu bằng Python và các SDK cho TypeScript, Go, .NET và Rust được đồng bộ ở v{version}. Bộ kiểm thử chính có {tests} bài kiểm thử, kèm bằng chứng giao thức chính thức được ghi lại cho việc xác minh bằng Tamarin.",
     "stack": {
       "title": "Ngăn Xếp",
       "l1": {
@@ -162,42 +172,42 @@
       {
         "id": "RFC-001",
         "name": "Danh tính có chủ quyền",
-        "status": "Giao thức"
+        "status": "Đã chấp thuận"
       },
       {
         "id": "RFC-002",
         "name": "Hiệp ước công nhận",
-        "status": "Giao thức"
+        "status": "Đã chấp thuận"
       },
       {
         "id": "RFC-003",
         "name": "Gói tin cậy",
-        "status": "Giao thức"
+        "status": "Đã chấp thuận"
       },
       {
         "id": "RFC-004",
         "name": "Luồng thu hồi",
-        "status": "Giao thức"
+        "status": "Đã chấp thuận"
       },
       {
         "id": "RFC-005",
         "name": "Bản kê năng lực",
-        "status": "Giao thức"
+        "status": "Bản nháp"
       },
       {
         "id": "RFC-006",
         "name": "Mô hình kết nối",
-        "status": "Giao thức"
+        "status": "Bản nháp"
       },
       {
         "id": "RFC-007",
         "name": "Tính liên tục của nhà vận hành",
-        "status": "Giao thức"
+        "status": "Bản nháp"
       },
       {
         "id": "RFC-008",
         "name": "Vai trò nhà vận hành được quản lý",
-        "status": "Giao thức"
+        "status": "Bản nháp"
       }
     ],
     "live": {
@@ -244,11 +254,17 @@
     "title": "Xây dựng với Genesis Mesh.",
     "titleAccent": "Giữ quyền hạn của bạn.",
     "subtitle": "Chọn lộ trình áp dụng phù hợp với vai trò của bạn mà không phải từ bỏ các quyết định tin cậy của chính mình.",
+    "operators": {
+      "who": "Dành cho nhà vận hành",
+      "title": "Vận hành miền chủ quyền của riêng bạn.",
+      "desc": "Giữ khóa và chính sách của riêng bạn: khởi chạy Cơ quan Mạng, công nhận đối tác qua hiệp ước và thu hồi theo điều kiện của bạn.",
+      "cta": "Đọc hướng dẫn vận hành →"
+    },
     "builders": {
       "who": "Dành cho nhà phát triển phần mềm",
       "title": "Dựng miền tin cậy có chủ quyền của riêng bạn.",
-      "desc": "Đọc các RFC, lấy SDK cho TypeScript, Go và .NET, rồi dựng một Cộng đồng Chủ quyền L2 trên hạ tầng bạn đã sở hữu.",
-      "cta": "Vào Dev Hub →",
+      "desc": "Đọc các RFC, dùng SDK cho Python, TypeScript, Go, .NET hoặc Rust và dựng một Cộng đồng Chủ quyền L2 trên hạ tầng bạn đã sở hữu.",
+      "cta": "Khám phá các SDK →",
       "altText": "Tổ chức nguồn mở →"
     },
     "strategic": {
@@ -333,7 +349,8 @@
       "recorded": "Mở bằng chứng đã ghi lại",
       "run": "Tự chạy bằng chứng này",
       "protocol": "Đọc RFC-002 và RFC-004"
-    }
+    },
+    "runBrowser": "Hoặc dùng thử ngay trên trình duyệt, không cần cài đặt:"
   },
   "liveNetwork": {
     "label": "Bằng chứng trực tiếp",
@@ -370,7 +387,7 @@
     "dashboard": "Kiểm tra bảng điều khiển công khai",
     "notReported": "Không được báo cáo",
     "browserFallback": {
-      "title": "Đo từ xa trực tiếp yêu cầu truy cập trình duyệt.",
+      "title": "Dữ liệu trực tiếp tạm thời không khả dụng.",
       "description": "Bằng chứng được ghi lại và tái tạo độc lập vẫn có sẵn dưới đây."
     },
     "proofAvailability": "Bằng chứng được ghi lại và tái tạo độc lập vẫn có sẵn thông qua các liên kết bên dưới."

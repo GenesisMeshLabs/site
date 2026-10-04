@@ -10,7 +10,10 @@
       "docs": "Dokumentacija",
       "proof": "Dokaz",
       "live": "Živo omrežje",
-      "strategy": "Strategija"
+      "strategy": "Strategija",
+      "concepts": "Koncepti",
+      "liveMesh": "Omrežje v živo",
+      "github": "GitHub"
     }
   },
   "ui": {
@@ -47,7 +50,14 @@
       }
     },
     "scroll": "Pomaknite se ↓",
-    "vlabel": "Infrastruktura, nevtralna do suverenosti"
+    "vlabel": "Infrastruktura, nevtralna do suverenosti",
+    "tryIt": {
+      "primary": "Preizkusite omrežje v živo",
+      "docs": "Hiter začetek",
+      "local": "Ali zaženite lastno avtoriteto lokalno:",
+      "copy": "Kopiraj",
+      "copied": "Kopirano"
+    }
   },
   "stakes": {
     "label": "Suverenost",
@@ -139,7 +149,7 @@
   "protocol": {
     "label": "Protokol",
     "title": "Odprt program RFC, oblikovan po standardih, ne po meri ponudnika.",
-    "subtitle": "Referenčna izvedba Python in SDK-ji TypeScript, Go in .NET so usklajeni na v0.56.0. Osnovni nabor ima teste 1,327 z uradnimi dokazi protokola, dokumentiranimi za preverjanje Tamarin.",
+    "subtitle": "Referenčna implementacija v Pythonu in SDK-ji za TypeScript, Go, .NET in Rust so usklajeni v različici v{version}. Osnovni paket ima {tests} testov, s formalnimi dokazi protokola, dokumentiranimi za preverjanje z orodjem Tamarin.",
     "stack": {
       "title": "Tehnološki sklad",
       "l1": {
@@ -162,42 +172,42 @@
       {
         "id": "RFC-001",
         "name": "Suverena identiteta",
-        "status": "Protokol"
+        "status": "Sprejeto"
       },
       {
         "id": "RFC-002",
         "name": "Pogodbe o priznavanju",
-        "status": "Protokol"
+        "status": "Sprejeto"
       },
       {
         "id": "RFC-003",
         "name": "Paketi zaupanja",
-        "status": "Protokol"
+        "status": "Sprejeto"
       },
       {
         "id": "RFC-004",
         "name": "Viri preklicev",
-        "status": "Protokol"
+        "status": "Sprejeto"
       },
       {
         "id": "RFC-005",
         "name": "Manifesti zmogljivosti",
-        "status": "Protokol"
+        "status": "Osnutek"
       },
       {
         "id": "RFC-006",
         "name": "Model konektoma",
-        "status": "Protokol"
+        "status": "Osnutek"
       },
       {
         "id": "RFC-007",
         "name": "Kontinuiteta upravljavca",
-        "status": "Protokol"
+        "status": "Osnutek"
       },
       {
         "id": "RFC-008",
         "name": "Vloga upravljanega operaterja",
-        "status": "Protokol"
+        "status": "Osnutek"
       }
     ],
     "live": {
@@ -244,11 +254,17 @@
     "title": "Gradite z Genesis Mesh.",
     "titleAccent": "Ohranite svojo avtoriteto.",
     "subtitle": "Izberite pot posvojitve, ki ustreza vaši vlogi, ne da bi se odrekli lastnim odločitvam glede zaupanja.",
+    "operators": {
+      "who": "Za operaterje",
+      "title": "Upravljajte lastno suvereno domeno.",
+      "desc": "Obdržite lastne ključe in politiko: zaženite omrežno avtoriteto, priznajte partnerje s pogodbo in prekličite pod lastnimi pogoji.",
+      "cta": "Preberite vodnik za operaterje →"
+    },
     "builders": {
       "who": "Za razvijalce programske opreme",
       "title": "Vzpostavite lastno suvereno domeno zaupanja.",
-      "desc": "Preberite dokumente RFC, prenesite komplete SDK za TypeScript / Go / .NET in vzpostavite suvereno skupnost L2 v infrastrukturi, ki jo že imate.",
-      "cta": "Vstopite v razvojno središče →",
+      "desc": "Preberite RFC-je, uporabite SDK-je za Python, TypeScript, Go, .NET ali Rust in vzpostavite suvereno skupnost L2 na infrastrukturi, ki jo že imate.",
+      "cta": "Raziščite SDK-je →",
       "altText": "Odprtokodna organizacija →"
     },
     "strategic": {
@@ -333,7 +349,8 @@
       "recorded": "Odpri posneti dokaz",
       "run": "Sam zaženi ta dokaz",
       "protocol": "Preberi RFC-002 in RFC-004"
-    }
+    },
+    "runBrowser": "Ali preizkusite v brskalniku, brez namestitve:"
   },
   "liveNetwork": {
     "label": "Živi dokaz",
@@ -370,7 +387,7 @@
     "dashboard": "Preglej javno nadzorno ploščo",
     "notReported": "Ni prijavljeno",
     "browserFallback": {
-      "title": "Telemetrija v živo zahteva dostop do brskalnika.",
+      "title": "Podatki v živo trenutno niso na voljo.",
       "description": "Posneti in neodvisno ponovljivi dokazi so na voljo spodaj."
     },
     "proofAvailability": "Posneti in neodvisno ponovljivi dokazi so na voljo na spodnjih povezavah."

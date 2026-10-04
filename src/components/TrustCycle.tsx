@@ -1,6 +1,13 @@
 'use client';
 
 import { useTranslations } from 'next-intl';
+import { LINKS } from '@/lib/links';
+
+const REPRODUCE_COMMANDS = [
+  'git clone https://github.com/GenesisMeshLabs/genesismesh',
+  'cd genesismesh && pip install -e .',
+  'python docs/examples/assets/scripts/cross-sovereign-revocation-demo.py',
+].join('\n');
 
 type TrustStep = {
   title: string;
@@ -12,7 +19,7 @@ const RECORDED_PROOF_URL =
 const RUN_PROOF_URL =
   'https://github.com/GenesisMeshLabs/genesismesh/blob/main/docs/examples/cross-sovereign-revocation.md#run';
 const PROTOCOL_URL =
-  'https://genesismesh.connectorzzz.com/rfcs/rfc-002-recognition-treaties.html';
+  'https://docs.genesismesh.org/rfcs/rfc-002-recognition-treaties.html';
 
 const RECORDED_OUTPUT = `Azure accepted NB attestation before revocation
 accepted: True
@@ -98,7 +105,11 @@ export default function TrustCycle() {
       <div className="proof-run rv">
         <div>
           <span className="proof-run-label">{t('runLabel')}</span>
-          <code dir="ltr">python docs/examples/assets/scripts/cross-sovereign-revocation-demo.py</code>
+          <pre dir="ltr"><code>{REPRODUCE_COMMANDS}</code></pre>
+          <span className="proof-run-label">
+            {t('runBrowser')}{' '}
+            <a href={LINKS.liveMesh} target="_blank" rel="noopener noreferrer">mesh.genesismesh.org ↗</a>
+          </span>
         </div>
         <div className="proof-actions">
           <a href={RECORDED_PROOF_URL} target="_blank" rel="noopener noreferrer">

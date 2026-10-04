@@ -10,7 +10,10 @@
       "docs": "Takardu",
       "proof": "Hujja",
       "live": "Cibiyar Sadarwa Kai Tsaye",
-      "strategy": "Dabara"
+      "strategy": "Dabara",
+      "concepts": "Ra'ayoyi",
+      "liveMesh": "Mesh kai tsaye",
+      "github": "GitHub"
     }
   },
   "ui": {
@@ -47,7 +50,14 @@
       }
     },
     "scroll": "Gungura ↓",
-    "vlabel": "Ababen More Rayuwa Marasa Nuna Son Rai Kan Ikon Kai"
+    "vlabel": "Ababen More Rayuwa Marasa Nuna Son Rai Kan Ikon Kai",
+    "tryIt": {
+      "primary": "Gwada mesh kai tsaye",
+      "docs": "Farawa da sauri",
+      "local": "Ko ka gudanar da hukumarka a gida:",
+      "copy": "Kwafa",
+      "copied": "An kwafa"
+    }
   },
   "stakes": {
     "label": "Mulki\nSaukewa:",
@@ -139,7 +149,7 @@
   "protocol": {
     "label": "Ka'idar Sadarwa",
     "title": "Shirin RFC a buɗe, wanda ƙa'idoji suka tsara, ba mai sayar da kaya ba.",
-    "subtitle": "An daidaita aiwatar da tunani na Python da TypeScript, Go, da .NET SDKs a v0.56.0. Babban babban ɗakin yana da gwaje-gwajen 1,327, tare da shaidar ƙa'idar ƙa'idar da aka rubuta don tabbatarwa Tamarin.\nSaukewa:",
+    "subtitle": "Aiwatarwar Python ta tunani da SDK na TypeScript, Go, .NET da Rust an daidaita su a v{version}. Babban rukunin yana da gwaje-gwaje {tests}, tare da shaidar yarjejeniya ta hukuma da aka rubuta don tabbatarwa da Tamarin.",
     "stack": {
       "title": "Jerin Matakan Tsarin",
       "l1": {
@@ -162,42 +172,42 @@
       {
         "id": "RFC-001",
         "name": "Shaidar Mai Ikon Kansa",
-        "status": "Ka'idar Sadarwa"
+        "status": "An karɓa"
       },
       {
         "id": "RFC-002",
         "name": "Yarjejeniyoyin Amincewa",
-        "status": "Ka'idar Sadarwa"
+        "status": "An karɓa"
       },
       {
         "id": "RFC-003",
         "name": "Ƙunshin Aminci",
-        "status": "Ka'idar Sadarwa"
+        "status": "An karɓa"
       },
       {
         "id": "RFC-004",
         "name": "Magudanan Janyewa",
-        "status": "Ka'idar Sadarwa"
+        "status": "An karɓa"
       },
       {
         "id": "RFC-005",
         "name": "Bayanan Damar Aiki",
-        "status": "Ka'idar Sadarwa"
+        "status": "Daftari"
       },
       {
         "id": "RFC-006",
         "name": "Samfurin Connectome",
-        "status": "Ka'idar Sadarwa"
+        "status": "Daftari"
       },
       {
         "id": "RFC-007",
         "name": "Dorewar Ma'aikacin Tsarin",
-        "status": "Ka'idar Sadarwa"
+        "status": "Daftari"
       },
       {
         "id": "RFC-008",
         "name": "Matsayin Ma'aikacin Tsarin da Ake Gudanarwa",
-        "status": "Ka'idar Sadarwa"
+        "status": "Daftari"
       }
     ],
     "live": {
@@ -244,11 +254,17 @@
     "title": "Gina da Genesis Mesh.\nSaukewa:",
     "titleAccent": "Ka kiyaye ikonka.\nSaukewa:",
     "subtitle": "Zaɓi hanyar karɓowa wacce ta dace da aikinku ba tare da ƙaddamar da shawarar amincewar ku ba.\nSaukewa:",
+    "operators": {
+      "who": "Ga masu gudanarwa",
+      "title": "Gudanar da yankinka mai cikakken iko.",
+      "desc": "Riƙe makullanka da manufofinka: fara Hukumar Hanyar Sadarwa, amince da takwarorinka ta yarjejeniya, kuma ka soke bisa sharuɗɗanka.",
+      "cta": "Karanta jagorar mai gudanarwa →"
+    },
     "builders": {
       "who": "Ga masu haɓaka manhaja",
       "title": "Kafa yankin amincinka mai ikon kansa.",
-      "desc": "Karanta RFCs, sauke SDKs na TypeScript / Go / .NET, sannan ka kafa wata Al'umma Mai Ikon Kanta ta L2 a kan ababen more rayuwar da ka riga ka mallaka.",
-      "cta": "Shiga Cibiyar Masu Haɓakawa →",
+      "desc": "Karanta RFC, yi amfani da SDK na Python, TypeScript, Go, .NET ko Rust, kuma ka kafa Al'ummar L2 Mai Cikakken Iko akan kayayyakin more rayuwa da ka riga ka mallaka.",
+      "cta": "Duba SDK →",
       "altText": "Ƙungiyar buɗaɗɗen tushe →"
     },
     "strategic": {
@@ -333,7 +349,8 @@
       "recorded": "Buɗe hujjar da aka yi rikodi",
       "run": "Gudanar da wannan hujjar da kanka",
       "protocol": "Karanta RFC-002 da RFC-004"
-    }
+    },
+    "runBrowser": "Ko ka gwada shi a mazubinka, ba tare da shigarwa ba:"
   },
   "liveNetwork": {
     "label": "Hujja Kai Tsaye",
@@ -370,7 +387,7 @@
     "dashboard": "Duba dashboard na jama'a",
     "notReported": "Ba a ruwaito ba\nSaukewa:",
     "browserFallback": {
-      "title": "Live telemetry yana buƙatar samun damar mai lilo.\nSaukewa:",
+      "title": "Bayanai kai tsaye ba sa samuwa na ɗan lokaci.",
       "description": "Abubuwan da aka yi rikodi da masu iya sakewa suna wanzuwa a ƙasa.\nSaukewa:"
     },
     "proofAvailability": "Shaidu da aka yi rikodi kuma masu zaman kansu suna nan ta hanyar hanyoyin haɗin da ke ƙasa.\nSaukewa:"

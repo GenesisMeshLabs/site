@@ -10,7 +10,10 @@
       "docs": "Dokumentacija",
       "proof": "Įrodymas",
       "live": "Veikiantis tinklas",
-      "strategy": "Strategija"
+      "strategy": "Strategija",
+      "concepts": "Sąvokos",
+      "liveMesh": "Gyvas tinklas",
+      "github": "GitHub"
     }
   },
   "ui": {
@@ -47,7 +50,14 @@
       }
     },
     "scroll": "Slinkite ↓",
-    "vlabel": "Suvereniteto atžvilgiu neutrali infrastruktūra"
+    "vlabel": "Suvereniteto atžvilgiu neutrali infrastruktūra",
+    "tryIt": {
+      "primary": "Išbandykite gyvą tinklą",
+      "docs": "Greita pradžia",
+      "local": "Arba paleiskite savo instituciją vietoje:",
+      "copy": "Kopijuoti",
+      "copied": "Nukopijuota"
+    }
   },
   "stakes": {
     "label": "Suverenitetas",
@@ -139,7 +149,7 @@
   "protocol": {
     "label": "Protokolas",
     "title": "Atvira RFC programa, formuojama pagal standartus, o ne pagal tiekėją.",
-    "subtitle": "Python nuorodos diegimas ir TypeScript, Go ir .NET SDK yra koordinuojami v0.56.0. Pagrindiniame rinkinyje yra 1,327 testai su oficialiais protokolo įrodymais, patvirtintais Tamarin patvirtinimui.",
+    "subtitle": "Python etaloninis įgyvendinimas ir TypeScript, Go, .NET bei Rust SDK suderinti versijoje v{version}. Pagrindiniame rinkinyje yra {tests} testų, o formalūs protokolo įrodymai dokumentuoti Tamarin patikrai.",
     "stack": {
       "title": "Technologijų rinkinys",
       "l1": {
@@ -162,42 +172,42 @@
       {
         "id": "RFC-001",
         "name": "Suvereni tapatybė",
-        "status": "Protokolas"
+        "status": "Priimta"
       },
       {
         "id": "RFC-002",
         "name": "Pripažinimo sutartys",
-        "status": "Protokolas"
+        "status": "Priimta"
       },
       {
         "id": "RFC-003",
         "name": "Pasitikėjimo paketai",
-        "status": "Protokolas"
+        "status": "Priimta"
       },
       {
         "id": "RFC-004",
         "name": "Atšaukimų srautai",
-        "status": "Protokolas"
+        "status": "Priimta"
       },
       {
         "id": "RFC-005",
         "name": "Galimybių aprašai",
-        "status": "Protokolas"
+        "status": "Projektas"
       },
       {
         "id": "RFC-006",
         "name": "Konektomo modelis",
-        "status": "Protokolas"
+        "status": "Projektas"
       },
       {
         "id": "RFC-007",
         "name": "Operatoriaus veiklos tęstinumas",
-        "status": "Protokolas"
+        "status": "Projektas"
       },
       {
         "id": "RFC-008",
         "name": "Valdomo operatoriaus vaidmuo",
-        "status": "Protokolas"
+        "status": "Projektas"
       }
     ],
     "live": {
@@ -244,11 +254,17 @@
     "title": "Sukurkite naudojant Genesis Mesh.",
     "titleAccent": "Išsaugokite savo autoritetą.",
     "subtitle": "Pasirinkite įvaikinimo kelią, atitinkantį jūsų vaidmenį, neatsisakydami savo pasitikėjimo sprendimų.",
+    "operators": {
+      "who": "Operatoriams",
+      "title": "Valdykite savo suverenų domeną.",
+      "desc": "Laikykite savo raktus ir politiką: paleiskite tinklo instituciją, pripažinkite partnerius sutartimi ir atšaukite savo sąlygomis.",
+      "cta": "Skaitykite operatoriaus vadovą →"
+    },
     "builders": {
       "who": "Programinės įrangos kūrėjams",
       "title": "Paleiskite nuosavą suverenią pasitikėjimo sritį.",
-      "desc": "Perskaitykite RFC, atsisiųskite TypeScript / Go / .NET SDK ir jums jau priklausančioje infrastruktūroje įdiekite L2 suverenią bendruomenę.",
-      "cta": "Eiti į kūrėjų centrą →",
+      "desc": "Skaitykite RFC, naudokite Python, TypeScript, Go, .NET arba Rust SDK ir sukurkite L2 suverenią bendruomenę infrastruktūroje, kuri jau priklauso jums.",
+      "cta": "Peržiūrėkite SDK →",
       "altText": "Atvirojo kodo organizacija →"
     },
     "strategic": {
@@ -333,7 +349,8 @@
       "recorded": "Atverti įrašytą įrodymą",
       "run": "Patiems paleisti šį įrodymą",
       "protocol": "Skaityti RFC-002 ir RFC-004"
-    }
+    },
+    "runBrowser": "Arba išbandykite naršyklėje, be diegimo:"
   },
   "liveNetwork": {
     "label": "Tiesioginis įrodymas",
@@ -370,7 +387,7 @@
     "dashboard": "Peržiūrėti viešąją suvestinę",
     "notReported": "Nepranešta",
     "browserFallback": {
-      "title": "Tiesioginei telemetrijai reikalinga prieiga prie naršyklės.",
+      "title": "Tiesioginiai duomenys laikinai nepasiekiami.",
       "description": "Toliau pateikiami įrašyti ir nepriklausomai atkuriami įrodymai."
     },
     "proofAvailability": "Įrašytus ir nepriklausomai atkuriamus įrodymus galima gauti naudojant toliau pateiktas nuorodas."

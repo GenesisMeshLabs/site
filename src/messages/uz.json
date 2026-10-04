@@ -10,7 +10,10 @@
       "docs": "Hujjatlar",
       "proof": "Isbot",
       "live": "Jonli tarmoq",
-      "strategy": "Strategiya"
+      "strategy": "Strategiya",
+      "concepts": "Tushunchalar",
+      "liveMesh": "Jonli tarmoq",
+      "github": "GitHub"
     }
   },
   "ui": {
@@ -47,7 +50,14 @@
       }
     },
     "scroll": "Pastga ↓",
-    "vlabel": "Suverenitetga nisbatan betaraf infratuzilma"
+    "vlabel": "Suverenitetga nisbatan betaraf infratuzilma",
+    "tryIt": {
+      "primary": "Jonli tarmoqni sinab ko‘ring",
+      "docs": "Tez boshlash",
+      "local": "Yoki o‘z organingizni mahalliy ishga tushiring:",
+      "copy": "Nusxalash",
+      "copied": "Nusxalandi"
+    }
   },
   "stakes": {
     "label": "Suverenitet",
@@ -139,7 +149,7 @@
   "protocol": {
     "label": "Protokol",
     "title": "Ochiq RFC dasturi: yetkazib beruvchi emas, standartlar asosida shakllangan.",
-    "subtitle": "Python mos yozuvlar ilovasi va TypeScript, Go va .NET SDKlari v0.56.0 da muvofiqlashtiriladi. Asosiy to'plamda 1,327 testlari mavjud bo'lib, Tamarin tekshiruvi uchun rasmiy protokol dalillari hujjatlashtirilgan.",
+    "subtitle": "Python mos yozuvlar ilovasi hamda TypeScript, Go, .NET va Rust SDKlari v{version} versiyasida muvofiqlashtirilgan. Asosiy to‘plamda {tests} ta test bor, Tamarin tekshiruvi uchun hujjatlashtirilgan rasmiy protokol dalillari bilan.",
     "stack": {
       "title": "Stek",
       "l1": {
@@ -162,42 +172,42 @@
       {
         "id": "RFC-001",
         "name": "Suveren identifikatsiya",
-        "status": "Protokol"
+        "status": "Qabul qilingan"
       },
       {
         "id": "RFC-002",
         "name": "O‘zaro tan olish shartnomalari",
-        "status": "Protokol"
+        "status": "Qabul qilingan"
       },
       {
         "id": "RFC-003",
         "name": "Ishonch to‘plamlari",
-        "status": "Protokol"
+        "status": "Qabul qilingan"
       },
       {
         "id": "RFC-004",
         "name": "Bekor qilish oqimlari",
-        "status": "Protokol"
+        "status": "Qabul qilingan"
       },
       {
         "id": "RFC-005",
         "name": "Imkoniyat manifestlari",
-        "status": "Protokol"
+        "status": "Qoralama"
       },
       {
         "id": "RFC-006",
         "name": "Konnektom modeli",
-        "status": "Protokol"
+        "status": "Qoralama"
       },
       {
         "id": "RFC-007",
         "name": "Operator uzluksizligi",
-        "status": "Protokol"
+        "status": "Qoralama"
       },
       {
         "id": "RFC-008",
         "name": "Boshqariladigan operator roli",
-        "status": "Protokol"
+        "status": "Qoralama"
       }
     ],
     "live": {
@@ -244,11 +254,17 @@
     "title": "Genesis Mesh bilan yarating.",
     "titleAccent": "O'z vakolatingizni saqlang.",
     "subtitle": "O'zingizning ishonch qarorlaringizdan voz kechmasdan, rolingizga mos keladigan asrab olish yo'lini tanlang.",
+    "operators": {
+      "who": "Operatorlar uchun",
+      "title": "O‘z suveren domeningizni boshqaring.",
+      "desc": "O‘z kalitlaringiz va siyosatingizni o‘zingizda saqlang: Tarmoq organini ishga tushiring, hamkorlarni shartnoma orqali tan oling va o‘z shartlaringiz bilan bekor qiling.",
+      "cta": "Operator qo‘llanmasini o‘qing →"
+    },
     "builders": {
       "who": "Dasturiy ta'minot ishlab chiquvchilari uchun",
       "title": "O‘z suveren ishonch domeningizni ishga tushiring.",
-      "desc": "RFC hujjatlarini o‘qing, TypeScript / Go / .NET SDKlarini yuklab oling va o‘zingizga tegishli infratuzilmada L2 suveren hamjamiyatini ishga tushiring.",
-      "cta": "Dasturchilar markaziga o‘ting →",
+      "desc": "RFC hujjatlarini o‘qing, Python, TypeScript, Go, .NET yoki Rust SDKlaridan foydalaning va o‘zingizga tegishli infratuzilmada L2 suveren hamjamiyatini ishga tushiring.",
+      "cta": "SDKlarni ko‘rib chiqing →",
       "altText": "Ochiq manbali tashkilotni oching →"
     },
     "strategic": {
@@ -333,7 +349,8 @@
       "recorded": "Yozib olingan isbotni ochish",
       "run": "Bu isbotni o‘zingiz ishga tushiring",
       "protocol": "RFC-002 va RFC-004 hujjatlarini o‘qing"
-    }
+    },
+    "runBrowser": "Yoki o‘rnatmasdan brauzeringizda sinab ko‘ring:"
   },
   "liveNetwork": {
     "label": "Jonli isbot",
@@ -370,7 +387,7 @@
     "dashboard": "Ochiq boshqaruv panelini ko‘rish",
     "notReported": "Xabar berilmagan",
     "browserFallback": {
-      "title": "Jonli telemetriya brauzerga kirishni talab qiladi.",
+      "title": "Jonli ma’lumotlar vaqtincha mavjud emas.",
       "description": "Yozib olingan va mustaqil ravishda takrorlanadigan dalillar quyida mavjud bo'lib qoladi."
     },
     "proofAvailability": "Yozib olingan va mustaqil ravishda takrorlanadigan dalillar quyidagi havolalar orqali mavjud bo'lib qoladi."

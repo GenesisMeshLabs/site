@@ -10,7 +10,10 @@
       "docs": "Dokumentacioni",
       "proof": "Provë",
       "live": "Rrjeti drejtpërdrejt",
-      "strategy": "Strategjia"
+      "strategy": "Strategjia",
+      "concepts": "Konceptet",
+      "liveMesh": "Rrjeti i drejtpërdrejtë",
+      "github": "GitHub"
     }
   },
   "ui": {
@@ -47,7 +50,14 @@
       }
     },
     "scroll": "Lëviz poshtë ↓",
-    "vlabel": "Infrastrukturë neutrale ndaj sovranitetit"
+    "vlabel": "Infrastrukturë neutrale ndaj sovranitetit",
+    "tryIt": {
+      "primary": "Provoni rrjetin e drejtpërdrejtë",
+      "docs": "Fillim i shpejtë",
+      "local": "Ose ekzekutoni autoritetin tuaj lokalisht:",
+      "copy": "Kopjo",
+      "copied": "U kopjua"
+    }
   },
   "stakes": {
     "label": "Sovraniteti",
@@ -139,7 +149,7 @@
   "protocol": {
     "label": "Protokolli",
     "title": "Një program i hapur RFC, i formësuar nga standardet, jo nga furnitori.",
-    "subtitle": "Python zbatimi i referencës dhe TypeScript, Go dhe .NET SDK janë të koordinuara në v0.56.0. Kompleti bazë ka teste 1,327, me prova formale të protokollit të dokumentuara për verifikimin Tamarin.",
+    "subtitle": "Implementimi referues në Python dhe SDK-të për TypeScript, Go, .NET dhe Rust janë të koordinuara në v{version}. Paketa kryesore ka {tests} teste, me prova formale të protokollit të dokumentuara për verifikimin me Tamarin.",
     "stack": {
       "title": "Arkitektura",
       "l1": {
@@ -162,42 +172,42 @@
       {
         "id": "RFC-001",
         "name": "Identiteti sovran",
-        "status": "Protokoll"
+        "status": "Pranuar"
       },
       {
         "id": "RFC-002",
         "name": "Traktatet e njohjes",
-        "status": "Protokoll"
+        "status": "Pranuar"
       },
       {
         "id": "RFC-003",
         "name": "Paketat e besimit",
-        "status": "Protokoll"
+        "status": "Pranuar"
       },
       {
         "id": "RFC-004",
         "name": "Burimet e revokimit",
-        "status": "Protokoll"
+        "status": "Pranuar"
       },
       {
         "id": "RFC-005",
         "name": "Manifestet e aftësive",
-        "status": "Protokoll"
+        "status": "Draft"
       },
       {
         "id": "RFC-006",
         "name": "Modeli i konektomës",
-        "status": "Protokoll"
+        "status": "Draft"
       },
       {
         "id": "RFC-007",
         "name": "Vazhdimësia e operatorit",
-        "status": "Protokoll"
+        "status": "Draft"
       },
       {
         "id": "RFC-008",
         "name": "Roli i operatorit të menaxhuar",
-        "status": "Protokoll"
+        "status": "Draft"
       }
     ],
     "live": {
@@ -244,11 +254,17 @@
     "title": "Ndërtoni me Genesis Mesh.",
     "titleAccent": "Mbani autoritetin tuaj.",
     "subtitle": "Zgjidhni rrugën e adoptimit që përputhet me rolin tuaj pa hequr dorë nga vendimet tuaja të besimit.",
+    "operators": {
+      "who": "Për operatorët",
+      "title": "Drejtoni domenin tuaj sovran.",
+      "desc": "Mbani çelësat dhe politikën tuaj: nisni një autoritet rrjeti, njihni partnerët me traktat dhe revokoni me kushtet tuaja.",
+      "cta": "Lexoni udhëzuesin e operatorit →"
+    },
     "builders": {
       "who": "Për zhvilluesit e softuerit",
       "title": "Ngrini domenin tuaj sovran të besimit.",
-      "desc": "Lexoni RFC-të, merrni SDK-të TypeScript / Go / .NET dhe ngrini një Komunitet Sovran L2 në infrastrukturën që zotëroni tashmë.",
-      "cta": "Hyni në Qendrën e Zhvilluesve →",
+      "desc": "Lexoni RFC-të, përdorni SDK-të për Python, TypeScript, Go, .NET ose Rust dhe ngrini një komunitet sovran L2 mbi infrastrukturë që e zotëroni tashmë.",
+      "cta": "Eksploroni SDK-të →",
       "altText": "Organizata me burim të hapur →"
     },
     "strategic": {
@@ -333,7 +349,8 @@
       "recorded": "Hapni provën e regjistruar",
       "run": "Ekzekutojeni vetë këtë provë",
       "protocol": "Lexoni RFC-002 dhe RFC-004"
-    }
+    },
+    "runBrowser": "Ose provojeni në shfletues, pa instalim:"
   },
   "liveNetwork": {
     "label": "Provë drejtpërdrejt",
@@ -370,7 +387,7 @@
     "dashboard": "Shqyrtoni panelin publik",
     "notReported": "Nuk raportohet",
     "browserFallback": {
-      "title": "Telemetria e drejtpërdrejtë kërkon qasje në shfletues.",
+      "title": "Të dhënat e drejtpërdrejta janë përkohësisht të padisponueshme.",
       "description": "Provat e regjistruara dhe të riprodhueshme në mënyrë të pavarur mbeten të disponueshme më poshtë."
     },
     "proofAvailability": "Provat e regjistruara dhe të riprodhueshme në mënyrë të pavarur mbeten të disponueshme përmes lidhjeve më poshtë."

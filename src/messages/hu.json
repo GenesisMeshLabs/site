@@ -10,7 +10,10 @@
       "docs": "Dokumentáció",
       "proof": "Bizonyíték",
       "live": "Élő hálózat",
-      "strategy": "Stratégia"
+      "strategy": "Stratégia",
+      "concepts": "Fogalmak",
+      "liveMesh": "Élő háló",
+      "github": "GitHub"
     }
   },
   "ui": {
@@ -47,7 +50,14 @@
       }
     },
     "scroll": "Görgessen ↓",
-    "vlabel": "Szuverenitássemleges infrastruktúra"
+    "vlabel": "Szuverenitássemleges infrastruktúra",
+    "tryIt": {
+      "primary": "Próbálja ki az élő hálót",
+      "docs": "Gyors kezdés",
+      "local": "Vagy futtassa saját hatóságát helyben:",
+      "copy": "Másolás",
+      "copied": "Másolva"
+    }
   },
   "stakes": {
     "label": "Szuverenitás",
@@ -139,7 +149,7 @@
   "protocol": {
     "label": "A protokoll",
     "title": "Nyílt RFC-program, szabványok, nem pedig egy beszállító igényei szerint kialakítva.",
-    "subtitle": "A Python referencia megvalósítás és a TypeScript, Go és .NET SDK-k koordinálása a v0.56.0 helyen történik. Az alapcsomag 1,327 tesztekkel rendelkezik, a Tamarin ellenőrzéséhez dokumentált hivatalos protokoll bizonyítékokkal.",
+    "subtitle": "A Python referencia-implementáció és a TypeScript, Go, .NET és Rust SDK-k a v{version} verzióban vannak összehangolva. Az alapcsomag {tests} tesztet tartalmaz, a Tamarin-ellenőrzéshez dokumentált formális protokollbizonyítékokkal.",
     "stack": {
       "title": "A rétegstruktúra",
       "l1": {
@@ -162,42 +172,42 @@
       {
         "id": "RFC-001",
         "name": "Szuverén identitás",
-        "status": "Protokoll"
+        "status": "Elfogadva"
       },
       {
         "id": "RFC-002",
         "name": "Elismerési szerződések",
-        "status": "Protokoll"
+        "status": "Elfogadva"
       },
       {
         "id": "RFC-003",
         "name": "Bizalmi csomagok",
-        "status": "Protokoll"
+        "status": "Elfogadva"
       },
       {
         "id": "RFC-004",
         "name": "Visszavonási hírcsatornák",
-        "status": "Protokoll"
+        "status": "Elfogadva"
       },
       {
         "id": "RFC-005",
         "name": "Képességjegyzékek",
-        "status": "Protokoll"
+        "status": "Tervezet"
       },
       {
         "id": "RFC-006",
         "name": "Konnektómmodell",
-        "status": "Protokoll"
+        "status": "Tervezet"
       },
       {
         "id": "RFC-007",
         "name": "Üzemeltetői folytonosság",
-        "status": "Protokoll"
+        "status": "Tervezet"
       },
       {
         "id": "RFC-008",
         "name": "Felügyelt üzemeltetői szerepkör",
-        "status": "Protokoll"
+        "status": "Tervezet"
       }
     ],
     "live": {
@@ -244,11 +254,17 @@
     "title": "Építsd a Genesis Mesh-vel.",
     "titleAccent": "Tartsa meg a tekintélyét.",
     "subtitle": "Válassza ki a szerepének megfelelő örökbefogadási utat anélkül, hogy feladná saját bizalmi döntéseit.",
+    "operators": {
+      "who": "Üzemeltetőknek",
+      "title": "Működtesse saját szuverén tartományát.",
+      "desc": "Tartsa meg saját kulcsait és szabályzatát: indítson hálózati hatóságot, ismerje el partnereit szerződéssel, és vonja vissza a saját feltételei szerint.",
+      "cta": "Olvassa el az üzemeltetői útmutatót →"
+    },
     "builders": {
       "who": "Szoftverfejlesztőknek",
       "title": "Indítsa el saját szuverén bizalmi tartományát.",
-      "desc": "Olvassa el az RFC-ket, töltse le a TypeScript / Go / .NET SDK-kat, és hozzon létre egy L2 szuverén közösséget a már saját tulajdonában lévő infrastruktúrán.",
-      "cta": "Belépés a fejlesztői központba →",
+      "desc": "Olvassa el az RFC-ket, használja a Python, TypeScript, Go, .NET vagy Rust SDK-kat, és hozzon létre egy L2 szuverén közösséget a már saját tulajdonában lévő infrastruktúrán.",
+      "cta": "Fedezze fel az SDK-kat →",
       "altText": "Nyílt forráskódú szervezet →"
     },
     "strategic": {
@@ -333,7 +349,8 @@
       "recorded": "Rögzített bizonyíték megnyitása",
       "run": "A bizonyítás önálló futtatása",
       "protocol": "Az RFC-002 és az RFC-004 elolvasása"
-    }
+    },
+    "runBrowser": "Vagy próbálja ki a böngészőjében, telepítés nélkül:"
   },
   "liveNetwork": {
     "label": "Élő bizonyíték",
@@ -370,7 +387,7 @@
     "dashboard": "A nyilvános irányítópult megtekintése",
     "notReported": "Nem jelentették",
     "browserFallback": {
-      "title": "Az élő telemetria böngésző-hozzáférést igényel.",
+      "title": "Az élő adatok átmenetileg nem érhetők el.",
       "description": "A rögzített és önállóan reprodukálható bizonyítékok alább elérhetők."
     },
     "proofAvailability": "A rögzített és önállóan reprodukálható bizonyítékok továbbra is elérhetők az alábbi linkeken."

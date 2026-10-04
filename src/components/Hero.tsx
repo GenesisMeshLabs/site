@@ -1,9 +1,11 @@
 'use client';
 import { useTranslations } from 'next-intl';
+import { useState } from 'react';
 import MeshCanvas from './MeshCanvas';
+import { INSTALL_COMMANDS, LINKS } from '@/lib/links';
 
-const RFC_URL = 'https://genesismesh.connectorzzz.com/rfcs/rfc-002-recognition-treaties.html';
-const DEV_HUB_URL = 'https://dev.connectorzzz.com/';
+const RFC_URL = LINKS.rfc002;
+const DEV_HUB_URL = LINKS.sdks;
 const RUN_URL =
   'https://github.com/GenesisMeshLabs/genesismesh/blob/main/docs/examples/cross-sovereign-revocation.md#run';
 const CHANNEL_URL = 'mailto:authority@genesismesh.org?subject=Genesis%20Mesh';
@@ -11,6 +13,13 @@ const CHANNEL_URL = 'mailto:authority@genesismesh.org?subject=Genesis%20Mesh';
 export default function Hero() {
   const t = useTranslations('hero');
   const questions = t.raw('questions') as string[];
+  const [copied, setCopied] = useState(false);
+  const copy = () => {
+    void navigator.clipboard?.writeText(INSTALL_COMMANDS).then(() => {
+      setCopied(true);
+      window.setTimeout(() => setCopied(false), 2000);
+    });
+  };
 
   return (
     <header className="hero">
@@ -38,6 +47,26 @@ export default function Hero() {
         </p>
         <div className="not-line rv">{t('notLine')}</div>
         <p className="hero-closing rv">{t('closing')}</p>
+        <div className="hero-try rv">
+          <div className="hero-try-actions">
+            <a className="btn primary" href={LINKS.liveMesh} target="_blank" rel="noopener noreferrer">
+              {t('tryIt.primary')} →
+            </a>
+            <a className="btn" href={LINKS.quickstart} target="_blank" rel="noopener noreferrer">
+              {t('tryIt.docs')}
+            </a>
+            <a className="btn" href={LINKS.github} target="_blank" rel="noopener noreferrer">
+              GitHub
+            </a>
+          </div>
+          <div className="hero-install">
+            <span className="hero-install-label">{t('tryIt.local')}</span>
+            <pre dir="ltr"><code>{INSTALL_COMMANDS}</code></pre>
+            <button type="button" className="hero-install-copy" onClick={copy}>
+              {copied ? t('tryIt.copied') : t('tryIt.copy')}
+            </button>
+          </div>
+        </div>
         <div className="hero-audiences rv">
           <div className="hero-audience">
             <span className="hero-audience-label">{t('audiences.builders.label')}</span>

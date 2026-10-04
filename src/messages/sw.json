@@ -10,7 +10,10 @@
       "docs": "Nyaraka",
       "proof": "Uthibitisho",
       "live": "Mtandao Hai",
-      "strategy": "Mkakati"
+      "strategy": "Mkakati",
+      "concepts": "Dhana",
+      "liveMesh": "Mesh hai",
+      "github": "GitHub"
     }
   },
   "ui": {
@@ -47,7 +50,14 @@
       }
     },
     "scroll": "Sogeza ↓",
-    "vlabel": "Miundombinu Isiyoegemea Upande Wowote Kuhusu Uhuru wa Kujitawala"
+    "vlabel": "Miundombinu Isiyoegemea Upande Wowote Kuhusu Uhuru wa Kujitawala",
+    "tryIt": {
+      "primary": "Jaribu mesh hai",
+      "docs": "Anza haraka",
+      "local": "Au endesha mamlaka yako mwenyewe kwenye kompyuta yako:",
+      "copy": "Nakili",
+      "copied": "Imenakiliwa"
+    }
   },
   "stakes": {
     "label": "Ukuu",
@@ -139,7 +149,7 @@
   "protocol": {
     "label": "Itifaki",
     "title": "Mpango wazi wa RFC, ulioundwa kwa kuzingatia viwango, si matakwa ya muuzaji.",
-    "subtitle": "Utekelezaji wa marejeleo wa Python na SDK za TypeScript, Go, na .NET zimeratibiwa katika v0.56.0. Seti kuu ina majaribio ya 1,327, na ushahidi rasmi wa itifaki ulioandikwa kwa uthibitishaji wa Tamarin.",
+    "subtitle": "Utekelezaji wa marejeleo wa Python na SDK za TypeScript, Go, .NET na Rust zimeratibiwa katika v{version}. Kifurushi kikuu kina majaribio {tests}, pamoja na ushahidi rasmi wa itifaki ulioandikwa kwa uthibitishaji wa Tamarin.",
     "stack": {
       "title": "Mfumo Kamili",
       "l1": {
@@ -162,42 +172,42 @@
       {
         "id": "RFC-001",
         "name": "Utambulisho Huru",
-        "status": "Itifaki"
+        "status": "Imekubaliwa"
       },
       {
         "id": "RFC-002",
         "name": "Mikataba ya Utambuzi",
-        "status": "Itifaki"
+        "status": "Imekubaliwa"
       },
       {
         "id": "RFC-003",
         "name": "Vifurushi vya Uaminifu",
-        "status": "Itifaki"
+        "status": "Imekubaliwa"
       },
       {
         "id": "RFC-004",
         "name": "Milisho ya Ubatilishaji",
-        "status": "Itifaki"
+        "status": "Imekubaliwa"
       },
       {
         "id": "RFC-005",
         "name": "Hati za Uwezo",
-        "status": "Itifaki"
+        "status": "Rasimu"
       },
       {
         "id": "RFC-006",
         "name": "Muundo wa Connectome",
-        "status": "Itifaki"
+        "status": "Rasimu"
       },
       {
         "id": "RFC-007",
         "name": "Mwendelezo wa Mwendeshaji",
-        "status": "Itifaki"
+        "status": "Rasimu"
       },
       {
         "id": "RFC-008",
         "name": "Jukumu la Mwendeshaji Anayesimamiwa",
-        "status": "Itifaki"
+        "status": "Rasimu"
       }
     ],
     "live": {
@@ -244,11 +254,17 @@
     "title": "Jenga kwa Genesis Mesh.",
     "titleAccent": "Shikilia mamlaka yako.",
     "subtitle": "Chagua njia ya kuasili inayolingana na jukumu lako bila kusalimisha maamuzi yako ya uaminifu.",
+    "operators": {
+      "who": "Kwa waendeshaji",
+      "title": "Endesha kikoa chako huru.",
+      "desc": "Shikilia funguo na sera zako mwenyewe: anzisha Mamlaka ya Mtandao, tambua washirika kupitia mkataba, na batilisha kwa masharti yako mwenyewe.",
+      "cta": "Soma mwongozo wa mwendeshaji →"
+    },
     "builders": {
       "who": "Kwa wasanidi programu",
       "title": "Anzisha kikoa chako huru cha uaminifu.",
-      "desc": "Soma RFC, pakua SDK za TypeScript / Go / .NET, na uanzishe Jumuiya Huru ya L2 kwenye miundombinu ambayo tayari unamiliki.",
-      "cta": "Ingia kwenye Kituo cha Wasanidi →",
+      "desc": "Soma RFC, tumia SDK za Python, TypeScript, Go, .NET au Rust, na uanzishe Jumuiya Huru ya L2 kwenye miundombinu unayomiliki tayari.",
+      "cta": "Chunguza SDK →",
       "altText": "Shirika la programu huria →"
     },
     "strategic": {
@@ -333,7 +349,8 @@
       "recorded": "Fungua uthibitisho uliorekodiwa",
       "run": "Endesha uthibitisho huu mwenyewe",
       "protocol": "Soma RFC-002 na RFC-004"
-    }
+    },
+    "runBrowser": "Au ijaribu kwenye kivinjari chako, bila kusakinisha:"
   },
   "liveNetwork": {
     "label": "Uthibitisho Hai",
@@ -370,7 +387,7 @@
     "dashboard": "Kagua dashibodi ya umma",
     "notReported": "Haijaripotiwa",
     "browserFallback": {
-      "title": "Telemetry ya moja kwa moja inahitaji ufikiaji wa kivinjari.",
+      "title": "Data hai haipatikani kwa muda.",
       "description": "Uthibitisho uliorekodiwa na unaoweza kutolewa kwa kujitegemea unasalia kupatikana hapa chini."
     },
     "proofAvailability": "Uthibitisho uliorekodiwa na unaoweza kutolewa kwa kujitegemea bado unapatikana kupitia viungo vilivyo hapa chini."

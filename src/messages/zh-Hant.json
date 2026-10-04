@@ -10,7 +10,10 @@
       "docs": "文件",
       "proof": "證明",
       "live": "即時網路",
-      "strategy": "策略"
+      "strategy": "策略",
+      "concepts": "概念",
+      "liveMesh": "即時網格",
+      "github": "GitHub"
     }
   },
   "ui": {
@@ -47,7 +50,14 @@
       }
     },
     "scroll": "向下捲動 ↓",
-    "vlabel": "主權中立基礎設施"
+    "vlabel": "主權中立基礎設施",
+    "tryIt": {
+      "primary": "試用即時網格",
+      "docs": "快速入門",
+      "local": "或在本機執行您自己的權威機構：",
+      "copy": "複製",
+      "copied": "已複製"
+    }
   },
   "stakes": {
     "label": "主權",
@@ -139,7 +149,7 @@
   "protocol": {
     "label": "協定",
     "title": "開放式 RFC 計畫，以標準為本，而非由供應商塑造。",
-    "subtitle": "Python 參考實作以及 TypeScript、Go 和 .NET SDK 在 v0.56.0 進行協調。核心套件具有 1,327 測試，並記錄了用於 Tamarin 驗證的正式協議證據。",
+    "subtitle": "Python 參考實作與 TypeScript、Go、.NET 和 Rust SDK 已於 v{version} 協調一致。核心測試套件共有 {tests} 項測試，並記錄了用於 Tamarin 驗證的正式協定證據。",
     "stack": {
       "title": "技術堆疊",
       "l1": {
@@ -162,42 +172,42 @@
       {
         "id": "RFC-001",
         "name": "主權身分",
-        "status": "協定"
+        "status": "已接受"
       },
       {
         "id": "RFC-002",
         "name": "相互承認條約",
-        "status": "協定"
+        "status": "已接受"
       },
       {
         "id": "RFC-003",
         "name": "信任套件",
-        "status": "協定"
+        "status": "已接受"
       },
       {
         "id": "RFC-004",
         "name": "撤銷資訊流",
-        "status": "協定"
+        "status": "已接受"
       },
       {
         "id": "RFC-005",
         "name": "能力資訊清單",
-        "status": "協定"
+        "status": "草案"
       },
       {
         "id": "RFC-006",
         "name": "連接體模型",
-        "status": "協定"
+        "status": "草案"
       },
       {
         "id": "RFC-007",
         "name": "營運方持續性",
-        "status": "協定"
+        "status": "草案"
       },
       {
         "id": "RFC-008",
         "name": "受管理營運方角色",
-        "status": "協定"
+        "status": "草案"
       }
     ],
     "live": {
@@ -244,11 +254,17 @@
     "title": "使用 Genesis Mesh 建置。",
     "titleAccent": "保留您的自主權。",
     "subtitle": "選擇與您的角色相符的採用路徑，而無需放棄您自己的信任決定。",
+    "operators": {
+      "who": "給營運者",
+      "title": "營運您自己的主權網域。",
+      "desc": "自行保管金鑰與政策：啟動網路權威機構、以條約承認對等方，並依您自己的條件撤銷。",
+      "cta": "閱讀營運者指南 →"
+    },
     "builders": {
       "who": "給軟體開發者",
       "title": "建立您自己的主權信任網域。",
-      "desc": "閱讀 RFC、取得 TypeScript / Go / .NET SDK，並在您已擁有的基礎設施上建立 L2 主權社群。",
-      "cta": "進入開發者中心 →",
+      "desc": "閱讀 RFC，使用 Python、TypeScript、Go、.NET 或 Rust SDK，並在您已擁有的基礎設施上建立 L2 主權社群。",
+      "cta": "探索 SDK →",
       "altText": "開放原始碼組織 →"
     },
     "strategic": {
@@ -333,7 +349,8 @@
       "recorded": "開啟已記錄的證明",
       "run": "自行執行此證明流程",
       "protocol": "閱讀 RFC-002 與 RFC-004"
-    }
+    },
+    "runBrowser": "或直接在瀏覽器中試用，無需安裝："
   },
   "liveNetwork": {
     "label": "即時證明",
@@ -370,7 +387,7 @@
     "dashboard": "查看公開儀表板",
     "notReported": "未報道",
     "browserFallback": {
-      "title": "即時遙測需要瀏覽器存取。",
+      "title": "即時資料暫時無法取得。",
       "description": "已記錄且可獨立複製的證據仍可在下面找到。"
     },
     "proofAvailability": "已記錄且可獨立複製的證據可透過以下連結取得。"

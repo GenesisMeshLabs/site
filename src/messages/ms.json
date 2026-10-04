@@ -10,7 +10,10 @@
       "docs": "Dokumentasi",
       "proof": "Bukti",
       "live": "Rangkaian Langsung",
-      "strategy": "Strategi"
+      "strategy": "Strategi",
+      "concepts": "Konsep",
+      "liveMesh": "Mesh langsung",
+      "github": "GitHub"
     }
   },
   "ui": {
@@ -47,7 +50,14 @@
       }
     },
     "scroll": "Tatal ↓",
-    "vlabel": "Infrastruktur Neutral Kedaulatan"
+    "vlabel": "Infrastruktur Neutral Kedaulatan",
+    "tryIt": {
+      "primary": "Cuba mesh langsung",
+      "docs": "Mula pantas",
+      "local": "Atau jalankan pihak berkuasa anda sendiri secara setempat:",
+      "copy": "Salin",
+      "copied": "Disalin"
+    }
   },
   "stakes": {
     "label": "Kedaulatan",
@@ -139,7 +149,7 @@
   "protocol": {
     "label": "Protokol",
     "title": "Program RFC terbuka, dibentuk berasaskan piawaian dan bukannya kepentingan pembekal.",
-    "subtitle": "Pelaksanaan rujukan Python dan SDK TypeScript, Go dan .NET diselaraskan pada v0.56.0. Suite teras mempunyai ujian 1,327, dengan bukti protokol rasmi yang didokumenkan untuk pengesahan Tamarin.",
+    "subtitle": "Pelaksanaan rujukan Python serta SDK TypeScript, Go, .NET dan Rust diselaraskan pada v{version}. Suite teras mempunyai {tests} ujian, dengan bukti protokol formal yang didokumenkan untuk pengesahan Tamarin.",
     "stack": {
       "title": "Tindanan",
       "l1": {
@@ -162,42 +172,42 @@
       {
         "id": "RFC-001",
         "name": "Identiti Berdaulat",
-        "status": "Protokol"
+        "status": "Diterima"
       },
       {
         "id": "RFC-002",
         "name": "Perjanjian Pengiktirafan",
-        "status": "Protokol"
+        "status": "Diterima"
       },
       {
         "id": "RFC-003",
         "name": "Himpunan Kepercayaan",
-        "status": "Protokol"
+        "status": "Diterima"
       },
       {
         "id": "RFC-004",
         "name": "Suapan Penarikan Balik",
-        "status": "Protokol"
+        "status": "Diterima"
       },
       {
         "id": "RFC-005",
         "name": "Manifes Keupayaan",
-        "status": "Protokol"
+        "status": "Draf"
       },
       {
         "id": "RFC-006",
         "name": "Model Konektom",
-        "status": "Protokol"
+        "status": "Draf"
       },
       {
         "id": "RFC-007",
         "name": "Kesinambungan Pengendali",
-        "status": "Protokol"
+        "status": "Draf"
       },
       {
         "id": "RFC-008",
         "name": "Peranan Pengendali Terurus",
-        "status": "Protokol"
+        "status": "Draf"
       }
     ],
     "live": {
@@ -244,11 +254,17 @@
     "title": "Bina dengan Genesis Mesh.",
     "titleAccent": "Kekalkan kuasa anda.",
     "subtitle": "Pilih laluan penerimaan yang sepadan dengan peranan anda tanpa menyerahkan keputusan amanah anda sendiri.",
+    "operators": {
+      "who": "Untuk pengendali",
+      "title": "Jalankan domain berdaulat anda sendiri.",
+      "desc": "Pegang kunci dan dasar anda sendiri: mulakan Pihak Berkuasa Rangkaian, iktiraf rakan melalui perjanjian dan batalkan mengikut syarat anda sendiri.",
+      "cta": "Baca panduan pengendali →"
+    },
     "builders": {
       "who": "Untuk pembangun perisian",
       "title": "Wujudkan domain kepercayaan berdaulat anda sendiri.",
-      "desc": "Baca RFC, dapatkan SDK TypeScript / Go / .NET dan bangunkan Komuniti Berdaulat L2 pada infrastruktur yang sudah anda miliki.",
-      "cta": "Masuk ke Hab Pembangun →",
+      "desc": "Baca RFC, gunakan SDK Python, TypeScript, Go, .NET atau Rust, dan bina Komuniti Berdaulat L2 pada infrastruktur yang sudah anda miliki.",
+      "cta": "Terokai SDK →",
       "altText": "Organisasi sumber terbuka →"
     },
     "strategic": {
@@ -333,7 +349,8 @@
       "recorded": "Buka bukti yang dirakam",
       "run": "Jalankan sendiri bukti ini",
       "protocol": "Baca RFC-002 dan RFC-004"
-    }
+    },
+    "runBrowser": "Atau cuba dalam pelayar anda, tanpa pemasangan:"
   },
   "liveNetwork": {
     "label": "Bukti Langsung",
@@ -370,7 +387,7 @@
     "dashboard": "Periksa papan pemuka awam",
     "notReported": "Tidak dilaporkan",
     "browserFallback": {
-      "title": "Telemetri langsung memerlukan akses penyemak imbas.",
+      "title": "Data langsung tidak tersedia buat sementara waktu.",
       "description": "Bukti yang direkodkan dan boleh diterbitkan secara bebas kekal tersedia di bawah."
     },
     "proofAvailability": "Bukti yang direkodkan dan boleh diterbitkan secara bebas kekal tersedia melalui pautan di bawah."

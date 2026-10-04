@@ -10,7 +10,10 @@
       "docs": "Dokumentasyon",
       "proof": "Patunay",
       "live": "Live na Network",
-      "strategy": "Estratehiya"
+      "strategy": "Estratehiya",
+      "concepts": "Mga konsepto",
+      "liveMesh": "Live na mesh",
+      "github": "GitHub"
     }
   },
   "ui": {
@@ -47,7 +50,14 @@
       }
     },
     "scroll": "Mag-scroll ↓",
-    "vlabel": "Imprastrakturang Neutral sa Soberanya"
+    "vlabel": "Imprastrakturang Neutral sa Soberanya",
+    "tryIt": {
+      "primary": "Subukan ang live na mesh",
+      "docs": "Mabilisang simula",
+      "local": "O patakbuhin ang sarili mong awtoridad nang lokal:",
+      "copy": "Kopyahin",
+      "copied": "Nakopya"
+    }
   },
   "stakes": {
     "label": "Soberanya",
@@ -139,7 +149,7 @@
   "protocol": {
     "label": "Ang Protokol",
     "title": "Isang bukas na programang RFC, hinubog ng mga pamantayan, hindi ng vendor.",
-    "subtitle": "Ang Python na pagpapatupad ng reference at TypeScript, Go, at .NET SDK ay pinag-ugnay sa v0.56.0. Ang core suite ay may mga pagsubok na 1,327, na may pormal na ebidensya sa protocol na nakadokumento para sa pag-verify ng Tamarin.",
+    "subtitle": "Ang reference implementation sa Python at ang mga SDK para sa TypeScript, Go, .NET at Rust ay naka-coordinate sa v{version}. Ang pangunahing suite ay may {tests} na pagsubok, na may pormal na ebidensya ng protocol na nakadokumento para sa beripikasyon gamit ang Tamarin.",
     "stack": {
       "title": "Ang Stack",
       "l1": {
@@ -162,42 +172,42 @@
       {
         "id": "RFC-001",
         "name": "Identidad na May Soberanya",
-        "status": "Protokol"
+        "status": "Tinanggap"
       },
       {
         "id": "RFC-002",
         "name": "Mga Kasunduan ng Pagkilala",
-        "status": "Protokol"
+        "status": "Tinanggap"
       },
       {
         "id": "RFC-003",
         "name": "Mga Bundle ng Tiwala",
-        "status": "Protokol"
+        "status": "Tinanggap"
       },
       {
         "id": "RFC-004",
         "name": "Mga Feed ng Pagbawi",
-        "status": "Protokol"
+        "status": "Tinanggap"
       },
       {
         "id": "RFC-005",
         "name": "Mga Capability Manifest",
-        "status": "Protokol"
+        "status": "Draft"
       },
       {
         "id": "RFC-006",
         "name": "Modelo ng Connectome",
-        "status": "Protokol"
+        "status": "Draft"
       },
       {
         "id": "RFC-007",
         "name": "Pagpapatuloy ng Operator",
-        "status": "Protokol"
+        "status": "Draft"
       },
       {
         "id": "RFC-008",
         "name": "Pinamamahalaang Papel ng Operator",
-        "status": "Protokol"
+        "status": "Draft"
       }
     ],
     "live": {
@@ -244,11 +254,17 @@
     "title": "Bumuo gamit ang Genesis Mesh.",
     "titleAccent": "Panatilihin ang iyong awtoridad.",
     "subtitle": "Piliin ang landas ng pag-aampon na tumutugma sa iyong tungkulin nang hindi isinusuko ang sarili mong mga desisyon sa pagtitiwala.",
+    "operators": {
+      "who": "Para sa mga operator",
+      "title": "Patakbuhin ang sarili mong soberanong domain.",
+      "desc": "Hawakan ang sarili mong mga susi at patakaran: magsimula ng Network Authority, kilalanin ang mga kapwa sa pamamagitan ng kasunduan, at bawiin ayon sa sarili mong mga kondisyon.",
+      "cta": "Basahin ang gabay ng operator →"
+    },
     "builders": {
       "who": "Para sa mga software developer",
       "title": "Magtayo ng sarili mong domain ng tiwalang may soberanya.",
-      "desc": "Basahin ang mga RFC, kunin ang mga TypeScript / Go / .NET SDK, at magtayo ng L2 na Komunidad na May Soberanya sa imprastrakturang pag-aari mo na.",
-      "cta": "Pumunta sa Dev Hub →",
+      "desc": "Basahin ang mga RFC, gamitin ang mga SDK para sa Python, TypeScript, Go, .NET o Rust, at magtayo ng L2 Soberanong Komunidad sa imprastrakturang pagmamay-ari mo na.",
+      "cta": "Tuklasin ang mga SDK →",
       "altText": "Open-source na organisasyon →"
     },
     "strategic": {
@@ -333,7 +349,8 @@
       "recorded": "Buksan ang naitalang patunay",
       "run": "Ikaw mismo ang magpatakbo ng patunay na ito",
       "protocol": "Basahin ang RFC-002 at RFC-004"
-    }
+    },
+    "runBrowser": "O subukan ito sa iyong browser, walang install:"
   },
   "liveNetwork": {
     "label": "Live na Patunay",
@@ -370,7 +387,7 @@
     "dashboard": "Suriin ang pampublikong dashboard",
     "notReported": "Hindi naiulat",
     "browserFallback": {
-      "title": "Nangangailangan ng access sa browser ang live telemetry.",
+      "title": "Pansamantalang hindi available ang live na data.",
       "description": "Nananatiling available sa ibaba ang mga naitala at independiyenteng reproducible na mga patunay."
     },
     "proofAvailability": "Ang mga naitala at independiyenteng reproducible na patunay ay mananatiling available sa pamamagitan ng mga link sa ibaba."

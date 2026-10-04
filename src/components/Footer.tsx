@@ -1,6 +1,7 @@
 'use client';
 import { useTranslations } from 'next-intl';
 import { buildSignature } from '@/build-signature';
+import { LINKS } from '@/lib/links';
 
 /** Comes from the signer, so the link always points at the file it wrote. */
 const SIGNATURE_PATH = buildSignature.path;
@@ -13,10 +14,10 @@ export default function Footer() {
       <span>{t('copyright')}</span>
 
       <span className="footer-links">
-        <a href="https://genesismesh.connectorzzz.com/" target="_blank" rel="noopener noreferrer">
+        <a href={LINKS.docs} target="_blank" rel="noopener noreferrer">
           {t('links.docs')}
         </a>
-        <a href="https://dev.connectorzzz.com/" target="_blank" rel="noopener noreferrer">
+        <a href={LINKS.hub} target="_blank" rel="noopener noreferrer">
           {t('links.devHub')}
         </a>
         <a href="https://github.com/GenesisMeshLabs" target="_blank" rel="noopener noreferrer">

@@ -11,10 +11,15 @@ import LiveNetwork from '@/components/LiveNetwork';
 import Closing from '@/components/Closing';
 import Footer from '@/components/Footer';
 import Reveal from '@/components/Reveal';
+import { loadLiveProof } from '@/lib/live-proof';
+
+// Static per locale, re-rendered at most every minute with fresh live proof.
+export const revalidate = 60;
 
 export default async function Home({ params: { locale } }: { params: { locale: string } }) {
   unstable_setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: 'footer' });
+  const live = await loadLiveProof();
 
   return (
     <>
@@ -25,7 +30,7 @@ export default async function Home({ params: { locale } }: { params: { locale: s
       <hr className="divider" />
       <Mechanics />
       <hr className="divider" />
-      <LiveNetwork />
+      <LiveNetwork initial={live} />
       <hr className="divider" />
       <Protocol />
       <hr className="divider" />

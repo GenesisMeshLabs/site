@@ -10,7 +10,10 @@
       "docs": "Dokumentation",
       "proof": "Bevis",
       "live": "Live-netværk",
-      "strategy": "Strategi"
+      "strategy": "Strategi",
+      "concepts": "Begreber",
+      "liveMesh": "Live-mesh",
+      "github": "GitHub"
     }
   },
   "ui": {
@@ -47,7 +50,14 @@
       }
     },
     "scroll": "Rul ↓",
-    "vlabel": "Suverænitetsneutral infrastruktur"
+    "vlabel": "Suverænitetsneutral infrastruktur",
+    "tryIt": {
+      "primary": "Prøv det levende mesh",
+      "docs": "Hurtig start",
+      "local": "Eller kør din egen myndighed lokalt:",
+      "copy": "Kopiér",
+      "copied": "Kopieret"
+    }
   },
   "stakes": {
     "label": "Suverænitet",
@@ -139,7 +149,7 @@
   "protocol": {
     "label": "Protokollen",
     "title": "Et åbent RFC-program, formet som en standard, ikke af en leverandør.",
-    "subtitle": "Python referenceimplementering og TypeScript, Go og .NET SDK'er koordineres ved v0.56.0. Kernepakken har 1,327-tests med formelt protokolbevis dokumenteret til Tamarin-verifikation.",
+    "subtitle": "Python-referenceimplementeringen og SDK'erne til TypeScript, Go, .NET og Rust er koordineret på v{version}. Kernesuiten har {tests} tests, med formel protokoldokumentation til Tamarin-verifikation.",
     "stack": {
       "title": "Teknologistakken",
       "l1": {
@@ -162,42 +172,42 @@
       {
         "id": "RFC-001",
         "name": "Suveræn identitet",
-        "status": "Protokol"
+        "status": "Accepteret"
       },
       {
         "id": "RFC-002",
         "name": "Traktater om gensidig anerkendelse",
-        "status": "Protokol"
+        "status": "Accepteret"
       },
       {
         "id": "RFC-003",
         "name": "Tillidspakker",
-        "status": "Protokol"
+        "status": "Accepteret"
       },
       {
         "id": "RFC-004",
         "name": "Tilbagekaldelsesfeeds",
-        "status": "Protokol"
+        "status": "Accepteret"
       },
       {
         "id": "RFC-005",
         "name": "Kapabilitetsmanifester",
-        "status": "Protokol"
+        "status": "Udkast"
       },
       {
         "id": "RFC-006",
         "name": "Konnektommodel",
-        "status": "Protokol"
+        "status": "Udkast"
       },
       {
         "id": "RFC-007",
         "name": "Operatørkontinuitet",
-        "status": "Protokol"
+        "status": "Udkast"
       },
       {
         "id": "RFC-008",
         "name": "Administreret operatørrolle",
-        "status": "Protokol"
+        "status": "Udkast"
       }
     ],
     "live": {
@@ -244,11 +254,17 @@
     "title": "Byg med Genesis Mesh.",
     "titleAccent": "Hold din autoritet.",
     "subtitle": "Vælg den adoptionsvej, der matcher din rolle uden at give afkald på dine egne tillidsbeslutninger.",
+    "operators": {
+      "who": "For operatører",
+      "title": "Driv dit eget suveræne domæne.",
+      "desc": "Behold dine egne nøgler og din egen politik: start en netværksmyndighed, anerkend partnere via traktat, og tilbagekald på dine egne vilkår.",
+      "cta": "Læs operatørvejledningen →"
+    },
     "builders": {
       "who": "For softwareudviklere",
       "title": "Etabler jeres eget suveræne tillidsdomæne.",
-      "desc": "Læs RFC'erne, hent SDK'erne til TypeScript / Go / .NET, og etabler et L2-suverænt fællesskab på infrastruktur, I allerede ejer.",
-      "cta": "Gå til udviklerportalen →",
+      "desc": "Læs RFC'erne, brug SDK'erne til Python, TypeScript, Go, .NET eller Rust, og etabler et L2 Suverænt Fællesskab på infrastruktur, du allerede ejer.",
+      "cta": "Udforsk SDK'erne →",
       "altText": "Open source-organisation →"
     },
     "strategic": {
@@ -333,7 +349,8 @@
       "recorded": "Åbn det optagede bevis",
       "run": "Kør selv dette bevis",
       "protocol": "Læs RFC-002 og RFC-004"
-    }
+    },
+    "runBrowser": "Eller prøv det i din browser uden installation:"
   },
   "liveNetwork": {
     "label": "Live-bevis",
@@ -370,7 +387,7 @@
     "dashboard": "Gennemse det offentlige kontrolpanel",
     "notReported": "Ikke rapporteret",
     "browserFallback": {
-      "title": "Live telemetri kræver browseradgang.",
+      "title": "Live-data er midlertidigt utilgængelige.",
       "description": "Optagne og uafhængigt reproducerbare beviser forbliver tilgængelige nedenfor."
     },
     "proofAvailability": "Optagne og uafhængigt reproducerbare beviser forbliver tilgængelige via nedenstående links."
