@@ -172,8 +172,22 @@ if (unknownResponse.status !== 404) {
 }
 
 const prefixedDefault = await fetch(`${baseUrl}/en`, { redirect: 'manual' });
-if (![307, 308].includes(prefixedDefault.status) || prefixedDefault.headers.get('location') !== '/') {
-  failures.push('default locale prefix does not redirect to /');
+if (prefixedDefault.status !== 308 || prefixedDefault.headers.get('location') !== '/') {
+  failures.push(
+    `default locale prefix returned ${prefixedDefault.status}, expected a permanent redirect to /`
+  );
+}
+
+// No redirect by browser language or an earlier choice: `/` is English for everyone.
+const foreignVisitor = await fetch(`${baseUrl}/`, {
+  redirect: 'manual',
+  headers: { 'Accept-Language': 'fr-FR,fr;q=0.9', Cookie: 'NEXT_LOCALE=de' },
+});
+if (foreignVisitor.status !== 200) {
+  failures.push(`/ answered a French browser with ${foreignVisitor.status}, expected 200`);
+}
+if ((foreignVisitor.headers.get('set-cookie') || '').includes('NEXT_LOCALE')) {
+  failures.push('/ set a locale cookie');
 }
 
 if (failures.length > 0) {
