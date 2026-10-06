@@ -8,8 +8,9 @@ export function generateStaticParams() {
 
 export async function GET(
   _request: Request,
-  { params: { locale } }: { params: { locale: string } }
+  { params }: { params: Promise<{ locale: string }> }
 ) {
+  const { locale } = await params;
   if (!locales.includes(locale)) {
     return new Response(null, { status: 404 });
   }

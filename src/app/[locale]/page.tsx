@@ -1,4 +1,4 @@
-import { getTranslations, unstable_setRequestLocale } from 'next-intl/server';
+import { getTranslations, setRequestLocale } from 'next-intl/server';
 import Nav from '@/components/Nav';
 import Hero from '@/components/Hero';
 import TrustCycle from '@/components/TrustCycle';
@@ -16,8 +16,9 @@ import { loadLiveProof } from '@/lib/live-proof';
 // Static per locale, re-rendered at most every minute with fresh live proof.
 export const revalidate = 60;
 
-export default async function Home({ params: { locale } }: { params: { locale: string } }) {
-  unstable_setRequestLocale(locale);
+export default async function Home({ params }: { params: Promise<{ locale: string }> }) {
+  const { locale } = await params;
+  setRequestLocale(locale);
   const t = await getTranslations({ locale, namespace: 'footer' });
   const live = await loadLiveProof();
 
