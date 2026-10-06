@@ -118,3 +118,13 @@ GENESIS_MESH_SIGNING_KEY   see above
 `vercel.json` carries the response headers: HSTS with preload, nosniff,
 `X-Frame-Options: DENY`, `strict-origin-when-cross-origin`, and a
 `Permissions-Policy` disabling camera, microphone, geolocation and topics.
+
+## Hosting
+
+The Vercel project `genesismesh-site` serves genesismesh.org, which Cloudflare
+proxies. It also carries the documentation's former address,
+`genesismesh.connectorzzz.com`: a project-level routing rule in Vercel (not in
+this repository), "Old docs domain to docs.genesismesh.org", answers every
+request for that host with a `308` to the same path and query on
+docs.genesismesh.org. Its DNS is a CNAME to `cname.vercel-dns.com` at
+Namecheap.

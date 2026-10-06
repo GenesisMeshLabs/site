@@ -1,6 +1,6 @@
 import type { Metadata } from 'next';
 import { NextIntlClientProvider } from 'next-intl';
-import { getMessages, getTranslations, unstable_setRequestLocale } from 'next-intl/server';
+import { getMessages, getTranslations, setRequestLocale } from 'next-intl/server';
 import { locales, defaultLocale, rtlLocales, type Locale } from '../../i18n';
 import { SITE_URL, localeUrl, OG_LOCALES } from '../../seo';
 import '../../globals.css';
@@ -13,10 +13,11 @@ export function generateStaticParams() {
 }
 
 export async function generateMetadata({
-  params: { locale },
+  params,
 }: {
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }): Promise<Metadata> {
+  const { locale } = await params;
   const t = await getTranslations({ locale, namespace: 'seo' });
 
   // hreflang map: every locale plus x-default pointing at the unprefixed root.
@@ -89,12 +90,13 @@ export async function generateMetadata({
 
 export default async function LocaleLayout({
   children,
-  params: { locale },
+  params,
 }: {
   children: React.ReactNode;
-  params: { locale: string };
+  params: Promise<{ locale: string }>;
 }) {
-  unstable_setRequestLocale(locale);
+  const { locale } = await params;
+  setRequestLocale(locale);
 
   const messages = await getMessages();
   const t = await getTranslations({ locale, namespace: 'seo' });
@@ -144,7 +146,8 @@ export default async function LocaleLayout({
         <meta name="theme-color" content="#0c0c0d" />
         <script
           type="application/ld+json"
-          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd) }}
+          // `<` escaped so no string can end the script element early.
+          dangerouslySetInnerHTML={{ __html: JSON.stringify(jsonLd).replace(/</g, '\\u003c') }}
         />
       </head>
       <body>

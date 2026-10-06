@@ -190,6 +190,25 @@ if ((foreignVisitor.headers.get('set-cookie') || '').includes('NEXT_LOCALE')) {
   failures.push('/ set a locale cookie');
 }
 
+// No open redirect. next-intl 3 sent `/en/%09/example%2Ecom` to
+// https://example.com/: the tab is dropped and `//example.com` names a host.
+const origin = new URL(baseUrl).origin;
+for (const probe of [
+  '/en/%09/example%2Ecom',
+  '/en/%09/2130706433',
+  '/en//example.com',
+  '/en/%2F%2Fexample.com',
+  '/en/%5C%5Cexample.com',
+  '/en/%0D%0A/example.com',
+  '/fr/%09/example%2Ecom',
+]) {
+  const response = await fetch(`${baseUrl}${probe}`, { redirect: 'manual' });
+  const location = response.headers.get('location');
+  if (location && new URL(location, baseUrl).origin !== origin) {
+    failures.push(`${probe} redirects off the site, to ${location}`);
+  }
+}
+
 if (failures.length > 0) {
   console.error(`Localized site check failed with ${failures.length} error(s):`);
   failures.forEach((failure) => console.error(`- ${failure}`));

@@ -8,7 +8,7 @@
     "prebuild": "node scripts/check-i18n.mjs && node scripts/release-facts.mjs && node scripts/sign-build.mjs",
     "build": "next build",
     "start": "next start",
-    "lint": "next lint",
+    "typecheck": "tsc --noEmit",
     "check:i18n": "node scripts/check-i18n.mjs",
     "check:i18n:site": "node scripts/check-localized-site.mjs",
     "sign:build": "node scripts/sign-build.mjs",
@@ -16,15 +16,15 @@
     "release-facts": "node scripts/release-facts.mjs"
   },
   "dependencies": {
-    "next": "^14.2.0",
-    "next-intl": "^3.17.0",
-    "react": "^18.3.0",
-    "react-dom": "^18.3.0"
+    "next": "^16.3.8",
+    "next-intl": "^4.14.9",
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
   },
   "devDependencies": {
     "@types/node": "^20.0.0",
-    "@types/react": "^18.2.0",
-    "@types/react-dom": "^18.2.0",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
     "typescript": "^5.3.0"
   }
 }
