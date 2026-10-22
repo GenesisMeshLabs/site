@@ -8,6 +8,9 @@ import '../../globals.css';
 /** Unknown locales 404 instead of being rendered on demand. */
 export const dynamicParams = false;
 
+/** Bump `v` when the card changes, so platforms that cache by URL fetch it again. */
+const SOCIAL_CARD = '/assets/social-card.png?v=2';
+
 export function generateStaticParams() {
   return locales.map((locale) => ({ locale }));
 }
@@ -60,7 +63,7 @@ export async function generateMetadata({
       alternateLocale: locales.filter((c) => c !== locale).map((c) => OG_LOCALES[c]),
       images: [
         {
-          url: '/assets/social-card.png',
+          url: SOCIAL_CARD,
           width: 1200,
           height: 630,
           alt: 'Genesis Mesh, the Treaty Layer for Machines',
@@ -71,7 +74,7 @@ export async function generateMetadata({
       card: 'summary_large_image',
       title: t('title'),
       description: t('description'),
-      images: ['/assets/social-card.png'],
+      images: [SOCIAL_CARD],
     },
     robots: {
       index: true,
