@@ -1,0 +1,395 @@
+{
+  "nav": {
+    "brand": "GENESIS■MESH",
+    "links": {
+      "proof": "An example",
+      "stakes": "Your control",
+      "powers": "Cooperation",
+      "mechanics": "How it works",
+      "live": "Live demo status",
+      "protocol": "Technical foundation",
+      "strategy": "Strategy",
+      "hardware": "Research",
+      "docs": "Documentation",
+      "concepts": "Key ideas",
+      "liveMesh": "Live mesh",
+      "github": "GitHub"
+    }
+  },
+  "ui": {
+    "menu": "Menu",
+    "searchLanguages": "Search languages or Business reader",
+    "noLanguageMatch": "No matching language or reading option",
+    "selectLanguage": "Select language or reading option"
+  },
+  "hero": {
+    "kicker": "Business reader / Plain English",
+    "title": "Work across organisations.",
+    "titleAccent": "Keep control of access.",
+    "intro": "When an AI agent acts for a supplier, partner or public institution, your organisation needs to check its identity and permissions. Genesis Mesh helps separate systems answer three questions:",
+    "questions": [
+      "Who are you?",
+      "What are you allowed to do?",
+      "Who can revoke that authority?"
+    ],
+    "statement": "Genesis Mesh helps organisations check digital proof and manage access across boundaries.",
+    "body": "Each organisation decides whose proof to accept, what actions to allow and when to withdraw permission. A sovereign is simply a separately controlled organisation or system. Its root of trust is the digital foundation it controls to issue and check proof.",
+    "notLine": "Each organisation keeps its own authority. No single authority controls everyone. No particular cloud is required.",
+    "closing": "Cooperate with partners. Keep your own rules.",
+    "audiences": {
+      "builders": {
+        "label": "For your technology team →",
+        "rfcs": "Technical specifications",
+        "sdks": "Developer tools",
+        "run": "Set up an authority"
+      },
+      "states": {
+        "label": "For decision-makers →",
+        "architecture": "How the system fits together",
+        "channel": "Discuss your use case"
+      }
+    },
+    "scroll": "Scroll ↓",
+    "vlabel": "Digital trust, explained",
+    "tryIt": {
+      "primary": "Explore the live demo",
+      "docs": "Setup guide",
+      "local": "For your technology team: start a local test",
+      "copy": "Copy",
+      "copied": "Copied"
+    }
+  },
+  "trustCycle": {
+    "label": "A practical example",
+    "title": "A supplier’s agent loses access when its proof is withdrawn.",
+    "subtitle": "Illustrative scenario: a supplier’s AI agent asks to check a delivery status in your system. Your organisation recognises the supplier’s signed proof, but sets its own access rules. The technical demonstration below tests this accept-then-reject pattern; it is not a customer deployment.",
+    "sameRequest": "Same agent. Same request. Permission is no longer valid.",
+    "before": "While the proof is valid",
+    "after": "After the withdrawal update is received",
+    "accepted": "ACCESS ALLOWED",
+    "rejected": "ACCESS DENIED",
+    "steps": [
+      {
+        "title": "The supplier identifies its agent",
+        "description": "The supplier issues signed digital proof for the agent. This is called an attestation."
+      },
+      {
+        "title": "Your organisation recognises the supplier",
+        "description": "Your system records which proof it will accept from the supplier and for what purpose. Genesis Mesh calls this a recognition treaty."
+      },
+      {
+        "title": "Your system allows the request",
+        "description": "The proof is valid and the request meets your access rules. Recognising the supplier does not give its agent unlimited access."
+      },
+      {
+        "title": "The supplier withdraws the proof",
+        "description": "The supplier marks this agent’s proof as no longer valid. This is called revocation."
+      },
+      {
+        "title": "Your system receives the update",
+        "description": "Your system checks the supplier’s signed withdrawal notice and updates its records. This step must happen before the withdrawal can affect this decision."
+      },
+      {
+        "title": "The same request is denied",
+        "description": "The agent tries again. Your system rejects the request and records why, so the decision can be reviewed."
+      }
+    ],
+    "evidence": {
+      "recorded": {
+        "label": "Recorded test",
+        "title": "See what happened in a real test",
+        "description": "The recorded test connects separately controlled systems hosted on Azure and DigitalOcean. It shows acceptance followed by rejection after a withdrawal update."
+      },
+      "reproducible": {
+        "label": "Repeatable test",
+        "title": "Your team can check the result",
+        "description": "A public script creates two temporary authorities and repeats the full sequence. Your team does not have to rely on a screenshot or a claim."
+      },
+      "live": {
+        "label": "Current demo status",
+        "title": "Check what is running now",
+        "description": "The status panel checks the public demonstration separately. Its current figures are not the results of the recorded test."
+      }
+    },
+    "terminalSummary": "See the recorded technical evidence",
+    "runLabel": "For your technology team: repeat the test",
+    "actions": {
+      "recorded": "View the recorded test",
+      "run": "Repeat the test",
+      "protocol": "Read the technical recognition rules"
+    },
+    "runBrowser": "Or try it in your browser, no install:"
+  },
+  "liveNetwork": {
+    "label": "Live demo status",
+    "title": "What is running right now?",
+    "subtitle": "The project maintainers operate this public demonstration. The tests can be repeated independently. These figures do not represent customer adoption.",
+    "status": {
+      "checking": "Checking the demo",
+      "live": "Live data available",
+      "stale": "Service running; withdrawal data is out of date",
+      "degraded": "Service reports problems",
+      "unavailable": "Data unavailable"
+    },
+    "health": {
+      "healthy": "Healthy",
+      "degraded": "Problems reported"
+    },
+    "metrics": {
+      "health": "Service health",
+      "sovereigns": "Separate trust domains",
+      "edges": "Recognition links",
+      "treaties": "Active recognition agreements",
+      "revocations": "Withdrawn digital proofs"
+    },
+    "checked": "Checked",
+    "lastUpdate": "Last network update",
+    "freshness": "How recent is the withdrawal data?",
+    "freshnessValues": {
+      "current": "Current",
+      "stale": "Out of date"
+    },
+    "unknown": "Unknown",
+    "notReported": "Not reported",
+    "browserFallback": {
+      "title": "Live data is temporarily unavailable.",
+      "description": "You can still view the recorded test or repeat it using the links below."
+    },
+    "proofAvailability": "You can still view the recorded test or ask your team to repeat it using the links below.",
+    "disclaimer": "These figures show service activity. They are not a full security assessment or proof of independent customer adoption.",
+    "unavailableMessage": "Current data could not be checked. Older figures are not shown as if they were live.",
+    "dashboard": "Open the demo dashboard"
+  },
+  "stakes": {
+    "label": "Your control",
+    "title": "Work together without handing over control.",
+    "subtitle": "Your organisation can recognise a partner’s digital proof while keeping its own access rules, infrastructure and authority.",
+    "notLine": "Genesis Mesh handles the checks: who issued the proof, what it permits, whether it has been withdrawn and what evidence supports the decision.",
+    "boundary": "People still decide policy, approve relationships and resolve disputes. The software does not create a legal agreement or settle a disagreement for you."
+  },
+  "powers": {
+    "label": "Where it could help",
+    "title": "Different partnerships. Different access rules.",
+    "subtitle": "These are illustrative uses of Genesis Mesh. Recognising a partner’s digital proof does not mean accepting all of its policies or endorsing its activities.",
+    "close": {
+      "code": "01",
+      "tag": "Ongoing partnership",
+      "title": "Work regularly with a supplier.",
+      "desc": "For example, a supplier’s agent could check delivery information under agreed access rules. Both organisations keep control of their own identities and permissions.",
+      "examples": [
+        "Agree what each agent may do",
+        "Withdraw your own permissions when needed"
+      ]
+    },
+    "scoped": {
+      "code": "02",
+      "tag": "One task",
+      "title": "Allow a specific job for a limited time.",
+      "desc": "For example, a partner’s service could be recognised for one purpose during a project window. Your system still checks whether each request is allowed.",
+      "examples": [
+        "Define the purpose and expiry",
+        "Keep your own approval rules"
+      ]
+    },
+    "different": {
+      "code": "03",
+      "tag": "Separate policies",
+      "title": "Cooperate without agreeing on everything.",
+      "desc": "Two institutions could recognise specific digital proofs while keeping different internal policies. Recognition applies to the defined relationship.",
+      "examples": [
+        "Record exactly what is recognised",
+        "Either party can withdraw its own trust"
+      ]
+    }
+  },
+  "mechanics": {
+    "label": "How it works",
+    "title": "Four checks your business can understand.",
+    "subtitle": "Genesis Mesh provides the technical checks. Your organisation decides the rules: which partners to recognise, what access to allow and when to stop it.",
+    "ops": [
+      {
+        "num": "01",
+        "name": "Verify identity",
+        "desc": "Check who issued the digital proof and whether it is authentic. Digital signatures, including Ed25519, let systems detect altered or forged proof."
+      },
+      {
+        "num": "02",
+        "name": "Limit access",
+        "desc": "Define which actions are allowed and for how long. Recognising an agent does not give it permission to do everything."
+      },
+      {
+        "num": "03",
+        "name": "Withdraw permission",
+        "desc": "Publish a signed notice when proof is no longer valid. Other systems check and apply the update; withdrawal is not automatically instant everywhere."
+      },
+      {
+        "num": "04",
+        "name": "Review the evidence",
+        "desc": "Keep records of decisions that reveal later tampering. Your team can examine why a request was accepted or rejected."
+      }
+    ],
+    "evidence": [
+      {
+        "title": "Each organisation keeps its own trust foundation.",
+        "action": "See the test"
+      },
+      {
+        "title": "A withdrawal can be applied by another organisation.",
+        "action": "Repeat the test"
+      },
+      {
+        "title": "Selected protocol properties are modelled in Tamarin, a security analysis tool.",
+        "action": "Read the scope of the formal evidence"
+      },
+      {
+        "title": "How does this compare with other identity tools?",
+        "action": "Read the technical comparison"
+      }
+    ]
+  },
+  "protocol": {
+    "label": "Technical foundation",
+    "title": "Open specifications your team can inspect.",
+    "subtitle": "The main software and the TypeScript, Go, .NET and Rust developer libraries are coordinated at v{version}. The core test suite contains {tests} tests. Tamarin security models examine selected protocol properties; these are not a guarantee that every deployment is secure.",
+    "stack": {
+      "title": "Three parts of the system",
+      "l1": {
+        "code": "L1",
+        "name": "Core checks",
+        "desc": "Check signed identities using Ed25519, enrol participants, withdraw proof, route messages and record evidence."
+      },
+      "l2": {
+        "code": "L2",
+        "name": "Your organisation’s domain",
+        "desc": "Your separately controlled environment. You decide who joins, which rules apply and what to revoke."
+      },
+      "l3": {
+        "code": "L3",
+        "name": "Relationships with other domains",
+        "desc": "Signed recognition agreements connect separately controlled systems and let them share withdrawal updates."
+      }
+    },
+    "rfcs": [
+      {
+        "id": "RFC-001",
+        "name": "Identity controlled by each organisation",
+        "status": "Accepted"
+      },
+      {
+        "id": "RFC-002",
+        "name": "Rules for recognising another organisation",
+        "status": "Accepted"
+      },
+      {
+        "id": "RFC-003",
+        "name": "Packages of digital proof",
+        "status": "Accepted"
+      },
+      {
+        "id": "RFC-004",
+        "name": "Updates about withdrawn proof",
+        "status": "Accepted"
+      },
+      {
+        "id": "RFC-005",
+        "name": "Definitions of allowed actions",
+        "status": "Draft"
+      },
+      {
+        "id": "RFC-006",
+        "name": "Map of recognition relationships",
+        "status": "Draft"
+      },
+      {
+        "id": "RFC-007",
+        "name": "Keeping authority running through changes",
+        "status": "Draft"
+      },
+      {
+        "id": "RFC-008",
+        "name": "Responsibilities of a managed operator",
+        "status": "Draft"
+      }
+    ],
+    "governance": {
+      "label": "How changes are decided",
+      "title": "Public proposals. Defined reviews.",
+      "description": "Changes to the technical rules are published for review. Maintainers review them, operators review changes to their obligations, and security reviews cover changes to trust decisions.",
+      "boundary": "The protocol is the set of rules; the reference implementation is software that follows them. Each operator keeps its own keys, policies, trust decisions and right to leave.",
+      "cta": "Read how protocol changes are governed"
+    },
+    "live": {
+      "title": "Public demo run by project maintainers",
+      "subtitle": "Separate signing keys / Separate rules / Repeatable tests",
+      "network": "Recognition relationships",
+      "sovereigns": "Trust domains",
+      "clouds": "Clouds",
+      "edges": "Recognition links",
+      "edgeStatus": "Signed and withdrawable",
+      "operators": "Independent operators",
+      "status": "Onboarding - Phase 2",
+      "online": "● RUNNING"
+    }
+  },
+  "silicon": {
+    "label": "Research",
+    "title": "Research into control of computing hardware",
+    "subtitle": "TSWI is a separate research project on how operators could control more of their computing hardware, including chip packaging, coordination and energy use.",
+    "conclusion": "You do not need this hardware research to use Genesis Mesh.",
+    "cta": "Ask about the TSWI research →"
+  },
+  "live": {
+    "label": "Live",
+    "title": "A running demonstration you can inspect.",
+    "subtitle": "The project maintainers run the public demo. Your team can repeat the protocol tests independently.",
+    "proof": {
+      "version": "Current release",
+      "cycles": "Completed access-and-withdrawal tests",
+      "tests": "Tests",
+      "lemmas": "Properties checked with Tamarin"
+    },
+    "across": "Live across",
+    "over": "Running over"
+  },
+  "closing": {
+    "title": "Explore Genesis Mesh.",
+    "titleAccent": "Test the access rules.",
+    "subtitle": "Choose a partner interaction. Define who needs access, what they may do and how that access should end. Then ask your team to test the flow.",
+    "operators": {
+      "who": "For the team running it",
+      "title": "Keep control of your environment.",
+      "desc": "Set up your organisation’s authority, manage its signing keys, choose which partners to recognise and publish withdrawals when needed.",
+      "cta": "Read the operations guide →"
+    },
+    "builders": {
+      "who": "For your developers",
+      "title": "Connect a test system.",
+      "desc": "Use the technical specifications and Python, TypeScript, Go, .NET or Rust tools to test on your own infrastructure. Check integration needs before planning a rollout.",
+      "cta": "Explore the developer libraries →",
+      "altText": "Browse the open-source projects →"
+    },
+    "strategic": {
+      "who": "For business and institutional leaders",
+      "title": "Evaluate a concrete use case.",
+      "desc": "Review the evidence with your security and technology teams. Discuss who sets the rules, who operates each authority and what happens when access is withdrawn.",
+      "altText": "Discuss your use case: authority@genesismesh.org →"
+    }
+  },
+  "footer": {
+    "copyright": "© 2026 Genesis Mesh Contributors",
+    "links": {
+      "docs": "Documentation",
+      "devHub": "Developer resources",
+      "github": "GitHub"
+    },
+    "signature": "Site builds carry a digital signature from the Genesis Mesh authority.",
+    "tagline": "KEEP CONTROL OF YOUR DIGITAL TRUST",
+    "verify": "Check the build signature",
+    "unsigned": "Build record (not digitally signed)"
+  },
+  "seo": {
+    "title": "Genesis Mesh - Business reader",
+    "description": "Understand how Genesis Mesh helps organisations verify digital identities, limit access and withdraw permissions. Plain English with a practical supplier example.",
+    "keywords": "sovereign trust|digital sovereignty|machine identity|Ed25519|recognition treaties|revocation|trust infrastructure|Genesis Mesh|treaty layer|autonomous systems"
+  }
+}

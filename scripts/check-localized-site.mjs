@@ -43,6 +43,21 @@ async function checkLocale({ code, dir }) {
   );
 
   if (response.status !== 200) failures.push(`${code}: page returned ${response.status}`);
+  if (code === 'en-x-business') {
+    for (const text of [messages.hero.title, messages.hero.statement,
+      messages.trustCycle.steps[4].description, messages.mechanics.ops[2].desc]) {
+      if (!html.includes(escapeHtml(text))) {
+        failures.push(`business reader: missing plain-English copy: ${text}`);
+      }
+    }
+    if (!html.includes('>BIZ</span>')) {
+      failures.push('business reader: compact selector label is missing');
+    }
+    if (html.includes('Infrastructure that encodes no politics')) {
+      failures.push('business reader: original mechanics copy leaked into the page');
+    }
+  }
+
   if (!html.includes(`<html lang="${code}" dir="${dir}">`)) {
     failures.push(`${code}: incorrect html lang or dir`);
   }
