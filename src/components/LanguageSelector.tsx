@@ -101,7 +101,7 @@ export default function LanguageSelector() {
         aria-label={t('selectLanguage')}
         onClick={() => setOpen((v) => !v)}
       >
-        <span className="lang-toggle-code">{locale.toUpperCase()}</span>
+        <span className="lang-toggle-code">{locale === 'en-x-business' ? 'BIZ' : locale.toUpperCase()}</span>
         <span className="lang-toggle-name">{current?.name ?? locale}</span>
       </button>
     </div>

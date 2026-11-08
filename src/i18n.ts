@@ -20,6 +20,8 @@ export type LocaleMeta = {
 
 export const LOCALES: LocaleMeta[] = [
   { code: 'en', name: 'English', english: 'English', og: 'en_US' },
+  // English reading variant; private-use BCP-47 keeps Intl formatting valid.
+  { code: 'en-x-business', name: 'Business reader', english: 'Plain English', og: 'en_US' },
   { code: 'af', name: 'Afrikaans', english: 'Afrikaans', og: 'af_ZA' },
   { code: 'am', name: 'አማርኛ', english: 'Amharic', og: 'am_ET' },
   { code: 'ar', name: 'العربية', english: 'Arabic', og: 'ar_SA', dir: 'rtl' },
